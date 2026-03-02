@@ -1,0 +1,332 @@
+{
+  "passages": [
+
+  ],
+  "questions": [
+    {
+      "questionId": "q1",
+      "passageId": "",
+      "questionHtml": "A store sells coffee: Brand A \\(\\$12/lb\\), Brand B \\(\\$8/lb\\). Before mixing, Brand A price increases by 16.67% to \\(\\$14\\). The owner wants 20 lbs selling at \\(\\$11/lb\\). How many lbs of Brand B?",
+      "options": {
+        "A": "8",
+        "B": "10",
+        "C": "12",
+        "D": "14"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>1. New Brand A price = \\(12 \\times \\frac{7}{6} = 14\\).</p>\n<p>2. Let \\(x = \\text{lbs}\\) of Brand B. Then Brand A = \\(20 - x\\).</p>\n<p>3. Equation: \\(8x + 14(20 - x) = 11 \\times 20 = 220\\).</p>\n<p>4. \\(8x + 280 - 14x = 220 \\rightarrow -6x = -60 \\rightarrow x = 10\\).</p>"
+    },
+    {
+      "questionId": "q2",
+      "passageId": "",
+      "questionHtml": "A rectangular garden has length: width = 5:3. On a blueprint with scale 1:100, the perimeter is 32 cm. What is the actual width in meters?",
+      "options": {
+        "A": "6 m",
+        "B": "8 m",
+        "C": "10 m",
+        "D": "12 m"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>1. Model: length \\(= 5x\\), width \\(= 3x\\). Perimeter \\(= 2(5x + 3x) = 16x = 32 \\rightarrow x = 2\\).</p>\n<p>2. Model width \\(= 3 \\times 2 = 6\\) cm.</p>\n<p>3. Scale 1:100 \\(\\rightarrow\\) actual width \\(= 6 \\times 100 = 600\\) cm \\(= 6\\) m.</p>"
+    },
+    {
+      "questionId": "q3",
+      "passageId": "",
+      "questionHtml": "Alan can paint a room in 6 hours, Bob in 4 hours. They start together. After 1 hour, Charlie joins, and they finish in 1 more hour. How long would Charlie take alone?",
+      "options": {
+        "A": "4 hours",
+        "B": "6 hours",
+        "C": "8 hours",
+        "D": "12 hours"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>1. First hour: Alan + Bob = \\(1/6 + 1/4 = 5/12\\) of room.</p>\n<p>2. Remaining = \\(7/12\\).</p>\n<p>3. Next hour: Alan + Bob + Charlie = \\(5/12 + 1/C = 7/12\\).</p>\n<p>4. \\(1/C = 2/12 = 1/6 \\rightarrow C = 6\\) hours.</p>"
+    },
+    {
+      "questionId": "q4",
+      "passageId": "",
+      "questionHtml": "The ratio of John's age to Mary's age is 3:5. In 10 years, the ratio will be 5:7. How old is Mary now?",
+      "options": {
+        "A": "15",
+        "B": "20",
+        "C": "25",
+        "D": "30"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>1. John = \\(3x\\), Mary = \\(5x\\).</p>\n<p>2. In 10 years: \\((3x + 10) / (5x + 10) = 5/7\\).</p>\n<p>3. \\(7(3x + 10) = 5(5x + 10) \\rightarrow 21x + 70 = 25x + 50\\).</p>\n<p>4. \\(20 = 4x \\rightarrow x = 5\\). Mary = \\(5 \\times 5 = 25\\).</p>"
+    },
+    {
+      "questionId": "q5",
+      "passageId": "",
+      "questionHtml": "Revenue ratio A:B = 4:3. A increases 20%, B decreases 10%. New total = $150,000. Original A?",
+      "options": {
+        "A": "$60,000",
+        "B": "$70,000",
+        "C": "$80,000",
+        "D": "$90,000"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>1. Original A = \\(4x\\), B = \\(3x\\).</p>\n<p>2. New A = \\(4.8x\\), New B = \\(2.7x\\).</p>\n<p>3. New total = \\(7.5x = 150,000 \\rightarrow x = 20,000\\).</p>\n<p>4. Original A = \\(4 \\times 20,000 = 80,000\\).</p>"
+    },
+    {
+      "questionId": "q6",
+      "passageId": "",
+      "questionHtml": "On a map, 1 cm represents 2.5 km. A lake on the map has an area of 6 cm². Actual area in km²?",
+      "options": {
+        "A": "15 km²",
+        "B": "37.5 km²",
+        "C": "75 km²",
+        "D": "150 km²"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>1. Scale: 1 cm = 2.5 km. Area scale factor = \\((2.5)^2 = 6.25\\).</p>\n<p>2. Actual area = \\(6 \\times 6.25 = 37.5\\) km².</p>"
+    },
+    {
+      "questionId": "q7",
+      "passageId": "",
+      "questionHtml": "A tank has 20 L of 20% acid. Remove 5 L, add 5 L pure acid. New % ?",
+      "options": {
+        "A": "30%",
+        "B": "35%",
+        "C": "40%",
+        "D": "45%"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>1. Initial acid = \\(0.20 \\times 20 = 4\\) L.</p>\n<p>2. Remove 5 L mixture: acid removed = \\(0.20 \\times 5 = 1\\) L. Remaining acid = \\(3\\) L, volume = \\(15\\) L.</p>\n<p>3. Add 5 L pure: new acid = \\(8\\) L, volume = \\(20\\) L.</p>\n<p>4. New % = \\(8 / 20\\) times 100% = 40%</p>"
+    },
+    {
+      "questionId": "q8",
+      "passageId": "",
+      "questionHtml": "Sphere volume varies as cube of radius. Radius 3 cm has volume 36π cm³. Volume of sphere with radius 6 cm?",
+      "options": {
+        "A": "72π",
+        "B": "144π",
+        "C": "216π",
+        "D": "288π"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>1. \\(V = k r^3\\). \\(36\\pi = k \\times 27 \\rightarrow k = (36\\pi)/27 = (4\\pi)/3\\).</p>\n<p>2. For \\(r = 6\\): \\(V = (4\\pi/3) \\times 216 = 288\\pi\\)</p>"
+    },
+    {
+      "questionId": "q9",
+      "passageId": "",
+      "questionHtml": "Triangle sides ratio 2:3:4. Shortest increased 25%, longest decreased 20%, middle unchanged. New perimeter = 52.2 cm. Original longest?",
+      "options": {
+        "A": "18 cm",
+        "B": "20 cm",
+        "C": "24 cm",
+        "D": "30 cm"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>1. Original: \\(2x, 3x, 4x\\).</p>\n<p>2. New: \\(2.5x, 3x, 3.2x\\).</p>\n<p>3. New perimeter = \\(8.7x = 52.2 \\rightarrow x = 6\\).</p>\n<p>4. Original longest = \\(4 \\times 6 = 24\\).</p>"
+    },
+    {
+      "questionId": "q10",
+      "passageId": "",
+      "questionHtml": "Boys:girls = 7:5. 10 boys leave, 10 girls join, new ratio 5:4. Original total?",
+      "options": {
+        "A": "240",
+        "B": "300",
+        "C": "360",
+        "D": "420"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>1. Original boys = \\(7x\\), girls = \\(5x\\). Total = \\(12x\\).</p>\n<p>2. New: \\(7x - 10, 5x + 10\\).</p>\n<p>3. \\((7x - 10) / (5x + 10) = 5 / 4\\).</p>\n<p>4. \\(28x - 40 = 25x + 50 \\rightarrow 3x = 90 \\rightarrow x = 30\\).</p>\n<p>5. Total = \\(12 \\times 30 = 360\\).</p>"
+    },
+    {
+      "questionId": "q11",
+      "passageId": "",
+      "questionHtml": "Pipe A fills tank in 6 hrs, B in 8 hrs, C drains in 12 hrs. All open, but C closed after 2 hrs. Total time to fill?",
+      "options": {
+        "A": "3.6 hours",
+        "B": "4 hours",
+        "C": "4.8 hours",
+        "D": "5.2 hours"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>1. Rates: A = \\(1/6\\), B = \\(1/8\\), C = \\(-1/12\\).</p>\n<p>2. First 2 hrs: rate = \\(1/6 + 1/8 - 1/12 = 5/24\\). Work = \\(2 \\times 5/24 = 10/24 = 5/12\\).</p>\n<p>3. Remaining = \\(7/12\\).</p>\n<p>4. After C closed: rate A+B = \\(1/6 + 1/8 = 7/24\\).</p>\n<p>5. Time to finish = \\((7/12) / (7/24) = 2\\) hours.</p>\n<p>6. Total = \\(2 + 2 = 4\\) hours.</p>"
+    },
+    {
+      "questionId": "q12",
+      "passageId": "",
+      "questionHtml": "\\(x\\) varies directly as \\(y^2\\) and inversely as \\(\\sqrt{z}\\). When \\(y = 4, z = 9, x = 32\\). Find \\(x\\) when \\(y = 6, z = 16\\).",
+      "options": {
+        "A": "27",
+        "B": "36",
+        "C": "48",
+        "D": "54"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>1. \\(x = k \\cdot \\frac{y^2}{\\sqrt{z}}\\).</p>\n<p>2. \\(32 = k \\cdot \\frac{16}{3} \\rightarrow k = 32 \\times 3 / 16 = 6\\).</p>\n<p>3. New: \\(x = 6 \\cdot \\frac{36}{4} = 6 \\times 9 = 54\\).</p>"
+    },
+    {
+      "questionId": "q13",
+      "passageId": "",
+      "questionHtml": "Model is 1/10 the height of original, same material. Model weighs 5 kg. Original weight?",
+      "options": {
+        "A": "50 kg",
+        "B": "500 kg",
+        "C": "5000 kg",
+        "D": "50,000 kg"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>1. Linear scale factor (model to original) = 1:10.</p>\n<p>2. Volume scale factor = \\(10^3 = 1000\\).</p>\n<p>3. Weight proportional to volume, so original = \\(5 \\times 1000 = 5000\\) kg.</p>"
+    },
+    {
+      "questionId": "q14",
+      "passageId": "",
+      "questionHtml": "Boys:girls = 4:3. 25% of boys and 20% of girls are left-handed. Total left-handed = 24. Total students?",
+      "options": {
+        "A": "70",
+        "B": "84",
+        "C": "98",
+        "D": "105"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>1. Boys = \\(4x\\), girls = \\(3x\\).</p>\n<p>2. Left-handed: \\(0.25 \\times 4x = x\\), \\(0.20 \\times 3x = 0.6x\\).</p>\n<p>3. Total left-handed = \\(1.6x = 24 \\rightarrow x = 15\\).</p>\n<p>4. Total students = \\(7 \\times 15 = 105\\).</p>"
+    },
+    {
+      "questionId": "q15",
+      "passageId": "",
+      "questionHtml": "Two similar cylinders have heights ratio 2:3. Smaller cylinder volume = 80π cm³. Volume of larger?",
+      "options": {
+        "A": "120π",
+        "B": "180π",
+        "C": "270π",
+        "D": "360π"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>1. Height ratio = 2:3. Volume ratio = (height ratio)\\(^3 = 8:27\\).</p>\n<p>2. Large volume = \\(80\\pi \\times (27/8) = 10\\pi \\times 27 = 270\\pi\\).</p>"
+    },
+    {
+      "questionId": "q16",
+      "passageId": "",
+      "questionHtml": "A 10-L solution is 20% acid, 30% base, 50% water. How many liters pure acid to make acid 40%?",
+      "options": {
+        "A": "2.5",
+        "B": "3.33",
+        "C": "5",
+        "D": "6.67"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>1. Initial acid = \\(0.20 \\times 10 = 2\\) L.</p>\n<p>2. Let \\(x =\\) liters pure acid added. New acid = \\(2 + x\\), new volume = \\(10 + x\\).</p>\n<p>3. \\((2 + x) / (10 + x) = 0.40\\).</p>\n<p>4. \\(2 + x = 4 + 0.4x \\rightarrow 0.6x = 2 \\rightarrow x = 2 / 0.6 = 3.33\\).</p>"
+    },
+    {
+      "questionId": "q17",
+      "passageId": "",
+      "questionHtml": "Ages of A and B ratio 3:4. In 12 years, ratio 5:6. How old is A now?",
+      "options": {
+        "A": "12",
+        "B": "18",
+        "C": "24",
+        "D": "30"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>1. A = \\(3x\\), B = \\(4x\\).</p>\n<p>2. \\((3x + 12) / (4x + 12) = 5 / 6\\).</p>\n<p>3. \\(6(3x + 12) = 5(4x + 12) \\rightarrow 18x + 72 = 20x + 60\\).</p>\n<p>4. \\(12 = 2x \\rightarrow x = 6\\). A = \\(3 \\times 6 = 18\\).</p>"
+    },
+    {
+      "questionId": "q18",
+      "passageId": "",
+      "questionHtml": "Alan does job in 8 hrs. Bob is 25% more efficient than Alan. Charlie is 20% less efficient than Bob. Time all together?",
+      "options": {
+        "A": "2.5 hours",
+        "B": "3 hours",
+        "C": "3.75 hours",
+        "D": "4 hours"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>1. Alan's rate = \\(1/8\\).</p>\n<p>2. Bob's rate = \\(1/8 \\times 1.25 = 5/32\\).</p>\n<p>3. Charlie's rate = \\(5/32 \\times 0.8 = 4/32 = 1/8\\).</p>\n<p>4. Combined rate = \\(1/8 + 5/32 + 1/8 = 4/32 + 5/32 + 4/32 = 13/32\\).</p>\n<p>5. Time = \\(1 / (13/32) = 32/13 \\approx 2.46\\) hrs \\(\\approx 2.5\\) hrs.</p>"
+    },
+    {
+      "questionId": "q19",
+      "passageId": "",
+      "questionHtml": "Map X: 1 cm = 4 km. Map Y: 2 cm = 5 km. Road is 6 cm on map X. Length on map Y?",
+      "options": {
+        "A": "3.75 cm",
+        "B": "4.8 cm",
+        "C": "6 cm",
+        "D": "9.6 cm"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>1. Map X: 1 cm = 4 km → 6 cm = 24 km actual.</p>\n<p>2. Map Y: 2 cm = 5 km → 1 cm = 2.5 km.</p>\n<p>3. Length on map Y = \\(24/2.5 = 9.6\\) cm.</p>"
+    },
+    {
+      "questionId": "q20",
+      "passageId": "",
+      "questionHtml": "Diamond cost varies as square of weight. Diamond breaks into pieces ratio 2:3. Original cost $1000. Total cost of pieces?",
+      "options": {
+        "A": "$260",
+        "B": "$520",
+        "C": "$600",
+        "D": "$800"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>1. Original weight = \\(5x\\). Cost = \\(k(5x)^2 = 25k x^2 = 1000 \\rightarrow k x^2 = 40\\).</p>\n<p>2. Pieces: weight \\(2x\\) and \\(3x\\).</p>\n<p>3. Cost piece 1 = \\(k(2x)^2 = 4k x^2 = 4 \\times 40 = 160\\).</p>\n<p>4. Cost piece 2 = \\(k(3x)^2 = 9k x^2 = 9 \\times 40 = 360\\).</p>\n<p>5. Total = \\(160 + 360 = 520\\).</p>"
+    },
+    {
+      "questionId": "q21",
+      "passageId": "",
+      "questionHtml": "A number increased 20%, decreased 20%, increased 25%. Net percent change?",
+      "options": {
+        "A": "10% increase",
+        "B": "15% increase",
+        "C": "20% increase",
+        "D": "25% increase"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>1. Start 100.</p>\n<p>2. +20% → 120.</p>\n<p>3. -20% → 96.</p>\n<p>4. +25% → \\(96 \\times 1.25 = 120\\).</p>\n<p>5. Net change = 20% increase.</p>"
+    },
+    {
+      "questionId": "q22",
+      "passageId": "",
+      "questionHtml": "\\(\\$30/kg\\) and \\(\\$70/kg\\) tea mixed to make 100kg, sold at \\(\\$57.5/kg\\) with \\(25\\)% profit. How many kg of \\(\\$30\\) tea?",
+      "options": {
+        "A": "40",
+        "B": "50",
+        "C": "60",
+        "D": "70"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>1. Selling price \\(\\$57.5\\) with 25% profit → cost = \\(57.5 / 1.25\\) = \\(\\$46\\) per kg.</p>\n<p>2. Let \\(x =\\) kg of \\(\\$30\\) tea, then \\(100 - x\\) kg of \\(\\$70\\) tea.</p>\n<p>3. \\(30x + 70(100 - x) = 46 \\times 100\\).</p>\n<p>4. \\(30x + 7000 - 70x = 4600 \\rightarrow -40x = -2400 \\rightarrow x = 60\\).</p>"
+    },
+    {
+      "questionId": "q23",
+      "passageId": "",
+      "questionHtml": "Three numbers ratio 2:3:5. Add 5 to each, new ratio 5:7:11. Smallest original?",
+      "options": {
+        "A": "10",
+        "B": "15",
+        "C": "20",
+        "D": "25"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>1. Original: \\(2x, 3x, 5x\\).</p>\n<p>2. New: \\(2x+5, 3x+5, 5x+5\\).</p>\n<p>3. \\((2x+5)/(3x+5) = 5/7\\).</p>\n<p>4. \\(7(2x+5) = 5(3x+5) \\rightarrow 14x+35 = 15x+25 \\rightarrow x=10\\).</p>\n<p>5. Smallest original = \\(2 \\times 10 = 20\\).</p>"
+    },
+    {
+      "questionId": "q24",
+      "passageId": "",
+      "questionHtml": "Alan builds wall in 10 hrs, Bob in 12 hrs. Alan starts alone. After 2 hrs, Bob joins. They work 3 hrs together, then Alan leaves. How many more hours for Bob alone?",
+      "options": {
+        "A": "1.2 hours",
+        "B": "1.8 hours",
+        "C": "2.4 hours",
+        "D": "3 hours"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>1. Alan's rate = \\(1/10\\), Bob's rate = \\(1/12\\).</p>\n<p>2. First 2 hrs: Alan alone = \\(2/10 = 1/5\\).</p>\n<p>3. Next 3 hrs: both = \\(3 \\times (1/10 + 1/12) = 3 \\times (6/60+5/60) = 3 \\times 11/60 = 33/60 = 11/20\\).</p>\n<p>4. Total done = \\(1/5 + 11/20 = 4/20 + 11/20 = 15/20 = 3/4\\).</p>\n<p>5. Remaining = \\(1/4\\).</p>\n<p>6. Bob alone time = \\((1/4)/(1/12) = 3\\) hours.</p>"
+    },
+    {
+      "questionId": "q25",
+      "passageId": "",
+      "questionHtml": "If \\(a / b = c / d\\) and \\(b^2 / c = d^3 / e\\) find \\(a / e\\) in terms of \\(b\\) and \\(d\\).",
+      "options": {
+        "A": "\\(b^2 / d^2\\)",
+        "B": "\\(d^2 / b^2\\)",
+        "C": "\\(b^3 / d^3\\)",
+        "D": "\\(d^3 / b^3\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>1. From \\(a / b = c / d \\rightarrow a = b c / d\\).</p>\n<p>2. From \\(b^2 / c = d^3 / e \\rightarrow e = c d^3 / b^2\\).</p>\n<p>3. Then \\(a / e = (b c / d) / (c d^3 / b^2) = (b c / d) \\times (b^2 / (c d^3)) = b^3 / d^3\\).</p>"
+    }
+  ]
+}

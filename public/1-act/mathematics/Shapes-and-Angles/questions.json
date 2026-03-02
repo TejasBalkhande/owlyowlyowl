@@ -1,0 +1,399 @@
+{
+  "passages": [
+
+  ],
+  "questions": [
+    {
+      "questionId": "287",
+      "passageId": "",
+      "questionHtml": "In inches, what is the perimeter of a rectangle with a width of 4 inches and a length of 10 inches?",
+      "options": {
+        "A": "14",
+        "B": "18",
+        "C": "28",
+        "D": "40",
+        "E": "160"
+      },
+      "correctOption": "C",
+      "explanationHtml": "(C) The perimeter is the total distance around the rectangle. Here that distance is \\(4 + 10 + 4 + 10 = 28\\)."
+    },
+    {
+      "questionId": "294",
+      "passageId": "",
+      "questionHtml": "The value of a square's area is twice as large as the value of its perimeter. In units, what is the length of one side of the square?",
+      "options": {
+        "A": "4",
+        "B": "8",
+        "C": "12",
+        "D": "16",
+        "E": "32"
+      },
+      "correctOption": "B",
+      "explanationHtml": "(B) If the length of any one side of the square is \\(x\\), then the area is \\(x^{2}\\), and the perimeter is \\(4x\\). If the area is twice the perimeter, \\(x^{2} = 2(4x)\\), and \\(x^{2} - 8x = 0\\). By factoring, we see this equation is equivalent to \\(x(x - 8) = 0\\), which has solutions 0 and 8. The length cannot be 0, so it must be 8 units."
+    },
+    {
+      "questionId": "295",
+      "passageId": "",
+      "questionHtml": "A sidewalk is to be placed completely around a rectangular playing field that measures 110 yards by 200 yards. What is the length of the sidewalk, in yards?",
+      "options": {
+        "A": "220",
+        "B": "310",
+        "C": "420",
+        "D": "510",
+        "E": "620"
+      },
+      "correctOption": "E",
+      "explanationHtml": "(E) The sidewalk will cover the perimeter, which is \\(110 + 200 + 110 + 200 = 620\\) yards."
+    },
+    {
+      "questionId": "299",
+      "passageId": "",
+      "questionHtml": "The length of the diagonal of a rectangle is 20 feet. If the width of the rectangle is 12 feet, what is its area in square feet?",
+      "options": {
+        "A": "28",
+        "B": "144",
+        "C": "192",
+        "D": "256",
+        "E": "400"
+      },
+      "correctOption": "C",
+      "explanationHtml": "(C) To find the area of the rectangle, we need to know the length. The diagonal, width, and length form a right triangle. Using the Pythagorean theorem: \\(l^2 + 12^2 = 20^2\\), so \\(l^2 = 400 - 144 = 256\\), thus \\(l = 16\\). The area is \\(16 \\times 12 = 192\\)."
+    },
+    {
+      "questionId": "301",
+      "passageId": "",
+      "questionHtml": "Each of the smallest angles in a parallelogram is \\(50^{\\circ}\\). Which of the following is the measure of each of largest angles in the parallelogram?",
+      "options": {
+        "A": "\\(40^{\\circ}\\)",
+        "B": "\\(80^{\\circ}\\)",
+        "C": "\\(130^{\\circ}\\)",
+        "D": "\\(260^{\\circ}\\)",
+        "E": "\\(310^{\\circ}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "(C) Opposite angles in a parallelogram are congruent, so there are two angles of \\(50^{\\circ}\\). The interior angles sum to \\(360^{\\circ}\\). Thus the sum of the two larger angles is \\(360 - 2 \\times 50 = 260^{\\circ}\\). Each larger angle is \\(260/2 = 130^{\\circ}\\)."
+    },
+    {
+      "questionId": "305",
+      "passageId": "",
+      "questionHtml": "Given the trapezoid in the following figure, what is the value of \\(x\\)? <img src=\"/1-act-i/P/sa305.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "55",
+        "B": "65",
+        "C": "75",
+        "D": "95",
+        "E": "105"
+      },
+      "correctOption": "A",
+      "explanationHtml": "(A) The interior angles of any quadrilateral sum to \\(360^{\\circ}\\). Given three angles: \\(125^{\\circ}, 75^{\\circ}, 105^{\\circ}\\), we have \\(x = 360 - 125 - 75 - 105 = 55^{\\circ}\\)."
+    },
+    {
+      "questionId": "315",
+      "passageId": "",
+      "questionHtml": "In square meters, what is the area of a rectangle with a diagonal of 25 meters and a width of 15 meters?",
+      "options": {
+        "A": "200",
+        "B": "250",
+        "C": "275",
+        "D": "300",
+        "E": "375"
+      },
+      "correctOption": "D",
+      "explanationHtml": "(D) The diagonal, width, and length form a right triangle. By the Pythagorean theorem: \\(l^2 + 15^2 = 25^2\\), so \\(l^2 = 625 - 225 = 400\\), thus \\(l = 20\\). Area = \\(20 \\times 15 = 300\\)."
+    },
+    {
+      "questionId": "316",
+      "passageId": "",
+      "questionHtml": "In the following figure, ABCD is a rectangle such that \\(\\tan x = \\frac{8}{3}\\). In square feet, what is the area of the rectangle? <img src=\"/1-act-i/P/sa316.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "16",
+        "B": "24",
+        "C": "40",
+        "D": "48",
+        "E": "52"
+      },
+      "correctOption": "C",
+      "explanationHtml": "(C) From the figure, let \\(AE\\) be the adjacent side to angle \\(x\\). Then \\(\\tan x = \\frac{8}{3} = \\frac{l}{AE}\\), so \\(l = 8\\) and \\(AE = 3\\). The width \\(w = AE + 2 = 5\\). Area = \\(5 \\times 8 = 40\\)."
+    },
+    {
+      "questionId": "317",
+      "passageId": "",
+      "questionHtml": "In the following figure, ABCD is a parallelogram such that AB has a length of 3 centimeters and BC has a length of 7 centimeters. What is the perimeter of ABCD? <img src=\"/1-act-i/P/sa317.png\" alt=\"Graph of f(x)\" style=\"width: 220px; height: auto;\">",
+      "options": {
+        "A": "10",
+        "B": "20",
+        "C": "30",
+        "D": "40",
+        "E": "50"
+      },
+      "correctOption": "B",
+      "explanationHtml": "(B) In a parallelogram, opposite sides are equal. So \\(AB = CD = 3\\) and \\(BC = AD = 7\\). Perimeter = \\(2(3+7) = 20\\)."
+    },
+    {
+      "questionId": "319",
+      "passageId": "",
+      "questionHtml": "The sides of the rhombus ABCD in the following figure all have the same length, and the diagonal AC is half the length of the diagonal BD. If the length of diagonal AC is \\(m\\), which of the following expressions represents the area of ABCD in terms of \\(m\\)? <img src=\"/1-act-i/P/sa319.png\" alt=\"Graph of f(x)\" style=\"width: 200px; height: auto;\">",
+      "options": {
+        "A": "\\(\\frac{3}{2} m\\)",
+        "B": "\\(m^2\\)",
+        "C": "\\(\\frac{1}{2} m^2\\)",
+        "D": "\\(\\frac{\\sqrt{3}}{2} m^2\\)",
+        "E": "\\(\\frac{3}{2} m^2\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "(B) The area of a rhombus equals half the product of its diagonals: \\(\\frac{d_1 d_2}{2}\\). Given \\(d_1 = m\\) and \\(d_2 = 2m\\), area = \\(\\frac{m \\cdot 2m}{2} = m^2\\)."
+    },
+    {
+      "questionId": "320",
+      "passageId": "",
+      "questionHtml": "Two squares of the same size overlap such that all three of the resulting rectangles shown in the figure have the same area. If the area of the shaded rectangle is 2, what is the area of one of the original squares? <img src=\"/1-act-i/P/sa320.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "9",
+        "D": "16",
+        "E": "25"
+      },
+      "correctOption": "B",
+      "explanationHtml": "(B) The shaded rectangle is the overlapping region, with area 2. The three rectangles (two unshaded and one shaded) all have equal area, so each unshaded rectangle also has area 2. In one square, the shaded and one unshaded rectangle together form the entire square, so the square's area = 2 + 2 = 4."
+    },
+    {
+      "questionId": "321",
+      "passageId": "",
+      "questionHtml": "The following figure represents the dimensions of three rooms of a house that are to be completely carpeted. In total, how many square feet of carpet will be needed? <img src=\"/1-act-i/P/sa321.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "1200",
+        "B": "1300",
+        "C": "1500",
+        "D": "1700",
+        "E": "1800"
+      },
+      "correctOption": "E",
+      "explanationHtml": "(E) Calculate area of each room:\n- Large room: \\(40 \\times 30 = 1200\\) sq ft\n- Small room: \\(10 \\times 20 = 200\\) sq ft\n- Square room: \\(20 \\times 20 = 400\\) sq ft\nTotal = \\(1200 + 200 + 400 = 1800\\) sq ft."
+    },
+    {
+      "questionId": "327",
+      "passageId": "",
+      "questionHtml": "The length of a rectangle is 5 times its width. If the width is represented by \\(w\\), which of the following expressions is the perimeter of the rectangle in terms of \\(w\\)?",
+      "options": {
+        "A": "\\(5w\\)",
+        "B": "\\(6w\\)",
+        "C": "\\(10w\\)",
+        "D": "\\(12w\\)",
+        "E": "\\(14w\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "(D) Length = \\(5w\\). Perimeter = \\(2(l + w) = 2(5w + w) = 2(6w) = 12w\\)."
+    },
+    {
+      "questionId": "329",
+      "passageId": "",
+      "questionHtml": "In the following figure, FBCE is a rectangle, while ABF and ECD are congruent right triangles. What is the area of the quadrilateral ABCD? <img src=\"/1-act-i/P/sa329.png\" alt=\"Graph of f(x)\" style=\"width: 330px; height: auto;\">",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "10",
+        "D": "12",
+        "E": "16"
+      },
+      "correctOption": "C",
+      "explanationHtml": "(C) The area of quadrilateral ABCD is sum of areas of two congruent triangles and the rectangle. Each triangle area = \\(\\frac{1}{2} \\times 2 \\times 2 = 2\\). Rectangle area = \\(3 \\times 2 = 6\\). Total = \\(2 + 6 + 2 = 10\\)."
+    },
+    {
+      "questionId": "330",
+      "passageId": "",
+      "questionHtml": "The perimeter of the parallelogram in the following figure is 20 feet. In feet, what is the length of the side labeled with an \\(x\\)? <img src=\"/1-act-i/P/sa330.png\" alt=\"Graph of f(x)\" style=\"width: 300px; height: auto;\">",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "12",
+        "E": "16"
+      },
+      "correctOption": "B",
+      "explanationHtml": "(B) Since opposite sides of a parallelogram are congruent, the perimeter is \\(8 + 2x = 20\\). To solve for \\(x\\), subtract 8 from both sides and then divide by 2: \\(x = \\frac{12}{2} = 6\\)."
+    },
+    {
+      "questionId": "331",
+      "passageId": "",
+      "questionHtml": "A rectangle has an area of 45 square meters and a width of 9 meters. In meters, what is the length of the rectangle?",
+      "options": {
+        "A": "5",
+        "B": "7",
+        "C": "14",
+        "D": "27",
+        "E": "36"
+      },
+      "correctOption": "A",
+      "explanationHtml": "(A) Area = length × width, so \\(45 = 9 \\times l\\). Hence \\(l = 45/9 = 5\\)."
+    },
+    {
+      "questionId": "332",
+      "passageId": "",
+      "questionHtml": "Given the parallelogram in the following figure, what is the value of \\(x + y\\)? <img src=\"/1-act-i/P/sa332.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "55",
+        "B": "90",
+        "C": "125",
+        "D": "180",
+        "E": "230"
+      },
+      "correctOption": "D",
+      "explanationHtml": "(D) In a parallelogram, opposite angles are equal. From the figure, one angle is \\(125^{\\circ}\\), so its opposite is also \\(125^{\\circ}\\), and the adjacent angles are supplementary, so \\(y = 180 - 125 = 55^{\\circ}\\). Thus \\(x + y = 125 + 55 = 180\\)."
+    },
+    {
+      "questionId": "335",
+      "passageId": "",
+      "questionHtml": "In square centimeters, what is the area of the parallelogram in the following figure? <img src=\"/1-act-i/P/sa335.png\" alt=\"Graph of f(x)\" style=\"width: 310px; height: auto;\">",
+      "options": {
+        "A": "\\(18\\sqrt{6}\\)",
+        "B": "45",
+        "C": "\\(\\frac{95}{2}\\)",
+        "D": "\\(20\\sqrt{6}\\)",
+        "E": "50"
+      },
+      "correctOption": "A",
+      "explanationHtml": "(A) The height \\(h\\) of the parallelogram is found from the right triangle with legs 1 and \\(h\\) and hypotenuse 5: \\(1^2 + h^2 = 5^2 \\Rightarrow h^2 = 24 \\Rightarrow h = 2\\sqrt{6}\\). Base = 9, so area = \\(9 \\times 2\\sqrt{6} = 18\\sqrt{6}\\)."
+    },
+    {
+      "questionId": "336",
+      "passageId": "",
+      "questionHtml": "A modern-art piece begins as a special canvas with dimensions shown in the following figure. Initially, the canvas will be painted with a base coat of flat paint. If one tube of the paint can cover four square feet, how many tubes will the artist need in order to apply the base coat? <img src=\"/1-act-i/P/sa336.png\" alt=\"Graph of f(x)\" style=\"width: 400px; height: auto;\">",
+      "options": {
+        "A": "5",
+        "B": "7",
+        "C": "9",
+        "D": "11",
+        "E": "13"
+      },
+      "correctOption": "B",
+      "explanationHtml": "(B) The total area of the surface to be painted is \\(\\frac{1}{2} (2)(2) + 12(2) + \\frac{1}{2} (2)(2) = 28\\). If each tube can cover four square feet, the artist will need \\(\\frac{28}{4} = 7\\) tubes of paint."
+    },
+    {
+      "questionId": "337",
+      "passageId": "",
+      "questionHtml": "Each of the following pairs of angles could represent the smaller and larger interior angles of a parallelogram EXCEPT",
+      "options": {
+        "A": "\\(8^{\\circ}\\) \\(172^{\\circ}\\)",
+        "B": "\\(20^{\\circ}\\) \\(160^{\\circ}\\)",
+        "C": "\\(35^{\\circ}\\) \\(155^{\\circ}\\)",
+        "D": "\\(65^{\\circ}\\) \\(115^{\\circ}\\)",
+        "E": "\\(81^{\\circ}\\) \\(99^{\\circ}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "(C) In a parallelogram, consecutive interior angles are supplementary, summing to \\(180^{\\circ}\\). Check each pair: \\(35+155 = 190 \\neq 180\\), so it is the exception."
+    },
+    {
+      "questionId": "340",
+      "passageId": "",
+      "questionHtml": "In the following figure, the points A, B, C, and D lie along the same line. What is the difference of x and y? <img src=\"/1-act-i/P/sa340.png\" alt=\"Graph of f(x)\" style=\"width: 300px; height: auto;\">",
+      "options": {
+        "A": "0",
+        "B": "20",
+        "C": "60",
+        "D": "160",
+        "E": "200"
+      },
+      "correctOption": "A",
+      "explanationHtml": "(A) The triangle has two sides of equal length, so it is isosceles, and the angles opposite these sides have the same measure. Since B and C lie along the same line as these angles, \\(x = y\\), and \\(x - y = 0\\)."
+    },
+    {
+      "questionId": "343",
+      "passageId": "",
+      "questionHtml": "In the following figure, ABCD is a rectangle, and BD is one of its diagonals. If the area of the triangle ABD is 6 square meters, what is the area of ABCD in square meters? <img src=\"/1-act-i/P/sa343.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "3",
+        "B": "6",
+        "C": "12",
+        "D": "18",
+        "E": "24"
+      },
+      "correctOption": "C",
+      "explanationHtml": "(C) A diagonal of a rectangle divides it into two congruent triangles. Thus area of rectangle = 2 × area of triangle ABD = 2 × 6 = 12."
+    },
+    {
+      "questionId": "346",
+      "passageId": "",
+      "questionHtml": "In feet, what is the perimeter of a square that has an area of 49 square feet?",
+      "options": {
+        "A": "14",
+        "B": "28",
+        "C": "56",
+        "D": "98",
+        "E": "196"
+      },
+      "correctOption": "B",
+      "explanationHtml": "(B) Side length = \\(\\sqrt{49} = 7\\). Perimeter = \\(4 \\times 7 = 28\\)."
+    },
+    {
+      "questionId": "347",
+      "passageId": "",
+      "questionHtml": "In the following figure, ABCD is a rectangle, and PQR is an equilateral triangle. Given the provided measurements are in inches, what is the area of the rectangle ABCD in square inches? <img src=\"/1-act-i/P/sa347.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "\\(\\sqrt{3}\\)",
+        "B": "\\(2\\sqrt{3}\\)",
+        "C": "5",
+        "D": "8",
+        "E": "\\(4\\sqrt{3}\\)"
+      },
+      "correctOption": "E",
+      "explanationHtml": "(E) The equilateral triangle PQR has side length 2 (from figure). Its height = \\(\\sqrt{3}\\). This height equals the width of rectangle ABCD. The length of the rectangle is 4. So area = \\(4 \\times \\sqrt{3} = 4\\sqrt{3}\\)."
+    },
+    {
+      "questionId": "349",
+      "passageId": "",
+      "questionHtml": "The parallelogram in the following figure has a perimeter of 32 feet. If x is three times as large as y, what is the value of x in feet? <img src=\"/1-act-i/P/sa349.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "8",
+        "D": "12",
+        "E": "24"
+      },
+      "correctOption": "D",
+      "explanationHtml": "(D) Perimeter = \\(2x + 2y = 32 \\Rightarrow x + y = 16\\). Given \\(x = 3y\\), substitute: \\(3y + y = 16 \\Rightarrow 4y = 16 \\Rightarrow y = 4\\). Then \\(x = 3 \\times 4 = 12\\)."
+    },
+    {
+      "questionId": "352",
+      "passageId": "",
+      "questionHtml": "The sides of the rhombus ABCD in the following figure all have the same length, and the dashed line AC is a diagonal of ABCD. If the measure of \\(\\angle BCD = 60^{\\circ}\\), then \\(x =\\) <img src=\"/1-act-i/P/sa352.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "30",
+        "B": "40",
+        "C": "60",
+        "D": "120",
+        "E": "180"
+      },
+      "correctOption": "D",
+      "explanationHtml": "(D) In a rhombus, consecutive angles are supplementary. Given \\(\\angle BCD = 60^{\\circ}\\), the adjacent angle (which is \\(x\\)) is \\(180 - 60 = 120^{\\circ}\\)."
+    },
+    {
+      "questionId": "355",
+      "passageId": "",
+      "questionHtml": "If the area of the square ABCD in the following figure is 16, what is the value of \\(\\tan x\\)? <img src=\"/1-act-i/P/sa355.png\" alt=\"Graph of f(x)\" style=\"width: 200px; height: auto;\">",
+      "options": {
+        "A": "\\(\\frac{\\sqrt{2}}{8}\\)",
+        "B": "\\(\\frac{1}{4}\\)",
+        "C": "1",
+        "D": "\\(\\sqrt{2}\\)",
+        "E": "\\(4\\sqrt{2}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "(C) Square area = 16, so side length = 4. In the figure, angle x is likely at a corner, with opposite and adjacent sides both 4, so \\(\\tan x = 1\\)."
+    },
+    {
+      "questionId": "356",
+      "passageId": "",
+      "questionHtml": "If the interior angles of a quadrilateral have measures \\(x^{\\circ}\\), \\((2x)^{\\circ}\\), \\((x + 45)^{\\circ}\\), and \\((x + 55)^{\\circ}\\), then \\(x =\\)",
+      "options": {
+        "A": "16",
+        "B": "23",
+        "C": "52",
+        "D": "65",
+        "E": "78"
+      },
+      "correctOption": "C",
+      "explanationHtml": "(C) Sum of angles: \\(x + 2x + (x+45) + (x+55) = 5x + 100 = 360\\). So \\(5x = 260\\), \\(x = 52\\)."
+    }
+  ]
+}

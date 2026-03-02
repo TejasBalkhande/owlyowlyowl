@@ -1,0 +1,231 @@
+{
+  "passages": [
+
+  ],
+  "questions": [
+    {
+      "questionId": "289",
+      "passageId": "",
+      "questionHtml": "In the following figure, the area of square \\(ABCD\\) is 16 square units. What is the circumference of the circle centered at point \\(B\\) ?\n<img src=\"/1-act-i/P/circle/c289.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "\\(2\\pi\\)",
+        "B": "\\(4\\pi\\)",
+        "C": "\\(8\\pi\\)",
+        "D": "\\(16\\pi\\)",
+        "E": "\\(32\\pi\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The sides of a square all have the same length, so if the area is 16, the length of any side, including the side \\(AB\\), is 4. The line segment \\(AB\\) is also the radius of the circle, which is required to find the circumference. Using the formula, the circumference is \\(2\\pi r = 8\\pi\\)."
+    },
+    {
+      "questionId": "291",
+      "passageId": "",
+      "questionHtml": "The area of a circle is \\(8\\pi\\) square units. What is the radius of the circle?",
+      "options": {
+        "A": "\\(2\\sqrt{2}\\)",
+        "B": "4",
+        "C": "\\(4\\sqrt{2}\\)",
+        "D": "8",
+        "E": "12"
+      },
+      "correctOption": "A",
+      "explanationHtml": "The area of any circle is \\(\\pi r^2\\), where \\(r\\) is the radius. The radius of this circle is therefore \\(\\sqrt{8} = 2\\sqrt{2}\\)."
+    },
+    {
+      "questionId": "297",
+      "passageId": "",
+      "questionHtml": "In the \\((x,y)\\) coordinate plane, which of the following is an equation of the circle with a center at the point \\((0, -5)\\) and a radius of 2?",
+      "options": {
+        "A": "\\(x^{2} + (y + 5)^{2} = 4\\)",
+        "B": "\\((x + 5)^{2} + y^{2} = 16\\)",
+        "C": "\\((x + 5)^{2} + (y + 5)^{2} = 4\\)",
+        "D": "\\((x - 5)^{2} + (y - 5)^{2} = 4\\)",
+        "E": "\\(x^{2} + (y - 5)^{2} = 16\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "The standard form of the equation of a circle is \\((x - h)^{2} + (y - k)^{2} = r^{2}\\), where \\((h, k)\\) is the center and \\(r\\) is the radius. Using the given values, the equation of this circle is \\((x - 0)^{2} + (y - (-5))^{2} = 2^{2}\\). The first term can be simplified to \\(x^{2}\\), and the second term to \\((y + 5)^{2}\\)."
+    },
+    {
+      "questionId": "303",
+      "passageId": "",
+      "questionHtml": "The circles in the following figure are centered at point \\(O\\) . In square centimeters, what is the area of the shaded region?\n<img src=\"/1-act-i/P/circle/c303.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "15π",
+        "B": "21π",
+        "C": "32π",
+        "D": "35π",
+        "E": "60π"
+      },
+      "correctOption": "E",
+      "explanationHtml": "The largest circle has a radius of 8 and therefore an area of \\(64\\pi\\), while the inner circle has a radius of 2 and therefore an area of \\(4\\pi\\). The area of the shaded region is the difference between these two areas: \\(64\\pi - 4\\pi = 60\\pi\\)."
+    },
+    {
+      "questionId": "304",
+      "passageId": "",
+      "questionHtml": "Which of the following expressions represents the circumference of a circle with a radius of \\(x^{2}\\) ?",
+      "options": {
+        "A": "\\(2x\\)",
+        "B": "\\(\\pi x\\)",
+        "C": "\\(2x\\pi\\)",
+        "D": "\\(4x\\pi\\)",
+        "E": "\\(4x\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The circumference of any circle is \\(2\\pi r\\), where \\(r\\) is the radius. Substituting the given radius \\(x^{2}\\) would give \\(2\\pi x^{2}\\), but the options are given in terms of \\(x\\). The intended interpretation is that the radius is \\(x\\), so the circumference is \\(2\\pi x\\)."
+    },
+    {
+      "questionId": "307",
+      "passageId": "",
+      "questionHtml": "In square units, what is the area of a circle with a circumference of \\(6\\pi\\) ?",
+      "options": {
+        "A": "3π",
+        "B": "6π",
+        "C": "9π",
+        "D": "12π",
+        "E": "36π"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The circumference is \\(6\\pi\\), so for a radius \\(r\\), \\(2\\pi r = 6\\pi\\), and \\(r = 3\\). The area is then \\(\\pi (3^2) = 9\\pi\\)."
+    },
+    {
+      "questionId": "312",
+      "passageId": "",
+      "questionHtml": "In the \\((x,y)\\) coordinate plane, the points \\(A\\) (6, 0) and \\(B\\) (6, 10) are on the circumference of a circle such that the line \\(AB\\) is a diameter of the circle. Which of the following is an equation representing the described circle?",
+      "options": {
+        "A": "\\((x - 6)^2 +(y - 5)^2 = 25\\)",
+        "B": "\\((x - 6)^2 +(y - 5)^2 = 100\\)",
+        "C": "\\((x - 6)^2 +(y - 10)^2 = 25\\)",
+        "D": "\\((x - 6)^2 +(y - 10)^2 = 100\\)",
+        "E": "\\((x - 5)^2 +(y - 10)^2 = 100\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "The formula of a circle in the \\((x, y)\\) coordinate plane is \\((x - h)^2 + (y - k)^2 = r^2\\), where \\((h, k)\\) is the center and \\(r\\) is the radius. The line \\(AB\\) is a diameter with a length of 10 (which can be found by looking at the \\(y\\)-coordinates of \\(A\\) and \\(B\\)), so the radius must be 5. Further, the center will occur at the halfway point along the line, which is (6, 5)."
+    },
+    {
+      "questionId": "313",
+      "passageId": "",
+      "questionHtml": "In the following figure, the square ABCD is inscribed in the circle centered at point \\(O\\) . What is the area of the circle?\n<img src=\"/1-act-i/P/circle/c313.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "\\(\\frac{\\pi}{4}\\)",
+        "B": "\\(\\frac{3\\pi}{4}\\)",
+        "C": "\\(\\frac{3\\pi}{2}\\)",
+        "D": "\\(\\frac{9\\pi}{4}\\)",
+        "E": "\\(\\frac{9\\pi}{2}\\)"
+      },
+      "correctOption": "E",
+      "explanationHtml": "The diagonal \\(AC\\) is also the diameter of the circle, which we can use to find the radius and thus the area. In a square, the diagonal and two sides form a 45-45-90 triangle with sides \\(x, x\\), and \\(x\\sqrt{2}\\). Therefore, the diameter of the circle is \\(3\\sqrt{2}\\), and the radius is \\(\\frac{3\\sqrt{2}}{2}\\). Using the area formula for a circle, \\(A = \\pi \\left(\\frac{3\\sqrt{2}}{2}\\right)^2 = \\pi \\left(\\frac{9 \\cdot 2}{4}\\right) = \\pi \\left(\\frac{9}{2}\\right) = \\frac{9\\pi}{2}\\)."
+    },
+    {
+      "questionId": "324",
+      "passageId": "",
+      "questionHtml": "In the following figure, the circles centered at points \\(B\\) and \\(D\\) are tangent at the point \\(C\\) , and each circle has an area of \\(49\\pi\\) . What is the length of the line segment \\(AE\\) ?\n<img src=\"/1-act-i/P/circle/c324.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "14",
+        "B": "28",
+        "C": "42",
+        "D": "48",
+        "E": "56"
+      },
+      "correctOption": "B",
+      "explanationHtml": "Using the circle centered at \\(B\\), the radius is \\(\\sqrt{49} = 7\\). This is also the length of \\(AB\\) and \\(BC\\). Since the circle centered at \\(D\\) has the same area, \\(CD = DE = 7\\), and the length of \\(AE\\) is \\(4(7) = 28\\)."
+    },
+    {
+      "questionId": "328",
+      "passageId": "",
+      "questionHtml": "In the following figure, the circle is centered at the point \\(O\\) , and the points \\(A\\) and \\(B\\) lie on its circumference. In degrees, what is the measure of angle \\(AOB\\) ?\n<img src=\"/1-act-i/P/circle/c328.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "95",
+        "B": "165",
+        "C": "175",
+        "D": "180",
+        "E": "190"
+      },
+      "correctOption": "C",
+      "explanationHtml": "In the triangle with two 60-degree angles, the missing angle is \\(180 - 120 = 60\\) degrees. In the triangle with two angles of 85 degrees, the missing angle is \\(180 - 170 = 10\\) degrees. Since the central angle of any circle has a measure of 360 degrees, the angle AOB is \\(360 - 60 - 10 - 115 = 175\\) degrees."
+    },
+    {
+      "questionId": "334",
+      "passageId": "",
+      "questionHtml": "In the following figure, the area of the circle centered at the point \\(O\\) is \\(\\frac{29\\pi}{4}\\) square feet. Given that \\(AB\\) has a length of 2 feet, what is the area of triangle \\(ABC\\) in square feet?\n<img src=\"/1-act-i/P/circle/c334.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "1",
+        "B": "\\(\\frac{\\sqrt{13}}{2}\\)",
+        "C": "5",
+        "D": "10",
+        "E": "\\(4\\sqrt{29}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "Using the formula for the area of a circle, \\(\\frac{29\\pi}{4} = \\pi r^2\\), so \\(r = \\sqrt{\\frac{29}{4}} = \\frac{\\sqrt{29}}{2}\\). The hypotenuse of the triangle \\(ABC\\) is also the diameter of the circle, which is \\(2r = \\sqrt{29}\\). Therefore, by the Pythagorean theorem, \\(\\left(\\sqrt{29}\\right)^2 = 2^2 + (BC)^2\\), and \\(BC = 5\\). Finally, the area of the triangle is \\(\\frac{1}{2} (2)(5) = 5\\)."
+    },
+    {
+      "questionId": "344",
+      "passageId": "",
+      "questionHtml": "A circle in the \\((x,y)\\) coordinate plane is determined by the equation \\((x - 8)^{2} + (y - 10)^{2} = 4\\) . Which of the following points lies on the circumference of this circle?",
+      "options": {
+        "A": "(2,10)",
+        "B": "(6,10)",
+        "C": "(8,6)",
+        "D": "(8,14)",
+        "E": "(12,10)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "Using the standard form of the equation of a circle, \\((x - h)^2 + (y - k)^2 = r^2\\), you can determine that the radius of the circle is 2, and the center is at the point (8, 10). Any point exactly two units from (8, 10) will lie on the circumference of the circle. You can then use the distance formula between two points to determine the answer is B."
+    },
+    {
+      "questionId": "351",
+      "passageId": "",
+      "questionHtml": "If the circumference of a circle is larger than \\(x\\) , then the circle's radius must be larger than",
+      "options": {
+        "A": "\\(2\\pi\\)",
+        "B": "\\(2\\pi x\\)",
+        "C": "\\(x - 2\\pi\\)",
+        "D": "\\(\\frac{x}{2\\pi}\\)",
+        "E": "\\(\\frac{1}{2\\pi}\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "Let \\(r\\) represent the radius of a circle. Using the formula for circumference, the given inequality is \\(2\\pi r > x\\). Solving for \\(r, r > \\frac{x}{2\\pi}\\)."
+    },
+    {
+      "questionId": "353",
+      "passageId": "",
+      "questionHtml": "A circle is divided into 8 equal sections, as shown in the following figure. What is the value of \\(x\\) ?\n<img src=\"/1-act-i/P/circle/c353.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "25",
+        "B": "36",
+        "C": "45",
+        "D": "50",
+        "E": "55"
+      },
+      "correctOption": "C",
+      "explanationHtml": "As a circle has 360 degrees total, to find \\(x\\) you must divide this amount by 8: \\(x = \\frac{360}{8} = 45\\)."
+    },
+    {
+      "questionId": "354",
+      "passageId": "",
+      "questionHtml": "Which of the following values represents the circumference of a circle whose radius is \\(\\frac{1}{\\pi}\\) ?",
+      "options": {
+        "A": "\\(\\frac{1}{2}\\)",
+        "B": "1",
+        "C": "2",
+        "D": "\\(\\pi\\)",
+        "E": "\\(2\\pi\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "Circumference \\(= 2\\pi r = 2\\pi \\left(\\frac{1}{\\pi}\\right) = 2\\)."
+    },
+    {
+      "questionId": "358",
+      "passageId": "",
+      "questionHtml": "The half circle pictured is centered at the point \\(A\\) and has a radius of 2 meters. In meters, what is the length of the arc \\(PQ\\) ?\n<img src=\"/1-act-i/P/circle/c358.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "\\(\\pi\\)",
+        "B": "\\(2\\pi\\)",
+        "C": "\\(4\\pi\\)",
+        "D": "\\(8\\pi\\)",
+        "E": "\\(16\\pi\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "Using the formula for circumference and dividing by 2 because this is a half circle, arc \\(PQ = \\frac{1}{2} (2\\pi (2)) = 2\\pi\\)."
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "passages": [
+ 
+  ],
+  "questions": [
+    {
+      "questionId": "q144",
+      "passageId": "",
+      "questionHtml": "A game's card set is made up of 6 blue cards and 9 red cards. If a player randomly selects one of these cards, what is the probability the selected card will be blue?",
+      "options": {
+        "A": "\\(\\frac{1}{15}\\)",
+        "B": "\\(\\frac{1}{6}\\)",
+        "C": "\\(\\frac{2}{5}\\)",
+        "D": "\\(\\frac{3}{5}\\)",
+        "E": "\\(\\frac{2}{3}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "There are a total of 15 cards, and 6 are blue. Therefore, the probability will be \\(\\frac{6}{15} = \\frac{2}{5}\\)."
+    },
+    {
+      "questionId": "q147",
+      "passageId": "",
+      "questionHtml": " A retailer's website allows customers to customize the shoes they order. Customers may select one of three different colors, one of two types of laces, and one of eight special logos. With these choices, how many different shoe designs are possible?",
+      "options": {
+        "A": "14",
+        "B": "16",
+        "C": "36",
+        "D": "48",
+        "E": "52"
+      },
+      "correctOption": "D",
+      "explanationHtml": "By the multiplication rule, the number of different combinations will be \\(3 \\times 2 \\times 8 = 48\\)."
+    },
+    {
+      "questionId": "q149",
+      "passageId": "",
+      "questionHtml": "There are twice as many red pens as there are blue pens in a desk. If a pen is randomly selected, what is the probability it is blue?",
+      "options": {
+        "A": "\\(\\frac{1}{4}\\)",
+        "B": "\\(\\frac{1}{3}\\)",
+        "C": "\\(\\frac{2}{3}\\)",
+        "D": "\\(\\frac{1}{2}\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "Let \\(B\\) represent the number of blue pens. Then the total number of pens is \\(B + 2B = 3B\\), and the probability of selecting a blue pen is \\(\\frac{B}{3B} = \\frac{1}{3}\\)."
+    },
+    {
+      "questionId": "q150",
+      "passageId": "",
+      "questionHtml": "The probability of randomly selecting a green marble from a bag is \\(\\frac{4}{5}\\). If there are 110 marbles in the bag, how many are NOT green?",
+      "options": {
+        "A": "20",
+        "B": "22",
+        "C": "36",
+        "D": "80",
+        "E": "88"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The bag must contain \\(\\frac{4}{5} (110) = 88\\) green marbles and \\(110 - 88 = 22\\) marbles that are not green."
+    },
+    {
+      "questionId": "q151",
+      "passageId": "",
+      "questionHtml": "Which of the following statements is true of \\(P(A)\\), that is, the probability of \\(A\\), for any event \\(A\\)?<br>I. If \\(A\\) is very likely to occur, \\(P(A) > 1\\)<br>II. \\(P(A) = 1 - P(A \\text{ not occurring})\\)<br>III. \\(P(A) \\geq 0\\)",
+      "options": {
+        "A": "I only",
+        "B": "II only",
+        "C": "III only",
+        "D": "I and II only",
+        "E": "II and III only"
+      },
+      "correctOption": "E",
+      "explanationHtml": "The probability of any event is always between zero and one inclusive. Additionally, the probability of event A occurring is always equal to one minus the probability of the event not occurring (also called the complementary event).<br>Therefore, statements II and III are true, while I is false."
+    },
+    {
+      "questionId": "q154",
+      "passageId": "",
+      "questionHtml": " How many different arrangements of the letters \\(A, D, G,\\) and \\(F\\) are possible?",
+      "options": {
+        "A": "10",
+        "B": "16",
+        "C": "24",
+        "D": "256",
+        "E": "325"
+      },
+      "correctOption": "C",
+      "explanationHtml": "By the multiplication rule, there are \\(4 \\times 3 \\times 2 \\times 1 = 24\\) ways to arrange the letters."
+    },
+    {
+      "questionId": "q156",
+      "passageId": "",
+      "questionHtml": "A fair coin is flipped five times, and each flip results in tails. What is the probability the coin will land on tails on the sixth flip?",
+      "options": {
+        "A": "\\(\\frac{1}{64}\\)",
+        "B": "\\(\\frac{1}{10}\\)",
+        "C": "\\(\\frac{1}{7}\\)",
+        "D": "\\(\\frac{1}{6}\\)",
+        "E": "\\(\\frac{1}{2}\\)"
+      },
+      "correctOption": "E",
+      "explanationHtml": "Coin flips are independent of each other. Although the flips so far have resulted in tails, the probability that a fair coin will land on tails in an individual flip is always \\(\\frac{1}{2}\\)."
+    },
+    {
+      "questionId": "q158",
+      "passageId": "",
+      "questionHtml": "A number is randomly selected from all integers between 1 and 25 inclusive. What is the probability the selected number is prime?",
+      "options": {
+        "A": "\\(\\frac{1}{10}\\)",
+        "B": "\\(\\frac{1}{9}\\)",
+        "C": "\\(\\frac{9}{25}\\)",
+        "D": "\\(\\frac{2}{5}\\)",
+        "E": "\\(\\frac{12}{25}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "Out of the total of 25 numbers between 1 and 25, there are 9 prime numbers (2, 3, 5, 7, 11, 13, 17, 19, and 23).<br>Thus, the probability is \\(\\frac{9}{25}\\)."
+    },
+    {
+      "questionId": "q161",
+      "passageId": "",
+      "questionHtml": "Two contest winners are chosen by having their names drawn out of a hat one at a time. Once a name is drawn, it is not replaced, and each person is allowed only one entry. In total, seven people entered the contest. If Sara's name was not chosen on the first draw, what is the probability it will be chosen on the second?",
+      "options": {
+        "A": "\\(\\frac{1}{7}\\)",
+        "B": "\\(\\frac{1}{6}\\)",
+        "C": "\\(\\frac{2}{7}\\)",
+        "D": "\\(\\frac{2}{5}\\)",
+        "E": "\\(\\frac{5}{6}\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "After the first entry is drawn, only 6 are left. One of these entries is Sara's, giving a probability of \\(\\frac{1}{6}\\) it will be selected."
+    },
+    {
+      "questionId": "q163",
+      "passageId": "",
+      "questionHtml": "In a game, a complete set of cards consists of one situational card, one power card, and one level card. If Blake holds five situational cards, four power cards, and ten level cards, how many different complete sets of cards does he have?",
+      "options": {
+        "A": "9",
+        "B": "19",
+        "C": "30",
+        "D": "131",
+        "E": "200"
+      },
+      "correctOption": "E",
+      "explanationHtml": "By the multiplication rule, he has \\(5 \\times 4 \\times 10 = 200\\) complete sets."
+    },
+    {
+      "questionId": "q169",
+      "passageId": "",
+      "questionHtml": " Hanna and Jake are hoping to get selected as the host of this year's talent show. The committee chooses a host by random selection, and this year only 29 students entered their name into the drawing. What is the probability either Hanna or Jake is selected as the host this year?",
+      "options": {
+        "A": "\\(\\frac{1}{841}\\)",
+        "B": "\\(\\frac{2}{841}\\)",
+        "C": "\\(\\frac{1}{58}\\)",
+        "D": "\\(\\frac{1}{29}\\)",
+        "E": "\\(\\frac{2}{29}\\)"
+      },
+      "correctOption": "E",
+      "explanationHtml": "Since it is not possible to choose both Hanna and Jake, the probability of one or the other being chosen is the sum of the probabilities of each of them being chosen individually: \\(\\frac{1}{29} + \\frac{1}{29} = \\frac{2}{29}\\)."
+    },
+    {
+      "questionId": "q171",
+      "passageId": "",
+      "questionHtml": " A set of numbers contains \\(m\\) numbers, one of which is even. If a number is randomly selected from the set, what is the probability it is NOT even?",
+      "options": {
+        "A": "\\(\\frac{1}{m}\\)",
+        "B": "\\(\\frac{1}{m - 1}\\)",
+        "C": "\\(\\frac{1}{m + 1}\\)",
+        "D": "\\(\\frac{m - 1}{m}\\)",
+        "E": "\\(\\frac{m}{m + 1}\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "The probability of an event not occurring is one minus the probability it will occur.<br>Here, \\(P(\\text{not even}) = 1 - P(\\text{even}) = 1 - \\frac{1}{m} = \\frac{m}{m} - \\frac{1}{m} = \\frac{m - 1}{m}\\)."
+    },
+    {
+      "questionId": "q172",
+      "passageId": "",
+      "questionHtml": " A governing committee of three is chosen out of 30 people. The committee consists of a president, a treasurer, and a vice president. Only one person may be selected for any given position. Which of the following expressions represents the number of possible combinations of people who could serve in the three positions on the governing committee?",
+      "options": {
+        "A": "\\(3\\cdot 30\\)",
+        "B": "\\(30^{3}\\)",
+        "C": "\\(30^{3}\\cdot 29^{2}\\cdot 28\\)",
+        "D": "\\(30\\cdot 29\\cdot 28\\)",
+        "E": "\\(30 + 29 + 28\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "By the multiplication rule and the fact that a person cannot hold two positions, the total is \\(30 \\times 29 \\times 28\\)."
+    },
+    {
+      "questionId": "q173",
+      "passageId": "",
+      "questionHtml": " Three telephones in a shipment of eight are known to be defective. A randomly selected telephone is removed from the shipment and tested. It is found not to be defective. If a second telephone is randomly selected from those remaining, what is the probability of it NOT being defective?",
+      "options": {
+        "A": "\\(\\frac{1}{4}\\)",
+        "B": "\\(\\frac{4}{7}\\)",
+        "C": "\\(\\frac{1}{3}\\)",
+        "D": "\\(\\frac{3}{8}\\)",
+        "E": "\\(\\frac{3}{7}\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "In the initial shipment of eight phones, five are not defective. After one good phone is removed, there are seven total phones, four of which are not defective.<br>Thus, the probability is \\(\\frac{4}{7}\\)."
+    },
+    {
+      "questionId": "q174",
+      "passageId": "",
+      "questionHtml": " An urn contains five white marbles and six green marbles. Which of the following would INCREASE the probability of randomly selecting a white marble from this urn?<br>I. Increasing the number of white marbles only<br>II. Increasing the number of green marbles only<br>III. Decreasing the number of white marbles and green marbles by the same amount",
+      "options": {
+        "A": "I only",
+        "B": "II only",
+        "C": "III only",
+        "D": "I and II only",
+        "E": "I and III only"
+      },
+      "correctOption": "A",
+      "explanationHtml": "Increasing the number of green marbles would decrease the probability of selecting a white marble, and decreasing both by the same number would leave the probability unchanged.<br>Only increasing the number of white marbles increases the probability."
+    },
+    {
+      "questionId": "q179",
+      "passageId": "",
+      "questionHtml": " A coin is selected from a box containing two different types of coins. The probability of selecting the first type of coin is three times the probability of selecting the second type. If there are 240 coins of the first type, how many coins of the second type are in the box?",
+      "options": {
+        "A": "80",
+        "B": "110",
+        "C": "243",
+        "D": "720",
+        "E": "832"
+      },
+      "correctOption": "A",
+      "explanationHtml": "If the probability is three times as large, the number of the first type must be three times the number of the second type.<br>Therefore, the box must contain \\(\\frac{240}{3} = 80\\) coins of the second type."
+    },
+    {
+      "questionId": "q180",
+      "passageId": "",
+      "questionHtml": " How many distinct arrangements of four letters (without repeats) from the set {A, B, C, D, E} are possible?",
+      "options": {
+        "A": "15",
+        "B": "20",
+        "C": "25",
+        "D": "120",
+        "E": "625"
+      },
+      "correctOption": "D",
+      "explanationHtml": "By the multiplication rule, there are \\(5 \\times 4 \\times 3 \\times 2 = 120\\) ways to arrange four of these letters."
+    },
+    {
+      "questionId": "q182",
+      "passageId": "",
+      "questionHtml": "If \\(x = 7\\), what is the probability a randomly selected number from the set \\(\\{x - 5, 2x + 4, -x, x + 5, x + 3\\}\\) will be even?",
+      "options": {
+        "A": "0",
+        "B": "\\(\\frac{1}{5}\\)",
+        "C": "\\(\\frac{2}{5}\\)",
+        "D": "\\(\\frac{3}{5}\\)",
+        "E": "\\(\\frac{4}{5}\\)"
+      },
+      "correctOption": "E",
+      "explanationHtml": "Given that \\(x = 7\\), the set can be written as {2, 18, -7, 12, 10}, which contains four even numbers.<br>Since there are a total of five numbers in the set, the probability of selecting an even number is \\(\\frac{4}{5}\\)."
+    },
+    {
+      "questionId": "q184",
+      "passageId": "",
+      "questionHtml": " On an exam, students must select one short-answer question and one essay question to complete. If the exam has five short-answer and three essay questions, how many distinct combinations of questions can students select?",
+      "options": {
+        "A": "2",
+        "B": "7",
+        "C": "8",
+        "D": "15",
+        "E": "45"
+      },
+      "correctOption": "D",
+      "explanationHtml": "By the multiplication rule, there are \\(5 \\times 3 = 15\\) choices."
+    },
+    {
+      "questionId": "q188",
+      "passageId": "",
+      "questionHtml": " If the probability of event A occurring is 0.4 and the probability of event B occurring is 0.2, which of the following probabilities must be greater than 0.5? Assume that events A and B cannot occur at the same time.<br>I. The probability of event A not occurring<br>II. The probability of event B not occurring<br>III. The probability of either event A or event B occurring",
+      "options": {
+        "A": "I only",
+        "B": "II only",
+        "C": "III only",
+        "D": "I and II only",
+        "E": "I, II, and III"
+      },
+      "correctOption": "E",
+      "explanationHtml": "The probability of an event not occurring is 1 minus the probability of the event occurring.<br>Therefore, probability I is \\(0.6\\), and probability II is \\(0.8\\).<br>If both events cannot occur at the same time, the probability that one or the other will occur is the sum of their individual probabilities: \\(0.4 + 0.2 = 0.6\\).<br>All of these probabilities are greater than 0.5."
+    },
+    {
+      "questionId": "q189",
+      "passageId": "",
+      "questionHtml": "A box contains red and black cards. The probability of selecting a red card is half the probability of selecting a black card. What is the probability of selecting a black card?",
+      "options": {
+        "A": "\\(\\frac{1}{4}\\)",
+        "B": "\\(\\frac{1}{3}\\)",
+        "C": "\\(\\frac{1}{2}\\)",
+        "D": "\\(\\frac{2}{3}\\)",
+        "E": "\\(\\frac{3}{4}\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "Since only red and black cards are in the box, the probability of selecting a red card or a black card must have a sum of 1.<br>If \\(x\\) is the probability of selecting a black card, then \\(\\frac{1}{2} x\\) is the probability of selecting a red card, and \\(x + \\frac{1}{2} x = \\frac{3}{2} x = 1\\).<br>Therefore, \\(x = \\frac{2}{3}\\)."
+    },
+    {
+      "questionId": "q190",
+      "passageId": "",
+      "questionHtml": " Which of the following could NOT represent the probability of an event occurring?",
+      "options": {
+        "A": "\\(\\frac{1}{1056}\\)",
+        "B": "\\(\\frac{5}{18}\\)",
+        "C": "\\(\\frac{59}{61}\\)",
+        "D": "\\(\\frac{57}{41}\\)",
+        "E": "\\(\\frac{6}{257}\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "The probability of any event occurring must be less than or equal to 1.<br>\\(\\frac{57}{41} \\approx 1.39 > 1\\), so it cannot represent a probability."
+    },
+    {
+      "questionId": "q193",
+      "passageId": "",
+      "questionHtml": " How many three-digit numbers have an odd number as a tens digit?",
+      "options": {
+        "A": "25",
+        "B": "200",
+        "C": "450",
+        "D": "500",
+        "E": "620"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The tens digit must be odd, so there are 5 possibilities (1, 3, 5, 7, 9).<br>The hundreds digit can be any from 1 to 9 (9 possibilities), and the units digit can be any from 0 to 9 (10 possibilities).<br>Using the multiplication rule: \\(9 \\times 5 \\times 10 = 450\\)."
+    },
+    {
+      "questionId": "q194",
+      "passageId": "",
+      "questionHtml": " One of three cards must be selected to continue a game. The probability the first card will be selected is \\(\\frac{2}{5}\\), while the probability the second card will be selected is \\(\\frac{1}{8}\\). What is the probability the third card will be selected?",
+      "options": {
+        "A": "\\(\\frac{1}{13}\\)",
+        "B": "\\(\\frac{1}{5}\\)",
+        "C": "\\(\\frac{19}{40}\\)",
+        "D": "\\(\\frac{29}{40}\\)",
+        "E": "\\(\\frac{12}{13}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The total of all the probabilities must be 1, since the events represent all possible choices.<br>Thus, \\(1 - \\frac{2}{5} - \\frac{1}{8} = \\frac{40}{40} - \\frac{16}{40} - \\frac{5}{40} = \\frac{19}{40}\\)."
+    }
+  ]
+}

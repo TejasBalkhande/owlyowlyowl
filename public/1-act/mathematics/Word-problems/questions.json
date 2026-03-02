@@ -1,0 +1,377 @@
+{
+  "passages": [
+
+    {
+      "passageId": "p1",
+      "passageHtml": "<p>International Commerce Centre (ICC) is a 118-storey, 1,587 feet commercial building in Hong Kong. It is the world's 11th tallest building by height now. The total floor area is around 2.8 million square feet and the area of each office floor is roughly 35,000 square feet. In the figure below, an observer found the angle of elevation at \\(V\\) to the top of the ICC to be \\(35^{\\circ}\\).</p> <img src=\"/1-act-i/P/wordP/p1.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">"
+    },
+    {
+      "passageId": "p2",
+      "passageHtml": "<p>The figure below shows the top view of the Chan boutique shop and yard. The rectangular shop is \\(3\\mathrm{m}\\) wide and \\(6\\mathrm{m}\\) long. There is a square garden in one corner of the yard of side \\(2\\mathrm{m}\\). Chan plants 36 flowers in the garden: 6 roses, 12 lilies and 18 orchids. </p><img src=\"/1-act-i/P/wordP/p2.png\" alt=\"Graph of f(x)\" style=\"width: 360px; height: auto;\">"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q1",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>There are 36 members in Mathematics Club. They are going to choose a student representative, who will be selected at random, but he/she CANNOT be one of the 7 committees of the club. What is the probability that Mary, who is a member, but NOT a committee, of the club will be chosen?</p>",
+      "options": {
+        "A": "0",
+        "B": "\\(\\frac{1}{36}\\)",
+        "C": "\\(\\frac{7}{36}\\)",
+        "D": "\\(\\frac{1}{36}\\)",
+        "E": "\\(\\frac{1}{7}\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Number of members who are not committees = \\(36 - 7 = 29\\).</p><p>Mary is one of these 29, so probability = \\(\\frac{1}{29}\\).</p><p>Note: Option D in the test is printed as \\(\\frac{1}{36}\\) but the correct probability is \\(\\frac{1}{29}\\).</p>"
+    },
+    {
+      "questionId": "q4",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Newspapers A, B and C are published in a city. A group of people was surveyed about which newspapers each had read last month. They could choose newspaper A, B, or C, or they could select \"none of these newspapers\". It is known that only 12 people selected \"none of these newspapers\", and 8 people responded that they had read all of them. The numbers of responses in each category are shown in the figure below. <img src=\"/1-act-i/P/wordP/4.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\"> There is only one region with exactly 13 responses. What did this region refer to?</p>",
+      "options": {
+        "F": "Newspaper B only",
+        "G": "Newspaper C only",
+        "H": "Newspapers B and C only",
+        "J": "Newspapers A and C only",
+        "K": "All 3 types of newspaper"
+      },
+      "correctOption": "H",
+      "explanationHtml": "<p>From the Venn diagram, the region with exactly 13 responses is the overlap of newspapers B and C only.</p>"
+    },
+    {
+      "questionId": "q7",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>On a map, the distance between two points is \\(2\\mathrm{cm}\\). If the actual distance between them is \\(10\\mathrm{m}\\), find the scale of the map.</p>",
+      "options": {
+        "A": "\\(5,000:1\\)",
+        "B": "\\(500:1\\)",
+        "C": "\\(1:50,000\\)",
+        "D": "\\(1:5,000\\)",
+        "E": "\\(1:500\\)"
+      },
+      "correctOption": "E",
+      "explanationHtml": "<p>Scale = map distance / actual distance = \\(\\frac{2\\mathrm{cm}}{10\\mathrm{m}} = \\frac{2\\mathrm{cm}}{1000\\mathrm{cm}} = \\frac{1}{500}\\).</p><p>So the scale is \\(1:500\\).</p>"
+    },
+    {
+      "questionId": "q8",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The taxi fee is $\\$1.50$ for the first 1 mile and $\\$0.20$ for each additional 0.25 mile. How much for a 3.75 miles ride?</p>",
+      "options": {
+        "F": "$3.5",
+        "G": "$3.7",
+        "H": "$3.9",
+        "J": "$4.1",
+        "K": "$4.3"
+      },
+      "correctOption": "G",
+      "explanationHtml": "<p>The ride is 3.75 miles. First mile costs $1.50.</p><p>Remaining distance = \\(3.75 - 1 = 2.75\\) miles.</p><p>Number of additional 0.25-mile increments = \\(2.75 / 0.25 = 11\\).</p><p>Cost for these = \\(11 \\times 0.2 = \\$2.20\\).</p><p>Total = \\(1.50 + 2.20 = \\$3.70\\).</p>"
+    },
+    {
+      "questionId": "q9",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>It is known that the assessed value is \\(\\frac{4}{5}\\) of the property value and the yearly tax is computed as $\\$2.50$ per $\\$100$ of assessed value. If the yearly tax of a property is $\\$1,200$, what is the property value?</p>",
+      "options": {
+        "A": "$55,000",
+        "B": "$60,000",
+        "C": "$65,000",
+        "D": "$70,000",
+        "E": "$75,000"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Let property value = \\(x\\).</p><p>Assessed value = \\(\\frac{4}{5}x\\).</p><p>Tax = \\(\\frac{2.5}{100} \\times \\frac{4}{5}x = 1,200\\).</p><p>So \\(\\frac{2.5}{100} \\cdot \\frac{4}{5}x = 1200 \\Rightarrow \\frac{10}{500}x = 1200 \\Rightarrow \\frac{x}{50} = 1200 \\Rightarrow x = 60,000\\).</p>"
+    },
+    {
+      "questionId": "q10",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Kay will choose 1 novel at random from 80 novels on a bookshelf for her book report. There are four types of novels in the bookshelf and the number of each kind is given in the table below. <img src=\"/1-act-i/P/wordP/10.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\"> What is the probability that the novel Kay chooses will be a romance or a mystery?</p>",
+      "options": {
+        "F": "\\(\\frac{2}{5}\\)",
+        "G": "\\(\\frac{19}{40}\\)",
+        "H": "\\(\\frac{7}{31}\\)",
+        "J": "\\(\\frac{7}{80}\\)",
+        "K": "\\(\\frac{31}{80}\\)"
+      },
+      "correctOption": "G",
+      "explanationHtml": "<p>Number of romance = 31, mystery = 7.</p><p>Total favorable = \\(31 + 7 = 38\\).</p><p>Probability = \\(\\frac{38}{80} = \\frac{19}{40}\\).</p>"
+    },
+    {
+      "questionId": "q11",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The prices of a can of soft drink and a bag of potato chips in a store are $\\$1.20$ and $\\$3.50$ respectively. If Tommy has $\\$18$ and he must buy one bag of potato chips, find the maximum number of cans of soft drink he can buy from the store.</p>",
+      "options": {
+        "A": "10",
+        "B": "11",
+        "C": "12",
+        "D": "13",
+        "E": "14"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Let \\(n\\) be the number of cans.</p><p>Total cost: \\(1.2n + 3.5 \\le 18\\).</p><p>\\(1.2n \\le 14.5 \\Rightarrow n \\le 12.083\\).</p><p>Maximum integer \\(n = 12\\).</p>"
+    },
+    {
+      "questionId": "q20",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The manager of Shop NY department store wants to investigate the service quality provided by the staff. A survey about 4 issues was given to 80 customers and the results of the survey are shown in the table below. <img src=\"/1-act-i/P/wordP/20.png\" alt=\"Graph of f(x)\" style=\"width: 380px; height: auto;\"> Assume that the results in the above table can predict the response ratios for the other 22,400 customers accurately. How many of the 22,400 customers would respond \"Good\" on the shopping environment issue?</p>",
+      "options": {
+        "F": "5,880",
+        "G": "6,440",
+        "H": "15,960",
+        "J": "16,520",
+        "K": "21,000"
+      },
+      "correctOption": "J",
+      "explanationHtml": "<p>From the table, 59 out of 80 responded \"Good\" on shopping environment.</p><p>Ratio = \\(\\frac{59}{80}\\).</p><p>For 22,400 customers: \\(\\frac{59}{80} \\times 22,400 = 16,520\\).</p>"
+    },
+    {
+      "questionId": "q25",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Peter bought a chain of wooden fence of \\(72 \\mathrm{m}\\). He wanted to use all the fence to construct a fence for his rectangular garden. If the width of the garden is \\(15 \\mathrm{m}\\), what is its length, in m?</p>",
+      "options": {
+        "A": "21",
+        "B": "29",
+        "C": "36",
+        "D": "51",
+        "E": "57"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Perimeter = \\(2(\\text{length} + 15) = 72\\).</p><p>So length + 15 = 36, length = 21 m.</p>"
+    },
+    
+    {
+      "questionId": "q29",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>In Harare on a certain Sunday, the highest temperature was \\(95^{\\circ}F\\) and the lowest temperature was \\(68^{\\circ}F\\). What was the difference between the highest and the lowest temperatures, in degrees Celsius? (Note: The relationship between temperature \\(C\\) in degrees Celsius and \\(F\\) in degrees Fahrenheit is \\(C = \\frac{5}{9}(F - 32)\\).)</p>",
+      "options": {
+        "A": "5",
+        "B": "8",
+        "C": "10",
+        "D": "15",
+        "E": "27"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Highest in Celsius: \\(C_h = \\frac{5}{9}(95 - 32) = \\frac{5}{9} \\times 63 = 35\\).</p><p>Lowest in Celsius: \\(C_l = \\frac{5}{9}(68 - 32) = \\frac{5}{9} \\times 36 = 20\\).</p><p>Difference = \\(35 - 20 = 15\\).</p>"
+    },
+    {
+      "questionId": "q30",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>There are 13 Chinese songs and 9 English songs in a computer. Now 5 Chinese songs and 3 English songs are to be selected and added to a playlist. Which of the following expressions gives the number of different playlists that could be chosen from these 22 songs?</p>",
+      "options": {
+        "F": "\\((13C_5)(9C_3)\\)",
+        "G": "\\((13C_5)(9C_3)\\)",
+        "H": "\\(13C_5\\)",
+        "J": "\\((13C_5)(9C_3)\\)",
+        "K": "\\((13P_5)(9P_3)\\)"
+      },
+      "correctOption": "J",
+      "explanationHtml": "<p>Number of ways to choose 5 Chinese songs from 13: \\(\\binom{13}{5}\\).</p><p>Number of ways to choose 3 English songs from 9: \\(\\binom{9}{3}\\).</p><p>Total playlists = product: \\(\\binom{13}{5} \\times \\binom{9}{3}\\).</p><p>Note: Options F, G, J are identical in text; the correct choice is the one with combinations.</p>"
+    },
+    {
+      "questionId": "q33",
+      "passageId": "p1",
+      "passageHighlight": "",
+      "questionHtml": "<p>In terms of scientific notation, which of the following expressions is equivalent to the total floor area, in square feet, of the ICC?</p>",
+      "options": {
+        "A": "\\(2.8 \\times 10^{6}\\)",
+        "B": "\\(5.6 \\times 10^{6}\\)",
+        "C": "\\(28 \\times 10^{5}\\)",
+        "D": "\\(56 \\times 10^{5}\\)",
+        "E": "\\(80 \\times 10^{5}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Total floor area is 2.8 million square feet = \\(2,800,000 = 2.8 \\times 10^6\\).</p>"
+    },
+    {
+      "questionId": "q34",
+      "passageId": "p1",
+      "passageHighlight": "",
+      "questionHtml": "<p>Given each office floor is a square. Which of the following values is closest to the diagonal, in feet, of the office floor?</p>",
+      "options": {
+        "F": "40",
+        "G": "59",
+        "H": "187",
+        "J": "265",
+        "K": "324"
+      },
+      "correctOption": "J",
+      "explanationHtml": "<p>Area of each office floor = 35,000 sq ft. Side length \\(s = \\sqrt{35000}\\).</p><p>Diagonal = \\(s\\sqrt{2} = \\sqrt{35000 \\times 2} = \\sqrt{70000} \\approx 264.58\\).</p><p>Closest is 265.</p>"
+    },
+    {
+      "questionId": "q35",
+      "passageId": "p1",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following expressions is equivalent to the length, in feet, of \\(\\overline{UV}\\)?</p>",
+      "options": {
+        "A": "\\(1,587 \\tan 35^{\\circ}\\)",
+        "B": "\\(1,587 \\sin 35^{\\circ}\\)",
+        "C": "\\(1,587 \\cos 35^{\\circ}\\)",
+        "D": "\\(\\frac{1,587}{\\sin 35^{\\circ}}\\)",
+        "E": "\\(\\frac{1,587}{\\tan 35^{\\circ}}\\)"
+      },
+      "correctOption": "E",
+      "explanationHtml": "<p>In the right triangle, \\(\\tan 35^{\\circ} = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{1587}{UV}\\).</p><p>Thus \\(UV = \\frac{1587}{\\tan 35^{\\circ}}\\).</p>"
+    },
+    {
+      "questionId": "q36",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>\\(15,000 \\mathrm{cm}^3\\) of water is poured into a rectangular tank of length \\(60 \\mathrm{cm}\\) and width \\(25 \\mathrm{cm}\\). Find the depth of water in the tank, in centimeters.</p>",
+      "options": {
+        "F": "6",
+        "G": "8",
+        "H": "10",
+        "J": "12",
+        "K": "16"
+      },
+      "correctOption": "H",
+      "explanationHtml": "<p>Volume = length × width × depth.</p><p>\\(60 \\times 25 \\times d = 15000 \\Rightarrow 1500d = 15000 \\Rightarrow d = 10\\).</p>"
+    },
+    {
+      "questionId": "q38",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Amy is going to run a hamburger store. The rent is $\\$1,000$ and the estimated expenditure of each hamburger is $\\$2$. She plans to sell each hamburger for $\\$6$. Assume there are no other expenses. Which of the following expressions represents the profit, \\(P\\) dollars, she makes on \\(n\\) sold hamburgers?</p>",
+      "options": {
+        "F": "\\(P = 6n\\)",
+        "G": "\\(P = 4n - 1,000\\)",
+        "H": "\\(P = 4n - 999\\)",
+        "J": "\\(P = 5n + 1,000\\)",
+        "K": "\\(P = 5n + 999\\)"
+      },
+      "correctOption": "G",
+      "explanationHtml": "<p>Revenue = \\(6n\\). Cost = rent + cost per hamburger = \\(1000 + 2n\\).</p><p>Profit = Revenue - Cost = \\(6n - (1000 + 2n) = 4n - 1000\\).</p>"
+    },
+    {
+      "questionId": "q39",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The Tianjin Eye is a Ferris wheel built in Tianjin China. The radius of it is \\(55\\mathrm{m}\\) and it moves 30 minutes for a revolution. The height \\((h\\mathrm{m})\\) of a gondola above or below the centre of the wheel at \\(t\\) min can be modelled by \\(h = 55\\sin 12t^{\\circ}\\). What is the highest position, in meters, of a gondola above the centre of the wheel?</p>",
+      "options": {
+        "A": "7.5",
+        "B": "15",
+        "C": "25",
+        "D": "55",
+        "E": "110"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The sine function oscillates between -1 and 1. Maximum of \\(\\sin\\) is 1, so maximum \\(h = 55 \\times 1 = 55\\) m.</p>"
+    },
+    {
+      "questionId": "q40",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The following table shows the marks of Mr Lee's class of 27 students in a Mathematics test. Each of the 27 responses must lie in one of the intervals given in the table below. <img src=\"/1-act-i/P/wordP/40.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\"> What is the modal class?</p>",
+      "options": {
+        "F": "26-30",
+        "G": "31-35",
+        "H": "36-40",
+        "J": "41-45",
+        "K": "46-50"
+      },
+      "correctOption": "G",
+      "explanationHtml": "<p>The modal class is the interval with the highest frequency. From the table: 26-30: 6, 31-35: 7, 36-40: 6, 41-45: 3, 46-50: 5. The highest is 7, so modal class is 31-35.</p>"
+    },
+    {
+      "questionId": "q44",
+      "passageId": "p2",
+      "passageHighlight": "",
+      "questionHtml": "<p>The yard will be enclosed by a fence and the boutique shop. The fence will begin at one back corner of the shop and will end at the other. What is the minimum number of meters of fencing needed to enclose the yard?</p>",
+      "options": {
+        "F": "46",
+        "G": "50",
+        "H": "54",
+        "J": "60",
+        "K": "63"
+      },
+      "correctOption": "H",
+      "explanationHtml": "<p>From the diagram, the yard dimensions: length = 20 m, width = 10 m (assuming from figure). The fence goes along the two sides and the back, but the shop forms one side. The required fencing is the perimeter of the yard minus the side where the shop is? Actually from solution: they calculate 20 + 10 + 20 + 4 = 54 m. So answer 54.</p>"
+    },
+    {
+      "questionId": "q45",
+      "passageId": "p2",
+      "passageHighlight": "",
+      "questionHtml": "<p>Starting next year, Miss Chan plans to increase the number of flowers in the garden each year so that the numbers form an arithmetic sequence. In 4 years, there will be 63 flowers in the garden. What is the common difference of the arithmetic sequence?</p>",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8",
+        "E": "9"
+      },
+      "correctOption": "E",
+      "explanationHtml": "<p>First term \\(a_1 = 36\\). In 4 years means the 4th term \\(a_4 = 63\\).</p><p>Arithmetic sequence: \\(a_4 = a_1 + 3d \\Rightarrow 36 + 3d = 63 \\Rightarrow 3d = 27 \\Rightarrow d = 9\\).</p>"
+    },
+    {
+      "questionId": "q46",
+      "passageId": "p2",
+      "passageHighlight": "",
+      "questionHtml": "<p>The area of the garden is what percent of the area of the yard?</p>",
+      "options": {
+        "F": "\\(2\\%\\)",
+        "G": "\\(4\\%\\)",
+        "H": "\\(9\\%\\)",
+        "J": "\\(11\\%\\)",
+        "K": "\\(20\\%\\)"
+      },
+      "correctOption": "F",
+      "explanationHtml": "<p>Yard area = \\(20 \\times 10 = 200\\) m² (from figure). Garden area = \\(2 \\times 2 = 4\\) m².</p><p>Percentage = \\(\\frac{4}{200} \\times 100\\% = 2\\%\\).</p>"
+    },
+    
+    {
+      "questionId": "q50",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The fraction \\(\\frac{3}{13}\\) is equivalent to \\(0.230769\\). What is the digit in the 8,002nd decimal place of \\(0.230769\\)? (Note: The digit in the 5th decimal place of \\(0.230769\\) is 6.)</p>",
+      "options": {
+        "F": "0",
+        "G": "2",
+        "H": "3",
+        "J": "6",
+        "K": "7"
+      },
+      "correctOption": "K",
+      "explanationHtml": "<p>The repeating block is 230769 (6 digits). 8002 ÷ 6 gives remainder 4 (since 6×1333=7998, remainder 4). The 4th digit after decimal is 7 (2-3-0-7-6-9). So digit is 7.</p>"
+    },
+    {
+      "questionId": "q53",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A company assigns an identification number to each client. The identification number consists of 1 letter \"C\" followed by 4 digits. The digits can be selected from 0 to 9 inclusive without repetition. How many possible 5-digit identification numbers are there?</p>",
+      "options": {
+        "A": "24",
+        "B": "1,024",
+        "C": "5,040",
+        "D": "10,000",
+        "E": "1,048,576"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The first digit is fixed as 'C'. The next four digits are chosen from 0-9 without repetition: number of permutations = \\(10 \\times 9 \\times 8 \\times 7 = 5040\\).</p>"
+    },
+    {
+      "questionId": "q58",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>At IceMOS Technology, the password of a combination lock consists of two letters followed by 2 digits. The letter is selected from the letters A to Z inclusive, but they must be distinct. Each of the 2 digits is selected from the digits (0-9) inclusive and they can be the same. Which of the following expressions gives the probability that a randomly selected password contains the word \"US\".</p>",
+      "options": {
+        "F": "\\(\\frac{10^2}{10^2(25^2)}\\)",
+        "G": "\\(\\frac{10^2}{10^2(26^2)}\\)",
+        "H": "\\(\\frac{10^2}{10^2(26)(25)}\\)",
+        "J": "\\(\\frac{10^2}{10(9)(26)(25)}\\)",
+        "K": "\\(\\frac{10(9)}{10^2(26)(25)}\\)"
+      },
+      "correctOption": "H",
+      "explanationHtml": "<p>Total number of passwords: letters: 26 choices for first, 25 for second (distinct); digits: 10 each, so total = \\(26 \\times 25 \\times 10 \\times 10\\).</p><p>Passwords containing \"US\" as the two letters: the letters must be U then S in that order. So only 1 way for letters. Digits any: \\(10 \\times 10\\). So favorable = \\(1 \\times 10 \\times 10\\).</p><p>Probability = \\(\\frac{10^2}{26 \\times 25 \\times 10^2} = \\frac{10^2}{10^2(26)(25)}\\).</p>"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "passages": [
+    {
+      "passageId": "library_survey",
+      "passageHtml": "<p>The Williamstown Library recently changed its hours to open 1.5 hours early and close 2 hours early than it had previously. Citizens of Williamstown age 13 or older were given a survey, and 800 responses received. The survey asks each citizen his or her student status (junior school, high school, or nonstudent) and what he or she considered about the change in opening hours (accept, reject, or no opinion). The results are summarized in the table below:</p><img src=\"/1-act-i/P/rate/p1.png\" alt=\"Graph of f(x)\" style=\"width: 380px; height: auto;\">"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q2",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A bag contains 20 food coupons. 7 of them are worth $\\$10$, 5 of them are worth $\\$5$ and the rest are worth $\\$1$. A coupon is drawn at random from the bag. What is the probability that the coupon drawn will be worth $\\$1$?</p>",
+      "options": {
+        "A": "\\(\\frac{1}{4}\\)",
+        "B": "\\(\\frac{7}{20}\\)",
+        "C": "\\(\\frac{2}{7}\\)",
+        "D": "\\(\\frac{2}{5}\\)",
+        "E": "\\(\\frac{2}{5}\\)"
+      },
+      "correctOption": "E",
+      "explanationHtml": "<p>The number of coupons worth $1 is \\(20 - 7 - 5 = 8\\). The required probability is \\(\\frac{8}{20} = \\frac{2}{5}\\).</p>"
+    },
+    {
+      "questionId": "q8",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The table below shows the weight \\((x\\text{ kg})\\) of clothes for washing in a laundry and the corresponding fee \\((S/f)\\)</p><img src=\"/1-act-i/P/rate/q8.png\" alt=\"Graph of f(x)\" style=\"width: 400px; height: auto;\"><p>Which of the following equations represents this relationship between \\(f\\) and \\(x\\)?</p>",
+      "options": {
+        "A": "\\(f = 5x + 3\\)",
+        "B": "\\(f = 5x + 6\\)",
+        "C": "\\(f = 3x + 5\\)",
+        "D": "\\(f = 3x + 6\\)",
+        "E": "\\(f = 3x\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Checking the values: for \\(x=1\\), \\(f=8\\). Only \\(f=5x+3\\) gives \\(5(1)+3=8\\). The pattern also increases by 5 each time, confirming slope 5 and intercept 3.</p>"
+    },
+    {
+      "questionId": "q9",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>An electronic guitar was sold at the discounted price of $\\$180$ and the original price of the guitar was $\\$200$. What was the percent of the discount?</p>",
+      "options": {
+        "A": "5%",
+        "B": "10%",
+        "C": "18%",
+        "D": "20%",
+        "E": "40%"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The discount amount is $200 - $180 = $20. The percent discount is \\(\\frac{20}{200} \\times 100\\% = 10\\%\\).</p>"
+    },
+    {
+      "questionId": "q11",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>An amount of $3,600 is shared among Sam, Roger and Paul. Sam owns 100 shares, Roger owns 80 shares, Paul owns 60 shares. How much does Roger get?</p>",
+      "options": {
+        "A": "$560",
+        "B": "$600",
+        "C": "$900",
+        "D": "$1,200",
+        "E": "$1,500"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The ratio of shares is 100:80:60 = 5:4:3. Roger's share = \\(\\frac{4}{5+4+3} \\times 3600 = \\frac{4}{12} \\times 3600 = 1200\\).</p>"
+    },
+    {
+      "questionId": "q14",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Lisa will give \\(\\frac{2}{5}\\) of the red ribbon to her daughter Emily and \\(\\frac{1}{7}\\) of the red ribbon to her son Arthur. What fraction of the red ribbon remains?</p>",
+      "options": {
+        "A": "\\(\\frac{3}{5}\\)",
+        "B": "\\(\\frac{6}{7}\\)",
+        "C": "\\(\\frac{16}{35}\\)",
+        "D": "\\(\\frac{1}{12}\\)",
+        "E": "\\(\\frac{2}{35}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The fraction remaining is \\(1 - \\frac{2}{5} - \\frac{1}{7} = \\frac{35}{35} - \\frac{14}{35} - \\frac{5}{35} = \\frac{16}{35}\\).</p>"
+    },
+    {
+      "questionId": "q15",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The ratio of Tom's weight to his son's weight is 11 : 5. The sum of their weights is 128 kg. What is the weight, in kg, of Tom's son?</p>",
+      "options": {
+        "A": "25.6",
+        "B": "40",
+        "C": "58.2",
+        "D": "88",
+        "E": "100"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Son's weight = \\(\\frac{5}{11+5} \\times 128 = \\frac{5}{16} \\times 128 = 40\\).</p>"
+    },
+    {
+      "questionId": "q22",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The consultation fees charged to an elder and an adult by a doctor are $100 and $180 respectively. On a certain day, there were 38 patients and the total consultation fee was $4,920. How many adults consulted the doctor on that day?</p>",
+      "options": {
+        "A": "12",
+        "B": "14",
+        "C": "16",
+        "D": "18",
+        "E": "24"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Let \\(x\\) be number of elders and \\(y\\) adults. Then \\(x + y = 38\\) and \\(100x + 180y = 4920\\). Substitute \\(x = 38 - y\\): \\(100(38-y) + 180y = 4920 \\Rightarrow 3800 -100y +180y = 4920 \\Rightarrow 80y = 1120 \\Rightarrow y = 14\\).</p>"
+    },
+    {
+      "questionId": "q26",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A bag contains 15 blue balls, 7 red balls and 18 yellow balls. How many additional blue balls should be added to the 40 balls already in the bag in order that the probability of randomly drawing a blue ball is \\(\\frac{3}{4}\\)?</p>",
+      "options": {
+        "A": "18",
+        "B": "37",
+        "C": "42",
+        "D": "52",
+        "E": "60"
+      },
+      "correctOption": "E",
+      "explanationHtml": "<p>Let \\(n\\) be the number of blue balls added. Total balls become \\(40 + n\\), blue balls become \\(15 + n\\). Then \\(\\frac{15+n}{40+n} = \\frac{3}{4}\\). Cross multiply: \\(4(15+n) = 3(40+n) \\Rightarrow 60+4n = 120+3n \\Rightarrow n=60\\).</p>"
+    },
+    {
+      "questionId": "q34",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A college accepts 3 out of every 14 applicants. Given that the college accepted 699 students last year, how many applicants were there?</p>",
+      "options": {
+        "A": "200",
+        "B": "233",
+        "C": "2,097",
+        "D": "3,262",
+        "E": "4,893"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Let \\(n\\) be total applicants. Then \\(\\frac{3}{14}n = 699 \\Rightarrow n = 699 \\times \\frac{14}{3} = 233 \\times 14 = 3262\\).</p>"
+    },
+    
+    {
+      "questionId": "q38",
+      "passageId": "library_survey",
+      "passageHighlight": "",
+      "questionHtml": "<p>What fraction of these high school citizens said that they accepted the change in hours?</p>",
+      "options": {
+        "A": "\\(\\frac{15}{121}\\)",
+        "B": "\\(\\frac{15}{129}\\)",
+        "C": "\\(\\frac{265}{800}\\)",
+        "D": "\\(\\frac{265}{412}\\)",
+        "E": "\\(\\frac{129}{358}\\)"
+      },
+      "correctOption": "E",
+      "explanationHtml": "<p>From the table, the number of high school citizens is \\(129 + 212 + 17 = 358\\). The number who accepted is 129. So the fraction is \\(\\frac{129}{358}\\).</p>"
+    },
+    {
+      "questionId": "q39",
+      "passageId": "library_survey",
+      "passageHighlight": "",
+      "questionHtml": "<p>Suppose that a resident will be chosen at random from these 800 citizens. Which of the following values is closest to the probability that the resident chosen will NOT be a junior school student and will NOT have replied with \"Reject\"?</p>",
+      "options": {
+        "A": "0.02",
+        "B": "0.12",
+        "C": "0.31",
+        "D": "0.43",
+        "E": "0.85"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The residents who are NOT junior school students and did NOT reply \"Reject\" are high school and nonstudent who accepted or had no opinion. From the table: high school accept (129) + high school no opinion (17) + nonstudent accept (121) + nonstudent no opinion (76) = 343. Probability = \\(\\frac{343}{800} = 0.42875 \\approx 0.43\\).</p>"
+    },
+    {
+      "questionId": "q40",
+      "passageId": "library_survey",
+      "passageHighlight": "",
+      "questionHtml": "<p>After constructing the table, it was found out that the student status of 20 citizens who said that they accepted had been wrongly classified as \"High school\". After correcting the errors, exactly \\(20\\%\\) of the junior school students had answered that they accepted. To the nearest \\(1\\%\\), what percent of nonstudent citizens answered that they accepted?</p>",
+      "options": {
+        "A": "16%",
+        "B": "20%",
+        "C": "37%",
+        "D": "42%",
+        "E": "57%"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Let \\(n\\) be the number of those 20 citizens who were junior school students. Then after correction, junior school accept = \\(15 + n\\), total junior school = \\(83 + n\\). Given 20% accepted: \\(\\frac{15+n}{83+n} = 0.2 \\Rightarrow 15+n = 0.2(83+n) \\Rightarrow 15+n = 16.6 + 0.2n \\Rightarrow 0.8n = 1.6 \\Rightarrow n=2\\). Then nonstudent accept becomes \\(121 + (20-2) = 139\\). Total nonstudent = \\(139 + 162 + 76 = 377\\). Percent = \\(\\frac{139}{377} \\approx 0.3687 \\approx 37\\%\\).</p>"
+    },
+    {
+      "questionId": "q49",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>There are 100 rats in a laboratory. 44 of them live in a radioactive environment, while 56 of them live in a normal environment. A researcher estimates that \\(42\\%\\) and \\(5\\%\\) of the rats in a radioactive environment and in a normal environment develop cancer respectively. If two rats are chosen at random, what is the probability that they don't develop cancer?</p>",
+      "options": {
+        "A": "2.1%",
+        "B": "39.9%",
+        "C": "47%",
+        "D": "55.1%",
+        "E": "67%"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The probability a rat from radioactive environment does not develop cancer is \\(100\\% - 42\\% = 58\\%\\). From normal environment: \\(100\\% - 5\\% = 95\\%\\). Assuming one rat from each environment (as per answer key), the required probability is \\(0.58 \\times 0.95 = 0.551 = 55.1\\%\\).</p>"
+    },
+    {
+      "questionId": "q55",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A toy shop sells toy car for $\\$25$ each. At this price, 35 toy cars are sold every week. For every $\\$1$ discount, the shop will sell 5 more toy cars each week. What will be the maximum possible revenue for a week? (Note: The revenue is the number of toy cars sold times the price of each toy car.)</p>",
+      "options": {
+        "A": "$760",
+        "B": "$840",
+        "C": "$960",
+        "D": "$1,080",
+        "E": "$1,280"
+      },
+      "correctOption": "E",
+      "explanationHtml": "<p>Let \\(d\\) be the discount in dollars. Then price = \\(25 - d\\), quantity sold = \\(35 + 5d\\). Revenue \\(R = (25-d)(35+5d) = 5(25-d)(7+d) = 5(175 + 18d - d^2) = -5(d^2 -18d -175) = -5[(d-9)^2 - 81 -175] = -5(d-9)^2 + 5(256) = -5(d-9)^2 + 1280\\). Maximum revenue occurs at \\(d=9\\) giving $1280.</p>"
+    }
+  ]
+}

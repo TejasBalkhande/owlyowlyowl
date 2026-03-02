@@ -1,0 +1,273 @@
+{
+  "passages": [
+
+  ],
+  "questions": [
+    {
+      "questionId": "q148",
+      "passageId": "",
+      "questionHtml": "<p>The first term of a sequence is 4, and each subsequent term is found by multiplying the previous term by \\(n\\). What is the 15th term of the sequence?</p>",
+      "options": {
+        "A": "\\(3n\\)",
+        "B": "\\(4n\\)",
+        "C": "\\(3n + 4\\)",
+        "D": "\\(4n^{14}\\)",
+        "E": "\\(n^{15}\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The described sequence is geometric. The nth term of any geometric series is \\(a_1 \\times r^{n-1}\\), where \\(a_1\\) is the first term and \\(r\\) is the common ratio. Here \\(a_1 = 4\\) and \\(r = n\\). Thus the 15th term is \\(4 \\times n^{15-1} = 4n^{14}\\).</p>"
+    },
+    {
+      "questionId": "q153",
+      "passageId": "",
+      "questionHtml": "<p>The tenth term of an arithmetic sequence is 38, and the second term is 6. What is the value of the first term of this sequence?</p>",
+      "options": {
+        "A": "\\(0\\)",
+        "B": "\\(2\\)",
+        "C": "\\(4\\)",
+        "D": "\\(14\\)",
+        "E": "\\(26\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Let the common difference be \\(d\\). From the second term to the tenth term, \\(d\\) is added 8 times: \\(6 + 8d = 38\\). Solving gives \\(8d = 32\\) so \\(d = 4\\). Then the first term is the second term minus \\(d\\): \\(6 - 4 = 2\\).</p>"
+    },
+    {
+      "questionId": "q157",
+      "passageId": "",
+      "questionHtml": "<p>What is the 35th term of the sequence \\(-1, 5, -2, 1, 5, 2, \\ldots\\)?</p>",
+      "options": {
+        "A": "\\(-2\\)",
+        "B": "\\(-1\\)",
+        "C": "\\(1\\)",
+        "D": "\\(2\\)",
+        "E": "\\(5\\)"
+      },
+      "correctOption": "E",
+      "explanationHtml": "<p>The sequence repeats every 6 terms. The pattern is: term1 = -1, term2 = 5, term3 = -2, term4 = 1, term5 = 5, term6 = 2, then repeats. To find the 35th term, compute \\(35 \\mod 6 = 5\\) (since \\(6 \\times 5 = 30\\), remainder 5). The 5th term in the cycle is 5. Therefore the 35th term is 5.</p>"
+    },
+    {
+      "questionId": "q162",
+      "passageId": "",
+      "questionHtml": "<p>The sum of the first four terms of an arithmetic sequence is 32. What is the value of the sum of the first and fourth terms of the sequence?</p>",
+      "options": {
+        "A": "\\(11\\)",
+        "B": "\\(16\\)",
+        "C": "\\(19\\)",
+        "D": "\\(22\\)",
+        "E": "\\(32\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The sum of the first \\(n\\) terms of an arithmetic sequence is given by \\(S_n = \\frac{n}{2}(a_1 + a_n)\\). For \\(n=4\\), \\(32 = \\frac{4}{2}(a_1 + a_4) = 2(a_1 + a_4)\\). Thus \\(a_1 + a_4 = 16\\).</p>"
+    },
+    {
+      "questionId": "q165",
+      "passageId": "",
+      "questionHtml": "<p>What is the first term of the following geometric sequence? \\(30, \\frac{15}{2}, \\frac{7}{8}, \\ldots\\)</p>",
+      "options": {
+        "A": "\\(35\\)",
+        "B": "\\(\\frac{71}{2}\\)",
+        "C": "\\(60\\)",
+        "D": "\\(120\\)",
+        "E": "\\(\\frac{249}{2}\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>In a geometric sequence, each term is found by multiplying the previous term by a constant ratio. From 30 to \\(\\frac{15}{2}\\), the ratio is \\(\\frac{15/2}{30} = \\frac{15}{2} \\times \\frac{1}{30} = \\frac{15}{60} = \\frac{1}{4}\\). Since 30 is the second term, the first term \\(a_1\\) satisfies \\(a_1 \\times \\frac{1}{4} = 30\\), so \\(a_1 = 30 \\times 4 = 120\\).</p>"
+    },
+    {
+      "questionId": "q168",
+      "passageId": "",
+      "questionHtml": "<p>The 1st term of an arithmetic sequence is \\(m\\), and each subsequent term is found by adding \\(n\\) to the previous term. Which of the following expressions represents the value of the 99th term?</p>",
+      "options": {
+        "A": "\\(nm^{99}\\)",
+        "B": "\\(n^{99}m\\)",
+        "C": "\\(m + 98n\\)",
+        "D": "\\(98m + n\\)",
+        "E": "\\(98mn\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The nth term of an arithmetic sequence is given by \\(a_n = a_1 + (n-1)d\\). Here \\(a_1 = m\\) and common difference \\(d = n\\). So the 99th term is \\(m + (99-1)n = m + 98n\\).</p>"
+    },
+    {
+      "questionId": "q176",
+      "passageId": "",
+      "questionHtml": "<p>What is the 400th term in the sequence \\(18, 21, 9, 24, 5, 18, 21, 9, 24, 5, \\ldots\\)?</p>",
+      "options": {
+        "A": "\\(5\\)",
+        "B": "\\(9\\)",
+        "C": "\\(18\\)",
+        "D": "\\(21\\)",
+        "E": "\\(24\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The sequence repeats every 5 terms: 18, 21, 9, 24, 5. Since 400 is a multiple of 5, the 400th term corresponds to the 5th term in the cycle, which is 5.</p>"
+    },
+    {
+      "questionId": "q177",
+      "passageId": "",
+      "questionHtml": "<p>The fifth term of an arithmetic sequence is \\(11x^2\\), and the seventh term of the same sequence is \\(17x^2\\). What is the third term of this sequence?</p>",
+      "options": {
+        "A": "\\(2x^2\\)",
+        "B": "\\(3x^2\\)",
+        "C": "\\(5x^2\\)",
+        "D": "\\(14x^2\\)",
+        "E": "\\(20x^2\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Let the common difference be \\(d\\). Then \\(a_7 = a_5 + 2d\\), so \\(17x^2 = 11x^2 + 2d\\) gives \\(2d = 6x^2\\) and \\(d = 3x^2\\). Then the third term is \\(a_3 = a_5 - 2d = 11x^2 - 2(3x^2) = 11x^2 - 6x^2 = 5x^2\\).</p>"
+    },
+    {
+      "questionId": "q185",
+      "passageId": "",
+      "questionHtml": "<p>The first term of a sequence is 2, and each subsequent term is found by adding \\(-\\frac{5}{4}\\) to the previous term. What is the first term that has a value less than zero?</p>",
+      "options": {
+        "A": "Second term",
+        "B": "Third term",
+        "C": "Fourth term",
+        "D": "Fifth term",
+        "E": "Sixth term"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Compute the terms: \\(a_1 = 2\\). \\(a_2 = 2 - \\frac{5}{4} = \\frac{8}{4} - \\frac{5}{4} = \\frac{3}{4}\\). \\(a_3 = \\frac{3}{4} - \\frac{5}{4} = -\\frac{2}{4} = -\\frac{1}{2}\\), which is less than zero. So the third term is the first negative term.</p>"
+    },
+    {
+      "questionId": "q191",
+      "passageId": "",
+      "questionHtml": "<p>The sum of the first five terms of an arithmetic sequence is 55. What is the value of the sixth term of the sequence if the first term is 3?</p>",
+      "options": {
+        "A": "\\(3\\)",
+        "B": "\\(7\\)",
+        "C": "\\(15\\)",
+        "D": "\\(19\\)",
+        "E": "\\(22\\)"
+      },
+      "correctOption": "E",
+      "explanationHtml": "<p>Use the sum formula: \\(S_n = \\frac{n}{2}(a_1 + a_n)\\). For \\(n=5\\), \\(55 = \\frac{5}{2}(3 + a_5)\\). Multiply both sides by 2: \\(110 = 5(3 + a_5)\\) ⇒ \\(22 = 3 + a_5\\) ⇒ \\(a_5 = 19\\). Therefore, the sixth term must be \\(19 + 3 = 22\\).</p>"
+    },
+    {
+      "questionId": "q192",
+      "passageId": "",
+      "questionHtml": "<p>The first 20 terms of a geometric sequence are less than 60. If the 1st term of the sequence is \\(\\frac{1}{2}\\), which of the following is a possible value for the 2nd term?</p>",
+      "options": {
+        "A": "\\(\\frac{1}{4}\\)",
+        "B": "\\(\\frac{5}{4}\\)",
+        "C": "\\(2\\)",
+        "D": "\\(3\\)",
+        "E": "\\(6\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Let the common ratio be \\(r\\). Then the second term is \\(\\frac{1}{2}r\\). For the 20th term to be less than 60, we need \\(\\frac{1}{2}r^{19} < 60\\). Check each option by finding the ratio:<br> - For A: second term = \\(\\frac{1}{4}\\) ⇒ \\(r = \\frac{1/4}{1/2} = \\frac{1}{2}\\). Then 20th term = \\(\\frac{1}{2} \\times (\\frac{1}{2})^{19} = (\\frac{1}{2})^{20} = \\frac{1}{1048576} < 60\\). Possible.<br> - For B: second term = \\(\\frac{5}{4}\\) ⇒ \\(r = \\frac{5/4}{1/2} = \\frac{5}{2} = 2.5\\). Then 20th term = \\(\\frac{1}{2} \\times (2.5)^{19}\\) is enormous, >60.<br> - For C: \\(r = 4\\), 20th term = \\(\\frac{1}{2} \\times 4^{19}\\) huge.<br> - For D: \\(r = 6\\), huge.<br> - For E: \\(r = 12\\), huge.<br>Thus only A works.</p>"
+    },
+    {
+      "questionId": "q195",
+      "passageId": "",
+      "questionHtml": "<p>What is the 101st term of the sequence \\(5, 4, 3, 0, 8, 5, 4, 3, 0, 8, \\ldots\\)?</p>",
+      "options": {
+        "A": "\\(0\\)",
+        "B": "\\(3\\)",
+        "C": "\\(4\\)",
+        "D": "\\(5\\)",
+        "E": "\\(8\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The sequence repeats every 5 terms: 5, 4, 3, 0, 8. Since 100 is a multiple of 5, the 100th term is 8 (the 5th term). Then the 101st term is the first term of the next cycle, which is 5.</p>"
+    },
+    {
+      "questionId": "q199",
+      "passageId": "",
+      "questionHtml": "<p>The formula for the nth term of a sequence is \\(a_{n} = \\frac{1}{5} a_{n - 1} + 4\\). If the second term of the sequence is 26, what is the first term of the sequence?</p>",
+      "options": {
+        "A": "\\(22\\)",
+        "B": "\\(110\\)",
+        "C": "\\(126\\)",
+        "D": "\\(130\\)",
+        "E": "\\(148\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Given \\(a_2 = 26 = \\frac{1}{5}a_1 + 4\\). Subtract 4: \\(22 = \\frac{1}{5}a_1\\). Multiply by 5: \\(a_1 = 110\\).</p>"
+    },
+    {
+      "questionId": "q201",
+      "passageId": "",
+      "questionHtml": "<p>Which of the following equations represents a formula for the nth term of the sequence \\(14, 12, 10, 8, 6, 4, \\ldots\\)?</p>",
+      "options": {
+        "A": "\\(a_{n} = 2a_{n - 1}\\)",
+        "B": "\\(a_{n} = \\frac{a_{n - 1}}{2}\\)",
+        "C": "\\(a_{n} = a_{n - 1} + 2\\)",
+        "D": "\\(a_{n} = a_{n - 1} - 2\\)",
+        "E": "\\(a_{n} = 2a_{n - 1} - 2\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Each term is 2 less than the previous term. So \\(a_n = a_{n-1} - 2\\).</p>"
+    },
+    {
+      "questionId": "q204",
+      "passageId": "",
+      "questionHtml": "<p>The terms of a sequence are found by multiplying the previous term by 2 and then subtracting 1. Which of the following terms must be the largest in value?</p>",
+      "options": {
+        "A": "The first term",
+        "B": "The second term",
+        "C": "The third term",
+        "D": "The fourth term",
+        "E": "It depends on the value of the first term."
+      },
+      "correctOption": "E",
+      "explanationHtml": "<p>If the first term is negative, the sequence becomes more negative (e.g., start with -1: -1, -3, -7, -15, ...), so the first term is largest. If the first term is positive, the sequence increases (e.g., start with 2: 2, 3, 5, 9, ...), so the fourth term is largest. Therefore, which term is largest depends on the first term.</p>"
+    },
+    {
+      "questionId": "q205",
+      "passageId": "",
+      "questionHtml": "<p>The terms of a geometric series are found by multiplying the previous term by \\(\\frac{1}{3}\\). If the first term is \\(a_1\\), which of the following expressions represents the difference between the third and second terms in terms of \\(a_1\\)?</p>",
+      "options": {
+        "A": "\\(-\\frac{2}{9}a_1\\)",
+        "B": "\\(-\\frac{1}{6}a_1\\)",
+        "C": "\\(-\\frac{1}{3}a_1\\)",
+        "D": "\\(\\frac{1}{3}a_1\\)",
+        "E": "\\(3a_1\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Second term: \\(a_2 = a_1 \\times \\frac{1}{3} = \\frac{a_1}{3}\\). Third term: \\(a_3 = a_2 \\times \\frac{1}{3} = \\frac{a_1}{3} \\times \\frac{1}{3} = \\frac{a_1}{9}\\). Difference: \\(a_3 - a_2 = \\frac{a_1}{9} - \\frac{a_1}{3} = a_1\\left(\\frac{1}{9} - \\frac{1}{3}\\right) = a_1\\left(\\frac{1}{9} - \\frac{3}{9}\\right) = a_1\\left(-\\frac{2}{9}\\right) = -\\frac{2}{9}a_1\\).</p>"
+    },
+    {
+      "questionId": "q207",
+      "passageId": "",
+      "questionHtml": "<p>The \\(m\\)th term of a sequence is found using the formula \\(a_{n} = 4a_{n - 1} + \\frac{1}{2}\\). If the third term of the sequence is 322.5, what is the value of the first term?</p>",
+      "options": {
+        "A": "\\(15.5\\)",
+        "B": "\\(20\\)",
+        "C": "\\(80.5\\)",
+        "D": "\\(102\\)",
+        "E": "\\(161.5\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Given \\(a_3 = 322.5 = 4a_2 + \\frac{1}{2}\\). Then \\(4a_2 = 322.5 - 0.5 = 322\\), so \\(a_2 = 80.5\\). Now \\(a_2 = 4a_1 + \\frac{1}{2}\\) ⇒ \\(80.5 = 4a_1 + 0.5\\) ⇒ \\(4a_1 = 80\\) ⇒ \\(a_1 = 20\\).</p>"
+    },
+    {
+      "questionId": "q209",
+      "passageId": "",
+      "questionHtml": "<p>The nth term of a sequence is determined using the formula \\(a_{n} = a_{n - 1} - r\\). If the fifth term of the sequence is 38 and the seventh term of the sequence is 50, what is the value of \\(r\\)?</p>",
+      "options": {
+        "A": "\\(-12\\)",
+        "B": "\\(-10\\)",
+        "C": "\\(-6\\)",
+        "D": "\\(6\\)",
+        "E": "\\(12\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>From the fifth to the seventh term, we subtract \\(r\\) twice: \\(a_7 = a_5 - 2r\\). So \\(50 = 38 - 2r\\) ⇒ \\(-2r = 12\\) ⇒ \\(r = -6\\).</p>"
+    },
+    {
+      "questionId": "q213",
+      "passageId": "",
+      "questionHtml": "<p>If the first term of a series is 4 and the third is 36, what is the value of the second?</p>",
+      "options": {
+        "A": "\\(3\\)",
+        "B": "\\(9\\)",
+        "C": "\\(12\\)",
+        "D": "\\(13\\)",
+        "E": "\\(24\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Assuming the series is geometric, let the common ratio be \\(x\\). Then \\(a_1 = 4\\), \\(a_3 = 4x^2 = 36\\) ⇒ \\(x^2 = 9\\) ⇒ \\(x = 3\\) (since terms are positive). So \\(a_2 = 4 \\times 3 = 12\\). (If it were arithmetic, the second term would be the average of 4 and 36, which is 20, not an option.)</p>"
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "passages": [
+
+  ],
+  "questions": [
+    {
+      "questionId": "q1",
+      "passageId": "",
+      "questionHtml": "What is the greatest common factor of \\(30\\), \\(90\\), and \\(130\\)?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "5",
+        "D": "10",
+        "E": "30"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The greatest common factor is the largest number that divides exactly into two or more numbers. With that in mind, this problem is best approached by elimination. Since each number ends in a zero, we know that each is divisible by \\(10\\). This means the correct answer must be either D or E. Checking, \\(130\\) is not divisible by \\(30\\), so the correct answer must be D.</p>"
+    },
+    {
+      "questionId": "q2",
+      "passageId": "",
+      "questionHtml": "Which of the following is an irrational number?",
+      "options": {
+        "A": "\\(\\sqrt{\\frac{100}{169}}\\)",
+        "B": "\\(\\sqrt{\\frac{1}{4}}\\)",
+        "C": "\\(\\sqrt{16}\\)",
+        "D": "\\(\\sqrt{81}\\)",
+        "E": "\\(\\sqrt{99}\\)"
+      },
+      "correctOption": "E",
+      "explanationHtml": "<p>Irrational numbers cannot be written as a fraction of two whole numbers. Each answer choice can be written as a whole number (which is the same as a fraction with a denominator of 1) or a fraction of whole numbers except answer choice E.</p>"
+    },
+    {
+      "questionId": "q3",
+      "passageId": "",
+      "questionHtml": "Which of the following must be true whenever \\(a, b,\\) and \\(c\\) are integers such that \\(a< 0\\) and \\(b > c > 0\\)?",
+      "options": {
+        "A": "\\(a - c > 0\\)",
+        "B": "\\(c - b< 0\\)",
+        "C": "\\(a + c > 0\\)",
+        "D": "\\(-a - c< 0\\)",
+        "E": "\\(a + b > 0\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The given information indicates that \\(a\\) is negative and both \\(b\\) and \\(c\\) are positive with \\(b\\) being larger than \\(c\\). The difference \\(a - c\\) (choice A) would be of the form (negative) - (positive), which is always negative. Since answer A states that \\(a - c > 0\\) (is positive), choice A cannot be correct. The difference \\(c - b\\) (choice B) will also always be negative, since \\(b\\) is larger than \\(c\\). Unlike choice A, choice B states \\(c - b < 0\\) (is negative), so this is the answer. The values of the remaining inequalities depend on the exact values of \\(a\\), \\(b\\), and \\(c\\), which we do not know.</p>"
+    },
+    {
+      "questionId": "q4",
+      "passageId": "",
+      "questionHtml": "If \\(3^{0} = (1 - n)^{- 3}\\), then \\(n =\\)",
+      "options": {
+        "A": "-3",
+        "B": "-1",
+        "C": "0",
+        "D": "1",
+        "E": "2"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Two facts are important here: First, anything to the zero power is 1. Second, \\(\\frac{1}{n} = a^{-n}\\). Using these facts, the given equation becomes \\(1 = \\frac{1}{(1 - n)^3}\\). The only way this fraction will be equivalent to 1 is if the denominator also is 1. Of the values given, the only value of \\(n\\) for which this is true is 0.</p>"
+    },
+    {
+      "questionId": "q5",
+      "passageId": "",
+      "questionHtml": "What is the largest integer smaller than \\(\\sqrt{50}\\)?",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "7",
+        "D": "9",
+        "E": "12"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The closest perfect square to 50 is \\(49 = 7 \\times 7\\). No integer larger than 7 is smaller than the square root of 50, since \\(8 \\times 8 = 64\\).</p>"
+    },
+    {
+      "questionId": "q6",
+      "passageId": "",
+      "questionHtml": "If \\(m\\) and \\(n\\) are integers, which of the following must be an even integer?",
+      "options": {
+        "A": "\\(2mn\\)",
+        "B": "\\(mn\\)",
+        "C": "\\(mn+2\\)",
+        "D": "\\(mn-2\\)",
+        "E": "\\(3mn\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>An even number is defined as any number that can be written as a multiple of 2. Answer choice A is the only choice that can always be written as a multiple of 2 for any \\(m\\) and \\(n\\), since it already is written in that form.</p>"
+    },
+    {
+      "questionId": "q7",
+      "passageId": "",
+      "questionHtml": "If the equation \\(|x - a| = |y - a|\\) is true, then which of the following must be true?",
+      "options": {
+        "A": "\\(|x| = |y|\\)",
+        "B": "\\(x > a\\)",
+        "C": "\\(|x + y|\\neq 0\\)",
+        "D": "\\(y< a\\)",
+        "E": "\\(\\left| - a + y\\right| = \\left| - a + x\\right|\\)"
+      },
+      "correctOption": "E",
+      "explanationHtml": "<p>Careful inspection of the answer choices shows that answer choice E is the same equation with the subtraction written differently. It is always true that \\(a - b = -b + a\\). Since there can be only one correct answer, this must be it. However, the others can be shown to be incorrect by using different examples of \\(x, y\\), and \\(a\\).</p>"
+    },
+    {
+      "questionId": "q8",
+      "passageId": "",
+      "questionHtml": "If \\(P\\) is the set of multiples of 2, \\(Q\\) is the set of multiples of 3, and \\(R\\) is the set of multiples of 7, which of the following integers will be in \\(P\\) and \\(Q\\) but not in \\(R\\)?",
+      "options": {
+        "A": "-54",
+        "B": "-50",
+        "C": "42",
+        "D": "100"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The correct answer will not be divisible by 7 but will be divisible by 2 and 3. This is the same as saying it is a multiple of 6 but not of 7. Answer choice A is equivalent to \\(-9 \\times 6\\) and is not divisible by 7.</p>"
+    },
+    {
+      "questionId": "q9",
+      "passageId": "",
+      "questionHtml": "If \\(\\left(2^{-\\frac{1}{2}}\\right)^{4y} = \\frac{1}{8}\\), then \\(y =\\)",
+      "options": {
+        "A": "-4",
+        "B": "-\\(\\frac{1}{8}\\)",
+        "C": "\\(\\frac{7}{8}\\)", 
+        "D": "\\(\\frac{3}{2}\\)", 
+        "E": "\\(\\frac{21}{16}\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>First simplify the expression on the left: \\(\\left(2^{-\\frac{1}{2}}\\right)^{4y} = 2^{-2y} = \\frac{1}{2^{2y}}\\). It was given that this expression equals \\(\\frac{1}{8}\\), and \\(8 = 2^3\\), so \\(2y = 3\\) and \\(y = \\frac{3}{2}\\).</p>"
+    },
+    {
+      "questionId": "q10",
+      "passageId": "",
+      "questionHtml": "Using the following number line, which pairs of points satisfy the equation \\(\\left|x - y\\right|< \\frac{1}{2}\\)? <img src=\"/1-act-i/P/realnum/image.png\" alt=\"Graph of f(x)\" style=\"width: 320px; height: auto;\">",
+      "options": {
+        "A": "\\(x = A, y = B\\)",
+        "B": "\\(x = B, y = C\\)",
+        "C": "\\(x = C, y = D\\)",
+        "D": "\\(x = D, y = E\\)",
+        "E": "\\(x = E, y = F\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The equation \\(\\left|x - y\\right|< \\frac{1}{2}\\) can be interpreted as 'the distance between \\(x\\) and \\(y\\) is less than \\(\\frac{1}{2}\\).' On the provided number line, only points \\(C\\) and \\(D\\) are less than one-half unit apart.</p>"
+    },
+    {
+      "questionId": "q11",
+      "passageId": "",
+      "questionHtml": "If \\(m^{-3} = 64\\), then \\(8m =\\)",
+      "options": {
+        "A": "-192",
+        "B": "-24",
+        "C": "\\(\\frac{1}{4}\\)",
+        "D": "2",
+        "E": "32"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The equation \\(m^{-3} = 64\\) is equivalent to \\(\\frac{1}{m^3} = 64\\). To solve for \\(m\\), cross multiply: \\(64m^3 = 1\\). Collect terms and solve: \\(m^3 = \\frac{1}{64}\\), so \\(m = \\frac{1}{4}\\). The question asks for the value of \\(8m: 8\\left(\\frac{1}{4}\\right) = 2\\).</p>"
+    },
+    {
+      "questionId": "q12",
+      "passageId": "",
+      "questionHtml": "If \\(3(m + n)\\) is even, then which of the following must also be even?",
+      "options": {
+        "A": "\\(m + n\\)",
+        "B": "\\(m\\)",
+        "C": "\\(n\\)",
+        "D": "\\(3m\\)",
+        "E": "\\(3n + 1\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>If \\(3(m + n)\\) is even, then \\(m + n\\) must be even, since the product of two odd numbers (that is, 3 and the sum of \\(m + n\\)) would be odd. It is possible that both \\(m\\) and \\(n\\) are even, but it is also possible that they are both odd. This eliminates the remaining answer choices.</p>"
+    },
+    {
+      "questionId": "q13",
+      "passageId": "",
+      "questionHtml": "There are 45 students signed up for the performance band, while 30 are signed up for the jazz band. If 19 students are signed up for both bands, how many students are signed up for only one of the bands?",
+      "options": {
+        "A": "11",
+        "B": "16",
+        "C": "37",
+        "D": "56",
+        "E": "75"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The 19 students in both bands are counted in both counts. Therefore, the total in only one band would be the sum of \\((45 - 19)\\) in performance band and \\((30 - 19)\\) in jazz band, which is \\(26 + 11\\), or 37.</p>"
+    },
+    {
+      "questionId": "q14",
+      "passageId": "",
+      "questionHtml": "Define \\(a \\odot b = 2a - 3b\\) for all integers \\(a\\) and \\(b\\). What is the value of \\(-2 \\odot 1\\)?",
+      "options": {
+        "A": "-7",
+        "B": "-4",
+        "C": "-1",
+        "D": "1",
+        "E": "?"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>\\(-2 \\odot 1 = 2(-2) - 3(1) = -4 - 3 = -7\\)</p>"
+    },
+    {
+      "questionId": "q15",
+      "passageId": "",
+      "questionHtml": "If the following numbers were ordered from smallest to largest, which would be in the third position? \\(\\left(\\frac{1}{2}\\right)^{-2}, \\frac{1}{3}, \\sqrt{17}, \\pi , \\sqrt{3}\\)",
+      "options": {
+        "A": "\\(\\left(\\frac{1}{2}\\right)^{-2}\\)",
+        "B": "\\(\\frac{1}{3}\\)",
+        "C": "\\(\\sqrt{17}\\)",
+        "D": "\\(\\pi\\)",
+        "E": "\\(\\sqrt{3}\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The decimal forms of these numbers are easiest to rank from smallest to largest. Some of these values are easy to find or should have been memorized (as is true in the case of pi): \\(\\left(\\frac{1}{2}\\right)^{-2} = 2^2 = 4\\), \\(\\frac{1}{3} = 0.\\overline{3}\\), \\(\\pi \\approx 3.14\\). To estimate the square root values, consider perfect squares that are close in value: \\(\\sqrt{3} < \\sqrt{4} = 2\\) and \\(\\sqrt{3} > \\sqrt{1} = 1\\), and \\(4 = \\sqrt{16} < \\sqrt{17}\\). The correct order is \\(\\frac{1}{3}\\), \\(\\sqrt{3}\\), \\(\\pi\\), \\(\\left(\\frac{1}{2}\\right)^{-2}\\), \\(\\sqrt{17}\\). Thus the third position is \\(\\pi\\).</p>"
+    },
+    {
+      "questionId": "q16",
+      "passageId": "",
+      "questionHtml": "If \\(p\\) and \\(q\\) are real numbers such that \\((pq)^{2} = 4\\), then which of the following statements must also be true?",
+      "options": {
+        "A": "\\(pq > 0\\)",
+        "B": "\\(pq = 2\\)",
+        "C": "\\(p > 1\\) and \\(q > 1\\)",
+        "D": "If \\(p<0\\), then \\(q > 0\\)",
+        "E": "If \\(p > 2\\), then \\(q<2\\)"
+      },
+      "correctOption": "E",
+      "explanationHtml": "<p>It is possible that \\(pq = -2\\), since \\((-2)^2 = 4\\), so answer choices A and B can be eliminated. For answer choice C, it is possible that if the product of two numbers is 2 or -2, one of the numbers is a fraction. For example it could be that \\(p = \\frac{1}{2}\\) and \\(q = 4\\). Similarly, for answer choice D, \\(p\\) and \\(q\\) could have the same sign or different signs, so this may or may not be true. Finally, in choice E, if \\(p\\) is larger than 2, then you would need to multiply it by something smaller to get a final product of 2 or -2. As an example, suppose that \\(p = 3\\). Since \\((pq)^2 = 4\\), we have \\(|pq| = 2\\), so \\(pq = \\pm 2\\). If \\(p = 3\\), then \\(q = \\pm \\frac{2}{3}\\), which is less than 2. This makes answer choice E the only statement that would always be true.</p>"
+    },
+    {
+      "questionId": "q17",
+      "passageId": "",
+      "questionHtml": "For a real number \\(m\\), \\((2m^{3})^{4} =\\)",
+      "options": {
+        "A": "\\(2m^{7}\\)",
+        "B": "\\(2m^{12}\\)",
+        "C": "\\(8m^{7}\\)",
+        "D": "\\(16m^{7}\\)",
+        "E": "\\(16m^{12}\\)"
+      },
+      "correctOption": "E",
+      "explanationHtml": "<p>Exponents distribute over multiplication, and when an exponential term is taken to another exponent, you multiply the exponents to simplify the expression. Therefore, \\((2m^3)^4 = 2^4 m^{3\\times4} = 16m^{12}\\).</p>"
+    },
+    {
+      "questionId": "q18",
+      "passageId": "",
+      "questionHtml": "What is the value of \\(\\left| - 2x - 5\\right| - \\left| - 4 + 8\\right|\\) when \\(x = 7\\)?",
+      "options": {
+        "A": "-12",
+        "B": "-4",
+        "C": "7",
+        "D": "15",
+        "E": "23"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Substitute \\(x = 7\\): \\(|-2(7)-5| = |-14-5| = |-19| = 19\\). Next, \\(|-4+8| = |4| = 4\\). So \\(19 - 4 = 15\\).</p>"
+    },
+    {
+      "questionId": "q19",
+      "passageId": "",
+      "questionHtml": "For positive integers \\(x\\) and \\(y\\), \\(x + y = 21\\). What is the smallest possible value of \\(xy\\)?",
+      "options": {
+        "A": "10",
+        "B": "20",
+        "C": "38",
+        "D": "54",
+        "E": "110"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Start by listing integers whose sum is 21: 1 + 20, 2 + 19, 3 + 18, 4 + 17, 5 + 16, etc. The corresponding products keep increasing: 20, 38, 54, etc. Once you see that the products are increasing in this manner, the smallest product is 20.</p>"
+    },
+    {
+      "questionId": "q20",
+      "passageId": "",
+      "questionHtml": "For any real numbers \\(a\\) and \\(b\\), \\((10a^{2})(5ab)(2ab^{4})\\) is equivalent to",
+      "options": {
+        "A": "\\(100a^{4}b^{5}\\)",
+        "B": "\\(100a^{2}b^{4}\\)",
+        "C": "\\(17a^{4}b^{5}\\)",
+        "D": "\\(17a^{2}b^{4}\\)",
+        "E": "\\(17a^{9}b^{9}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>When multiplying terms with exponents and the same base, add the exponents: \\((10a^2)(5ab)(2ab^4) = 10 \\cdot 5 \\cdot 2 \\cdot a^{2+1+1} b^{1+4} = 100a^4b^5\\).</p>"
+    },
+    {
+      "questionId": "q21",
+      "passageId": "",
+      "questionHtml": "Let \\(x\\Delta y = \\frac{x + 1}{y}\\) for positive integers \\(x\\) and \\(y\\). What is the value of \\(7\\Delta (-2)\\)?",
+      "options": {
+        "A": "-4",
+        "B": "-1",
+        "C": "3",
+        "D": "8",
+        "E": "14"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>\\(7 \\Delta (-2) = \\frac{7 + 1}{-2} = \\frac{8}{-2} = -4\\)</p>"
+    },
+    {
+      "questionId": "q22",
+      "passageId": "",
+      "questionHtml": "For a real number \\(x\\), the expression \\(\\frac{\\sqrt{x}}{5}\\) is an integer. Each of the following expression must also be integers EXCEPT",
+      "options": {
+        "A": "\\(\\left(\\frac{\\sqrt{x}}{5}\\right)^{2}\\)",
+        "B": "\\(\\left(\\frac{10\\sqrt{x}}{25}\\right)\\)",
+        "C": "\\(\\left(\\frac{6\\sqrt{x}}{5}\\right)\\)",
+        "D": "\\(\\left(\\frac{-\\sqrt{x}}{5}\\right)\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>If \\(\\frac{\\sqrt{x}}{5}\\) is an integer, then any integer multiple of it will also be an integer. Answer choice C is \\(\\frac{6}{5} \\cdot \\frac{\\sqrt{x}}{5}\\), which may or may not be an integer, depending on the value of \\(x\\).</p>"
+    },
+    {
+      "questionId": "q23",
+      "passageId": "",
+      "questionHtml": "What is the value of \\(\\sqrt{48} - \\sqrt{27}\\)?",
+      "options": {
+        "A": "0",
+        "B": "\\(\\sqrt{2}\\)",
+        "C": "\\(\\sqrt{3}\\)",
+        "D": "\\(\\sqrt{11}\\)",
+        "E": "\\(\\sqrt{21}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Factor out any perfect squares under both square roots: \\(\\sqrt{48} - \\sqrt{27} = \\sqrt{3 \\times 16} - \\sqrt{3 \\times 9} = 4\\sqrt{3} - 3\\sqrt{3} = \\sqrt{3}\\).</p>"
+    },
+    {
+      "questionId": "q24",
+      "passageId": "",
+      "questionHtml": "Which of the following values of \\(x\\) satisfies the inequality \\(\\sqrt{26} < x < \\sqrt{50}\\)?",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "6",
+        "D": "9",
+        "E": "10"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The closest integer value to \\(\\sqrt{26}\\) is 5, since \\(\\sqrt{25} = 5\\). Similarly, \\(\\sqrt{49} = 7\\) is the integer closest to \\(\\sqrt{50}\\). Therefore, to satisfy the inequality, a value of \\(x\\) must be larger than 5 but no more than a little larger than 7 (and smaller than 8, since \\(8 \\times 8 = 64\\)). Among the options, 6 fits.</p>"
+    },
+    {
+      "questionId": "q25",
+      "passageId": "",
+      "questionHtml": "Which of the following is a rational number?",
+      "options": {
+        "A": "\\(\\frac{\\sqrt{2}}{2}\\)",
+        "B": "\\((\\sqrt{2} - 2)^{2}\\)",
+        "C": "\\(\\frac{\\sqrt{100}}{5}\\)",
+        "D": "\\(\\sqrt{3}\\)",
+        "E": "\\((3 + \\sqrt{3})^{2}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Rational numbers can be written as fractions of whole numbers. It is helpful to know some of the common irrational numbers; two of these are \\(\\sqrt{2}\\) and \\(\\sqrt{3}\\). Since answer choices A, B, D, and E contain these values, check the value of the remaining choice first: \\(\\frac{\\sqrt{100}}{5} = \\frac{10}{5} = 2\\), which is rational.</p>"
+    }
+  ]
+}

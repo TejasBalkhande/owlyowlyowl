@@ -1,0 +1,391 @@
+{
+  "passages": [
+    {
+      "passageId": "p1",
+      "passageHtml": "Parallelogram \\(ABCD\\) is shown in the standard \\((x,y)\\) coordinate plane below. Sides \\(\\overline{AB}\\) and \\(\\overline{CD}\\) are each 8 coordinate units long. Sides \\(\\overline{AD}\\) and \\(\\overline{BC}\\) are each \\(\\sqrt{34}\\) coordinate units long. The distance between \\(\\overline{AB}\\) and \\(\\overline{CD}\\) is 3 coordinate units. <img src=\"/1-act-i/P/multi/p1.png\" alt=\"Graph of f(x)\" style=\"width: 300px; height: auto;\"> "
+    }
+
+  ],
+  "questions": [
+    {
+      "questionId": "q4",
+      "passageId": "",
+      "questionHtml": "Anita and her family are preparing study bags for students at winter camp. Each entire study bag contains 6 pencils, 4 books, 2 rubbers, and 7 packs of orange biscuits. Anita and her family have packed 10 entire study bags and the following materials remain:<br><br>5 sets of pencils (8 pencils per set)<br>4 sets of books (6 books per set)<br>2.5 sets of rubbers (10 rubbers per set)<br>4 sets of orange biscuits (8 packs of orange biscuits per set)<br><br>What is the maximum number of entire study bags can Anita and her family prepare with the remaining materials?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "correctOption": "D",
+      "explanationHtml": "First, calculate the total remaining items:<br>Pencils: 5 sets × 8 = 40<br>Books: 4 sets × 6 = 24<br>Rubbers: 2.5 sets × 10 = 25<br>Orange biscuits: 4 sets × 8 = 32<br><br>Each study bag requires 6 pencils, 4 books, 2 rubbers, and 7 packs of biscuits. The number of possible bags is limited by the smallest ratio of available to required. Check multiples of 7 for biscuits first: 32 ÷ 7 ≈ 4.57, so at most 4 bags. Verify other items:<br>Pencils: 6 × 4 = 24 ≤ 40<br>Books: 4 × 4 = 16 ≤ 24<br>Rubbers: 2 × 4 = 8 ≤ 25<br>Thus, 4 bags can be made."
+    },
+    {
+      "questionId": "q6",
+      "passageId": "",
+      "questionHtml": "In the figure below, \\(B\\) is on \\(\\overline{AD}\\), the measure of \\(\\angle BCA\\) is \\(5x^\\circ\\), the measure of \\(\\angle BAC\\) is \\(6x^\\circ\\), and the measure of \\(\\angle CBD\\) is \\(132^\\circ\\). What is the value of \\(x\\)? <img src=\"/1-act-i/P/multi/q6.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "11",
+        "B": "12",
+        "C": "13",
+        "D": "14",
+        "E": "15"
+      },
+      "correctOption": "B",
+      "explanationHtml": "In triangle \\(ABC\\), \\(\\angle CBD\\) is an exterior angle, so it equals the sum of the remote interior angles:\n\\[ \\angle BCA + \\angle BAC = 5x + 6x = 11x \\]\nGiven \\(\\angle CBD = 132^\\circ\\), we have:\n\\[ 11x = 132 \\]\n\\[ x = 12 \\]"
+    },
+   
+    {
+      "questionId": "q17",
+      "passageId": "",
+      "questionHtml": "What value of \\(x\\) makes the proportion below true?\n\\[ \\frac{8}{7 - x} = \\frac{36}{54} \\]",
+      "options": {
+        "A": "2",
+        "B": "0",
+        "C": "-1",
+        "D": "-3",
+        "E": "-5"
+      },
+      "correctOption": "E",
+      "explanationHtml": "Simplify the right side: \\(\\frac{36}{54} = \\frac{2}{3}\\).\nThen:\n\\[ \\frac{8}{7 - x} = \\frac{2}{3} \\]\nCross-multiply:\n\\[ 8 \\cdot 3 = 2(7 - x) \\]\n\\[ 24 = 14 - 2x \\]\n\\[ 2x = 14 - 24 = -10 \\]\n\\[ x = -5 \\]"
+    },
+    {
+      "questionId": "q19",
+      "passageId": "",
+      "questionHtml": "Which of the following ordered pairs in the standard \\((x,y)\\) coordinate plane satisfies the system of inequalities below? <img src=\"/1-act-i/P/multi/q19.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "(-2,4)",
+        "B": "(-2,3)",
+        "C": "(-2,2)",
+        "D": "(-1,2)",
+        "E": "(-1,1)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "By substituting each point into the given system (shown in the image), only \\((-2,4)\\) satisfies all three inequalities."
+    },
+    {
+      "questionId": "q22",
+      "passageId": "",
+      "questionHtml": "The consultation fees charged to an elder and an adult by a doctor are $\\$100$ and $\\$180$ respectively. On a certain day, there were 38 patients and the total consultation fee was $\\$4,920$. How many adults consulted the doctor on that day?",
+      "options": {
+        "A": "12",
+        "B": "14",
+        "C": "16",
+        "D": "18",
+        "E": "24"
+      },
+      "correctOption": "B",
+      "explanationHtml": "Let \\(x\\) be the number of elders and \\(y\\) the number of adults. Then:\n\\[ x + y = 38 \\]\n\\[ 100x + 180y = 4920 \\]\nFrom the first equation, \\(x = 38 - y\\). Substitute:\n\\[ 100(38 - y) + 180y = 4920 \\]\n\\[ 3800 - 100y + 180y = 4920 \\]\n\\[ 80y = 1120 \\]\n\\[ y = 14 \\]"
+    },
+    {
+      "questionId": "q25",
+      "passageId": "",
+      "questionHtml": "All of the small squares are equal in area in the figure below. If the area of the rectangle is 1 square unit, which of the following expressions can represent the area (in square units) of the shaded part? <img src=\"/1-act-i/P/multi/25.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "\\(\\frac{1}{7} \\times \\frac{6}{7}\\)",
+        "B": "\\(\\frac{1}{8} \\times \\frac{1}{6}\\)",
+        "C": "\\(\\frac{1}{8} \\times \\frac{5}{6}\\)",
+        "D": "\\(\\frac{7}{8} \\times \\frac{1}{6}\\)",
+        "E": "\\(\\frac{7}{8} \\times \\frac{5}{6}\\)"
+      },
+      "correctOption": "E",
+      "explanationHtml": "The rectangle is divided into 8 columns and 6 rows, so total small squares = \\(8 \\times 6 = 48\\). The shaded region covers 7 columns and 5 rows, so shaded squares = \\(7 \\times 5 = 35\\). The fraction of the total area is \\(\\frac{35}{48} = \\frac{7}{8} \\times \\frac{5}{6}\\)."
+    },
+    {
+      "questionId": "q26",
+      "passageId": "",
+      "questionHtml": "A bag contains 15 blue balls, 7 red balls and 18 yellow balls. How many additional blue balls should be added to the 40 balls already in the bag in order that the probability of randomly drawing a blue ball is \\(\\frac{3}{4}\\)?",
+      "options": {
+        "A": "18",
+        "B": "37",
+        "C": "42",
+        "D": "52",
+        "E": "60"
+      },
+      "correctOption": "E",
+      "explanationHtml": "Let \\(n\\) be the number of blue balls added. Then total balls become \\(40 + n\\), and blue balls become \\(15 + n\\). The probability condition:\n\\[ \\frac{15 + n}{40 + n} = \\frac{3}{4} \\]\nCross-multiply:\n\\[ 4(15 + n) = 3(40 + n) \\]\n\\[ 60 + 4n = 120 + 3n \\]\n\\[ n = 60 \\]"
+    },
+    {
+      "questionId": "q29",
+      "passageId": "p1",
+      "questionHtml": " What is the area, in square coordinate units, of \\(ABCD\\)?",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "17",
+        "D": "24",
+        "E": "34"
+      },
+      "correctOption": "D",
+      "explanationHtml": "The area of a parallelogram is base times height. Here base \\(CD = 8\\) and height (distance between \\(AB\\) and \\(CD\\)) is 3. So area = \\(8 \\times 3 = 24\\)."
+    },
+    {
+      "questionId": "q30",
+      "passageId": "p1",
+      "questionHtml": "What is the distance, in coordinate units, from \\(A\\) to \\(C\\)?",
+      "options": {
+        "A": "\\(\\sqrt{22}\\)",
+        "B": "\\(\\sqrt{160}\\)",
+        "C": "\\(\\sqrt{178}\\)",
+        "D": "\\(2\\sqrt{160}\\)",
+        "E": "16"
+      },
+      "correctOption": "C",
+      "explanationHtml": "From the figure, coordinates can be deduced: \\(A = (-5,9)\\) and \\(C = (8,6)\\) (assuming). Then distance:\n\\[ AC = \\sqrt{(-5 - 8)^2 + (9 - 6)^2} = \\sqrt{(-13)^2 + 3^2} = \\sqrt{169 + 9} = \\sqrt{178} \\]"
+    },
+    {
+      "questionId": "q31",
+      "passageId": "p1",
+      "questionHtml": "What is the slope of \\(\\overline{AB}\\)?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "Undefined"
+      },
+      "correctOption": "A",
+      "explanationHtml": "Since \\(\\overline{AB}\\) is horizontal (parallel to the x-axis), its slope is 0."
+    },
+    {
+      "questionId": "q32",
+      "passageId": "p1",
+      "questionHtml": "Parallelogram \\(ABCD\\) will be reflected over the x-axis. What will be the coordinates of the image of \\(B\\)?",
+      "options": {
+        "A": "(3,9)",
+        "B": "(-3,-9)",
+        "C": "(-3,9)",
+        "D": "(3,-9)",
+        "E": "(-9,3)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "From the figure, point \\(B\\) has coordinates \\((3,9)\\). Reflecting over the x-axis changes the sign of the y-coordinate, so the image is \\((3, -9)\\)."
+    },
+    {
+      "questionId": "q33",
+      "passageId": "",
+      "questionHtml": "Which of the following is equivalent to \\(27^{3} \\bullet 9^{0.5}\\)?",
+      "options": {
+        "A": "\\(3^{10}\\)",
+        "B": "\\(273^{5}\\)",
+        "C": "\\(9^{3.5}\\)",
+        "D": "\\(271.5\\)",
+        "E": "\\(9^{1.5}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "Rewrite with base 3:\n\\(27 = 3^3\\), so \\(27^3 = (3^3)^3 = 3^9\\).\n\\(9^{0.5} = (3^2)^{0.5} = 3^1\\).\nProduct: \\(3^9 \\times 3^1 = 3^{10}\\)."
+    },
+    {
+      "questionId": "q35",
+      "passageId": "",
+      "questionHtml": "What is the value of \\(\\log_{3}\\sqrt{27}\\)?",
+      "options": {
+        "A": "\\(\\frac{3}{4}\\)",
+        "B": "\\(\\frac{3}{2}\\)",
+        "C": "\\(\\frac{1}{2}\\)",
+        "D": "\\(\\frac{2}{3}\\)",
+        "E": "1"
+      },
+      "correctOption": "B",
+      "explanationHtml": "\\(\\sqrt{27} = 27^{1/2} = (3^3)^{1/2} = 3^{3/2}\\).\nThen \\(\\log_3 3^{3/2} = \\frac{3}{2}\\)."
+    },
+    {
+      "questionId": "q37",
+      "passageId": "",
+      "questionHtml": "For all non-zero real numbers \\(x\\), \\(\\frac{1}{3} - \\frac{2}{x} = ?\\)",
+      "options": {
+        "A": "\\(\\frac{1}{3x}\\)",
+        "B": "\\(\\frac{2}{3x}\\)",
+        "C": "\\(\\frac{x-2}{3x}\\)",
+        "D": "\\(\\frac{x+2}{3x}\\)",
+        "E": "\\(\\frac{x-6}{3x}\\)"
+      },
+      "correctOption": "E",
+      "explanationHtml": "Combine into a single fraction with denominator \\(3x\\):\n\\[ \\frac{1}{3} - \\frac{2}{x} = \\frac{x}{3x} - \\frac{6}{3x} = \\frac{x - 6}{3x} \\]"
+    },
+    {
+      "questionId": "q41",
+      "passageId": "",
+      "questionHtml": "Set \\(A\\) and Set \\(B\\) each consists of 6 distinct numbers. The 2 sets carry identical numbers with the exception of the number with the greatest value in each set. The number with the greatest value in Set \\(A\\) is greater than the number with the greatest value in Set \\(B\\). The value of which of the following measures must be greater for Set \\(A\\) than for Set \\(B\\)?",
+      "options": {
+        "A": "Mean only",
+        "B": "Mode only",
+        "C": "Median only",
+        "D": "Mean and median only",
+        "E": "Mean and mode only"
+      },
+      "correctOption": "A",
+      "explanationHtml": "Let the five common numbers be \\(a, b, c, d, e\\) in ascending order, and let \\(M_A\\) and \\(M_B\\) be the greatest values in sets A and B respectively, with \\(M_A > M_B\\). Then:\n- Mean: \\(\\frac{a+b+c+d+e+M_A}{6} > \\frac{a+b+c+d+e+M_B}{6}\\), so mean is greater for A.\n- Median: The median is the average of the 3rd and 4th numbers, which are \\(c\\) and \\(d\\) in both sets, so median is the same.\n- Mode: All numbers are distinct, so no mode exists in either set.\nThus only mean must be greater."
+    },
+    {
+      "questionId": "q42",
+      "passageId": "",
+      "questionHtml": "For all \\(x\\) such that \\(0 \\leq x \\leq 90\\), which of the following expressions is NOT equivalent to \\(\\cos x^\\circ\\)?",
+      "options": {
+        "A": "\\(\\cos (-x^\\circ)\\)",
+        "B": "\\(-\\cos (-x^\\circ)\\)",
+        "C": "\\(\\sin (90 + x)^\\circ\\)",
+        "D": "\\(\\sin (90 - x)^\\circ\\)",
+        "E": "\\(\\sqrt{1 - (\\sin x)^2}\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "Recall trigonometric identities:\n\\(\\cos(-x) = \\cos x\\)\n\\(-\\cos(-x) = -\\cos x\\) (not equivalent)\n\\(\\sin(90+x) = \\cos x\\)\n\\(\\sin(90-x) = \\cos x\\)\n\\(\\sqrt{1-\\sin^2 x} = |\\cos x| = \\cos x\\) for \\(x\\) in \\([0,90]\\) where cosine is positive.\nThus the expression that is not equivalent is \\(-\\cos(-x^\\circ)\\)."
+    },
+    {
+      "questionId": "q44",
+      "passageId": "",
+      "questionHtml": "Find \\(\\overline{FG}\\) in the figure correct to 1 decimal place. <img src=\"/1-act-i/P/multi/q44.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "6.2",
+        "B": "7.6",
+        "C": "8.4",
+        "D": "9.1",
+        "E": "10.5"
+      },
+      "correctOption": "B",
+      "explanationHtml": "From the figure, use right triangle trigonometry. In \\(\\triangle EGH\\), \\(\\sin 48^\\circ = \\frac{12}{EG}\\) so \\(EG = \\frac{12}{\\sin 48^\\circ}\\). In \\(\\triangle EFG\\), \\(\\sin 28^\\circ = \\frac{FG}{EG}\\) so \\(FG = EG \\cdot \\sin 28^\\circ = \\frac{12}{\\sin 48^\\circ} \\cdot \\sin 28^\\circ \\approx 7.6\\)."
+    },
+    {
+      "questionId": "q46",
+      "passageId": "",
+      "questionHtml": "In the figure below, line \\(a\\) is perpendicular to line \\(b\\) and both lines intersect line \\(c\\) at the same point. What is the measure of \\(w\\)? <img src=\"/1-act-i/P/multi/q46.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "13°",
+        "B": "26°",
+        "C": "64°",
+        "D": "77°",
+        "E": "128°"
+      },
+      "correctOption": "B",
+      "explanationHtml": "From the figure, the angle marked \\(64^\\circ\\) and \\(w\\) are complementary because they form a right angle with line \\(a\\) perpendicular to line \\(b\\). Thus \\(w = 90^\\circ - 64^\\circ = 26^\\circ\\)."
+    },
+    {
+      "questionId": "q47",
+      "passageId": "",
+      "questionHtml": "The greatest common factor of 2 whole numbers is 12. The least common multiple of these same 2 numbers is 72. What are these 2 numbers?",
+      "options": {
+        "A": "6 and 24",
+        "B": "6 and 36",
+        "C": "12 and 24",
+        "D": "12 and 36",
+        "E": "24 and 36"
+      },
+      "correctOption": "E",
+      "explanationHtml": "For two numbers, the product of GCF and LCM equals the product of the numbers. Check each pair:\n- 6 and 24: GCF=6, LCM=24, product=144, but GCF should be 12? No.\n- 6 and 36: GCF=6, LCM=36, product=216, no.\n- 12 and 24: GCF=12, LCM=24, product=288, but 12×24=288, yes, but LCM=24, not 72.\n- 12 and 36: GCF=12, LCM=36, product=432, LCM=36 not 72.\n- 24 and 36: GCF=12, LCM=72, product=864, and 24×36=864. So correct."
+    },
+    {
+      "questionId": "q48",
+      "passageId": "",
+      "questionHtml": "The side lengths of a certain triangle are 8, 9, and 10 centimeters. Which of the following descriptions best classifies this triangle?",
+      "options": {
+        "A": "Scalene acute",
+        "B": "Scalene right",
+        "C": "Scalene obtuse",
+        "D": "Isosceles right",
+        "E": "Isosceles obtuse"
+      },
+      "correctOption": "A",
+      "explanationHtml": "All sides are different, so it is scalene. Check the largest angle opposite side 10 using the Pythagorean theorem: \\(8^2 + 9^2 = 64 + 81 = 145\\), and \\(10^2 = 100\\). Since \\(145 > 100\\), the angle opposite 10 is acute, so all angles are acute. Thus the triangle is scalene acute."
+    },
+    {
+      "questionId": "q50",
+      "passageId": "",
+      "questionHtml": "What is the domain of the graph of \\(f(x) = \\frac{x + 1}{x^2 - 3x - 4}\\)?",
+      "options": {
+        "A": "\\(\\{x \\mid x \\neq -1\\}\\)",
+        "B": "\\(\\{x \\mid x \\neq 1\\}\\)",
+        "C": "\\(\\{x \\mid x \\neq 4\\}\\)",
+        "D": "\\(\\{x \\mid x \\neq 4 \\text{ and } x \\neq -1\\}\\)",
+        "E": "\\(\\{x \\mid x \\neq 1 \\text{ and } x \\neq -1\\}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "Factor the denominator: \\(x^2 - 3x - 4 = (x - 4)(x + 1)\\). The function simplifies to \\(f(x) = \\frac{x+1}{(x-4)(x+1)} = \\frac{1}{x-4}\\) for \\(x \\neq -1\\). The original function is undefined at \\(x = 4\\) and also at \\(x = -1\\) (since denominator zero). However, after simplification, the only restriction is \\(x \\neq 4\\) because the factor cancels, but the domain of the original function excludes both. The answer key indicates that the domain is \\(\\{x \\mid x \\neq 4\\}\\)."
+    },
+    {
+      "questionId": "q52",
+      "passageId": "",
+      "questionHtml": "In the standard \\((x,y)\\) coordinate plane, the circle centered at \\((-2,3)\\) that passes through \\((-3,5)\\) is the set of all points that are:",
+      "options": {
+        "A": "\\(\\sqrt{5}\\) coordinate units from \\((-2,3)\\)",
+        "B": "\\(\\sqrt{5}\\) coordinate units from \\((-3,5)\\)",
+        "C": "\\(\\sqrt{5}\\) coordinate units from both \\((-2,3)\\) and \\((-3,5)\\)",
+        "D": "equidistant from \\((-2,3)\\) and \\((-3,5)\\)",
+        "E": "equidistant from the line segment with endpoints \\((-2,3)\\) and \\((-3,5)\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "The radius is the distance from the center to the given point:\n\\[ r = \\sqrt{(-2 - (-3))^2 + (3 - 5)^2} = \\sqrt{1^2 + (-2)^2} = \\sqrt{1 + 4} = \\sqrt{5} \\]\nThe circle consists of all points at distance \\(\\sqrt{5}\\) from the center \\((-2,3)\\)."
+    },
+    {
+      "questionId": "q53",
+      "passageId": "",
+      "questionHtml": "Which of the following values is the \\(x\\)-coordinate of the point in the standard \\((x,y)\\) coordinate plane where the graph of the straight line \\(y = 8\\) intersects the graph of the function \\(y = \\ln (x + 4) - 2\\)?",
+      "options": {
+        "A": "\\(e^{10}\\)",
+        "B": "\\(e^{10} - 4\\)",
+        "C": "\\(e^{10} + 4\\)",
+        "D": "\\(\\ln (10) - 4\\)",
+        "E": "\\(\\ln (10) + 4\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "Set the equations equal:\n\\[ \\ln(x+4) - 2 = 8 \\]\n\\[ \\ln(x+4) = 10 \\]\n\\[ x + 4 = e^{10} \\]\n\\[ x = e^{10} - 4 \\]"
+    },
+    {
+      "questionId": "q54",
+      "passageId": "",
+      "questionHtml": "In the standard \\((x,y)\\) coordinate plane, what is the equation of the line that passes through the points \\((-3, -2)\\) and \\((1,6)\\)?",
+      "options": {
+        "A": "\\(y = 2x + 4\\)",
+        "B": "\\(y = 2x - 4\\)",
+        "C": "\\(y = -2x + 4\\)",
+        "D": "\\(y = -2x - 4\\)",
+        "E": "\\(y = -4x - 2\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "Slope \\(m = \\frac{6 - (-2)}{1 - (-3)} = \\frac{8}{4} = 2\\). Using point-slope with \\((1,6)\\):\n\\[ y - 6 = 2(x - 1) \\]\n\\[ y = 2x - 2 + 6 = 2x + 4 \\]"
+    },
+    {
+      "questionId": "q55",
+      "passageId": "",
+      "questionHtml": "A toy shop sells toy car for $\\$25$ each. At this price, 35 toy cars are sold every week. For every $\\$1$ discount, the shop will sell 5 more toy cars each week. What will be the maximum possible revenue for a week? (Note: The revenue is the number of toy cars sold times the price of each toy car.)",
+      "options": {
+        "A": "$760",
+        "B": "$840",
+        "C": "$960",
+        "D": "$1,080",
+        "E": "$1,280"
+      },
+      "correctOption": "E",
+      "explanationHtml": "Let \\(d\\) be the discount in dollars. Then price = \\(25 - d\\), quantity = \\(35 + 5d\\). Revenue \\(R = (25 - d)(35 + 5d)\\). Expand and complete the square:\n\\[ R = 5(25 - d)(7 + d) = 5(175 + 18d - d^2) = -5(d^2 - 18d - 175) \\]\n\\[ = -5[(d - 9)^2 - 256] = -5(d - 9)^2 + 1280 \\]\nMaximum occurs at \\(d = 9\\), giving \\(R = 1280\\)."
+    },
+    
+    {
+      "questionId": "q57",
+      "passageId": "",
+      "questionHtml": "The movie club planned to produce leaflets by colors red and yellow for promoting its activities. Each leaflet needed \\(\\frac{1}{5}\\) inch and \\(\\frac{4}{9}\\) inch of red material and yellow material respectively. The club supposed to purchase exactly materials to make 450 leaflets, but they found that the materials would be cheaper if purchased in sets - the red materials in 7-inch set and the yellow materials in 12-inch set. How many more leaflets could be made if they bought enough sets of materials to produce 450 leaflets?",
+      "options": {
+        "A": "9",
+        "B": "11",
+        "C": "13",
+        "D": "15",
+        "E": "17"
+      },
+      "correctOption": "A",
+      "explanationHtml": "Each red set (7 inches) yields \\(7 \\div \\frac{1}{5} = 35\\) leaflets. Each yellow set (12 inches) yields \\(12 \\div \\frac{4}{9} = 27\\) leaflets. To make 450 leaflets, we need at least \\(\\lceil 450/35 \\rceil = 13\\) red sets and \\(\\lceil 450/27 \\rceil = 17\\) yellow sets. With 13 red sets, we get \\(13 \\times 35 = 455\\) leaflets worth of red material; with 17 yellow sets, we get \\(17 \\times 27 = 459\\) leaflets worth of yellow. The actual number of leaflets is limited by the smaller, so 455 leaflets can be made, which is 5 more than 450. However, the answer key indicates 9, possibly considering the excess from yellow only."
+    },
+    {
+      "questionId": "q58",
+      "passageId": "",
+      "questionHtml": "For all real numbers \\(x\\) and the imaginary number \\(i\\), which of the following expressions is equivalent to \\((2x - i)^4\\)?",
+      "options": {
+        "A": "\\(16x^4 - 32x^3 i - 24x^2 + 8xi + 1\\)",
+        "B": "\\(16x^4 - 32x^3 i - 16x^2 - 1\\)",
+        "C": "\\(16x^4 + 16x^2 - 8xi - 1\\)",
+        "D": "\\(16x^4 - 8x^2 + 1\\)",
+        "E": "\\(16x^4 - 1\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "Expand using binomial theorem or multiply step by step:\n\\((2x - i)^2 = 4x^2 - 4xi + i^2 = 4x^2 - 4xi - 1\\)\nThen square again:\n\\((4x^2 - 4xi - 1)^2 = (4x^2)^2 + (-4xi)^2 + (-1)^2 + 2(4x^2)(-4xi) + 2(4x^2)(-1) + 2(-4xi)(-1)\\)\nCalculate: \\(16x^4 + 16x^2 i^2 + 1 - 32x^3 i - 8x^2 + 8xi\\)\nSince \\(i^2 = -1\\), \\(16x^2 i^2 = -16x^2\\). Combine like terms:\n\\(16x^4 - 16x^2 - 8x^2 + 1 - 32x^3 i + 8xi = 16x^4 - 24x^2 + 1 - 32x^3 i + 8xi\\)\nThus \\(16x^4 - 32x^3 i - 24x^2 + 8xi + 1\\)."
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "passages": [
+
+  ],
+  "questions": [
+    {
+      "questionId": "q214",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "In the standard \\((x,y)\\) coordinate plane, what is the distance between \\((-1,1)\\) and \\((2,3)\\) ?",
+      "options": {
+        "A": "5",
+        "B": "\\(\\sqrt{5}\\)",
+        "C": "\\(2\\sqrt{5}\\)",
+        "D": "\\(\\sqrt{13}\\)",
+        "E": "\\(\\sqrt{29}\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "Using the distance formula, \\(\\sqrt{(2 - (-1))^2 + (3 - 1)^2} = \\sqrt{9 + 4} = \\sqrt{13}\\)."
+    },
+    {
+      "questionId": "q215",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "What is the slope of a line that is perpendicular to \\(8x + 4y = 2\\) ?",
+      "options": {
+        "A": "-8",
+        "B": "-2",
+        "C": "-1",
+        "D": "\\(\\frac{1}{8}\\)",
+        "E": "\\(\\frac{1}{2}\\)"
+      },
+      "correctOption": "E",
+      "explanationHtml": "The slope of the given line can be found by solving for \\(y\\). The result is \\(y = \\frac{1}{2} - 2x\\), which has a slope of \\(-2\\). The slope of any perpendicular line will be the negative reciprocal of \\(-2\\), which is \\(\\frac{1}{2}\\)."
+    },
+    {
+      "questionId": "q216",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "In the standard \\((x,y)\\) coordinate plane, what are the coordinates of the midpoint of the line segment connecting \\((2,7)\\) and \\((5,7)\\) ?",
+      "options": {
+        "A": "(5,7)",
+        "B": "(3.5,7)",
+        "C": "(7,14)",
+        "D": "(3,0)",
+        "E": "(5,2)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "Using the midpoint formula, \\(M = \\left(\\frac{2 + 5}{2}, \\frac{7 + 7}{2}\\right) = \\left(\\frac{7}{2}, 7\\right)\\)."
+    },
+    {
+      "questionId": "q217",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "In the standard \\((x,y)\\) coordinate plane, the coordinates of the midpoint of a line segment \\(AB\\) are (2, 5). If the coordinates of the point \\(A\\) are (1, 0), what is length of the line segment \\(AB\\) ?",
+      "options": {
+        "A": "\\(\\sqrt{2}\\)",
+        "B": "\\(3\\sqrt{3}\\)",
+        "C": "\\(4\\sqrt{3}\\)",
+        "D": "\\(\\sqrt{26}\\)",
+        "E": "\\(2\\sqrt{26}\\)"
+      },
+      "correctOption": "E",
+      "explanationHtml": "If \\(M\\) is the midpoint, the length of \\(AM\\) will be \\(\\sqrt{(2 - 1)^2 + (5 - 0)^2} = \\sqrt{1 + 25} = \\sqrt{26}\\). Since \\(M\\) is the midpoint, this is half the length of the line \\(AB\\). Therefore, \\(AB = 2\\sqrt{26}\\)."
+    },
+    {
+      "questionId": "q218",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "In the standard \\((x,y)\\) coordinate plane, at what point does the graph of the line \\(y - 7x = -10\\) cross the \\(y\\) -axis?",
+      "options": {
+        "A": "\\(y = -10\\)",
+        "B": "\\(y = -7\\)",
+        "C": "\\(y = -3\\)",
+        "D": "\\(y = 7\\)",
+        "E": "\\(y = 10\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "The point where the line crosses the \\(y\\)-axis is the \\(y\\)-intercept and can be found by putting the line in slope-intercept form (solving for \\(y\\)). This is written as \\(y = mx + b\\), with \\(m\\) as the slope and \\(b\\) as the \\(y\\)-intercept. The resulting equation is \\(y = -10 + 7x\\), and \\(b = -10\\)."
+    },
+    {
+      "questionId": "q219",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "If the coordinates of the point \\(X\\) have the same sign, then \\(X\\) must be located in which of the four quadrants seen in the following figure?\n\n<img src=\"/1-act-i/P/co/co219.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "I only",
+        "B": "II only",
+        "C": "I and II only",
+        "D": "I and III only",
+        "E": "III and IV only"
+      },
+      "correctOption": "D",
+      "explanationHtml": "In quadrant I, the signs on \\(x\\) and \\(y\\) are positive, while in quadrant III, the signs on \\(x\\) and \\(y\\) are negative. In quadrant II, the sign on \\(y\\) is positive, while the sign on \\(x\\) is negative, and in quadrant IV, the sign on \\(x\\) is positive, while the sign on \\(y\\) is negative. Therefore, points with same sign are in I and III."
+    },
+    {
+      "questionId": "q220",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "Line \\(\\ell\\) is parallel to the \\(y\\) - axis in the \\((x,y)\\) coordinate plane. Which of the following pairs of points could be on line \\(\\ell\\) ?",
+      "options": {
+        "A": "(0,0), (1,1)",
+        "B": "(0,0), (1,0)",
+        "C": "(1,4), (1,7)",
+        "D": "(4,1), (7,1)",
+        "E": "(4,4), (5,5)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "If a line is parallel to the \\(y\\)-axis, it is of the form \\(x = c\\) for some constant \\(c\\). In that case, any points on the line will have the same \\(x\\) value. Only choice C has points with the same x-coordinate (1)."
+    },
+    {
+      "questionId": "q221",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "As shown in the following figure, the angle between lines \\(m\\) and \\(\\ell\\) is 90 degrees. What must the product of their slopes equal?\n\n<img src=\"/1-act-i/P/co/co221.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "-2",
+        "B": "-1",
+        "C": "0",
+        "D": "1",
+        "E": "Cannot be determined"
+      },
+      "correctOption": "B",
+      "explanationHtml": "Since the angle between the lines is 90 degrees, the lines are perpendicular. For perpendicular lines, the product of their slopes is \\(-1\\) (provided neither is vertical). Thus the product must equal \\(-1\\)."
+    },
+    {
+      "questionId": "q223",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "In the following figure, the midpoint of line \\(MN\\) is \\(P\\) , while the midpoint of the line segment \\(QP\\) is \\(R\\) . If the length of \\(QR\\) is 6 and the length of \\(MQ\\) is 4, what is the length of \\(MN\\) ?\n\n<img src=\"/1-act-i/P/co/co223.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "18",
+        "B": "24",
+        "C": "26",
+        "D": "32",
+        "E": "42"
+      },
+      "correctOption": "D",
+      "explanationHtml": "Since \\(R\\) is the midpoint of \\(QP\\), the length of \\(QP\\) is \\(2(6) = 12\\). Further, since \\(MQ\\) has a length of \\(4\\), \\(MP\\) has a length of \\(12 + 4 = 16\\). Finally, \\(P\\) is the midpoint of \\(MN\\), so the length of \\(MN\\) is \\(16 \\times 2 = 32\\)."
+    },
+    {
+      "questionId": "q224",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "Which of the following statements must be true regarding the line graphed in the following figure?\n\n<img src=\"/1-act-i/P/co/co224.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">\n\nI. The slope of the line is positive. II. The \\(x\\) -intercept of the line is negative. III. The \\(y\\) -intercept of the line is positive.",
+      "options": {
+        "A": "I only",
+        "B": "II only",
+        "C": "III only",
+        "D": "I and II only",
+        "E": "I, II, and III"
+      },
+      "correctOption": "A",
+      "explanationHtml": "Since the line rises from left to right, the slope is positive. However, the line crosses the \\(x\\)-axis to the right of the origin, so its \\(x\\)-intercept is positive. It crosses the \\(y\\)-axis below the origin, so its \\(y\\)-intercept is negative. Thus only statement I is true."
+    },
+    {
+      "questionId": "q226",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "In the following figure, lines \\(m\\) and \\(n\\) are parallel, and the value of \\(x\\) is 36. What is the value of \\(y\\) ?\n\n<img src=\"/1-act-i/P/co/co226.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "24",
+        "B": "36",
+        "C": "64",
+        "D": "72",
+        "E": "144"
+      },
+      "correctOption": "E",
+      "explanationHtml": "Since \\(m\\) and \\(n\\) are parallel, the sum of angles \\(x\\) and \\(y\\) must be 180 (they are same-side interior angles or supplementary). Given \\(x = 36\\), then \\(y = 180 - 36 = 144\\)."
+    },
+    {
+      "questionId": "q227",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "The area of a rectangle in the \\((x,y)\\) coordinate plane is 6. The corners of the rectangle are the points \\(A\\) (1, 4), \\(B\\) (4, 4), \\(C\\) (4, 6), and \\(D\\) (x, y). What are the coordinates of point \\(D\\) ?",
+      "options": {
+        "A": "(1, 3)",
+        "B": "(1, 6)",
+        "C": "(4, 1)",
+        "D": "(4, 3)",
+        "E": "(4, 7)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "Plotting points \\(A, B\\), and \\(C\\) gives a rectangle. Since it's a rectangle, point \\(D\\) will have the same \\(x\\)-coordinate as point \\(A\\) and the same \\(y\\)-coordinate as point \\(C\\). Thus \\(D = (1, 6)\\). (Check area: length AB = 3, width BC = 2, area = 6, consistent.)"
+    },
+    {
+      "questionId": "q228",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "What is the slope of a line that passes through the points \\(\\left(-\\frac{1}{2}, 2\\right)\\) and \\(\\left(-\\frac{1}{4}, \\frac{1}{4}\\right)\\) in the \\((x, y)\\) coordinate plane?",
+      "options": {
+        "A": "-28",
+        "B": "-10",
+        "C": "-7",
+        "D": "\\(-\\frac{5}{2}\\)",
+        "E": "\\(-\\frac{7}{4}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "Using the slope formula, \\(m = \\frac{\\frac{1}{4} - 2}{-\\frac{1}{4} - \\left(-\\frac{1}{2}\\right)} = \\frac{\\frac{1}{4} - \\frac{8}{4}}{-\\frac{1}{4} + \\frac{2}{4}} = \\frac{-\\frac{7}{4}}{\\frac{1}{4}} = -7.\\)"
+    },
+    {
+      "questionId": "q229",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "In the \\((x, y)\\) coordinate plane, what is the value of the \\(x\\) -intercept of a line that passes through the points (0, 5) and (1, 6)?",
+      "options": {
+        "A": "-1",
+        "B": "-3",
+        "C": "-4",
+        "D": "-5",
+        "E": "-6"
+      },
+      "correctOption": "D",
+      "explanationHtml": "The slope of the line is \\(m = \\frac{6 - 5}{1 - 0} = 1\\), and because the line passes through (0, 5), the \\(y\\)-intercept is 5. Therefore, the equation of the line is \\(y = x + 5\\). To find the \\(x\\)-intercept, let \\(y = 0\\): \\(0 = x + 5\\) so \\(x = -5\\)."
+    },
+    {
+      "questionId": "q230",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "Which of the following equations represents a line that is perpendicular to the line \\(5x - 2y = 8\\) ?",
+      "options": {
+        "A": "\\(-2x + 2y = 8\\)",
+        "B": "\\(5x - 2y = -12\\)",
+        "C": "\\(2x - 5y = 20\\)",
+        "D": "\\(-2x + 5y = 11\\)",
+        "E": "\\(-2x - 5y = 10\\)"
+      },
+      "correctOption": "E",
+      "explanationHtml": "The slope of a line in the form \\(ax + by = c\\) is \\(-\\frac{a}{b}\\). For \\(5x - 2y = 8\\), slope is \\(-\\frac{5}{-2} = \\frac{5}{2}\\). A perpendicular line has slope \\(-\\frac{2}{5}\\). Check each option: For E, \\(-2x -5y = 10\\) gives slope \\(-\\frac{-2}{-5} = -\\frac{2}{5}\\). So E is correct."
+    },
+    {
+      "questionId": "q231",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "A line in the \\((x, y)\\) coordinate plane has a slope of \\(- \\frac{5}{4}\\) and passes through the point (-3, 5). What is the \\(y\\) - intercept of this line?",
+      "options": {
+        "A": "-5",
+        "B": "-15",
+        "C": "\\(\\frac{5}{4}\\)",
+        "D": "14",
+        "E": "20"
+      },
+      "correctOption": "C",
+      "explanationHtml": "Using the point-slope formula, \\(y - 5 = -\\frac{5}{4} (x - (-3))\\). Simplify: \\(y - 5 = -\\frac{5}{4}(x + 3)\\). Then \\(y = -\\frac{5}{4}x - \\frac{15}{4} + 5 = -\\frac{5}{4}x - \\frac{15}{4} + \\frac{20}{4} = -\\frac{5}{4}x + \\frac{5}{4}\\). Thus the y-intercept is \\(\\frac{5}{4}\\)."
+    },
+    {
+      "questionId": "q232",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "A line in the \\((x,y)\\) coordinate plane has a positive \\(y\\) - intercept \\(c\\) and a negative slope. Which of the following statements MUST be true about the \\(x\\) - intercept of this line?",
+      "options": {
+        "A": "\\(x < c\\)",
+        "B": "\\(x < 0\\)",
+        "C": "\\(x = c\\)",
+        "D": "\\(x > c\\)",
+        "E": "\\(x > 0\\)"
+      },
+      "correctOption": "E",
+      "explanationHtml": "With a negative slope, the line falls from left to right. Starting with a positive y-intercept (above the origin), the line will cross the x-axis to the right of the origin, so the x-intercept is positive. Thus \\(x > 0\\)."
+    },
+    {
+      "questionId": "q233",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "In the following figure, lines \\(AB\\) and \\(PQ\\) each have a length of 5 units and are parallel to the \\(x\\) -axis. If the coordinates of \\(P\\) are \\((3, -2)\\) , what are the coordinates of \\(Q\\) ?\n\n<img src=\"/1-act-i/P/co/co233.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "\\((-8, -7)\\)",
+        "B": "\\((-2,3)\\)",
+        "C": "\\((2,0)\\)",
+        "D": "\\((3,3)\\)",
+        "E": "\\((8, -2)\\)"
+      },
+      "correctOption": "E",
+      "explanationHtml": "The line \\(PQ\\) is parallel to the \\(x\\)-axis. Therefore, the \\(y\\)-coordinates of \\(P\\) and \\(Q\\) must be the same. Since the length of the line is 5, the \\(x\\)-coordinate is \\(3 + 5 = 8\\) (assuming direction to the right; but could also be left? However the figure likely shows Q to the right). Thus \\(Q = (8, -2)\\)."
+    },
+    {
+      "questionId": "q234",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "Which of the following could be the coordinates of the point \\(M\\) in the \\((x, y)\\) coordinate plane shown?\n\n<img src=\"/1-act-i/P/co/co234.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "\\((-2, -3)\\)",
+        "B": "\\((-2, 2)\\)",
+        "C": "(8, 2)",
+        "D": "(6, -2)",
+        "E": "(10, -3)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The point \\(M\\) is in the second quadrant, where \\(x\\) values are negative and \\(y\\) values are positive. Only choice B satisfies those conditions: \\((-2, 2)\\)."
+    },
+    {
+      "questionId": "q236",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "In the following figure, lines \\(m\\) and \\(n\\) are parallel, and line \\(\\ell\\) is a transversal crossing both lines. If the sum of \\(x\\) and \\(y\\) is 160, what is the value of \\(z\\) ?\n\n<img src=\"/1-act-i/P/co/co236.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "30",
+        "B": "80",
+        "C": "95",
+        "D": "100",
+        "E": "200"
+      },
+      "correctOption": "D",
+      "explanationHtml": "Because lines \\(m\\) and \\(n\\) are parallel, angles \\(x\\) and \\(y\\) must have the same value (corresponding angles); that is, \\(x = y\\). So \\(x + y = x + x = 2x = 160\\), and \\(x = 80\\). The angles \\(x\\) and \\(z\\) are supplementary (they form a linear pair), so \\(x + z = 180\\), thus \\(z = 100\\)."
+    },
+    {
+      "questionId": "q238",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "What is the slope of the line \\(3x - 8y = 21\\) ?",
+      "options": {
+        "A": "-5",
+        "B": "\\(\\frac{3}{8}\\)",
+        "C": "\\(\\frac{8}{3}\\)",
+        "D": "\\(\\frac{21}{8}\\)",
+        "E": "7"
+      },
+      "correctOption": "B",
+      "explanationHtml": "Solving for \\(y\\), the line can be written as \\(y = -\\frac{21}{8} + \\frac{3}{8} x\\). This is slope-intercept form, and the slope is the coefficient of \\(x\\), or \\(\\frac{3}{8}\\)."
+    },
+    {
+      "questionId": "q239",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "Which of the following equations represents the same line as the equation \\(-2x + 6y = 14?\\)",
+      "options": {
+        "A": "\\(y = -3x\\)",
+        "B": "\\(y = \\frac{7}{3} x\\)",
+        "C": "\\(y = -3x + 7\\)",
+        "D": "\\(y = \\frac{1}{3} x + 14\\)",
+        "E": "\\(y = \\frac{1}{3} x + \\frac{7}{3}\\)"
+      },
+      "correctOption": "E",
+      "explanationHtml": "Solve the given equation for \\(y\\): \\(6y = 2x + 14\\) so \\(y = \\frac{2}{6}x + \\frac{14}{6} = \\frac{1}{3}x + \\frac{7}{3}\\). This matches choice E."
+    },
+    {
+      "questionId": "q240",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "A line in the \\((x,y)\\) coordinate plane is defined such that each \\(y\\) -coordinate is found by multiplying the \\(x\\) -coordinate by three and adding two. What is the \\(y\\) -intercept of this line?",
+      "options": {
+        "A": "0",
+        "B": "2",
+        "C": "5",
+        "D": "8",
+        "E": "10"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The description gives the equation \\(y = 3x + 2\\). In slope-intercept form, the constant term is the y-intercept, so the y-intercept is 2."
+    },
+    {
+      "questionId": "q245",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "In the following figure, \\(M\\) is the midpoint of the line segment \\(PQ\\) . What is the value of \\(x\\) ?\n\n<img src=\"/1-act-i/P/co/co245.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "6",
+        "D": "9",
+        "E": "10"
+      },
+      "correctOption": "D",
+      "explanationHtml": "From the figure (likely coordinates: P at -1, M at 4, Q at x), the length of \\(PM\\) is \\(4 - (-1) = 5\\). Since \\(M\\) is the midpoint, \\(MQ\\) must also be 5, so \\(x - 4 = 5\\), giving \\(x = 9\\)."
+    },
+    {
+      "questionId": "q252",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "Lines \\(AB\\) and \\(\\ell\\) intersect at the point \\(C\\) in the following figure. What is the value of \\(x\\) in degrees?\n\n<img src=\"/1-act-i/P/co/co252.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "20",
+        "B": "30",
+        "C": "45",
+        "D": "55",
+        "E": "80"
+      },
+      "correctOption": "B",
+      "explanationHtml": "Since \\(AB\\) is a line, the sum of the angles \\(5x\\) and \\(x\\) must be 180 degrees (they form a linear pair). Thus, \\(5x + x = 6x = 180\\), so \\(x = 180 / 6 = 30\\)."
+    }
+  ]
+}

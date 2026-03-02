@@ -145,14 +145,14 @@ export const sections: Section[] = [
         practiceLevels: [
           {
             level: 1,
-            title: "Shapes & Angles",
+            title: "Shapes and Angles",
             description: "Basic properties and measurements.",
             color: "green",
           },
           {
             level: 2,
-            title: "Triangles & Circles",
-            description: "Congruence, similarity, and circle theorems.",
+            title: "Circles",
+            description: "Arcs, sectors, and properties of circles.",
             color: "yellow",
           },
           {
@@ -174,7 +174,7 @@ export const sections: Section[] = [
           },
           {
             level: 2,
-            title: "Ratios & Proportions",
+            title: "Ratios and Proportions",
             description: "Rates, percentages, and scale factors.",
             color: "yellow",
           },
@@ -189,23 +189,24 @@ export const sections: Section[] = [
       {
         name: "Statistics and Probability",
         practiceLevels: [
+          
           {
             level: 1,
-            title: "Data Displays",
-            description: "Read and interpret graphs and tables.",
-            color: "green",
-          },
-          {
-            level: 2,
-            title: "Central Tendency",
+            title: "Statistical Measures",
             description: "Mean, median, mode, and range.",
             color: "yellow",
           },
           {
-            level: 3,
+            level: 2,
             title: "Probability Models",
             description: "Compound events and expected value.",
             color: "red",
+          },
+          {
+            level: 3,
+            title: "Sequences and Series",
+            description: "Arithmetic and geometric sequences.",
+            color: "green",
           },
         ],
       },
@@ -214,19 +215,19 @@ export const sections: Section[] = [
         practiceLevels: [
           {
             level: 1,
-            title: "Multi‑Step Problems",
+            title: "Multi step Problems",
             description: "Combine basic operations in context.",
             color: "green",
           },
           {
             level: 2,
-            title: "Word Problems",
+            title: "Word problems",
             description: "Translate real‑world situations into math.",
             color: "yellow",
           },
           {
             level: 3,
-            title: "Mixed Applications",
+            title: "Rates and percentages",
             description: "Solve problems requiring multiple skills.",
             color: "red",
           },
