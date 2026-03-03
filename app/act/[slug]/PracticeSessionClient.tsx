@@ -238,10 +238,11 @@ export default function PracticeSessionClient({
           <div className="grid md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-[#E2E8F0] flex-1">
             {/* LEFT COLUMN */}
             <div
-              className={`p-6 overflow-y-auto ${
+              className={`md:p-6 px-3 py-3 overflow-y-auto ${
                 hasPassage ? "bg-[#F7F9FC]/50" : "bg-white"
               }`}
               ref={hasPassage ? passageRef : null}
+              
             >
               {hasPassage ? (
                 // Passage content

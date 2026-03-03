@@ -1,0 +1,136 @@
+{
+  "passages": [
+    {
+      "passageId": "p4",
+      "passageHtml": "<div style=\"overflow-x: auto; max-width: 100%;\"><p style=\"margin:0; padding:0; white-space:nowrap; font-size:clamp(3px, 2.5vw, 15px); line-height:1.4;\"> [1] I was born a slave on a plantation in Franklin County,<br> Virginia. I am not quite sure of the exact place or exact<br> date of my birth, but at any rate I suspect I must have<br> been born somewhere between 1858 and 1860. The earliest<br> [5] impressions I can now recall are of the plantation and<br> the slave quarters—the latter being the part of the<br> plantation where the slaves had their cabins.<br> <br> My life had its beginning in the midst of the most<br> miserable, desolate, and discouraging surroundings. This<br> [10] was so, however, not because my owners were especially<br> cruel, for they were not, but on account of the system of<br> slavery itself. Our cabin had but one large room, in which<br> both the family and the cooking were done. There was no<br> floor except the bare earth. Our beds were made of pine<br> [15] straw or the husks of Indian corn. Sometimes a family<br> would have a mattress of corn husks, but the majority slept<br> on the floor. In the winter time we slept as near to the<br> fireplace as possible, and we would often wake up in the<br> morning covered with ashes.<br> <br> [20] During the period that I spent in slavery I was not<br> large enough to be of much service, still I was occupied<br> most of the time in cleaning the yards, carrying water to<br> the men in the fields, or such other light work as a child<br> could do. I was never sent to school during slavery. In<br> [25] fact, there was no school for the coloured people in that<br> section, and the law forbade the teaching of slaves to<br> read. But somehow I got the feeling that to get into a<br> schoolhouse and study in this way would be about the same<br> as getting into paradise.<br> <br> [30] The thing that made the greatest impression upon me<br> during my early boyhood was the joy and happiness that came<br> to the slaves when they learned that they were to be set<br> free. The news was brought to us one morning, and the whole<br> plantation seemed to be in a state of wild excitement.<br> <br> [35] Some of the slaves danced, some sang, some laughed, some<br> cried. My mother, who was a cook in the big house, came<br> running out to tell us the great news. We children did not<br> fully understand what it all meant, but we caught the<br> spirit of rejoicing.<br> <br> [40] After the freedom came, my mother moved the family to<br> Malden, West Virginia, where there was a salt furnace and<br> coal mine. There I went to work in the salt furnace at a<br> very early age. My task was to pack salt in barrels, and<br> for every hundred pounds I packed I received a certain<br> [45] amount of pay. But I was anxious to get an education. I had<br> heard of the Hampton Normal and Agricultural Institute in<br> Virginia, a school where coloured youth could study and<br> work their way through. I determined to go there.<br> <br> After walking and begging rides for several hundred<br> [50] miles, I reached Hampton with only fifty cents in my<br> pocket. I presented myself to the head teacher for<br> admission. She looked me over and, seeing that I was ragged<br> and dirty from the journey, gave me a test. She handed me a<br> broom and told me to sweep the recitation room. I swept it<br> [55] three times and dusted every piece of furniture. When she<br> inspected it, she said, \"I guess you will do to enter this<br> institution.\" That was my entrance examination.<br> <br> At Hampton I found that industrial education was<br> combined with academic training. Each student was required<br> [60] to work at some trade or occupation part of the day. I was<br> assigned to the kitchen at first, but later learned the<br> brickmaking trade and other useful skills. The school<br> taught us not only book knowledge but also cleanliness,<br> order, system, and the dignity of labour. These lessons<br> [65] have stayed with me through life. Hampton gave me a new<br> vision of what education could mean for my people—to lift<br> them up through self-help, industry, and usefulness rather<br> than through agitation or complaint.<br> </div>"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q1",
+      "passageId": "p4",
+      "passageHighlight": "",
+      "questionHtml": "<p>The overall tone of the passage can best be described as a combination of:</p>",
+      "options": {
+        "A": "Bitter and resentful.",
+        "B": "Humorous and lighthearted.",
+        "C": "Reflective and determined.",
+        "D": "Academic and detached."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Washington reflects on his difficult past ('miserable, desolate' surroundings) without bitterness, but with a clear purpose. His narrative of overcoming obstacles to get an education and his final vision for his people reveal a tone that is both thoughtfully reflective and firmly determined.</p>"
+    },
+    {
+      "questionId": "q2",
+      "passageId": "p4",
+      "passageHighlight": "",
+      "questionHtml": "<p>The passage marks a significant shift in focus from:</p>",
+      "options": {
+        "A": "A description of slavery's hardships to a criticism of his former owners.",
+        "B": "A depiction of life during and just after slavery to a narration of his journey toward and experience with education.",
+        "C": "An account of his family history to a detailed explanation of the salt packing industry.",
+        "D": "A story of his time at Hampton Institute to a reflection on his childhood ambitions."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The first half of the passage (lines 1-39) focuses on his life as a slave and the immediate aftermath of freedom. The second half (line 40 onwards) shifts to his post-emancipation life, his desire for an education, and his experiences at the Hampton Institute.</p>"
+    },
+    {
+      "questionId": "q3",
+      "passageId": "p4",
+      "passageHighlight": "",
+      "questionHtml": "<p>The author includes the head teacher's statement, \"I guess you will do to enter this institution\" (lines 56-57), mainly to:</p>",
+      "options": {
+        "A": "Show that the teacher was reluctant to admit him.",
+        "B": "Emphasize that his practical skills and effort were valued over his book knowledge at that moment.",
+        "C": "Prove that the entrance examination at Hampton was unusually easy.",
+        "D": "Contrast her kindness with the cruelty of his former owners."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The teacher's test was a test of cleanliness and thoroughness, not academics. By passing this 'entrance examination' through his diligent sweeping, Washington demonstrates that his character and willingness to work were the keys to his admission, aligning with Hampton's focus on the 'dignity of labour.'</p>"
+    },
+    {
+      "questionId": "q4",
+      "passageId": "p4",
+      "passageHighlight": "",
+      "questionHtml": "<p>As it is used in line 39, the word 'spirit' most nearly means:</p>",
+      "options": {
+        "A": "ghost",
+        "B": "courage",
+        "C": "attitude",
+        "D": "soul"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>In the context of the slaves dancing, singing, and crying, the children 'caught the spirit of rejoicing.' This means they absorbed the prevailing mood or attitude of happiness and celebration around them, not a literal ghost or immortal soul.</p>"
+    },
+    {
+      "questionId": "q5",
+      "passageId": "p4",
+      "passageHighlight": "",
+      "questionHtml": "<p>In the context of the passage as a whole, the main function of the first paragraph (lines 1-7) is to:</p>",
+      "options": {
+        "A": "Argue for the importance of knowing one's exact birth date.",
+        "B": "Describe the physical layout of a typical Virginian plantation.",
+        "C": "Establish the author's personal origins within the broader system of slavery.",
+        "D": "Criticize the owners of the plantation where he was born."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The first paragraph grounds the entire narrative by immediately placing the author in a specific time and place—as a slave on a plantation. This establishes his personal, first-hand connection to the 'system of slavery' that he will go on to describe, providing a foundation for his life story.</p>"
+    },
+    {
+      "questionId": "q6",
+      "passageId": "p4",
+      "passageHighlight": "",
+      "questionHtml": "<p>In the context of the passage, the statement in lines 10-11 ('not because my owners were especially cruel, for they were not') can best be described as:</p>",
+      "options": {
+        "A": "A qualification that refines his previous point about his surroundings.",
+        "B": "A contradiction of his earlier claim that his life began in misery.",
+        "C": "The central thesis of the entire passage.",
+        "D": "An expression of gratitude toward the people who enslaved him."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Washington first describes his surroundings as 'miserable, desolate, and discouraging.' He then immediately adds this statement to clarify that the cause of this misery was not individual cruelty but the 'system of slavery itself.' This acts as a qualification, making his critique of the institution more powerful and nuanced.</p>"
+    },
+    {
+      "questionId": "q7",
+      "passageId": "p4",
+      "passageHighlight": "",
+      "questionHtml": "<p>The author describes the feeling of getting to go to school as being 'about the same as getting into paradise' (lines 28-29) primarily to:</p>",
+      "options": {
+        "A": "Suggest that he believed school was a religious institution.",
+        "B": "Convey the immense value and desirability education held for him as a slave.",
+        "C": "Indicate that he had unrealistic expectations about what school would be like.",
+        "D": "Contrast the harshness of slavery with the beauty of the Virginian landscape."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>This hyperbolic language ('paradise') is used to express the profound longing and high esteem he had for education. For an enslaved child who was legally forbidden from learning to read, the idea of school represented an almost heavenly, unattainable state of being.</p>"
+    },
+    {
+      "questionId": "q8",
+      "passageId": "p4",
+      "passageHighlight": "",
+      "questionHtml": "<p>The primary purpose of lines 63-68 ('The school taught us... rather than through agitation or complaint') is to:</p>",
+      "options": {
+        "A": "Summarize the core philosophy he learned at Hampton that shaped his future work.",
+        "B": "List the various academic subjects offered at the Hampton Institute.",
+        "C": "Argue that agitation and complaint are ineffective strategies for all people.",
+        "D": "Describe the daily schedule of a typical student at Hampton."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>In these concluding lines, Washington synthesizes the most important lessons he learned at Hampton—not just skills, but values like order and the dignity of labor. He then explicitly states the 'new vision' this gave him for uplifting his people, which is the central philosophy he became famous for.</p>"
+    },
+    {
+      "questionId": "q9",
+      "passageId": "p4",
+      "passageHighlight": "",
+      "questionHtml": "<p>The author's use of the word 'system' to describe slavery in line 11 and the word 'system' to describe what he learned at Hampton in line 63 primarily serves to:</p>",
+      "options": {
+        "A": "Show a contradiction in his argument, as he condemns one system but praises another.",
+        "B": "Highlight a contrast between a destructive, imposed structure and a constructive, learned structure.",
+        "C": "Demonstrate that he was unable to think independently and relied on following systems.",
+        "D": "Suggest that slavery and education were organized in exactly the same way."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Washington uses 'system' to refer to the established, oppressive structure of slavery that created his 'miserable' surroundings. At Hampton, he learns 'system' as a positive principle of order and efficiency. This word choice effectively contrasts the negative, external system of bondage with the positive, internalized system of self-improvement.</p>"
+    }
+  ]
+}

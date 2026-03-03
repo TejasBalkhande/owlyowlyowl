@@ -1,0 +1,136 @@
+{
+  "passages": [
+    {
+      "passageId": "p1",
+      "passageHtml": "<div style=\"overflow-x: auto; max-width: 100%;\"><p style=\"margin:0; padding:0; white-space:nowrap; font-size:clamp(3px, 2.5vw, 15px); line-height:1.4;\"> [1] The sun is the great center and ruler of our<br> planetary system. To it the earth and the other<br> planets owe their light and heat; without its<br> energizing influence, life as we know it could<br> [5] not exist. Yet how little do we really understand<br> of this mighty orb! Though it appears to us as a<br> brilliant disk, it is in reality a vast globe, far<br> exceeding in size all the bodies which circle<br> around it.<br> <br> [10] The diameter of the sun is about 865,000 miles—<br> more than 109 times that of the earth. Were the<br> sun a hollow sphere, no fewer than 1,300,000<br> bodies the size of our earth could be placed<br> within it. Its volume is thus enormous, yet its<br> [15] mass is only about 333,000 times greater than<br> that of the earth. This tells us that the average<br> density of the sun is much less than that of the<br> earth— roughly one- fourth as dense as water.<br> <br> The materials of which the sun is composed<br> [20] must therefore be, on the whole, lighter than<br> those familiar to us on our planet.<br> When we look at the sun through a telescope,<br> protected by dark glasses or other suitable<br> means, we see that its surface is not uniform in<br> [25] brightness. The central part of the disk appears<br> much more luminous than the regions near the<br> edge, or limb. This difference arises because we<br> look through a greater thickness of the sun's<br> atmosphere at the limb than at the center. The<br> [30] absorbing vapors surrounding the sun intercept<br> more light from the marginal parts, causing<br> them to seem dimmer.<br> <br> On this glowing surface appear dark spots,<br> often of great size. These sun- spots are among<br> [35] the most remarkable features presented by the<br> sun. They sometimes measure many thousands<br> of miles across— large enough to swallow the<br> entire earth with room to spare. A spot usually<br> consists of a dark central portion, called the<br> [40] umbra, surrounded by a less dark fringe known<br> as the penumbra. The umbra is not absolutely<br> black; it appears so only by contrast with the<br> dazzling brightness of the surrounding<br> photosphere, the luminous layer from which<br> [45] the sun's light chiefly proceeds.<br> <br> Astronomers have long debated the true<br> nature of these spots. Are they openings in the<br> bright surface, revealing a cooler or darker<br> interior? Observations show that when a spot is<br> [50] near the limb, the penumbra on the side toward<br> the center often seems narrower than on the<br> opposite side, as if the spot were a depression or<br> hollow in the surface. This suggests that spots<br> are cavities, perhaps produced by eruptions or<br> [55] disturbances in the sun's gaseous envelope.<br><br> Near the spots, and especially toward the limb,<br> bright patches called faculae (little torches) are<br> frequently seen. These are most conspicuous<br> where the general light is reduced, and they<br> [60] appear as luminous streaks or clouds floating<br> above the general level of the photosphere.<br> They indicate regions of unusual activity or<br> elevation in the sun's atmosphere.<br><br> The spots are not permanent; they form, grow,<br> [65] decay, and disappear. A large spot may last for<br> weeks or months, but most are more fleeting.<br> They tend to appear in zones parallel to the<br> sun's equator, rarely near the poles. Moreover,<br> their number varies in a cycle of about eleven<br> [70] years— sometimes few are visible, at other times<br> the disk is crowded with them. This periodicity<br> points to some rhythmic process in the sun's<br> constitution.<br><br> The sun rotates on its axis, but not as a solid<br> [75] body. Near the equator, the period is about 25<br> days; at higher latitudes, it lengthens to nearly<br> 30 days. This differential rotation causes<br> constant shearing and disturbance in the<br> gaseous mass, perhaps helping to explain the<br> [80] origin of spots and faculae.<br><br> Thus the sun, though it seems unchanging to<br> the casual eye, is in reality the scene of ceaseless<br> activity. Its spots and bright markings reveal<br> mighty forces at work— forces whose full nature<br> [85] we have yet to comprehend, but which influence<br> our earth in ways both direct and subtle.<br> </div>"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q1",
+      "passageId": "p1",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following quotations from a fictional scientific text is most closely related to the themes in the passage?</p>",
+      "options": {
+        "A": "The sun, being a typical star, provides a baseline for understanding the life cycles of all other stars in the galaxy.",
+        "B": "Differential rotation is a key indicator that a celestial body is composed not of a single solid piece, but of fluid or gas.",
+        "C": "The influence of the solar wind on Earth's magnetic field is a direct and measurable consequence of solar activity.",
+        "D": "Beneath its placid and uniform exterior, the sun is a seething cauldron of opposing forces and constant change."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The passage's central theme is that the sun, despite appearing 'unchanging to the casual eye,' is actually 'the scene of ceaseless activity' and reveals 'mighty forces at work.' Option D directly echoes this theme of a deceptive, calm exterior masking a turbulent, dynamic interior.</p>"
+    },
+    {
+      "questionId": "q2",
+      "passageId": "p1",
+      "passageHighlight": "",
+      "questionHtml": "<p>The reference to the sun as a 'hollow sphere' that could contain 1,300,000 Earths (lines 11-13) and the reference to sunspots being 'large enough to swallow the entire earth with room to spare' (lines 37-38) both serve to:</p>",
+      "options": {
+        "A": "Provide a sense of the immense scale and size of the sun and its features relative to Earth.",
+        "B": "Highlight the different methods astronomers use to measure objects in space.",
+        "C": "Contrast the solid nature of the Earth with the gaseous nature of the sun.",
+        "D": "Suggest that the sun's interior is mostly empty space."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Both comparisons use Earth as a familiar benchmark to help the reader comprehend the literally astronomical sizes being discussed. The 'hollow sphere' comparison conveys the sun's total volume, while the sunspot comparison conveys the vastness of an individual feature. Both are tools to help the reader grasp the immense scale.</p>"
+    },
+    {
+      "questionId": "q3",
+      "passageId": "p1",
+      "passageHighlight": "",
+      "questionHtml": "<p>The passage most strongly suggests that the cyclical variation in the number of sunspots, from few to many and back again over approximately eleven years, leads to:</p>",
+      "options": {
+        "A": "A corresponding change in the sun's overall brightness and heat output.",
+        "B": "A rhythmic change in the rate of the sun's rotation at its equator.",
+        "C": "A predictable pattern of disturbance and relative calm in the sun's activity.",
+        "D": "The formation of faculae only during periods of maximum sunspot activity."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The passage states that the number of sunspots 'varies in a cycle of about eleven years' and calls this 'periodicity.' This directly implies a rhythmic process of increase and decrease. Therefore, this cycle leads to alternating periods of high sunspot activity (disturbance) and low sunspot activity (relative calm).</p>"
+    },
+    {
+      "questionId": "q4",
+      "passageId": "p1",
+      "passageHighlight": "",
+      "questionHtml": "<p>The author most strongly suggests that astronomers who theorize sunspots are 'openings in the bright surface, revealing a cooler or darker interior' would likely base their argument on which of the following observed phenomena?</p>",
+      "options": {
+        "A": "The bright appearance of faculae near the limb.",
+        "B": "The dark appearance of the umbra by contrast with the photosphere.",
+        "C": "The eleven-year cycle in sunspot numbers.",
+        "D": "The differential rotation of the sun's gaseous mass."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The theory that spots are 'openings' relies on the idea that we are seeing through a bright outer layer (the photosphere) to a darker region below. The fact that the umbra is 'not absolutely black; it appears so only by contrast' supports this, as an opening would allow us to see a region that is darker, but not perfectly black, compared to the intensely bright surface around it.</p>"
+    },
+    {
+      "questionId": "q5",
+      "passageId": "p1",
+      "passageHighlight": "",
+      "questionHtml": "<p>Based on the passage, which of the following individuals would most fully endorse the claim that the sun is a valuable object of study precisely because it is not a static, unchanging body?</p>",
+      "options": {
+        "A": "An artist who wishes to paint the sun as a perfect, radiant circle.",
+        "B": "A poet who uses the sun as a symbol of eternal constancy.",
+        "C": "A physicist interested in the dynamics of magnetic fields and fluid motion.",
+        "D": "A farmer whose crops depend on the sun's reliable daily cycle of light."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The passage emphasizes the sun's 'ceaseless activity,' differential rotation, and cyclical nature—all of which are dynamic processes. A physicist studying fluid motion and magnetic fields would be interested in these changing, non-static phenomena. The others value the sun for its stable, predictable, or symbolic qualities.</p>"
+    },
+    {
+      "questionId": "q6",
+      "passageId": "p1",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following lists captures the key observable features of a mature sunspot as it is described in the passage?</p>",
+      "options": {
+        "A": "A permanent dark blemish on the sun's surface, usually located near the poles.",
+        "B": "A bright patch with a structure that suggests it is floating above the photosphere.",
+        "C": "A central, very dark umbra surrounded by a less dark penumbra, often of enormous size.",
+        "D": "A uniform dark spot that causes the area around it, called the limb, to appear dimmer."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The passage explicitly states that a spot 'usually consists of a dark central portion, called the umbra, surrounded by a less dark fringe known as the penumbra' and that they are 'often of great size.' This directly matches option C.</p>"
+    },
+    {
+      "questionId": "q7",
+      "passageId": "p1",
+      "passageHighlight": "",
+      "questionHtml": "<p>The observation that the penumbra on the side of a spot facing the sun's center appears narrower than the opposite side when the spot is near the limb (lines 49-52) is used by the author to imply that:</p>",
+      "options": {
+        "A": "Sunspots are actually flat blemishes on the sun's surface.",
+        "B": "The sun's rotation causes spots to be stretched and distorted.",
+        "C": "Sunspots are three-dimensional cavities or depressions.",
+        "D": "The penumbra is an optical illusion caused by Earth's atmosphere."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The author presents this observation as evidence for a specific theory. The text states, 'as if the spot were a depression or hollow in the surface. This suggests that spots are cavities.' The narrowing of the penumbra is a visual clue that astronomers interpret as a sign of depth and three-dimensional structure.</p>"
+    },
+    {
+      "questionId": "q8",
+      "passageId": "p1",
+      "passageHighlight": "",
+      "questionHtml": "<p>According to the passage, the phenomenon of 'differential rotation' (lines 74-79) is most directly responsible for:</p>",
+      "options": {
+        "A": "The greater luminosity of the sun's central disk compared to its limb.",
+        "B": "The constant shearing and disturbance within the sun's gaseous mass.",
+        "C": "The fact that the sun is composed of materials lighter than those on Earth.",
+        "D": "The appearance of bright faculae near sunspots and the solar limb."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The passage explicitly states the effect of differential rotation. After describing how different parts of the sun rotate at different speeds, it says, 'This differential rotation causes constant shearing and disturbance in the gaseous mass.' This is a direct cause-and-effect relationship.</p>"
+    },
+    {
+      "questionId": "q9",
+      "passageId": "p1",
+      "passageHighlight": "",
+      "questionHtml": "<p>The passage author most strongly implies that the reason faculae are 'most conspicuous where the general light is reduced' (lines 58-59), such as near the limb, is because:</p>",
+      "options": {
+        "A": "The faculae are actually the same brightness as the photosphere but are more visible against a dimmer background.",
+        "B": "The reduction in light near the limb is caused by the very presence of the faculae themselves.",
+        "C": "Faculae only form in regions where the sun's atmosphere is cooler and less luminous.",
+        "D": "The same absorbing vapors that dim the limb also magnify the appearance of the faculae."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>This question relies on understanding the principle of contrast. The text says the limb is dimmer because we look through more atmosphere. The faculae are bright patches. When a bright object is placed next to a dimmer background, the contrast makes the bright object 'pop' or become 'most conspicuous.' The faculae are not necessarily brighter there; they are just easier to see.</p>"
+    }
+  ]
+}

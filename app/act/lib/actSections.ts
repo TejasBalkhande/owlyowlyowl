@@ -243,28 +243,16 @@ export const sections: Section[] = [
         practiceLevels: [
           {
             level: 1,
-            title: "Reading Set 1",
+            title: "Key Ideas and Details 1",
             description: "Identify central themes and claims.",
             color: "green",
           },
           {
             level: 2,
-            title: "Supporting Details",
-            description: "Locate evidence and explicit information.",
-            color: "yellow",
-          },
-          {
-            level: 3,
-            title: "Summarizing",
-            description: "Condense and paraphrase passages.",
-            color: "red",
-          },
-          {
-            level: 4,
-            title: "Advanced Summarizing",
-            description: "Synthesize key ideas from multiple passages.",
-            color: "red",
-          },
+            title: "Key Ideas and Details 2",
+            description: "Analyze relationships between ideas.",
+            color: "green",
+          }
         ],
       },
       {
@@ -272,22 +260,16 @@ export const sections: Section[] = [
         practiceLevels: [
           {
             level: 1,
-            title: "Word Meanings",
-            description: "Determine meaning from context.",
+            title: "Craft and Structure 1",
+            description: "Analyze word choice, text structure.",
             color: "green",
           },
           {
             level: 2,
-            title: "Text Structure",
-            description: "Analyze organization and purpose.",
-            color: "yellow",
-          },
-          {
-            level: 3,
-            title: "Point of View",
-            description: "Understand narrator and author perspective.",
-            color: "red",
-          },
+            title: "Craft and Structure 2",
+            description: "Analyze word choice, text structure.",
+            color: "green",
+          }
         ],
       },
       {
@@ -295,22 +277,10 @@ export const sections: Section[] = [
         practiceLevels: [
           {
             level: 1,
-            title: "Comparing Texts",
-            description: "Find similarities and differences.",
+            title: "Integration",
+            description: "",
             color: "green",
-          },
-          {
-            level: 2,
-            title: "Arguments",
-            description: "Evaluate claims and evidence.",
-            color: "yellow",
-          },
-          {
-            level: 3,
-            title: "Multiple Sources",
-            description: "Synthesize information from two passages.",
-            color: "red",
-          },
+          }
         ],
       },
     ],
