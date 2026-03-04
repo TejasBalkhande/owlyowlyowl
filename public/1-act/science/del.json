@@ -1,0 +1,95 @@
+{
+  "questions": [
+    {
+      "questionId": "901",
+      "passageId": "ConflictingViewpoints2",
+      "questionHtml": "<p>Both Scientist 1 and Scientist 2 would consider a primary component of low- carbohydrate dieting to be:</p>",
+      "options": {
+        "A": "lowering the body's metabolism.",
+        "B": "increasing fat burning.",
+        "C": "raising one's intake of protein.",
+        "D": "placing oneself at risk for heart disease."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Eliminate answers that don't apply to the opinions of both scientists. Neither of the scientists claim that a low- carbohydrate diet lowers one's metabolism. So Choice (A) is wrong. Scientist 2 states that the diet increases fat burning, but Scientist 1 doesn't mention fat burning. Choice (B) is likely not the best answer. Only Scientist 1 states that low- carb diets lead to a risk for heart disease, so cross out Choice (D). The best answer is Choice (C). Both scientists mention that low- carb diets involve more consumption of protein.</p>"
+    },
+    {
+      "questionId": "902",
+      "passageId": "ConflictingViewpoints2",
+      "questionHtml": "<p>With which of the following statements about low- carbohydrate diets would both Scientist 1 and Scientist 2 most likely agree?</p>",
+      "options": {
+        "A": "Low- carbohydrate dieting poses serious health risks.",
+        "B": "Whether nutritional supplementation is necessary should be determined on a case-by-case basis.",
+        "C": "It is a bad idea to consume large amounts of bacon, eggs, and butter.",
+        "D": "Short-term weight loss is a likely result."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Look for the answer that includes parts of the opinions of both scientists. Eliminate answers that only Scientist 1 would agree with. Scientist 2 doesn't think that low- carb diets are dangerous, so it isn't likely that she would agree with either Choice (A) or Choice (C). Scientist 1 doesn't talk about nutritional supplements, so you don't have enough information to pick Choice (B). Scientist 2 says that low- carb diets are designed for short- term effectiveness. Scientist 1 concedes at the end of his statement that short- term weight loss may occur. So the best answer is Choice (D).</p>"
+    },
+    {
+      "questionId": "903",
+      "passageId": "ConflictingViewpoints2",
+      "questionHtml": "<p>Scientist 1's argument presupposes which of the following?</p>",
+      "options": {
+        "A": "The health benefits of weight loss are not sufficient to overcome the risks associated with a low-carbohydrate diet.",
+        "B": "Most of the people who begin a low-carbohydrate diet suffer from gout or kidney disease.",
+        "C": "The risks of a low-carbohydrate diet can be minimized by the use of nutritional supplements.",
+        "D": "Obesity is caused by eating unlimited amounts of meat."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Rely on good old process of elimination to handle this question. Scientist 1 says that people who suffer from gout or kidney disease have an increased health concerns on a low- carb diet, but he doesn't say that most people who start the diet have gout or kidney disease. Cross out Choice (B). Choice (C) is Scientist 2's claim, so it's not right. Scientist 1's argument is more concerned with heart disease and other disease risks than obesity. Eliminate Choice (D) and pick Choice (A). Scientist 1 seems to admit that low- carb diets lead to some weight loss, but he's not sold on them. Therefore, he must think that the health risks associated with low- carb diets can't be overcome by its weight- loss benefit.</p>"
+    },
+    {
+      "questionId": "904",
+      "passageId": "ConflictingViewpoints2",
+      "questionHtml": "<p>Scientist 2 claims that with a low- carbohydrate diet, the body does not get fuel from consuming food. If this statement is true, which of these statements must also be true?</p>",
+      "options": {
+        "A": "Scientist 2 does not consider glucose to be food.",
+        "B": "Protein consumption does not fuel the body.",
+        "C": "Scientist 2 believes that heart disease is caused by the body's not getting enough food.",
+        "D": ""
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>If it's true that people on a low- carb diet don't get fuel from the food they consume and the foods that they consume are proteins, it must be true that proteins don't provide fuel. Choice (B) is the best answer. Choice (A) is out because people on low- carb diets restrict glucose. Choice (C) can't be right because Scientist 2 doesn't talk about heart disease. The conclusion in Choice (D) goes way beyond anything stated or implied by Scientist 2's opinion.</p>"
+    },
+    {
+      "questionId": "905",
+      "passageId": "ConflictingViewpoints2",
+      "questionHtml": "<p>Given that all the following statements are true, which would provide the most effective argument against the assertion of Scientist 1?</p>",
+      "options": {
+        "A": "There is a positive correlation between consuming large amounts of meat and developing certain kinds of cancer.",
+        "B": "The consumption of high-fiber carbohydrates has been found to promote good digestive health.",
+        "C": "A healthy diet relies on broad consumption of varying types of food, including both carbohydrates and proteins.",
+        "D": "A recent study has shown that eating protein makes a person feel fuller faster than eating carbohydrates, which means that people who consume primarily protein tend to eat significantly less than those who eat less protein."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The gist of Scientist 1's argument is that low- carb diets are dangerous because they encourage a high- protein diet that creates a higher risk for disease. You're looking for the statement that would provide evidence against Scientist 1. You know Choice (A) is wrong because it supports Scientist 1's contention that low- carb diets are dangerous. Similarly, a study showing the health benefits of carbohydrates would more likely go along with Scientist 1's opinion rather than go against it. You're down to Choices (C) and (D). The fact that a eating a variety of foods is healthy doesn't run contrary to the idea that eating a high- protein diet is dangerous. Choice (D) is better than Choice (C). If it's true that a high- protein diet leads to less overall food consumption, it's likely that people on low- carb diets aren't eating the unlimited amounts of bacon, eggs, and butter that Scientist 1 claims lead to disease.</p>"
+    },
+    {
+      "questionId": "906",
+      "passageId": "ConflictingViewpoints2",
+      "questionHtml": "<p>Which of the following statements about low-carbohydrate diets is most consistent with the view of Scientist 2?</p>",
+      "options": {
+        "A": "People who eat a low-carbohydrate diet without taking nutritional supplements are putting themselves at risk for kidney disease.",
+        "B": "There are some studies that show that eating unrestricted amounts of meat for a short period of time does not cause adverse health issues.",
+        "C": "By observing proper precautions, most people can receive health benefits from eating a low-carbohydrate diet.",
+        "D": "More heart disease is caused by obesity than by eating unlimited amounts of meat."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Now you get to concentrate on Scientist 2. She essentially says the low- carb diets are effective and can be balanced with supplements. Find the answer that provides the best summary of her opinion without making assumptions about issues she doesn't talk about. The answer that summarizes Scientist 2's opinion the best is Choice (C). She doesn't talk specifically about kidney or heart disease, so Choices (A) and (D) are out. She doesn't base her opinion on studies or make a case for unrestricted meat consumption, so Choice (B) isn't as good an answer as Choice (C).</p>"
+    },
+    {
+      "questionId": "907",
+      "passageId": "ConflictingViewpoints2",
+      "questionHtml": "<p>Based on the information in the passage, eating which of the following would most likely prevent the body from burning fat as fuel?</p>",
+      "options": {
+        "A": "Sugar cookie",
+        "B": "Slice of Canadian bacon",
+        "C": "Pat of butter",
+        "D": "Cheese omelet"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The first paragraph says that the body burns glucose as fuel. It associates glucose with refined carbohydrates and gives sugar, flour, and corn syrup as examples. The answer choice that contains sugar is Choice (A), the sugar cookie. So it's the one that would the body would burn for fuel instead of going to its fat stores. The other three choices are examples of meats and other foods that Scientist 1 implies are eaten on a low- carb diet, and the goal of a low- carb diet is to burn fat for fuel.</p>"
+    }
+  ]
+}

@@ -277,7 +277,7 @@ export const sections: Section[] = [
         practiceLevels: [
           {
             level: 1,
-            title: "Integration",
+            title: "Integration 1",
             description: "",
             color: "green",
           }
@@ -293,22 +293,22 @@ export const sections: Section[] = [
         practiceLevels: [
           {
             level: 1,
-            title: "Tables & Graphs",
+            title: "Tables and Graphs 1",
             description: "Read values and identify trends.",
             color: "green",
           },
           {
             level: 2,
-            title: "Interpolate/Extrapolate",
-            description: "Make predictions from data.",
-            color: "yellow",
+            title: "Tables and Graphs 2",
+            description: "Read values and identify trends.",
+            color: "green",
           },
           {
             level: 3,
-            title: "Conflicting Views",
-            description: "Compare data from multiple studies.",
-            color: "red",
-          },
+            title: "Interpolate Extrapolate",
+            description: "Make predictions from data.",
+            color: "yellow",
+          }
         ],
       },
       {
@@ -316,42 +316,43 @@ export const sections: Section[] = [
         practiceLevels: [
           {
             level: 1,
-            title: "Experimental Design",
+            title: "Scientific Investigation 1",
             description: "Identify variables and controls.",
             color: "green",
           },
           {
             level: 2,
-            title: "Procedures",
+            title: "Scientific Investigation 2",
             description: "Understand experimental steps.",
             color: "yellow",
           },
           {
             level: 3,
-            title: "Conclusions",
-            description: "Draw valid inferences from results.",
-            color: "red",
+            title: "Scientific Investigation 3",
+            description: "Identify variables and controls.",
+            color: "green",
           },
+          
         ],
       },
       {
-        name: "Evaluation of Arguments",
+        name: "Evaluation of Scientific Arguments",
         practiceLevels: [
           {
             level: 1,
-            title: "Hypotheses",
+            title: "Data Representation",
             description: "Identify proposed explanations.",
             color: "green",
           },
           {
             level: 2,
-            title: "Strengthening/Weakening",
+            title: "Research Summaries",
             description: "Assess evidence impact.",
             color: "yellow",
           },
           {
             level: 3,
-            title: "Resolving Discrepancies",
+            title: "Conflicting Viewpoints",
             description: "Reconcile conflicting viewpoints.",
             color: "red",
           },

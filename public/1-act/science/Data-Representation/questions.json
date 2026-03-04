@@ -1,0 +1,146 @@
+{
+  "passages": [
+   {
+      "passageId": "DataRepresentation",
+      "passageHtml": "In the study of physics, energy is a property that measures the ability of an object to perform\nwork on another object. An object that contains higher energy levels is therefore able to\nperform more work. There are two common types of energy that many objects can possess: kinetic\nenergy and potential energy.<br><br>\nKinetic energy relates to the speed at which an object is moving and the momentum that object\nhas because of its mass and speed. An object moving at a fast speed has more kinetic energy than\na slow-moving object of the same mass. Also, an object with a large mass moving at a specific\nspeed has more kinetic energy than another object with lower mass moving at the same speed. The\nkinetic energy of a moving object can be written as  \\( E_k \\) = 0.5m\\(v^2 \\), with \\( E_k \\) being kinetic\nenergy, m as mass, and v as velocity, or speed.<br><br>\nPotential energy can be present in both stationary and moving objects, and has to do with the\ngravitational potential energy stored within an object because of its relation to the Earth’s\ngravitational field. An object further from the Earth’s surface has more potential energy\nbecause it has the potential to fall toward the Earth. The farther away from the earth, or\nhigher, an object is, the farther down it can fall, slide, or roll and the higher its potential\nenergy.<br><br>\nFor example, consider a skier skiing on a snowy slope as shown in Figure 1 below. The skier\nstarts at the left side of the figure and skis from left to right. The skier’s speed varies as\nshe goes up and down the hills, and after she reaches the right side of the figure, she stops\nmoving.<br>\n\n<img src=\"/1-act-i/sci/sci-1/images/image_18.png\" style=\"width: 400px; height: auto;\" alt=\"\">\n<br>\nThe speed of the skier in Figure 1 is shown below in \nTable 1. A time of 0 seconds represents\nthe time at leftmost side of Figure 1, and a time of 5 seconds occurs at the rightmost side of\nFigure 1. Time is measured in seconds (s) and speed is measured in meters per second (m/s).<br><br>\n<img src=\"/1-act-i/sci/sci-1/images/image_19.png\" style=\"width: 200px; height: auto;\" alt=\"\">\n<br>\nThe skier’s kinetic energy and potential energy vary as she travels across the slope, as shown\nin the graph in Figure 2. The skier’s total energy level decreases as she skis because of\nlosses to friction against the snow beneath the skis as well as air drag. Energy is measured in\njoules (J).<br><br>\n<img src=\"/1-act-i/sci/sci-1/images/image_20.png\" style=\"width: 500px; height: auto;\" alt=\"\">\n<br>"
+    },
+    {
+      "passageId": "DataRepresentation1",
+      "passageHtml": "When the human body is exposed to doses of ionizing radiation, tissue damage can occur and cause\nadverse health effects. Typical sources of radiation include radioactive decay of elements, and\ncosmic rays from outer space. Health effects vary widely, ranging from a mild headache to severe\nnausea and fever. The effects also depend greatly upon the quantity of radiation exposure and\nthe amount of time over which the exposure occurred. The unit of measurement for absorbed\nradiation is called the Gray ( \\(G_y\\) ) and is equal to one joule of energy absorbed by one kilogram\nof matter.<br><br>\nPrecise data for the health effects of exact doses of ionizing radiation on humans is not\navailable because that would require a very controlled scientific environment, and it would be\nunethical to purposefully injure test subjects for data. However, there have been less\ncontrolled cases where humans have been exposed to varying doses of ionizing radiation.\nFollowing these cases, studies were performed to estimate the amount of radiation exposure\nreceived and to correlate this with the severity of adverse health effects. \n<b>Table 1</b> shows data\non the health effects of various levels of ionizing radiation doses. For each dosage range, 100\nhumans who were estimated to have that level of dosage were studied. For each symptom, the\nnumber of humans who experienced it in the group of 100 is shown.<br><br>\n\n<img src=\"/1-act-i/sci/sci-1/images/image_20.png\" style=\"width: 420px; height: auto;\" alt=\"\">\n<br><br>\nIn addition to the total number of incidents of each symptom, the number of headaches over time\nwas also studied. Figure 1 shows how many cases of headache there were for each dosage level\nover time.<br><br>\n\n<img src=\"/1-act-i/sci/sci-1/images/image_20.png\" style=\"width: 420px; height: auto;\" alt=\"\">\n<br>"
+    }
+    
+  ],
+  "questions": [
+     {
+      "questionId": "935",
+      "passageId": "DataRepresentation",
+      "questionHtml": "<p>According to Figure 1, approximately how many seconds did it take for the metal ball to drop in Fluid A at 75°C?</p>",
+      "options": {
+        "A": "6 seconds",
+        "B": "4 seconds",
+        "C": "8 seconds",
+        "D": "10 seconds"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>C. 8 seconds. between 25°C and 100°C on the x-axis to estimate the data for 75°C. The point where your line intersects the line for Fluid A is closest to 8 seconds as defined on the y-axis. Choices (A) and (B) correspond with the times for Fluid B and C, respectively.</p>"
+    },
+    {
+      "questionId": "936",
+      "passageId": "DataRepresentation",
+      "questionHtml": "<p>Based on Figure 1, which of the following statements is true?</p>",
+      "options": {
+        "A": "Fluid A is always less viscous than Fluid B.",
+        "B": "Fluids A and B have the same viscosity at higher temperatures.",
+        "C": "All three fluids have the same viscosity at every temperature.",
+        "D": "At some temperatures some fluids have the same viscosity, and at other temperatures they do not."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>D. at some temperatures some fluids have the same viscosity, and at other temperatures they do not. You can easily eliminate Choice (C). It's obvious from Figure 1 that the three liquids don't have the same viscosity at every temperature. If they did, their lines on the graph would lie on top of each other. There's a point on the graph where Fluid A and Fluid B have the same viscosity, but it's at a lower temperature rather than a higher temperature, so Choice (B) is wrong. At some temperatures Fluid A is less viscous than Fluid B, but at most temperatures Fluid B is less viscous than Fluid A. So Choice (A) is wrong. That leaves you with the safe bet, Choice (D). Some fluids have the same viscosity at a certain temperature (A and B at about 10 degrees), but at other temperatures the two liquid don't.</p>"
+    },
+    {
+      "questionId": "937",
+      "passageId": "DataRepresentation",
+      "questionHtml": "<p>Which of the following statements is supported by the data in Figure 1?</p>",
+      "options": {
+        "A": "For all fluids, there is an inverse relationship between temperature and viscosity.",
+        "B": "For all fluids, there is a positive relationship between temperature and viscosity.",
+        "C": "For all fluids, the relationship between temperature and viscosity is static.",
+        "D": "The relationship between temperature and viscosity is different for each fluid."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>A. For all fluids, there is an inverse relationship between temperature and viscosity. At higher temperatures all of the liquids had a lower viscosity. Therefore, there is an inverse relationship between temperature and viscosity. Choice (A) is the right answer. If there were a positive relationship between temperature and viscosity, one would go up when the other went up or vice versa. If the relationship were static, the three lines on the graph would be horizontal.</p>"
+    },
+    {
+      "questionId": "938",
+      "passageId": "DataRepresentation",
+      "questionHtml": "<p>Based on the information, which of the following can be concluded about Fluid C?</p>",
+      "options": {
+        "A": "Fluid A is most likely motor oil.",
+        "B": "Fluid B is most likely motor oil.",
+        "C": "Fluid C is either machine oil or olive oil.",
+        "D": "Fluid C is most likely motor oil."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>C. Fluid C is either machine oil or olive oil. The higher the viscosity of the oil, the higher its line is on the graph. So motor oil's line is higher on the graph than olive oil's. Fluid C is the least viscous of the three fluids so it can't be motor oil. If it were, its line on the graph would have to be above at least one other line. That tells you that Fluid C has to be either machine oil or olive oil. Choice (C) is the answer. You don't know anything about the relative viscosity of machine oil, so you can't make the statement in Choice (B). Fluid B's line is above Fluid C's, so it's possible that Fluid B is motor oil. Choice (D) isn't right. You may have been attracted to Choice (A). Fluid A could be motor oil because its viscosity is generally less than the other two fluids. However, Fluid B could be motor oil and Fluid C olive oil. In that case Fluid A would be machine oil. Therefore, you can't say that Fluid A is most likely motor oil.</p>"
+    },
+    {
+      "questionId": "939",
+      "passageId": "DataRepresentation",
+      "questionHtml": "<p>Which of the following statements is supported by the data in Figure 1?</p>",
+      "options": {
+        "A": "At 100°C, it takes about 4 seconds for the ball to drop in Fluid A.",
+        "B": "At 125°C, it would take about 2 seconds for the ball to drop in Fluid B.",
+        "C": "At 80°C, it takes about 4 seconds for the ball to drop in Fluid B.",
+        "D": "At 25°C, it takes about 4 seconds for the ball to drop in Fluid C."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>D. The number of seconds it would take for the ball to drop to the bottom of Fluid C at 25°C would be about 4. The graph of Fluid A show that it takes 6 seconds for the ball to drop at 100 degrees, so Choice (A) is wrong. You can't tell what the number of seconds will be for Fluid B at 125 degrees because 125 degrees isn't on the graph, and it looks like it takes about 4 seconds for the ball to drop in Fluid B at 100 degrees. Choice (B) can't be right. The graph shows that at 80 degrees the metal ball drops in Fluid B at around 6 seconds. Cross out Choice (C). The answer must be Choice (D). The temperature on the Fluid C line that intersects 4 seconds is around 25 degrees.</p>"
+    },
+    {
+      "questionId": "935",
+      "passageId": "DataRepresentation1",
+      "questionHtml": "At a temperature of 75°C, the time it took Fluid A to reach the bottom of container is closest to which of the following:",
+      "options": {
+        "A": "2 seconds.",
+        "B": "6 seconds.",
+        "C": "8 seconds.",
+        "D": "10 seconds."
+      },
+      "correctOption": "C",
+      "explanationHtml": "between 25°C and 100°C on the x-axis to estimate the data for 75°C. The point where your line intersects the line for Fluid A is closest to 8 seconds as defined on the y-axis. Choices (A) and (B) correspond with the times for Fluid B and C, respectively."
+    },
+    {
+      "questionId": "936",
+      "passageId": "DataRepresentation1",
+      "questionHtml": "Based on the results of the experiments, it is reasonable to conclude about the relative viscosities of the fluids that:",
+      "options": {
+        "A": "Fluid A is less viscous than Fluid B.",
+        "B": "at increased temperatures Fluid A and Fluid B have the same viscosity.",
+        "C": "all three fluids have virtually the same viscosity at every temperature.",
+        "D": "at some temperatures some fluids have the same viscosity, and at other temperatures they do not."
+      },
+      "correctOption": "D",
+      "explanationHtml": "You can easily eliminate Choice (C). It's obvious from Figure 1 that the three liquids don't have the same viscosity at every temperature. If they did, their lines on the graph would lie on top of each other. There's a point on the graph where Fluid A and Fluid B have the same viscosity, but it's at a lower temperature rather than a higher temperature, so Choice (B) is wrong. At some temperatures Fluid A is less viscous than Fluid B, but at most temperatures Fluid B is less viscous than Fluid A. So Choice (A) is wrong. That leaves you with the safe bet, Choice (D). Some fluids have the same viscosity at a certain temperature (A and B at about 10 degrees), but at other temperatures the two liquid don't."
+    },
+    {
+      "questionId": "937",
+      "passageId": "DataRepresentation1",
+      "questionHtml": "Which of the following is true about the relationship between temperature and viscosity for the three fluids?",
+      "options": {
+        "A": "For all fluids, there is an inverse relationship between temperature and viscosity.",
+        "B": "For all fluids, there is a positive correlation between temperature and viscosity.",
+        "C": "The relationship between temperature and viscosity is negative for Fluid C and positive for Fluid B.",
+        "D": "The relationship between temperature and viscosity is static for all three fluids."
+      },
+      "correctOption": "A",
+      "explanationHtml": "At higher temperatures all of the liquids had a lower viscosity. Therefore, there is an inverse relationship between temperature and viscosity. Choice (A) is the right answer. If there were a positive relationship between temperature and viscosity, one would go up when the other went up or vice versa. If the relationship were static, the three lines on the graph would be horizontal."
+    },
+    {
+      "questionId": "938",
+      "passageId": "DataRepresentation1",
+      "questionHtml": "The student is told that the three fluids are motor oil, machine oil, and olive oil and that motor oil has a higher viscosity than olive oil. From this information, the student can draw the conclusion that:",
+      "options": {
+        "A": "Fluid A is most likely motor oil.",
+        "B": "Fluid B is most likely machine oil.",
+        "C": "Fluid C is either machine oil or olive oil.",
+        "D": "Fluid B is definitely not motor oil."
+      },
+      "correctOption": "C",
+      "explanationHtml": "The higher the viscosity of the oil, the higher its line is on the graph. So motor oil's line is higher on the graph than olive oil's. Fluid C is the least viscous of the three fluids so it can't be motor oil. If it were, its line on the graph would have to be above at least one other line. That tells you that Fluid C has to be either machine oil or olive oil. Choice (C) is the answer. You don't know anything about the relative viscosity of machine oil, so you can't make the statement in Choice (B). Fluid B's line is above Fluid C's, so it's possible that Fluid B is motor oil. Choice (D) isn't right. You may have been attracted to Choice (A). Fluid A could be motor oil because its viscosity is generally less than the other two fluids. However, Fluid B could be motor oil and Fluid C olive oil. In that case Fluid A would be machine oil. Therefore, you can't say that Fluid A is most likely motor oil."
+    },
+    {
+      "questionId": "939",
+      "passageId": "DataRepresentation1",
+      "questionHtml": "Given the information in Figure 1, it is reasonable to conclude which of the following about the number of seconds it would take for the ball to drop to bottom of one of the fluids?",
+      "options": {
+        "A": "The number of seconds it would take for the ball to drop to the bottom of Fluid A at 75°C would be about 6.",
+        "B": "The number of seconds it would take for the ball to drop to the bottom of Fluid B at 125°C would be between 6 and 4.",
+        "C": "The number of seconds it would take for the ball to drop to the bottom of Fluid B at 80°C would be just about 1.",
+        "D": "The number of seconds it would take for the ball to drop to the bottom of Fluid C at 25°C would be about 4."
+      },
+      "correctOption": "D",
+      "explanationHtml": "The graph of Fluid A show that it takes 6 seconds for the ball to drop at 100 degrees, so Choice (A) is wrong. You can't tell what the number of seconds will be for Fluid B at 125 degrees because 125 degrees isn't on the graph, and it looks like it takes about 4 seconds for the ball to drop in Fluid B at 100 degrees. Choice (B) can't be right. The graph shows that at 80 degrees the metal ball drops in Fluid B at around 6 seconds. Cross out Choice (C). The answer must be Choice (D). The temperature on the Fluid C line that intersects 4 seconds is around 25 degrees."
+    }
+    
+   ]
+}

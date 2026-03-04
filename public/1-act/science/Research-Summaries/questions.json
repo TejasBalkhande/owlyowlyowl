@@ -1,0 +1,205 @@
+{
+  "passages": [
+   {
+      "passageId": "ResearchSummaries",
+      "passageHtml": "While most organisms perform aerobic cellular respiration (ACR), only plants (known as primary\nproducers) engage in photosynthesis. The process of photosynthesis uses light energy to take in\ncarbon dioxide \\( CO^2 \\) and give out oxygen \\( O^2 \\). In very simple terms, the process of ACR takes\nin \\( O^2 \\) and gives out \\( CO^2 \\) and energy. No animals (also known as consumers) or protists (some\nof which can be decomposers) engage in photosynthesis. \n<u>Table 1</u> classifies a few organisms by\ntype.<br><br>\n\n<img src=\"/1-act-i/sci/sci-1/images/image_23.png\" style=\"width: 280px; height: auto;\" alt=\"\">\n<br>\nOne of the organisms listed in \n<u>Table 1</u> was isolated and sealed in a large container in a\nlaboratory with windows open to the outside. The organism was given the basic nutrients it\nneeded to survive. Researchers monitored the concentrations of \\( CO^2 \\) and \\( O^2 \\) in the container\nover the course of 24 hours. The graph in Figure 1 shows the results of the measurements.<br><br>\n\n<img src=\"/1-act-i/sci/sci-1/images/image_24.png\" class=\"responsive-img\" width=\"360\" height=\"360\" alt=\"\">\n<br>"
+    },
+    {
+      "passageId": "ResearchSummaries1",
+      "passageHtml": "A student studied the effectiveness of certain antibiotics in killing bacteria.<br>\n<b>Experiment 1</b><br>\nThe student placed a culture of unknown bacteria on four different Petri dishes, each of which\ncontained a high-nutrient medium. Small paper circles were soaked with two different\nantibiotics. Paper circles marked with an “A” were soaked in penicillin. Paper disks marked\nwith a “B” were soaked in erythromycin. A single “A” disk was placed in Petri Dish 1, a\nsingle “B” disk was placed in Petri Dish 2, and Petri Dish 3 received one “A” and one “B”\ndisk. Petri Dish 4 did not contain a paper disk. The bacteria were then allowed to grow for 24\nhours. Figure 1 shows the patterns of bacterial growth (indicated by the dark shaded areas) on\neach of the Petri dishes. The lightly shaded circles in the figure represent the antibiotic\nsoaked disks<br>\n<br>\n\n\n<img src=\"/1-act-i/sci/sci-1/images/image_25.png\" style=\"width: 420px; height: auto;\" alt=\"\">\n\n<br>\n<b>Experiment 2</b><br>\nThe student then took some of the bacteria from Petri Dish 1 and placed it in new Petri Dish 5\nwith a “B” disk and took some of the bacteria from Petri Dish 2 and placed it in a new Petri\nDish 6 with an “A” disk. The results of the bacteria growth in these dishes after 24 hours are\nrepresented in Figure 2.<br><br>\n\n<img src=\"/1-act-i/sci/sci-1/images/image_26.png\" style=\"width: 300px; height: auto;\" alt=\"\">"
+    }
+    
+  ],
+  "questions": [
+     {
+      "questionId": "914",
+      "passageId": "ResearchSummaries",
+      "questionHtml": "The most likely explanation for the event that occurred at 6:00 p.m. is that the:",
+      "options": {
+        "A": "organism in the container fell asleep.",
+        "B": "organism in the container died.",
+        "C": "lights in the laboratory were turned off and the sun set.",
+        "D": "container started to leak."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>According to Figure 1, during the first few hours, the organism was taking CO<sub>2</sub> out of the air and was releasing O<sub>2</sub>. The only process that does this is photosynthesis. Something happened at 6:00 p.m. to halt the initial process. The passage tells you that photosynthesis uses light energy, so the absence of light will certainly stop photosynthesis. The answer that shows that something happened to stop the light energy is Choice (C).</p><p>There's not enough information in the passage to tell you that the organism died or fell asleep. Nor can you assume that the container leaked. Choices (A), (B), and (D) require you to make assumptions that can't be substantiated by the information in the passage.</p>"
+    },
+    {
+      "questionId": "915",
+      "passageId": "ResearchSummaries",
+      "questionHtml": "Which of the following is a complete list of organisms from Table 1 that do NOT perform photosynthesis?",
+      "options": {
+        "A": "Sponge, fish, spider",
+        "B": "Moss, slime molds, rose, mushroom",
+        "C": "Slime molds, sponge, fish, mushroom, spider",
+        "D": "Moss, rose"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The passage states that no animals or protists engage in photosynthesis. The complete list of animals and protists in the table contains all organisms except the moss and rose. That list is provided in Choice (C).</p>"
+    },
+    {
+      "questionId": "916",
+      "passageId": "ResearchSummaries",
+      "questionHtml": "According to the passage, which of the organisms listed in the table do NOT require O<sub>2</sub> to produce energy?",
+      "options": {
+        "A": "Moss",
+        "B": "Mushroom",
+        "C": "Fish",
+        "D": "All listed organisms likely require O<sub>2</sub>"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Be careful with this question. The passage states that animals and protists don't engage in photosynthesis, but it doesn't state that plants don't engage in ACR. In fact, the first sentence states that most organisms perform ACR. Therefore, you can't say that any of the listed organisms do not require O<sub>2</sub>. The best answer is that all likely need oxygen.</p>"
+    },
+    {
+      "questionId": "917",
+      "passageId": "ResearchSummaries",
+      "questionHtml": "What is most likely true about the organism in the container?",
+      "options": {
+        "A": "It can perform only photosynthesis.",
+        "B": "It can perform photosynthesis and ACR.",
+        "C": "It can perform only ACR.",
+        "D": "It can perform neither photosynthesis nor ACR."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Think about this question carefully. Because the organism performs photosynthesis, you can eliminate Choices (C) and (D). All you need to figure out is whether it's likely that the organism performs ACR. At 6:00 p.m., the container has high levels of O<sub>2</sub> and low levels of CO<sub>2</sub>. These levels reversed by 6:00 a.m., which indicates that the organism likely took in the O<sub>2</sub> and gave off CO<sub>2</sub>. That's indicative of ACR. If the organism couldn't perform ACR, the levels of the gases would likely have stayed the same from 6:00 p.m. to 6:00 a.m. The best answer is Choice (B).</p>"
+    },
+    {
+      "questionId": "918",
+      "passageId": "ResearchSummaries",
+      "questionHtml": "The organism in the container most likely functions as:",
+      "options": {
+        "A": "a primary producer.",
+        "B": "a consumer.",
+        "C": "a decomposer.",
+        "D": "something other than a primary producer, consumer, or decomposer."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>To answer this question correctly, you have to home in on information in the first paragraph. The passage tells you that plants are primary producers, animals are consumers, and protists can be decomposers. You can deduce that the organism in the container must be a plant because it performs photosynthesis and only plants can do that. The organism must be a primary producer, Choice (A).</p>"
+    },
+    {
+      "questionId": "919",
+      "passageId": "ResearchSummaries",
+      "questionHtml": "The organism in the container is most likely:",
+      "options": {
+        "A": "moss.",
+        "B": "a mushroom.",
+        "C": "a sponge.",
+        "D": "slime mold."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>You know that the organism is a plant. The only plants listed on the table are mosses and roses. Rose isn't an option, so the answer must be moss, Choice (A).</p>"
+    },
+    {
+      "questionId": "920",
+      "passageId": "ResearchSummaries",
+      "questionHtml": "If the researchers kept the organism in the container with the basic nutrients necessary for the organism's survival and moved the container to a room with no windows or doors open to the outside and no source of electricity, the likely result would be that:",
+      "options": {
+        "A": "The CO<sub>2</sub> and O<sub>2</sub> levels would remain stable for the full 24-hour period.",
+        "B": "The CO<sub>2</sub> levels would increase a little and the O<sub>2</sub> levels would decrease a little.",
+        "C": "The O<sub>2</sub> levels would increase significantly and the CO<sub>2</sub> levels would decrease significantly.",
+        "D": "The results of the experiments would be the same as those of the original experiment."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The question asks you what would happen if the organism had no light source. Without light, the organism couldn't perform photosynthesis. If the organism can't perform photosynthesis, you can eliminate Choices (C) and (D). Choice (C) describes what happens in photosynthesis, and Choice (D) duplicates the previous experiment in which photosynthesis occurred.</p><p>Here's where it gets tricky. Would the levels of the gases stay the same the whole time or would O<sub>2</sub> levels increase a little and CO<sub>2</sub> levels decrease a bit? Before you hastily pick Choice (A) and move on, consider what happened in the original experiment when the lights went off at 6:00 p.m. The O<sub>2</sub> levels decreased and the CO<sub>2</sub> levels increased. In the absence of photosynthesis, the organism likely engaged in ACR. According to Figure 1, the container begins with a little bit of O<sub>2</sub>. It's reasonable to conclude that in the absence of light, the organism would take in this little bit of O<sub>2</sub> and give off a little bit of CO<sub>2</sub>. The best answer is Choice (B).</p>"
+    },
+    {
+      "questionId": "921",
+      "passageId": "ResearchSummaries1",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the dishes in Experiment 1 represented the control?</p>",
+      "options": {
+        "A": "Dish 1",
+        "B": "Dish 2",
+        "C": "Dish 3",
+        "D": "Dish 4"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The dish without any antibiotic, Dish 4, is the control. It's there to make sure that whatever happened in the dishes with the antibiotic wouldn't have happened anyway. Choice (D) is the right answer.</p>"
+    },
+    {
+      "questionId": "922",
+      "passageId": "ResearchSummaries1",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following provides the best explanation for the inclusion of the high- nutrient medium in the four dishes?</p>",
+      "options": {
+        "A": "The medium is necessary to encourage bacteria growth.",
+        "B": "The medium is necessary to inhibit bacteria growth.",
+        "C": "The medium is necessary to encourage an increase in the amount of the antibiotic.",
+        "D": "The medium is necessary to encourage a decrease in the amount of the antibiotic."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Because the point of the experiments is to observe the effect of the antibiotics on bacteria growth, the high- nutrient medium must be present to encourage the bacteria to grow in the first place. Eliminate Choices (C) and (D) because the amount of antibiotic isn't affected by the experimental process. Choice (B) is wrong because a medium that inhibited bacteria growth would counteract the effects of the antibiotics and interfere with the experiment results.</p>"
+    },
+    {
+      "questionId": "923",
+      "passageId": "ResearchSummaries1",
+      "passageHighlight": "",
+      "questionHtml": "<p>Another effective control for Experiment 1 would be:</p>",
+      "options": {
+        "A": "a dish with bacteria and a paper disk that has been soaked in a third antibiotic such as streptomycin.",
+        "B": "a dish with bacteria and a paper disk that has not been soaked in any substance.",
+        "C": "a dish with bacteria and a paper disk that has been soaked in bleach.",
+        "D": "a dish with no bacteria."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The student wanted to see how bacteria grow in the presence of different antibiotics versus how they grow under regular circumstances. Dishes with a third antibiotic or bleach would be extensions of the current experiment because they would introduce new experimental variables that weren't present before, so Choices (A) and (C) are out. A dish without bacteria wouldn't introduce any new experimental variables. It would eliminate the very thing the student wanted to study, so Choice (D) is also wrong.</p><p>A dish with a plain paper circle would be a good control because it isolates and removes the experimental variable even better than Dish 4. The student could make sure that the presence of paper (instead of the antibiotic on the paper) doesn't somehow affect bacterial growth. Pick Choice (B).</p>"
+    },
+    {
+      "questionId": "924",
+      "passageId": "ResearchSummaries1",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following is the best explanation for the results of the two experiments?</p>",
+      "options": {
+        "A": "Erythromycin and penicillin have the same effect on the bacteria in the petri dishes.",
+        "B": "The bacteria are immune to both penicillin and erythromycin.",
+        "C": "Specific bacteria in the culture are immune to either penicillin or erythromycin but not both simultaneously.",
+        "D": "Dishes 1 and 2 must be contaminated with a substance that promotes bacteria growth."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The question asks for the best explanation of the results of both experiments, which means that the statements in all four choices could be consistent with the results and you need to find the one that is the best overall explanation for what happened.</p><p>According to the results, the growth in Dishes 1 and 2 looked pretty much the same as the control group, so you could conclude from them that erythromycin and penicillin didn't affect the total amount of bacterial growth. That is, the culture contains bacteria that seem to be immune to these antibiotics. Putting the antibiotics together in Dish 3, however, definitely stopped bacterial growth, so the antibiotics weren't completely ineffective. Cross out Choice (B).</p><p>The best explanation is that the culture must contain at least two kinds of bacteria: one immune to penicillin and one immune to erythromycin. In Dish 1, the bacteria immune to penicillin grew like crazy and filled the whole dish. In Dish 2, the bacteria immune to erythromycin was able to take over. In Dish 3, however, both kinds of bacteria were stopped, so the area around the paper circles was clear of bacteria. These results were confirmed with Dishes 5 and 6, in which the bacteria that was immune to one antibiotic was overcome by the other. If the antibiotics affected different kinds of bacteria, they didn't have the same effect. Choice (A) is wrong. The phenomenon is best explained by Choice (C).</p><p>There's nothing in the experiment to suggest that the first two dishes were contaminated. So Choice (D) can't be right.</p>"
+    },
+    {
+      "questionId": "925",
+      "passageId": "ResearchSummaries1",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following best describes the relationship between Experiment 1 and Experiment 2?</p>",
+      "options": {
+        "A": "Experiment 2 provides results that contradict the results of Experiment 1.",
+        "B": "The results of Experiment 2 provide further proof for a conclusion reached by Experiment 1.",
+        "C": "Experiment 2 results in information that is unrelated to the results of Experiment 1.",
+        "D": "Experiments 1 and 2 use completely different methods to reach the same conclusion."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Eliminate the answers you know are wrong. The results of Experiment 1 support the results of Experiment 2. Therefore, Choices (A) and (C) are clearly wrong. That leaves you with Choices (B) and (D).</p><p>Beware of answer choices that contain debatable words like completely. The two experiments aren't completely different. And if one part of the answer is wrong, the entire answer is wrong. The best answer is Choice (B).</p>"
+    },
+    {
+      "questionId": "926",
+      "passageId": "ResearchSummaries1",
+      "passageHighlight": "",
+      "questionHtml": "<p>Studies show that erythromycin is one of the only antibiotics effective in the treatment of infections of the prostate gland, penicillin is effective against most forms of meningitis, erythromycin is not effective against meningitis, and both antibiotics are effectively used to kill Staphylococcus. Based on the results of Experiment 2, it is reasonable to conclude that:</p>",
+      "options": {
+        "A": "the bacteria in Dish 1 at the end of Experiment 1 are of the type that causes prostate gland infections.",
+        "B": "the bacteria in Dish 2 at the end of Experiment 1 are of the type that causes meningitis.",
+        "C": "neither the bacteria in Dish 1 nor the bacteria in Dish 2 at the end of Experiment 1 are Staphylococcus.",
+        "D": "the bacteria in Dish 3 at the end of Experiment 2 are Staphylococcus."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The answer choices concern only the bacteria in Dishes 1, 2, and 3, so, do a quick review of the bacteria that remain in the first three dishes after the first experiment.</p><p>Dish 1 has bacteria that weren't killed by erythromycin. According to the question, meningitis is immune to erythromycin. So Dish 1 could contain meningitis bacteria at the end and probably doesn't have the bacteria that cause infections of the prostate gland. Eliminate Choice (A).</p><p>Dish 2 has bacteria that weren't killed by penicillin. The question implies that bacteria that cause prostate gland infections are immune to penicillin. So Dish 2 could contain those kinds of bacteria and probably doesn't have meningitis bacteria. Choice (B) isn't reasonable.</p><p>In Dish 3, erythromycin and penicillin effectively wiped out the bacteria. Cross out Choice (D) because Dish 3 didn't contain much, if any, bacteria at the end of the experiment.</p><p>Because both erythromycin and penicillin are effective against Staphylococcus, those kinds of bacteria probably weren't present in either Dish 1 or Dish 2 at the end of the experiment. The best answer is Choice (C).</p>"
+    },
+    {
+      "questionId": "927",
+      "passageId": "ResearchSummaries1",
+      "passageHighlight": "",
+      "questionHtml": "<p>Based on the student's experiments, what is reasonable to conclude about the two antibiotics?</p>",
+      "options": {
+        "A": "The level of effectiveness of either antibiotic depends on the particular type of bacteria to be controlled.",
+        "B": "Generally, antibiotic A is more effective at killing bacteria than is antibiotic B.",
+        "C": "Using the two antibiotics together will always be more effective in killing bacteria than using one of them alone.",
+        "D": "Neither of the two antibiotics is particularly effective for fighting bacteria."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Be reasonable and choose the answer that doesn't require you to assume too much. Choice (D) has to be wrong because the two antibiotics together did a good job of controlling the</p>"
+    }
+    
+   ]
+}

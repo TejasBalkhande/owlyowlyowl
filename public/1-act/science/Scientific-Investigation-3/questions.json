@@ -1,0 +1,103 @@
+{
+  "passages": [
+   {
+      "passageId": "1ScientificInvestigation1",
+      "passageHtml": "An engineer is designing a piping system to supply water to a home. Two studies are conducted to\ndetermine the effects on volumetric flow rate of the water when the pipe diameter and water\nvelocity are varied. Volumetric flow rate is measured in gallons per minute (GPM), and\nrepresents how much water can be supplied to a home in a given amount of time. Figure 1 shows a\npipe of diameter D with water flowing through it at a velocity V.\n<br>\n<img src=\"/1-act-i/sci/sci-1/images/image_11.png\" class=\"responsive-img\" width=\"360\" height=\"360\" alt=\"\">\n<br>\n<b>Study 1</b><br>\nThe diameter, D, of the pipe was varied while the velocity of the water, V, was held constant at\n5 feet per second (ft/s). Figure 2 shows how varying the diameter, which was measured in inches,\nchanged the flow rate.\n<br>\n<img src=\"/1-act-i/sci/sci-1/images/image_12.png\" class=\"responsive-img\" width=\"360\" height=\"360\" alt=\"\">\n<br>\n<b>Study 2</b><br>\nThe velocity, V, of the water flowing in the pipe was varied while the diameter of the pipe, D,\nwas held constant at 1 inch. Figure 3 shows how varying the velocity changed the flow rate.<br>\n<br>\n\n<img src=\"/1-act-i/sci/sci-1/images/image_13.png\" class=\"responsive-img\" width=\"360\" height=\"360\" alt=\"\">"
+    }
+    
+  ],
+  "questions": [
+     {
+      "questionId": "963",
+      "passageId": "1ScientificInvestigation1",
+      "questionHtml": "According to Study 1, the flow rate with a pipe diameter of 1.5 inches was closest to which of the following values?",
+      "options": {
+        "A": "5 GPM",
+        "B": "12 GPM",
+        "C": "28 GPM",
+        "D": "36 GPM"
+      },
+      "correctOption": "C",
+      "explanationHtml": "This question asks about Scientist 1, so you have to look through those paragraphs to find your answer. The question is essentially asking for the age of the Moon. If you look at the second sentence of Scientist 1's theory, you see that it says \"the Moon is younger than the Earth.\" Choice (B) is the right answer."
+    },
+    {
+      "questionId": "964",
+      "passageId": "1ScientificInvestigation1",
+      "questionHtml": "According to Study 2, as the velocity of the water increased, the flow rate:",
+      "options": {
+        "A": "increased.",
+        "B": "decreased.",
+        "C": "stayed the same.",
+        "D": ""
+      },
+      "correctOption": "A",
+      "explanationHtml": "This question asks you for the relationship between velocity and flow rate, as shown in Study 2. To answer it, you need to look at Figure 3. Velocity increases from left to right, and flow rate increases from bottom to top. As you can see, the data line goes from left to right, bottom to top, indicating that both flow rate and velocity are increasing. This shows you that as velocity is increased, flow rate is also increased. Choice (A) is the correct answer. Choice (D) is wrong because the flow rate was in fact measured for every data point in each study."
+    },
+    {
+      "questionId": "965",
+      "passageId": "1ScientificInvestigation1",
+      "questionHtml": "Which of the following is NOT true about Study 1?",
+      "options": {
+        "A": "Velocity was held constant.",
+        "B": "Pipe diameter was held constant.",
+        "C": "Flow rate changed.",
+        "D": "Pipe diameter had an effect on flow rate."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Because you're asked to find what's not true, eliminate answers that are true. First, you have to be comfortable with the parameters of Study 1. Both studies measure flow rate, which clearly changes according to the graphs. Cross out Choice (C) right away because it's a true statement. In Study 1, velocity was held constant, so Choice (A) is also true. In Study 1, pipe diameter was varied and had an effect on flow rate. That means that Choice (D) is true. Thus, Choice (B) is false and therefore the correct answer."
+    },
+    {
+      "questionId": "966",
+      "passageId": "1ScientificInvestigation1",
+      "questionHtml": "Given a pipe diameter of 3 inches and a water velocity of 5 ft/s, the flow rate will be:",
+      "options": {
+        "A": "less than 10 GPM.",
+        "B": "between 10 GPM and 30 GPM.",
+        "C": "between 30 GPM and 50 GPM.",
+        "D": "greater than 50 GPM."
+      },
+      "correctOption": "D",
+      "explanationHtml": "Because the velocity is 5 ft/s, check out Figure 2, where the velocity was held constant at 5 ft/s. The plotted data points only go up to a diameter of 2 inches, where the measured flow of water was about \\(50\\mathrm{GPM}\\) . The figure shows as the diameter increased, the flow rate also increases. Because the diameter of 3 inches is larger than 2 inches, the flow rate will be greater than \\(50\\mathrm{GPM}\\) . Choice (D) is correct. Make sure you're looking for a diameter of 3 inches. If you mistakenly use Figure 3 and look for a velocity of \\(3\\mathrm{ft / s}\\) , you'll end up thinking that the flow rate is less than \\(10\\mathrm{GPM}\\) and choose the incorrect Choice (A)."
+    },
+    {
+      "questionId": "967",
+      "passageId": "1ScientificInvestigation1",
+      "questionHtml": "Which of the following combinations of diameter and velocity would produce a flow rate of 10 GPM?",
+      "options": {
+        "A": "0.5-inch diameter, 5 ft/s velocity",
+        "B": "1-inch diameter, 4 ft/s velocity",
+        "C": "1.5-inch diameter, 5 ft/s velocity",
+        "D": "2-inch diameter, 8 ft/s velocity"
+      },
+      "correctOption": "B",
+      "explanationHtml": "For this question, you can either look at each figure to determine what conditions would result in a flow rate of 10 GPM or consider each answer choice to see what the flow rate would be for each. From Figure 2, you can see that a flow rate of 10 GPM would occur with a pipe diameter of about 0.9 inches and a velocity of \\(5\\mathrm{ft / s}\\) . This doesn't correspond to any of the possible choices. Figure 3 shows that a flow rate of 10 GPM would occur with a velocity of about \\(4\\mathrm{ft / s}\\) and a pipe diameter of 1 inch. This matches Choice (B), which is the correct answer. If you evaluate each choice individually you see that Choice (A) results in a flow rate of about 3 GPM, Choice (C) results in a flow rate of about 28 GPM, and Choice (D) isn't a measured point in either figure."
+    },
+    {
+      "questionId": "968",
+      "passageId": "1ScientificInvestigation1",
+      "questionHtml": "When a 1-inch diameter pipe is used and the water velocity is increased from 2 ft/s to 4 ft/s, according to Study 2, by about how much will the flow rate increase?",
+      "options": {
+        "A": "5 GPM",
+        "B": "10 GPM",
+        "C": "15 GPM",
+        "D": "20 GPM"
+      },
+      "correctOption": "A",
+      "explanationHtml": "Figure 3 reveals the answer to this question. As the water velocity increases from 2 ft/s to 4 ft/s, the flow rate increases from 5 GPM to 10 GPM. \\(10\\mathrm{GPM} - 5\\mathrm{GPM} = 5\\mathrm{GPM}\\) . The flow rate increases 5 GPM. If you picked Choice (B), you read the question too quickly. The question asks for how much the flow rate increases, not what the resulting flow rate will be."
+    },
+    {
+      "questionId": "969",
+      "passageId": "1ScientificInvestigation1",
+      "questionHtml": "Increasing which of the following would have the more significant affect on flow rate?",
+      "options": {
+        "A": "Velocity because doubling velocity results in a 100 percent increase in flow rate.",
+        "B": "Velocity because a 100 percent in velocity results in an approximate 300 percent increase in flow rate.",
+        "C": "Diameter because a 50 percent in diameter results in a 50 percent increase in flow rate.",
+        "D": "Diameter because a 100 percent in diameter results in an approximate 300 percent increase in flow rate."
+      },
+      "correctOption": "D",
+      "explanationHtml": "You can eliminate Choices (B) and (C) because their statements are untrue based on the graphs in the passage. Of the remaining answers, Choice (D) has to be correct because increasing diameter by 100 percent results in a greater flow rate than does increasing velocity by 100 percent."
+    }
+    
+   ]
+}

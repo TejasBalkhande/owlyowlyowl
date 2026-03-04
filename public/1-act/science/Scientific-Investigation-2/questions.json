@@ -1,0 +1,172 @@
+{
+  "passages": [
+    {
+      "passageId": "2ScientificInvestigation",
+      "passageHtml": "A behavioral scientist was studying the behavior of a certain species of rodents that normally\nlives in habitats with both open grassy areas and areas with fairly dense bushes. Most of the\nknown predators of these rodents are nocturnal. The scientist prepared a large, controlled\nliving area for the rodents by placing lots of bushes and small trees on one side of the\nhabitat, leaving the other half covered only by short grass. She cleared the test area of all\nother animals in the area and provided enclosures so that no other animals could enter the area.<br>\n<br>\n<b>Study 1</b><br>\nFor her first study, the scientist distributed seeds and other foods common to the rodents\nequally over the entire habitat and released the rodents into the area. The scientist tracked\nthe rodents’ movements within the area during the daylight hours of one day and recorded her\ndata in Figure 1.\n<img src=\"/1-act-i/sci/sci-1/images/image_14.png\" class=\"responsive-img\" width=\"360\" height=\"360\" alt=\"\">\n<br>\n<b>Study 2</b><br>\nThe scientist then distributed the food in the controlled area in the same manner as she did for\nStudy 1. She placed a model of a hawk, which is a predator of the rodents, above the controlled\nhabitat and observed the rodents’ movements during the daylight hours of another day. She\nrecorded the results of her observations in Figure 2.\n\n<img src=\"/1-act-i/sci/sci-1/images/image_15.png\" class=\"responsive-img\" width=\"360\" height=\"360\" alt=\"\">\n<br>\n<b>Study 3</b><br>\nFor her last study, the scientist removed the hawk model from the area and distributed food. She\nplaced twice as much food in the area with the bushes and trees as she did in the grassy area.\nHer observations of the rodents’ movements over the next day-long hours of daylight are\nrecorded in Figure 3.\n\n<img src=\"/1-act-i/sci/sci-1/images/image_16.png\" class=\"responsive-img\" width=\"360\" height=\"360\" alt=\"\">\n<br>"
+    },
+    {
+      "passageId": "2ScientificInvestigation2",
+      "passageHtml": "A student conducted several experiments to test the relative viscosity of three kinds of fluids\nother than water at different temperatures. Viscosity refers to the ability of a fluid to resist\nflow. The results of the student’s experiments are recorded in Figure 1.<br>\n<br>\n<b>Experiment 1</b><br>\nThe student filled three clear containers with equal amounts of three different fluids at room\ntemperature (about 25°C). The student then dropped a small metal ball into the fluid in each\nof the three containers and recorded the time it took for the ball to travel to the bottom in\neach case.<br>\n<b>Experiment 2</b><br>\nThe student cooled each of the fluids to 0°C and performed the same experiment on the cooled\nfluids.<br>\n<b>Experiment 3</b><br>\nFor the final experiment, the student heated the fluids to 100°C and performed the same task\non the heated fluids.\n<br>\n<img src=\"/1-act-i/sci/sci-1/images/image_17.png\" class=\"responsive-img\" width=\"460\" height=\"460\" alt=\"\">"
+    }
+    
+  ],
+  "questions": [
+    {
+      "questionId": "928",
+      "passageId": "2ScientificInvestigation",
+      "questionHtml": "Which of the following provides the best explanation for why the scientist observed the rodents' behavior during daylight hours?",
+      "options": {
+        "A": "The scientist wanted to observe the rodents' behavior during the hours when their predators were less present.",
+        "B": "The scientist wanted to observe the rodents' behavior during the hours when their predators were more present.",
+        "C": "The scientist wanted to observe the predators' behavior during the hours when the rodents were most active.",
+        "D": "The scientist wanted to observe the predators' behavior during the hours when the rodents were least active."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The scientist wasn't concerned with observing predator behavior, so you can cross out Choices (C) and (D) immediately. The passage states that the predators are primarily nocturnal, so daylight observations would be made when the predators are less present than they would be at night. The most reasonable answer is Choice (A).</p>"
+    },
+    {
+      "questionId": "929",
+      "passageId": "2ScientificInvestigation",
+      "questionHtml": "Given the information recorded by the scientist in all three studies, which of the following hypotheses is best supported by the results of Study 1?",
+      "options": {
+        "A": "Some rodents established territories in the bushy area and forced all others into the grassy area.",
+        "B": "The rodents had no preference for either area.",
+        "C": "The rodents were less likely to face competition in the grassy area.",
+        "D": "It was easier for the rodents to find the food in the grassy area."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Study 1 indicates that rodents prefer to eat in the grassy area, so Choice (B) is definitely wrong.</p><p>The question asks for the best conclusion for Study 1. Eliminate answer choices that require you to make assumptions that go beyond the information available from Study 1.</p><p>Choice (A) could be an accurate description of what happened in Study 1. However, the passage doesn't say anything about territorial behavior, so you can't point to anything in Study 1 to justify Choice (A). Check the other answers to see whether there's a better choice.</p><p>The passage says that the researcher cleared out all the other animals before putting in the rodent species, so there couldn't have been any competitors. Cross out Choice (C).</p><p>Choice (D) presents a hypothesis that's consistent with the results in the bar graph without bringing in anything that's beyond the scope of foraging behavior. Therefore, it's a better answer than Choice (A). Choice (D) is the best hypothesis of the options provided.</p>"
+    },
+    {
+      "questionId": "930",
+      "passageId": "2ScientificInvestigation",
+      "questionHtml": "Which of the following is the best explanation for the results of Study 2?",
+      "options": {
+        "A": "More rodents foraged in the bushy area because they were not as hungry as they were the day before.",
+        "B": "More rodents foraged in the bushy area because they were seeking shelter from the sun.",
+        "C": "Fewer rodents foraged in the grassy area because they felt safe there.",
+        "D": "Fewer rodents foraged in the grassy area because they were leaving food for the hawk."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The only difference between Study 2 and Study 1 was the addition of the model hawk, so the correct answer probably has something to do with the hawk. The rodents didn't seek shelter from the sun in Study 1, so it's not reasonable to conclude that they were suddenly seeking shelter in Study 2. Cross out Choice (B). You can't make reasonable assumptions about the rodents' hunger level. They likely need to eat every day. Eliminate Choice (A).</p><p>Choices (C) and (D) have something to do with the hawk, but only Choice (C) relates the presence of the hawk to other information in the passage. The passage doesn't tell you that rodents like to leave food for other animals, so Choice (D)'s too far-fetched. The best answer is Choice (C). The passage tells you that the hawk is a predator, so it makes sense that the rodents would forage in the place where they felt less exposed to the hawk.</p>"
+    },
+    {
+      "questionId": "931",
+      "passageId": "2ScientificInvestigation",
+      "questionHtml": "What is the most reasonable conclusion to draw from the results of Study 3?",
+      "options": {
+        "A": "The rodents ate more food when they foraged in the bushy area than they did when they foraged in the grassy area.",
+        "B": "Rodents can find food more easily if there is more of it available.",
+        "C": "Rodents prefer to forage in the grassy area and will forage in the bushy area only if they run out of food in the grassy area.",
+        "D": "When they foraged in the grassy area, the rodents were less efficient food seekers than when they foraged in the bushy area."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The question asks for the most reasonable conclusion of the four. Look for the one you can justify best. Narrow your options by eliminating any answer choices you know can't be right.</p><p>You know from Study 2 that rodents forage in the bushes when predators are around, so running out of food can't be the only reason rodents forage there. Even though the first part of the answer is true, you have to eliminate Choice (C) based on the last part.</p><p>Consider Choice (D). Actually, you could make a better case for the opposite conclusion. Because there was less food in the grassy area, the rodents may have had to be more efficient than when they foraged in the bushes. Regardless, the passage doesn't discuss efficiency, so Choice (D) is not the most reasonable answer.</p><p>Choice (A) may sound reasonable, but it regards the quantity of food the rodents ate rather than the amount of time they spent foraging. You may be able to make a case that if they foraged longer in the bushes, the rodents ate more food there, but Choice (B) is better.</p><p>It deals with the subject of the study, finding food, and when you compare the results of Study 3 to Study 1, you see that the only difference between the two studies is that there was more food in the busy area in Study 3. The rodents increased their foraging time in the busy area when there was more food there. So they must have been able to find more food when there was more of it.</p>"
+    },
+    {
+      "questionId": "932",
+      "passageId": "2ScientificInvestigation",
+      "questionHtml": "The scientist decides to conduct a fourth study in the same controlled area under the same conditions as Study 1. The only variation she makes to Study 4 is that she records data only during the hours when there is no daylight. Given what is known about the rodents, a reasonable hypothesis for the results of this study would be:",
+      "options": {
+        "A": "the rodents will spend three times as much time foraging in the bushy area as in the grassy area.",
+        "B": "no rodents will forage in the bushy area.",
+        "C": "no rodents will forage in the grassy area.",
+        "D": "the rodents will spend more time foraging in the bushy area than they spent in the bushy area in Study 1."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Choice (B) and (C) are too all encompassing to be correct. Saying that no rodents will forage in either area is unjustifiable. You know that the rodents' predators come out at night. Study 2 presented the rodents with a predator. Therefore, it makes sense that the rodents' foraging behavior in hours with no daylight would be similar to their behavior in Study 2. The results of Study 2 showed that the rodents spent more time in the bushy area than they did in Study 1. Choice (D) is the best answer.</p><p>Choice (A) isn't right because the studies don't tell you enough about foraging behavior for you to predict the exact amount of increase in time the rodents will spend in the bushy area.</p>"
+    },
+    {
+      "questionId": "933",
+      "passageId": "2ScientificInvestigation",
+      "questionHtml": "What is an independent variable in all three studies?",
+      "options": {
+        "A": "Rodent movement while foraging for food",
+        "B": "Food placement",
+        "C": "Presence of a predator",
+        "D": "Air temperature"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The independent variable is the variable that's controlled by the scientist rather than the conditions of the experiment. You can cross out Choice (D) because air temperature wasn't a variable at all. The presence of a predator was controlled by the scientist, but it was only part of Study 2. Eliminate Choice (C) because the question asked for the independent variable in all three studies.</p><p>The scientist didn't control where the rodents foraged for food. That was the dependent variable. The answer has to be Choice (B). The scientist controlled where the food was placed in all three studies.</p>"
+    },
+    {
+      "questionId": "934",
+      "passageId": "2ScientificInvestigation",
+      "questionHtml": "The scientist would like to further explore the effect of the presence of specific predators on the rodents' behavior. She is contemplating setting up another study in the same controlled environment in which she places a model of a hawk overhead and a model of another known predator, the bobcat, in the bushes. Will this study be adequate to meet her goal?",
+      "options": {
+        "A": "Yes, because the study allows the scientist to study the effects of more than one predator at a time.",
+        "B": "Yes, because the study takes into consideration the effects of predators in the air and on the ground.",
+        "C": "No, because the study has too many independent variables to provide the scientist with accurate information about the effects of specific predators.",
+        "D": "No, because the use of models of predators is not appropriate to measure the effect of real predators."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Focus on the scientist's goal for this additional study. She wants to know how specific predators affect rodent foraging behavior. The way to isolate the behaviors associated with specific predators is to introduce the predators one at a time. Therefore, Choice (A) has to be wrong.</p><p>Choice (B) would work if the scientist's goal was to see how rodents react when they see a predator in the air and one on the ground, but that's not her goal. The scientist was able to observe the effects of a predator using a model in Study 2, so Choice (D) isn't warranted.</p><p>The best answer is Choice (C). Introducing two independent variables (two different predators) won't provide accurate information about how the rodents react to one specific predator. You may have thought that because the scientist already had data about hawks from Study 2, she could isolate the reaction rodents had to the bobcat. But the rodents may react differently to a bobcat when a hawk's present than they would to a bobcat when it's alone.</p>"
+    },
+    {
+      "questionId": "935",
+      "passageId": "2ScientificInvestigation2",
+      "questionHtml": "<p>At a temperature of 75&deg;C, the time it took Fluid A to reach the bottom of container is closest to which of the following:</p>",
+      "options": {
+        "A": "2 seconds.",
+        "B": "6 seconds.",
+        "C": "8 seconds.",
+        "D": "10 seconds."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Between 25&deg;C and 100&deg;C on the x-axis to estimate the data for 75&deg;C. The point where your line intersects the line for Fluid A is closest to 8 seconds as defined on the y-axis. Choices (A) and (B) correspond with the times for Fluid B and C, respectively.</p>"
+    },
+    {
+      "questionId": "936",
+      "passageId": "2ScientificInvestigation2",
+      "questionHtml": "<p>Based on the results of the experiments, it is reasonable to conclude about the relative viscosities of the fluids that:</p>",
+      "options": {
+        "A": "Fluid A is less viscous than Fluid B.",
+        "B": "at increased temperatures Fluid A and Fluid B have the same viscosity.",
+        "C": "all three fluids have virtually the same viscosity at every temperature.",
+        "D": "at some temperatures some fluids have the same viscosity, and at other temperatures they do not."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>You can easily eliminate Choice (C). It's obvious from Figure 1 that the three liquids don't have the same viscosity at every temperature. If they did, their lines on the graph would lie on top of each other. There's a point on the graph where Fluid A and Fluid B have the same viscosity, but it's at a lower temperature rather than a higher temperature, so Choice (B) is wrong. At some temperatures Fluid A is less viscous than Fluid B, but at most temperatures Fluid B is less viscous than Fluid A. So Choice (A) is wrong. That leaves you with the safe bet, Choice (D). Some fluids have the same viscosity at a certain temperature (A and B at about 10 degrees), but at other temperatures the two liquid don't.</p>"
+    },
+    {
+      "questionId": "937",
+      "passageId": "2ScientificInvestigation2",
+      "questionHtml": "<p>Which of the following is true about the relationship between temperature and viscosity for the three fluids?</p>",
+      "options": {
+        "A": "For all fluids, there is an inverse relationship between temperature and viscosity.",
+        "B": "For all fluids, there is a positive correlation between temperature and viscosity.",
+        "C": "The relationship between temperature and viscosity is negative for Fluid C and positive for Fluid B.",
+        "D": "The relationship between temperature and viscosity is static for all three fluids."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>At higher temperatures all of the liquids had a lower viscosity. Therefore, there is an inverse relationship between temperature and viscosity. Choice (A) is the right answer. If there were a positive relationship between temperature and viscosity, one would go up when the other went up or vice versa. If the relationship were static, the three lines on the graph would be horizontal.</p>"
+    },
+    {
+      "questionId": "938",
+      "passageId": "2ScientificInvestigation2",
+      "questionHtml": "<p>The student is told that the three fluids are motor oil, machine oil, and olive oil and that motor oil has a higher viscosity than olive oil. From this information, the student can draw the conclusion that:</p>",
+      "options": {
+        "A": "Fluid A is most likely motor oil.",
+        "B": "Fluid B is most likely machine oil.",
+        "C": "Fluid C is either machine oil or olive oil.",
+        "D": "Fluid B is definitely not motor oil."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The higher the viscosity of the oil, the higher its line is on the graph. So motor oil's line is higher on the graph than olive oil's. Fluid C is the least viscous of the three fluids so it can't be motor oil. If it were, its line on the graph would have to be above at least one other line. That tells you that Fluid C has to be either machine oil or olive oil. Choice (C) is the answer. You don't know anything about the relative viscosity of machine oil, so you can't make the statement in Choice (B). Fluid B's line is above Fluid C's, so it's possible that Fluid B is motor oil. Choice (D) isn't right. You may have been attracted to Choice (A). Fluid A could be motor oil because its viscosity is generally less than the other two fluids. However, Fluid B could be motor oil and Fluid C olive oil. In that case Fluid A would be machine oil. Therefore, you can't say that Fluid A is most likely motor oil.</p>"
+    },
+    {
+      "questionId": "939",
+      "passageId": "2ScientificInvestigation2",
+      "questionHtml": "<p>Given the information in Figure 1, it is reasonable to conclude which of the following about the number of seconds it would take for the ball to drop to bottom of one of the fluids?</p>",
+      "options": {
+        "A": "The number of seconds it would take for the ball to drop to the bottom of Fluid A at 75°C would be about 6.",
+        "B": "The number of seconds it would take for the ball to drop to the bottom of Fluid B at 125°C would be between 6 and 4.",
+        "C": "The number of seconds it would take for the ball to drop to the bottom of Fluid B at 80°C would be just about 1.",
+        "D": "The number of seconds it would take for the ball to drop to the bottom of Fluid C at 25°C would be about 4."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The graph of Fluid A show that it takes 6 seconds for the ball to drop at 100 degrees, so Choice (A) is wrong. You can't tell what the number of seconds will be for Fluid B at 125 degrees because 125 degrees isn't on the graph, and it looks like it takes about 4 seconds for the ball to drop in Fluid B at 100 degrees. Choice (B) can't be right. The graph shows that at 80 degrees the metal ball drops in Fluid B at around 6 seconds. Cross out Choice (C). The answer must be Choice (D). The temperature on the Fluid C line that intersects 4 seconds is around 25 degrees.</p>"
+    }
+    
+   ]
+}

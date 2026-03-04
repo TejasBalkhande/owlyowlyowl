@@ -1,0 +1,193 @@
+{
+  "passages": [
+    {
+      "passageId": "Passage4",
+      "passageHtml": "An organism’s genetic information is stored within the nuclei of its cells as a set of chromosomes. The number of chromosomes\nin a cell varies from species to species. In some species, the number of chromosomes can vary between individuals. Table 1.1 lists\nthe chromosome count for a variety of species.\n<style>\n    body {\n      margin: 10px;\n      font-family: Arial, Helvetica, sans-serif;\n      font-size: 12px;\n      background: #fefefe;\n      color: #111;\n    }\n    h1 {\n      font-size: 1.1rem;\n      text-align: center;\n      margin: 8px 0 4px;\n      white-space: nowrap;\n    }\n    table {\n      width: 100%;\n      max-width: 620px;          /* ← significantly reduced width */\n      margin: 0 auto;\n      border-collapse: collapse;\n      font-size: 12px;\n      line-height: 1.12;\n      background: white;\n    }\n    th, td {\n      padding: 3px 6px;\n      border: 1px solid #ccc;\n      text-align: left;\n    }\n    th {\n      background: #333;\n      color: white;\n      font-weight: bold;\n      white-space: nowrap;\n    }\n    td:nth-child(1) { width: 24%; }\n    td:nth-child(2) { width: 48%; font-style: italic; }\n    td:nth-child(3) { width: 18%; text-align: center; font-weight: bold; }\n    tr:nth-child(even) { background: #f9f9f9; }\n    .notes {\n      max-width: 620px;\n      margin: 8px auto 20px;\n      font-size: 11px;\n      line-height: 1.25;\n      color: #444;\n    }\n    .notes sup {\n      font-size: 9px;\n      color: #a00;\n    }\n    sup { vertical-align: super; font-size: 9px; color: #c00; }\n  </style>\n</head>\n<body>\n\n<h1>TABLE 1.1 – Chromosome Counts</h1>\n\n<table>\n  <thead>\n    <tr>\n      <th>Organism</th>\n      <th>Scientific Name</th>\n      <th>2n</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr><td>Adder's-tongue fern</td><td>Ophioglossum reticulatum</td><td>1260</td></tr>\n    <tr><td>Coyote</td><td>Canis latrans</td><td>78</td></tr>\n    <tr><td>Dog</td><td>Canis lupus familiaris</td><td>78</td></tr>\n    <tr><td>Horse</td><td>Equus ferus caballus</td><td>64</td></tr>\n    <tr><td>Donkey</td><td>Equus africanus asinus</td><td>62</td></tr>\n    <tr><td>Bengal fox</td><td>Vulpes bengalensis</td><td>60</td></tr>\n    <tr><td>Silkworm</td><td>Bombyx mori</td><td>54</td></tr>\n    <tr><td>Pineapple</td><td>Ananas comosus</td><td>50</td></tr>\n    <tr><td>Zebra fish</td><td>Danio rerio</td><td>50<sup>1</sup></td></tr>\n    <tr><td>Potato</td><td>Solanum tuberosum</td><td>48</td></tr>\n    <tr><td>Human</td><td>Homo sapiens</td><td>46</td></tr>\n    <tr><td>Oats</td><td>Avena sativa</td><td>42<sup>2</sup></td></tr>\n    <tr><td>Mouse</td><td>Mus musculus</td><td>40</td></tr>\n    <tr><td>Earthworm</td><td>Lumbricus terrestris</td><td>36</td></tr>\n    <tr><td>Red fox</td><td>Vulpes vulpes</td><td>34</td></tr>\n    <tr><td>Alfalfa</td><td>Medicago sativa</td><td>32<sup>1</sup></td></tr>\n    <tr><td>Honeybee</td><td>Apis mellifera</td><td>32<sup>3</sup></td></tr>\n    <tr><td>Yeast</td><td>Saccharomyces cerevisiae</td><td>32</td></tr>\n    <tr><td>Slime mold</td><td>Dictyostelium discoideum</td><td>12</td></tr>\n    <tr><td>Swamp wallaby</td><td>Wallabia bicolor</td><td>10/11<sup>4</sup></td></tr>\n    <tr><td>Fruit fly</td><td>Drosophila melanogaster</td><td>8</td></tr>\n    <tr><td>Jack jumper ant</td><td>Myrmecia pilosula</td><td>2<sup>3</sup></td></tr>\n  </tbody>\n</table>\n\n<div class=\"notes\">\n  <strong>Notes:</strong>  \n  <sup>1</sup> tetraploid · \n  <sup>2</sup> hexaploid · \n  <sup>3</sup> male haploid · \n  <sup>4</sup> male have 1 less than female\n</div>\n\n</body>\n\nPloidy is the number of sets of chromosomes present in the cell of an organism. The monoploid number (x) is the number of\nchromosomes an organism has in one set.<br>\nIn most species, a gamete (sex cell) contains one complete set of an organism’s chromosomes. The number of chromosomes\nin a gamete is referred to as the haploid number (n). The fusing of two gametes into a zygote during sexual reproduction\nproduces somatic cells (body cells) containing two complete sets of chromosomes. The total number of chromosomes in a\nsomatic cell is referred to as the diploid number (2n). In most species, the monoploid number (x) and the haploid number (n) are\nthe same.<br>\nSome species have more than two sets of chromosomes present in their cells, a condition referred to as polyploidy. The\nsomatic cells of triploid organisms have three sets of chromosomes, for example, and tetraploids have four. In polyploidy\norganisms, the term haploid is still used to describe the number of chromosomes in a gamete, and diploid is used to describe the\nnumber of chromosomes in a somatic cell. However, the monoploid number and the haploid number are not the same in a\npolyploidy organism."
+    }
+    
+  ],
+  "questions": [
+    {
+"questionId": "46",
+"passageId": "Passage4",
+"questionHtml": "<p>Based on the information in Table 2.1, which species does not exhibit variation in chromosome numbers between individuals?</p>",
+"options": {
+"A": "European honeybee",
+"B": "Swamp wallaby",
+"C": "Slime mold",
+"D": "Jack jumper ant"
+},
+"correctOption": "C",
+"explanationHtml": "<p>According to the information in Table 2.1, European honeybee and jack jumper ant males are both haploid. The male swamp wallaby has one less chromosome than the female. Slime mold has no notation indicating a variability in chromosome numbers among individuals of the species.</p>"
+},
+{
+"questionId": "47",
+"passageId": "Passage4",
+"questionHtml": "<p>The first part of an organism's scientific name identifies the genus to which it belongs. Which statement about the members of a genus is best supported by the information in Table 2.1?</p>",
+"options": {
+"A": "An organism's genus determines the number of chromosomes it has.",
+"B": "Organisms in the same genus tend to have similar chromosome counts.",
+"C": "No two organisms in the same genus can have the same number of chromosomes.",
+"D": "Chromosome count can vary greatly between organisms in the same genus."
+},
+"correctOption": "D",
+"explanationHtml": "<p>The coyote (2n = 78 chromosomes) and dog (2n = 78) both belong to the genus Canis. The horse (2n = 64) and the donkey (2n = 62) both belong to the genus Equus. The Bengal fox (2n = 60 chromosomes) and red fox (2n = 34) both belong to the genus Vulpes. These pairs of species demonstrate that two members of the same genus may have the same chromosome count (coyote and dog) or very different chromosome counts (Bengal fox and red fox).</p>"
+},
+{
+"questionId": "48",
+"passageId": "Passage4",
+"questionHtml": "<p>Based on the information in Table 2.1, the relationship between diploid chromosome count and organism complexity can best be described as exhibiting:</p>",
+"options": {
+"A": "a direct correlation.",
+"B": "no correlation.",
+"C": "an inverse correlation.",
+"D": "a linear correlation."
+},
+"correctOption": "B",
+"explanationHtml": "<p>As the diploid number of chromosomes decreases, the complexity of the organism does not decrease, as exemplified by a human having fewer chromosomes than a potato. Neither does the complexity of the organism increase, as exemplified by oats having fewer chromosomes than a human. Therefore, based on the information in Table 2.1, no significant correlation can be identified between the complexity of organisms and their diploid chromosome count.</p>"
+},
+{
+"questionId": "49",
+"passageId": "Passage4",
+"questionHtml": "<p>To which kingdom does the organism exhibiting the greatest diploid number of chromosomes in Table 2.1 belong?</p>",
+"options": {
+"A": "Animalia",
+"B": "Plantae",
+"C": "Eubacteria",
+"D": "Protista"
+},
+"correctOption": "B",
+"explanationHtml": "<p>The adder's-tongue fern has the greatest diploid number of chromosomes (2n = 1,260) in Table 2.1. A fern is a plant, which belongs to the kingdom Plantae.</p>"
+},
+{
+"questionId": "50",
+"passageId": "Passage4",
+"questionHtml": "<p>Which species has more chromosomes than a human but fewer chromosomes than a dog?</p>",
+"options": {
+"A": "Bombay mori",
+"B": "Canis latrans",
+"C": "Ophioglossum reticulatum",
+"D": "Mus musculus"
+},
+"correctOption": "A",
+"explanationHtml": "<p>The dog has 78 diploid chromosomes, while a human has 46. The silkworm, Bombyx mori, falls between these numbers with a total of 54.</p>"
+},
+{
+"questionId": "51",
+"passageId": "Passage4",
+"questionHtml": "<p>Cells from which pair of organisms have the same number of chromosomes in their nuclei?</p>",
+"options": {
+"A": "Horse and donkey",
+"B": "Zebra fish and pineapple",
+"C": "Earthworm and European honeybee",
+"D": "Oats and potato"
+},
+"correctOption": "B",
+"explanationHtml": "<p>The zebra fish and pineapple both have 50 diploid chromosomes. This means that 50 total chromosomes are contained in the nucleus of each somatic cell of both organisms.</p>"
+},
+{
+"questionId": "52",
+"passageId": "Passage4",
+"questionHtml": "<p>A team of scientists have discovered three previously unknown insect species in the Amazon rain forest. Which statement about the genetic information of these species is best supported by the data in Table 2.1?</p>",
+"options": {
+"A": "The largest species is most likely to have the highest number of diploid chromosomes.",
+"B": "There is no way to determine the diploid chromosome count of each species.",
+"C": "The three species are highly likely to have the same number of diploid chromosomes.",
+"D": "It is not easy to predict the diploid chromosome count of each species."
+},
+"correctOption": "D",
+"explanationHtml": "<p>The data in Table 2.1 indicates that a wide variability of chromosome counts exists, even among related species. Because of this, the diploid chromosome count of a new species cannot be predicted easily without more information. Genetic testing such as karyotyping can be used to positively identify the number of chromosomes for each species.</p>"
+},
+{
+"questionId": "53",
+"passageId": "Passage4",
+"questionHtml": "<p>Based on the information in the passage, which species produces gametes that each contain 32 chromosomes?</p>",
+"options": {
+"A": "Apis mellifera",
+"B": "Saccharomyces cerevisiae",
+"C": "Equus ferus caballus",
+"D": "Drosophila melanogaster"
+},
+"correctOption": "C",
+"explanationHtml": "<p>Gametes contain the haploid (n) number of chromosomes. Table 2.1 identifies the diploid (2n) number of chromosomes that are present in an organism's somatic cells. The horse (Equus ferus caballus) has a diploid number of 2n = 64. This means the haploid number in gametes would be n = 32.</p>"
+},
+{
+"questionId": "54",
+"passageId": "Passage4",
+"questionHtml": "<p>According to the information in Table 2.1, how many more total chromosomes does a female European honeybee have than a male?</p>",
+"options": {
+"A": "1",
+"B": "2",
+"C": "16",
+"D": "32"
+},
+"correctOption": "C",
+"explanationHtml": "<p>Table 2.1 indicates that male European honeybees are haploid rather than diploid. This means a male has n chromosomes, while a female has 2n chromosomes. Since the diploid number of chromosomes is 32, n = 16. Therefore, females have 16 more total chromosomes than males.</p>"
+},
+{
+"questionId": "55",
+"passageId": "Passage4",
+"questionHtml": "<p>Based on the information in the passage, the total number of chromosomes in a somatic cell is represented by which of the following terms?</p>",
+"options": {
+"A": "n",
+"B": "x",
+"C": "2x",
+"D": "2n"
+},
+"correctOption": "D",
+"explanationHtml": "<p>The total number of chromosomes in a somatic cell is referred to as the diploid number. The diploid number is represented by the term 2n, in which n represents the number of chromosomes in a gamete from the same organism. The number of chromosomes in a somatic cell is twice the number of chromosomes in a gamete.</p>"
+},
+{
+"questionId": "56",
+"passageId": "Passage4",
+"questionHtml": "<p>Which statement about polyploidy is supported by the information in the passage?</p>",
+"options": {
+"A": "The number of chromosomes varies among the somatic cells of a polyploid organism.",
+"B": "The gametes and somatic cells of a polyploid organism contain the same number of chromosomes.",
+"C": "The gametes of a polyploid organism contain more than one complete set of chromosomes.",
+"D": "The somatic cells of a polyploid organism contain too many chromosomes to be considered diploid."
+},
+"correctOption": "C",
+"explanationHtml": "<p>As stated in the passage, the gametes of most species contain one complete set of chromosomes, and the somatic cells contain two complete sets. In polyploid species, the somatic cells contain more than two sets of chromosomes, but the gametes still contain half of the total number of chromosomes in a somatic cell. This means a gamete will contain more than one complete set of chromosomes.</p>"
+},
+{
+"questionId": "57",
+"passageId": "Passage4",
+"questionHtml": "<p>Which of the following organisms has four complete sets of chromosomes in its somatic cells?</p>",
+"options": {
+"A": "Alfalfa",
+"B": "Slime mold",
+"C": "Oats",
+"D": "Earthworm"
+},
+"correctOption": "A",
+"explanationHtml": "<p>Table 2.1 indicates that alfalfa is a tetraploid species. The prefix tetra means \"four\". Therefore, as described in the passage, the somatic cells of a tetraploid species have four complete sets of chromosomes.</p>"
+},
+{
+"questionId": "58",
+"passageId": "Passage4",
+"questionHtml": "<p>Table 2.1 identifies the oat species Avena sativa as a hexaploid, containing six sets of chromosomes. The numerical representation 2n = 6x = 42 describes the total number of chromosomes in a somatic cell of this hexaploid species. How many chromosomes does Avena sativa have in one set?</p>",
+"options": {
+"A": "6",
+"B": "7",
+"C": "21",
+"D": "42"
+},
+"correctOption": "B",
+"explanationHtml": "<p>The monoploid number (x) identifies the number of chromosomes an organism has in one set. For the hexaploid oat species Avena sativa, 6x = 42. This means x = 7, or the number of chromosomes present in one set is 7.</p>"
+},
+{
+"questionId": "59",
+"passageId": "Passage4",
+"questionHtml": "<p>Which of the following correctly identifies the relationship between the diploid number (2n), haploid number (n), and monopolid number (x) of Solanum tuberosum?</p>",
+"options": {
+"A": "2n is twice n, but 4 times x",
+"B": "2n is twice the sum of n and x",
+"C": "2n is the sum of n and x",
+"D": "2n is twice x, but 4 times n"
+},
+"correctOption": "A",
+"explanationHtml": "<p>Table 2.1 indicates that the potato (Solanum tuberosum) is a tetraploid. Tetraploid organisms have four complete sets of chromosomes. As explained in the passage, the diploid number (2n) is always twice the haploid number (n). 2n always represents the total number of chromosomes in a somatic cell, regardless of whether the organism exhibits any type of polyploidy. Since a tetraploid has four complete sets of chromosomes, the total number of chromosomes (2n) must be divided by 4 to determine the monoploid number (x).</p>"
+}
+]
+}

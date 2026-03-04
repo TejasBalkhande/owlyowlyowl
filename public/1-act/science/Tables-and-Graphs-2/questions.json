@@ -1,0 +1,207 @@
+{
+  "passages": [
+   
+    {
+      "passageId": "26",
+      "passageHtml": "Phosphorus is an essential nutrient that can negatively affect water quality, primarily\nby promoting excessive plant and algae growth. When this occurs, plants and animals\nthat live in the water are affected by the reduced sunlight and lower oxygen levels\nthat develop as organic matter decomposes. For humans, algal blooms lead to a\nreduction in the quality of drinking water, a decrease in the use of the water source\nfor recreational activities, and a decline in property value along waterfront areas.<br>\n<br>\nLakes are often classified according to their trophic state, which indicates their\nbiological productivity. The least productive lakes are called oligotrophic. Bodies of\nwater classified as oligotrophic are typically cool and clear, have relatively low nutrient\nconcentrations, and provide excellent drinking water. The most productive lakes are\ncalled eutrophic and are characterized by high nutrient concentrations that result in\nalgal growth, cloudy water, and low dissolved oxygen levels. Table 8.6 shows the\nphosphorus levels that are found in lakes with different trophic classifications.\n\n<img src=\"/1-act-i/sci/images/image.png\" class=\"responsive-img\" alt=\"\">\n\nLake managers collected data over approximately two decades in four different\necological areas of a large lake. Each area had a different target phosphorus level\nbased on the natural ecological factors of the area, as indicated in Figures 8.7 through\n8.10. For proper lake health, the level must be at or below the target amount. Levels in\nexcess of the target amount lead to an imbalance in nutrient flow.\n\n<img src=\"/1-act-i/sci/images/image_1.png\" class=\"responsive-img\" alt=\"\">\n<img src=\"/1-act-i/sci/images/image_2.png\" class=\"responsive-img\" alt=\"\">\n<img src=\"/1-act-i/sci/images/image_3.png\" class=\"responsive-img\" alt=\"\">\n<img src=\"/1-act-i/sci/images/image_4.png\" class=\"responsive-img\" alt=\"\">\n<img src=\"1-act-i/sci/images/image_5.png\" class=\"responsive-img\" alt=\"\">"
+    }
+  ],
+  "questions": [
+
+{
+"questionId": "330",
+"passageId": "26",
+"questionHtml": "<p>In which area of the lake did the scientists fail to attain the target phosphorus level in any of the years of the study?</p>",
+"options": {
+"A": "Bay Area 1",
+"B": "North Lake",
+"C": "Bay Area 2",
+"D": "South Lake"
+},
+"correctOption": "B",
+"explanationHtml": "<p>The target for the North Lake area is \\(25\\mu g / L\\). In all years of the study, the values of phosphorus measured in North Lake have exceeded that level.</p>"
+},
+{
+"questionId": "331",
+"passageId": "26",
+"questionHtml": "<p>The target for Bay Area 2 falls in the trophic category of:</p>",
+"options": {
+"A": "oligotrophic.",
+"B": "mesotrophic.",
+"C": "eutrophic.",
+"D": "hypereutrophic."
+},
+"correctOption": "B",
+"explanationHtml": "<p>According to Table 8.6, a phosphorus level between \\(12\\mu g / L\\) and \\(24\\mu g / L\\) would be classified as mesotrophic. The target for Bay Area 2 is \\(14\\mu g / L\\).</p>"
+},
+{
+"questionId": "332",
+"passageId": "26",
+"questionHtml": "<p>In 2011, flooding occurred in the region surrounding the lake. This caused:</p>",
+"options": {
+"A": "all areas of the lake to exceed their target phosphorus levels.",
+"B": "all areas of the lake to meet the standard for target phosphorus level.",
+"C": "all but one of the lake areas to exceed the recommended phosphorus levels.",
+"D": "two of the four lake areas to exceed the target phosphorus level."
+},
+"correctOption": "C",
+"explanationHtml": "<p>All of the areas except for South Lake were above their target phosphorus level in 2011. South Lake was at \\(48\\mu g / L\\) with a goal of \\(54\\mu g / L\\) or below.</p>"
+},
+{
+"questionId": "333",
+"passageId": "26",
+"questionHtml": "<p>In 2005, ecologists managing the lake began a concentrated effort to reduce agricultural runoff. This appears to have had the greatest effect on phosphorus levels in:</p>",
+"options": {
+"A": "Bay Area 1.",
+"B": "North Lake.",
+"C": "Bay Area 2.",
+"D": "South Lake."
+},
+"correctOption": "D",
+"explanationHtml": "<p>South Lake is the only area that shows a downward trend in phosphorus levels starting in 2005.</p>"
+},
+{
+"questionId": "334",
+"passageId": "26",
+"questionHtml": "<p>In 2002, the South Lake area had a trophic classification of:</p>",
+"options": {
+"A": "oligotrophic.",
+"B": "mesotrophic.",
+"C": "eutrophic.",
+"D": "hypereutrophic."
+},
+"correctOption": "C",
+"explanationHtml": "<p>In 2002, the South Lake phosphorus level was \\(38\\mu g / L\\). This falls in the category of eutrophic.</p>"
+},
+{
+"questionId": "335",
+"passageId": "26",
+"questionHtml": "<p>For how many years of the study was Bay Area 2 found to be mesotrophic?</p>",
+"options": {
+"A": "0",
+"B": "3",
+"C": "9",
+"D": "19"
+},
+"correctOption": "D",
+"explanationHtml": "<p>Bay Area 2 fell in the range of \\(12\\mu g / L\\) to \\(24\\mu g / L\\) for 19 years of the study.</p>"
+},
+{
+"questionId": "336",
+"passageId": "26",
+"questionHtml": "<p>During which of the following years did Bay Area 1 have a trophic classification of mesotrophic?</p>",
+"options": {
+"A": "1992",
+"B": "1995",
+"C": "2009",
+"D": "2011"
+},
+"correctOption": "D",
+"explanationHtml": "<p>Bay Area 1 fell in the range of \\(12\\mu g / L\\) to \\(24\\mu g / L\\) during 2011.</p>"
+},
+{
+"questionId": "337",
+"passageId": "26",
+"questionHtml": "<p>Which of the following best describes the range in phosphorus levels in the North Lake over the 21-year period?</p>",
+"options": {
+"A": "\\(32\\mu \\mathrm{g} / \\mathrm{L}\\)",
+"B": "\\(62\\mu \\mathrm{g} / \\mathrm{L}\\)",
+"C": "\\(25\\mu \\mathrm{g} / \\mathrm{L}\\)",
+"D": "\\(45\\mu \\mathrm{g} / \\mathrm{L}\\)"
+},
+"correctOption": "A",
+"explanationHtml": "<p>By subtracting the approximate value of the shortest bar from that of the highest bar in Figure 8.10, a range can be determined \\((61 - 21 = 32\\mu g / L)\\).</p>"
+},
+{
+"questionId": "338",
+"passageId": "26",
+"questionHtml": "<p>Which lake had the narrowest range of phosphorus levels over the time period wwwofithe.study?</p>",
+"options": {
+"A": "Bay Area 1",
+"B": "North Lake",
+"C": "Bay Area 2",
+"D": "South Lake"
+},
+"correctOption": "A",
+"explanationHtml": "<p>Bay Area 1 had a range of only \\(5\\mu g / L\\) \\((13 - 8 = 5\\mu g / L)\\). It is important to pay attention to the scale in each figure, as each has a different unit scale on the y-axis. The ranges for each lake area can be found by subtracting the approximate value of the shortest bar from that of the highest bar in each figure.</p>"
+},
+{
+"questionId": "339",
+"passageId": "26",
+"questionHtml": "<p>During how many years did Bay Area 1 meet or surpass the standard for proper lake health?</p>",
+"options": {
+"A": "4",
+"B": "10",
+"C": "10",
+"D": "15"
+},
+"correctOption": "B",
+"explanationHtml": "<p>According to the passage, the value must be at or below the target value of phosphorus to surpass the standard. By counting the bars at or below \\(10\\mu g / L\\) in Figure 8.7, one can determine that the standard was met or surpassed for 10 years in Bay Area 1.</p>"
+},
+{
+"questionId": "340",
+"passageId": "26",
+"questionHtml": "<p>What was the difference in phosphorus concentration between Bay Area 1 and North Lake in 1993?</p>",
+"options": {
+"A": "\\(9\\mu \\mathrm{g / L}\\)",
+"B": "\\(41\\mu \\mathrm{g / L}\\)",
+"C": "\\(50\\mu \\mathrm{g / L}\\)",
+"D": "\\(59\\mu \\mathrm{g / L}\\)"
+},
+"correctOption": "B",
+"explanationHtml": "<p>In 1993, Bay Area 1 had an approximate phosphorus concentration of \\(9\\mu g / L\\) and North Lake had a concentration of \\(50\\mu g / L\\) \\((50 - 9 = 41\\mu g / L)\\).</p>"
+},
+{
+"questionId": "341",
+"passageId": "26",
+"questionHtml": "<p>A neighboring lake was tested in 2005 and found to have a phosphorus level of \\(10\\mu \\mathrm{g / L}\\) . It was most likely taken from a body of water similar to:</p>",
+"options": {
+"A": "Bay Area 1.",
+"B": "North Lake.",
+"C": "Bay Area 2.",
+"D": "South Lake."
+},
+"correctOption": "A",
+"explanationHtml": "<p>In 2005, Bay Area 1 had the most similar phosphorus concentration to that of the neighboring lake.</p>"
+},
+{
+"questionId": "342",
+"passageId": "26",
+"questionHtml": "<p>Which of the following statements is best supported by the information in the passage and figures?</p>",
+"options": {
+"A": "When studying the North Lake area, one would expect to find cool, clear water and high oxygen levels.",
+"B": "None of the target levels for any of the lake areas fell in the eutrophic category.",
+"C": "The management of phosphorus levels does not have a positive impact on humans who use the lake for recreation.",
+"D": "During the 21-year period of the study, none of the lakes could be classified as hypereutrophic."
+},
+"correctOption": "D",
+"explanationHtml": "<p>To be classified as hypereutrophic, the phosphorus level of a lake needs to be higher than \\(96\\mu \\mathrm{g / L}\\) . None of the lake areas exceeded that level during the 21-year study.</p>"
+},
+{
+"questionId": "343",
+"passageId": "26",
+"questionHtml": "<p>The category of lake classification appearing most frequently in the North and South Lake areas was:</p>",
+"options": {
+"A": "oligotrophic.",
+"B": "mesotrophic.",
+"C": "eutrophic.",
+"D": "hypereutrophic."
+},
+"correctOption": "C",
+"explanationHtml": "<p>The North and South Lake areas most frequently fell into the range of 24 \\(\\mu \\mathrm{g / L}\\) to \\(96\\mu \\mathrm{g / L}\\).</p>"
+},
+{
+"questionId": "344",
+"passageId": "26",
+"questionHtml": "<p>According to the information provided in the passage, which of the areas was the most likely to have the lowest dissolved oxygen levels in 2010?</p>",
+"options": {
+"A": "Bay Area 1",
+"B": "North Lake",
+"C": "Bay Area 2",
+"D": "South Lake"
+},
+"correctOption": "B",
+"explanationHtml": "<p>According to the passage, lakes classified as eutrophic have low levels of dissolved oxygen. In 2010, North Lake was the most eutrophic of all the areas studied and would therefore be expected to have the lowest dissolved oxygen level.</p>"
+}
+]
+}

@@ -1,0 +1,243 @@
+{
+  "passages": [
+    {
+      "passageId": "InterpolateExtrapolate1",
+      "passageHtml": "Certain genes produce certain traits in an organism. The offspring of complex organisms result from a combination of genes from two different parents. Every individual has two genes for every trait, and each parent passes on only one of its two genes for each trait (this gene is also\ncalled an allele) so that the offspring ends up with two alleles for every trait, one from the mother and one from the father as shown in Figure 1.\n\n<img src=\"/1-act-i/sci/sci-1/images/image.png\" style=\"width: 300px; height: auto;\" alt=\"\">\n<br>\n\nThe combination of the two alleles that individuals possess for a certain trait is called their\ngenotype. How that combination of traits is expressed physically is called the phenotype. Often\none allele is dominant over another, recessive, allele. This means that the trait of the\ndominant allele is the only one that is expressed even though the individual also possesses the\nallele for the other trait. In cases of incomplete dominance, the combination of the dominant\nand recessive alleles produces a phenotype that is different from either of the traits held by\nthe separate alleles.\nA certain species of animal has two alleles for height. The H allele holds the trait for the\ntall phenotype, while the h allele codes for the short phenotype. The trait for height for\nthis animal is incompletely dominant. Figure 2 displays a family tree showing some of the\ngenotypes and phenotypes where the lines indicate the relationship between parents and\noffspring.\n\n\n<img src=\"/1-act-i/sci/sci-1/images/image_1.png\" style=\"width: 300px; height: auto;\" alt=\"\">\n<br>"
+    },
+    {
+      "passageId": "InterpolateExtrapolate2",
+      "passageHtml": "A student conducted an experiment to examine the effects of temperature and volume on the\npressure of a gas. The student used a gas chamber to perform the experiments, carefully\ncontrolling the temperature, pressure, and volume of the gas within the chamber. The mass of the\ngas used remained constant throughout both experiments.\nThe gas chamber was set up as shown in Figure 1, with heating coils outside the chamber walls,\nand a piston that served as the bottom wall of the chamber. By energizing the heating coils, the\nstudent was able to control the temperature of the gas. Similarly, the piston was used to\ncarefully control the volume of the gas. Throughout both experiments, temperature was measured\nin degrees Celsius (°C), pressure was measured in kilopascals (kPa), and volume was measured in\ncubic meters \\( m^3 \\).\n<br>\n<img src=\"/1-act-i/sci/sci-1/images/image_2.png\" style=\"width: 300px; height: auto;\" alt=\"\">\n<br>\n\nExperiment 1\nIn the first experiment, the student kept the volume of the chamber constant and increased the\ntemperature using an outside heat source. At 5°C each  temperature increment, the student\nrecorded the pressure of the gas within the chamber. Table 1 shows the temperatures used and the corresponding pressure data.\n\n\n\n<br>\n<img src=\"/1-act-i/sci/sci-1/images/image_3.png\"  style=\"width: 300px; height: auto;\" alt=\"\">\n<br>\n\n\nIn the second experiment, the student kept the temperature of the chamber constant but changed\nthe volume by moving a piston in the chamber, as shown in Figure 1. By moving the piston further\ninto the chamber, the volume of the gas was decreased because there was less space for the gas\nto occupy. The piston was moved slowly to ensure that the temperature of the chamber remained\nat 25°C. Table 2 shows the volumes used and the corresponding pressure data.\n<br>\n\n\n\n\n<img src=\"/1-act-i/sci/sci-1/images/image_4.png\" style=\"width: 300px; height: auto;\" alt=\"\">"
+    }
+    
+  ],
+  "questions": [
+    
+    {
+      "questionId": "970",
+      "passageId": "InterpolateExtrapolate1",
+      "passageHighlight": "",
+      "questionHtml": "The relationship between the two alleles in the family tree in Figure 2 is best described as: ",
+      "options": {
+        "A": "the H is dominant and the h is recessive.",
+        "B": "the H is recessive and the h is dominant.",
+        "C": "incomplete dominance.",
+        "D": "indeterminable from the information."
+      },
+      "correctOption": "C",
+      "explanationHtml": "Read the text carefully. The second paragraph says that alleles may be dominant and recessive or they may have incomplete dominance, where the combination of the two different alleles produces a different phenotype from the phenotypes produced by combinations of two similar alleles. You know that the combination of the two different alleles (H h) produces a different phenotype (medium height) than those of each allele (H is tall, and h is short). Therefore, their relationship must be one of incomplete dominance, Choice (C)."
+    },
+    {
+      "questionId": "971",
+      "passageId": "InterpolateExtrapolate1",
+      "passageHighlight": "",
+      "questionHtml": "The phenotype of animal I must be:",
+      "options": {
+        "A": "tall.",
+        "B": "short like animal III.",
+        "C": "the same as the phenotype for animal IV.",
+        "D": "medium."
+      },
+      "correctOption": "D",
+      "explanationHtml": "Like animal II, animal I is H h . Therefore, it must have the same phenotype as animal II, which Figure 2 tells you is medium height. The text tells you that this animal's trait for height is incompletely dominant, and it defines incomplete dominance as having a phenotype that isn't like the phenotype of either of the individual genes. Therefore, H h can't be tall, and it can't be short. Neither Choice (A) nor Choice (B) can be right. You don't know the exact genotype of animal IV, so you can't say that Choice (C) must be true."
+    },
+    {
+      "questionId": "972",
+      "passageId": "InterpolateExtrapolate1",
+      "passageHighlight": "",
+      "questionHtml": "What are the chances that animal IV will have the same phenotype as animal II?",
+      "options": {
+        "A": "0 percent",
+        "B": "25 percent",
+        "C": "50 percent",
+        "D": "100 percent"
+      },
+      "correctOption": "C",
+      "explanationHtml": "Animal IV can be either H h or h h . Animal II is H h . Therefore, there's a 50% chance that animal IV will have the same phenotype (or genotype, for that matter) as animal II."
+    },
+    {
+      "questionId": "973",
+      "passageId": "InterpolateExtrapolate1",
+      "passageHighlight": "",
+      "questionHtml": "If animal III were to mate with a tall animal, the genotype of their offspring would be:",
+      "options": {
+        "A": "Hh only.",
+        "B": "either HH, Hh, or hh.",
+        "C": "tall.",
+        "D": "short."
+      },
+      "correctOption": "A",
+      "explanationHtml": "You can eliminate Choices (C) and (D) because they are phenotypes rather than genotypes. If a tall animal (H H) mated with a short animal such as animal III (h h), the genotype of all of their offspring would be H h . Every child would get one H from the tall parent and one h from the short parent."
+    },
+    {
+      "questionId": "974",
+      "passageId": "InterpolateExtrapolate1",
+      "passageHighlight": "",
+      "questionHtml": "Geneticists have found that animals of the type represented in Figure 2 that carry the H allele also have curly hair. It is therefore reasonable to conclude that:",
+      "options": {
+        "A": "the allele for curly hair is dominant.",
+        "B": "the trait for curly hair results from incomplete dominance.",
+        "C": "no short animals of the type have curly hair.",
+        "D": "all tall and medium animals of the type have curly hair."
+      },
+      "correctOption": "D",
+      "explanationHtml": "The only thing you know is that animals with an H allele also express the trait of curly hair. You know nothing about the alleles for curly hair. You don't know whether they're dominant and recessive or have incomplete dominance. You can't assume that because the H allele has incomplete dominance, the allele for curly hair also has incomplete dominance. Cross out Choices (A) and (B). You also don't know whether there's association between curly hair and the h allele. Just because it's associated with the H allele doesn't mean that curly hair can't also be associated with the h allele. Choice (C) isn't right. The remaining answer, Choice (D), is correct. All tall and medium animals of this type are H H or H h , which means they carry the H allele. Because they have the H allele, they must have curly hair."
+    },
+    {
+      "questionId": "975",
+      "passageId": "InterpolateExtrapolate1",
+      "passageHighlight": "",
+      "questionHtml": "If animal III mates with another animal with the same genotype, what is the percent chance that their offspring will be tall?",
+      "options": {
+        "A": "0 percent",
+        "B": "25 percent",
+        "C": "50 percent",
+        "D": "100 percent"
+      },
+      "correctOption": "A",
+      "explanationHtml": "Animal III has the genotype of h h and therefore doesn't carry the tall gene. If animal III mates with another animal with no tall gene, there is a 0 percent chance their offspring will be tall."
+    },
+    {
+      "questionId": "976",
+      "passageId": "InterpolateExtrapolate1",
+      "passageHighlight": "",
+      "questionHtml": "Animal III mates with an animal who has a tall genotype, and they produce six offspring. How many of their offspring will possess a genotype different from the parents'?",
+      "options": {
+        "A": "0",
+        "B": "2",
+        "C": "3",
+        "D": "6"
+      },
+      "correctOption": "D",
+      "explanationHtml": "All offspring of animals with the genotypes h h and H H will have the genotype H h . Therefore, all six will have a different genotype from their parents."
+    },{
+      "questionId": "320",
+      "passageId": "InterpolateExtrapolate2",
+      "questionHtml": "<p>According to the data in Table 8.4, increasing the mass of the pendulum bob:</p>",
+      "options": {
+        "A": "has no effect on the gravitational energy at the top of the swing.",
+        "B": "decreases the gravitational energy at the top of the swing.",
+        "C": "increases the radius of the arc.",
+        "D": "has no effect on the speed at the bottom of the swing."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>To answer this question, one can examine the last five rows of Table 8.4, where the radius and release height are constant, but the mass is changing. Notice that the speed remains constant.</p>"
+    },
+    {
+      "questionId": "321",
+      "passageId": "InterpolateExtrapolate2",
+      "questionHtml": "<p>A 0.010- kg pendulum has an arc radius of 0.40 m . Using the data trends shown in Table 8.4, predict the kinetic energy at the bottom of the swing if it is released from a height of 0.35 m .</p>",
+      "options": {
+        "A": "0.025 J",
+        "B": "0.030 J",
+        "C": "0.035 J",
+        "D": "0.040 J"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>When mass and radius are held fixed in the middle rows of Table 8.4, the kinetic energy is one tenth of the release height.</p>"
+    },
+    {
+      "questionId": "322",
+      "passageId": "InterpolateExtrapolate2",
+      "questionHtml": "<p>According to Table 8.4, when the release height doubles, the gravitational energy at the top of the swing:</p>",
+      "options": {
+        "A": "doubles.",
+        "B": "quadruples.",
+        "C": "decreases to one-half its value.",
+        "D": "decreases to one-fourth its value."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The middle rows on Table 8.4 have a fixed mass and radius but differing release heights. One can compare the effect of doubling the release height from 0.05 m to 0.10 m , or 0.10 m to 0.20 m , on gravitational energy to observe the doubling effect.</p>"
+    },
+    {
+      "questionId": "323",
+      "passageId": "InterpolateExtrapolate2",
+      "questionHtml": "<p>Which of the following conclusions about energy is supported by Table 8.4?</p>",
+      "options": {
+        "A": "Kinetic energy at the bottom of the swing is directly proportional to speed.",
+        "B": "Gravitational energy at the top of the swing is inversely proportional to release height.",
+        "C": "Kinetic energy at the bottom of the swing is directly proportional to the radius of the arc.",
+        "D": "Gravitational energy at the top of the swing equals kinetic energy at the bottom of the swing."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>All the gravitational energy at the top of the swing transfers to kinetic energy at the bottom because the values are identical in Table 8.4.</p>"
+    },
+    {
+      "questionId": "324",
+      "passageId": "InterpolateExtrapolate2",
+      "questionHtml": "<p>When the mass of the pendulum bob doubles, the kinetic energy at the bottom of the swing:</p>",
+      "options": {
+        "A": "doubles.",
+        "B": "quadruples.",
+        "C": "decreases to one-half its value.",
+        "D": "decreases to one-fourth its value."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>According to the data in Table 8.4, when the mass doubles from 0.020 kg to 0.040 kg , the kinetic energy also doubles.</p>"
+    },
+    {
+      "questionId": "325",
+      "passageId": "InterpolateExtrapolate2",
+      "questionHtml": "<p>When the pendulum bob's kinetic energy doubles, its speed:</p>",
+      "options": {
+        "A": "doubles.",
+        "B": "decreases to one-half its value.",
+        "C": "increases by a factor of 1.4.",
+        "D": "increases by a factor of 2.2."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The middle rows in Table 8.4 are for a fixed pendulum design, and the speed increases by a factor of 1.4 J when the kinetic energy doubles.</p>"
+    },
+    {
+      "questionId": "326",
+      "passageId": "InterpolateExtrapolate2",
+      "questionHtml": "<p>According to Table 8.5, centripetal acceleration is</p>",
+      "options": {
+        "A": "independent of mass.",
+        "B": "directly proportional to mass.",
+        "C": "inversely proportional to mass.",
+        "D": "directly proportional to the radius of the arc."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The last five rows in Table 8.5 (where radius and release height are held constant) demonstrate that centripetal acceleration does not depend on mass.</p>"
+    },
+    {
+      "questionId": "327",
+      "passageId": "InterpolateExtrapolate2",
+      "questionHtml": "<p>When the radius of the arc doubles, the centripetal force:</p>",
+      "options": {
+        "A": "doubles.",
+        "B": "quadruples.",
+        "C": "decreases to one-half its value.",
+        "D": "decreases to one-fourth its value."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The first five rows of Table 8.5 (where mass and release height are held constant) show that each time the radius doubles, the centripetal force values are cut in half.</p>"
+    },
+    {
+      "questionId": "328",
+      "passageId": "InterpolateExtrapolate2",
+      "questionHtml": "<p>A car approaches a school zone with a speed limit of 20 miles per hour. Using the data trends shown in Table 8.4, how does the kinetic energy of a car speeding at 40 miles per hour compare to that of a car moving at the speed limit?</p>",
+      "options": {
+        "A": "The speeding car's kinetic energy is one-half that of the other car.",
+        "B": "The speeding car's kinetic energy is one-fourth that of the other car.",
+        "C": "The speeding car's kinetic energy is twice that of the other car.",
+        "D": "The speeding car's kinetic energy is four times that of the other car."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>By examining the middle rows in Table 8.4, where mass remains the same, when the speed doubles from 0.99m / s to 1.98m / s , the kinetic energy quadruples from 0.005J to 0.020J . Thus, kinetic energy is directly proportional to the square of the speed.</p>"
+    },
+    {
+      "questionId": "329",
+      "passageId": "InterpolateExtrapolate2",
+      "questionHtml": "<p>Using Table 8.5, predict the centripetal force on a 0.060- kg bob with a 0.40- m arc radius that is released from a height of 0.25m .</p>",
+      "options": {
+        "A": "0.613 N",
+        "B": "0.736 N",
+        "C": "1.226 N",
+        "D": "9.800 N"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The last five rows of Table 8.5 apply to a pendulum with a 0.40 - m arc and a release height of 0.25m . The centripetal force increases by 0.123N for each 0.010kg of mass. Adding 0.123N to the last row of Table 8.5 yields 0.613N + 0.123N = 0.736N .</p>"
+    }
+   ]
+}

@@ -1,0 +1,423 @@
+{
+  "passages": [
+   {
+      "passageId": "ConflictingViewpoints",
+      "passageHtml": "The majority of scientists agree that global temperatures are rising, leading to a host of climate changes that will produce\nsignificant worldwide effects over time. Still subject to debate are the type and severity of effects that these climate changes will\nhave on various industries. Two scientists present their viewpoints regarding the effects of climate change on agriculture in the\nUnited States.<br><br>\n<b>Scientist 1</b><br>\nClimate change is likely to have mixed effects on U.S. agriculture over time. Every crop has a set of optimal conditions under\nwhich it grows and reproduces best. For many crops, the growth rate increases as temperature increases, suggesting that the\nprogressive increase in average temperatures will have a beneficial effect on many types of crops. On the other hand, a faster\ngrowth rate means less time for the seeds of certain crops to mature, hindering their reproductive ability. Average temperatures\nwill eventually surpass the optimal growth temperature for some crops, causing their yields to decline.<br><br>\nCrop yields also increase with carbon dioxide levels. The positive growth effect of carbon dioxide can be suppressed, however,\nif the optimal growth temperature is surpassed. The potential effects of climate change on other environmental conditions,\nincluding soil moisture, nutrient levels, and water availability must be taken into account as well.<br><br>\n<b>Scientist 2</b><br>\nAgriculture in the United States will be adversely affected by climate change over the next several decades. Many weeds, pests,\nand fungi thrive in warm, wet climates and with increased levels of carbon dioxide. As average temperatures continue to increase\nand these conditions become more widespread, the habitat ranges for these organisms will spread northward. This will pose\nchallenges to northern crops that have not previously been exposed to certain competitors and pests.<br>\n<br>\nThe predicted increase in extreme weather events will also negatively impact crop yields. An increase in the frequency of\nfloods will destroy crops and potentially deter farming along major waterways altogether. In areas in which drought conditions are\nprojected to become more common, a water supply capable of sustaining even modest crop yields is a very real concern.\n<br>"
+    },
+    {
+      "passageId": "ConflictingViewpoints1",
+      "passageHtml": "The sun is a source of many wavelengths of radiation that reach the earth. The\nearth’s atmosphere absorbs some of these wavelengths, while others are able to\npenetrate and reach the planet’s surface. Ultraviolet radiation from the sun comes in\nthree different categories based on wavelength and penetration: UVA, UVB, and UVC.<br><br>\nUVB radiation has wavelengths of 280 to 320 nm and is partially absorbed by the\nearth’s ozone layer. The UVB rays that do reach the surface can be absorbed by\nhuman skin and have been known to cause sunburn and many forms of skin cancer.\nMany products, from glasses to sunscreen, have been created to help protect humans\nfrom UVB radiation. Two groups of students set out to test the ability of materials to\nblock UVB light, using a computer and a sensor specifically designed to detect UVB\nradiation.<br><br>\n<b>Group 1</b><br>\nThe members of Group 1 placed a sensor in full sunlight and shielded the sensor with\na variety of sunglasses claiming to offer UVB protection. A reading was taken on the\nUVB sensor for each product, and the data were recorded in Table 8.1.<br><br>\n<img src=\"/1-act-i/sci/sci-1/images/image_27.png\" style=\"width: 420px; height: auto;\" alt=\"\"><br>\n<b>Group 2</b>\nThe members of Group 2 placed a sensor in the sun and shielded that sensor with a\npiece of glass. They tested sunscreens of increasing SPF (sun protection factor) on the\nglass, and the data were recorded in Table 8.2.<br><br>\n\n<img src=\"/1-act-i/sci/sci-1/images/image_28.png\" style=\"width: 480px; height: auto;\" alt=\"\">"
+    },
+    {
+      "passageId": "ConflictingViewpoints2",
+      "passageHtml": "Low or no-carbohydrate diets have risen and fallen in popularity in recent years. Low\ncarbohydrate diets are based on the belief that the main cause of obesity is eating refined\ncarbohydrates, most notably sugar, flour, and high-fructose corn syrup. Followers of low\ncarbohydrate diets restrict their carbohydrate intake in order to help switch the body’s\nmetabolism from burning glucose as fuel to burning stored body fat. This process starts when\ninsulin levels are low, typically before eating. Conversely, high-calorie carbohydrates impact\nthe body by increasing the amount of sugar in the blood following a meal. Two scientists discuss\nthe safety and effectiveness of a low-carbohydrate diet.<br><br>\n<b>Scientist 1</b><br>\nAny diet that condones unlimited consumption of bacon, eggs, and butter cannot be considered\nhealthy for the human body. Not one major governmental or science-based organization in the\nworld argues in support of the low-carbohydrate diet and its encouragement of unrestricted\namounts of meat. The theories behind low-carbohydrate dieting are based upon poorly controlled\nand administered studies and unsubstantiated rhetoric. The risks inherent with a high-protein,\nlow-carbohydrate diet, such as heart disease and additional concerns for individuals suffering\nfrom gout or kidney disorder, are not worth the short-term weight loss that may occur.<br><br>\n<b>Scientist 2</b><br>\nSimply put, a low-carbohydrate intake leads to increased fat burning. Lowering carbohydrate\nconsumption and increasing protein intake forces the body to utilize existing stored fat as fuel\nfor the body because one is not getting fuel through the consumption of food. Most low\ncarbohydrate diets are designed not only for short-term use and effectiveness but also to\ncoincide with nutritional supplementation to ensure that the body remains in a healthy balance."
+    }
+    
+  ],
+  "questions": [
+    {
+      "questionId": "60",
+      "passageId": "ConflictingViewpoints",
+      "passageHighlight": "",
+      "questionHtml": "According to Scientist 1, how will a change in average temperature affect the growth rates of crops?",
+      "options": {
+        "A": "As average temperature increases, all crops will begin to grow faster.",
+        "B": "A change in average temperature will benefit some crops and harm others.",
+        "C": "If average temperature changes too quickly, many crops will stop growing.",
+        "D": "An increase in average temperature will hinder growth until crops adapt."
+      },
+      "correctOption": "B",
+      "explanationHtml": "According to Scientist 1, increased temperatures will help some crops and harm others. The growth rate for many crops increases with temperature, which is beneficial to those crops and the agriculture industry. However, increased temperature suppresses the reproductive ability of some crops, which endangers their survival."
+    },
+    {
+      "questionId": "61",
+      "passageId": "ConflictingViewpoints",
+      "passageHighlight": "",
+      "questionHtml": "If Scientist 1 is correct, which of the following trends will most likely occur over the next several decades?",
+      "options": {
+        "A": "The agriculture industry will experience no significant change in crop yields.",
+        "B": "Crop yields will decrease for all crops.",
+        "C": "Crop yields will increase for all crops.",
+        "D": "Crops with higher optimal growth temperatures will have increased yields."
+      },
+      "correctOption": "D",
+      "explanationHtml": "Based on the opinion of Scientist 1, a crop has its greatest yield close to its optimal growth temperature. Since average temperatures are predicted to rise as a result of climate change, plants with higher optimal growth temperatures are more likely to produce higher yields than those with lower optimal growth temperatures because they can better withstand the heat."
+    },
+    {
+      "questionId": "62",
+      "passageId": "ConflictingViewpoints",
+      "passageHighlight": "",
+      "questionHtml": "Which environmental change was discussed by Scientist 2, but not Scientist 1?",
+      "options": {
+        "A": "Elevated carbon dioxide levels",
+        "B": "Increasing average temperatures",
+        "C": "Limited water availability",
+        "D": "Increased frequency of flooding"
+      },
+      "correctOption": "D",
+      "explanationHtml": "Scientist 2 discussed the potential for crop destruction due to an increase in the frequency of flooding. Scientist 1 did not discuss the effects of flooding or any other extreme weather events."
+    },
+    {
+      "questionId": "63",
+      "passageId": "ConflictingViewpoints",
+      "passageHighlight": "",
+      "questionHtml": "Scientist 2 did not predict that climate change would cause an increase in which of the following factors affecting crop yields?",
+      "options": {
+        "A": "Fungi",
+        "B": "Pests",
+        "C": "Seeds",
+        "D": "Weeds"
+      },
+      "correctOption": "C",
+      "explanationHtml": "Scientist 2 discussed an increase in the production of weeds, pests, and fungi in response to the effects of climate change. Only Scientist 1 addressed the potential effect of climate change on seed production."
+    },
+    {
+      "questionId": "64",
+      "passageId": "ConflictingViewpoints",
+      "passageHighlight": "",
+      "questionHtml": "Based on the passage, the major difference between the opinions of Scientists 1 and 2 is that:",
+      "options": {
+        "A": "Scientist 2 does not predict any positive effects of climate change on agriculture.",
+        "B": "Scientist 1 discusses the effects of increased temperature but not carbon dioxide.",
+        "C": "Scientist 2 expects agriculture in southern areas to be unaffected by climate change.",
+        "D": "Scientist 1 focuses only on the effects of climate change on crop reproductive rates."
+      },
+      "correctOption": "A",
+      "explanationHtml": "In Scientist 1's opinion, increases in average temperature and carbon dioxide levels will have positive effects on some types of crops and negative effects on others. Scientist 2 only discusses the negative effects of these increases."
+    },
+    {
+      "questionId": "65",
+      "passageId": "ConflictingViewpoints",
+      "passageHighlight": "",
+      "questionHtml": "Scientist 2 states that high:",
+      "options": {
+        "A": "carbon dioxide levels will benefit crop yields.",
+        "B": "carbon dioxide levels will lead to decreased crop yields.",
+        "C": "average temperatures will improve crop yields.",
+        "D": "average temperatures will hinder the growth of fungi."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Scientist 2 states that increased carbon dioxide levels will allow weeds, pests, and fungi to thrive. The increased presence of these organisms is predicted to impact crop yields negatively by competing with and damaging crops."
+    },
+    {
+      "questionId": "66",
+      "passageId": "ConflictingViewpoints",
+      "passageHighlight": "",
+      "questionHtml": "An industry-wide increase in agricultural pesticide use over the next several decades would support the opinion of:",
+      "options": {
+        "A": "Scientist 1.",
+        "B": "Scientist 2.",
+        "C": "both scientists.",
+        "D": "neither scientist."
+      },
+      "correctOption": "B",
+      "explanationHtml": "In Scientist 2's opinion, climate change will lead to an increase in agricultural pests. An observed increase in pesticide use would provide evidence to support this opinion."
+    },
+    {
+      "questionId": "67",
+      "passageId": "ConflictingViewpoints",
+      "passageHighlight": "",
+      "questionHtml": "According to Scientist 1, what happens when a crop's optimal growth temperature is surpassed?",
+      "options": {
+        "A": "The crop maintains growth at its maximum rate.",
+        "B": "The crop continues to grow but at a reduced rate.",
+        "C": "The crop experiences growth at an exponential rate.",
+        "D": "The crop can no longer grow in that environment."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Scientist 1 states that once the optimal growth temperature is surpassed, crop yields will decline. Though crops will still grow in the higher-than-optimal temperatures, the amount of growth will be reduced."
+    },
+    {
+      "questionId": "68",
+      "passageId": "ConflictingViewpoints",
+      "passageHighlight": "",
+      "questionHtml": "Based on the information in the passage, both scientists would agree with which of the following statements?",
+      "options": {
+        "A": "The greatest threat posed by climate change to the U.S. agriculture industry is the projected increase in extreme weather events.",
+        "B": "Southern crops are better adapted than northern crops to withstand the effects of elevated carbon dioxide levels associated with climate change.",
+        "C": "The effects of climate change will have a greater negative impact on the reproductive ability of crops than on their growth rate.",
+        "D": "Increasing average temperatures associated with climate change will provide an advantage to some organisms."
+      },
+      "correctOption": "D",
+      "explanationHtml": "Both scientists agree that increasing average temperatures will be beneficial to some organisms, though they do not agree on the particular organisms that will benefit. Scientist 1 suggests that increasing average temperatures will increase the growth rate of many crops, whereas Scientist 2 suggests that they will increase the growth of weeds, pests, and fungi, which will inhibit the growth of crops."
+    },
+    {
+      "questionId": "69",
+      "passageId": "ConflictingViewpoints",
+      "passageHighlight": "",
+      "questionHtml": "It can be inferred that Scientist 1 believes elevated levels of carbon dioxide will directly lead to crops with a(n):",
+      "options": {
+        "A": "shortened growing season.",
+        "B": "higher optimal growth temperature.",
+        "C": "decreased need for soil nutrients.",
+        "D": "increased rate of photosynthesis."
+      },
+      "correctOption": "D",
+      "explanationHtml": "Scientist 1 states that increased carbon dioxide levels will increase crop yields. It can be inferred that this change would be due to an increase in the rate at which crops carry out photosynthesis, since increased food production would lead to increased growth."
+    },
+    {
+      "questionId": "70",
+      "passageId": "ConflictingViewpoints",
+      "passageHighlight": "",
+      "questionHtml": "Which of the following does Scientist 2 identify as potential competitors to northern crops?",
+      "options": {
+        "A": "Invasive species of weeds",
+        "B": "Newly introduced crop species",
+        "C": "Other industries that use land",
+        "D": "Migrating pest species"
+      },
+      "correctOption": "A",
+      "explanationHtml": "Scientist 2 discusses the northward spread of weeds and pests as being detrimental to northern crops. While pests will directly damage crops, weeds will compete with crops for resources such as soil nutrients and water."
+    },
+    {
+      "questionId": "71",
+      "passageId": "ConflictingViewpoints",
+      "passageHighlight": "",
+      "questionHtml": "Scientist 1's hypothesis could best be tested by recording data over the next decade on:",
+      "options": {
+        "A": "crop yields, average temperatures, and soil nutrient availability worldwide.",
+        "B": "seed production, soil nutrient availability, and water availability worldwide.",
+        "C": "seed production, carbon dioxide levels, and water availability in the United States.",
+        "D": "crop yields, average temperatures, and carbon dioxide levels in the United States."
+      },
+      "correctOption": "D",
+      "explanationHtml": "According to Scientist 1, higher average temperatures and carbon dioxide levels will have direct, positive effects on many crops. This hypothesis can best be tested by gathering data on these two variables and the crop yields that result."
+    },
+    {
+      "questionId": "72",
+      "passageId": "ConflictingViewpoints",
+      "passageHighlight": "",
+      "questionHtml": "If Scientist 2 is correct, over time, the range of:",
+      "options": {
+        "A": "northern crops will become narrower.",
+        "B": "southern crops will move farther south.",
+        "C": "northern crops will overtake southern crops.",
+        "D": "southern crops will remain constant."
+      },
+      "correctOption": "A",
+      "explanationHtml": "According to Scientist 2, increased temperatures and carbon dioxide levels will cause the ranges of more heat-tolerant southern species to expand northward. As southern species expand northward, the ranges of northern species will likely narrow due to the increase in competition and new pests."
+    },
+    {
+      "questionId": "300",
+      "passageId": "ConflictingViewpoints1",
+      "questionHtml": "<p>In Group 2's experiment, SPF is the independent variable being manipulated and UVB is the dependent variable being measured. Which of the following graphs best represents the relationship between the SPF and UVB data from this experiment?</p>",
+      "options": {
+        "A": "Figure 8.1",
+        "B": "Figure 8.2",
+        "C": "Figure 8.3",
+        "D": "Figure 8.4"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Figure 8.1 best represents the relationship between the dependent and independent variables. Figure 8.2 is a bar graph (which is best used for categorical data) and does not have the correct data. Figure 8.3 has the dependent and independent variables on the wrong axes and also does not represent the x-axis data in an appropriately scaled manner. Figure 8.4 does not correlate the correct data, as a downward curve should immediately be expected when looking at the results from the experiment.</p>"
+    },
+    {
+      "questionId": "301",
+      "passageId": "ConflictingViewpoints1",
+      "questionHtml": "<p>Which of the following questions could the students in Group 2 be attempting to answer using the data from their experiment?</p>",
+      "options": {
+        "A": "Does the cost of sunscreen affect the amount of UVB that is blocked?",
+        "B": "Which brand of sunscreen is the best?",
+        "C": "Is there a relationship between SPF and the amount of UVA radiation blocked?",
+        "D": "Can sunscreen protect humans from skin cancer?"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>This is the only question that could be addressed using only the data students have already collected.</p>"
+    },
+    {
+      "questionId": "302",
+      "passageId": "ConflictingViewpoints1",
+      "questionHtml": "<p>According to the findings of Group 1:</p>",
+      "options": {
+        "A": "there is a negative correlation between price and the ability to protect from UVB radiation.",
+        "B": "there is a positive correlation between price and the ability to protect from UVB radiation.",
+        "C": "there is no correlation between the price of a pair of sunglasses and their ability to protect the eyes from UVB radiation.",
+        "D": "sunglasses do not protect the eyes from UVB radiation."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>No relationship was shown between the cost of sunglasses and the amount of UVB they blocked.</p>"
+    },
+    {
+      "questionId": "303",
+      "passageId": "ConflictingViewpoints1",
+      "questionHtml": "<p>Assuming that the sunscreen being tested was purchased in 10-oz bottles, which sunscreen had the best cost for the amount of UVB protection (use the formula $/mW/m² of UVB blocked)?</p>",
+      "options": {
+        "A": "SPF 4",
+        "B": "SPF 8",
+        "C": "SPF 15",
+        "D": "SPF 30"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>If each bottle of sunscreen held 10 oz, the costs would be 0.89, 0.49, 0.79, 1.59, and 1.09. SPF 4 can be eliminated because it is more expensive than SPF 8 and clearly blocks less UVB. SPFs 30 and 50 can also be eliminated because although they block more UVB than SPF 8, the higher cost (double and triple the cost per ounce) could not possibly offset the only marginal increase in protection.</p>"
+    },
+    {
+      "questionId": "304",
+      "passageId": "ConflictingViewpoints1",
+      "questionHtml": "<p>Which of the following is MOST likely to represent a control that would have been used to ensure reliability of data in the experiment done by Group 2?</p>",
+      "options": {
+        "A": "The distance from the sunglasses to the sensor",
+        "B": "The ingredients in the sunscreen being used",
+        "C": "A longer time for the sensor readings as SPF increased",
+        "D": "The amount and thickness of sunscreen being spread on the glass"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>It would be important for students to control the amount and thickness of the sunscreen to obtain consistent and reliable results. The other selections represent variables that cannot be controlled, such as sunscreen ingredients, or are not pertinent to this investigation.</p>"
+    },
+    {
+      "questionId": "305",
+      "passageId": "ConflictingViewpoints1",
+      "questionHtml": "<p>According to the results of Group 1's experiment, what percentage of UVB rays would a $200 pair of sunglasses block?</p>",
+      "options": {
+        "A": "99.5%",
+        "B": "99.7%",
+        "C": "99.6%",
+        "D": "There is not enough information to determine this answer."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>This cannot be predicted because there is no clear relationship between the cost of the glasses and the amount of UVB blocked.</p>"
+    },
+    {
+      "questionId": "306",
+      "passageId": "ConflictingViewpoints1",
+      "questionHtml": "<p>Based on the results of Group 2's experiment, what would the UVB reading most likely be if SPF 60 sunscreen were to be tested?</p>",
+      "options": {
+        "A": "18 mW/m²",
+        "B": "19.25 mW/m²",
+        "C": "9.25 mW/m²",
+        "D": "4.5 mW/m²"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>If the trend from Table 8.2 continues, the amount of UVB reaching the sensor will decrease slightly.</p>"
+    },
+    {
+      "questionId": "307",
+      "passageId": "ConflictingViewpoints1",
+      "questionHtml": "<p>Which of the following is the experimental variable that Group 1 manipulated?</p>",
+      "options": {
+        "A": "The time of day",
+        "B": "The type of sunglasses",
+        "C": "The amount of UVB rays",
+        "D": "The distance of the materials from the sensor"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Students are testing the type of sunglasses. The experimental, or independent, variable is the item that is changed between each trial.</p>"
+    },
+    {
+      "questionId": "308",
+      "passageId": "ConflictingViewpoints1",
+      "questionHtml": "<p>Which of the following implies the correct relationship between SPF and UVB blockage?</p>",
+      "options": {
+        "A": "Sunscreens with SPFs higher than 30 provide only a marginal increase in sun protection over their counterparts with lower SPFs.",
+        "B": "As SPF increases, the ability to block UVB light decreases.",
+        "C": "There is no correlation between SPF and UVB blockage.",
+        "D": "Sunscreens with higher SPFs provide less sun protection than those with low SPFs."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>As the SPF increases past 30, only slight increases in the amount of UVB blocked occur.</p>"
+    },
+    {
+      "questionId": "309",
+      "passageId": "ConflictingViewpoints1",
+      "questionHtml": "<p>What other experiment could the students in Group 2 conduct using the same equipment?</p>",
+      "options": {
+        "A": "The effect of sunscreen on shielding UVA rays",
+        "B": "The ability of sunscreen to prevent cancer",
+        "C": "How the amount of sunscreen applied can impact the SPF",
+        "D": "The margin of benefit of SPF sunscreens higher than 60"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>This is the only question that can be answered using the existing equipment. Students can use a consistent SPF and vary the thickness to determine whether this affects what reaches the sensor.</p>"
+    },
+    {
+      "questionId": "901",
+      "passageId": "ConflictingViewpoints2",
+      "questionHtml": "<p>Both Scientist 1 and Scientist 2 would consider a primary component of low- carbohydrate dieting to be:</p>",
+      "options": {
+        "A": "lowering the body's metabolism.",
+        "B": "increasing fat burning.",
+        "C": "raising one's intake of protein.",
+        "D": "placing oneself at risk for heart disease."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Eliminate answers that don't apply to the opinions of both scientists. Neither of the scientists claim that a low- carbohydrate diet lowers one's metabolism. So Choice (A) is wrong. Scientist 2 states that the diet increases fat burning, but Scientist 1 doesn't mention fat burning. Choice (B) is likely not the best answer. Only Scientist 1 states that low- carb diets lead to a risk for heart disease, so cross out Choice (D). The best answer is Choice (C). Both scientists mention that low- carb diets involve more consumption of protein.</p>"
+    },
+    {
+      "questionId": "902",
+      "passageId": "ConflictingViewpoints2",
+      "questionHtml": "<p>With which of the following statements about low- carbohydrate diets would both Scientist 1 and Scientist 2 most likely agree?</p>",
+      "options": {
+        "A": "Low- carbohydrate dieting poses serious health risks.",
+        "B": "Whether nutritional supplementation is necessary should be determined on a case-by-case basis.",
+        "C": "It is a bad idea to consume large amounts of bacon, eggs, and butter.",
+        "D": "Short-term weight loss is a likely result."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Look for the answer that includes parts of the opinions of both scientists. Eliminate answers that only Scientist 1 would agree with. Scientist 2 doesn't think that low- carb diets are dangerous, so it isn't likely that she would agree with either Choice (A) or Choice (C). Scientist 1 doesn't talk about nutritional supplements, so you don't have enough information to pick Choice (B). Scientist 2 says that low- carb diets are designed for short- term effectiveness. Scientist 1 concedes at the end of his statement that short- term weight loss may occur. So the best answer is Choice (D).</p>"
+    },
+    {
+      "questionId": "903",
+      "passageId": "ConflictingViewpoints2",
+      "questionHtml": "<p>Scientist 1's argument presupposes which of the following?</p>",
+      "options": {
+        "A": "The health benefits of weight loss are not sufficient to overcome the risks associated with a low-carbohydrate diet.",
+        "B": "Most of the people who begin a low-carbohydrate diet suffer from gout or kidney disease.",
+        "C": "The risks of a low-carbohydrate diet can be minimized by the use of nutritional supplements.",
+        "D": "Obesity is caused by eating unlimited amounts of meat."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Rely on good old process of elimination to handle this question. Scientist 1 says that people who suffer from gout or kidney disease have an increased health concerns on a low- carb diet, but he doesn't say that most people who start the diet have gout or kidney disease. Cross out Choice (B). Choice (C) is Scientist 2's claim, so it's not right. Scientist 1's argument is more concerned with heart disease and other disease risks than obesity. Eliminate Choice (D) and pick Choice (A). Scientist 1 seems to admit that low- carb diets lead to some weight loss, but he's not sold on them. Therefore, he must think that the health risks associated with low- carb diets can't be overcome by its weight- loss benefit.</p>"
+    },
+    {
+      "questionId": "904",
+      "passageId": "ConflictingViewpoints2",
+      "questionHtml": "<p>Scientist 2 claims that with a low- carbohydrate diet, the body does not get fuel from consuming food. If this statement is true, which of these statements must also be true?</p>",
+      "options": {
+        "A": "Scientist 2 does not consider glucose to be food.",
+        "B": "Protein consumption does not fuel the body.",
+        "C": "Scientist 2 believes that heart disease is caused by the body's not getting enough food.",
+        "D": ""
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>If it's true that people on a low- carb diet don't get fuel from the food they consume and the foods that they consume are proteins, it must be true that proteins don't provide fuel. Choice (B) is the best answer. Choice (A) is out because people on low- carb diets restrict glucose. Choice (C) can't be right because Scientist 2 doesn't talk about heart disease. The conclusion in Choice (D) goes way beyond anything stated or implied by Scientist 2's opinion.</p>"
+    },
+    {
+      "questionId": "905",
+      "passageId": "ConflictingViewpoints2",
+      "questionHtml": "<p>Given that all the following statements are true, which would provide the most effective argument against the assertion of Scientist 1?</p>",
+      "options": {
+        "A": "There is a positive correlation between consuming large amounts of meat and developing certain kinds of cancer.",
+        "B": "The consumption of high-fiber carbohydrates has been found to promote good digestive health.",
+        "C": "A healthy diet relies on broad consumption of varying types of food, including both carbohydrates and proteins.",
+        "D": "A recent study has shown that eating protein makes a person feel fuller faster than eating carbohydrates, which means that people who consume primarily protein tend to eat significantly less than those who eat less protein."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The gist of Scientist 1's argument is that low- carb diets are dangerous because they encourage a high- protein diet that creates a higher risk for disease. You're looking for the statement that would provide evidence against Scientist 1. You know Choice (A) is wrong because it supports Scientist 1's contention that low- carb diets are dangerous. Similarly, a study showing the health benefits of carbohydrates would more likely go along with Scientist 1's opinion rather than go against it. You're down to Choices (C) and (D). The fact that a eating a variety of foods is healthy doesn't run contrary to the idea that eating a high- protein diet is dangerous. Choice (D) is better than Choice (C). If it's true that a high- protein diet leads to less overall food consumption, it's likely that people on low- carb diets aren't eating the unlimited amounts of bacon, eggs, and butter that Scientist 1 claims lead to disease.</p>"
+    },
+    {
+      "questionId": "906",
+      "passageId": "ConflictingViewpoints2",
+      "questionHtml": "<p>Which of the following statements about low-carbohydrate diets is most consistent with the view of Scientist 2?</p>",
+      "options": {
+        "A": "People who eat a low-carbohydrate diet without taking nutritional supplements are putting themselves at risk for kidney disease.",
+        "B": "There are some studies that show that eating unrestricted amounts of meat for a short period of time does not cause adverse health issues.",
+        "C": "By observing proper precautions, most people can receive health benefits from eating a low-carbohydrate diet.",
+        "D": "More heart disease is caused by obesity than by eating unlimited amounts of meat."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Now you get to concentrate on Scientist 2. She essentially says the low- carb diets are effective and can be balanced with supplements. Find the answer that provides the best summary of her opinion without making assumptions about issues she doesn't talk about. The answer that summarizes Scientist 2's opinion the best is Choice (C). She doesn't talk specifically about kidney or heart disease, so Choices (A) and (D) are out. She doesn't base her opinion on studies or make a case for unrestricted meat consumption, so Choice (B) isn't as good an answer as Choice (C).</p>"
+    },
+    {
+      "questionId": "907",
+      "passageId": "ConflictingViewpoints2",
+      "questionHtml": "<p>Based on the information in the passage, eating which of the following would most likely prevent the body from burning fat as fuel?</p>",
+      "options": {
+        "A": "Sugar cookie",
+        "B": "Slice of Canadian bacon",
+        "C": "Pat of butter",
+        "D": "Cheese omelet"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The first paragraph says that the body burns glucose as fuel. It associates glucose with refined carbohydrates and gives sugar, flour, and corn syrup as examples. The answer choice that contains sugar is Choice (A), the sugar cookie. So it's the one that would the body would burn for fuel instead of going to its fat stores. The other three choices are examples of meats and other foods that Scientist 1 implies are eaten on a low- carb diet, and the goal of a low- carb diet is to burn fat for fuel.</p>"
+    }
+    
+   ]
+}
