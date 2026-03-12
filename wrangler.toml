@@ -1,0 +1,4 @@
+[[d1_databases]]
+binding = "DB"           # must match the binding name used in code (e.g., env.DB)
+database_name = "noctua"
+database_id = "19a011d3-d551-4e57-97a4-efbed285da16"

@@ -21,7 +21,7 @@ export const sections: Section[] = [
     name: "English",
     options: [
       {
-        name: "Production of Writing",
+        name: "English of Writing",
         practiceLevels: [
           {
             level: 1,

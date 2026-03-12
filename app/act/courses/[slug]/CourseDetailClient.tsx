@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Link from "next/link";
 import Image from "next/image";
 import { CldVideoPlayer } from "next-cloudinary";
 import "next-cloudinary/dist/cld-video-player.css";
@@ -17,8 +16,6 @@ const schoolMenu: MenuItem[] = [
   { label: "Roadmap", href: "/act" },
   { label: "Account", href: "/act" },
 ];
-
-const cloudName = process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME || "demo";
 
 const categoryColorMap: Record<string, string> = {
   Math: "#1f324c",
@@ -44,11 +41,6 @@ const categoryThumbnailMap: Record<string, string> = {
 function getThumbnailForCategory(category: string): string {
   // Fallback to English thumbnail if category not found (safe default)
   return categoryThumbnailMap[category] || "/1-act/thum/act-eng.png";
-}
-
-// Optional: keep for reference, but no longer used for thumbnails
-function getVideoThumbnailUrl(publicId: string): string {
-  return `https://res.cloudinary.com/${cloudName}/video/upload/${publicId}.jpg`;
 }
 
 export default function CourseDetailClient({ course }: { course: Course }) {

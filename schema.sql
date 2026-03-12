@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS users;
+
+CREATE TABLE users (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  username TEXT NOT NULL UNIQUE,
+  email TEXT NOT NULL UNIQUE,
+  password_hash TEXT NOT NULL,
+  account_type TEXT NOT NULL DEFAULT 'free',
+  account_created DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  last_login DATETIME
+);

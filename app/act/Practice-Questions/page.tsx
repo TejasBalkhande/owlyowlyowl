@@ -24,13 +24,6 @@ const slugify = (text: string) =>
     .replace(/\s+/g, "-")
     .replace(/[^a-z0-9-]/g, "");
 
-// Mock test sets data
-const mockTestSets = [
-  { setNumber: 1, title: "Full Length 1", description: "Simulate a complete ACT exam" },
-  { setNumber: 2, title: "Full Length 2", description: "Timed practice with real difficulty" },
-  { setNumber: 3, title: "Full Length 3", description: "Comprehensive test with all sections" },
-];
-
 export default function PracticeQuestionsPage() {
   const router = useRouter();
   const [selectedOption, setSelectedOption] = useState<{
@@ -49,7 +42,6 @@ export default function PracticeQuestionsPage() {
     }
   }, [selectedOption]);
 
- 
   const getLevelBadgeColor = (level: { level: number }) => {
     const palette = [
       { bg: "bg-amber-100", text: "text-amber-700", border: "border-amber-300" },       // 2
@@ -71,10 +63,6 @@ export default function PracticeQuestionsPage() {
   const handleStartPractice = (levelTitle: string) => {
     const slug = slugify(levelTitle);
     router.push(`/act/${slug}`);
-  };
-
-  const handleStartFullLength = (setNumber: number) => {
-    router.push(`/act/full-length/set-${setNumber}`);
   };
 
   return (

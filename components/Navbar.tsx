@@ -13,16 +13,7 @@ type NavbarProps = {
 export default function Navbar({ items, logo = "Logo" }: NavbarProps) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<number | null>(null); // for mobile submenus
-  const [isMobile, setIsMobile] = useState(false);
   const mobileMenuRef = useRef<HTMLDivElement>(null);
-
-  // Detect mobile viewport (below 920px)
-  useEffect(() => {
-    const checkMobile = () => setIsMobile(window.innerWidth < 920);
-    checkMobile();
-    window.addEventListener("resize", checkMobile);
-    return () => window.removeEventListener("resize", checkMobile);
-  }, []);
 
   // Close mobile menu when clicking outside
   useEffect(() => {
