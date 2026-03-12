@@ -3,15 +3,14 @@ import { sections } from "../lib/actSections";
 import PracticeSessionClient from "./PracticeSessionClient";
 import fs from "fs";
 import path from "path";
+import { getCurrentUser } from "@/lib/session";
 
-// Helper to slugify (must match the one in PracticeQuestionsPage)
 const slugify = (text: string) =>
   text
     .toLowerCase()
     .replace(/\s+/g, "-")
     .replace(/[^a-z0-9-]/g, "");
 
-// Generate all possible static paths at build time
 export async function generateStaticParams() {
   const paths = [];
   for (const section of sections) {
@@ -24,7 +23,6 @@ export async function generateStaticParams() {
   return paths;
 }
 
-// Find level info by slug
 function findLevelInfo(slug: string) {
   for (const section of sections) {
     for (const option of section.options) {
@@ -44,10 +42,10 @@ export default async function Page({
   searchParams,
 }: {
   params: Promise<{ slug: string }>;
-  searchParams: Promise<{ from?: string }>;
+  searchParams: Promise<{ from?: string; itemId?: string }>;
 }) {
   const { slug } = await params;
-  const { from } = await searchParams;
+  const { from, itemId } = await searchParams;
   const levelInfo = findLevelInfo(slug);
 
   if (!levelInfo) {
@@ -78,6 +76,7 @@ export default async function Page({
   }
 
   const imageBasePath = `/1-act/${sectionSlug}/${levelSlug}/`;
+  const user = await getCurrentUser();
 
   return (
     <PracticeSessionClient
@@ -85,6 +84,8 @@ export default async function Page({
       levelInfo={levelInfo}
       imageBasePath={imageBasePath}
       isRoadmap={from === "roadmap"}
+      itemId={itemId ? parseInt(itemId, 10) : undefined}
+      isLoggedIn={!!user}
     />
   );
 }

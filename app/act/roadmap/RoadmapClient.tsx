@@ -3,9 +3,10 @@
 
 import { useState, useMemo } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import type { Section, SectionOption, PracticeLevel } from "../lib/actSections";
+import { saveRoadmapOrder } from "@/actions/roadmap";
 
-// Props received from the server component
 interface RoadmapItem {
   id: number;
   section: Section;
@@ -20,9 +21,19 @@ interface RoadmapItem {
   };
 }
 
+interface PracticeResult {
+  correct: number;
+  total: number;
+  timeSeconds: number;
+  date: string;
+}
+
 interface RoadmapClientProps {
   initialItems: RoadmapItem[];
   originalOrder: number[];
+  initialUserResults?: Record<string, PracticeResult>;
+  initialUserOrder?: number[] | null;
+  isLoggedIn?: boolean;
 }
 
 const slugify = (text: string): string =>
@@ -34,7 +45,6 @@ const slugify = (text: string): string =>
 const getOptionKey = (item: RoadmapItem): string =>
   `${item.section.name}|${item.option.name}`;
 
-// Subject-specific color configs for the modal
 const getSubjectConfig = (sectionName: string) => {
   switch (sectionName) {
     case "English":
@@ -137,7 +147,6 @@ const TOP_LEVEL_TITLES = [
   "Linear and Exponential"
 ];
 
-// Fisher‑Yates shuffle
 const shuffleArray = <T,>(array: T[]): T[] => {
   const shuffled = [...array];
   for (let i = shuffled.length - 1; i > 0; i--) {
@@ -147,28 +156,31 @@ const shuffleArray = <T,>(array: T[]): T[] => {
   return shuffled;
 };
 
-// Type for saved practice result
-interface PracticeResult {
-  correct: number;
-  total: number;
-  timeSeconds: number;
-  date: string; // ISO string
-}
-
-export default function RoadmapClient({ initialItems, originalOrder }: RoadmapClientProps) {
-  const [currentOrder, setCurrentOrder] = useState<number[]>(originalOrder);
+export default function RoadmapClient({
+  initialItems,
+  originalOrder,
+  initialUserResults = {},
+  initialUserOrder,
+  isLoggedIn = false,
+}: RoadmapClientProps) {
+  const router = useRouter();
+  const [currentOrder, setCurrentOrder] = useState<number[]>(() => {
+    if (isLoggedIn && initialUserOrder) return initialUserOrder;
+    return originalOrder;
+  });
   const [showModal, setShowModal] = useState(false);
   const [optionRatings, setOptionRatings] = useState<Record<string, number>>(() => {
     const optionsMap: Record<string, number> = {};
     initialItems.forEach(item => {
       const key = getOptionKey(item);
-      optionsMap[key] = 2; // default to "Fine"
+      optionsMap[key] = 2;
     });
     return optionsMap;
   });
 
-  // State for saved practice results (keyed by level slug) – lazy initializer from localStorage
-  const [results, setResults] = useState<Record<string, PracticeResult>>(() => {
+  // Practice results – use server data if logged in, otherwise fallback to localStorage
+  const [results] = useState<Record<string, PracticeResult>>(() => {
+    if (isLoggedIn) return initialUserResults;
     if (typeof window !== "undefined") {
       const stored = localStorage.getItem("roadmapResults");
       if (stored) {
@@ -213,21 +225,32 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
     setOptionRatings(prev => ({ ...prev, [optionKey]: value }));
   };
 
-  const applyPersonalizedOrder = () => {
-    const allItems = [...initialItems];
-    const topItems = allItems.filter(item => TOP_LEVEL_TITLES.includes(item.level.title));
-    const otherItems = allItems.filter(item => !TOP_LEVEL_TITLES.includes(item.level.title));
-    const shuffledTop = shuffleArray(topItems);
-    const sortedOthers = [...otherItems].sort((a, b) => {
-      const ratingA = optionRatings[getOptionKey(a)] ?? 2;
-      const ratingB = optionRatings[getOptionKey(b)] ?? 2;
-      if (ratingA !== ratingB) return ratingA - ratingB;
-      return originalOrder.indexOf(a.id) - originalOrder.indexOf(b.id);
-    });
-    const newOrder = [...shuffledTop, ...sortedOthers].map(item => item.id);
-    setCurrentOrder(newOrder);
-    setShowModal(false);
-  };
+ const applyPersonalizedOrder = async () => {
+  const allItems = [...initialItems];
+  const topItems = allItems.filter(item => TOP_LEVEL_TITLES.includes(item.level.title));
+  const otherItems = allItems.filter(item => !TOP_LEVEL_TITLES.includes(item.level.title));
+  const shuffledTop = shuffleArray(topItems);
+  const sortedOthers = [...otherItems].sort((a, b) => {
+    const ratingA = optionRatings[getOptionKey(a)] ?? 2;
+    const ratingB = optionRatings[getOptionKey(b)] ?? 2;
+    if (ratingA !== ratingB) return ratingA - ratingB;
+    return originalOrder.indexOf(a.id) - originalOrder.indexOf(b.id);
+  });
+  const newOrder = [...shuffledTop, ...sortedOthers].map(item => item.id);
+  
+  setCurrentOrder(newOrder);
+  
+  if (isLoggedIn) {
+    try {
+      await saveRoadmapOrder(newOrder, 'act'); 
+      router.refresh();
+    } catch (error) {
+      console.error("Failed to save order", error);
+    }
+  }
+  
+  setShowModal(false);
+};
 
   const resetOrder = () => {
     setCurrentOrder(originalOrder);
@@ -239,7 +262,11 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
   const toggleSubject = (subject: string) => {
     setSelectedSubjects(prev => {
       const next = new Set(prev);
-      next.has(subject) ? next.delete(subject) : next.add(subject);
+      if (next.has(subject)) {
+        next.delete(subject);
+      } else {
+        next.add(subject);
+      }
       return next;
     });
   };
@@ -247,7 +274,6 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
   const selectAllSubjects = () => setSelectedSubjects(new Set(allSubjects));
   const clearAllSubjects = () => setSelectedSubjects(new Set());
 
-  // Group options by subject for the modal
   const filteredGroupedOptions = groupedOptions.filter(opt => selectedSubjects.has(opt.sectionName));
   const groupedBySubject = useMemo(() => {
     const map = new Map<string, typeof filteredGroupedOptions>();
@@ -258,7 +284,6 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
     return map;
   }, [filteredGroupedOptions]);
 
-  // Stats for the summary bar
   const ratingCounts = useMemo(() => {
     const counts = { 1: 0, 2: 0, 3: 0 };
     filteredGroupedOptions.forEach(opt => {
@@ -305,7 +330,7 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
           const { id, section, option, level, questionCount, subjectColor } = item;
           const isLocked = false;
           const slug = slugify(level.title);
-          const result = results[slug];
+          const result = results[id]; // keyed by item id
 
           return (
             <div
@@ -349,7 +374,7 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
 
                   <div className="mt-3">
                     <Link
-                      href={`/act/${slug}?from=roadmap`}
+                      href={`/act/${slug}?from=roadmap&itemId=${id}`}
                       className="inline-flex items-center px-4 py-2 bg-[#1E4A76] text-white rounded-xl text-sm font-medium hover:bg-[#163A5E] transition shadow-sm"
                     >
                       <svg className="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -443,7 +468,6 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
 
             {/* ── Two-column body: sidebar left, topic list right ── */}
             <div className="flex flex-1 overflow-hidden">
-
               {/* Left sidebar: Subject filter */}
               <div className="flex-shrink-0 w-48 flex flex-col border-r border-gray-100 bg-gray-50/50">
                 <div className="px-4 pt-4 pb-4 flex-1 overflow-y-auto">

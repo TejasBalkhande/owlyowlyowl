@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useRef, useCallback } from "react";
+import { useEffect, useState, useRef, useCallback, memo } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
@@ -9,6 +9,7 @@ import { PracticeLevel, Section } from "../lib/actSections";
 import renderMathInElement from "katex/contrib/auto-render";
 import "katex/dist/katex.min.css";
 import Cal from "@/components/Cal";
+import { savePracticeResult } from "@/actions/roadmap";
 
 const schoolMenu: MenuItem[] = [
   { label: "Mock-Test", href: "/act" },
@@ -42,14 +43,48 @@ interface PracticeSessionClientProps {
     level: PracticeLevel;
   };
   imageBasePath: string;
-  isRoadmap?: boolean; // new prop
+  isRoadmap?: boolean;
+  itemId?: number;            // from searchParams, only when coming from roadmap
+  isLoggedIn?: boolean;       // whether the user is authenticated
 }
+
+// Custom component that renders HTML and applies KaTeX, but isolates React from the content
+const MathRenderer = memo(({ html, className = "" }: { html: string; className?: string }) => {
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (containerRef.current) {
+      // Set the HTML content imperatively
+      containerRef.current.innerHTML = html;
+      // Then apply KaTeX
+      try {
+        renderMathInElement(containerRef.current, {
+          delimiters: [
+            { left: "$$", right: "$$", display: true },
+            { left: "\\[", right: "\\]", display: true },
+            { left: "$", right: "$", display: false },
+            { left: "\\(", right: "\\)", display: false },
+          ],
+          throwOnError: false,
+        });
+      } catch (e) {
+        console.error("KaTeX rendering error:", e);
+      }
+    }
+  }, [html]); // Only re-run when the HTML string changes
+
+  return <div ref={containerRef} className={className} />;
+});
+
+MathRenderer.displayName = "MathRenderer";
 
 export default function PracticeSessionClient({
   initialData,
   levelInfo,
   imageBasePath,
   isRoadmap = false,
+  itemId,
+  isLoggedIn = false,
 }: PracticeSessionClientProps) {
   const router = useRouter();
   const [data] = useState(initialData);
@@ -61,7 +96,6 @@ export default function PracticeSessionClient({
   const [startTime] = useState<number>(isRoadmap ? Date.now() : 0);
   const [elapsedSeconds, setElapsedSeconds] = useState(0);
 
-  const contentRef = useRef<HTMLDivElement>(null);
   const passageRef = useRef<HTMLDivElement>(null);
 
   const isMath = levelInfo.section.name === "Mathematics";
@@ -99,25 +133,6 @@ export default function PracticeSessionClient({
     [imageBasePath]
   );
 
-  // Run KaTeX after every render
-  useEffect(() => {
-    if (contentRef.current && data) {
-      try {
-        renderMathInElement(contentRef.current, {
-          delimiters: [
-            { left: "$$", right: "$$", display: true },
-            { left: "\\[", right: "\\]", display: true },
-            { left: "$", right: "$", display: false },
-            { left: "\\(", right: "\\)", display: false },
-          ],
-          throwOnError: false,
-        });
-      } catch (e) {
-        console.error("KaTeX rendering error:", e);
-      }
-    }
-  }, [data, selectedOptions, currentIndex]);
-
   // Scroll to highlighted part of passage
   useEffect(() => {
     if (passageRef.current) {
@@ -143,10 +158,9 @@ export default function PracticeSessionClient({
   };
 
   // Finish practice (only for roadmap)
-  const handleFinish = () => {
+  const handleFinish = async () => {
     if (!data || !isRoadmap) return;
 
-    // Calculate correct count
     let correctCount = 0;
     data.questions.forEach((q) => {
       if (selectedOptions[q.questionId] === q.correctOption) correctCount++;
@@ -155,8 +169,16 @@ export default function PracticeSessionClient({
     const totalQuestions = data.questions.length;
     const timeSeconds = elapsedSeconds;
 
-    // Save to localStorage
-    const slug = levelInfo.level.title.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
+    if (isLoggedIn && itemId) {
+      try {
+        await savePracticeResult(itemId, correctCount, totalQuestions, timeSeconds, 'act');
+      } catch (error) {
+        console.error("Failed to save practice result to database", error);
+      }
+    }
+
+    // Always save to localStorage (using itemId if available, otherwise fallback to slug)
+    const storageKey = itemId ? String(itemId) : levelInfo.level.title.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
     const result = {
       correct: correctCount,
       total: totalQuestions,
@@ -166,10 +188,9 @@ export default function PracticeSessionClient({
 
     const stored = localStorage.getItem("roadmapResults");
     const results = stored ? JSON.parse(stored) : {};
-    results[slug] = result;
+    results[storageKey] = result;
     localStorage.setItem("roadmapResults", JSON.stringify(results));
 
-    // Redirect back to roadmap
     router.push("/act/roadmap");
   };
 
@@ -219,10 +240,7 @@ export default function PracticeSessionClient({
     <div className="bg-white min-h-screen flex flex-col">
       <Navbar items={schoolMenu} logo="OwlenForge" />
 
-      <div
-        className="flex-1 w-full max-w-7.5xl mx-auto px-4 sm:px-6 lg:px-10 py-6 flex flex-col"
-        ref={contentRef}
-      >
+      <div className="flex-1 w-full max-w-7.5xl mx-auto px-4 sm:px-6 lg:px-10 py-6 flex flex-col">
         {/* Header with timer for roadmap */}
         <div className="flex flex-wrap items-center justify-between mb-4 font-sans">
           <div className="flex items-center gap-2 mb-1">
@@ -297,11 +315,9 @@ export default function PracticeSessionClient({
                   <h3 className="text-lg font-semibold text-[#1E4A76] mb-2 flex items-center gap-2 font-sans">
                     Passage
                   </h3>
-                  <div
+                  <MathRenderer
+                    html={transformHtml(currentPassage.passageHtml, currentQuestion.passageHighlight)}
                     className="prose max-w-none text-[#4A5568] font-sans"
-                    dangerouslySetInnerHTML={{
-                      __html: transformHtml(currentPassage.passageHtml, currentQuestion.passageHighlight),
-                    }}
                   />
                 </>
               ) : (
@@ -314,9 +330,9 @@ export default function PracticeSessionClient({
                       {currentIndex + 1} / {data.questions.length}
                     </span>
                   </div>
-                  <div
+                  <MathRenderer
+                    html={transformHtml(currentQuestion.questionHtml)}
                     className="prose max-w-none text-[#2D3748] font-sans"
-                    dangerouslySetInnerHTML={{ __html: transformHtml(currentQuestion.questionHtml) }}
                   />
                 </>
               )}
@@ -334,9 +350,9 @@ export default function PracticeSessionClient({
                       {currentIndex + 1} / {data.questions.length}
                     </span>
                   </div>
-                  <div
+                  <MathRenderer
+                    html={transformHtml(currentQuestion.questionHtml)}
                     className="prose max-w-none text-[#2D3748] font-sans"
-                    dangerouslySetInnerHTML={{ __html: transformHtml(currentQuestion.questionHtml) }}
                   />
                 </div>
               )}
@@ -365,9 +381,9 @@ export default function PracticeSessionClient({
                       onClick={() => !selected && handleOptionSelect(currentQuestion.questionId, key)}
                     >
                       <span className="font-bold mr-2 text-[#1E4A76]">{key}.</span>
-                      <span
-                        className="text-[#2D3748]"
-                        dangerouslySetInnerHTML={{ __html: transformHtml(value) }}
+                      <MathRenderer
+                        html={transformHtml(value)}
+                        className="inline text-[#2D3748]" // inline to keep option text flow
                       />
                     </div>
                   );
@@ -378,9 +394,9 @@ export default function PracticeSessionClient({
               {selected && (
                 <div className="mt-6 p-5 bg-blue-50 rounded-xl border-l-4 border-blue-500">
                   <h4 className="font-semibold text-[#1E4A76] mb-2">Explanation</h4>
-                  <div
+                  <MathRenderer
+                    html={transformHtml(currentQuestion.explanationHtml)}
                     className="prose max-w-none text-sm text-[#2D3748]"
-                    dangerouslySetInnerHTML={{ __html: transformHtml(currentQuestion.explanationHtml) }}
                   />
                   <p className="mt-3 text-sm font-medium">
                     {isCorrect ? (
