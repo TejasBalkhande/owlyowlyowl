@@ -12,39 +12,49 @@ export async function savePracticeResult(
   timeSeconds: number,
   exam: string
 ) {
-  const user = await getCurrentUser();
-  if (!user) throw new Error("Not authenticated");
+  try {
+    const user = await getCurrentUser();
+    if (!user) throw new Error("Not authenticated");
 
-  await tursoWrite.execute({
-    sql: `
-      INSERT INTO user_roadmap_results (user_id, item_id, correct, total, time_seconds, completed_at, exam)
-      VALUES (?, ?, ?, ?, ?, CURRENT_TIMESTAMP, ?)
-      ON CONFLICT(user_id, item_id, exam) DO UPDATE SET
-        correct = excluded.correct,
-        total = excluded.total,
-        time_seconds = excluded.time_seconds,
-        completed_at = excluded.completed_at
-    `,
-    args: [user.id, itemId, correct, total, timeSeconds, exam],
-  });
+    await tursoWrite.execute({
+      sql: `
+        INSERT INTO user_roadmap_results (user_id, item_id, correct, total, time_seconds, completed_at, exam)
+        VALUES (?, ?, ?, ?, ?, CURRENT_TIMESTAMP, ?)
+        ON CONFLICT(user_id, item_id, exam) DO UPDATE SET
+          correct = excluded.correct,
+          total = excluded.total,
+          time_seconds = excluded.time_seconds,
+          completed_at = excluded.completed_at
+      `,
+      args: [user.id, itemId, correct, total, timeSeconds, exam],
+    });
 
-  revalidatePath("/act/roadmap");
+    revalidatePath("/act/roadmap");
+  } catch (error) {
+    console.error("🔥 savePracticeResult error:", error);
+    throw new Error("Failed to save practice result: " + (error as Error).message);
+  }
 }
 
 export async function saveRoadmapOrder(orderIds: number[], exam: string) {
-  const user = await getCurrentUser();
-  if (!user) throw new Error("Not authenticated");
+  try {
+    const user = await getCurrentUser();
+    if (!user) throw new Error("Not authenticated");
 
-  await tursoWrite.execute({
-    sql: `
-      INSERT INTO user_roadmap_order (user_id, order_json, updated_at, exam)
-      VALUES (?, ?, CURRENT_TIMESTAMP, ?)
-      ON CONFLICT(user_id, exam) DO UPDATE SET
-        order_json = excluded.order_json,
-        updated_at = excluded.updated_at
-    `,
-    args: [user.id, JSON.stringify(orderIds), exam],
-  });
+    await tursoWrite.execute({
+      sql: `
+        INSERT INTO user_roadmap_order (user_id, order_json, updated_at, exam)
+        VALUES (?, ?, CURRENT_TIMESTAMP, ?)
+        ON CONFLICT(user_id, exam) DO UPDATE SET
+          order_json = excluded.order_json,
+          updated_at = excluded.updated_at
+      `,
+      args: [user.id, JSON.stringify(orderIds), exam],
+    });
 
-  revalidatePath("/act/roadmap");
+    revalidatePath("/act/roadmap");
+  } catch (error) {
+    console.error("🔥 saveRoadmapOrder error:", error);
+    throw new Error("Failed to save roadmap order: " + (error as Error).message);
+  }
 }
