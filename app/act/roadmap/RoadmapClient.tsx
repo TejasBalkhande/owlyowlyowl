@@ -298,7 +298,7 @@ export default function RoadmapClient({
       {/* Header */}
       <div className="mb-10 flex flex-col sm:flex-row items-center justify-between gap-4">
         <div className="text-center sm:text-left">
-          <h1 className="text-4xl font-bold text-[#1E4A76]">ACT Roadmap</h1>
+          <h1 className="lg:text-3xl md:text-2xl text-xl font-bold text-[#1E4A76]">ACT Roadmap</h1>
           <p className="text-[#4A5568] font-times text-[17px] mt-3 max-w-2xl">
             Follow the recommended sequence of practice topics. Unlock one at a time.
           </p>
