@@ -4,6 +4,7 @@
 import { turso, tursoWrite } from "@/lib/db";
 import { hashPassword, comparePassword, createToken, setAuthCookie } from "@/lib/auth";
 import { cookies } from "next/headers";
+import { redirect } from "next/navigation";
 
 type ActionState = { error?: string; success?: boolean } | null;
 
@@ -97,4 +98,26 @@ export async function login(prevState: ActionState, formData: FormData): Promise
     console.error("🔥 login database error:", error);
     return { error: "Database error: " + (error as Error).message };
   }
+}
+
+export async function logout() {
+  const cookieStore = await cookies();
+
+  cookieStore.set("auth-token", "", {
+    httpOnly: true,
+    secure: process.env.NODE_ENV === "production",
+    sameSite: "lax",
+    maxAge: 0,
+    path: "/",
+  });
+
+  cookieStore.set("user-logged-in", "", {
+    httpOnly: false,
+    secure: process.env.NODE_ENV === "production",
+    sameSite: "lax",
+    maxAge: 0,
+    path: "/",
+  });
+
+  redirect("/account/login");
 }
