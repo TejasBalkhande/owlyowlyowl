@@ -118,6 +118,5 @@ export async function logout() {
     maxAge: 0,
     path: "/",
   });
-
   redirect("/account/login");
 }
