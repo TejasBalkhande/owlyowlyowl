@@ -1,11 +1,10 @@
-// app/act/roadmap/RoadmapClient.tsx
 "use client";
 
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import type { Section, SectionOption, PracticeLevel } from "../lib/actSections";
+import { saveUserRoadmapOrder } from "./actions";
 
-// Props received from the server component
 interface RoadmapItem {
   id: number;
   section: Section;
@@ -23,6 +22,8 @@ interface RoadmapItem {
 interface RoadmapClientProps {
   initialItems: RoadmapItem[];
   originalOrder: number[];
+  initialOrder: number[];
+  isLoggedIn: boolean;
 }
 
 const slugify = (text: string): string =>
@@ -34,7 +35,6 @@ const slugify = (text: string): string =>
 const getOptionKey = (item: RoadmapItem): string =>
   `${item.section.name}|${item.option.name}`;
 
-// Subject-specific color configs for the modal
 const getSubjectConfig = (sectionName: string) => {
   switch (sectionName) {
     case "English":
@@ -134,10 +134,9 @@ const TOP_LEVEL_TITLES = [
   "Linear Equations",
   "Key Ideas and Details 1",
   "Tables and Graphs 1",
-  "Linear and Exponential"
+  "Linear and Exponential",
 ];
 
-// Fisher‑Yates shuffle
 const shuffleArray = <T,>(array: T[]): T[] => {
   const shuffled = [...array];
   for (let i = shuffled.length - 1; i > 0; i--) {
@@ -147,27 +146,31 @@ const shuffleArray = <T,>(array: T[]): T[] => {
   return shuffled;
 };
 
-// Type for saved practice result
 interface PracticeResult {
   correct: number;
   total: number;
   timeSeconds: number;
-  date: string; // ISO string
+  date: string;
 }
 
-export default function RoadmapClient({ initialItems, originalOrder }: RoadmapClientProps) {
-  const [currentOrder, setCurrentOrder] = useState<number[]>(originalOrder);
+export default function RoadmapClient({
+  initialItems,
+  originalOrder,
+  initialOrder,
+  isLoggedIn,
+}: RoadmapClientProps) {
+  const [currentOrder, setCurrentOrder] = useState<number[]>(initialOrder);
   const [showModal, setShowModal] = useState(false);
+  const [isSaving, setIsSaving] = useState(false);
   const [optionRatings, setOptionRatings] = useState<Record<string, number>>(() => {
     const optionsMap: Record<string, number> = {};
     initialItems.forEach(item => {
       const key = getOptionKey(item);
-      optionsMap[key] = 2; // default to "Fine"
+      optionsMap[key] = 2;
     });
     return optionsMap;
   });
 
-  // State for saved practice results (keyed by level slug) – lazy initializer from localStorage
   const [results, setResults] = useState<Record<string, PracticeResult>>(() => {
     if (typeof window !== "undefined") {
       const stored = localStorage.getItem("roadmapResults");
@@ -213,7 +216,7 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
     setOptionRatings(prev => ({ ...prev, [optionKey]: value }));
   };
 
-  const applyPersonalizedOrder = () => {
+  const applyPersonalizedOrder = async () => {
     const allItems = [...initialItems];
     const topItems = allItems.filter(item => TOP_LEVEL_TITLES.includes(item.level.title));
     const otherItems = allItems.filter(item => !TOP_LEVEL_TITLES.includes(item.level.title));
@@ -225,8 +228,21 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
       return originalOrder.indexOf(a.id) - originalOrder.indexOf(b.id);
     });
     const newOrder = [...shuffledTop, ...sortedOthers].map(item => item.id);
+
     setCurrentOrder(newOrder);
     setShowModal(false);
+
+    if (isLoggedIn) {
+      setIsSaving(true);
+      try {
+        await saveUserRoadmapOrder(newOrder);
+      } catch (error) {
+        console.error("Failed to save roadmap order", error);
+        // Optionally show a toast/error message to the user
+      } finally {
+        setIsSaving(false);
+      }
+    }
   };
 
   const resetOrder = () => {
@@ -247,8 +263,8 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
   const selectAllSubjects = () => setSelectedSubjects(new Set(allSubjects));
   const clearAllSubjects = () => setSelectedSubjects(new Set());
 
-  // Group options by subject for the modal
   const filteredGroupedOptions = groupedOptions.filter(opt => selectedSubjects.has(opt.sectionName));
+
   const groupedBySubject = useMemo(() => {
     const map = new Map<string, typeof filteredGroupedOptions>();
     filteredGroupedOptions.forEach(opt => {
@@ -258,7 +274,6 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
     return map;
   }, [filteredGroupedOptions]);
 
-  // Stats for the summary bar
   const ratingCounts = useMemo(() => {
     const counts = { 1: 0, 2: 0, 3: 0 };
     filteredGroupedOptions.forEach(opt => {
@@ -280,8 +295,15 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
         </div>
         <div className="flex gap-2">
           <button
-            onClick={() => setShowModal(true)}
-            className="px-5 py-2.5 bg-[#1E4A76] text-white rounded-xl text-sm font-medium hover:bg-[#163A5E] transition shadow-sm flex items-center gap-2"
+            onClick={() => {
+              if (!isLoggedIn) {
+                window.location.href = "/account";
+                return;
+              }
+              setShowModal(true);
+            }}
+            disabled={isSaving}
+            className="px-5 py-2.5 bg-[#1E4A76] text-white rounded-xl text-sm font-medium hover:bg-[#163A5E] transition shadow-sm flex items-center gap-2 disabled:opacity-50"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
@@ -299,7 +321,7 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
         </div>
       </div>
 
-      {/* Vertical list of cards */}
+      {/* Vertical list of cards (unchanged) */}
       <div className="space-y-5">
         {orderedItems.map((item) => {
           const { id, section, option, level, questionCount, subjectColor } = item;
@@ -334,7 +356,6 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
                   <h3 className="text-xl font-bold text-gray-900 leading-tight">{level.title}</h3>
                   <p className="mt-1 text-sm text-gray-600 line-clamp-2">{level.description}</p>
 
-                  {/* Display last attempt result if available */}
                   {result && (
                     <div className="mt-2 flex items-center gap-3 text-xs">
                       <span className="font-medium text-gray-700">Last attempt:</span>
@@ -387,7 +408,7 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
         Practice each topic to master the ACT.
       </p>
 
-      {/* Modal */}
+      {/* Modal (unchanged except for disabled state on Generate) */}
       {showModal && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center p-4"
@@ -402,7 +423,7 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
               boxShadow: "0 32px 80px rgba(10, 20, 60, 0.22), 0 2px 8px rgba(10,20,60,0.08)",
             }}
           >
-            {/* ── Modal Header ── */}
+            {/* Modal Header */}
             <div className="flex-shrink-0 px-7 pt-6 pb-5 border-b border-gray-100">
               <div className="flex items-start justify-between gap-4">
                 <div className="flex items-center gap-4">
@@ -429,7 +450,6 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
                 </button>
               </div>
 
-              {/* ── Rating legend with emoji images ── */}
               <div className="mt-4 flex items-center gap-4 flex-wrap">
                 <span className="text-[10px] font-semibold uppercase tracking-widest text-gray-700 mr-1">Scale:</span>
                 {ratingConfig.map(r => (
@@ -441,10 +461,9 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
               </div>
             </div>
 
-            {/* ── Two-column body: sidebar left, topic list right ── */}
+            {/* Two‑column body */}
             <div className="flex flex-1 overflow-hidden">
-
-              {/* Left sidebar: Subject filter */}
+              {/* Left sidebar */}
               <div className="flex-shrink-0 w-48 flex flex-col border-r border-gray-100 bg-gray-50/50">
                 <div className="px-4 pt-4 pb-4 flex-1 overflow-y-auto">
                   <div className="flex items-center justify-between mb-3">
@@ -480,20 +499,18 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
                 </div>
               </div>
 
-              {/* Right: Scrollable topic list */}
+              {/* Right topic list */}
               <div className="flex-1 overflow-y-auto px-6 py-5 space-y-5">
                 {Array.from(groupedBySubject.entries()).map(([subjectName, opts]) => {
                   const cfg = getSubjectConfig(subjectName);
                   return (
                     <div key={subjectName}>
-                      {/* Subject heading */}
                       <div className="flex items-center gap-2 mb-2.5">
                         <span className={`w-2.5 h-2.5 rounded-full flex-shrink-0 ${cfg.headerDot}`} />
                         <span className="text-xs font-semibold uppercase tracking-widest text-gray-500">{subjectName}</span>
                         <div className="flex-1 h-px bg-gray-100" />
                       </div>
 
-                      {/* OptionS */}
                       <div className="space-y-2">
                         {opts.map(opt => {
                           const currentRating = optionRatings[opt.key] ?? 2;
@@ -503,7 +520,6 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
                               key={opt.key}
                               className="flex items-center justify-between gap-3 px-4 py-3 rounded-xl border border-gray-200 bg-white transition-all duration-150"
                             >
-                              {/* Topic name + current rating label */}
                               <div className="flex-1 min-w-0">
                                 <p className="text-sm font-medium text-gray-800 font-sans leading-tight truncate">{opt.optionName}</p>
                                 <div className={`text-xs font-medium mt-0.5 font-sans flex items-center gap-1 ${ratingInfo.color}`}>
@@ -554,10 +570,9 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
               </div>
             </div>
 
-            {/* ── Footer with ratings and buttons in same row ── */}
+            {/* Modal Footer */}
             <div className="flex-shrink-0 border-t border-gray-100 px-7 py-2.5">
               <div className="flex items-center justify-between gap-4">
-                {/* Left: ratings summary */}
                 <div className="flex items-center gap-2 flex-wrap">
                   <span className="text-xs text-gray-400 font-medium">Your ratings:</span>
                   {ratingConfig.map(r => (
@@ -570,7 +585,6 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
                   ))}
                 </div>
 
-                {/* Right: buttons */}
                 <div className="flex gap-3">
                   <button
                     onClick={() => setShowModal(false)}
@@ -580,13 +594,14 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
                   </button>
                   <button
                     onClick={applyPersonalizedOrder}
-                    className="px-6 py-2.5 text-white rounded-xl text-sm font-sans font-semibold transition-all shadow-lg hover:shadow-xl hover:scale-[1.01] active:scale-[0.99]"
+                    disabled={isSaving}
+                    className="px-6 py-2.5 text-white rounded-xl text-sm font-sans font-semibold transition-all shadow-lg hover:shadow-xl hover:scale-[1.01] active:scale-[0.99] disabled:opacity-50 disabled:pointer-events-none"
                     style={{
                       background: "#2d6bb0",
                       boxShadow: "0 4px 20px rgba(30, 74, 118, 0.35)",
                     }}
                   >
-                    Generate
+                    {isSaving ? "Saving..." : "Generate"}
                   </button>
                 </div>
               </div>

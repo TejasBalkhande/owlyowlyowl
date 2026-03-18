@@ -218,30 +218,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/act/roadmap": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/act/roadmap",
-      "dataRoute": "/act/roadmap.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/favicon.ico": {
       "initialHeaders": {
         "cache-control": "public, max-age=0, must-revalidate",
@@ -327,8 +303,8 @@
   },
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "8443002f9693c55f007d005aa7c1a465",
-    "previewModeSigningKey": "00d1ff84c45e125f6664adfbd8826159ad0c9524e6c5f319b0a814c11aa0b80f",
-    "previewModeEncryptionKey": "40d0865d7fb8a264cfc5ac7f2d3fd9baea45cfbce6db29cc93fefd3183eaaa29"
+    "previewModeId": "b5259694fc5cc11755e556bec155283b",
+    "previewModeSigningKey": "0474e6bf4588890cf5eabfe48d7d5089aaf15b3065a1cded9d39be5f8c627e66",
+    "previewModeEncryptionKey": "bce9edd3c230b67e407ca8c8faf85effdf3261a86a22e1e2d8544f789173ddec"
   }
 }

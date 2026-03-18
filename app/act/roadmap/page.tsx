@@ -1,13 +1,13 @@
-// app/act/roadmap/page.tsx
+import { cookies } from "next/headers";
 import Navbar from "@/components/Navbar";
 import { sections, type Section, type SectionOption, type PracticeLevel } from "../lib/actSections";
 import { roadmapOrder } from "../lib/roadmapOrder";
 import { MenuItem } from "@/types/menu";
 import fs from "fs";
 import path from "path";
-import RoadmapClient from "./RoadmapClient"; // new client component
+import RoadmapClient from "./RoadmapClient";
+import { getUserRoadmapOrder } from "./actions";
 
-// Menu for the navbar
 const schoolMenu: MenuItem[] = [
   { label: "Mock-Test", href: "/act/Practice-Questions#full-length-mock-test" },
   { label: "Study-Resources", href: "/act" },
@@ -17,14 +17,12 @@ const schoolMenu: MenuItem[] = [
   { label: "Account", href: "/act" },
 ];
 
-// Helper to slugify a title (must match the one in [slug]/page.tsx)
 const slugify = (text: string): string =>
   text
     .toLowerCase()
     .replace(/\s+/g, "-")
     .replace(/[^a-z0-9-]/g, "");
 
-// Helper to get subject‑specific colors (used only for initial data)
 function getSubjectColor(sectionName: string): { bg: string; text: string; border: string; lightBg: string } {
   switch (sectionName) {
     case "English":
@@ -40,7 +38,6 @@ function getSubjectColor(sectionName: string): { bg: string; text: string; borde
   }
 }
 
-// Read question count from JSON file for a given level
 function getQuestionCount(section: Section, level: PracticeLevel): number {
   const sectionSlug = slugify(section.name);
   const levelSlug = slugify(level.title);
@@ -65,7 +62,6 @@ function getQuestionCount(section: Section, level: PracticeLevel): number {
   return 0;
 }
 
-// Build the initial roadmap data (ordered by roadmapOrder)
 function buildInitialRoadmap() {
   const items: Array<{
     id: number;
@@ -99,9 +95,19 @@ function buildInitialRoadmap() {
   return items;
 }
 
-export default function RoadmapPage() {
+export default async function RoadmapPage() {
+  const cookieStore = await cookies();
+  const session = cookieStore.get("session")?.value;
+  const isLoggedIn = !!session;
+
+  let savedOrder: number[] | null = null;
+  if (isLoggedIn) {
+    savedOrder = await getUserRoadmapOrder();
+  }
+
   const initialItems = buildInitialRoadmap();
-  const originalOrder = roadmapOrder.map(item => item.id); // [1,2,3,...]
+  const originalOrder = roadmapOrder.map(item => item.id);
+  const initialOrder = savedOrder || originalOrder;
 
   return (
     <div className="bg-white min-h-screen">
@@ -109,6 +115,8 @@ export default function RoadmapPage() {
       <RoadmapClient
         initialItems={initialItems}
         originalOrder={originalOrder}
+        initialOrder={initialOrder}
+        isLoggedIn={isLoggedIn}
       />
     </div>
   );
