@@ -1,17 +1,10 @@
 // app/act/[slug]/page.tsx
 import { sections } from "../lib/actSections";
 import PracticeSessionClient from "./PracticeSessionClient";
-import fs from "fs";
-import path from "path";
 
-// Helper to slugify (for URL) – stays lowercase
 const slugify = (text: string) =>
-  text
-    .toLowerCase()
-    .replace(/\s+/g, "-")
-    .replace(/[^a-z0-9-]/g, "");
+  text.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
 
-// Helper to create folder name from title (preserves case, spaces → hyphens)
 const toFolderName = (text: string) =>
   text.replace(/\s+/g, "-").replace(/[^a-zA-Z0-9-]/g, "");
 
@@ -56,37 +49,14 @@ export default async function Page({
     return <div>Practice level not found</div>;
   }
 
-  // Build folder names matching disk structure
-  const sectionFolder = slugify(levelInfo.section.name);   // e.g. "english"
-  const levelFolder = toFolderName(levelInfo.level.title); // e.g. "Topic-Development"
-
-  const jsonPath = path.join(
-    process.cwd(),
-    "public",
-    "1-act",
-    sectionFolder,
-    levelFolder,
-    "questions.json"
-  );
-
-  let data = null;
-  try {
-    if (fs.existsSync(jsonPath)) {
-      const fileContents = fs.readFileSync(jsonPath, "utf8");
-      data = JSON.parse(fileContents);
-    } else {
-      console.log(`No questions.json found for ${slug} – showing placeholder.`);
-    }
-  } catch (err) {
-    console.error(`Failed to load questions.json for ${slug}:`, err);
-  }
-
-  // Image base path must match the same folder structure
+  const sectionFolder = slugify(levelInfo.section.name);
+  const levelFolder = toFolderName(levelInfo.level.title);
   const imageBasePath = `/1-act/${sectionFolder}/${levelFolder}/`;
 
+  // ✅ No server‑side fetch – pass null and let client load it
   return (
     <PracticeSessionClient
-      initialData={data}
+      initialData={null}
       levelInfo={levelInfo}
       imageBasePath={imageBasePath}
       isRoadmap={from === "roadmap"}

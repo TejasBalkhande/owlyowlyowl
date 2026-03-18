@@ -3627,16 +3627,6 @@
       "imports": [],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/act/roadmap/page_client-reference-manifest.js": {
-      "bytes": 7748,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/act/courses/page_client-reference-manifest.js": {
-      "bytes": 6970,
-      "imports": [],
-      "format": "cjs"
-    },
     ".open-next/server-functions/default/.next/server/app/act/[slug]/page_client-reference-manifest.js": {
       "bytes": 7247,
       "imports": [],
@@ -3644,6 +3634,16 @@
     },
     ".open-next/server-functions/default/.next/server/app/act/Practice-Questions/page_client-reference-manifest.js": {
       "bytes": 7078,
+      "imports": [],
+      "format": "cjs"
+    },
+    ".open-next/server-functions/default/.next/server/app/act/roadmap/page_client-reference-manifest.js": {
+      "bytes": 7748,
+      "imports": [],
+      "format": "cjs"
+    },
+    ".open-next/server-functions/default/.next/server/app/act/courses/page_client-reference-manifest.js": {
+      "bytes": 6970,
       "imports": [],
       "format": "cjs"
     },
@@ -3701,16 +3701,6 @@
           "original": "/home/tejas/projects/owlenforge/.open-next/server-functions/default/.next/server/app/_global-error/page_client-reference-manifest.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/act/roadmap/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/home/tejas/projects/owlenforge/.open-next/server-functions/default/.next/server/app/act/roadmap/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/act/courses/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/home/tejas/projects/owlenforge/.open-next/server-functions/default/.next/server/app/act/courses/page_client-reference-manifest.js"
-        },
-        {
           "path": ".open-next/server-functions/default/.next/server/app/act/[slug]/page_client-reference-manifest.js",
           "kind": "require-call",
           "original": "/home/tejas/projects/owlenforge/.open-next/server-functions/default/.next/server/app/act/[slug]/page_client-reference-manifest.js"
@@ -3719,6 +3709,16 @@
           "path": ".open-next/server-functions/default/.next/server/app/act/Practice-Questions/page_client-reference-manifest.js",
           "kind": "require-call",
           "original": "/home/tejas/projects/owlenforge/.open-next/server-functions/default/.next/server/app/act/Practice-Questions/page_client-reference-manifest.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/.next/server/app/act/roadmap/page_client-reference-manifest.js",
+          "kind": "require-call",
+          "original": "/home/tejas/projects/owlenforge/.open-next/server-functions/default/.next/server/app/act/roadmap/page_client-reference-manifest.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/.next/server/app/act/courses/page_client-reference-manifest.js",
+          "kind": "require-call",
+          "original": "/home/tejas/projects/owlenforge/.open-next/server-functions/default/.next/server/app/act/courses/page_client-reference-manifest.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/act/courses/[slug]/page_client-reference-manifest.js",
@@ -4594,18 +4594,13 @@
       ],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__cfb2dd36._.js": {
-      "bytes": 7713,
+    ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__adedded7._.js": {
+      "bytes": 7321,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/shared/lib/no-fallback-error.external.js",
           "kind": "require-call",
           "original": "next/dist/shared/lib/no-fallback-error.external.js"
-        },
-        {
-          "path": "fs",
-          "kind": "require-call",
-          "external": true
         }
       ],
       "format": "cjs"
@@ -4627,7 +4622,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/chunks/ssr/app_act_[slug]_PracticeSessionClient_tsx_fa0e34d8._.js": {
-      "bytes": 277948,
+      "bytes": 278750,
       "imports": [],
       "format": "cjs"
     },
@@ -5288,9 +5283,9 @@
           "original": "/home/tejas/projects/owlenforge/.open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__1dbd7b89._.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__cfb2dd36._.js",
+          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__adedded7._.js",
           "kind": "require-call",
-          "original": "/home/tejas/projects/owlenforge/.open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__cfb2dd36._.js"
+          "original": "/home/tejas/projects/owlenforge/.open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__adedded7._.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/chunks/ssr/_e2d00248._.js",
@@ -5689,9 +5684,9 @@
           "original": "/home/tejas/projects/owlenforge/.open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__1dbd7b89._.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__cfb2dd36._.js",
+          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__adedded7._.js",
           "kind": "require-call",
-          "original": "/home/tejas/projects/owlenforge/.open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__cfb2dd36._.js"
+          "original": "/home/tejas/projects/owlenforge/.open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__adedded7._.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/chunks/ssr/_e2d00248._.js",
@@ -7608,11 +7603,6 @@
           "external": true
         },
         {
-          "path": "fs",
-          "kind": "require-call",
-          "external": true
-        },
-        {
           "path": "path",
           "kind": "require-call",
           "external": true
@@ -8662,17 +8652,17 @@
         ".open-next/server-functions/default/.next/server/app/_global-error/page_client-reference-manifest.js": {
           "bytesInOutput": 5746
         },
-        ".open-next/server-functions/default/.next/server/app/act/roadmap/page_client-reference-manifest.js": {
-          "bytesInOutput": 7388
-        },
-        ".open-next/server-functions/default/.next/server/app/act/courses/page_client-reference-manifest.js": {
-          "bytesInOutput": 6658
-        },
         ".open-next/server-functions/default/.next/server/app/act/[slug]/page_client-reference-manifest.js": {
           "bytesInOutput": 6934
         },
         ".open-next/server-functions/default/.next/server/app/act/Practice-Questions/page_client-reference-manifest.js": {
           "bytesInOutput": 6777
+        },
+        ".open-next/server-functions/default/.next/server/app/act/roadmap/page_client-reference-manifest.js": {
+          "bytesInOutput": 7388
+        },
+        ".open-next/server-functions/default/.next/server/app/act/courses/page_client-reference-manifest.js": {
+          "bytesInOutput": 6658
         },
         ".open-next/server-functions/default/.next/server/app/act/courses/[slug]/page_client-reference-manifest.js": {
           "bytesInOutput": 6942
@@ -8845,8 +8835,8 @@
         ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__1dbd7b89._.js": {
           "bytesInOutput": 8163
         },
-        ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__cfb2dd36._.js": {
-          "bytesInOutput": 7850
+        ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__adedded7._.js": {
+          "bytesInOutput": 7447
         },
         ".open-next/server-functions/default/.next/server/chunks/ssr/_e2d00248._.js": {
           "bytesInOutput": 18234
@@ -8855,7 +8845,7 @@
           "bytesInOutput": 271
         },
         ".open-next/server-functions/default/.next/server/chunks/ssr/app_act_[slug]_PracticeSessionClient_tsx_fa0e34d8._.js": {
-          "bytesInOutput": 297396
+          "bytesInOutput": 298241
         },
         ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__55c0b89e._.js": {
           "bytesInOutput": 6093
@@ -9143,7 +9133,7 @@
           "bytesInOutput": 61452
         }
       },
-      "bytes": 4967714
+      "bytes": 4968156
     }
   }
 }

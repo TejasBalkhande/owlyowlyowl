@@ -20,10 +20,7 @@ const schoolMenu: MenuItem[] = [
 ];
 
 interface QuestionData {
-  passages: {
-    passageId: string;
-    passageHtml: string;
-  }[];
+  passages: { passageId: string; passageHtml: string }[];
   questions: {
     questionId: string;
     passageId: string;
@@ -37,12 +34,9 @@ interface QuestionData {
 
 interface PracticeSessionClientProps {
   initialData: QuestionData | null;
-  levelInfo: {
-    section: Section;
-    level: PracticeLevel;
-  };
+  levelInfo: { section: Section; level: PracticeLevel };
   imageBasePath: string;
-  isRoadmap?: boolean; // new prop
+  isRoadmap?: boolean;
 }
 
 export default function PracticeSessionClient({
@@ -52,21 +46,19 @@ export default function PracticeSessionClient({
   isRoadmap = false,
 }: PracticeSessionClientProps) {
   const router = useRouter();
-  const [data] = useState(initialData);
+  const [data, setData] = useState(initialData);
+  const [loading, setLoading] = useState(!initialData);
   const [selectedOptions, setSelectedOptions] = useState<Record<string, string>>({});
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showCalculator, setShowCalculator] = useState(false);
-
-  // Timer state for roadmap sessions
   const [startTime] = useState<number>(isRoadmap ? Date.now() : 0);
   const [elapsedSeconds, setElapsedSeconds] = useState(0);
-
   const contentRef = useRef<HTMLDivElement>(null);
   const passageRef = useRef<HTMLDivElement>(null);
 
   const isMath = levelInfo.section.name === "Mathematics";
 
-  // Timer effect
+  // ⏱️ Timer effect (unchanged)
   useEffect(() => {
     if (!isRoadmap) return;
     const interval = setInterval(() => {
@@ -75,16 +67,36 @@ export default function PracticeSessionClient({
     return () => clearInterval(interval);
   }, [isRoadmap, startTime]);
 
-  // Transform HTML: replace image src and handle highlight tags
+  // 📥 Fetch questions on client if not provided
+  useEffect(() => {
+    if (!data) {
+      const fetchData = async () => {
+        try {
+          const jsonUrl = `${imageBasePath}questions.json`;
+          const res = await fetch(jsonUrl);
+          if (res.ok) {
+            const json = await res.json();
+            setData(json);
+          } else {
+            console.error(`Failed to fetch questions: ${res.status}`);
+          }
+        } catch (err) {
+          console.error("Error fetching questions:", err);
+        } finally {
+          setLoading(false);
+        }
+      };
+      fetchData();
+    }
+  }, [data, imageBasePath]);
+
   const transformHtml = useCallback(
     (html: string, highlight?: string): string => {
       if (!html) return "";
-
       let transformed = html.replace(
         /src="images\/([^"]+)"/g,
         (match, fileName) => `src="${imageBasePath}images/${fileName}"`
       );
-
       const highlightRegex = /\[highlight-(\d+)\]([\s\S]*?)\[\/highlight-\1\]/g;
       transformed = transformed.replace(highlightRegex, (match, num, innerContent) => {
         if (highlight && num === highlight) {
@@ -93,13 +105,11 @@ export default function PracticeSessionClient({
           return innerContent;
         }
       });
-
       return transformed;
     },
     [imageBasePath]
   );
 
-  // Run KaTeX after every render
   useEffect(() => {
     if (contentRef.current && data) {
       try {
@@ -118,7 +128,6 @@ export default function PracticeSessionClient({
     }
   }, [data, selectedOptions, currentIndex]);
 
-  // Scroll to highlighted part of passage
   useEffect(() => {
     if (passageRef.current) {
       const highlighted = passageRef.current.querySelector(".bg-yellow-200");
@@ -132,48 +141,49 @@ export default function PracticeSessionClient({
     setSelectedOptions((prev) => ({ ...prev, [questionId]: optionKey }));
   };
 
-  const goToPrevious = () => {
-    setCurrentIndex((prev) => Math.max(0, prev - 1));
-  };
-
+  const goToPrevious = () => setCurrentIndex((prev) => Math.max(0, prev - 1));
   const goToNext = () => {
-    if (data) {
-      setCurrentIndex((prev) => Math.min(data.questions.length - 1, prev + 1));
-    }
+    if (data) setCurrentIndex((prev) => Math.min(data.questions.length - 1, prev + 1));
   };
 
-  // Finish practice (only for roadmap)
   const handleFinish = () => {
     if (!data || !isRoadmap) return;
-
-    // Calculate correct count
     let correctCount = 0;
     data.questions.forEach((q) => {
       if (selectedOptions[q.questionId] === q.correctOption) correctCount++;
     });
-
     const totalQuestions = data.questions.length;
     const timeSeconds = elapsedSeconds;
-
-    // Save to localStorage
     const slug = levelInfo.level.title.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
-    const result = {
-      correct: correctCount,
-      total: totalQuestions,
-      timeSeconds,
-      date: new Date().toISOString(),
-    };
-
+    const result = { correct: correctCount, total: totalQuestions, timeSeconds, date: new Date().toISOString() };
     const stored = localStorage.getItem("roadmapResults");
     const results = stored ? JSON.parse(stored) : {};
     results[slug] = result;
     localStorage.setItem("roadmapResults", JSON.stringify(results));
-
-    // Redirect back to roadmap
     router.push("/act/roadmap");
   };
 
-  // Missing data state
+  // 🌀 Loading state
+  if (loading) {
+    return (
+      <div className="bg-white min-h-screen">
+        <Navbar items={schoolMenu} logo="OwlenForge" />
+        <div className="max-w-7xl mx-auto px-6 py-12 text-center">
+          <h1 className="text-3xl font-semibold text-[#1E4A76] mb-2">
+            {levelInfo.level.title} Practice
+          </h1>
+          <p className="text-[#4A5568] font-times text-[17px] mb-6">
+            {levelInfo.section.name} • {levelInfo.level.description}
+          </p>
+          <div className="border border-[#E2E8F0] rounded-2xl p-12 bg-white shadow-sm">
+            <p className="text-[#718096] text-lg">Loading questions...</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // ❌ No data after fetch – show placeholder
   if (!data || data.questions.length === 0) {
     return (
       <div className="bg-white min-h-screen">
@@ -201,7 +211,6 @@ export default function PracticeSessionClient({
   const selected = selectedOptions[currentQuestion.questionId];
   const isCorrect = selected === currentQuestion.correctOption;
 
-  // Passage‑relative question numbers
   let passageQuestionIndex = 1;
   let passageQuestionCount = data.questions.length;
   if (hasPassage) {
@@ -218,38 +227,29 @@ export default function PracticeSessionClient({
   return (
     <div className="bg-white min-h-screen flex flex-col">
       <Navbar items={schoolMenu} logo="OwlenForge" />
-
       <div
         className="flex-1 w-full max-w-7.5xl mx-auto px-4 sm:px-6 lg:px-10 py-6 flex flex-col"
         ref={contentRef}
       >
-        {/* Header with timer for roadmap */}
+        {/* Header – unchanged */}
         <div className="flex flex-wrap items-center justify-between mb-4 font-sans">
           <div className="flex items-center gap-2 mb-1">
             <div className="flex-shrink-0">
-              <Image
-                src="/owl-apple.png"
-                alt="Award"
-                width={90}
-                height={90}
-                className="object-contain"
-              />
+              <Image src="/owl-apple.png" alt="Award" width={90} height={90} className="object-contain" />
             </div>
-            <div className="flex flex-wrap items-center justify-between font-sans">
-              <div>
-                <h1 className="text-2xl md:text-2xl font-semibold text-[#1E4A76]">
-                  {levelInfo.level.title} Practice
-                </h1>
-                <p className="text-[#4A5568] font-times text-[17px]">
-                  {levelInfo.section.name} • {levelInfo.level.description}
-                </p>
-              </div>
+            <div>
+              <h1 className="text-2xl md:text-2xl font-semibold text-[#1E4A76]">
+                {levelInfo.level.title} Practice
+              </h1>
+              <p className="text-[#4A5568] font-times text-[17px]">
+                {levelInfo.section.name} • {levelInfo.level.description}
+              </p>
             </div>
           </div>
           <div className="flex items-center gap-3">
             {isRoadmap && (
               <div className="text-sm bg-gray-100 px-3 py-1.5 rounded-full text-gray-700 font-mono">
-                ⏱️ {Math.floor(elapsedSeconds / 60)}:{(elapsedSeconds % 60).toString().padStart(2, '0')}
+                ⏱️ {Math.floor(elapsedSeconds / 60)}:{(elapsedSeconds % 60).toString().padStart(2, "0")}
               </div>
             )}
             {isMath && (
@@ -263,7 +263,7 @@ export default function PracticeSessionClient({
           </div>
         </div>
 
-        {/* Calculator popup (math only) */}
+        {/* Calculator popup – unchanged */}
         {isMath && showCalculator && (
           <div className="fixed top-20 right-4 z-50 w-80 bg-white rounded-xl shadow-xl border border-[#E2E8F0] overflow-hidden">
             <div className="flex justify-between items-center px-4 py-2 bg-[#F7F9FC] border-b border-[#E2E8F0]">
@@ -282,10 +282,10 @@ export default function PracticeSessionClient({
           </div>
         )}
 
-        {/* Main content card */}
+        {/* Main content card – unchanged */}
         <div className="border border-[#E2E8F0] rounded-2xl bg-white shadow-sm overflow-hidden flex-1 min-h-0 flex flex-col">
           <div className="grid md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-[#E2E8F0] flex-1">
-            {/* LEFT COLUMN */}
+            {/* Left column – unchanged */}
             <div
               className={`md:p-6 px-3 py-3 overflow-y-auto ${
                 hasPassage ? "bg-[#F7F9FC]/50" : "bg-white"
@@ -322,7 +322,7 @@ export default function PracticeSessionClient({
               )}
             </div>
 
-            {/* RIGHT COLUMN */}
+            {/* Right column – unchanged */}
             <div className="p-6 overflow-y-auto">
               {hasPassage && (
                 <div className="mb-6">
@@ -341,7 +341,7 @@ export default function PracticeSessionClient({
                 </div>
               )}
 
-              {/* Options */}
+              {/* Options – unchanged */}
               <div className="space-y-3">
                 <h4 className="font-medium text-[#4A5568]">Choose your answer</h4>
                 {Object.entries(currentQuestion.options).map(([key, value]) => {
@@ -357,7 +357,6 @@ export default function PracticeSessionClient({
                   } else {
                     optionClasses += "bg-white border-[#E2E8F0] hover:border-[#1E4A76] hover:shadow-sm ";
                   }
-
                   return (
                     <div
                       key={key}
@@ -374,7 +373,7 @@ export default function PracticeSessionClient({
                 })}
               </div>
 
-              {/* Explanation */}
+              {/* Explanation – unchanged */}
               {selected && (
                 <div className="mt-6 p-5 bg-blue-50 rounded-xl border-l-4 border-blue-500">
                   <h4 className="font-semibold text-[#1E4A76] mb-2">Explanation</h4>
@@ -394,7 +393,7 @@ export default function PracticeSessionClient({
                 </div>
               )}
 
-              {/* Navigation and Finish button */}
+              {/* Navigation – unchanged */}
               <div className="mt-8 flex justify-between items-center">
                 <button
                   onClick={goToPrevious}
