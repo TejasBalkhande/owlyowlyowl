@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useRef, useCallback } from "react";
+import { useEffect, useState, useRef, useCallback, useLayoutEffect } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
@@ -110,7 +110,8 @@ export default function PracticeSessionClient({
     [imageBasePath]
   );
 
-  useEffect(() => {
+  // ✅ KaTeX effect – now uses useLayoutEffect to run before paint
+  useLayoutEffect(() => {
     if (contentRef.current && data) {
       try {
         renderMathInElement(contentRef.current, {
@@ -126,7 +127,7 @@ export default function PracticeSessionClient({
         console.error("KaTeX rendering error:", e);
       }
     }
-  }, [data, selectedOptions, currentIndex]);
+  }, [data, selectedOptions, currentIndex, elapsedSeconds]); // elapsedSeconds still triggers re-render, but layout effect hides the flash
 
   useEffect(() => {
     if (passageRef.current) {
