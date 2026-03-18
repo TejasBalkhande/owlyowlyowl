@@ -9,6 +9,7 @@ import { PracticeLevel, Section } from "../lib/actSections";
 import renderMathInElement from "katex/contrib/auto-render";
 import "katex/dist/katex.min.css";
 import Cal from "@/components/Cal";
+import { savePracticeResult } from "../roadmap/actions";
 
 const schoolMenu: MenuItem[] = [
   { label: "Mock-Test", href: "/act" },
@@ -37,6 +38,7 @@ interface PracticeSessionClientProps {
   levelInfo: { section: Section; level: PracticeLevel };
   imageBasePath: string;
   isRoadmap?: boolean;
+  levelId?: number;
 }
 
 export default function PracticeSessionClient({
@@ -44,6 +46,7 @@ export default function PracticeSessionClient({
   levelInfo,
   imageBasePath,
   isRoadmap = false,
+  levelId,
 }: PracticeSessionClientProps) {
   const router = useRouter();
   const [data, setData] = useState(initialData);
@@ -58,7 +61,7 @@ export default function PracticeSessionClient({
 
   const isMath = levelInfo.section.name === "Mathematics";
 
-  // ⏱️ Timer effect (unchanged)
+  // Timer effect
   useEffect(() => {
     if (!isRoadmap) return;
     const interval = setInterval(() => {
@@ -67,7 +70,7 @@ export default function PracticeSessionClient({
     return () => clearInterval(interval);
   }, [isRoadmap, startTime]);
 
-  // 📥 Fetch questions on client if not provided
+  // Fetch questions on client if not provided
   useEffect(() => {
     if (!data) {
       const fetchData = async () => {
@@ -110,7 +113,7 @@ export default function PracticeSessionClient({
     [imageBasePath]
   );
 
-  // ✅ KaTeX effect – now uses useLayoutEffect to run before paint
+  // KaTeX rendering
   useLayoutEffect(() => {
     if (contentRef.current && data) {
       try {
@@ -127,8 +130,9 @@ export default function PracticeSessionClient({
         console.error("KaTeX rendering error:", e);
       }
     }
-  }, [data, selectedOptions, currentIndex, elapsedSeconds]); // elapsedSeconds still triggers re-render, but layout effect hides the flash
+  }, [data, selectedOptions, currentIndex, elapsedSeconds]);
 
+  // Scroll to highlighted passage text
   useEffect(() => {
     if (passageRef.current) {
       const highlighted = passageRef.current.querySelector(".bg-yellow-200");
@@ -147,7 +151,7 @@ export default function PracticeSessionClient({
     if (data) setCurrentIndex((prev) => Math.min(data.questions.length - 1, prev + 1));
   };
 
-  const handleFinish = () => {
+  const handleFinish = async () => {
     if (!data || !isRoadmap) return;
     let correctCount = 0;
     data.questions.forEach((q) => {
@@ -155,16 +159,22 @@ export default function PracticeSessionClient({
     });
     const totalQuestions = data.questions.length;
     const timeSeconds = elapsedSeconds;
-    const slug = levelInfo.level.title.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
-    const result = { correct: correctCount, total: totalQuestions, timeSeconds, date: new Date().toISOString() };
-    const stored = localStorage.getItem("roadmapResults");
-    const results = stored ? JSON.parse(stored) : {};
-    results[slug] = result;
-    localStorage.setItem("roadmapResults", JSON.stringify(results));
+
+    if (levelId) {
+      try {
+        const result = await savePracticeResult(levelId, correctCount, totalQuestions, timeSeconds);
+        if (!result.success) {
+          console.error("Failed to save practice result:", result.error);
+        }
+      } catch (error) {
+        console.error("Error saving practice result:", error);
+      }
+    }
+
     router.push("/act/roadmap");
   };
 
-  // 🌀 Loading state
+  // Loading state
   if (loading) {
     return (
       <div className="bg-white min-h-screen">
@@ -184,7 +194,7 @@ export default function PracticeSessionClient({
     );
   }
 
-  // ❌ No data after fetch – show placeholder
+  // No data fallback
   if (!data || data.questions.length === 0) {
     return (
       <div className="bg-white min-h-screen">
@@ -232,7 +242,7 @@ export default function PracticeSessionClient({
         className="flex-1 w-full max-w-7.5xl mx-auto px-4 sm:px-6 lg:px-10 py-6 flex flex-col"
         ref={contentRef}
       >
-        {/* Header – unchanged */}
+        {/* Header */}
         <div className="flex flex-wrap items-center justify-between mb-4 font-sans">
           <div className="flex items-center gap-2 mb-1">
             <div className="flex-shrink-0">
@@ -264,7 +274,7 @@ export default function PracticeSessionClient({
           </div>
         </div>
 
-        {/* Calculator popup – unchanged */}
+        {/* Calculator popup */}
         {isMath && showCalculator && (
           <div className="fixed top-20 right-4 z-50 w-80 bg-white rounded-xl shadow-xl border border-[#E2E8F0] overflow-hidden">
             <div className="flex justify-between items-center px-4 py-2 bg-[#F7F9FC] border-b border-[#E2E8F0]">
@@ -283,10 +293,10 @@ export default function PracticeSessionClient({
           </div>
         )}
 
-        {/* Main content card – unchanged */}
+        {/* Main content card */}
         <div className="border border-[#E2E8F0] rounded-2xl bg-white shadow-sm overflow-hidden flex-1 min-h-0 flex flex-col">
           <div className="grid md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-[#E2E8F0] flex-1">
-            {/* Left column – unchanged */}
+            {/* Left column */}
             <div
               className={`md:p-6 px-3 py-3 overflow-y-auto ${
                 hasPassage ? "bg-[#F7F9FC]/50" : "bg-white"
@@ -323,7 +333,7 @@ export default function PracticeSessionClient({
               )}
             </div>
 
-            {/* Right column – unchanged */}
+            {/* Right column */}
             <div className="p-6 overflow-y-auto">
               {hasPassage && (
                 <div className="mb-6">
@@ -342,7 +352,7 @@ export default function PracticeSessionClient({
                 </div>
               )}
 
-              {/* Options – unchanged */}
+              {/* Options */}
               <div className="space-y-3">
                 <h4 className="font-medium text-[#4A5568]">Choose your answer</h4>
                 {Object.entries(currentQuestion.options).map(([key, value]) => {
@@ -374,7 +384,7 @@ export default function PracticeSessionClient({
                 })}
               </div>
 
-              {/* Explanation – unchanged */}
+              {/* Explanation */}
               {selected && (
                 <div className="mt-6 p-5 bg-blue-50 rounded-xl border-l-4 border-blue-500">
                   <h4 className="font-semibold text-[#1E4A76] mb-2">Explanation</h4>
@@ -394,7 +404,7 @@ export default function PracticeSessionClient({
                 </div>
               )}
 
-              {/* Navigation – unchanged */}
+              {/* Navigation */}
               <div className="mt-8 flex justify-between items-center">
                 <button
                   onClick={goToPrevious}

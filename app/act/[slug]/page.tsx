@@ -1,4 +1,3 @@
-// app/act/[slug]/page.tsx
 import { sections } from "../lib/actSections";
 import PracticeSessionClient from "./PracticeSessionClient";
 
@@ -39,10 +38,10 @@ export default async function Page({
   searchParams,
 }: {
   params: Promise<{ slug: string }>;
-  searchParams: Promise<{ from?: string }>;
+  searchParams: Promise<{ from?: string; levelId?: string }>;
 }) {
   const { slug } = await params;
-  const { from } = await searchParams;
+  const { from, levelId } = await searchParams;
   const levelInfo = findLevelInfo(slug);
 
   if (!levelInfo) {
@@ -53,13 +52,13 @@ export default async function Page({
   const levelFolder = toFolderName(levelInfo.level.title);
   const imageBasePath = `/1-act/${sectionFolder}/${levelFolder}/`;
 
-  // ✅ No server‑side fetch – pass null and let client load it
   return (
     <PracticeSessionClient
       initialData={null}
       levelInfo={levelInfo}
       imageBasePath={imageBasePath}
       isRoadmap={from === "roadmap"}
+      levelId={levelId ? parseInt(levelId) : undefined}
     />
   );
 }

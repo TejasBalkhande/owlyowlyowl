@@ -6,7 +6,7 @@ import { MenuItem } from "@/types/menu";
 import fs from "fs";
 import path from "path";
 import RoadmapClient from "./RoadmapClient";
-import { getUserRoadmapOrder } from "./actions";
+import { getUserRoadmapOrder, getUserPracticeResults } from "./actions";
 
 const schoolMenu: MenuItem[] = [
   { label: "Mock-Test", href: "/act/Practice-Questions#full-length-mock-test" },
@@ -101,8 +101,12 @@ export default async function RoadmapPage() {
   const isLoggedIn = !!session;
 
   let savedOrder: number[] | null = null;
+  let practiceResults: Record<number, { correct: number; total: number; timeSeconds: number; lastAttempt: string }> | null = null;
   if (isLoggedIn) {
-    savedOrder = await getUserRoadmapOrder();
+    [savedOrder, practiceResults] = await Promise.all([
+      getUserRoadmapOrder(),
+      getUserPracticeResults(),
+    ]);
   }
 
   const initialItems = buildInitialRoadmap();
@@ -117,6 +121,7 @@ export default async function RoadmapPage() {
         originalOrder={originalOrder}
         initialOrder={initialOrder}
         isLoggedIn={isLoggedIn}
+        initialResults={practiceResults || {}}
       />
     </div>
   );
