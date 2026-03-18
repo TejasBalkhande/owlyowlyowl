@@ -68,9 +68,7 @@ export default function ActPage() {
     { label: "Practice-Questions", href: "/act/Practice-Questions" },
     { label: "Courses", href: "/act/courses" },
     { label: "Roadmap", href: "/act/roadmap" },
-    isLoggedIn
-      ? { label: "Dashboard", href: "/account/dashboard" }
-      : { label: "Account", href: "/account/login" },
+    { label: "Account", href: "/account" }
   ];
 
   const cards = [

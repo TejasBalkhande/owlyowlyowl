@@ -1,0 +1,13 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/account/page": "/account",
+  "/act/Practice-Questions/page": "/act/Practice-Questions",
+  "/act/[slug]/page": "/act/[slug]",
+  "/act/courses/[slug]/page": "/act/courses/[slug]",
+  "/act/courses/page": "/act/courses",
+  "/act/page": "/act",
+  "/act/roadmap/page": "/act/roadmap",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/"
+}

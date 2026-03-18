@@ -3,13 +3,17 @@ import { sections } from "../lib/actSections";
 import PracticeSessionClient from "./PracticeSessionClient";
 import fs from "fs";
 import path from "path";
-import { getCurrentUser } from "@/lib/session";
 
+// Helper to slugify (for URL) – stays lowercase
 const slugify = (text: string) =>
   text
     .toLowerCase()
     .replace(/\s+/g, "-")
     .replace(/[^a-z0-9-]/g, "");
+
+// Helper to create folder name from title (preserves case, spaces → hyphens)
+const toFolderName = (text: string) =>
+  text.replace(/\s+/g, "-").replace(/[^a-zA-Z0-9-]/g, "");
 
 export async function generateStaticParams() {
   const paths = [];
@@ -42,24 +46,26 @@ export default async function Page({
   searchParams,
 }: {
   params: Promise<{ slug: string }>;
-  searchParams: Promise<{ from?: string; itemId?: string }>;
+  searchParams: Promise<{ from?: string }>;
 }) {
   const { slug } = await params;
-  const { from, itemId } = await searchParams;
+  const { from } = await searchParams;
   const levelInfo = findLevelInfo(slug);
 
   if (!levelInfo) {
     return <div>Practice level not found</div>;
   }
 
-  const sectionSlug = slugify(levelInfo.section.name);
-  const levelSlug = slugify(levelInfo.level.title);
+  // Build folder names matching disk structure
+  const sectionFolder = slugify(levelInfo.section.name);   // e.g. "english"
+  const levelFolder = toFolderName(levelInfo.level.title); // e.g. "Topic-Development"
+
   const jsonPath = path.join(
     process.cwd(),
     "public",
     "1-act",
-    sectionSlug,
-    levelSlug,
+    sectionFolder,
+    levelFolder,
     "questions.json"
   );
 
@@ -75,8 +81,8 @@ export default async function Page({
     console.error(`Failed to load questions.json for ${slug}:`, err);
   }
 
-  const imageBasePath = `/1-act/${sectionSlug}/${levelSlug}/`;
-  const user = await getCurrentUser();
+  // Image base path must match the same folder structure
+  const imageBasePath = `/1-act/${sectionFolder}/${levelFolder}/`;
 
   return (
     <PracticeSessionClient
@@ -84,8 +90,6 @@ export default async function Page({
       levelInfo={levelInfo}
       imageBasePath={imageBasePath}
       isRoadmap={from === "roadmap"}
-      itemId={itemId ? parseInt(itemId, 10) : undefined}
-      isLoggedIn={!!user}
     />
   );
 }

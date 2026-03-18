@@ -1,0 +1,150 @@
+{
+  "passages": [
+    {
+      "passageId": "p1",
+      "passageHtml": "<p>In today's fast-paced society, the way people connect has undergone a profound transformation. Gone are the days when interactions were limited to face-to-face encounters or handwritten letters that took weeks to arrive. Now, with the advent of digital technology, social bonds are formed and maintained through screens, apps, and algorithms. This shift has brought both unprecedented opportunities and unforeseen challenges to how individuals perceive themselves and relate to others. [highlight-1] At its core, society thrives on human connection, yet the digital age has redefined what that means, often blurring the lines between genuine relationships and superficial engagements.[/highlight-1]</p>\n<div style=\"margin-bottom:5px;\"></div>\n<p>The rise of social media platforms like Facebook, Instagram, and TikTok has democratized communication, allowing people from diverse backgrounds to share ideas, experiences, and cultures instantaneously. For instance, a teenager in rural India can now engage in real-time discussions with peers in urban America about global issues like climate change or social justice. This connectivity fosters a sense of global community, breaking down geographical barriers that once isolated entire populations. However, this apparent unity comes at a cost. [highlight-2]Studies show that excessive social media use correlates with increased feelings of loneliness and anxiety, as users compare their everyday lives to the curated highlights of others.[/highlight-2] Psychologists argue that the \"highlight reel\" effect creates unrealistic expectations, leading to diminished self-esteem among young adults.</p>\n<div style=\"margin-bottom:5px;\"></div>\nBeyond personal well-being, societal structures are also evolving due to these digital influences. Traditional community gatherings, such as town halls or neighborhood events, are being replaced by online forums and virtual meetups. During the COVID-19 pandemic, this transition was accelerated, with Zoom calls becoming the norm for everything from family reunions to professional conferences. While this adaptation ensured continuity, it highlighted disparities in access. [highlight-3]Not everyone has reliable internet or devices, exacerbating social inequalities and leaving marginalized groups further isolated.[/highlight-3] In low-income areas, where broadband is scarce, children struggled with remote learning, widening the educational gap between socioeconomic classes.\n<div style=\"margin-bottom:5px;\"></div>\nMoreover, the digital realm has reshaped how people express empathy and solidarity. Hashtags like #BlackLivesMatter or #MeToo have mobilized millions, turning individual stories into powerful movements for change. These online campaigns demonstrate society's capacity for collective action, amplifying voices that were previously silenced by mainstream media. Yet, critics point out the phenomenon of \"slacktivism,\" where liking or sharing a post substitutes for real-world involvement. [highlight-4]This superficial activism may give participants a false sense of contribution without addressing underlying systemic issues.[/highlight-4] True societal progress, they contend, requires sustained effort beyond digital gestures.\n<div style=\"margin-bottom:5px;\"></div>\nAs people navigate this new landscape, questions arise about privacy and authenticity in social interactions. With data breaches and surveillance capitalism on the rise, individuals must weigh the benefits of connectivity against the risks of personal information exploitation. Companies like Meta harvest user data to tailor advertisements, influencing not just shopping habits but also political opinions through algorithmic echo chambers. [highlight-5]These echo chambers reinforce existing beliefs, polarizing society and hindering constructive dialogue between differing viewpoints.[/highlight-5] In elections worldwide, misinformation spreads rapidly in such environments, eroding trust in institutions and fellow citizens.\n<div style=\"margin-bottom:5px;\"></div>\nOn a brighter note, technology has enabled innovative ways to build meaningful relationships. Online support groups for mental health, chronic illnesses, or niche hobbies provide solace to those who might otherwise feel alone. For example, platforms like Reddit host subreddits where people share vulnerabilities anonymously, fostering deep emotional bonds without the pressure of real identities. [highlight-6]Such communities illustrate how digital tools can enhance empathy, offering a lifeline in an increasingly atomized society.[/highlight-6] Elderly individuals, often overlooked in fast-changing tech landscapes, have found renewed social engagement through apps designed for video calls with grandchildren.\n<div style=\"margin-bottom:5px;\"></div>\nHowever, the generational divide in digital adoption cannot be ignored. Millennials and Gen Z, dubbed \"digital natives,\" seamlessly integrate technology into their social lives, while older generations may view it with skepticism or struggle to adapt. This gap can strain family dynamics, as younger members prioritize virtual interactions over in-person visits. [highlight-7]Bridging this divide requires education and inclusive design, ensuring that technology serves all age groups without alienating any.[/highlight-7] Initiatives like community tech workshops aim to empower seniors, promoting intergenerational harmony.\n<div style=\"margin-bottom:5px;\"></div>\nEconomically, the gig economy-fueled by apps like Uber and Upwork—has altered social hierarchies. Workers now connect with opportunities globally, but often at the expense of job security and benefits. [highlight-8]This precarity affects social mobility, as gig workers face unpredictable incomes, impacting their ability to form stable family units or community ties.[/highlight-8] Society must grapple with regulating these platforms to protect vulnerable populations while encouraging innovation.\n<div style=\"margin-bottom:5px;\"></div>\nCulturally, globalization through digital means has led to a blending of traditions, creating hybrid identities. Immigrants maintain ties to their homelands via social media, sharing festivals and languages with diaspora communities. Yet, this can also lead to cultural homogenization, where dominant Western influences overshadow local customs. [highlight-9]Balancing preservation of heritage with global integration is a key challenge for modern societies.[/highlight-9] Artists and activists use digital tools to revive endangered languages and traditions, countering this trend.\n<div style=\"margin-bottom:5px;\"></div>\nFinally, as artificial intelligence integrates into social platforms, the future of human connections hangs in the balance. AI chatbots offer companionship, but they raise ethical questions about authenticity. [highlight-10]Will society prioritize real human interactions, or will convenience lead to a world where machines simulate empathy?[/highlight-10] Only time will tell, but one thing is clear: people must actively shape this evolution to ensure that technology enhances, rather than diminishes, the richness of social life."
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q1",
+      "passageId": "p1",
+      "passageHighlight": "1",
+      "questionHtml": "The main idea of the first paragraph is that:",
+      "options": {
+        "A": "Digital technology has completely eliminated traditional forms of communication.",
+        "B": "Society's reliance on human connection has been redefined by the digital age, mixing benefits and drawbacks.",
+        "C": "Superficial engagements are preferable to genuine relationships in modern times.",
+        "D": "Algorithms are the primary drivers of all social bonds today."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The underlined sentence in the first paragraph directly states that the digital age redefines human connection, blurring genuine and superficial engagements, which captures the main idea of benefits (opportunities) and challenges (blurring lines). Option A overstates elimination; C prefers superficiality, which isn't supported; D focuses only on algorithms."
+    },
+    {
+      "questionId": "q2",
+      "passageId": "p1",
+      "passageHighlight": "2",
+      "questionHtml": "According to the passage, what is one negative effect of the \"highlight reel\" on social media?",
+      "options": {
+        "A": "It encourages real-time discussions on global issues.",
+        "B": "It leads to increased feelings of loneliness and diminished self-esteem.",
+        "C": "It breaks down geographical barriers effectively.",
+        "D": "It fosters a sense of global community without any costs."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The underlined sentence links excessive use to loneliness, anxiety, and comparison to curated highlights, leading to diminished self-esteem. A and C describe positives; D denies costs, contradicting the passage."
+    },
+    {
+      "questionId": "q3",
+      "passageId": "p1",
+      "passageHighlight": "3",
+      "questionHtml": "The passage suggests that during the COVID-19 pandemic:",
+      "options": {
+        "A": "Traditional gatherings completely disappeared without replacement.",
+        "B": "Online forums resolved all social inequalities.",
+        "C": "Disparities in internet access worsened isolation for marginalized groups.",
+        "D": "Remote learning had no impact on educational gaps."
+      },
+      "correctOption": "C",
+      "explanationHtml": "The underlined sentence notes that not everyone has access, exacerbating inequalities and isolation for marginalized groups during the pandemic. A ignores replacements like Zoom; B claims resolution of inequalities; D denies educational impacts."
+    },
+    {
+      "questionId": "q4",
+      "passageId": "p1",
+      "passageHighlight": "4",
+      "questionHtml": "As used in the context of the passage, \"slacktivism\" most nearly means:",
+      "options": {
+        "A": "Sustained effort in real-world activism.",
+        "B": "Mobilizing millions through hashtags for change.",
+        "C": "Superficial online actions that replace meaningful involvement.",
+        "D": "Amplifying silenced voices via mainstream media."
+      },
+      "correctOption": "C",
+      "explanationHtml": "The context defines slacktivism as superficial actions (liking/sharing) substituting for real involvement, giving a false sense of contribution. A describes the opposite; B and D refer to positive aspects of online campaigns."
+    },
+    {
+      "questionId": "q5",
+      "passageId": "p1",
+      "passageHighlight": "5",
+      "questionHtml": "The author implies that echo chambers contribute to societal polarization by:",
+      "options": {
+        "A": "Encouraging data breaches and surveillance.",
+        "B": "Reinforcing existing beliefs and limiting dialogue.",
+        "C": "Tailoring advertisements to shopping habits only.",
+        "D": "Eroding trust in institutions through factual information."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The underlined sentence explains echo chambers reinforce beliefs, polarizing society and hindering dialogue. A focuses on breaches; C limits to ads; D mentions misinformation but not as the implication here."
+    },
+    {
+      "questionId": "q6",
+      "passageId": "p1",
+      "passageHighlight": "6",
+      "questionHtml": "Which of the following best describes the role of online support groups as mentioned in the passage?",
+      "options": {
+        "A": "They pressure users to reveal real identities.",
+        "B": "They enhance empathy and provide emotional bonds in an atomized society.",
+        "C": "They are primarily for elderly individuals only.",
+        "D": "They overlook vulnerabilities in anonymous sharing."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The underlined sentence portrays these groups as enhancing empathy and offering lifelines in an atomized society. A contradicts anonymity; C limits to elderly; D overlooks positives."
+    },
+    {
+      "questionId": "q7",
+      "passageId": "p1",
+      "passageHighlight": "7",
+      "questionHtml": "The passage indicates that to bridge the generational divide in digital adoption:",
+      "options": {
+        "A": "Younger generations should abandon virtual interactions.",
+        "B": "Education and inclusive design are necessary to include all age groups.",
+        "C": "Older generations should view technology with more skepticism.",
+        "D": "Family dynamics are unaffected by this gap."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The underlined sentence calls for education and inclusive design to bridge the divide without alienation. A suggests abandonment; C encourages skepticism; D denies strain on dynamics."
+    },
+    {
+      "questionId": "q8",
+      "passageId": "p1",
+      "passageHighlight": "8",
+      "questionHtml": "According to the passage, how does the gig economy impact social mobility?",
+      "options": {
+        "A": "It provides predictable incomes and stable family ties.",
+        "B": "It connects workers globally without any drawbacks.",
+        "C": "Precarity from unpredictable incomes hinders stable community connections.",
+        "D": "It eliminates the need for regulation on platforms."
+      },
+      "correctOption": "C",
+      "explanationHtml": "The underlined sentence highlights precarity affecting incomes, thus impacting stable family and community ties, hindering mobility. A and B ignore drawbacks; D dismisses regulation needs."
+    },
+    {
+      "questionId": "q9",
+      "passageId": "p1",
+      "passageHighlight": "9",
+      "questionHtml": "The author suggests that cultural homogenization in the digital age:",
+      "options": {
+        "A": "Poses a challenge that requires balancing heritage preservation with integration.",
+        "B": "Is entirely beneficial for blending traditions.",
+        "C": "Has no effect on local customs.",
+        "D": "Is countered solely by Western influences."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The underlined sentence frames balancing heritage with integration as a key challenge amid homogenization. A sees only benefits; C denies effects; D misstates countering influences."
+    },
+    {
+      "questionId": "q10",
+      "passageId": "p1",
+      "passageHighlight": "10",
+      "questionHtml": "The final paragraph primarily serves to:",
+      "options": {
+        "A": "Dismiss the role of AI in social platforms.",
+        "B": "Highlight ethical questions about AI's impact on future human connections.",
+        "C": "Argue that machines will fully replace human empathy.",
+        "D": "Conclude that technology diminishes social life without exception."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The underlined sentence questions whether society will prioritize real interactions or let machines simulate empathy, raising ethical concerns about AI's future role. A dismisses AI; C assumes full replacement; D concludes diminution without nuance."
+    }
+  ]
+}

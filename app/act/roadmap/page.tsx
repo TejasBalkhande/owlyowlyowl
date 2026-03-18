@@ -5,10 +5,9 @@ import { roadmapOrder } from "../lib/roadmapOrder";
 import { MenuItem } from "@/types/menu";
 import fs from "fs";
 import path from "path";
-import RoadmapClient from "./RoadmapClient";
-import { getCurrentUser } from "@/lib/session";
-import { turso } from "@/lib/db";
+import RoadmapClient from "./RoadmapClient"; // new client component
 
+// Menu for the navbar
 const schoolMenu: MenuItem[] = [
   { label: "Mock-Test", href: "/act/Practice-Questions#full-length-mock-test" },
   { label: "Study-Resources", href: "/act" },
@@ -18,12 +17,14 @@ const schoolMenu: MenuItem[] = [
   { label: "Account", href: "/act" },
 ];
 
+// Helper to slugify a title (must match the one in [slug]/page.tsx)
 const slugify = (text: string): string =>
   text
     .toLowerCase()
     .replace(/\s+/g, "-")
     .replace(/[^a-z0-9-]/g, "");
 
+// Helper to get subject‑specific colors (used only for initial data)
 function getSubjectColor(sectionName: string): { bg: string; text: string; border: string; lightBg: string } {
   switch (sectionName) {
     case "English":
@@ -39,6 +40,7 @@ function getSubjectColor(sectionName: string): { bg: string; text: string; borde
   }
 }
 
+// Read question count from JSON file for a given level
 function getQuestionCount(section: Section, level: PracticeLevel): number {
   const sectionSlug = slugify(section.name);
   const levelSlug = slugify(level.title);
@@ -50,6 +52,7 @@ function getQuestionCount(section: Section, level: PracticeLevel): number {
     levelSlug,
     "questions.json"
   );
+
   try {
     if (fs.existsSync(jsonPath)) {
       const fileContents = fs.readFileSync(jsonPath, "utf8");
@@ -62,6 +65,7 @@ function getQuestionCount(section: Section, level: PracticeLevel): number {
   return 0;
 }
 
+// Build the initial roadmap data (ordered by roadmapOrder)
 function buildInitialRoadmap() {
   const items: Array<{
     id: number;
@@ -91,38 +95,13 @@ function buildInitialRoadmap() {
       }
     }
   }
+
   return items;
 }
-export default async function RoadmapPage() {
+
+export default function RoadmapPage() {
   const initialItems = buildInitialRoadmap();
-  const originalOrder = roadmapOrder.map(item => item.id);
-
-  const user = await getCurrentUser();
-  const userResults: Record<string, { correct: number; total: number; timeSeconds: number; date: string }> = {};
-  let userOrder: number[] | null = null;
-
-  if (user) {
-    const resultsRows = await turso.execute({
-      sql: "SELECT item_id, correct, total, time_seconds, completed_at FROM user_roadmap_results WHERE user_id = ? AND exam = ?",
-      args: [user.id, 'act'],   // <-- added exam filter
-    });
-    resultsRows.rows.forEach(row => {
-      userResults[String(row.item_id)] = {
-        correct: Number(row.correct),
-        total: Number(row.total),
-        timeSeconds: Number(row.time_seconds),
-        date: String(row.completed_at),
-      };
-    });
-
-    const orderRows = await turso.execute({
-      sql: "SELECT order_json FROM user_roadmap_order WHERE user_id = ? AND exam = ?",
-      args: [user.id, 'act'],   // <-- added exam filter
-    });
-    if (orderRows.rows.length > 0) {
-      userOrder = JSON.parse(orderRows.rows[0].order_json as string);
-    }
-  }
+  const originalOrder = roadmapOrder.map(item => item.id); // [1,2,3,...]
 
   return (
     <div className="bg-white min-h-screen">
@@ -130,9 +109,6 @@ export default async function RoadmapPage() {
       <RoadmapClient
         initialItems={initialItems}
         originalOrder={originalOrder}
-        initialUserResults={userResults}
-        initialUserOrder={userOrder}
-        isLoggedIn={!!user}
       />
     </div>
   );

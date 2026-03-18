@@ -1,0 +1,320 @@
+{
+  "passages": [
+  
+  ],
+  "questions": [
+    {
+      "questionId": "q001",
+      "passageId": "",
+      "questionHtml": "<p>Solve for \\(x\\) : \\(x - 4 = 10\\)</p>",
+      "options": {
+        "A": "14",
+        "B": "6",
+        "C": "-14",
+        "D": "2.5"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>To isolate \\(x\\), add 4 to both sides:</p><p>\\(x - 4 + 4 = 10 + 4\\)</p><p>This simplifies to \\(x = 14\\).</p><p>The correct answer is A.</p>"
+    },
+    {
+      "questionId": "q002",
+      "passageId": "",
+      "questionHtml": "<p>Solve for \\(x\\) : \\(5x - 2 = 3x + 6\\)</p>",
+      "options": {
+        "A": "4",
+        "B": "2",
+        "C": "8",
+        "D": "-4"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Subtract \\(3x\\) from both sides:</p><p>\\(2x - 2 = 6\\)</p><p>Add 2 to both sides:</p><p>\\(2x = 8\\)</p><p>Divide both sides by 2:</p><p>\\(x = 4\\)</p><p>The correct answer is A.</p>"
+    },
+    {
+      "questionId": "q003",
+      "passageId": "",
+      "questionHtml": "<p>Solve for \\(x\\) : \\( {\\Large \\frac{x}{4}} + 2 = {\\Large \\frac{x}{3}} - 1  \\)</p>",
+      "options": {
+        "A": "36",
+        "B": "12",
+        "C": "-12",
+        "D": "24"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Multiply both sides by the LCD 12:</p><p>\\(3x + 24 = 4x - 12\\)</p><p>Subtract \\(3x\\) from both sides:</p><p>\\(24 = x - 12\\)</p><p>Add 12 to both sides:</p><p>\\(x = 36\\)</p><p>The correct answer is A.</p>"
+    },
+    {
+      "questionId": "q004",
+      "passageId": "",
+      "questionHtml": "<p>Solve for \\(x\\) : \\(4x + 7 = 4(x - 2) + 15\\)</p>",
+      "options": {
+        "A": "No solution",
+        "B": "x = 0",
+        "C": "All real numbers",
+        "D": "x = 1"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Simplify the right side:</p><p>\\(4x - 8 + 15 = 4x + 7\\)</p><p>The equation becomes \\(4x + 7 = 4x + 7\\), which is true for every \\(x\\).</p><p>The correct answer is C.</p>"
+    },
+    {
+      "questionId": "q005",
+      "passageId": "",
+      "questionHtml": "<p>Solve for \\(x\\) : \\(\\frac{3x - 2}{4} + \\frac{x + 1}{2} = \\frac{5}{4}\\)</p>",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Multiply every term by the LCD 4:</p><p>\\((3x - 2) + 2(x + 1) = 5\\)</p><p>Simplify:</p><p>\\(3x - 2 + 2x + 2 = 5\\)</p><p>Combine like terms:</p><p>\\(5x = 5\\)</p><p>Divide by 5:</p><p>\\(x = 1\\)</p><p>The correct answer is A.</p>"
+    },
+    {
+      "questionId": "q006",
+      "passageId": "",
+      "questionHtml": "<p>Solve for \\(x\\) : \\(\\frac{3x - 1}{4} = \\frac{2x + 3}{3}\\)</p>",
+      "options": {
+        "A": "15",
+        "B": "12",
+        "C": "9",
+        "D": "6"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Cross-multiply:</p><p>\\(3(3x - 1) = 4(2x + 3)\\)</p><p>Expand both sides:</p><p>\\(9x - 3 = 8x + 12\\)</p><p>Subtract \\(8x\\) from both sides:</p><p>\\(x - 3 = 12\\)</p><p>Add 3 to both sides:</p><p>\\(x = 15\\)</p><p>The correct answer is A.</p>"
+    },
+    {
+      "questionId": "q007",
+      "passageId": "",
+      "questionHtml": "<p>Solve the inequality: \\(-3(x - 2) > 2(4 - x)\\)</p>",
+      "options": {
+        "A": "x > -2",
+        "B": "x < -2",
+        "C": "x > 2",
+        "D": "x < 2"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Distribute on both sides:</p><p>\\(-3x + 6 > 8 - 2x\\)</p><p>Add \\(3x\\) to both sides:</p><p>\\(6 > 8 + x\\)</p><p>Subtract 8 from both sides:</p><p>\\(-2 > x\\) or \\(x < -2\\)</p><p>The correct answer is B.</p>"
+    },
+    {
+      "questionId": "q008",
+      "passageId": "",
+      "questionHtml": "<p>Solve the compound inequality: \\(2x - 5 \\leq 1\\) and \\(3x + 1 > 7\\)</p>",
+      "options": {
+        "A": "x > 2",
+        "B": "x ≤ 3",
+        "C": "2 < x ≤ 3",
+        "D": "No solution"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Solve the first inequality:</p><p>\\(2x \\leq 6 \\Rightarrow x \\leq 3\\)</p><p>Solve the second inequality:</p><p>\\(3x > 6 \\Rightarrow x > 2\\)</p><p>Combine the two:</p><p>\\(2 < x \\leq 3\\)</p><p>The correct answer is C.</p>"
+    },
+    {
+      "questionId": "q009",
+      "passageId": "",
+      "questionHtml": "<p>Which equation has no solution?</p>",
+      "options": {
+        "A": "\\(2x + 3 = 2(x + 1) + 1\\)",
+        "B": "\\(3x - 5 = 3x + 2\\)",
+        "C": "\\(4x - 2 = 4x - 2\\)",
+        "D": "\\(5x + 7 = 5x + 7\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Check each option:</p><p><b>A</b>: simplifies to \\(2x + 3 = 2x + 3\\) (identity, infinite solutions).</p><p><b>B</b>: subtract \\(3x\\) gives \\(-5 = 2\\) (false, no solution).</p><p><b>C</b>: identity (all real numbers).</p><p><b>D</b>: identity (all real numbers).</p><p>The correct answer is B.</p>"
+    },
+    {
+      "questionId": "q010",
+      "passageId": "",
+      "questionHtml": "<p>Solve for \\(x\\) : \\(0.2(x - 3) + 0.5x = 0.3x + 0.2\\)</p>",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Multiply by 10 to clear decimals:</p><p>\\(2(x - 3) + 5x = 3x + 2\\)</p><p>Simplify left side:</p><p>\\(2x - 6 + 5x = 3x + 2\\)</p><p>Combine like terms:</p><p>\\(7x - 6 = 3x + 2\\)</p><p>Subtract \\(3x\\) from both sides:</p><p>\\(4x - 6 = 2\\)</p><p>Add 6 to both sides:</p><p>\\(4x = 8\\)</p><p>Divide by 4:</p><p>\\(x = 2\\)</p><p>The correct answer is B.</p>"
+    },
+    {
+      "questionId": "q011",
+      "passageId": "",
+      "questionHtml": "<p>What is the slope of the line given by the equation \\(y = -\\frac{3}{4} x + 5\\) ?</p>",
+      "options": {
+        "A": "\\(-\\frac{4}{3}\\)",
+        "B": "\\(\\frac{3}{4}\\)",
+        "C": "\\(-\\frac{3}{4}\\)",
+        "D": "5"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The equation is in slope-intercept form \\(y = mx + b\\), where \\(m\\) is the slope.</p><p>Here \\(m = -\\frac{3}{4}\\).</p><p>The correct answer is C.</p>"
+    },
+    {
+      "questionId": "q012",
+      "passageId": "",
+      "questionHtml": "<p>What is the y-intercept of the line \\(2x + 3y = 6\\) ?</p>",
+      "options": {
+        "A": "(0,2)",
+        "B": "(0,3)",
+        "C": "(3,0)",
+        "D": "(2,0)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The y-intercept occurs where \\(x = 0\\).</p><p>Substitute \\(x = 0\\):</p><p>\\(2(0) + 3y = 6\\)</p><p>\\(3y = 6\\)</p><p>\\(y = 2\\)</p><p>So the y-intercept is (0,2).</p><p>The correct answer is A.</p>"
+    },
+    {
+      "questionId": "q013",
+      "passageId": "",
+      "questionHtml": "<p>Which of the following is an equation of the line that passes through the point (2, \\(-5\\)) and has slope 3?</p>",
+      "options": {
+        "A": "\\(y - 5 = 3(x - 2)\\)",
+        "B": "\\(y + 5 = 3(x - 2)\\)",
+        "C": "\\(y - 2 = 3(x + 5)\\)",
+        "D": "\\(y = 3x - 1\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Use point-slope form: \\(y - y_1 = m(x - x_1)\\).</p><p>Given \\(m = 3\\), \\((x_1, y_1) = (2, -5)\\):</p><p>\\(y - (-5) = 3(x - 2)\\)</p><p>Simplify: \\(y + 5 = 3(x - 2)\\).</p><p>The correct answer is B.</p>"
+    },
+    {
+      "questionId": "q014",
+      "passageId": "",
+      "questionHtml": "<p>Which of the following lines is parallel to \\(y = 4x - 7\\) ?</p>",
+      "options": {
+        "A": "\\(y = -\\frac{1}{4} x + 2\\)",
+        "B": "\\(y = 4x + 1\\)",
+        "C": "\\(y = -4x + 3\\)",
+        "D": "\\(2y = 6x - 5\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Parallel lines have the same slope.</p><p>The given line has slope 4.</p><p>Option B: \\(y = 4x + 1\\) has slope 4, so it is parallel.</p><p>The correct answer is B.</p>"
+    },
+    {
+      "questionId": "q015",
+      "passageId": "",
+      "questionHtml": "<p>What is the equation of the line that is perpendicular to \\(y = \\frac{2}{3} x - 4\\) and passes through the point (6, 5)?</p>",
+      "options": {
+        "A": "\\(y = -\\frac{3}{2} x + 14\\)",
+        "B": "\\(y = -\\frac{3}{2} x - 4\\)",
+        "C": "\\(y = \\frac{2}{3} x + 1\\)",
+        "D": "\\(y = \\frac{3}{2} x - 4\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The slope of the given line is \\(\\frac{2}{3}\\).</p><p>A perpendicular line has slope equal to the negative reciprocal: \\(-\\frac{3}{2}\\).</p><p>Use point-slope form with point (6,5):</p><p>\\(y - 5 = -\\frac{3}{2}(x - 6)\\)</p><p>Simplify: \\(y - 5 = -\\frac{3}{2}x + 9\\)</p><p>\\(y = -\\frac{3}{2}x + 14\\)</p><p>The correct answer is A.</p>"
+    },
+    
+    {
+      "questionId": "q017",
+      "passageId": "",
+      "questionHtml": "<p>Given two lines: \\(3x - y = 5\\) and \\(6x - 2y = k\\). For which value of \\(k\\) do the lines represent the same line?</p>",
+      "options": {
+        "A": "5",
+        "B": "10",
+        "C": "15",
+        "D": "20"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The first line equation is \\(3x - y = 5\\).</p><p>Multiply both sides by 2:</p><p>\\(6x - 2y = 10\\)</p><p>For the second line to be identical, \\(k\\) must equal 10.</p><p>The correct answer is B.</p>"
+    },
+    {
+      "questionId": "q018",
+      "passageId": "",
+      "questionHtml": "<p>The cost \\(C\\) in dollars to produce \\(x\\) widgets is given by a linear function. Producing 100 widgets costs $250 and producing 300 widgets costs $450. What is the fixed cost (the cost when no widgets are produced)?</p>",
+      "options": {
+        "A": "$50",
+        "B": "$100",
+        "C": "$150",
+        "D": "$200"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>We have points (100, 250) and (300, 450).</p><p>Slope = \\(\\frac{450 - 250}{300 - 100} = \\frac{200}{200} = 1\\).</p><p>Use point-slope with (100,250):</p><p>\\(C - 250 = 1(x - 100)\\)</p><p>\\(C = x + 150\\)</p><p>Fixed cost is \\(C(0) = 0 + 150 = 150\\).</p><p>The correct answer is C.</p>"
+    },
+    {
+      "questionId": "q019",
+      "passageId": "",
+      "questionHtml": "<p>Solve the system using elimination: \\(\\begin{cases} 2x + y = 7 \\\\ x - y = 2 \\end{cases}\\). What is the value of \\(x\\)?</p>",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Add the two equations to eliminate \\(y\\):</p><p>\\((2x + y) + (x - y) = 7 + 2\\)</p><p>\\(3x = 9\\)</p><p>Divide by 3:</p><p>\\(x = 3\\)</p><p>The correct answer is C.</p>"
+    },
+    {
+      "questionId": "q020",
+      "passageId": "",
+      "questionHtml": "<p>Solve the system: \\(\\begin{cases} 3x + 2y = 12 \\\\ 5x - 3y = 1 \\end{cases}\\). What is the value of \\(x + y\\)?</p>",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Multiply first equation by 3 and second by 2:</p><p>\\(9x + 6y = 36\\)</p><p>\\(10x - 6y = 2\\)</p><p>Add the equations:</p><p>\\(19x = 38 \\Rightarrow x = 2\\)</p><p>Substitute into first original:</p><p>\\(3(2) + 2y = 12\\)</p><p>\\(6 + 2y = 12 \\Rightarrow 2y = 6 \\Rightarrow y = 3\\)</p><p>Thus \\(x + y = 5\\).</p><p>The correct answer is C.</p>"
+    },
+    {
+      "questionId": "q021",
+      "passageId": "",
+      "questionHtml": "<p>Solve the system: \\(\\begin{cases} \\frac{x}{2} + \\frac{y}{3} = 5 \\\\ \\frac{x}{4} - y = -1 \\end{cases}\\). What is the value of \\(y\\)?</p>",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "6"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Clear fractions:</p><p>Multiply first equation by 6: \\(3x + 2y = 30\\)</p><p>Multiply second equation by 4: \\(x - 4y = -4\\)</p><p>From second, \\(x = 4y - 4\\).</p><p>Substitute into first:</p><p>\\(3(4y - 4) + 2y = 30\\)</p><p>\\(12y - 12 + 2y = 30\\)</p><p>\\(14y = 42\\)</p><p>\\(y = 3\\)</p><p>The correct answer is B.</p>"
+    },
+    {
+      "questionId": "q022",
+      "passageId": "",
+      "questionHtml": "<p>Which of the following systems of equations has no solution?</p>",
+      "options": {
+        "A": "\\(\\begin{cases} y = 2x + 3 \\\\ y = 2x + 5 \\end{cases}\\)",
+        "B": "\\(\\begin{cases} y = 2x + 3 \\\\ y = -2x + 3 \\end{cases}\\)",
+        "C": "\\(\\begin{cases} y = 2x + 3 \\\\ y = x + 3 \\end{cases}\\)",
+        "D": "\\(\\begin{cases} y = 2x + 3 \\\\ y = 3x - 1 \\end{cases}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>A system has no solution when the lines are parallel (same slope) but different y-intercepts.</p><p><b>A</b>: slopes both 2, intercepts 3 and 5 → parallel distinct → no solution.</p><p><b>B</b>: slopes 2 and -2 → intersect (one solution).</p><p><b>C</b>: slopes 2 and 1 → intersect.</p><p><b>D</b>: slopes 2 and 3 → intersect.</p><p>The correct answer is A.</p>"
+    },
+    {
+      "questionId": "q023",
+      "passageId": "",
+      "questionHtml": "<p>A chemist needs 20 liters of a 25% acid solution. She has a 10% acid solution and a 40% acid solution. How many liters of the 40% solution should she use?</p>",
+      "options": {
+        "A": "5",
+        "B": "8",
+        "C": "10",
+        "D": "12"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Let \\(x\\) = liters of 10% solution, \\(y\\) = liters of 40% solution.</p><p>Total volume: \\(x + y = 20\\)</p><p>Acid content: \\(0.10x + 0.40y = 0.25(20) = 5\\)</p><p>Multiply the acid equation by 100: \\(10x + 40y = 500\\)</p><p>Divide by 10: \\(x + 4y = 50\\)</p><p>Subtract the first equation from this:</p><p>\\((x + 4y) - (x + y) = 50 - 20\\)</p><p>\\(3y = 30 \\Rightarrow y = 10\\)</p><p>The correct answer is C.</p>"
+    },
+    {
+      "questionId": "q024",
+      "passageId": "",
+      "questionHtml": "<p>A boat travels 30 miles upstream in 3 hours and the same distance downstream in 2 hours. What is the speed of the boat in still water (in mph)?</p>",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "12.5",
+        "D": "15"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Let \\(b\\) = boat speed in still water, \\(c\\) = current speed.</p><p>Upstream: \\(b - c = \\frac{30}{3} = 10\\)</p><p>Downstream: \\(b + c = \\frac{30}{2} = 15\\)</p><p>Add the two equations:</p><p>\\((b - c) + (b + c) = 10 + 15\\)</p><p>\\(2b = 25 \\Rightarrow b = 12.5\\)</p><p>The correct answer is C.</p>"
+    },
+    {
+      "questionId": "q025",
+      "passageId": "",
+      "questionHtml": "<p>Solve the system: \\(\\begin{cases} x + y + z = 6 \\\\ 2x - y + z = 3 \\\\ x + 2y - z = 2 \\end{cases}\\). What is the value of \\(x\\)?</p>",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Add the first and third equations:</p><p>\\((x + y + z) + (x + 2y - z) = 6 + 2\\)</p><p>\\(2x + 3y = 8\\)  … (1)</p><p>Add the first and second equations:</p><p>\\((x + y + z) + (2x - y + z) = 6 + 3\\)</p><p>\\(3x + 2z = 9\\)  … (2)</p><p>From (1), \\(y = \\frac{8 - 2x}{3}\\).</p><p>Substitute into the first original equation:</p><p>\\(x + \\frac{8 - 2x}{3} + z = 6\\)</p><p>Multiply by 3: \\(3x + 8 - 2x + 3z = 18\\)</p><p>\\(x + 3z = 10 \\Rightarrow z = \\frac{10 - x}{3}\\)</p><p>Substitute into (2):</p><p>\\(3x + 2\\cdot\\frac{10 - x}{3} = 9\\)</p><p>Multiply by 3: \\(9x + 20 - 2x = 27\\)</p><p>\\(7x = 7 \\Rightarrow x = 1\\)</p><p>The correct answer is A.</p>"
+    }
+  ]
+}
