@@ -493,7 +493,7 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
                         <div className="flex-1 h-px bg-gray-100" />
                       </div>
 
-                      {/* Options */}
+                      {/* OptionS */}
                       <div className="space-y-2">
                         {opts.map(opt => {
                           const currentRating = optionRatings[opt.key] ?? 2;
