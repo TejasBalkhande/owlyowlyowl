@@ -29,14 +29,14 @@ export default function ActPage() {
   const isLoggedIn = getCookie("user-logged-in") === "true";
 
   // Build the menu dynamically based on auth status
-  const schoolMenu: MenuItem[] = [
-    { label: "Mock-Test", href: "/act/Practice-Questions#full-length-mock-test" },
-    { label: "Study-Resources", href: "/act" },
-    { label: "Practice-Questions", href: "/act/Practice-Questions" },
-    { label: "Courses", href: "/act/courses" },
-    { label: "Roadmap", href: "/act/roadmap" },
-    { label: "Account", href: "/account" }
-  ];
+const schoolMenu: MenuItem[] = [
+  { label: "Practice Tests", href: "/act/Practice-Questions#full-length-mock-test" },
+  { label: "Study Resources", href: "/act" },
+  { label: "Practice Questions", href: "/act/Practice-Questions" },
+  { label: "Courses", href: "/act/courses" },
+  { label: "Study Plan", href: "/act/roadmap" },
+  { label: "My Account", href: "/account" }
+];
 
   // Map icon names to actual Lucide components
   const iconMap: Record<string, React.ElementType> = {
