@@ -1,0 +1,807 @@
+// app/act/page.tsx
+"use client";
+
+import Navbar from "@/components/Navbar";
+import { MenuItem } from "@/types/menu";
+import Image from 'next/image';
+import { highYieldTopics } from "./lib/highYieldTopics";
+import HighYieldTopicsTable from "./components/HighYieldTopicsTable";
+import React from "react";
+import Link from "next/link";
+
+function getCookie(name: string): string | undefined {
+  if (typeof document === "undefined") return undefined;
+  const value = `; ${document.cookie}`;
+  const parts = value.split(`; ${name}=`);
+  if (parts.length === 2) return parts.pop()?.split(';').shift();
+}
+
+const subjects = [
+  {
+    title: "English",
+    time: "35 min",
+    color: "#3B82F6",
+    lightColor: "#EFF6FF",
+    items: [
+      { label: "Production of Writing", pct: 40, desc: "Topic development, organization, cohesion" },
+      { label: "Conventions of Standard English", pct: 40, desc: "Grammar, punctuation, sentence structure" },
+      { label: "Knowledge of Language", pct: 20, desc: "Word choice, tone, concision" },
+    ],
+  },
+  {
+    title: "Mathematics",
+    time: "50 min",
+    color: "#8B5CF6",
+    lightColor: "#F5F3FF",
+    items: [
+      { label: "Core Categories", pct: 80, desc: "Algebra, Functions, Geometry, Number & Quantity, Statistics" },
+      { label: "Integrating Essential Skills", pct: 20, desc: "Multi‑concept application" },
+    ],
+  },
+  {
+    title: "Reading",
+    time: "40 min",
+    color: "#10B981",
+    lightColor: "#ECFDF5",
+    items: [
+      { label: "Key Ideas & Details", pct: 48, desc: "Central ideas, inferences, evidence" },
+      { label: "Craft & Structure", pct: 30, desc: "Tone, author purpose, structure" },
+      { label: "Integration", pct: 22, desc: "Arguments, graphics, multiple texts" },
+    ],
+  },
+  {
+    title: "Science",
+    time: "40 min",
+    color: "#F59E0B",
+    lightColor: "#FFFBEB",
+    items: [
+      { label: "Interpretation of Data", pct: 44, desc: "Graphs, trends, tables and experiments" },
+      { label: "Scientific Investigation", pct: 25, desc: "Design, variables" },
+      { label: "Evaluation of Arguments", pct: 31, desc: "Models, evidence" },
+    ],
+  },
+];
+
+export default function ActPage() {
+  const [showAll, setShowAll] = React.useState(false);
+  const isLoggedIn = getCookie("user-logged-in") === "true";
+
+  const schoolMenu: MenuItem[] = [
+    { label: "Mock-Test", href: "/act/Practice-Questions#full-length-mock-test" },
+    { label: "Study-Resources", href: "/act" },
+    { label: "Practice-Questions", href: "/act/Practice-Questions" },
+    { label: "Courses", href: "/act/courses" },
+    { label: "Roadmap", href: "/act/roadmap" },
+    { label: "Account", href: "/account" }
+  ];
+
+  const cards = [
+    {
+      title: 'Scoring',
+      text: 'Sections scored 1–36. Composite = average of English, Math, Reading, Science. Writing (essay) scored 2–12 separately. Many colleges accept superscores.',
+      icon: '📊',
+      accent: '#3B82F6',
+      bg: '#EFF6FF',
+    },
+    {
+      title: 'Timing',
+      text: 'Total time usually ~2h20–2h55 depending on sections. With Writing, expect ~3h40. Practice with section timers to build pacing.',
+      icon: '⏱️',
+      accent: '#8B5CF6',
+      bg: '#F5F3FF',
+    },
+    {
+      title: 'Question Types',
+      text: 'Mostly multiple-choice (4 options). Writing requires an analytical essay comparing perspectives — practice planning and timing.',
+      icon: '❓',
+      accent: '#10B981',
+      bg: '#ECFDF5',
+    },
+    {
+      title: 'Resources',
+      text: 'Combine official ACT materials with targeted practice (reading speed drills, timed math sets, and science reasoning passages).',
+      icon: '📚',
+      accent: '#F59E0B',
+      bg: '#FFFBEB',
+    },
+    {
+      title: 'Strategy',
+      text: 'Work high-confidence items first, skip & mark for review, and watch pacing. No penalty for guessing — answer every question.',
+      icon: '🧠',
+      accent: '#EF4444',
+      bg: '#FEF2F2',
+    },
+    {
+      title: 'Practice',
+      text: 'Use official practice tests, simulate test-day conditions, and review mistakes thoroughly to improve accuracy and speed.',
+      icon: '✍️',
+      accent: '#0EA5E9',
+      bg: '#F0F9FF',
+    },
+  ];
+
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  return (
+    <div className="bg-[#F8FAFC] min-h-screen" style={{ fontFamily: "'DM Sans', 'Outfit', sans-serif" }}>
+      <style>{`
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&family=DM+Serif+Display&display=swap');
+
+        .hero-card {
+          background: #ffffff;
+          border: 1px solid #E8EFF7;
+          box-shadow: 0 2px 8px rgba(15, 40, 80, 0.06), 0 20px 40px rgba(15, 40, 80, 0.05);
+          border-radius: 20px;
+        }
+        .search-bar {
+          background: #F1F5F9;
+          border: 1.5px solid transparent;
+          border-radius: 50px;
+          transition: all 0.2s ease;
+        }
+        .search-bar:focus-within {
+          background: #ffffff;
+          border-color: #1E4A76;
+          box-shadow: 0 0 0 4px rgba(30, 74, 118, 0.08);
+        }
+        .nav-link-pill {
+          position: relative;
+          padding: 6px 0;
+          font-size: 15px;
+          color: #475569;
+          font-weight: 500;
+          transition: color 0.2s;
+          background: none;
+          border: none;
+          cursor: pointer;
+          white-space: nowrap;
+        }
+        .nav-link-pill::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 2px;
+          background: #1E4A76;
+          border-radius: 99px;
+          transform: scaleX(0);
+          transition: transform 0.2s ease;
+          transform-origin: left;
+        }
+        .nav-link-pill:hover {
+          color: #1E4A76;
+        }
+        .nav-link-pill:hover::after {
+          transform: scaleX(1);
+        }
+        .btn-primary {
+          background: #1E4A76;
+          color: #fff;
+          padding: 10px 22px;
+          border-radius: 10px;
+          font-weight: 600;
+          font-size: 14px;
+          letter-spacing: 0.01em;
+          transition: all 0.2s ease;
+          border: 1.5px solid #1E4A76;
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+        }
+        .btn-primary:hover {
+          background: #163A5E;
+          box-shadow: 0 4px 16px rgba(30, 74, 118, 0.28);
+          transform: translateY(-1px);
+        }
+        .btn-outline {
+          background: #fff;
+          color: #1E4A76;
+          padding: 10px 22px;
+          border-radius: 10px;
+          font-weight: 600;
+          font-size: 14px;
+          letter-spacing: 0.01em;
+          transition: all 0.2s ease;
+          border: 1.5px solid #CBD5E1;
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+        }
+        .btn-outline:hover {
+          border-color: #1E4A76;
+          box-shadow: 0 4px 12px rgba(30, 74, 118, 0.12);
+          transform: translateY(-1px);
+          background: #F8FAFC;
+        }
+        .section-card {
+          background: #fff;
+          border: 1px solid #E8EFF7;
+          border-radius: 16px;
+          padding: 28px;
+          transition: all 0.2s ease;
+          box-shadow: 0 1px 4px rgba(15, 40, 80, 0.04);
+        }
+        .section-card:hover {
+          box-shadow: 0 8px 24px rgba(15, 40, 80, 0.10);
+          transform: translateY(-2px);
+        }
+        .tag-badge {
+          font-size: 11px;
+          font-weight: 600;
+          padding: 3px 10px;
+          border-radius: 99px;
+          letter-spacing: 0.04em;
+          text-transform: uppercase;
+        }
+        .section-divider {
+          width: 100%;
+          height: 1px;
+          background: linear-gradient(90deg, transparent 0%, #E2E8F0 40%, #E2E8F0 60%, transparent 100%);
+          margin: 32px 0;
+        }
+        .table-row-hover:hover td {
+          background: #F0F6FF !important;
+        }
+        .highlight-stat {
+          background: linear-gradient(135deg, #EFF6FF 0%, #F5F3FF 100%);
+          border: 1px solid #DBEAFE;
+          border-radius: 12px;
+          padding: 16px 20px;
+        }
+        .resource-card {
+          background: #fff;
+          border: 1px solid #E8EFF7;
+          border-radius: 14px;
+          overflow: hidden;
+          transition: all 0.2s ease;
+          box-shadow: 0 1px 4px rgba(15, 40, 80, 0.04);
+        }
+        .resource-card:hover {
+          box-shadow: 0 8px 24px rgba(15, 40, 80, 0.10);
+          transform: translateY(-3px);
+          border-color: #BFDBFE;
+        }
+      `}</style>
+
+      <Navbar items={schoolMenu} logo="OwlenForge" />
+
+      <div className="w-full overflow-visible">
+        <div className="max-w-7xl mx-auto px-5 md:px-10 lg:px-16 xl:px-20 pt-4 md:pt-2">
+
+          {/* ───────────────── HERO SECTION (layout unchanged) ───────────────── */}
+          <div
+            className="hero-card mt-6 relative z-10 w-full mb-0 px-6 md:px-10 py-5 md:py-0
+                        flex flex-col md:flex-row items-center gap-6"
+          >
+            <div className="w-full md:w-3/5 flex flex-col space-y-3">
+              {/* Search Bar */}
+              <div className="search-bar flex items-center px-5 py-3 w-full text-sm mt-5">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-[#94A3B8] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-4.35-4.35M16.65 16.65A7.5 7.5 0 1110.5 3a7.5 7.5 0 016.15 13.65z" />
+                </svg>
+                <input
+                  type="text"
+                  placeholder="Search books, notes, question banks…"
+                  className="ml-3 w-full outline-none bg-transparent text-[#334155] placeholder-[#94A3B8] text-sm"
+                />
+                <span className="hidden sm:flex items-center gap-1 text-[11px] text-[#94A3B8] font-medium bg-white border border-[#E2E8F0] rounded-md px-2 py-1 ml-2 whitespace-nowrap shadow-sm">⌘K</span>
+              </div>
+
+              {/* Two Columns Below Search Bar */}
+              <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-5">
+                {/* Logo column — 1/3 width */}
+                <div className="w-full sm:w-1/3 flex justify-center sm:justify-start mt-2 mb-3">
+                  <Image
+                    src="/hero-left-2.png"
+                    alt="OwenForge logo"
+                    width={200}
+                    height={200}
+                    className="object-contain w-full max-w-[150px] sm:max-w-[200px] h-auto"
+                  />
+                </div>
+
+                {/* Text + CTA — 2/3 width */}
+                <div className="w-full sm:w-2/3 text-center sm:text-left">
+                  <div className="inline-flex items-center gap-2 bg-[#EFF6FF] text-[#1E4A76] text-[11px] font-semibold px-3 py-1 rounded-full mb-3 tracking-wide uppercase">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#1E4A76] inline-block"></span>
+                    ACT Prep Platform
+                  </div>
+                  <h1 className="text-[22px] md:text-[26px] font-bold text-[#0F2851] leading-tight tracking-tight" style={{ fontFamily: "'Playfair Display', serif" }}>
+                    Strategic ACT Preparation<br className="hidden sm:block" /> for Excellence
+                  </h1>
+                  <p className="text-[#64748B] text-[14px] mt-2 leading-relaxed">
+                    Comprehensive ACT Exam Guide: Strategies, Practice, and Resources to Maximize Your Score
+                  </p>
+                  <button className="btn-primary mt-4 mb-8">
+                    Start Preparation
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" /></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            {/* Right column: girl hero image */}
+            <div className="hidden md:flex w-full md:w-2/5 justify-center md:justify-end self-end">
+              <Image
+                src="/girlhero.png"
+                alt="Girl hero"
+                width={400}
+                height={400}
+                className="object-contain w-full max-w-[400px] h-auto md:-mr-6"
+              />
+            </div>
+          </div>
+          {/* ───────────────── END HERO SECTION ───────────────── */}
+
+          {/* Section Navigation */}
+          <div className="w-full overflow-x-auto pt-5 mb-4">
+            <div className="flex flex-wrap md:flex-nowrap gap-x-8 gap-y-2 md:gap-y-0 pb-2">
+              {[
+                { id: 'understanding-act', label: 'Understanding the ACT' },
+                { id: 'topic-weight', label: 'Topic / Section Weight' },
+                { id: 'test-structure', label: 'Test Structure' },
+                { id: 'high-yield', label: 'High-Yield Topics' },
+              ].map((item) => (
+                <button
+                  key={item.id}
+                  onClick={() => scrollToSection(item.id)}
+                  className="nav-link-pill"
+                >
+                  {item.label}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* ───────────────── ACT TEST SIMULATOR ───────────────── */}
+          <section className="py-6">
+            <div className="w-full flex flex-col-reverse md:flex-row items-center md:items-start gap-8">
+              <div className="w-full md:w-1/2 flex flex-col items-start space-y-4">
+                <div className="inline-flex items-center gap-2 bg-[#EFF6FF] text-[#1E4A76] text-[11px] font-semibold px-3 py-1 rounded-full tracking-wide uppercase">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#1E4A76] inline-block"></span>
+                  Practice Hub
+                </div>
+                <h2 className="text-[26px] font-bold text-[#0F2851] leading-tight" style={{ fontFamily: "'Playfair Display', serif" }}>
+                  ACT Test Simulator
+                </h2>
+                <p className="text-[#64748B] text-[15px] leading-relaxed max-w-md">
+                  Detailed explanations, full-length mock exams, and topic-wise practice questions to strengthen concepts and improve your score.
+                </p>
+
+                {/* Stats row */}
+                <div className="flex gap-4 w-full">
+                  {[
+                    { value: '200+', label: 'Practice Questions' },
+                    { value: '5', label: 'Full Mocks' },
+                    { value: '36', label: 'Max Score' },
+                  ].map((s) => (
+                    <div key={s.label} className="highlight-stat flex-1 text-center">
+                      <p className="text-[20px] font-bold text-[#1E4A76]">{s.value}</p>
+                      <p className="text-[11px] text-[#64748B] font-medium mt-0.5">{s.label}</p>
+                    </div>
+                  ))}
+                </div>
+
+                <div className="flex flex-col sm:flex-row gap-3 w-full md:w-auto pt-2">
+                  <Link href="/act/Practice-Questions#full-length-mock-test" className="btn-primary justify-center sm:justify-start">
+                    Full-Length Mock Tests
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" /></svg>
+                  </Link>
+                  <Link href="/act/Practice-Questions" className="btn-outline justify-center sm:justify-start">
+                    Topic-wise Questions
+                  </Link>
+                </div>
+              </div>
+
+              <div className="w-full md:w-1/2 flex justify-center md:justify-end mt-3">
+                <Image
+                  src="/LaptopMock.png"
+                  width={700}
+                  height={420}
+                  alt="Laptop mock"
+                  className="w-full max-w-xs md:max-w-sm lg:max-w-md object-contain drop-shadow-xl"
+                  style={{ userSelect: 'none' }}
+                />
+              </div>
+            </div>
+          </section>
+
+          <div className="section-divider" />
+
+          {/* ───────────────── FREE VIDEO LESSONS ───────────────── */}
+          <section className="py-6">
+            <div className="w-full flex flex-col md:flex-row md:items-center gap-8">
+              <div className="w-full md:w-1/2 flex justify-center md:justify-start">
+                <div className="relative">
+                  <div className="absolute inset-0 bg-gradient-to-br from-[#EFF6FF] to-[#F5F3FF] rounded-2xl scale-95 opacity-70" />
+                  <Image
+                    src="/video-img-9.png"
+                    alt="Video lessons preview"
+                    width={300}
+                    height={200}
+                    className="relative object-contain w-full max-w-sm md:max-w-md drop-shadow-xl rounded-xl"
+                  />
+                </div>
+              </div>
+
+              <div className="w-full md:w-1/2 flex flex-col space-y-4 md:items-end items-center text-center md:text-right">
+                <div className="inline-flex items-center gap-2 bg-[#ECFDF5] text-[#059669] text-[11px] font-semibold px-3 py-1 rounded-full tracking-wide uppercase">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#059669] inline-block"></span>
+                  100% Free
+                </div>
+                <h2 className="text-[26px] font-bold text-[#0F2851] leading-tight" style={{ fontFamily: "'Playfair Display', serif" }}>
+                  Free Video Lessons
+                </h2>
+                <p className="text-[#64748B] text-[15px] leading-relaxed max-w-md">
+                  Free video lessons covering ACT subjects, strategies, and practice problems to help you master exam content and boost confidence.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-3 pt-1">
+                  <button className="btn-primary">
+                    Video Lectures
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                  </button>
+                  <button className="btn-outline">
+                    Create Roadmap
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div className="section-divider" />
+
+          {/* ───────────────── BOOKS & NOTES ───────────────── */}
+          <section className="w-full py-6">
+            <div className="mb-8">
+              <div className="inline-flex items-center gap-2 bg-[#FFFBEB] text-[#B45309] text-[11px] font-semibold px-3 py-1 rounded-full tracking-wide uppercase mb-3">
+                <span className="w-1.5 h-1.5 rounded-full bg-[#B45309] inline-block"></span>
+                Study Materials
+              </div>
+              <h2 className="text-[26px] font-bold text-[#0F2851]" style={{ fontFamily: "'Playfair Display', serif" }}>
+                Books & Written Notes for ACT Prep
+              </h2>
+              <p className="text-[#64748B] text-[15px] mt-2 max-w-2xl">
+                Comprehensive guides, practice tests, and subject-specific resources to ace the ACT.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {[
+                { src: '/books.png', alt: 'ACT books', label: 'Recommended Books', download: '/books.png', file: 'ACT-books.png', btnLabel: 'Download Book', desc: 'Curated book list with detailed descriptions.' },
+                { src: '/question-sheet.png', alt: 'Question sheet', label: 'Question Sheets', download: '/question-sheet.png', file: 'ACT-question-sheet.png', btnLabel: 'Download Sheet', desc: 'Practice questions and answer sheets.' },
+                { src: '/notes-img.png', alt: 'ACT notes', label: 'Written Notes', download: '/notes-img.png', file: 'ACT-notes.png', btnLabel: 'Download Notes', desc: 'High-resolution notes — save as PDF or image.' },
+              ].map((item) => (
+                <div key={item.label} className="resource-card flex flex-col">
+                  <div className="relative w-full h-52 bg-[#F8FAFC]">
+                    <Image
+                      src={item.src}
+                      alt={item.alt}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                      className="object-contain p-4"
+                    />
+                  </div>
+                  <div className="p-5 flex flex-col gap-3 flex-1">
+                    <div>
+                      <p className="text-[15px] font-semibold text-[#0F2851]">{item.label}</p>
+                      <p className="text-[13px] text-[#64748B] mt-1">{item.desc}</p>
+                    </div>
+                    <a
+                      href={item.download}
+                      download={item.file}
+                      className="btn-primary mt-auto justify-center text-center"
+                      aria-label={`Download ${item.label}`}
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                      {item.btnLabel}
+                    </a>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          <div className="section-divider" />
+
+          {/* ───────────────── UNDERSTANDING THE ACT ───────────────── */}
+          <section id="understanding-act" className="w-full py-10">
+            <div className="max-w-6xl mx-auto">
+              <div className="flex flex-col-reverse md:flex-row items-center gap-10 mb-10">
+                <div className="w-full md:w-2/3 text-center md:text-left">
+                  <div className="inline-flex items-center gap-2 bg-[#EFF6FF] text-[#1E4A76] text-[11px] font-semibold px-3 py-1 rounded-full mb-4 tracking-wide uppercase">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#1E4A76] inline-block"></span>
+                    Exam Overview
+                  </div>
+                  <h2 className="text-[28px] font-bold text-[#0F2851] leading-tight" style={{ fontFamily: "'Playfair Display', serif" }}>
+                    Understanding the ACT Exam
+                  </h2>
+                  <p className="mt-3 text-[#64748B] text-[15px] leading-relaxed max-w-2xl">
+                    ACT Overview — Format, sections, scoring, and essential strategies to guide your preparation and test-day performance.
+                  </p>
+                  <div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
+                    <a href="act/Practice-Questions" className="btn-primary">
+                      Start Preparing
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" /></svg>
+                    </a>
+                    <button onClick={() => scrollToSection('topic-weight')} className="btn-outline">
+                      See Detailed Breakdown
+                    </button>
+                  </div>
+                </div>
+
+                {/* ACT Score badge */}
+                <div className="w-full md:w-1/3 flex justify-center">
+                  <div className="relative w-52">
+                    <div className="bg-white border border-[#E8EFF7] rounded-2xl p-6 shadow-lg text-center" style={{ boxShadow: '0 8px 32px rgba(30,74,118,0.12)' }}>
+                      <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-[#1E4A76] to-[#3B82F6] flex items-center justify-center mx-auto mb-4 shadow-lg">
+                        <span className="text-white text-2xl font-black tracking-tight">ACT</span>
+                      </div>
+                      <div className="space-y-2 text-left">
+                        {[
+                          { label: 'Score Range', val: '1 – 36' },
+                          { label: 'Sections', val: '4 + Essay' },
+                          { label: 'Duration', val: '~3h 40m' },
+                        ].map((s) => (
+                          <div key={s.label} className="flex items-center justify-between py-1.5 border-b border-[#F1F5F9] last:border-0">
+                            <span className="text-[12px] text-[#94A3B8] font-medium">{s.label}</span>
+                            <span className="text-[13px] font-semibold text-[#0F2851]">{s.val}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Info Cards */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                {cards.map((card, index) => {
+                  const hideOnMobile = !showAll && index >= 3;
+                  return (
+                    <article
+                      key={index}
+                      className={`section-card ${hideOnMobile ? 'hidden sm:block' : ''}`}
+                    >
+                      <div className="flex items-center gap-3 mb-4">
+                        <div className="w-10 h-10 rounded-xl flex items-center justify-center text-xl flex-shrink-0" style={{ background: card.bg }}>
+                          {card.icon}
+                        </div>
+                        <h3 className="text-[15px] font-semibold text-[#0F2851]">{card.title}</h3>
+                      </div>
+                      <p className="text-[#64748B] text-[14px] leading-relaxed">{card.text}</p>
+                    </article>
+                  );
+                })}
+              </div>
+
+              <div className="flex justify-center mt-6 sm:hidden">
+                <button
+                  onClick={() => setShowAll(!showAll)}
+                  className="btn-outline text-sm"
+                >
+                  {showAll ? 'Show less' : 'Show more'}
+                </button>
+              </div>
+            </div>
+          </section>
+
+          {/* ───────────────── TEST STRUCTURE ───────────────── */}
+          <section id="test-structure" className="w-full py-10">
+            <div className="max-w-6xl mx-auto">
+              <div className="text-center mb-8">
+                <div className="inline-flex items-center gap-2 bg-[#F5F3FF] text-[#7C3AED] text-[11px] font-semibold px-3 py-1 rounded-full mb-3 tracking-wide uppercase">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#7C3AED] inline-block"></span>
+                  Format Guide
+                </div>
+                <h2 className="text-[28px] font-bold text-[#0F2851]" style={{ fontFamily: "'Playfair Display', serif" }}>
+                  Test Structure
+                </h2>
+                <p className="text-[#64748B] text-[15px] mt-2 max-w-2xl mx-auto">
+                  ACT exam format, section breakdown, and timing information to help you prepare effectively.
+                </p>
+              </div>
+
+              {/* Desktop table */}
+              <div className="hidden md:block overflow-hidden rounded-2xl border border-[#E8EFF7] shadow-sm">
+                <table className="min-w-full bg-white">
+                  <thead>
+                    <tr style={{ background: 'linear-gradient(135deg, #0F2851 0%, #1E4A76 100%)' }}>
+                      {['Section', 'Time', 'Questions', 'Format'].map((h) => (
+                        <th key={h} className="px-6 py-4 text-left text-[13px] font-semibold text-white/90 tracking-wide">{h}</th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody className="text-[14px] text-[#475569] divide-y divide-[#F1F5F9]">
+                    {[
+                      { s: 'English', t: '35 min', q: '50 (40 scored)', f: 'Multiple-choice, passage-based' },
+                      { s: 'Mathematics', t: '50 min', q: '45 (41 scored)', f: 'Multiple-choice, calculator allowed' },
+                      { s: 'Reading', t: '40 min', q: '36 (27 scored)', f: 'Multiple-choice, passage-based' },
+                      { s: 'Science (Optional)', t: '40 min', q: '40 (34 scored)', f: 'Data representation, research summaries, conflicting viewpoints' },
+                      { s: 'Writing (Optional)', t: '40 min', q: '1 essay', f: 'Essay analyzing a complex issue & perspectives' },
+                    ].map((row, i) => (
+                      <tr key={i} className="table-row-hover transition-colors">
+                        <td className="px-6 py-4 font-semibold text-[#0F2851]">{row.s}</td>
+                        <td className="px-6 py-4">
+                          <span className="inline-flex items-center gap-1.5 bg-[#EFF6FF] text-[#1E4A76] text-[12px] font-semibold px-3 py-1 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                            {row.t}
+                          </span>
+                        </td>
+                        <td className="px-6 py-4 font-medium text-[#475569]">{row.q}</td>
+                        <td className="px-6 py-4 text-[#64748B]">{row.f}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+
+              {/* Mobile stacked cards */}
+              <div className="md:hidden space-y-3">
+                {[
+                  { title: 'English', time: '35 min', q: '50 (40 scored)', format: 'Multiple-choice, passage-based' },
+                  { title: 'Mathematics', time: '50 min', q: '45 (41 scored)', format: 'Multiple-choice, calculator allowed' },
+                  { title: 'Reading', time: '40 min', q: '36 (27 scored)', format: 'Multiple-choice, passage-based' },
+                  { title: 'Science (Optional)', time: '40 min', q: '40 (34 scored)', format: 'Data representation, research summaries, conflicting viewpoints' },
+                  { title: 'Writing (Optional)', time: '40 min', q: '1 essay', format: 'Essay analyzing a complex issue & perspectives' },
+                ].map((item, idx) => (
+                  <article key={idx} className="section-card">
+                    <div className="flex items-start justify-between">
+                      <div>
+                        <h3 className="text-[15px] font-semibold text-[#0F2851]">{item.title}</h3>
+                        <p className="text-[13px] text-[#64748B] mt-1">{item.format}</p>
+                      </div>
+                      <div className="text-right flex-shrink-0 ml-4">
+                        <span className="inline-flex items-center gap-1 bg-[#EFF6FF] text-[#1E4A76] text-[12px] font-semibold px-2.5 py-1 rounded-full">{item.time}</span>
+                        <p className="text-[12px] text-[#94A3B8] mt-1.5 font-medium">{item.q}</p>
+                      </div>
+                    </div>
+                  </article>
+                ))}
+              </div>
+
+              <p className="text-[13px] text-[#94A3B8] mt-4 text-center">* Scored questions only; some items are pretest/unscored.</p>
+            </div>
+          </section>
+
+          <div className="section-divider" />
+
+          {/* ───────────────── TOPIC / SECTION WEIGHT ───────────────── */}
+          <section id="topic-weight" className="w-full py-10">
+            <div className="max-w-6xl mx-auto">
+              <div className="flex flex-col-reverse md:flex-row items-start gap-8 mb-10">
+                <div className="w-full md:w-2/3">
+                  <div className="inline-flex items-center gap-2 bg-[#FFFBEB] text-[#B45309] text-[11px] font-semibold px-3 py-1 rounded-full mb-4 tracking-wide uppercase">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#B45309] inline-block"></span>
+                    Score Breakdown
+                  </div>
+                  <h2 className="text-[28px] font-bold text-[#0F2851] leading-tight" style={{ fontFamily: "'Playfair Display', serif" }}>
+                    Topic / Section Weight
+                  </h2>
+                  <p className="mt-3 text-[#64748B] text-[15px] leading-relaxed max-w-2xl">
+                    ACT content distribution and high-yield areas to prioritise in your preparation. Use the quick bars to scan high-weight focuses and drill down to practice.
+                  </p>
+                  <div className="mt-6 flex flex-wrap gap-3">
+                    <Link href="/act/Practice-Questions" className="btn-primary">
+                      Explore Sections
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" /></svg>
+                    </Link>
+                    <a href="#high-yield" className="btn-outline">
+                      High-Yield Topics
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-stretch">
+                {subjects.map((s) => (
+                  <article
+                    key={s.title}
+                    className="bg-white border border-[#E8EFF7] rounded-2xl p-6 shadow-sm hover:shadow-lg transition-all duration-200 hover:-translate-y-1 flex flex-col"
+                    style={{ borderTop: `3px solid ${s.color}` }}
+                  >
+                    <header className="flex items-start justify-between mb-5">
+                      <div>
+                        <h3 className="text-[16px] font-bold text-[#0F2851]">{s.title}</h3>
+                        <p className="text-[12px] font-medium mt-1" style={{ color: s.color }}>
+                          ⏱ {s.time}
+                        </p>
+                      </div>
+                      <span
+                        className="tag-badge"
+                        style={{ background: s.lightColor, color: s.color }}
+                      >
+                        {s.items.length} areas
+                      </span>
+                    </header>
+
+                    <div className="space-y-5 flex-1">
+                      {s.items.map((it) => (
+                        <div key={it.label}>
+                          <div className="flex items-center justify-between mb-1.5">
+                            <p className="text-[13px] font-semibold text-[#334155]">{it.label}</p>
+                            <p className="text-[13px] font-bold" style={{ color: s.color }}>{it.pct}%</p>
+                          </div>
+                          <div className="h-1.5 w-full bg-[#F1F5F9] rounded-full overflow-hidden">
+                            <div
+                              className="h-full rounded-full transition-all duration-500"
+                              style={{ width: `${it.pct}%`, background: `linear-gradient(90deg, ${s.color}CC, ${s.color})` }}
+                            />
+                          </div>
+                          <p className="text-[12px] text-[#94A3B8] mt-1.5">{it.desc}</p>
+                        </div>
+                      ))}
+                    </div>
+
+                    <div className="mt-auto pt-5 flex items-center justify-between border-t border-[#F1F5F9]">
+                      <a href={`#${s.title.toLowerCase()}`} className="text-[13px] font-semibold hover:underline transition" style={{ color: s.color }}>
+                        Practice →
+                      </a>
+                    </div>
+                  </article>
+                ))}
+
+                {/* Writing: full-width card */}
+                <article className="lg:col-span-3 bg-gradient-to-r from-[#F8FAFC] to-[#EFF6FF] border border-[#DBEAFE] rounded-2xl p-6 shadow-sm hover:shadow-md transition-all duration-200 flex flex-col">
+                  <header className="flex items-center justify-between mb-6">
+                    <div>
+                      <h3 className="text-[16px] font-bold text-[#0F2851]">Writing (Optional)</h3>
+                      <p className="text-[13px] text-[#64748B] mt-1">Essay scored 2–12 across four domains</p>
+                    </div>
+                    <span className="tag-badge bg-[#EFF6FF] text-[#1E4A76]">Essay Rubric</span>
+                  </header>
+
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
+                    {[
+                      { title: 'Ideas & Analysis', desc: 'Engage multiple perspectives', icon: '💡' },
+                      { title: 'Development & Support', desc: 'Reasoning, examples, implications', icon: '🏗️' },
+                      { title: 'Organization', desc: 'Clear structure and flow', icon: '📐' },
+                      { title: 'Language & Conventions', desc: 'Grammar, tone, style', icon: '✒️' },
+                    ].map((d) => (
+                      <div key={d.title} className="bg-white rounded-xl p-4 border border-[#E8EFF7] shadow-sm">
+                        <span className="text-2xl">{d.icon}</span>
+                        <p className="font-semibold text-[#0F2851] text-[13px] mt-2">{d.title}</p>
+                        <p className="text-[#64748B] text-[12px] mt-1">{d.desc}</p>
+                      </div>
+                    ))}
+                  </div>
+
+                  <p className="text-[12px] text-[#94A3B8] mt-5">Each domain contributes equally to the essay score (2–12).</p>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          {/* ───────────────── HIGH-YIELD TOPICS ───────────────── */}
+          <section id="high-yield" className="w-full py-10">
+            <div className="w-full flex flex-col items-center text-center space-y-3 mb-8">
+              <div className="inline-flex items-center gap-2 bg-[#FEF2F2] text-[#DC2626] text-[11px] font-semibold px-3 py-1 rounded-full tracking-wide uppercase">
+                <span className="w-1.5 h-1.5 rounded-full bg-[#DC2626] inline-block"></span>
+                High Priority
+              </div>
+              <h2 className="text-[28px] font-bold text-[#0F2851]" style={{ fontFamily: "'Playfair Display', serif" }}>
+                High-Yield Topics
+              </h2>
+              <p className="text-[#64748B] text-[15px] max-w-2xl">
+                Most frequently tested subjects and question types on the ACT exam, along with targeted study strategies to maximize your score.
+              </p>
+            </div>
+
+            <div className="space-y-4">
+              <HighYieldTopicsTable title="English" data={highYieldTopics.english} />
+              <HighYieldTopicsTable title="Mathematics" data={highYieldTopics.mathematics} />
+              <HighYieldTopicsTable title="Reading" data={highYieldTopics.reading} />
+              <HighYieldTopicsTable title="Science (Optional)" data={highYieldTopics.science} />
+            </div>
+          </section>
+
+        </div>
+      </div>
+    </div>
+  );
+}

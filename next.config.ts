@@ -23,6 +23,27 @@ const nextConfig: NextConfig = {
     
     return config;
   },
+
+  // 4. Image remote patterns (added for external images)
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i.pravatar.cc',
+      },
+      {
+        protocol: 'https',
+        hostname: 'videos.pexels.com',
+      },
+    ],
+  },
+
+
+  
 };
 
 export default nextConfig;
