@@ -83,19 +83,19 @@ export default function Navbar({ items, logo = "Logo" }: NavbarProps) {
 
         {/* Navigation bar */}
         <nav className="bg-[#0f2440] border-b border-white/10 shadow-[0_2px_32px_rgba(0,0,0,0.35)]">
-          <div className="max-w-[1360px] mx-auto px-5 h-[60px] flex items-center justify-between">
+          <div className="max-w-[1350px] mx-auto px-5 h-[60px] flex items-center justify-between">
             {/* Logo */}
             <Link
               href="/"
               className="flex items-center gap-2.5 no-underline"
               onClick={handleLinkClick}
             >
-              <div className="w-[45px] h-[45px] rounded-[10px] bg-white border border-white/20 flex items-center justify-center overflow-hidden">
+              <div className="w-[50px] h-[50px] rounded-[10px] flex items-center justify-center overflow-hidden">
                 <Image
-                  src="/logo-c.png"
+                  src="/logo-feather.png"
                   alt="logo"
-                  width={43}
-                  height={43}
+                  width={50}
+                  height={50}
                   priority
                 />
               </div>
@@ -116,7 +116,7 @@ export default function Navbar({ items, logo = "Logo" }: NavbarProps) {
             {/* Desktop Navigation */}
             <div className="max-[919px]:hidden min-[920px]:flex items-center gap-0.5">
               {items.map((item, idx) => {
-                const isCTA = item.label === "My Account";
+                const isAccount = item.label === "My Account";
                 return (
                   <div key={idx} className="relative group">
                     {item.children ? (
@@ -152,17 +152,29 @@ export default function Navbar({ items, logo = "Logo" }: NavbarProps) {
                           ))}
                         </div>
                       </>
-                    ) : isCTA ? (
+                    ) : isAccount ? (
                       <Link
-                        href={item.href || "#"}
+                        href={item.href || "/account"}
                         onClick={handleLinkClick}
-                        className="ml-2"
+                        className="ml-2 flex items-center justify-center"
+                        aria-label="Account"
                       >
-                        <button
-                          className={`${syne.className} text-[0.8rem] font-semibold tracking-[0.04em] uppercase text-[#0f2440] bg-[#5fb3f7] border-none rounded-md px-[18px] py-2 cursor-pointer transition-all duration-200 hover:bg-[#7dc4ff] hover:-translate-y-px hover:shadow-[0_4px_16px_rgba(95,179,247,0.4)]`}
-                        >
-                          {item.label}
-                        </button>
+                        <div className="w-8 h-8 rounded-full bg-white/10 border border-white/20 flex items-center justify-center transition-all duration-200 hover:bg-white/20 hover:border-[#5fb3f7]/50 hover:shadow-[0_0_0_2px_rgba(95,179,247,0.3)]">
+                          <svg
+                            width="18"
+                            height="18"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            className="text-white/80 group-hover:text-white"
+                          >
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                            <circle cx="12" cy="7" r="4" />
+                          </svg>
+                        </div>
                       </Link>
                     ) : (
                       <Link
