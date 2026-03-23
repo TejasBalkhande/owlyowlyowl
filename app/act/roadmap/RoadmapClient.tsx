@@ -1,9 +1,15 @@
+// app/act/roadmap/RoadmapClient.tsx
 "use client";
 
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import type { Section, SectionOption, PracticeLevel } from "../lib/actSections";
 import { saveUserRoadmapOrder } from "./actions";
+import { getSubjectConfig, ratingConfig,  TOP_LEVEL_TITLES, shuffleArray, MOTIVATIONAL_QUOTES, QUOTE_IMAGES,  STUDY_TIPS, ACT_LINKS, SUBJECT_META, SCORE_BANDS} from "./constants";
+
+// -----------------------------------------------------------------------------
+// Types & helpers (not moved to constants because they depend on props)
+// -----------------------------------------------------------------------------
 
 interface RoadmapItem {
   id: number;
@@ -33,183 +39,9 @@ const slugify = (text: string): string =>
 const getOptionKey = (item: RoadmapItem): string =>
   `${item.section.name}|${item.option.name}`;
 
-const getSubjectConfig = (sectionName: string) => {
-  switch (sectionName) {
-    case "English":
-      return {
-        badge: "bg-emerald-100 text-emerald-800 border-emerald-200",
-        accent: "bg-emerald-500",
-        ring: "ring-emerald-400",
-        selectedBtn: "bg-emerald-600 border-emerald-600 text-white shadow-emerald-200",
-        dot: "bg-emerald-500",
-        groupBg: "bg-emerald-50/60 border-emerald-100",
-        headerDot: "bg-emerald-400",
-      };
-    case "Mathematics":
-      return {
-        badge: "bg-blue-100 text-blue-800 border-blue-200",
-        accent: "bg-blue-500",
-        ring: "ring-blue-400",
-        selectedBtn: "bg-blue-600 border-blue-300 text-white shadow-blue-200",
-        dot: "bg-blue-500",
-        groupBg: "bg-blue-50/60 border-blue-100",
-        headerDot: "bg-blue-400",
-      };
-    case "Reading":
-      return {
-        badge: "bg-purple-100 text-purple-800 border-purple-200",
-        accent: "bg-purple-500",
-        ring: "ring-purple-400",
-        selectedBtn: "bg-purple-600 border-purple-600 text-white shadow-purple-200",
-        dot: "bg-purple-500",
-        groupBg: "bg-purple-50/60 border-purple-100",
-        headerDot: "bg-purple-400",
-      };
-    case "Science":
-      return {
-        badge: "bg-amber-100 text-amber-800 border-amber-200",
-        accent: "bg-amber-500",
-        ring: "ring-amber-400",
-        selectedBtn: "bg-amber-600 border-amber-600 text-white shadow-amber-200",
-        dot: "bg-amber-500",
-        groupBg: "bg-amber-50/60 border-amber-100",
-        headerDot: "bg-amber-400",
-      };
-    default:
-      return {
-        badge: "bg-gray-100 text-gray-800 border-gray-200",
-        accent: "bg-gray-500",
-        ring: "ring-gray-400",
-        selectedBtn: "bg-gray-600 border-gray-600 text-white shadow-gray-200",
-        dot: "bg-gray-500",
-        groupBg: "bg-gray-50 border-gray-100",
-        headerDot: "bg-gray-400",
-      };
-  }
-};
-
-const ratingConfig = [
-  {
-    value: 1,
-    label: "Weak",
-    emoji: "/emoji/weak-emoji.png",
-    emojiClass: "w-11 h-11",
-    color: "text-rose-600",
-    selectedBg: "bg-rose-300 border-rose-300 text-rose-900 shadow-rose-100",
-    pillBg: "bg-rose-50 border-rose-200 text-rose-700",
-    pillDot: "bg-rose-300",
-  },
-  {
-    value: 2,
-    label: "Fine",
-    emoji: "/emoji/normal-emoji.png",
-    emojiClass: "w-10 h-10",
-    color: "text-blue-600",
-    selectedBg: "bg-blue-300 border-blue-300 text-blue-900 shadow-blue-100",
-    pillBg: "bg-blue-50 border-blue-200 text-blue-700",
-    pillDot: "bg-blue-300",
-  },
-  {
-    value: 3,
-    label: "Strong",
-    emoji: "/emoji/strong-emoji.png",
-    emojiClass: "w-9 h-9",
-    color: "text-teal-600",
-    selectedBg: "bg-teal-300 border-teal-300 text-teal-900 shadow-teal-100",
-    pillBg: "bg-teal-50 border-teal-200 text-teal-700",
-    pillDot: "bg-teal-300",
-  },
-];
-
-const TOP_LEVEL_TITLES = [
-  "Topic Development",
-  "Linear Equations",
-  "Key Ideas and Details 1",
-  "Tables and Graphs 1",
-  "Linear and Exponential",
-];
-
-const shuffleArray = <T,>(array: T[]): T[] => {
-  const shuffled = [...array];
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-  }
-  return shuffled;
-};
-
-// ─── Sidebar data ─────────────────────────────────────────────────────────────
-
-const MOTIVATIONAL_QUOTES = [
-  { quote: "The secret of getting ahead is getting started.", author: "Mark Twain" },
-  { quote: "Small daily improvements over time lead to stunning results.", author: "Robin Sharma" },
-  { quote: "It always seems impossible until it's done.", author: "Nelson Mandela" },
-  { quote: "Success is the sum of small efforts, repeated day in and day out.", author: "Robert Collier" },
-  { quote: "Don't watch the clock; do what it does. Keep going.", author: "Sam Levenson" },
-  { quote: "The expert in anything was once a beginner.", author: "Helen Hayes" },
-  { quote: "Perseverance is not a long race; it is many short races one after another.", author: "Walter Elliot" },
-];
-
-// One image per day — atmospheric study/library photos from Unsplash
-const QUOTE_IMAGES = [
-  "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=640&q=75",
-  "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=640&q=75",
-  "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=640&q=75",
-  "https://images.unsplash.com/photo-1513258496099-48168024aec0?w=640&q=75",
-  "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=640&q=75",
-  "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=640&q=75",
-  "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=640&q=75",
-];
-
-const STUDY_TIPS = [
-  { tip: "Use timed practice to simulate real ACT conditions — aim for 45 seconds per English question.", label: "Timing" },
-  { tip: "For Reading, annotate the passage while reading before jumping to the questions.", label: "Reading" },
-  { tip: "On Math, eliminate obviously out-of-range choices before solving the full problem.", label: "Mathematics" },
-  { tip: "Science questions test data interpretation — trust the graphs, not prior knowledge.", label: "Science" },
-  { tip: "In English, the most concise grammatically correct option is almost always right.", label: "English" },
-  { tip: "Review every wrong answer — understanding your mistakes beats doing more questions.", label: "Review" },
-  { tip: "Space your practice across multiple sessions — spaced repetition significantly boosts retention.", label: "Retention" },
-];
-
-const ACT_LINKS = [
-  {
-    label: "Register for the ACT",
-    url: "https://www.act.org",
-    desc: "Official registration & account",
-  },
-  {
-    label: "Free Practice Resources",
-    url: "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation.html",
-    desc: "Official ACT prep materials",
-  },
-  {
-    label: "View Score Reports",
-    url: "https://www.act.org/content/act/en/products-and-services/the-act/scores.html",
-    desc: "Access your official ACT scores",
-  },
-  {
-    label: "Test Dates & Deadlines",
-    url: "https://www.act.org/content/act/en/products-and-services/the-act/registration.html",
-    desc: "Upcoming test windows",
-  },
-];
-
-const SUBJECT_META: Record<string, { bar: string; bg: string; text: string; label: string }> = {
-  English:     { bar: "bg-emerald-500", bg: "bg-emerald-50",  text: "text-emerald-700", label: "ENG" },
-  Mathematics: { bar: "bg-blue-500",    bg: "bg-blue-50",     text: "text-blue-700",    label: "MTH" },
-  Reading:     { bar: "bg-purple-500",  bg: "bg-purple-50",   text: "text-purple-700",  label: "RDG" },
-  Science:     { bar: "bg-amber-500",   bg: "bg-amber-50",    text: "text-amber-700",   label: "SCI" },
-};
-
-const SCORE_BANDS = [
-  { range: "33–36", tier: "Elite",      pct: 100, color: "bg-emerald-500", textColor: "text-emerald-700", bg: "bg-emerald-50" },
-  { range: "28–32", tier: "Strong",     pct: 82,  color: "bg-blue-500",    textColor: "text-blue-700",    bg: "bg-blue-50"    },
-  { range: "24–27", tier: "Above Avg",  pct: 64,  color: "bg-indigo-400",  textColor: "text-indigo-700",  bg: "bg-indigo-50"  },
-  { range: "18–23", tier: "Average",    pct: 46,  color: "bg-amber-400",   textColor: "text-amber-700",   bg: "bg-amber-50"   },
-  { range: "1–17",  tier: "Below Avg",  pct: 28,  color: "bg-rose-300",    textColor: "text-rose-700",    bg: "bg-rose-50"    },
-];
-
-// ─── Sidebar shared primitives ────────────────────────────────────────────────
+// -----------------------------------------------------------------------------
+// UI Components
+// -----------------------------------------------------------------------------
 
 function Card({ children, className = "" }: { children: React.ReactNode; className?: string }) {
   return (
@@ -227,8 +59,6 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
   );
 }
 
-// ─── Quote card — image background ───────────────────────────────────────────
-
 function QuoteCard() {
   const dayIndex = new Date().getDay();
   const { quote, author } = MOTIVATIONAL_QUOTES[dayIndex % MOTIVATIONAL_QUOTES.length];
@@ -239,7 +69,6 @@ function QuoteCard() {
       className="relative rounded-2xl overflow-hidden shadow-[0_2px_12px_rgba(0,0,0,0.10)]"
       style={{ minHeight: 210 }}
     >
-      {/* Background image */}
       <img
         src={imgSrc}
         alt=""
@@ -247,8 +76,6 @@ function QuoteCard() {
         className="absolute inset-0 w-full h-full object-cover"
         style={{ filter: "brightness(0.72) saturate(0.85)" }}
       />
-
-      {/* Gradient — fades to near-black at bottom for text contrast */}
       <div
         className="absolute inset-0"
         style={{
@@ -256,18 +83,13 @@ function QuoteCard() {
             "linear-gradient(160deg, rgba(0,0,0,0.04) 0%, rgba(0,0,0,0.55) 55%, rgba(0,0,0,0.78) 100%)",
         }}
       />
-
-      {/* Content */}
       <div className="relative z-10 flex flex-col justify-between p-5" style={{ minHeight: 210 }}>
-        {/* Top pill label */}
         <span
           className="self-start text-[10px] font-bold uppercase tracking-[0.14em] px-2.5 py-1 rounded-full"
           style={{ background: "rgba(255,255,255,0.15)", color: "rgba(255,255,255,0.75)", backdropFilter: "blur(4px)" }}
         >
           Daily Motivation
         </span>
-
-        {/* Quote block */}
         <div className="mt-6">
           <svg className="w-6 h-6 mb-2 opacity-40" fill="currentColor" viewBox="0 0 32 32" style={{ color: "#fff" }}>
             <path d="M10 8C5.6 8 2 11.6 2 16v8h8v-8H6c0-2.2 1.8-4 4-4V8zm14 0c-4.4 0-8 3.6-8 8v8h8v-8h-4c0-2.2 1.8-4 4-4V8z" />
@@ -283,8 +105,6 @@ function QuoteCard() {
     </div>
   );
 }
-
-// ─── Progress card ────────────────────────────────────────────────────────────
 
 function ProgressCard({
   initialItems,
@@ -317,10 +137,7 @@ function ProgressCard({
     <Card>
       <div className="px-5 pt-5 pb-4">
         <SectionLabel>Your Progress</SectionLabel>
-
-        {/* Circle + numbers row */}
         <div className="flex items-center gap-4 mb-5">
-          {/* SVG ring */}
           <div className="relative flex-shrink-0 w-[56px] h-[56px]">
             <svg viewBox="0 0 48 48" className="w-full h-full -rotate-90">
               <circle cx="24" cy="24" r="20" fill="none" stroke="#F3F4F6" strokeWidth="4.5" />
@@ -337,8 +154,6 @@ function ProgressCard({
               {overallPct}%
             </span>
           </div>
-
-          {/* Stats */}
           <div className="space-y-1.5 flex-1 min-w-0">
             <div className="flex items-baseline gap-1">
               <span className="text-lg font-bold text-gray-900 leading-none">{attempted}</span>
@@ -350,11 +165,7 @@ function ProgressCard({
             </div>
           </div>
         </div>
-
-        {/* Thin divider */}
         <div className="h-px bg-gray-50 -mx-5 mb-4" />
-
-        {/* Per-subject bars */}
         <div className="space-y-3">
           {Object.entries(subjectStats).map(([subject, stats]) => {
             const m = SUBJECT_META[subject];
@@ -390,8 +201,6 @@ function ProgressCard({
   );
 }
 
-// ─── Study tip ────────────────────────────────────────────────────────────────
-
 function StudyTipCard() {
   const dayIndex = new Date().getDay();
   const { tip, label } = STUDY_TIPS[dayIndex % STUDY_TIPS.length];
@@ -412,8 +221,6 @@ function StudyTipCard() {
     </Card>
   );
 }
-
-// ─── ACT resources ────────────────────────────────────────────────────────────
 
 const LinkArrow = () => (
   <svg className="w-3.5 h-3.5 flex-shrink-0 text-gray-300 group-hover:text-[#1E4A76] transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -454,8 +261,6 @@ function ResourcesCard() {
   );
 }
 
-// ─── Score scale ──────────────────────────────────────────────────────────────
-
 function ScaleCard() {
   return (
     <Card>
@@ -482,7 +287,9 @@ function ScaleCard() {
   );
 }
 
-// ─── Main component ───────────────────────────────────────────────────────────
+// -----------------------------------------------------------------------------
+// Main Component
+// -----------------------------------------------------------------------------
 
 export default function RoadmapClient({
   initialItems,
@@ -581,8 +388,7 @@ export default function RoadmapClient({
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-
-      {/* ── Header ── */}
+      {/* Header */}
       <div className="mb-10 flex flex-col sm:flex-row items-center justify-between gap-4">
         <div className="text-center sm:text-left">
           <h1 className="text-4xl font-bold text-[#1E4A76]">ACT Roadmap</h1>
@@ -615,10 +421,9 @@ export default function RoadmapClient({
         </div>
       </div>
 
-      {/* ── Two-column layout ── */}
+      {/* Two-column layout */}
       <div className="flex flex-col lg:flex-row gap-8 items-start">
-
-        {/* ── LEFT: Topic list (unchanged) ── */}
+        {/* Left: Topic list */}
         <div className="flex-1 min-w-0">
           <div className="space-y-5">
             {orderedItems.map((item) => {
@@ -707,7 +512,7 @@ export default function RoadmapClient({
           </p>
         </div>
 
-        {/* ── RIGHT: Sidebar ── */}
+        {/* Right: Sidebar */}
         <aside className="w-full lg:w-[300px] xl:w-[310px] flex-shrink-0 lg:sticky lg:top-8 space-y-3.5">
           <QuoteCard />
           <ProgressCard initialItems={initialItems} initialResults={initialResults} />
@@ -717,7 +522,7 @@ export default function RoadmapClient({
         </aside>
       </div>
 
-      {/* ── Modal ── */}
+      {/* Modal */}
       {showModal && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center p-4"
