@@ -75,67 +75,75 @@ export default function ActClient({ username, isLoggedIn, dashboardStats }: ActC
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
             {/* LEFT COLUMN – Main content */}
             <div className="lg:col-span-4 space-y-8">
-              {/* Hero Section – same as original */}
-              <div
-                className="relative z-10 w-full bg-white rounded-2xl mb-0 px-6 md:px-9 py-4 md:py-0
-                          flex flex-col md:flex-row items-center gap-6 transition-shadow duration-300"
-                style={{ boxShadow: "0 -2px 6px rgba(43, 43, 43, 0.10), 0 16px 28px rgba(69, 69, 69,0.05)" }}
-              >
-                <div className="w-full md:w-3/5 flex flex-col space-y-2">
-                  <div className="flex items-center border border-[#E2E8F0] rounded-full px-4 py-2 w-full bg-white text-sm shadow-sm focus-within:ring-2 focus-within:ring-[#1E4A76]/20 transition mt-6">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5 text-[#A0AEC0]"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M21 21l-4.35-4.35M16.65 16.65A7.5 7.5 0 1110.5 3a7.5 7.5 0 016.15 13.65z"
-                      />
-                    </svg>
-                    <input
-                      type="text"
-                      placeholder="Search for books, notes, Question Banks"
-                      className="ml-2 w-full outline-none bg-transparent text-[#2D3748] placeholder-[#A0AEC0]"
+
+            <div
+              className="relative z-10 w-full bg-white rounded-2xl mb-0 px-4 md:px-9 py-3 md:py-0
+                        flex flex-col md:flex-row items-center gap-6 transition-shadow duration-300"
+              style={{ boxShadow: "0 -2px 6px rgba(43, 43, 43, 0.10), 0 16px 28px rgba(69, 69, 69,0.05)" }}
+            >
+              <div className="w-full md:w-3/5 flex flex-col space-y-2">
+                {/* Search bar */}
+                <div className="flex items-center border border-[#E2E8F0] rounded-full px-3 py-1.5 md:py-2 w-full bg-white text-sm shadow-sm focus-within:ring-2 focus-within:ring-[#1E4A76]/20 transition mt-3 md:mt-6">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-4 w-4 md:h-5 md:w-5 text-[#A0AEC0] shrink-0"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M21 21l-4.35-4.35M16.65 16.65A7.5 7.5 0 1110.5 3a7.5 7.5 0 016.15 13.65z"
                     />
-                  </div>
-                  <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-3">
-                    <div className="w-full sm:w-1/3 flex justify-center sm:justify-start mt-2 mb-3">
-                      <Image
-                        src="/hero-left-2.png"
-                        alt="OwenForge logo"
-                        width={200}
-                        height={200}
-                        className="object-contain w-full max-w-[150px] sm:max-w-[200px] h-auto"
-                      />
-                    </div>
-                    <div className="w-full sm:w-2/3 text-center sm:text-left">
-                      <h1 className="md:text-2xl text-xl font-semibold font-sans text-[#1E4A76]">
-                        Strategic ACT Preparation for Excellence
-                      </h1>
-                      <p className="text-[#4A5568] font-times md:text-[17px] text-[15px] mt-2">
-                        Comprehensive ACT Exam Guide: Strategies, Practice, and Resources to Maximize Your Score
-                      </p>
-                      <button className="mt-4 mb-8 px-6 py-2 bg-[#1E4A76] text-white rounded-lg hover:bg-[#163A5E] transition shadow-md">
-                        Start Preparation
-                      </button>
-                    </div>
-                  </div>
-                </div>
-                <div className="hidden md:flex w-full md:w-2/5 justify-center md:justify-end self-end">
-                  <Image
-                    src="/girlhero.png"
-                    alt="Girl hero"
-                    width={400}
-                    height={400}
-                    className="object-contain w-full max-w-[400px] h-auto md:-mr-6"
+                  </svg>
+                  <input
+                    type="text"
+                    placeholder="Search for books, notes, Question Banks"
+                    className="ml-2 w-full outline-none bg-transparent text-[#2D3748] placeholder-[#A0AEC0] text-sm"
                   />
                 </div>
+
+                {/* Logo + Text — row on ALL sizes */}
+                <div className="flex flex-row items-center gap-1 sm:gap-4">
+                  {/* Logo — smaller on mobile */}
+                  <div className="shrink-0 flex justify-center">
+                    <Image
+                      src="/hero-left-2.png"
+                      alt="OwenForge logo"
+                      width={200}
+                      height={200}
+                      className="object-contain w-[75px] sm:w-[100px] md:w-[150px] h-auto"
+                    />
+                  </div>
+
+                  {/* Text block */}
+                  <div className="flex flex-col">
+                    <h1 className="text-[15px] sm:text-lg md:text-2xl font-semibold font-sans text-[#1E4A76] leading-snug">
+                      Strategic ACT Preparation for Excellence
+                    </h1>
+                    <p className="text-[#4A5568] font-times text-[12px] sm:text-[14px] md:text-[17px] mt-1 leading-snug">
+                      Comprehensive ACT Exam Guide: Strategies, Practice, and Resources to Maximize Your Score
+                    </p>
+                    <button className="mt-2 md:mt-4 mb-3 md:mb-8 px-4 md:px-6 py-1.5 md:py-2 text-sm md:text-base bg-[#1E4A76] text-white rounded-lg hover:bg-[#163A5E] transition shadow-md w-fit">
+                      Start Preparation
+                    </button>
+                  </div>
+                </div>
               </div>
+
+              {/* Desktop hero image — unchanged */}
+              <div className="hidden md:flex w-full md:w-2/5 justify-center md:justify-end self-end">
+                <Image
+                  src="/girlhero.png"
+                  alt="Girl hero"
+                  width={400}
+                  height={400}
+                  className="object-contain w-full max-w-[400px] h-auto md:-mr-6"
+                />
+              </div>
+            </div>
 
               {/* Quick navigation links */}
               <div className="w-full overflow-x-auto pt-3 font-times md:text-[17px] text-[15px] mb-3">

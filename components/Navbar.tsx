@@ -137,14 +137,15 @@ export default function Navbar({ items, logo = "Logo" }: NavbarProps) {
                             />
                           </svg>
                         </button>
+                        {/* Desktop Dropdown - White Background */}
                         <div
-                          className="absolute top-full left-1/2 -translate-x-1/2 -translate-y-1 opacity-0 invisible transition-all duration-200 pointer-events-none group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 group-hover:pointer-events-auto min-w-[210px] bg-[#0f2440] border border-[#5fb3f7]/20 rounded-lg p-1.5 shadow-[0_16px_48px_rgba(0,0,0,0.5),0_0_0_1px_rgba(255,255,255,0.03)]"
+                          className="absolute top-full left-1/2 -translate-x-1/2 -translate-y-1 opacity-0 invisible transition-all duration-200 pointer-events-none group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 group-hover:pointer-events-auto min-w-[210px] bg-white border border-gray-200 rounded-lg p-1.5 shadow-[0_16px_48px_rgba(0,0,0,0.12)]"
                         >
                           {item.children.map((child, ci) => (
                             <Link
                               key={ci}
                               href={child.href || "#"}
-                              className={`${inter.className} flex items-center gap-2 px-3 py-2 rounded-md text-[0.83rem] font-normal text-white/65 transition-colors duration-150 hover:bg-[#5fb3f7]/10 hover:text-white before:content-[''] before:w-1 before:h-1 before:rounded-full before:bg-[#5fb3f7]/40 before:transition-colors hover:before:bg-[#5fb3f7]`}
+                              className={`${inter.className} flex items-center gap-2 px-3 py-2 rounded-md text-[0.83rem] font-normal text-gray-700 transition-colors duration-150 hover:bg-gray-100 hover:text-gray-900 before:content-[''] before:w-1 before:h-1 before:rounded-full before:bg-gray-400 before:transition-colors hover:before:bg-gray-600`}
                               onClick={handleLinkClick}
                             >
                               {child.label}
@@ -255,12 +256,12 @@ export default function Navbar({ items, logo = "Logo" }: NavbarProps) {
                         </svg>
                       </button>
                       {openDropdown === idx && (
-                        <div className="pl-3.5 mt-1 border-l border-[#5fb3f7]/30 ml-2.5">
+                        <div className="mt-2 mb-2 bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                           {item.children.map((child, ci) => (
                             <Link
                               key={ci}
                               href={child.href || "#"}
-                              className={`${inter.className} block text-[0.84rem] text-white/50 px-2.5 py-2 rounded-md transition-colors duration-150 hover:text-[#5fb3f7] hover:bg-[#5fb3f7]/10`}
+                              className={`${inter.className} block px-4 py-2.5 text-sm text-gray-700 transition-colors duration-150 hover:bg-gray-100 hover:text-gray-900`}
                               onClick={handleLinkClick}
                             >
                               {child.label}
