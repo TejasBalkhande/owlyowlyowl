@@ -79,11 +79,10 @@ export default function Navbar({ items, logo = "Logo" }: NavbarProps) {
         className={`${syne.variable} ${inter.variable} fixed top-0 left-0 w-full z-50`}
       >
         {/* Accent gradient bar */}
-        <div className="h-[2px] bg-gradient-to-r from-transparent via-[#5fb3f7] via-30% to-[#a78bfa] to-70% to-transparent" />
 
         {/* Navigation bar */}
         <nav className="bg-[#0f2440] border-b border-white/10 shadow-[0_2px_32px_rgba(0,0,0,0.35)]">
-          <div className="max-w-[1350px] mx-auto px-5 h-[60px] flex items-center justify-between">
+          <div className="max-w-[1400px] mx-auto px-5 h-[60px] flex items-center justify-between">
             {/* Logo */}
             <Link
               href="/"

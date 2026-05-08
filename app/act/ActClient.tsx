@@ -120,8 +120,9 @@ export default function ActClient({ username, isLoggedIn, dashboardStats }: ActC
 
                   {/* Text block */}
                   <div className="flex flex-col">
-                    <h1 className="text-[15px] sm:text-lg md:text-2xl font-semibold font-sans text-[#1E4A76] leading-snug">
-                      Strategic ACT Preparation for Excellence
+                    <h1 className="text-[15px] sm:text-lg md:text-3xl font-bold font-sans leading-snug">
+                      <span className="text-black">Strategic ACT Preparation</span>{" "}
+                      <span className="text-[#1E4A76]">for Excellence</span>
                     </h1>
                     <p className="text-[#4A5568] font-times text-[12px] sm:text-[14px] md:text-[17px] mt-1 leading-snug">
                       Comprehensive ACT Exam Guide: Strategies, Practice, and Resources to Maximize Your Score
@@ -134,45 +135,60 @@ export default function ActClient({ username, isLoggedIn, dashboardStats }: ActC
               </div>
 
               {/* Desktop hero image — unchanged */}
-              <div className="hidden md:flex w-full md:w-2/5 justify-center md:justify-end self-end">
+              <div className="hidden md:flex w-full md:w-2/5 justify-center">
                 <Image
-                  src="/girlhero.png"
+                  src="/image8.png"
                   alt="Girl hero"
-                  width={400}
-                  height={400}
-                  className="object-contain w-full max-w-[400px] h-auto md:-mr-6"
+                  width={340}
+                  height={340}
+                  className="object-contain w-full max-w-[340px] h-auto md:-mr-4"
                 />
               </div>
             </div>
 
-              {/* Quick navigation links */}
-              <div className="w-full overflow-x-auto pt-3 font-times md:text-[17px] text-[15px] mb-3">
-                <div className="flex flex-wrap md:flex-nowrap gap-x-8 gap-y-1 md:gap-y-0 text-[#2D3748] font-medium leading-tight pb-2">
+              {/* Quick navigation links - Enhanced UI with smaller text & icons */}
+              <div className="w-full overflow-x-auto pt-3 pb-4 mb-3">
+                <div className="flex flex-wrap md:flex-nowrap gap-2 md:gap-2 justify-center md:justify-start">
                   {[
-                    { id: 'understanding-act', label: 'Understanding the ACT Exam' },
-                    { id: 'topic-weight', label: 'Topic/Section Weight' },
-                    { id: 'test-structure', label: 'Test Structure' },
-                    { id: 'high-yield', label: 'High-Yield' },
-                  ].map((item) => (
-                    <button
-                      key={item.id}
-                      onClick={() => scrollToSection(item.id)}
-                      className="cursor-pointer pb-1 underline underline-offset-4 decoration-[#2D3748]
-                                hover:text-[#1E4A76] hover:decoration-[#1E4A76]
-                                active:text-[#2563EB] active:decoration-[#2563EB]
-                                transition-colors duration-200"
-                    >
-                      {item.label}
-                    </button>
-                  ))}
+                    { id: 'understanding-act', label: 'Understanding the ACT Exam', icon: 'BookOpen' },
+                    { id: 'topic-weight', label: 'Topic/Section Weight', icon: 'PieChart' },
+                    { id: 'test-structure', label: 'Test Structure', icon: 'LayoutTemplate' },
+                    { id: 'high-yield', label: 'High-Yield', icon: 'Zap' },
+                  ].map((item) => {
+                    const IconComponent = LucideIcons[item.icon as keyof typeof LucideIcons] as React.ElementType;
+                    return (
+                      <button
+                        key={item.id}
+                        onClick={() => scrollToSection(item.id)}
+                        className="group inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full
+                                  bg-white border border-[#E2E8F0] shadow-sm
+                                  text-[#2D3748] text-xs md:text-sm font-medium
+                                  hover:border-[#1E4A76] hover:bg-[#F0F7FF] hover:shadow-md
+                                  active:bg-[#1E4A76] active:text-white active:border-[#1E4A76]
+                                  transition-all duration-200 ease-out
+                                  transform hover:-translate-y-0.5
+                                  cursor-pointer"
+                      >
+                        {IconComponent && (
+                          <IconComponent className="w-3 h-3 md:w-3.5 md:h-3.5 text-[#1E4A76] group-active:text-white transition-colors" />
+                        )}
+                        <span>{item.label}</span>
+                        {/* Optional: subtle indicator dot on hover */}
+                        <span className="hidden md:inline-block w-1 h-1 rounded-full bg-[#1E4A76] opacity-0 group-hover:opacity-100 transition-opacity duration-200"></span>
+                      </button>
+                    );
+                  })}
                 </div>
               </div>
 
               {/* Mocks and Questions */}
               <section>
                 <div className="w-full py-3 flex flex-col-reverse md:flex-row items-center md:items-start gap-6">
-                  <div className="w-full md:w-1/2 flex flex-col items-start space-y-4">
-                    <h1 className="text-2xl font-semibold text-left font-sans text-[#1E4A76]">ACT Test Simulator</h1>
+                  <div className="w-full md:w-1/2 flex flex-col items-start space-y-2">
+                    <h1 className="text-2xl font-semibold text-left font-sans">
+                      <span className="text-black">Full-Scale</span>{" "}
+                      <span className="text-[#1E4A76]">ACT Practice</span>
+                    </h1>
                     <h2 className="text-[#4A5568] text-left font-times text-[17px] lg:w-150">
                       detailed explanations, full-length mock exams, and topic-wise practice questions to strengthen concepts and improve your score.
                     </h2>
@@ -203,20 +219,20 @@ export default function ActClient({ username, isLoggedIn, dashboardStats }: ActC
                 </div>
               </section>
 
-              <div className="w-full flex justify-center mb-5 mt-10">
+              <div className="w-full flex justify-center">
                 <div className="w-full max-w-5xl h-px bg-gradient-to-r from-transparent via-[#E2E8F0] to-transparent"></div>
               </div>
 
               {/* Video courses section */}
               <section>
-                <div className="w-full py-10 flex flex-col md:flex-row md:items-start gap-6">
+                <div className="w-full py-4 flex flex-col md:flex-row md:items-start gap-6">
                   <div className="w-full md:w-auto flex justify-center md:justify-start">
                     <Image
-                      src="/video-img-9.png"
+                      src="/imagelap.png"
                       alt="Video lessons preview"
                       width={500}
                       height={400}
-                      className="object-contain w-full max-w-sm md:max-w-md drop-shadow-xl rounded-md hover:bg-[#1E4A76]"
+                      className="object-contain w-full max-w-sm md:max-w-md "
                     />
                   </div>
                   <div className="w-full md:flex-1 flex flex-col space-y-4">
@@ -247,7 +263,7 @@ export default function ActClient({ username, isLoggedIn, dashboardStats }: ActC
               <section className="w-full">
                 <div className="w-full py-6">
                   <div className="w-full flex flex-col space-y-2">
-                    <h1 className="text-2xl font-semibold font-sans text-[#1E4A76]">Books & Written Notes For ACT Prep</h1>
+                    <h1 className="text-2xl font-semibold font-sans text-[#1E4A76]">Study with ACT books and notes</h1>
                     <h2 className="text-[#4A5568] font-times text-[17px] mb-4 w-full">
                       Books for ACT Exam Preparation: Comprehensive Guides, Practice Tests, and Subject-Specific Resources to Ace the ACT
                     </h2>
