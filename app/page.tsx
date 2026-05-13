@@ -9,7 +9,7 @@ const menuItems: MenuItem[] = [
     children: [
       { label: "SAT (Scholastic Assessment Test)", href: "/sat" },
       { label: "ACT (American College Testing)", href: "/act" },
-      { label: "GED (General Educational Development)", href: "/ged" },
+      { label: "GED (General Educational Development)", href: "/GED" },
     ],
   },
   {
