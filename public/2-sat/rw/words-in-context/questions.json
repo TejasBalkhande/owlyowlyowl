@@ -1,0 +1,265 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "questionId": "q1",
+      "passageId": "",
+      "questionHtml": "What is the value of \\(|8 - 3| - |3 - 8|\\)?",
+      "options": {
+        "A": "\\(-10\\)",
+        "B": "\\(-5\\)",
+        "C": "0",
+        "D": "5"
+      },
+      "correctOption": "C",
+      "explanationHtml": "\\[|8 - 3| = |5| = 5\\] \\[|3 - 8| = |-5| = 5\\] \\[5 - 5 = 0\\] Absolute value always gives a non‑negative result; the distance between two numbers is the same in both directions."
+    },
+    {
+      "questionId": "q2",
+      "passageId": "",
+      "questionHtml": "Which of the following is a rational number?",
+      "options": {
+        "A": "\\(\\sqrt{5}\\)",
+        "B": "\\(\\pi\\)",
+        "C": "\\(\\sqrt{16}\\)",
+        "D": "\\(\\sqrt{8}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "A rational number can be written as a fraction \\(\\frac{p}{q}\\) with integers \\(p, q\\). \\(\\sqrt{16} = 4 = \\frac{4}{1}\\) → rational. \\(\\sqrt{5}\\), \\(\\pi\\), \\(\\sqrt{8}\\) are irrational."
+    },
+    {
+      "questionId": "q3",
+      "passageId": "",
+      "questionHtml": "What rational number is exactly halfway between \\(\\frac{1}{4}\\) and \\(\\frac{1}{2}\\)?",
+      "options": {
+        "A": "\\(\\frac{1}{3}\\)",
+        "B": "\\(\\frac{3}{8}\\)",
+        "C": "\\(\\frac{2}{5}\\)",
+        "D": "\\(\\frac{3}{4}\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "Halfway = average = \\(\\frac{\\frac{1}{4} + \\frac{1}{2}}{2}\\). Common denominator: \\(\\frac{1}{4} + \\frac{2}{4} = \\frac{3}{4}\\). Divide by 2: \\(\\frac{3}{4} \\div 2 = \\frac{3}{4} \\times \\frac{1}{2} = \\frac{3}{8}\\)."
+    },
+    {
+      "questionId": "q4",
+      "passageId": "",
+      "questionHtml": "Given \\(i = \\sqrt{-1}\\), what is the value of \\(\\sqrt{25} + \\sqrt{-4}\\)?",
+      "options": {
+        "A": "\\(5 + 2i\\)",
+        "B": "\\(5 - 2i\\)",
+        "C": "\\(7i\\)",
+        "D": "3"
+      },
+      "correctOption": "A",
+      "explanationHtml": "\\[\\sqrt{25} = 5\\] \\[\\sqrt{-4} = \\sqrt{4} \\cdot \\sqrt{-1} = 2i\\] \\[\\text{Sum} = 5 + 2i\\]"
+    },
+    {
+      "questionId": "q5",
+      "passageId": "",
+      "questionHtml": "If \\(x < y\\), then \\(|x - y|\\) is equivalent to:",
+      "options": {
+        "A": "\\(x - y\\)",
+        "B": "\\(y - x\\)",
+        "C": "\\(x + y\\)",
+        "D": "\\(-x - y\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "For any two numbers, \\(|a - b|\\) is the distance between them. Since \\(x < y\\), \\(x - y\\) is negative and its absolute value is \\(-(x - y) = y - x\\)."
+    },
+    {
+      "questionId": "q6",
+      "passageId": "",
+      "questionHtml": "Simplify: \\((4 + 5i) - (2 - 3i)\\)",
+      "options": {
+        "A": "\\(2 + 8i\\)",
+        "B": "\\(6 + 2i\\)",
+        "C": "\\(2 + 2i\\)",
+        "D": "\\(6 + 8i\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "Subtract real parts: \\(4 - 2 = 2\\). Subtract imaginary parts: \\(5i - (-3i) = 5i + 3i = 8i\\). Result: \\(2 + 8i\\)."
+    },
+    {
+      "questionId": "q7",
+      "passageId": "",
+      "questionHtml": "What is the product of \\(\\frac{3}{4}\\) and \\(\\frac{2}{5}\\)?",
+      "options": {
+        "A": "\\(\\frac{5}{9}\\)",
+        "B": "\\(\\frac{6}{20}\\)",
+        "C": "\\(\\frac{3}{10}\\)",
+        "D": "\\(\\frac{1}{2}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "\\[\\frac{3}{4} \\times \\frac{2}{5} = \\frac{3 \\times 2}{4 \\times 5} = \\frac{6}{20} = \\frac{3}{10}\\] (simplified)."
+    },
+    {
+      "questionId": "q8",
+      "passageId": "",
+      "questionHtml": "Which number is NOT a real number?",
+      "options": {
+        "A": "\\(\\sqrt{-1}\\)",
+        "B": "\\(\\sqrt{4}\\)",
+        "C": "0",
+        "D": "\\(-\\frac{2}{3}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "\\(\\sqrt{-1} = i\\) is an imaginary (non‑real) number. All others lie on the real number line."
+    },
+    {
+      "questionId": "q9",
+      "passageId": "",
+      "questionHtml": "What is the value of \\(i^2\\)?",
+      "options": {
+        "A": "1",
+        "B": "-1",
+        "C": "i",
+        "D": "-i"
+      },
+      "correctOption": "B",
+      "explanationHtml": "By definition, \\(i = \\sqrt{-1}\\). Squaring both sides gives \\(i^2 = -1\\)."
+    },
+    {
+      "questionId": "q10",
+      "passageId": "",
+      "questionHtml": "Convert 0.2 to a fraction in simplest form.",
+      "options": {
+        "A": "\\(\\frac{2}{100}\\)",
+        "B": "\\(\\frac{1}{5}\\)",
+        "C": "\\(\\frac{1}{50}\\)",
+        "D": "\\(\\frac{2}{10}\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "\\[0.2 = \\frac{2}{10} = \\frac{1}{5}\\] (simplified)."
+    },
+    {
+      "questionId": "q11",
+      "passageId": "",
+      "questionHtml": "What is the distance in the complex plane between \\(1 + 2i\\) and \\(4 + 6i\\)?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "\\(\\sqrt{7}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "Treat as points \\((1,2)\\) and \\((4,6)\\). \\[\\text{Distance} = \\sqrt{(4-1)^2 + (6-2)^2} = \\sqrt{3^2 + 4^2} = \\sqrt{9+16} = \\sqrt{25} = 5\\]"
+    },
+    {
+      "questionId": "q12",
+      "passageId": "",
+      "questionHtml": "For \\(i = \\sqrt{-1}\\), what is the value of \\((1 + i)^{4}\\)?",
+      "options": {
+        "A": "4",
+        "B": "-4",
+        "C": "4i",
+        "D": "-4i"
+      },
+      "correctOption": "B",
+      "explanationHtml": "First compute \\((1+i)^2 = 1 + 2i + i^2 = 1 + 2i - 1 = 2i\\). Then \\((1+i)^4 = (2i)^2 = 4i^2 = 4(-1) = -4\\)."
+    },
+    {
+      "questionId": "q13",
+      "passageId": "",
+      "questionHtml": "Which of the following is equivalent to \\(\\frac{5}{2 - i}\\)?",
+      "options": {
+        "A": "\\(2 + i\\)",
+        "B": "\\(2 - i\\)",
+        "C": "\\(\\frac{5}{2} + \\frac{5}{2}i\\)",
+        "D": "\\(\\frac{5}{3} + \\frac{5}{3}i\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "Multiply numerator and denominator by the conjugate \\(2 + i\\): \\[\\frac{5}{2-i} \\cdot \\frac{2+i}{2+i} = \\frac{5(2+i)}{(2-i)(2+i)} = \\frac{5(2+i)}{4+1} = \\frac{5(2+i)}{5} = 2+i\\]"
+    },
+    {
+      "questionId": "q14",
+      "passageId": "",
+      "questionHtml": "If \\(x\\) and \\(y\\) are real numbers and \\((x + yi)(1 + 2i) = -3 + 4i\\), what is the value of \\(x + y\\)?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctOption": "C",
+      "explanationHtml": "Expand: \\((x + yi)(1 + 2i) = x + 2xi + yi + 2yi^2 = x + 2xi + yi - 2y = (x - 2y) + (2x + y)i\\).\nSet equal to \\(-3 + 4i\\):\n\\[\\begin{cases} x - 2y = -3 \\\\ 2x + y = 4 \\end{cases}\\]\nFrom the second, \\(y = 4 - 2x\\). Substitute into the first: \\(x - 2(4 - 2x) = -3 \\implies x - 8 + 4x = -3 \\implies 5x = 5 \\implies x = 1\\). Then \\(y = 4 - 2(1) = 2\\). So \\(x + y = 3\\)."
+    },
+    {
+      "questionId": "q15",
+      "passageId": "",
+      "questionHtml": "Factor \\(x^2 + 36\\) over the complex numbers.",
+      "options": {
+        "A": "\\((x + 6)(x - 6)\\)",
+        "B": "\\((x + 6i)(x - 6i)\\)",
+        "C": "\\((x + 6i)^2\\)",
+        "D": "\\((x - 6i)^2\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "Over the reals, \\(x^2 + 36\\) is prime. Over the complex numbers, use the identity \\(a^2 + b^2 = (a + bi)(a - bi)\\). Here \\(a = x\\), \\(b = 6\\): \\(x^2 + 36 = (x + 6i)(x - 6i)\\)."
+    },
+    {
+      "questionId": "q16",
+      "passageId": "",
+      "questionHtml": "If \\(a\\) and \\(b\\) are positive integers and \\(\\frac{a}{b} = 0.\\overline{3}\\), what is the least possible value of \\(a + b\\)?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "correctOption": "A",
+      "explanationHtml": "\\(0.\\overline{3} = \\frac{1}{3}\\). Thus \\(\\frac{a}{b} = \\frac{1}{3} \\implies 3a = b\\). The smallest positive integer \\(a = 1\\) gives \\(b = 3\\), so \\(a + b = 1 + 3 = 4\\)."
+    },
+    {
+      "questionId": "q17",
+      "passageId": "",
+      "questionHtml": "What is the modulus of \\(-5 + 12i\\)?",
+      "options": {
+        "A": "7",
+        "B": "13",
+        "C": "17",
+        "D": "-13"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The modulus of \\(a + bi\\) is \\(\\sqrt{a^2 + b^2}\\). Here \\(a = -5\\), \\(b = 12\\): \\[\\sqrt{(-5)^2 + 12^2} = \\sqrt{25 + 144} = \\sqrt{169} = 13\\]"
+    },
+    {
+      "questionId": "q18",
+      "passageId": "",
+      "questionHtml": "Which of the following is equivalent to \\(\\sqrt{-50}\\)?",
+      "options": {
+        "A": "\\(5i\\sqrt{2}\\)",
+        "B": "\\(5\\sqrt{2}\\)",
+        "C": "\\(25i\\sqrt{2}\\)",
+        "D": "\\(5i\\sqrt{10}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "\\[\\sqrt{-50} = \\sqrt{50} \\cdot \\sqrt{-1} = i\\sqrt{50} = i\\sqrt{25 \\cdot 2} = i \\cdot 5\\sqrt{2} = 5i\\sqrt{2}\\]"
+    },
+    {
+      "questionId": "q19",
+      "passageId": "",
+      "questionHtml": "If \\(\\frac{5 + 5i}{c + di} = 2 + i\\), where \\(c\\) and \\(d\\) are real numbers, what is the value of \\(c \\cdot d\\)?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctOption": "C",
+      "explanationHtml": "From \\(\\frac{5 + 5i}{c + di} = 2 + i\\), we have \\(5 + 5i = (2 + i)(c + di)\\). Expand the right side: \\(2c + 2di + ci + di^2 = (2c - d) + (2d + c)i\\). Equate real and imaginary parts: \\[\\begin{cases} 2c - d = 5 \\\\ 2d + c = 5 \\end{cases}\\] From the first, \\(d = 2c - 5\\). Substitute into the second: \\(2(2c - 5) + c = 5 \\implies 4c - 10 + c = 5 \\implies 5c = 15 \\implies c = 3\\). Then \\(d = 2(3) - 5 = 1\\). So \\(c \\cdot d = 3 \\cdot 1 = 3\\)."
+    },
+    {
+      "questionId": "q20",
+      "passageId": "",
+      "questionHtml": "The expression \\(\\frac{1}{i^{37}}\\) is equivalent to:",
+      "options": {
+        "A": "1",
+        "B": "-1",
+        "C": "i",
+        "D": "-i"
+      },
+      "correctOption": "D",
+      "explanationHtml": "Powers of \\(i\\) cycle every 4: \\(i^1 = i,\\; i^2 = -1,\\; i^3 = -i,\\; i^4 = 1\\). Divide 37 by 4: remainder 1, so \\(i^{37} = i^1 = i\\). Then \\(\\frac{1}{i^{37}} = \\frac{1}{i}\\). Multiply numerator and denominator by \\(i\\): \\(\\frac{1}{i} \\cdot \\frac{i}{i} = \\frac{i}{i^2} = \\frac{i}{-1} = -i\\)."
+    }
+  ]
+}

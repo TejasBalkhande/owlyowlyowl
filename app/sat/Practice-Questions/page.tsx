@@ -3,6 +3,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation"; // ADDED for navigation
 import * as LucideIcons from "lucide-react";
 import Navbar from "@/components/Navbar";
 import { MenuItem } from "@/types/menu";
@@ -29,7 +30,7 @@ const getSkillId = (section: string, domainName: string, skill: string) => {
 };
 
 export default function PracticeQuestionsPage() {
-  // Set of selected skill IDs
+  const router = useRouter(); // ADDED
   const [selectedSkills, setSelectedSkills] = useState<Set<string>>(new Set());
 
   // Toggle a single skill
@@ -75,13 +76,15 @@ export default function PracticeQuestionsPage() {
     return domainSkillIds.every((id) => selectedSkills.has(id));
   };
 
-  // Handle start practice
+  // Handle start practice - UPDATED to navigate to dynamic session
   const handleStartPractice = () => {
     if (selectedSkills.size === 0) {
       alert("Please select at least one skill to practice.");
       return;
     }
-    alert(`Starting practice with ${selectedSkills.size} selected skill(s). Question engine coming soon!`);
+    const skillsParam = Array.from(selectedSkills).join(",");
+    // Navigate to the dynamic route (slug can be any value; we use "practice")
+    router.push(`/sat/practice?skills=${encodeURIComponent(skillsParam)}`);
   };
 
   // Clear all selections
@@ -131,12 +134,12 @@ export default function PracticeQuestionsPage() {
                 </div>
               </div>
 
-              {/* READING & WRITING SECTION - Indigo badge with BookOpenCheck icon */}
+              {/* READING & WRITING SECTION */}
               <div>
                 <div className="flex items-center gap-3 mb-5 pb-2 border-b-2 border-gray-200">
-                    <div className="bg-lime-600 p-2 rounded-full shadow-sm">
+                  <div className="bg-lime-600 p-2 rounded-full shadow-sm">
                     <LucideIcons.ScrollText className="h-5 w-5 text-white" />
-                    </div>
+                  </div>
                   <h2 className="text-2xl font-bold text-gray-800 tracking-tight">
                     Reading & Writing
                   </h2>
@@ -228,12 +231,12 @@ export default function PracticeQuestionsPage() {
                 </div>
               </div>
 
-              {/* MATHEMATICS SECTION - Orange badge with Calculator icon */}
+              {/* MATHEMATICS SECTION */}
               <div>
                 <div className="flex items-center gap-3 mb-5 pb-2 border-b-2 border-gray-200">
-                  <div className="	bg-red-600 p-2 rounded-full shadow-sm">
+                  <div className="bg-red-600 p-2 rounded-full shadow-sm">
                     <LucideIcons.Sigma className="h-5 w-5 text-white" />
-                    </div>
+                  </div>
                   <h2 className="text-2xl font-bold text-gray-800 tracking-tight">
                     Mathematics
                   </h2>
@@ -325,7 +328,7 @@ export default function PracticeQuestionsPage() {
                 </div>
               </div>
 
-              {/* Bottom action bar for mobile friendly */}
+              {/* Bottom action bar for mobile */}
               <div className="sticky bottom-4 lg:hidden bg-white rounded-xl shadow-lg border border-[#E2E8F0] p-4 flex items-center justify-between">
                 <div>
                   <span className="text-sm font-medium text-[#2D3748]">

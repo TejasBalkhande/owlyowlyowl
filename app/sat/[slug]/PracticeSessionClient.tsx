@@ -1,3 +1,4 @@
+// app/sat/[slug]/PracticeSessionClient.tsx
 "use client";
 
 import { useEffect, useState, useRef, useCallback, useLayoutEffect } from "react";
@@ -5,114 +6,146 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import { MenuItem } from "@/types/menu";
-import { PracticeLevel, Section } from "../lib/actSections";
 import renderMathInElement from "katex/contrib/auto-render";
 import Cal from "@/components/Cal";
-import { savePracticeResult } from "../roadmap/actions";
 
 const schoolMenu: MenuItem[] = [
-  { label: "Mock-Test", href: "/act" },
-  { label: "Study-Resources", href: "/act" },
-  { label: "Practice-Questions", href: "/act/Practice-Questions" },
-  { label: "Courses", href: "/act" },
-  { label: "Roadmap", href: "/act" },
-  { label: "Account", href: "/act" },
+  { label: "Mock-Test", href: "/sat" },
+  { label: "Study-Resources", href: "/sat" },
+  { label: "Practice-Questions", href: "/sat/Practice-Questions" },
+  { label: "Courses", href: "/sat" },
+  { label: "Roadmap", href: "/sat" },
+  { label: "Account", href: "/sat" },
 ];
 
-interface QuestionData {
-  passages: { passageId: string; passageHtml: string }[];
-  questions: {
-    questionId: string;
-    passageId: string;
-    passageHighlight: string;
-    questionHtml: string;
-    options: Record<string, string>;
-    correctOption: string;
-    explanationHtml: string;
-  }[];
+interface Passage {
+  passageId: string;
+  passageHtml: string;
 }
 
-interface PracticeSessionClientProps {
-  initialData: QuestionData | null;
-  levelInfo: { section: Section; level: PracticeLevel };
-  imageBasePath: string;
-  isRoadmap?: boolean;
-  levelId?: number;
+interface Question {
+  questionId: string;
+  passageId: string | null;
+  passageHighlight?: string;
+  questionHtml: string;
+  options: Record<string, string>;
+  correctOption: string;
+  explanationHtml: string;
+  section?: string;
 }
 
-export default function PracticeSessionClient({
-  initialData,
-  levelInfo,
-  imageBasePath,
-  isRoadmap = false,
-  levelId,
-}: PracticeSessionClientProps) {
+interface PracticeData {
+  passages: Passage[];
+  questions: Question[];
+}
+
+// Helper to convert a skill name into a folder‑safe string (same as ACT)
+function toFolderName(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/\s+/g, "-")
+    .replace(/[^a-z0-9-]/g, "");
+}
+
+// Fetch one skill’s data from the public folder
+async function fetchSkillData(section: string, skillName: string): Promise<PracticeData | null> {
+  const folder = toFolderName(skillName);
+  const basePath =
+    section === "reading"
+      ? `/2-sat/rw/${folder}`
+      : `/2-sat/ma/${folder}`;
+  const jsonUrl = `${basePath}/questions.json`;
+
+  try {
+    const res = await fetch(jsonUrl);
+    if (!res.ok) return null;
+    const data = await res.json();
+    // Add section info to each question (used to show calculator)
+    if (data.questions) {
+      data.questions = data.questions.map((q: Question) => ({ ...q, section }));
+    }
+    return data as PracticeData;
+  } catch (err) {
+    console.error(`Failed to fetch ${jsonUrl}:`, err);
+    return null;
+  }
+}
+
+// Aggregate passages and questions from multiple skill IDs
+async function aggregateQuestions(skillIds: string[]): Promise<PracticeData> {
+  const allPassages: Passage[] = [];
+  const allQuestions: (Question & { section?: string })[] = [];
+  const passageMap = new Map<string, Passage>();
+
+  for (const skillId of skillIds) {
+    const [section, , skillName] = skillId.split("|");
+    if (!section || !skillName) continue;
+
+    const skillData = await fetchSkillData(section, skillName);
+    if (!skillData) continue;
+
+    // Add unique passages
+    for (const passage of skillData.passages || []) {
+      if (!passageMap.has(passage.passageId)) {
+        passageMap.set(passage.passageId, passage);
+        allPassages.push(passage);
+      }
+    }
+
+    // Add questions
+    for (const question of skillData.questions || []) {
+      allQuestions.push({
+        ...question,
+        section,
+      });
+    }
+  }
+
+  return { passages: allPassages, questions: allQuestions };
+}
+
+export function PracticeSessionClient({ skillIds }: { skillIds: string[] }) {
   const router = useRouter();
-  const [data, setData] = useState(initialData);
-  const [loading, setLoading] = useState(!initialData);
+  const [loading, setLoading] = useState(true);
+  const [data, setData] = useState<PracticeData | null>(null);
   const [selectedOptions, setSelectedOptions] = useState<Record<string, string>>({});
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showCalculator, setShowCalculator] = useState(false);
-  const [startTime] = useState<number>(isRoadmap ? Date.now() : 0);
-  const [elapsedSeconds, setElapsedSeconds] = useState(0);
   const contentRef = useRef<HTMLDivElement>(null);
   const passageRef = useRef<HTMLDivElement>(null);
 
-  const isMath = levelInfo.section.name === "Mathematics";
-
-  // Timer effect
   useEffect(() => {
-    if (!isRoadmap) return;
-    const interval = setInterval(() => {
-      setElapsedSeconds(Math.floor((Date.now() - startTime) / 1000));
-    }, 1000);
-    return () => clearInterval(interval);
-  }, [isRoadmap, startTime]);
-
-  // Fetch questions on client if not provided
-  useEffect(() => {
-    if (!data) {
-      const fetchData = async () => {
-        try {
-          const jsonUrl = `${imageBasePath}questions.json`;
-          const res = await fetch(jsonUrl);
-          if (res.ok) {
-            const json = await res.json();
-            setData(json);
-          } else {
-            console.error(`Failed to fetch questions: ${res.status}`);
-          }
-        } catch (err) {
-          console.error("Error fetching questions:", err);
-        } finally {
-          setLoading(false);
-        }
-      };
-      fetchData();
-    }
-  }, [data, imageBasePath]);
+    let isMounted = true;
+    aggregateQuestions(skillIds).then((result) => {
+      if (isMounted) {
+        setData(result);
+        setLoading(false);
+      }
+    });
+    return () => { isMounted = false; };
+  }, [skillIds]);
 
   const transformHtml = useCallback(
     (html: string, highlight?: string): string => {
       if (!html) return "";
+      // Rewrite image src paths – images are stored in `public/2-sat/images/`
       let transformed = html.replace(
         /src="images\/([^"]+)"/g,
-        (match, fileName) => `src="${imageBasePath}images/${fileName}"`
+        (_, fileName) => `/2-sat/images/${fileName}`
       );
+      // Handle highlight placeholders [highlight-1]...[/highlight-1]
       const highlightRegex = /\[highlight-(\d+)\]([\s\S]*?)\[\/highlight-\1\]/g;
-      transformed = transformed.replace(highlightRegex, (match, num, innerContent) => {
+      transformed = transformed.replace(highlightRegex, (_, num, innerContent) => {
         if (highlight && num === highlight) {
           return `<span class="bg-yellow-200">${innerContent}</span>`;
-        } else {
-          return innerContent;
         }
+        return innerContent;
       });
       return transformed;
     },
-    [imageBasePath]
+    []
   );
 
-  // KaTeX rendering
   useLayoutEffect(() => {
     if (contentRef.current && data) {
       try {
@@ -129,9 +162,8 @@ export default function PracticeSessionClient({
         console.error("KaTeX rendering error:", e);
       }
     }
-  }, [data, selectedOptions, currentIndex, elapsedSeconds]);
+  }, [data, selectedOptions, currentIndex]);
 
-  // Scroll to highlighted passage text
   useEffect(() => {
     if (passageRef.current) {
       const highlighted = passageRef.current.querySelector(".bg-yellow-200");
@@ -150,41 +182,15 @@ export default function PracticeSessionClient({
     if (data) setCurrentIndex((prev) => Math.min(data.questions.length - 1, prev + 1));
   };
 
-  const handleFinish = async () => {
-    if (!data || !isRoadmap) return;
-    let correctCount = 0;
-    data.questions.forEach((q) => {
-      if (selectedOptions[q.questionId] === q.correctOption) correctCount++;
-    });
-    const totalQuestions = data.questions.length;
-    const timeSeconds = elapsedSeconds;
-
-    if (levelId) {
-      try {
-        const result = await savePracticeResult(levelId, correctCount, totalQuestions, timeSeconds);
-        if (!result.success) {
-          console.error("Failed to save practice result:", result.error);
-        }
-      } catch (error) {
-        console.error("Error saving practice result:", error);
-      }
-    }
-
-    router.push("/act/roadmap");
+  const handleBackToTopics = () => {
+    router.push("/sat/Practice-Questions");
   };
 
-  // Loading state
   if (loading) {
     return (
       <div className="bg-white min-h-screen">
         <Navbar items={schoolMenu} logo="OwlenForge" />
         <div className="max-w-7xl mx-auto px-6 py-12 text-center">
-          <h1 className="text-3xl font-semibold text-[#1E4A76] mb-2">
-            {levelInfo.level.title} Practice
-          </h1>
-          <p className="text-[#4A5568] font-times text-[17px] mb-6">
-            {levelInfo.section.name} • {levelInfo.level.description}
-          </p>
           <div className="border border-[#E2E8F0] rounded-2xl p-12 bg-white shadow-sm">
             <p className="text-[#718096] text-lg">Loading questions...</p>
           </div>
@@ -193,30 +199,32 @@ export default function PracticeSessionClient({
     );
   }
 
-  // No data fallback
   if (!data || data.questions.length === 0) {
     return (
       <div className="bg-white min-h-screen">
         <Navbar items={schoolMenu} logo="OwlenForge" />
         <div className="max-w-7xl mx-auto px-6 py-12 text-center">
-          <h1 className="text-3xl font-semibold text-[#1E4A76] mb-2">
-            {levelInfo.level.title} Practice
-          </h1>
-          <p className="text-[#4A5568] font-times text-[17px] mb-6">
-            {levelInfo.section.name} • {levelInfo.level.description}
-          </p>
           <div className="border border-[#E2E8F0] rounded-2xl p-12 bg-white shadow-sm">
             <p className="text-[#718096] text-lg">
-              🚧 Questions are being prepared. Check back soon!
+              No questions found for the selected skills. Please check that the JSON files exist.
             </p>
+            <button
+              onClick={handleBackToTopics}
+              className="mt-4 px-5 py-2 bg-[#1E4A76] text-white rounded-lg hover:bg-[#163A5E] transition"
+            >
+              ← Back to Topics
+            </button>
           </div>
         </div>
       </div>
     );
   }
 
+  const includesMath = data.questions.some((q) => q.section === "math");
   const currentQuestion = data.questions[currentIndex];
-  const currentPassage = data.passages.find((p) => p.passageId === currentQuestion.passageId);
+  const currentPassage = currentQuestion.passageId
+    ? data.passages.find((p) => p.passageId === currentQuestion.passageId)
+    : null;
   const hasPassage = !!currentPassage;
   const selected = selectedOptions[currentQuestion.questionId];
   const isCorrect = selected === currentQuestion.correctOption;
@@ -224,9 +232,13 @@ export default function PracticeSessionClient({
   let passageQuestionIndex = 1;
   let passageQuestionCount = data.questions.length;
   if (hasPassage) {
-    const questionsForPassage = data.questions.filter((q) => q.passageId === currentQuestion.passageId);
+    const questionsForPassage = data.questions.filter(
+      (q) => q.passageId === currentQuestion.passageId
+    );
     passageQuestionCount = questionsForPassage.length;
-    const pos = questionsForPassage.findIndex((q) => q.questionId === currentQuestion.questionId);
+    const pos = questionsForPassage.findIndex(
+      (q) => q.questionId === currentQuestion.questionId
+    );
     passageQuestionIndex = pos + 1;
   }
 
@@ -245,24 +257,25 @@ export default function PracticeSessionClient({
         <div className="flex flex-wrap items-center justify-between mb-4 font-sans">
           <div className="flex items-center gap-2 mb-1">
             <div className="flex-shrink-0">
-              <Image src="/owl-apple.png" alt="Award" width={90} height={90} className="object-contain" />
+              <Image
+                src="/owl-apple.png"
+                alt="Award"
+                width={90}
+                height={90}
+                className="object-contain"
+              />
             </div>
             <div>
               <h1 className="text-2xl md:text-2xl font-semibold text-[#1E4A76]">
-                {levelInfo.level.title} Practice
+                SAT Practice Session
               </h1>
               <p className="text-[#4A5568] font-times text-[17px]">
-                {levelInfo.section.name} • {levelInfo.level.description}
+                {data.questions.length} questions • Custom selection
               </p>
             </div>
           </div>
           <div className="flex items-center gap-3">
-            {isRoadmap && (
-              <div className="text-sm bg-gray-100 px-3 py-1.5 rounded-full text-gray-700 font-mono">
-                ⏱️ {Math.floor(elapsedSeconds / 60)}:{(elapsedSeconds % 60).toString().padStart(2, "0")}
-              </div>
-            )}
-            {isMath && (
+            {includesMath && (
               <button
                 onClick={() => setShowCalculator(!showCalculator)}
                 className="px-4 py-2 bg-[#1E4A76] text-white rounded-lg hover:bg-[#163A5E] transition shadow-sm flex items-center gap-2"
@@ -274,7 +287,7 @@ export default function PracticeSessionClient({
         </div>
 
         {/* Calculator popup */}
-        {isMath && showCalculator && (
+        {includesMath && showCalculator && (
           <div className="fixed top-20 right-4 z-50 w-80 bg-white rounded-xl shadow-xl border border-[#E2E8F0] overflow-hidden">
             <div className="flex justify-between items-center px-4 py-2 bg-[#F7F9FC] border-b border-[#E2E8F0]">
               <span className="font-semibold text-[#1E4A76]">Calculator</span>
@@ -295,7 +308,7 @@ export default function PracticeSessionClient({
         {/* Main content card */}
         <div className="border border-[#E2E8F0] rounded-2xl bg-white shadow-sm overflow-hidden flex-1 min-h-0 flex flex-col">
           <div className="grid md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-[#E2E8F0] flex-1">
-            {/* Left column */}
+            {/* Left column – Passage or standalone question */}
             <div
               className={`md:p-6 px-3 py-3 overflow-y-auto ${
                 hasPassage ? "bg-[#F7F9FC]/50" : "bg-white"
@@ -310,7 +323,10 @@ export default function PracticeSessionClient({
                   <div
                     className="prose max-w-none text-[#4A5568] font-sans"
                     dangerouslySetInnerHTML={{
-                      __html: transformHtml(currentPassage.passageHtml, currentQuestion.passageHighlight),
+                      __html: transformHtml(
+                        currentPassage.passageHtml,
+                        currentQuestion.passageHighlight
+                      ),
                     }}
                   />
                 </>
@@ -326,13 +342,15 @@ export default function PracticeSessionClient({
                   </div>
                   <div
                     className="prose max-w-none text-[#2D3748] font-sans"
-                    dangerouslySetInnerHTML={{ __html: transformHtml(currentQuestion.questionHtml) }}
+                    dangerouslySetInnerHTML={{
+                      __html: transformHtml(currentQuestion.questionHtml),
+                    }}
                   />
                 </>
               )}
             </div>
 
-            {/* Right column */}
+            {/* Right column – Options & explanation */}
             <div className="p-6 overflow-y-auto">
               {hasPassage && (
                 <div className="mb-6">
@@ -346,26 +364,32 @@ export default function PracticeSessionClient({
                   </div>
                   <div
                     className="prose max-w-none text-[#2D3748] font-sans"
-                    dangerouslySetInnerHTML={{ __html: transformHtml(currentQuestion.questionHtml) }}
+                    dangerouslySetInnerHTML={{
+                      __html: transformHtml(currentQuestion.questionHtml),
+                    }}
                   />
                 </div>
               )}
 
-              {/* Options */}
+              {/* Answer options */}
               <div className="space-y-3">
                 <h4 className="font-medium text-[#4A5568]">Choose your answer</h4>
                 {Object.entries(currentQuestion.options).map(([key, value]) => {
-                  let optionClasses = "p-4 border rounded-xl cursor-pointer transition-all ";
+                  let optionClasses =
+                    "p-4 border rounded-xl cursor-pointer transition-all ";
                   if (selected) {
                     if (key === currentQuestion.correctOption) {
-                      optionClasses += "bg-green-50 border-green-500 ring-1 ring-green-500 ";
+                      optionClasses +=
+                        "bg-green-50 border-green-500 ring-1 ring-green-500 ";
                     } else if (key === selected && key !== currentQuestion.correctOption) {
-                      optionClasses += "bg-red-50 border-red-500 ring-1 ring-red-500 ";
+                      optionClasses +=
+                        "bg-red-50 border-red-500 ring-1 ring-red-500 ";
                     } else {
                       optionClasses += "bg-white border-[#E2E8F0] opacity-60 ";
                     }
                   } else {
-                    optionClasses += "bg-white border-[#E2E8F0] hover:border-[#1E4A76] hover:shadow-sm ";
+                    optionClasses +=
+                      "bg-white border-[#E2E8F0] hover:border-[#1E4A76] hover:shadow-sm ";
                   }
                   return (
                     <div
@@ -383,13 +407,15 @@ export default function PracticeSessionClient({
                 })}
               </div>
 
-              {/* Explanation */}
+              {/* Explanation after answering */}
               {selected && (
                 <div className="mt-6 p-5 bg-blue-50 rounded-xl border-l-4 border-blue-500">
                   <h4 className="font-semibold text-[#1E4A76] mb-2">Explanation</h4>
                   <div
                     className="prose max-w-none text-sm text-[#2D3748]"
-                    dangerouslySetInnerHTML={{ __html: transformHtml(currentQuestion.explanationHtml) }}
+                    dangerouslySetInnerHTML={{
+                      __html: transformHtml(currentQuestion.explanationHtml),
+                    }}
                   />
                   <p className="mt-3 text-sm font-medium">
                     {isCorrect ? (
@@ -403,7 +429,7 @@ export default function PracticeSessionClient({
                 </div>
               )}
 
-              {/* Navigation */}
+              {/* Navigation buttons */}
               <div className="mt-8 flex justify-between items-center">
                 <button
                   onClick={goToPrevious}
@@ -412,14 +438,12 @@ export default function PracticeSessionClient({
                 >
                   ← Previous
                 </button>
-                {isRoadmap ? (
-                  <button
-                    onClick={handleFinish}
-                    className="px-5 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition shadow-sm font-medium"
-                  >
-                    Finish Practice
-                  </button>
-                ) : null}
+                <button
+                  onClick={handleBackToTopics}
+                  className="px-5 py-2 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition shadow-sm font-medium"
+                >
+                  Back to Topics
+                </button>
                 <button
                   onClick={goToNext}
                   disabled={currentIndex === data.questions.length - 1}
@@ -433,7 +457,7 @@ export default function PracticeSessionClient({
         </div>
 
         <p className="text-xs text-[#A0AEC0] text-center mt-4">
-          Select an option to see the explanation. Use the progress bar to track your position.
+          Select an option to see the explanation. Use the navigation buttons to move between questions.
         </p>
       </div>
 
