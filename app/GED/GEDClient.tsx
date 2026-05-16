@@ -224,7 +224,7 @@ interface GEDClientProps {
 const schoolMenu: MenuItem[] = [
   { label: "Practice Tests", href: "/ged/Practice-Questions#full-length-mock-test" },
   { label: "Study Resources", href: "/ged" },
-  { label: "Practice Questions", href: "/ged/Practice-Questions" },
+  { label: "Practice Questions", href: "/GED/Practice-Questions" },
   { label: "Courses", href: "/ged/courses" },
   { label: "Study Plan", href: "/ged/roadmap" },
   { label: "My Account", href: "/account" }
