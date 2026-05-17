@@ -412,7 +412,7 @@ export default function GEDClient({ username, isLoggedIn, dashboardStats }: GEDC
 
                 <div className="hidden md:flex w-full md:w-2/5 justify-center">
                   <Image
-                    src="/image10.png"
+                    src="/image25.png"
                     alt="Hero"
                     width={340}
                     height={340}

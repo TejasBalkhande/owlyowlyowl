@@ -137,7 +137,7 @@ export default function ActClient({ username, isLoggedIn, dashboardStats }: ActC
               {/* Desktop hero image — unchanged */}
               <div className="hidden md:flex w-full md:w-2/5 justify-center">
                 <Image
-                  src="/image12.png"
+                  src="/image14.png"
                   alt="Girl hero"
                   width={340}
                   height={340}

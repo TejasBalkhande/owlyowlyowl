@@ -159,7 +159,7 @@ export default function SatClient({ username, isLoggedIn, dashboardStats }: SatC
 
                 <div className="hidden md:flex w-full md:w-2/5 justify-center">
                   <Image
-                    src="/image10.png"
+                    src="/image24.png"
                     alt="Hero"
                     width={340}
                     height={340}

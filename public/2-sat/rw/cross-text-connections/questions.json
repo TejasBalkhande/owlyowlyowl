@@ -1,0 +1,601 @@
+{
+  "passages": [
+    {
+      "passageId": "p1",
+      "passageHtml": "<strong>Passage 1</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br><br><b>Text 1</b><br>Urban planner Janette Sadik-Khan argues that adding protected bike lanes to city streets reduces traffic accidents for all road users. In New York City, after protected bike lanes were installed on several major avenues, injury crashes decreased by 40% for drivers and pedestrians alike. Sadik-Khan concludes that [highlight-1]cities should prioritize separating cyclists from traffic whenever possible[/highlight-1].<br><br><b>Text 2</b><br>While protected bike lanes can improve safety, they often reduce the number of lanes available for cars. During peak commuting hours, this reduction can increase traffic congestion significantly. Transportation researcher Michael Li found that in San Francisco, streets with protected bike lanes saw average commute times increase by 25% compared to similar streets without such lanes. Li suggests that cities must balance safety goals with the need to keep traffic moving."
+    },
+    {
+      "passageId": "p2",
+      "passageHtml": "<strong>Passage 2</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br><br><b>Text 1</b><br>The decline of honeybee populations in North America has been linked to the use of neonicotinoid pesticides. Studies show that even low levels of these chemicals impair bees' ability to navigate and forage. Environmental groups argue that banning neonicotinoids is the most effective way to protect bee colonies from further collapse.<br><br><b>Text 2</b><br>Neonicotinoids are not the sole cause of bee decline. Parasites such as the Varroa mite, habitat loss, and climate change all contribute significantly. A comprehensive review of bee health data indicates that banning neonicotinoids alone would not reverse population losses unless farmers also adopt better land management practices."
+    },
+    {
+      "passageId": "p3",
+      "passageHtml": "<strong>Passage 3</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br><br><b>Text 1</b><br>Some economists argue that raising the minimum wage reduces employment because businesses cannot afford to pay higher wages and will cut jobs. A study of Seattle's minimum wage increase found that hours worked by low-wage employees decreased slightly after the policy took effect, supporting this concern.<br><br><b>Text 2</b><br>Other research on the same Seattle minimum wage increase shows that while hours decreased modestly, total earnings for low-wage workers rose because their hourly pay increased substantially. Moreover, employee turnover dropped significantly, saving businesses training costs. Thus, the net effect on worker well-being was positive."
+    },
+    {
+      "passageId": "p4",
+      "passageHtml": "<strong>Passage 4</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br><br><b>Text 1</b><br>In medieval Europe, spices like black pepper were incredibly expensive and often used in small quantities by the wealthy. Historian Margaret Chen argues that [highlight-1]Europeans valued spices primarily for their ability to mask the taste of spoiled meat[/highlight-1], a common problem before refrigeration.<br><br><b>Text 2</b><br>Recent analysis of medieval cookbooks reveals that spices were used generously in both meat and vegetable dishes, even when the ingredients were fresh. Food historian David Zhao contends that spices were prized for their symbolic association with exotic Eastern origins and for their perceived medicinal properties, not for masking rot. He notes that spoiled meat was rarely eaten by anyone, rich or poor, because it was easily detected by smell."
+    },
+    {
+      "passageId": "p5",
+      "passageHtml": "<strong>Passage 5</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br><br><b>Text 1</b><br>Many companies now require employees to work from home at least part of the week. Proponents argue that remote work increases productivity because workers face fewer office distractions. A survey of 500 remote workers found that 70% reported completing tasks faster at home than in the office.<br><br><b>Text 2</b><br>While some employees thrive remotely, others struggle with isolation and lack of supervision. A separate study found that remote workers spent 30% less time on collaborative activities and reported feeling less connected to their teams. Thus, the productivity gains for individuals may come at the expense of team cohesion."
+    },
+    {
+      "passageId": "p6",
+      "passageHtml": "<strong>Passage 6</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br><br><b>Text 1</b><br>The ancient Roman poet Ovid wrote extensively about mythological transformations, such as a nymph becoming a tree or a boy turning into a flower. Classicist Emily Wilson argues that Ovid used these metamorphoses to explore themes of identity and power, showing how change could be both liberating and cruel.<br><br><b>Text 2</b><br>Ovid's transformations also served a practical purpose: they explained the origins of natural phenomena. For example, the story of a hunter being turned into a stag explained why stags are timid. Scholar Marcus Liu contends that Roman audiences were less interested in psychological themes and more interested in understanding the world around them through memorable stories."
+    },
+    {
+      "passageId": "p7",
+      "passageHtml": "<strong>Passage 7</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br><br><b>Text 1</b><br>The introduction of non-native species can sometimes benefit local ecosystems. For example, the honeybee (native to Europe) was brought to North America and now pollinates many native plants that would otherwise struggle. Ecologist James Tran argues that [highlight-1]some introduced species fill ecological gaps and should not always be removed[/highlight-1].<br><br><b>Text 2</b><br>Non-native species are a leading cause of biodiversity loss worldwide. Even seemingly helpful species like honeybees can outcompete native pollinators, such as solitary bees, for nectar and nesting sites. Conservation biologist Priya Singh argues that any introduction of non-native species risks long-term ecological harm, regardless of short-term benefits."
+    },
+    {
+      "passageId": "p8",
+      "passageHtml": "<strong>Passage 8</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br><br><b>Text 1</b><br>School uniforms are often credited with improving student discipline and reducing bullying. A study of 100 middle schools found that after implementing uniforms, suspensions dropped by 15% and reported teasing decreased significantly. Principal Maria Flores believes uniforms create a more focused learning environment.<br><br><b>Text 2</b><br>Other researchers have found no link between uniforms and improved behavior. In a larger study of 500 schools, suspensions and bullying rates were unchanged after uniform policies were introduced. Sociologist Kevin Patel argues that the perceived benefits of uniforms come from other simultaneous changes, such as new anti-bullying programs or increased parental involvement."
+    },
+    {
+      "passageId": "p9",
+      "passageHtml": "<strong>Passage 9</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br><br><b>Text 1</b><br>Electric vehicles (EVs) produce zero tailpipe emissions, making them essential for reducing air pollution in cities. Environmental advocate Lisa Chen argues that [highlight-1]governments should subsidize EV purchases and build more charging stations to accelerate the transition away from gasoline cars[/highlight-1].<br><br><b>Text 2</b><br>While EVs reduce local air pollution, their batteries require lithium and cobalt, which are often mined under environmentally destructive conditions. Moreover, if EVs are charged using electricity from coal-fired plants, their overall carbon footprint can be similar to that of efficient gasoline cars. Energy analyst Mark Takata argues that promoting EVs must go hand in hand with cleaning the electrical grid and improving battery recycling."
+    },
+    {
+      "passageId": "p10",
+      "passageHtml": "<strong>Passage 10</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br><br><b>Text 1</b><br>In the 19th century, women's novels were often dismissed as \"domestic fiction\" and deemed less serious than works by male authors. Literary critic Sarah Johnson argues that [highlight-1]these novels actually addressed profound social issues, such as marriage inequality and economic dependence, but were devalued because of their authors' gender[/highlight-1].<br><br><b>Text 2</b><br>Some 19th-century women writers embraced the domestic label and used it to their advantage. By setting their stories in homes and focusing on family relationships, they reached a wide audience of female readers who felt excluded from male-dominated political debates. Historian Rachel Green argues that domestic fiction was not a limitation but a strategic choice that gave women a platform."
+    },
+    {
+      "passageId": "p11",
+      "passageHtml": "<strong>Passage 11</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br><br><b>Text 1</b><br>In a study of coral reef ecosystems, marine biologist Lena Hughes found that areas with higher fish biodiversity recovered faster from bleaching events. She argues that [highlight-1]protecting a wide range of fish species is essential for reef resilience[/highlight-1], especially as ocean temperatures rise.<br><br><b>Text 2</b><br>While biodiversity can aid recovery, overfishing of a single keystone species—such as parrotfish, which control algae growth—can cause reef collapse even if total species count remains high. Ecologist Marcus Tran notes that focusing only on species richness ignores the functional roles that different fish play. He advocates for protecting key species rather than maximizing biodiversity."
+    },
+    {
+      "passageId": "p12",
+      "passageHtml": "<strong>Passage 12</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br><br><b>Text 1</b><br>The discovery of the tomb of Tutankhamun in 1922 by Howard Carter is often celebrated as a triumph of archaeology. However, Egyptologist Samira Hassan argues that Carter's methods were destructive: he rushed excavations, failed to record many artifacts in situ, and allowed damage to the famous golden mask.<br><br><b>Text 2</b><br>Despite criticisms of Carter's techniques, his discovery transformed Egyptology by revealing an intact royal burial. Curator James Lowell points out that the tomb's artifacts, even if imperfectly excavated, have provided unparalleled insight into 18th-Dynasty material culture. Lowell maintains that Carter's work, however flawed, was a net gain for scholarship."
+    },
+    {
+      "passageId": "p13",
+      "passageHtml": "<strong>Passage 13</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br><br><b>Text 1</b><br>Some economists argue that universal basic income (UBI) reduces the incentive to work. A Finnish experiment from 2017-2018 found that UBI recipients worked slightly fewer hours than a control group, though they reported higher well-being and lower stress.<br><br><b>Text 2</b><br>A different analysis of the same Finnish data shows that UBI recipients were more likely to start small businesses and take on part-time or freelance work. Sociologist Elena Vasquez contends that the reduction in traditional employment hours was offset by increases in entrepreneurial and caregiving activities. She concludes that UBI does not reduce productive engagement overall."
+    },
+    {
+      "passageId": "p14",
+      "passageHtml": "<strong>Passage 14</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br><br><b>Text 1</b><br>The use of facial recognition software by law enforcement has been criticized for racial bias. A 2019 study found that commercial algorithms misidentified Black and Asian faces up to 100 times more often than white faces. Civil liberties advocate David Chen argues that [highlight-1]police departments should ban the technology until bias is eliminated[/highlight-1].<br><br><b>Text 2</b><br>Facial recognition can help solve serious crimes, including child exploitation cases where human reviewers would take months. Technology policy expert Rachel Okonkwo acknowledges bias but argues that a ban is overbroad. She suggests instead that departments adopt strict oversight, regular bias audits, and use the technology only as a lead-generating tool, not as sole evidence."
+    },
+    {
+      "passageId": "p15",
+      "passageHtml": "<strong>Passage 15</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br><br><b>Text 1</b><br>Archaeological evidence suggests that the ancient city of Great Zimbabwe was built by the ancestors of the Shona people between the 11th and 15th centuries. Historian Tendai Moyo argues that the city's stone walls and towers demonstrate advanced engineering and [highlight-1]centralized political authority[/highlight-1], contradicting earlier colonial claims that Africans could not have built such structures.<br><br><b>Text 2</b><br>While Great Zimbabwe was indeed built by local Africans, some researchers caution against over-centralizing its political structure. Anthropologist Claire Dubois notes that the city may have been a site of ritual gatherings rather than a permanent capital, and that power could have been shared among clans rather than held by a single king."
+    },
+    {
+      "passageId": "p16",
+      "passageHtml": "<strong>Passage 16</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br><br><b>Text 1</b><br>In his novel The Sound and the Fury, William Faulkner uses multiple narrators, including a character with intellectual disability. [highlight-1]Literary critic Harold Bloom praised this technique for its revolutionary complexity, arguing that Faulkner's fragmented narrative mirrors the disintegration of the American South after the Civil War[/highlight-1].<br><br><b>Text 2</b><br>Some disability studies scholars have criticized Faulkner's portrayal of Benjy Compson. Rosemarie Garland-Thomson argues that using a disabled character's limited perspective as a narrative device risks reducing disability to a metaphor for chaos or brokenness, rather than depicting disabled people as full human beings with agency."
+    },
+    {
+      "passageId": "p17",
+      "passageHtml": "<strong>Passage 17</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br><br><b>Text 1</b><br>The cheetah's incredible speed is often attributed to its flexible spine and large nostrils. However, recent biomechanical research by Penny Hudson found that cheetahs' non-retractable claws provide traction similar to soccer cleats, allowing sharp turns at high speed. Hudson argues that claw structure is equally important to spine flexibility for hunting success.<br><br><b>Text 2</b><br>Comparative anatomist Rui Zhang studied cheetah claws and found that while they provide traction, the claws wear down quickly on hard ground. Zhang notes that cheetahs avoid running on rocky terrain, preferring grasslands where their claws can dig in. She concludes that claw morphology is an adaptation to specific habitats, not a universal advantage for speed."
+    },
+    {
+      "passageId": "p18",
+      "passageHtml": "<strong>Passage 18</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br><br><b>Text 1</b><br>The popularity of urban farming has grown as people seek local, organic produce. Economist Laura Fernandez studied rooftop gardens in New York City and found that they produce only 0.5% of the city's vegetable needs. She concludes that [highlight-1]urban farming is a feel-good movement with negligible impact on food security[/highlight-1].<br><br><b>Text 2</b><br>Measuring urban farming solely by pounds of food misses its social benefits. Community garden coordinator Marcus Lee points out that participants report lower stress, stronger neighborhood ties, and increased willingness to try new vegetables. Lee argues that even if production is small, urban farming improves public health and community resilience in ways traditional agriculture cannot."
+    },
+    {
+      "passageId": "p19",
+      "passageHtml": "<strong>Passage 19</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br><br><b>Text 1</b><br>The Piltdown Man, a fossil discovered in England in 1912, was presented as the missing link between apes and humans. For decades it was accepted as genuine. In 1953, it was revealed as a forgery: a human skull combined with an orangutan jaw. Historian Michael Benton argues that the hoax succeeded because British scientists wanted to believe that human evolution began in England.<br><br><b>Text 2</b><br>While national pride played a role, the Piltdown hoax also exposed weaknesses in early 20th-century paleontology. Science writer Sarah Chen notes that there was no standard protocol for verifying fossil finds, and few experts had ever seen a genuine hominid skull. She argues that the forgery was as much a failure of scientific rigor as of national bias."
+    },
+    {
+      "passageId": "p20",
+      "passageHtml": "<strong>Passage 20</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br><br><b>Text 1</b><br>The Voynich Manuscript, a 15th-century book written in an unknown script, has puzzled linguists and cryptographers for centuries. Some believe it is a cipher; others think it is a hoax. Computational linguist Diego Rios used AI to analyze the text's statistical patterns and concluded that [highlight-1]it follows Zipf's law (a property of natural languages), suggesting it is a real language, not gibberish[/highlight-1].<br><br><b>Text 2</b><br>However, statistical linguist Emily Park points out that many artificial or random texts can also approximate Zipf's law under certain conditions. Park re-analyzed Rios's data and found that the manuscript's word-length distribution differs significantly from known medieval languages. She argues that the evidence for a real language is weak, and a constructed cipher or nonsensical text remains likely."
+    },
+    {
+      "passageId": "p21",
+      "passageHtml": "<strong>Passage 21</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br><br><b>Text 1</b><br>In her poem \"Diving into the Wreck,\" Adrienne Rich uses the image of a deep-sea diver exploring a shipwreck. [highlight-1]Literary scholar Helen Vendler interprets the wreck as a metaphor for buried female history and the diver's journey as a feminist reclaiming of lost voices[/highlight-1].<br><br><b>Text 2</b><br>Poet and critic Mark Doty offers a different reading: the wreck represents the self, and the dive is an act of introspection. Doty notes that Rich's speaker carries a knife, a camera, and a book of myths—tools for documenting and reshaping personal memory. He argues that the poem is less about collective history than about individual transformation."
+    },
+    {
+      "passageId": "p22",
+      "passageHtml": "<strong>Passage 22</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br><br><b>Text 1</b><br>Noise pollution from shipping vessels has been shown to interfere with whale communication. Marine biologist Sofia Calderon found that when cargo ships passed, humpback whales reduced their song length and increased pitch—likely to be heard over engine noise. Calderon argues that rerouting shipping lanes away from feeding grounds would reduce stress on whale populations.<br><br><b>Text 2</b><br>While rerouting could help, economist Thomas Wu points out that longer shipping routes increase fuel consumption and carbon emissions. Wu notes that a single rerouted ship can emit an additional 500 tons of CO2 per year, contributing to ocean acidification, which also harms whales. He advocates for quieter ship propeller designs instead of longer routes."
+    },
+    {
+      "passageId": "p23",
+      "passageHtml": "<strong>Passage 23</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br><br><b>Text 1</b><br>The \"10,000-hour rule,\" popularized by Malcolm Gladwell, claims that [highlight-1]elite performance in any field requires roughly 10,000 hours of deliberate practice[/highlight-1]. Psychologist Anders Ericsson, whose research Gladwell drew upon, later clarified that he never set a strict threshold and that innate talent also matters.<br><br><b>Text 2</b><br>A 2019 meta-analysis by Brooke Macnamara and colleagues examined 88 studies of deliberate practice. They found that practice accounted for only about 12% of the variance in performance across domains. In games like chess, practice explained 26% of variance; in music, 21%; in professions like accounting, less than 5%. Macnamara argues that the 10,000-hour rule is a vast oversimplification."
+    },
+    {
+      "passageId": "p24",
+      "passageHtml": "<strong>Passage 24</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br><br><b>Text 1</b><br>The Great Pacific Garbage Patch is often described as a floating island of plastic visible from space. Oceanographer Lisa Erdle notes that this is misleading: most plastic is broken into tiny microplastics suspended throughout the water column. She warns that [highlight-1]dramatic but inaccurate descriptions may lead the public to underestimate the diffuse, invisible nature of ocean plastic pollution[/highlight-1].<br><br><b>Text 2</b><br>While the \"floating island\" image is scientifically inaccurate, environmental communicator James Kim argues that it has been effective at galvanizing public concern and policy action. Kim points out that after media coverage of the patch, several countries banned microbeads and pledged to reduce single-use plastics. He suggests that a somewhat inaccurate but motivating image can be a useful tool for advocacy."
+    },
+    {
+      "passageId": "p25",
+      "passageHtml": "<strong>Passage 25</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br><br><b>Text 1</b><br>In the 19th century, the U.S. government forcibly relocated Cherokee people from their homelands in the Southeast to Indian Territory (now Oklahoma) along the Trail of Tears. Historian John Ehle writes that nearly 4,000 Cherokee died from disease, exposure, and starvation. He argues that the removal was [highlight-1]an act of ethnic cleansing[/highlight-1] motivated by white settlers' desire for gold and land.<br><br><b>Text 2</b><br>Some scholars, such as Theda Perdue, caution against using the term \"ethnic cleansing\" for the Cherokee removal. Perdue notes that while the U.S. government intended to remove the Cherokee from their land, it did not intend to destroy the Cherokee as a people. She argues that the term \"ethnic cleansing\" implies a genocidal intent that, based on documentary evidence, was not present; instead, removal was driven by land acquisition and racial ideology that did not target the Cherokee for annihilation."
+    },
+    {
+      "passageId": "p26",
+      "passageHtml": "<strong>Passage 26</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br><br><b>Text 1</b><br>In her study of 18th-century English gardens, historian Lucinda Hartley argues that [highlight-1]the transition from formal geometric designs to naturalistic \"landscape\" gardens was driven by political ideology[/highlight-1]. Wealthy landowners rejected the rigid symmetry associated with French absolutism and adopted irregular, seemingly wild layouts to signal their commitment to British liberty and individualism.<br><br><b>Text 2</b><br>The shift to naturalistic gardens in 18th-century England is better explained by changes in land management than by politics. Agricultural improvements, such as enclosure and selective breeding, made large estates more profitable, and landowners began to view their property as productive agricultural land rather than as a stage for political theater. The picturesque \"wildness\" of the new style was often achieved by planting clusters of trees that also served as timber reserves."
+    },
+    {
+      "passageId": "p27",
+      "passageHtml": "<strong>Passage 27</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br><br><b>Text 1</b><br>Neuroscientist Anil Patel recorded neural activity in rats as they learned a maze. He found that neurons in the hippocampus fired in the same sequence during sleep as they had during the maze run. Patel concludes that [highlight-1]sleep is essential for memory consolidation because the brain \"replays\" waking experiences to strengthen synaptic connections[/highlight-1].<br><br><b>Text 2</b><br>Memory replay during sleep may be an epiphenomenon rather than a causal mechanism. Researcher Yuki Tanaka observed that when she pharmacologically blocked hippocampal replay in mice, the mice still performed normally on memory tests the next day. Moreover, the same sequential firing patterns occurred spontaneously in naive mice that had never run the maze. Tanaka argues that replay is a by-product of the brain's baseline dynamics, not a dedicated consolidation process."
+    },
+    {
+      "passageId": "p28",
+      "passageHtml": "<strong>Passage 28</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br><br><b>Text 1</b><br>Literary critic James Wolcott argues that the \"unreliable narrator\" technique in fiction, popularized by Ford Madox Ford's The Good Soldier, forces readers to become active detectives. By withholding key information or presenting contradictory accounts, [highlight-1]the unreliable narrator trains readers to question authority and construct their own interpretations, a skill Wolcott calls essential for democratic citizenship[/highlight-1].<br><br><b>Text 2</b><br>The celebration of unreliable narration often overlooks its historical roots in colonialism. Scholar Meena Krishnamurthy points out that many early 20th-century unreliable narrators are European men whose confusion or madness mirrors the disorientation of colonial administrators confronted with cultures they could not understand. Thus, the technique may inadvertently romanticize imperial anxiety rather than empowering readers. Krishnamurthy argues that Wolcott-style praise ignores this problematic genealogy."
+    },
+    {
+      "passageId": "p29",
+      "passageHtml": "<strong>Passage 29</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br><br><b>Text 1</b><br>In 1992, the Maastricht Treaty set strict fiscal criteria for European Union countries wishing to adopt the euro: budget deficits below 3% of GDP and public debt below 60% of GDP. Economist Helmut Schmidt defends [highlight-1]these rules as necessary to prevent fiscally irresponsible countries from destabilizing the common currency[/highlight-1]. He notes that countries that violate the rules face fines.<br><br><b>Text 2</b><br>The Maastricht criteria were arbitrary and economically unsound. Economist Chiara Fontana shows that between 1999 and 2019, countries that consistently broke the deficit rule (e.g., France, Germany) had lower average inflation and faster growth than countries that strictly complied (e.g., Finland, Luxembourg). Fontana argues that the threat of fines actually discouraged counter-cyclical spending during recessions, worsening downturns. She concludes that the rules should be replaced with flexible, country-specific targets."
+    },
+    {
+      "passageId": "p30",
+      "passageHtml": "<strong>Passage 30</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br><br><b>Text 1</b><br>Astronomer Avi Loeb has controversially suggested that the interstellar object 'Oumuamua, which passed through our solar system in 2017, could be [highlight-1]a light sail crafted by an extraterrestrial civilization[/highlight-1]. Loeb points to its unusual shape (elongated, like a pancake) and its non-gravitational acceleration as evidence that it was not a natural asteroid or comet.<br><br><b>Text 2</b><br>A 2021 study by Jennifer Bergner and Darryl Seligman proposed a natural explanation for 'Oumuamua's acceleration: hydrogen gas trapped inside icy water molecules. As the object neared the Sun, the ice released hydrogen, providing a gentle thrust. This mechanism does not require exotic materials or alien technology. Bergner notes that many comets in our own solar system show similar outgassing patterns, though 'Oumuamua's lack of a visible tail made it harder to detect."
+    },
+    {
+      "passageId": "p31",
+      "passageHtml": "<strong>Passage 31</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br><br><b>Text 1</b><br>The \"resource curse\" theory holds that countries with abundant natural resources (oil, minerals) tend to have slower economic growth, worse governance, and more civil conflict than resource-poor countries. Political scientist Michael Ross argues that [highlight-1]resource wealth inflates state revenues, allowing governments to avoid taxation and thus evade accountability to citizens, leading to corruption and authoritarianism[/highlight-1].<br><br><b>Text 2</b><br>A longitudinal study of 120 countries from 1970 to 2015 found that the resource curse only applies to non-democratic countries. In democracies, resource wealth correlates with higher social spending and no increase in conflict. Economist Lina Hassan suggests that the problem is not resources per se, but the interaction between resources and weak institutions. She concludes that strengthening democratic checks can neutralize the curse."
+    },
+    {
+      "passageId": "p32",
+      "passageHtml": "<strong>Passage 32</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br><br><b>Text 1</b><br>In his 1963 essay \"The Civic Culture,\" political scientist Gabriel Almond argued that stable democracies require a \"participant\" citizenry—people who vote, join parties, and follow politics. But he also noted that too much participation could lead to instability; a mix of participation and deference to elites was ideal. [highlight-1]This \"balanced\" civic culture, he claimed, characterized the United States and Britain[/highlight-1].<br><br><b>Text 2</b><br>Almond's \"balanced\" civic culture is a normative preference disguised as empirical finding. Critic Dahlia Perez points out that the countries Almond praised were those with limited suffrage and strong class hierarchies. What he called \"deference to elites\" was often the exclusion of women, minorities, and working-class people from meaningful political influence. Perez argues that Almond's framework legitimizes inequality by labeling it as necessary for stability."
+    },
+    {
+      "passageId": "p33",
+      "passageHtml": "<strong>Passage 33</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br><br><b>Text 1</b><br>Musicologist Elena Russo analyzed recordings of Beethoven's piano sonatas performed on period instruments (early 19th-century fortepianos) and on modern concert grands. She found that modern pianos allow for a wider dynamic range and longer sustain, which, she argues, tempts performers to add expressive nuances (rubato, pedal) that Beethoven did not indicate. Russo concludes that [highlight-1]modern instruments distort Beethoven's intended rhythmic clarity[/highlight-1].<br><br><b>Text 2</b><br>Pianist and scholar Marcus Chen agrees that period instruments produce a different sound, but he argues that \"Beethoven's intentions\" are unknowable and that modern instruments simply reveal new artistic possibilities. Chen points out that Beethoven himself constantly pushed the limits of available instruments and welcomed innovations. He notes that the notation left by composers is inherently underdetermined; performers must always make interpretive choices, regardless of the instrument."
+    },
+    {
+      "passageId": "p34",
+      "passageHtml": "<strong>Passage 34</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br><br><b>Text 1</b><br>In his study of online conspiracy theories, sociologist Daniel Kim found that many believers share a cognitive style called \"hyperagency detection\"—the tendency to see intentional agents (e.g., shadowy groups) behind random events. [highlight-1]Kim argues that this bias is often harmless, but when amplified by social media algorithms that recommend similar content, it can lead to radicalization and real-world harm[/highlight-1].<br><br><b>Text 2</b><br>Psychologist Rita Okonkwo re-analyzed Kim's data and found that hyperagency detection scores were not predictive of belief in conspiracy theories once she controlled for trust in institutions. People who distrust government and media were more likely to believe conspiracies regardless of their agency-detection scores. Okonkwo contends that institutional trust is the primary driver; hyperagency detection is a correlate, not a cause. She suggests interventions should focus on rebuilding trust, not on changing cognitive styles."
+    },
+    {
+      "passageId": "p35",
+      "passageHtml": "<strong>Passage 35</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br><br><b>Text 1</b><br>The Yaghan people of Tierra del Fuego had a word, \"mamihlapanatapai,\" which means \"a look shared between two people, each hoping the other will initiate something that neither wants to start.\" Linguist Peter Trudgill cites this as an example of lexical gaps: concepts that exist in all human experience but are lexicalized (given a single word) in only some languages. He argues that [highlight-1]such gaps show that language does not determine thought (the Sapir-Whorf hypothesis) because all humans understand the concept even without a word for it[/highlight-1].<br><br><b>Text 2</b><br>The existence of untranslatable words does not refute linguistic relativity; it confirms it. Anthropologist Laura Martin notes that while English speakers can describe \"mamihlapanatapai\" with a phrase, the single word makes the concept more salient and cognitively available. She argues that speakers of Yaghan would likely recognize the situation faster and recall more instances than English speakers, precisely because their language grammatically obligates them to attend to such interpersonal nuances. This is a weak form of linguistic relativity: language influences habitual thought."
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q1",
+      "passageId": "p1",
+      "questionHtml": "Based on the texts, how would Li (Text 2) most likely respond to the underlined claim in Text 1?",
+      "options": {
+        "A": "Protecting cyclists from traffic is less important than ensuring that drivers can reach their destinations on time.",
+        "B": "Cities should never install protected bike lanes because they make traffic worse for everyone.",
+        "C": "The safety benefits of protected bike lanes may come with costs to traffic flow that Sadik-Khan overlooks.",
+        "D": "New York City’s experience with bike lanes is irrelevant to other cities because traffic patterns differ."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<ul><li><b>Choice C is correct.</b> Text 2 acknowledges safety benefits but introduces a counterpoint about congestion. Li would likely say Sadik-Khan’s focus on safety ignores the trade-off with traffic flow.</li><li><b>A is incorrect.</b> Li does not claim safety is less important, only that balance is needed.</li><li><b>B is incorrect.</b> This choice is extreme and unsupported; Li does not say cities should “never” install bike lanes.</li><li><b>D is incorrect.</b> Li does not dismiss New York’s data as irrelevant.</li></ul>"
+    },
+    {
+      "questionId": "q2",
+      "passageId": "p2",
+      "questionHtml": "Both authors would most likely agree with which statement?",
+      "options": {
+        "A": "Neonicotinoids are the primary threat to honeybee populations.",
+        "B": "Multiple factors contribute to honeybee population declines.",
+        "C": "Banning neonicotinoids would immediately solve the bee crisis.",
+        "D": "Farmers are unwilling to change their land management practices."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul><li><b>Choice B is correct.</b> Text 1 focuses on pesticides but acknowledges they are a factor; Text 2 explicitly lists multiple causes. Both agree more than one factor is involved.</li><li><b>A is incorrect.</b> Text 2 argues against neonicotinoids as the primary threat.</li><li><b>C is incorrect.</b> Text 2 directly contradicts this.</li><li><b>D is unsupported.</b> Neither text discusses farmer willingness.</li></ul>"
+    },
+    {
+      "questionId": "q3",
+      "passageId": "p3",
+      "questionHtml": "Which choice best describes a difference in how the authors view the evidence from Seattle?",
+      "options": {
+        "A": "The author of Text 1 believes the study proves minimum wage hikes are harmful, while the author of Text 2 believes the study proves they are beneficial.",
+        "B": "The author of Text 1 focuses only on employment levels, while the author of Text 2 focuses only on worker happiness.",
+        "C": "The author of Text 1 argues that the Seattle study is flawed, while the author of Text 2 argues it is reliable.",
+        "D": "The author of Text 1 emphasizes job losses, while the author of Text 2 emphasizes earnings and turnover despite reduced hours."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<ul><li><b>Choice D is correct.</b> Text 1 highlights decreased hours as evidence of harm; Text 2 acknowledges reduced hours but emphasizes higher earnings and lower turnover.</li><li><b>A is incorrect.</b> Text 1 does not say the study “proves” harm, only that it supports concerns. Text 2 says the net effect was positive, but not that the study “proves” benefit universally.</li><li><b>B is incorrect.</b> Text 2 mentions earnings and turnover, not just happiness.</li><li><b>C is incorrect.</b> Neither author calls the study flawed.</li></ul>"
+    },
+    {
+      "questionId": "q4",
+      "passageId": "p4",
+      "questionHtml": "Based on the texts, how would Zhao (Text 2) most likely respond to the underlined claim in Text 1?",
+      "options": {
+        "A": "Spices were too expensive for even the wealthy to use regularly.",
+        "B": "The idea that spices masked spoiled meat is unlikely because people avoided eating rotten meat altogether.",
+        "C": "Medieval Europeans lacked the cooking skills to use spices effectively.",
+        "D": "Spices were primarily used to improve the flavor of fresh vegetables, not meat."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul><li><b>Choice B is correct.</b> Zhao directly contradicts Chen by stating spoiled meat was avoided, so spices could not have been used to mask it.</li><li><b>A is incorrect.</b> Text 2 does not dispute that spices were expensive.</li><li><b>C is unsupported.</b> Neither text discusses cooking skills.</li><li><b>D is too narrow.</b> Text 2 mentions both meat and vegetables but does not say spices were primarily for vegetables.</li></ul>"
+    },
+    {
+      "questionId": "q5",
+      "passageId": "p5",
+      "questionHtml": "Both authors would most likely agree with which statement?",
+      "options": {
+        "A": "Remote work is always better than working in an office.",
+        "B": "Remote work has both advantages and disadvantages for workers and companies.",
+        "C": "Collaboration is unimportant for most jobs.",
+        "D": "Most employees prefer working from home full-time."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul><li><b>Choice B is correct.</b> Text 1 highlights productivity gains; Text 2 highlights losses in collaboration and connection. Both acknowledge trade-offs.</li><li><b>A is incorrect.</b> Neither text claims remote work is “always better.”</li><li><b>C is contradicted</b> by Text 2, which implies collaboration matters.</li><li><b>D is unsupported.</b> Neither text discusses employee preferences.</li></ul>"
+    },
+    {
+      "questionId": "q6",
+      "passageId": "p6",
+      "questionHtml": "Which choice best describes a difference in how the two authors view Ovid’s use of metamorphosis?",
+      "options": {
+        "A": "Wilson sees psychological depth in Ovid’s transformations, while Liu sees an explanatory function.",
+        "B": "Wilson believes Ovid’s work is only about cruelty, while Liu believes it is only about nature.",
+        "C": "Wilson argues that Roman audiences loved abstract philosophy, while Liu argues they rejected it.",
+        "D": "Wilson thinks metamorphosis is a minor theme in Ovid, while Liu thinks it is central."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<ul><li><b>Choice A is correct.</b> Wilson focuses on identity and power (psychological themes); Liu focuses on explaining natural origins (practical function).</li><li><b>B is incorrect.</b> Wilson does not say “only about cruelty,” nor does Liu say “only about nature.”</li><li><b>C is extreme and unsupported.</b> Neither author makes broad claims about all Roman audiences.</li><li><b>D is incorrect.</b> Both treat metamorphosis as significant, not minor.</li></ul>"
+    },
+    {
+      "questionId": "q7",
+      "passageId": "p7",
+      "questionHtml": "Based on the texts, how would Singh (Text 2) most likely respond to the underlined claim in Text 1?",
+      "options": {
+        "A": "Honeybees are not actually beneficial to any native plants.",
+        "B": "Short-term benefits like pollination do not justify the long-term risks non-native species pose to native pollinators.",
+        "C": "Ecologists should focus only on removing honeybees from North America.",
+        "D": "Non-native species are never introduced on purpose."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul><li><b>Choice B is correct.</b> Singh acknowledges risks to native pollinators, directly challenging Tran’s argument that introduced species can be beneficial.</li><li><b>A is incorrect.</b> Singh does not deny that honeybees pollinate plants, only that this benefit comes with costs.</li><li><b>C is too narrow.</b> Singh discusses non-native species generally, not just honeybees.</li><li><b>D is false.</b> Honeybees were intentionally introduced.</li></ul>"
+    },
+    {
+      "questionId": "q8",
+      "passageId": "p8",
+      "questionHtml": "Both authors would most likely agree with which statement?",
+      "options": {
+        "A": "School uniforms are the most effective way to reduce bullying.",
+        "B": "The relationship between uniforms and student behavior is not fully settled.",
+        "C": "Schools without uniforms have more discipline problems.",
+        "D": "Parents prefer schools with uniform policies."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul><li><b>Choice B is correct.</b> Text 1 presents evidence supporting uniforms; Text 2 presents contradictory evidence. Both acknowledge that the issue is debatable.</li><li><b>A is incorrect.</b> Text 2 disputes this.</li><li><b>C is unsupported.</b> Neither text compares schools with and without uniforms directly.</li><li><b>D is unsupported.</b> Neither text mentions parental preferences.</li></ul>"
+    },
+    {
+      "questionId": "q9",
+      "passageId": "p9",
+      "questionHtml": "Based on the texts, how would Takata (Text 2) most likely respond to Chen’s argument (Text 1)?",
+      "options": {
+        "A": "EVs are worse for the environment than gasoline cars in all circumstances.",
+        "B": "Subsidizing EVs without addressing electricity sources and mining impacts is incomplete.",
+        "C": "Cities should focus only on public transit, not individual EVs.",
+        "D": "Battery recycling is impossible with current technology."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul><li><b>Choice B is correct.</b> Takata agrees EVs reduce local pollution but argues the broader environmental impacts must also be addressed, which Chen overlooks.</li><li><b>A is incorrect.</b> Takata does not claim EVs are “worse” overall.</li><li><b>C is unsupported.</b> Takata does not reject EVs entirely.</li><li><b>D is contradicted.</b> Takata mentions improving recycling, implying it is possible.</li></ul>"
+    },
+    {
+      "questionId": "q10",
+      "passageId": "p10",
+      "questionHtml": "Based on the texts, how would Green (Text 2) most likely respond to the underlined claim in Text 1?",
+      "options": {
+        "A": "Domestic fiction was rightly dismissed because it avoided political topics.",
+        "B": "Women writers were forced to write about domestic life and had no other options.",
+        "C": "The domestic label should not be seen as devaluing because women chose it strategically to connect with readers.",
+        "D": "Male authors of the 19th century also wrote domestic fiction but received more credit."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<ul><li><b>Choice C is correct.</b> Green argues domestic fiction was a strategic choice, not a sign of devaluation, directly challenging Johnson’s claim that it was “devalued.”</li><li><b>A is incorrect.</b> Green defends domestic fiction.</li><li><b>B is incorrect.</b> Green emphasizes choice, not force.</li><li><b>D is unsupported.</b> Green does not discuss male authors.</li></ul>"
+    },
+    {
+      "questionId": "q11",
+      "passageId": "p11",
+      "questionHtml": "Based on the texts, how would Tran (Text 2) most likely respond to Hughes’s argument (Text 1)?",
+      "options": {
+        "A": "By agreeing that biodiversity is important but insisting that protecting keystone species is more critical than maximizing species count.",
+        "B": "By rejecting the idea that fish biodiversity has any positive effect on reef recovery.",
+        "C": "By claiming that ocean temperatures are the only factor that determines reef resilience.",
+        "D": "By arguing that Hughes’s study was flawed because it did not measure algae growth."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<ul><li><b>Choice A is correct.</b> Tran acknowledges that biodiversity can help, but he argues that focusing solely on species richness misses the importance of keystone species’ functional roles. This is a refinement, not a rejection, of Hughes’s position.</li><li><b>B is incorrect.</b> Tran does not deny that biodiversity helps.</li><li><b>C is extreme and unsupported.</b></li><li><b>D is unsupported.</b> Tran does not critique Hughes’s methodology.</li></ul>"
+    },
+    {
+      "questionId": "q12",
+      "passageId": "p12",
+      "questionHtml": "Based on the texts, both authors would most likely agree with which statement?",
+      "options": {
+        "A": "Carter’s excavation methods were entirely appropriate for his time.",
+        "B": "The discovery of Tutankhamun’s tomb was important for understanding ancient Egypt.",
+        "C": "Hassan’s criticisms of Carter have been universally accepted by other Egyptologists.",
+        "D": "Lowell believes that Carter’s methods caused no damage whatsoever."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul><li><b>Choice B is correct.</b> Text 1 acknowledges the tomb’s discovery as “celebrated,” and Text 2 explicitly states the discovery “transformed Egyptology” and provided “unparalleled insight.” Both agree on its importance.</li><li><b>A is incorrect.</b> Text 1 criticizes Carter’s methods.</li><li><b>C is unsupported.</b> The texts do not discuss universal acceptance.</li><li><b>D is incorrect.</b> Lowell admits the work was “flawed.”</li></ul>"
+    },
+    {
+      "questionId": "q13",
+      "passageId": "p13",
+      "questionHtml": "Which choice best describes a difference in how the authors view the Finnish experiment?",
+      "options": {
+        "A": "Text 1 focuses on well-being, while Text 2 focuses on entrepreneurship.",
+        "B": "Text 1 emphasizes a decrease in hours worked, while Text 2 argues that other productive activities increased.",
+        "C": "Text 1 claims the experiment was flawed, while Text 2 claims it was well-designed.",
+        "D": "Text 1 supports UBI, while Text 2 opposes UBI."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul><li><b>Choice B is correct.</b> Text 1 notes fewer hours worked; Text 2 counters that hours lost were replaced by entrepreneurial and caregiving work.</li><li><b>A is too narrow.</b> Text 1 also mentions hours, and Text 2 also addresses engagement.</li><li><b>C is unsupported.</b> Neither author calls the experiment flawed.</li><li><b>D is opposite.</b> Text 1 is skeptical, Text 2 is supportive.</li></ul>"
+    },
+    {
+      "questionId": "q14",
+      "passageId": "p14",
+      "questionHtml": "Based on the texts, how would Okonkwo (Text 2) most likely respond to Chen’s underlined claim?",
+      "options": {
+        "A": "By agreeing that a ban is the only way to prevent harm.",
+        "B": "By arguing that bias can be managed with proper safeguards, making a ban unnecessary.",
+        "C": "By claiming that the 2019 study was methodologically flawed.",
+        "D": "By stating that child exploitation cases are too rare to justify using facial recognition."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul><li><b>Choice B is correct.</b> Okonkwo acknowledges bias but rejects a ban in favor of oversight and audits. She thinks the technology can be used responsibly.</li><li><b>A is the opposite</b> of her position.</li><li><b>C is unsupported;</b> she does not critique the study.</li><li><b>D is unsupported;</b> she mentions child exploitation as a benefit but does not dismiss it.</li></ul>"
+    },
+    {
+      "questionId": "q15",
+      "passageId": "p15",
+      "questionHtml": "Based on the texts, how would Dubois (Text 2) most likely respond to the claim in Text 1 that Great Zimbabwe shows ‘centralized political authority’?",
+      "options": {
+        "A": "By agreeing that the stone walls prove a single king ruled the city.",
+        "B": "By suggesting that the evidence for centralization is less clear than Moyo implies, and that shared power is possible.",
+        "C": "By rejecting the idea that the Shona ancestors built the city at all.",
+        "D": "By arguing that the walls were built for defense, not for political authority."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul><li><b>Choice B is correct.</b> Dubois directly questions the interpretation of centralized authority, suggesting power may have been shared or the site used for rituals.</li><li><b>A is the opposite</b> of her position.</li><li><b>C is false;</b> she agrees local Africans built it.</li><li><b>D is unsupported;</b> she does not discuss defense.</li></ul>"
+    },
+    {
+      "questionId": "q16",
+      "passageId": "p16",
+      "questionHtml": "Based on the texts, how would Garland-Thomson (Text 2) most likely respond to Bloom’s praise (Text 1)?",
+      "options": {
+        "A": "By agreeing that Benjy’s narration is artistically revolutionary.",
+        "B": "By arguing that Bloom’s aesthetic praise overlooks potentially harmful stereotyping of disabled people.",
+        "C": "By claiming that Faulkner had no right to write from a disabled perspective.",
+        "D": "By stating that The Sound and the Fury is not a significant American novel."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul><li><b>Choice B is correct.</b> Garland-Thomson criticizes the metaphorical use of disability, implying Bloom’s focus on complexity ignores ethical concerns.</li><li><b>A is not supported;</b> she focuses on harm, not praise.</li><li><b>C is extreme and unsupported;</b> she critiques the effect, not Faulkner’s right to write.</li><li><b>D is unsupported;</b> she does not dismiss the novel’s significance.</li></ul>"
+    },
+    {
+      "questionId": "q17",
+      "passageId": "p17",
+      "questionHtml": "Both authors would most likely agree with which statement?",
+      "options": {
+        "A": "Cheetah claws are irrelevant to the animal’s hunting ability.",
+        "B": "Cheetah claws play some role in how cheetahs move and hunt.",
+        "C": "Cheetahs would run faster if they had retractable claws.",
+        "D": "Grasslands are the only habitat where cheetahs can survive."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul><li><b>Choice B is correct.</b> Hudson says claws provide traction; Zhang says they work well in grasslands. Both agree claws are functionally important.</li><li><b>A contradicts</b> both texts.</li><li><b>C is unsupported;</b> neither argues about retractable claws.</li><li><b>D is extreme;</b> Zhang only says cheetahs avoid rocky terrain, not that they cannot survive elsewhere.</li></ul>"
+    },
+    {
+      "questionId": "q18",
+      "passageId": "p18",
+      "questionHtml": "Based on the texts, how would Lee (Text 2) most likely respond to Fernandez’s underlined conclusion?",
+      "options": {
+        "A": "By agreeing that urban farming has no impact on food security.",
+        "B": "By arguing that Fernandez uses the wrong metric to evaluate urban farming’s value.",
+        "C": "By claiming that New York City’s rooftop gardens actually produce 10% of vegetables.",
+        "D": "By stating that food security is less important than community ties."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul><li><b>Choice B is correct.</b> Lee explicitly says measuring by pounds of food misses social benefits, directly challenging Fernandez’s metric.</li><li><b>A is incorrect;</b> Lee does not agree—he says value exists outside food security.</li><li><b>C is false;</b> he does not dispute the 0.5% figure.</li><li><b>D is unsupported;</b> he does not rank food security vs. community ties.</li></ul>"
+    },
+    {
+      "questionId": "q19",
+      "passageId": "p19",
+      "questionHtml": "Which choice best describes a difference in how the two authors explain the Piltdown hoax?",
+      "options": {
+        "A": "Text 1 emphasizes national bias; Text 2 emphasizes lack of scientific standards.",
+        "B": "Text 1 says the hoax was harmless; Text 2 says it set back research by decades.",
+        "C": "Text 1 blames the forger; Text 2 blames the scientists who were fooled.",
+        "D": "Text 1 focuses on England; Text 2 focuses on international collaboration."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<ul><li><b>Choice A is correct.</b> Benton attributes success to British scientists’ bias; Chen attributes it to lack of verification protocols and expertise.</li><li><b>B is unsupported;</b> neither discusses harm vs. delay.</li><li><b>C is incorrect;</b> both blame scientists for being fooled, not just the forger.</li><li><b>D is unsupported;</b> Text 2 does not focus on international collaboration.</li></ul>"
+    },
+    {
+      "questionId": "q20",
+      "passageId": "p20",
+      "questionHtml": "Based on the texts, how would Park (Text 2) most likely respond to Rios’s conclusion (Text 1)?",
+      "options": {
+        "A": "By agreeing that Zipf’s law proves the text is a natural language.",
+        "B": "By arguing that Zipf’s law is not a reliable test because non-languages can also produce it.",
+        "C": "By claiming that Rios’s AI model was intentionally biased.",
+        "D": "By stating that the Voynich Manuscript is definitely a hoax."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul><li><b>Choice B is correct.</b> Park directly counters that Zipf’s law is not diagnostic because non-languages can also follow it.</li><li><b>A is opposite.</b></li><li><b>C is unsupported;</b> she does not accuse Rios of bias, only of insufficient evidence.</li><li><b>D is too strong;</b> she says a cipher or nonsensical text remains likely, not certain.</li></ul>"
+    },
+    {
+      "questionId": "q21",
+      "passageId": "p21",
+      "questionHtml": "Based on the texts, how would Doty (Text 2) most likely respond to Vendler’s interpretation (Text 1)?",
+      "options": {
+        "A": "By agreeing that the poem is exclusively about female history.",
+        "B": "By suggesting that Vendler overemphasizes collective history and misses the personal, introspective dimension.",
+        "C": "By claiming that Rich intended neither interpretation.",
+        "D": "By arguing that the knife and camera prove the dive is violent, not transformative."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul><li><b>Choice B is correct.</b> Doty acknowledges a different reading focused on the self and personal memory, implying Vendler’s collective-history reading is incomplete.</li><li><b>A is opposite.</b></li><li><b>C is unsupported;</b> Doty does not claim to know Rich’s intention.</li><li><b>D misinterprets</b> the tools; Doty sees them as documentation, not violence.</li></ul>"
+    },
+    {
+      "questionId": "q22",
+      "passageId": "p22",
+      "questionHtml": "Based on the texts, both authors would most likely agree with which statement?",
+      "options": {
+        "A": "Shipping noise is the only threat to whale populations.",
+        "B": "Reducing the impact of shipping on whales requires trade-offs between different environmental goals.",
+        "C": "Rerouting shipping lanes is always the best solution.",
+        "D": "Quieter propellers are too expensive to implement."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul><li><b>Choice B is correct.</b> Calderon’s solution (rerouting) may increase emissions; Wu’s solution (quieter propellers) addresses noise without emissions. Both acknowledge that solving one problem can create another, implying trade-offs.</li><li><b>A is false;</b> both mention other factors (emissions, acidification).</li><li><b>C is contradicted</b> by Wu.</li><li><b>D is unsupported;</b> Wu does not mention cost.</li></ul>"
+    },
+    {
+      "questionId": "q23",
+      "passageId": "p23",
+      "questionHtml": "Based on the texts, how would Macnamara (Text 2) most likely respond to a strict interpretation of the 10,000-hour rule?",
+      "options": {
+        "A": "By agreeing that 10,000 hours is necessary for elite performance.",
+        "B": "By arguing that practice is less important than Gladwell claimed, and its influence varies by field.",
+        "C": "By claiming that practice explains most of the variance in all fields.",
+        "D": "By stating that only chess players benefit from deliberate practice."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul><li><b>Choice B is correct.</b> Macnamara’s meta-analysis shows practice explains a minority of variance, and the percentage differs across domains, directly challenging a strict rule.</li><li><b>A is opposite.</b></li><li><b>C is opposite;</b> she says only 12% on average.</li><li><b>D is false;</b> chess is one example, not exclusive.</li></ul>"
+    },
+    {
+      "questionId": "q24",
+      "passageId": "p24",
+      "questionHtml": "Based on the texts, how would Kim (Text 2) most likely respond to Erdle’s underlined warning?",
+      "options": {
+        "A": "By agreeing that accuracy is more important than any potential benefits of simplification.",
+        "B": "By arguing that the benefits of motivating the public outweigh the scientific inaccuracy in this case.",
+        "C": "By claiming that the floating island description is actually completely accurate.",
+        "D": "By stating that the public is incapable of understanding real ocean pollution science."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul><li><b>Choice B is correct.</b> Kim acknowledges the inaccuracy but defends its practical effectiveness, directly challenging Erdle’s worry that it causes underestimation.</li><li><b>A is opposite;</b> Kim prioritizes motivation over precision.</li><li><b>C is false;</b> he says it is inaccurate.</li><li><b>D is extreme and unsupported.</b></li></ul>"
+    },
+    {
+      "questionId": "q25",
+      "passageId": "p25",
+      "questionHtml": "Based on the texts, how would Perdue (Text 2) most likely respond to Ehle’s use of ‘ethnic cleansing’ (Text 1)?",
+      "options": {
+        "A": "By agreeing that ethnic cleansing is the correct term because Cherokee died.",
+        "B": "By arguing that Ehle’s term is too strong because it implies an intent to destroy the people, which she claims the evidence does not support.",
+        "C": "By stating that no Cherokee died during the removal.",
+        "D": "By claiming that the U.S. government was justified in relocating the Cherokee."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul><li><b>Choice B is correct.</b> Perdue directly challenges the term “ethnic cleansing” based on intent, not outcome. She distinguishes between removal and genocide.</li><li><b>A is opposite.</b></li><li><b>C is false;</b> she acknowledges suffering but disagrees on terminology.</li><li><b>D is unsupported;</b> she does not justify removal, only analyzes intent.</li></ul>"
+    },
+    {
+      "questionId": "q26",
+      "passageId": "p26",
+      "questionHtml": "Based on the texts, how would the author of Text 2 most likely respond to Hartley’s claim in Text 1?",
+      "options": {
+        "A": "By agreeing that political ideology was a factor but insisting that economic motives were equally important.",
+        "B": "By arguing that Hartley misinterprets the visual evidence: naturalistic gardens were actually more symmetrical than they appear.",
+        "C": "By suggesting that the practical function of tree planting undermines Hartley’s emphasis on political symbolism.",
+        "D": "By denying that any British landowners ever rejected French styles."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<ul><li><b>Choice C is correct.</b> Text 2 directly challenges Hartley’s political interpretation by pointing out that the “wildness” had a utilitarian purpose (timber reserves). The author would say Hartley overemphasizes symbolism while ignoring practical land management.</li><li><b>A is incorrect;</b> Text 2 does not concede political ideology as a factor—it offers an alternative explanation.</li><li><b>B is unsupported;</b> Text 2 does not dispute the appearance of asymmetry.</li><li><b>D is extreme and contradicted</b> by Text 2’s acceptance of a stylistic shift.</li></ul>"
+    },
+    {
+      "questionId": "q27",
+      "passageId": "p27",
+      "questionHtml": "Based on the texts, how would Tanaka (Text 2) most likely characterize Patel’s conclusion?",
+      "options": {
+        "A": "As correct but incomplete because it fails to specify which sleep stage is most important.",
+        "B": "As potentially flawed because the observed replay might not be necessary for memory consolidation.",
+        "C": "As unsupported because Patel’s study used rats, while hers used mice.",
+        "D": "As entirely wrong because sleep has no role in memory whatsoever."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul><li><b>Choice B is correct.</b> Tanaka’s evidence (blocking replay did not impair memory; replay occurs without prior experience) directly challenges Patel’s causal claim. She would say Patel’s conclusion is questionable because replay may be incidental.</li><li><b>A is opposite;</b> Tanaka disputes the causal role.</li><li><b>C is a red herring;</b> species difference is not her argument.</li><li><b>D is extreme;</b> Tanaka does not deny any role for sleep, only the replay-consolidation link.</li></ul>"
+    },
+    {
+      "questionId": "q28",
+      "passageId": "p28",
+      "questionHtml": "Based on the texts, how would Krishnamurthy (Text 2) most likely respond to Wolcott’s claim that unreliable narrators foster democratic skills?",
+      "options": {
+        "A": "By agreeing that the technique has that effect but arguing that the effect is unintended.",
+        "B": "By suggesting that Wolcott’s interpretation is anachronistic because Ford did not intend political messages.",
+        "C": "By contending that Wolcott’s positive framing ignores the technique’s troubling historical associations.",
+        "D": "By asserting that unreliable narration is exclusively a colonial device with no redeeming value."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<ul><li><b>Choice C is correct.</b> Krishnamurthy directly critiques Wolcott’s celebratory view by linking the technique to colonial anxiety, implying Wolcott overlooks this problematic context.</li><li><b>A is incorrect;</b> she does not concede the democratic effect.</li><li><b>B is unsupported;</b> she does not discuss Ford’s intentions.</li><li><b>D is extreme</b> (“exclusively … no redeeming value”); she points out a problematic genealogy but does not deny all value.</li></ul>"
+    },
+    {
+      "questionId": "q29",
+      "passageId": "p29",
+      "questionHtml": "Based on the texts, how would Fontana (Text 2) most likely respond to Schmidt’s defense of the Maastricht criteria?",
+      "options": {
+        "A": "By agreeing that fiscal discipline is important but claiming the specific numbers are wrong.",
+        "B": "By arguing that the criteria not only failed to prevent instability but also actively harmed economies.",
+        "C": "By pointing out that Schmidt’s argument ignores the political benefits of the euro.",
+        "D": "By stating that fines are effective because compliant countries grew faster."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul><li><b>Choice B is correct.</b> Fontana provides evidence that violators performed better and that the rules worsened recessions. She would say Schmidt’s defense ignores the actual harm caused.</li><li><b>A is too weak;</b> she does not just say the numbers are wrong—she says the entire approach is unsound.</li><li><b>C is irrelevant;</b> political benefits are not discussed.</li><li><b>D is opposite;</b> she shows compliant countries grew more slowly.</li></ul>"
+    },
+    {
+      "questionId": "q30",
+      "passageId": "p30",
+      "questionHtml": "Based on the texts, how would Bergner (Text 2) most likely characterize Loeb’s hypothesis (Text 1)?",
+      "options": {
+        "A": "As a necessary provocation that spurred useful research into interstellar objects.",
+        "B": "As an unnecessary appeal to alien intelligence when a natural explanation is available and consistent with known physics.",
+        "C": "As plausible but untestable with current technology.",
+        "D": "As correct in identifying non-gravitational acceleration but wrong about the cause."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul><li><b>Choice B is correct.</b> Text 2 provides a natural mechanism that explains the same data without aliens. Bergner would argue Loeb’s hypothesis is overcomplicated and unnecessary.</li><li><b>A is not supported;</b> she does not praise it as a provocation.</li><li><b>C is incorrect;</b> she thinks it is implausible given the natural explanation.</li><li><b>D is misleading;</b> Loeb’s hypothesis includes the cause (alien sail), so if the cause is wrong, the hypothesis is not “correct” in any meaningful way.</li></ul>"
+    },
+    {
+      "questionId": "q31",
+      "passageId": "p31",
+      "questionHtml": "Based on the texts, how would Hassan (Text 2) most likely respond to Ross’s explanation (Text 1)?",
+      "options": {
+        "A": "By agreeing that resources reduce accountability, but arguing that this happens only where institutions are already weak.",
+        "B": "By rejecting the entire resource curse theory as a myth.",
+        "C": "By claiming that resource wealth always leads to corruption, regardless of political system.",
+        "D": "By stating that non-democratic countries would be corrupt even without resources."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<ul><li><b>Choice A is correct.</b> Hassan refines Ross’s claim: resources cause problems only in weak-institution settings. She would say Ross overgeneralizes by ignoring the moderating role of democracy.</li><li><b>B is incorrect;</b> she does not reject the curse—she qualifies it.</li><li><b>C contradicts</b> her finding that democracies avoid the curse.</li><li><b>D is a different argument</b> not made by Hassan.</li></ul>"
+    },
+    {
+      "questionId": "q32",
+      "passageId": "p32",
+      "questionHtml": "Based on the texts, how would Perez (Text 2) most likely respond to Almond’s concept of a ‘balanced’ civic culture?",
+      "options": {
+        "A": "By agreeing that balance is necessary but arguing that Almond’s examples were poorly chosen.",
+        "B": "By contending that Almond’s ideal actually rationalizes the political exclusion of marginalized groups.",
+        "C": "By claiming that Almond’s research methods were statistically flawed.",
+        "D": "By stating that only fully participatory systems can be stable."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul><li><b>Choice B is correct.</b> Perez directly interprets “deference to elites” as a euphemism for exclusion, arguing that Almond’s framework normalizes inequality.</li><li><b>A is incorrect;</b> she rejects the concept, not just the examples.</li><li><b>C is unsupported;</b> she critiques the ideology, not the statistics.</li><li><b>D is her own possible view,</b> but it is not stated in Text 2; the question asks how she would respond to Almond, not to state her own positive theory.</li></ul>"
+    },
+    {
+      "questionId": "q33",
+      "passageId": "p33",
+      "questionHtml": "Based on the texts, how would Chen (Text 2) most likely respond to Russo’s underlined conclusion?",
+      "options": {
+        "A": "By agreeing that modern instruments distort clarity but arguing that clarity was never Beethoven’s primary goal.",
+        "B": "By rejecting the premise that there is a single ‘intended’ clarity to be preserved, since all performance involves interpretation.",
+        "C": "By claiming that period instruments are actually more distorting because they cannot play certain passages.",
+        "D": "By stating that Russo’s analysis is valuable but only for Beethoven’s late sonatas."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul><li><b>Choice B is correct.</b> Chen directly challenges the idea that we can know a single “intended” sound. He would say Russo’s conclusion rests on a false assumption of fixed intentions.</li><li><b>A is incorrect;</b> Chen does not concede distortion—he questions the framework.</li><li><b>C is unsupported;</b> he does not criticize period instruments.</li><li><b>D is not mentioned;</b> he makes no distinction among sonatas.</li></ul>"
+    },
+    {
+      "questionId": "q34",
+      "passageId": "p34",
+      "questionHtml": "Based on the texts, how would Okonkwo (Text 2) most likely characterize Kim’s conclusion that hyperagency detection is a key factor?",
+      "options": {
+        "A": "As essentially correct but overstated because social media plays a larger role.",
+        "B": "As reversing cause and effect: distrust leads to both hyperagency detection and belief in conspiracies.",
+        "C": "As unsupported because Kim failed to collect data on institutional trust.",
+        "D": "As completely false because hyperagency detection has no relationship to conspiracies."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul><li><b>Choice B is correct.</b> Okonkwo’s re-analysis suggests that the relationship is spurious; distrust drives both hyperagency detection and conspiracy belief. Kim may be misidentifying the direction or cause.</li><li><b>A is incorrect;</b> she does not agree with Kim’s causal claim.</li><li><b>C is too strong;</b> she did not say he failed to collect the data—she used his data to show a different interpretation.</li><li><b>D is false;</b> she acknowledges a correlation, not no relationship.</li></ul>"
+    },
+    {
+      "questionId": "q35",
+      "passageId": "p35",
+      "questionHtml": "Based on the texts, how would Martin (Text 2) most likely respond to Trudgill’s claim that untranslatable words refute linguistic determinism?",
+      "options": {
+        "A": "By agreeing that strong determinism is false but arguing that weaker influence remains plausible.",
+        "B": "By asserting that Trudgill misunderstands the Yaghan word’s actual meaning.",
+        "C": "By claiming that all concepts are equally accessible across languages.",
+        "D": "By denying that ‘mamihlapanatapai’ is truly untranslatable."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<ul><li><b>Choice A is correct.</b> Martin accepts that Trudgill has refuted strong determinism (language determines thought), but she argues that a weaker version (language influences thought via salience) is still valid. Trudgill’s target is strong Whorfianism, which he defeats; Martin’s response is to shift to a weaker claim.</li><li><b>B is unsupported;</b> she does not dispute the meaning.</li><li><b>C contradicts</b> her argument about salience.</li><li><b>D is false;</b> she acknowledges it is untranslatable as a single word.</li></ul>"
+    }
+  ]
+}

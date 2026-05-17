@@ -5,7 +5,7 @@ export const readingWritingDomains = [
     description:
       "Measures the comprehension, vocabulary, analysis, synthesis, and reasoning skills and knowledge needed to understand and use high-utility words and phrases in context, evaluate texts rhetorically, and make connections between topically related texts.",
     skills:
-      "Words in Context; Text Structure and Purpose; Cross-Text Connections",
+      "Words in Context; Text Structure and Purpose; Cross Text Connections",
     questions: "13–15 questions",
   },
   {

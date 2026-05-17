@@ -1,0 +1,816 @@
+{
+  "passages": [
+    {
+      "passageId": "a1b2c3d4",
+      "passageHtml": "<strong>a1b2c3d4</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span></br>\nThe following text is adapted from Willa Cather's 1913 novel <i>O Pioneers!</i> Alexandra is walking across the Nebraska prairie that her family has farmed for decades.</br>\n</br>\n[highlight-1]She knelt and let the dark soil run through her fingers, remembering the taste of wild plums and the sound of wind in the wheat.[/highlight-1] The horizon stretched flat and endless, and she felt a deep pride in the land that had outlasted drought and blizzard."
+    },
+    {
+      "passageId": "b2c3d4e5",
+      "passageHtml": "<strong>b2c3d4e5</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span></br>\nIn the early 20th century, most geologists believed that continents were fixed in place. But Alfred Wegener proposed in 1912 that Earth's continents had once been joined in a single landmass he called Pangea. His theory was ridiculed for decades. Only in the 1960s did seafloor spreading evidence finally confirm continental drift. Today, plate tectonics is a cornerstone of geology."
+    },
+    {
+      "passageId": "c3d4e5f6",
+      "passageHtml": "<strong>c3d4e5f6</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span></br>\nConservationists have long worried about declining bee populations, but a 2022 study from Cornell University offers unexpected hope. Researchers found that certain urban bees have adapted to city heat by developing smaller body sizes over just 20 generations. [highlight-1]This result contradicts the assumption that urbanization inevitably harms insect biodiversity.[/highlight-1] The study suggests that some species may evolve faster than previously thought."
+    },
+    {
+      "passageId": "d4e5f6g7",
+      "passageHtml": "<strong>d4e5f6g7</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span></br>\nYellowstone National Park is famous for its geothermal features, including Old Faithful geyser. Millions of tourists visit each year to see eruptions that occur like clockwork. However, increased foot traffic has damaged delicate thermal pools and disrupted wildlife migration. Park rangers have since introduced boardwalk-only zones and timed entry permits to balance access with preservation."
+    },
+    {
+      "passageId": "e5f6g7h8",
+      "passageHtml": "<strong>e5f6g7h8</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span></br>\nMany ancient Greek plays have been lost forever. These losses include dozens of tragedies by female playwrights whose work was rarely archived. We know about these missing works only through indirect clues. For example, a vase painting shows a scene from Sophocles' lost <i>Tereus</i>. A surviving fragment quotes a line from Euripides' <i>Andromeda</i>. And a Roman mosaic references a chorus from Agathon's <i>Thyestes</i>."
+    },
+    {
+      "passageId": "f6g7h8i9",
+      "passageHtml": "<strong>f6g7h8i9</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span></br>\nThe following text is adapted from Leo Tolstoy's 1877 novel <i>Anna Karenina</i>. Levin is attending a ball in Moscow.</br>\n</br>\nThe guests danced with practiced smiles, yet their whispered comments seemed sharp to Levin. He noticed how quickly they shifted from flattery to mockery. [highlight-1]Though he nodded politely, he felt a growing weariness with each passing hour.[/highlight-1]"
+    },
+    {
+      "passageId": "g7h8i9j0",
+      "passageHtml": "<strong>g7h8i9j0</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span></br>\nIn 1978, botanist Barbara Briggs discovered a new species of eucalyptus in the Australian outback that had previously been lumped with another variety. Using leaf oil analysis, she proved that <i>Eucalyptus coronata</i> was genetically distinct from its close relative. This finding helped forestry experts select drought-resistant trees for reforestation. Today, Briggs's work is cited in climate adaptation studies worldwide."
+    },
+    {
+      "passageId": "h8i9j0k1",
+      "passageHtml": "<strong>h8i9j0k1</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span></br>\nIn many fish species, only males produce courtship sounds to attract mates. However, a 2023 study of plainfin midshipman fish found that females also produce rhythmic hums during nesting. [highlight-1]This evidence challenges the long-held belief that acoustic mating displays are exclusively male in fish.[/highlight-1] The researchers propose that female vocalization may be more common than previously recognized."
+    },
+    {
+      "passageId": "i9j0k1l2",
+      "passageHtml": "<strong>i9j0k1l2</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span></br>\nKatsushika Hokusai is celebrated for his woodblock prints of everyday life in 19th-century Japan. His prints frequently highlight a single natural element, such as a breaking wave or a perched sparrow. Although Hokusai borrowed shading techniques from European art, he retained Japanese horizontal compositions and handmade paper that distinguish his work."
+    },
+    {
+      "passageId": "j0k1l2m3",
+      "passageHtml": "<strong>j0k1l2m3</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span></br>\nThe following text is from Herman Melville's 1851 novel <i>Moby-Dick</i>. Ishmael is looking out from the whaling ship Pequod.</br>\n</br>\nThe ocean stretched before him like an endless blue desert, silent and indifferent. Ishmael leaned on the rail, watching the whitecaps tumble past the bow. [highlight-1]He felt no urgency to return to shore.[/highlight-1]"
+    },
+    {
+      "passageId": "k1l2m3n4",
+      "passageHtml": "<strong>k1l2m3n4</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span></br>\nPublic parks in dense urban areas provide more than recreation. A 2020 study in Chicago found that neighborhoods with renovated parks had 25% lower rates of asthma hospitalizations and higher property values. Additionally, these parks reduced heat island effects during summer. City councils have since used this data to prioritize park funding over parking lots."
+    },
+    {
+      "passageId": "l2m3n4o5",
+      "passageHtml": "<strong>l2m3n4o5</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span></br>\nPaleontologists have unearthed a 3,000-year-old elephant skull in central China. The skull bears carved symbols that resemble those found on Shang dynasty oracle bones. [highlight-1]This discovery suggests that ancient Chinese civilizations may have traded ivory across long distances.[/highlight-1] The skull is now housed at the Zhengzhou Museum."
+    },
+    {
+      "passageId": "m3n4o5p6",
+      "passageHtml": "<strong>m3n4o5p6</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span></br>\nIn many coastal regions, farmers rely on groundwater pumping to irrigate crops. However, over-pumping allows saltwater to intrude into freshwater aquifers. To address this, researchers in the Netherlands tested subsurface barriers made of clay. They found that these barriers reduced salt intrusion by 60% without reducing crop yields."
+    },
+    {
+      "passageId": "n4o5p6q7",
+      "passageHtml": "<strong>n4o5p6q7</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span></br>\nThe following text is adapted from Robert Frost's poem (1916). The speaker describes an early spring morning.</br>\n</br>\nI saw the birch trees tremble—not from wind, but from shedding frost. The brook ran clear. The sun rose thin and pale as parchment. [highlight-1]And I too trembled for something just begun.[/highlight-1]"
+    },
+    {
+      "passageId": "o5p6q7r8",
+      "passageHtml": "<strong>o5p6q7r8</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span></br>\nThe microwave oven was invented in 1945 by Percy Spencer, an engineer at Raytheon. However, it did not become a household appliance until the 1970s, when countertop models dropped in price. Today, microwaves are used in over 90% of American kitchens. Despite competition from air fryers and convection ovens, the simple microwave remains the fastest way to reheat food."
+    },
+    {
+      "passageId": "3a7f9e22",
+      "passageHtml": "<strong>3a7f9e22</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nThe following text is from Willa Cather's 1918 novel <i>My Antonia</i>. The narrator is describing a prairie landscape.<br/>\n<br/>\nThe grass stretched endlessly, pale gold under the setting sun. But the wind never stopped; [highlight-1]it sang a low, lonely tune that seemed older than the hills.[/highlight-1] The sky above was immense, and the whole world felt both empty and full at once."
+    },
+    {
+      "passageId": "9c4d2b81",
+      "passageHtml": "<strong>9c4d2b81</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nSome historians have argued that the decline of the Roman Empire was caused primarily by military overexpansion. However, recent scholarship suggests that economic factors, such as inflation and heavy taxation, played an equally important role. A 2019 study of Roman coinage revealed a steady decrease in silver content from 200 to 300 CE, indicating severe economic instability. This finding supports the view that internal economic decay was a major contributor to Rome's fall."
+    },
+    {
+      "passageId": "5f2e7a94",
+      "passageHtml": "<strong>5f2e7a94</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nBiologists have long studied how bees communicate the location of flowers. Most research has focused on the famous \"waggle dance\" of honeybees. However, a 2022 study of bumblebees found that they use a different method: walking in circles inside the nest to signal nearby food. [highlight-1]This discovery suggests that communication strategies among bee species are more diverse than previously thought.[/highlight-1]"
+    },
+    {
+      "passageId": "1d8a3c67",
+      "passageHtml": "<strong>1d8a3c67</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nIn the 1950s, biologist Ruth Patrick developed a method for assessing water pollution by studying the variety of algae and other microorganisms living in a stream. She reasoned that a healthy stream would contain many different species, while a polluted stream would have fewer. Her \"diatom index\" became a standard tool for environmental monitoring. Today, her approach is used worldwide to track the health of freshwater ecosystems."
+    },
+    {
+      "passageId": "7e9b2f43",
+      "passageHtml": "<strong>7e9b2f43</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nThe famous Bayeux Tapestry is not actually a tapestry but an embroidery. It depicts the Norman conquest of England in 1066. Many historians have studied its visual narrative, but textile experts have also learned much from its reverse side, which is rarely displayed. The back reveals the stitches and thread changes, offering clues about how the work was created and who might have made it."
+    },
+    {
+      "passageId": "2c5a8b76",
+      "passageHtml": "<strong>2c5a8b76</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nThe following text is adapted from Virginia Woolf's 1925 novel <i>Mrs. Dalloway</i>. Clarissa is walking through London.<br/>\n<br/>\nShe felt very young; at the same time unspeakably aged. [highlight-1]She sliced like a knife through everything; at the same time was outside, looking on.[/highlight-1] She had a perpetual sense of being out, out, far out to sea and alone."
+    },
+    {
+      "passageId": "9a1d4f38",
+      "passageHtml": "<strong>9a1d4f38</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nThe hummingbird hawk-moth is often mistaken for a hummingbird because it hovers at flowers and makes a similar buzzing sound. However, it is an insect, not a bird. Unlike hummingbirds, which have feathers and beaks, the hawk-moth has six legs and antennae. Its hovering ability evolved independently, a case of convergent evolution where unrelated species develop similar traits."
+    },
+    {
+      "passageId": "4b6e2c91",
+      "passageHtml": "<strong>4b6e2c91</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nAstronomers have discovered a new type of star called a \"blinker star.\" These stars dim and brighten unpredictably, unlike pulsars, which have regular intervals. [highlight-1]This irregularity has puzzled researchers, as most stellar variation follows predictable patterns.[/highlight-1] A leading hypothesis suggests that the dimming is caused by orbiting dust clouds that are unevenly distributed."
+    },
+    {
+      "passageId": "6f8c3a54",
+      "passageHtml": "<strong>6f8c3a54</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nIn medieval Europe, scribes often copied manuscripts by hand, a slow and error-prone process. Some monks developed shorthand symbols to speed up their work. A recent analysis of a 12th-century Bible found dozens of such symbols, indicating that the scribe had invented a personal abbreviation system. This discovery shows that even within a tradition of copying, individual creativity could flourish."
+    },
+    {
+      "passageId": "3d7e9b02",
+      "passageHtml": "<strong>3d7e9b02</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nThe following text is adapted from Frederick Douglass's 1845 autobiography <i>Narrative of the Life of Frederick Douglass, an American Slave</i>.<br/>\n<br/>\nI lived in Master Hugh's family about seven years. During this time, I succeeded in learning to read and write. [highlight-1]In accomplishing this, I was compelled to resort to various stratagems.[/highlight-1] I had no regular teacher. My mistress, who had kindly begun to instruct me, had, in compliance with her husband's express command, ceased to give me lessons."
+    },
+    {
+      "passageId": "8a2f6e77",
+      "passageHtml": "<strong>8a2f6e77</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nIn 1928, Alexander Fleming discovered penicillin by accident when he noticed that a mold had killed bacteria in a petri dish. For over a decade, he struggled to isolate the active compound. In 1940, Howard Florey and Ernst Chain developed a method to produce penicillin in large quantities. Their work transformed the mold from a laboratory curiosity into a life-saving drug that has since saved millions of lives."
+    },
+    {
+      "passageId": "1c5b9e43",
+      "passageHtml": "<strong>1c5b9e43</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nThe giant panda's diet consists almost entirely of bamboo, yet its digestive system resembles that of a carnivore. [highlight-1]This mismatch has long puzzled biologists, as pandas lack the enzymes to break down cellulose efficiently.[/highlight-1] Recent research suggests that pandas compensate by consuming huge amounts of bamboo—up to 38 kilograms per day—and by having gut microbes that aid digestion."
+    },
+    {
+      "passageId": "7d3a2f81",
+      "passageHtml": "<strong>7d3a2f81</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nSome literary critics argue that a work's meaning is determined entirely by the author's intention. Others, following the \"death of the author\" theory, claim that readers create meaning independently. A third group, including critic Lisa Zunshine, proposes a middle ground: meaning emerges from an interaction between the author's cues and the reader's cognitive processes. Zunshine's approach has gained traction in cognitive literary studies."
+    },
+    {
+      "passageId": "9e6b4c27",
+      "passageHtml": "<strong>9e6b4c27</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nThe following text is from John Steinbeck's 1939 novel <i>The Grapes of Wrath</i>. Tom Joad is walking down a dusty road.<br/>\n<br/>\nHe trudged forward, his shoes heavy with dust. [highlight-1]The sun beat down on his neck like a hammer.[/highlight-1] Ahead, a line of trees promised shade, but it was still miles away. He did not look back."
+    },
+    {
+      "passageId": "2a6c8d59",
+      "passageHtml": "<strong>2a6c8d59</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nIn 1970, biologist Lynn Margulis proposed the endosymbiotic theory, which states that certain organelles in eukaryotic cells, such as mitochondria and chloroplasts, originated as free-living bacteria that were engulfed by larger cells. Initially, her theory was rejected by many evolutionary biologists. However, genetic evidence in the 1980s and 1990s confirmed that these organelles have their own DNA, distinct from the cell's nuclear DNA. Today, endosymbiosis is a cornerstone of modern biology."
+    },
+    {
+      "passageId": "9f3a7c22",
+      "passageHtml": "<strong>9f3a7c22</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nThe neuropeptide oxytocin has been popularly called the \"love hormone\" because of its role in social bonding, trust, and pair bonding in mammals. However, recent research by psychologist Carsten De Dreu suggests that oxytocin may also promote in-group favoritism and out-group hostility. In a 2021 study, participants who received oxytocin were more likely to cooperate with members of their own group but less likely to trust strangers. De Dreu argues that oxytocin evolved not to promote general altruism but to enhance survival of one's own group, often at the expense of others."
+    },
+    {
+      "passageId": "5d8b2e71",
+      "passageHtml": "<strong>5d8b2e71</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nThe philosopher Thomas Hobbes argued in <i>Leviathan</i> that humans in a state of nature are in a constant \"war of all against all,\" and that strong central authority is necessary to prevent societal collapse. [highlight-1]Jean-Jacques Rousseau, by contrast, contended that the earliest humans were solitary but peaceful, and that inequality and conflict emerged only with the invention of private property.[/highlight-1] This fundamental disagreement about human nature underlies much of modern political philosophy, from Locke to Rawls."
+    },
+    {
+      "passageId": "2c9a4e63",
+      "passageHtml": "<strong>2c9a4e63</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nSome environmental economists argue that placing a monetary value on ecosystem services—such as pollination, water purification, and carbon sequestration—is essential for making conservation economically competitive with development. Critics contend that such valuation commodities nature and may lead to perverse outcomes, such as allowing pollution if the polluter pays. A third perspective, advanced by scholar Maria Santos, rejects both extremes: she proposes that valuation can be a useful rhetorical tool for advocacy without requiring that every service be priced. Santos's approach has been adopted in several international biodiversity agreements."
+    },
+    {
+      "passageId": "7b1d9f58",
+      "passageHtml": "<strong>7b1d9f58</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nThe discovery of the tomb of Pharaoh Tutankhamun in 1922 by Howard Carter is often celebrated as a triumph of archaeology. But a 2019 re-examination of excavation records by Egyptologist Zahi Hawass reveals that Carter's team systematically underreported and destroyed many artifacts that were not made of gold or otherwise aesthetically valuable. Hawass argues that this selection bias has distorted our understanding of New Kingdom funerary practices, as scholars have relied on Carter's incomplete catalog. The lost items include textiles, food offerings, and everyday tools that would have provided crucial context."
+    },
+    {
+      "passageId": "4e6c2a85",
+      "passageHtml": "<strong>4e6c2a85</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nThe following text is adapted from George Eliot's 1872 novel <i>Middlemarch</i>. The narrator is describing the character Dorothea Brooke.<br/>\n<br/>\nShe was open, ardent, and not in the least self-admiring; indeed, it was hard for her to believe that others thought well of her. [highlight-1]But she had a naive sense of her own importance that made her impatient of any hindrance to her ideal plans.[/highlight-1] This contradiction—humility about her person, arrogance about her purposes—made her both endearing and difficult to those around her."
+    },
+    {
+      "passageId": "9d2f7b34",
+      "passageHtml": "<strong>9d2f7b34</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nIn his 1936 work <i>The Logic of Scientific Discovery</i>, Karl Popper proposed the criterion of falsifiability to distinguish science from non-science: a theory is scientific only if it can be proven false by some conceivable observation. For decades, this principle dominated philosophy of science. However, historian of science Thomas Kuhn argued in 1962 that science progresses not through falsification but through paradigm shifts, where anomalous data are initially ignored until a crisis forces a revolution. More recently, philosopher of science Paul Feyerabend claimed that no single method characterizes science; he famously stated \"anything goes.\""
+    },
+    {
+      "passageId": "1a8c3e56",
+      "passageHtml": "<strong>1a8c3e56</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nResearchers studying the origin of life have long debated whether metabolism (chemical reactions) or replication (self-copying molecules) came first. A 2023 study by biochemist Serena Yang challenges both camps. Yang constructed a simple system of non-living organic molecules in a simulated hydrothermal vent. Over weeks, the system spontaneously developed autocatalytic cycles—reactions that produce catalysts for themselves—without any genetic material. Yang argues that this demonstrates a \"pre-biotic metabolism\" that could have preceded and later enabled the emergence of RNA and DNA."
+    },
+    {
+      "passageId": "6e7b2c91",
+      "passageHtml": "<strong>6e7b2c91</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nLiterary theorist Mikhail Bakhtin introduced the concept of \"heteroglossia\" to describe the coexistence of multiple voices, languages, and social dialects within a single text. In a novel, heteroglossia can create tension between the author's voice and those of characters. [highlight-1]However, Bakhtin argued that no text is fully heteroglot; all writing is constrained by the generic conventions and ideological pressures of its time.[/highlight-1] This limitation, for Bakhtin, does not diminish the subversive potential of the novel but rather defines the arena in which that potential is realized."
+    },
+    {
+      "passageId": "3d5a9f78",
+      "passageHtml": "<strong>3d5a9f78</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nIn the 1960s, psychologist Walter Mischel conducted the famous \"marshmallow test,\" in which young children who could resist eating a marshmallow for 15 minutes would receive a second. Longitudinal studies suggested that children who delayed gratification had better life outcomes. Recent replications have questioned these findings. A 2018 study with a larger, more diverse sample found that the predictive power of delay of gratification was greatly reduced after controlling for family background and early cognitive ability. Moreover, many children who ate the marshmallow immediately nevertheless succeeded later in life."
+    },
+    {
+      "passageId": "8f2c4d17",
+      "passageHtml": "<strong>8f2c4d17</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nThe following text is adapted from Ralph Ellison's 1952 novel <i>Invisible Man</i>. The narrator is reflecting on his identity.<br/>\n<br/>\nI am invisible, understand, simply because people refuse to see me. [highlight-1]It is as though I am made of glass—they look through me, or rather, they see only the reflections of their own assumptions.[/highlight-1] When they approach me they see only my surroundings, themselves, or figments of their imagination—indeed, everything and anything except me."
+    },
+    {
+      "passageId": "2b7e8a43",
+      "passageHtml": "<strong>2b7e8a43</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nIn the early 20th century, Austrian economist Joseph Schumpeter coined the term \"creative destruction\" to describe how capitalism incessantly revolutionizes the economic structure from within, destroying old industries and creating new ones. Many economists have embraced this as a source of dynamism. But economic historian Marina Mazzucato argues that Schumpeter's framework undervalues the role of the state. In her 2013 book <i>The Entrepreneurial State</i>, she shows that most of the foundational technologies behind the iPhone—including the internet, GPS, touchscreen, and Siri—were funded by government research. She contends that the state, not just private entrepreneurs, is often the primary risk-taker."
+    },
+    {
+      "passageId": "7c4a9b65",
+      "passageHtml": "<strong>7c4a9b65</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nIn her study of early American cemeteries, historian Jill Lepore noticed that 17th-century New England gravestones often feature death's heads—skulls with wings—while 18th-century stones shift to cherubs and urns. [highlight-1]Lepore argues that this iconographic shift reflects the Great Awakening's emphasis on a loving, personal God rather than a stern judge.[/highlight-1] Later Puritan elites resisted this change, but the gravestone carvers, responding to popular demand, gradually adopted the cherub motif."
+    },
+    {
+      "passageId": "5a1e8c24",
+      "passageHtml": "<strong>5a1e8c24</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nSome cognitive scientists have proposed that language is an innate, modular faculty—a \"universal grammar\" wired into the human brain. A competing view, known as usage-based linguistics, holds that language emerges from general cognitive processes such as memory, categorization, and social learning. A 2022 study by linguist Elena Lieven tested these predictions by training a neural network without any built-in grammar rules, only exposure to child-directed speech. The network successfully learned to produce grammatical sentences and even some irregular verb forms, supporting the usage-based account. Lieven concludes that no innate grammar module is necessary."
+    },
+    {
+      "passageId": "9c6d2f31",
+      "passageHtml": "<strong>9c6d2f31</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nThe following text is adapted from Edith Wharton's 1920 novel <i>The Age of Innocence</i>. Newland Archer is reflecting on society's rules.<br/>\n<br/>\nHe understood that in old New York, a gentleman's duty was not to defy convention but to observe it with a kind of ironic grace. [highlight-1]To break the rules openly would be to admit they had power over you; to follow them perfectly, with a hint of detachment, was to master them.[/highlight-1] This was the secret that his mother had never been able to teach him, though she had lived it flawlessly."
+    },
+    {
+      "passageId": "4e2b9a87",
+      "passageHtml": "<strong>4e2b9a87</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nResearch on the placebo effect has traditionally focused on conscious expectations—patients believe a treatment will work, so it does. But psychologist Karin Jensen's 2023 study introduced a twist. She gave participants a placebo cream while telling them it would either increase or decrease pain. Crucially, some participants were also given subliminal cues—flashes of happy or fearful faces too brief to consciously perceive. Those who received subliminal happy faces reported significantly less pain, regardless of what they consciously believed the cream would do. Jensen argues that non-conscious conditioning can produce placebo effects independent of conscious expectation."
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "a1b2c3d4q1",
+      "passageId": "a1b2c3d4",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best describes the function of the bolded portion in the text as a whole?",
+      "options": {
+        "A": "It shows Alexandra's frustration with the difficulty of farming.",
+        "B": "It suggests that Alexandra has neglected the land for many years.",
+        "C": "It emphasizes Alexandra's intimate connection and loyalty to the soil.",
+        "D": "It introduces a conflict between Alexandra and the changing seasons."
+      },
+      "correctOption": "C",
+      "explanationHtml": "The bolded sentence shows Alexandra touching the soil and recalling sensory memories (wild plums, wheat wind), indicating long-standing familiarity and pride. This supports the broader portrayal of her deep bond with the prairie."
+    },
+    {
+      "questionId": "b2c3d4e5q1",
+      "passageId": "b2c3d4e5",
+      "passageHighlight": null,
+      "questionHtml": "Which choice best states the main purpose of the text?",
+      "options": {
+        "A": "To argue that Wegener's theory was unfairly rejected by his peers.",
+        "B": "To describe how a controversial hypothesis was initially dismissed but later proven correct.",
+        "C": "To compare Wegener's methods with those of 20th-century geologists.",
+        "D": "To explain why Pangea broke apart into separate continents."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The text follows Wegener's idea from proposal to ridicule to eventual confirmation, highlighting how a rejected theory became foundational to geology."
+    },
+    {
+      "questionId": "c3d4e5f6q1",
+      "passageId": "c3d4e5f6",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best describes the function of the bolded portion?",
+      "options": {
+        "A": "It identifies a flaw in the study's research design.",
+        "B": "It introduces a technical term defined later in the passage.",
+        "C": "It emphasizes how the new finding overturns a previous belief.",
+        "D": "It restates the main conclusion of the study."
+      },
+      "correctOption": "C",
+      "explanationHtml": "The bolded sentence directly states that the result contradicts a prior assumption about urbanization harming biodiversity, highlighting the study's significance."
+    },
+    {
+      "questionId": "d4e5f6g7q1",
+      "passageId": "d4e5f6g7",
+      "passageHighlight": null,
+      "questionHtml": "Which choice best states the main purpose of the text?",
+      "options": {
+        "A": "To criticize tourists for damaging Yellowstone's thermal features.",
+        "B": "To explain how a popular park has managed overcrowding while protecting resources.",
+        "C": "To describe the geological formation of Old Faithful geyser.",
+        "D": "To compare Yellowstone to other national parks with geothermal features."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The text presents a problem (tourist damage) and then describes management solutions (boardwalk-only zones, timed permits) implemented by park rangers."
+    },
+    {
+      "questionId": "e5f6g7h8q1",
+      "passageId": "e5f6g7h8",
+      "passageHighlight": null,
+      "questionHtml": "Which choice best describes the overall structure of the text?",
+      "options": {
+        "A": "It identifies a complex problem and then presents unsuccessful attempts to solve it.",
+        "B": "It summarizes a debate among classicists and then takes a side.",
+        "C": "It describes a general situation and then illustrates it with specific examples.",
+        "D": "It discusses several playwrights and then explains overlooked differences between them."
+      },
+      "correctOption": "C",
+      "explanationHtml": "The first sentences describe the general loss of ancient Greek plays; the rest provides specific examples of indirect evidence for missing works."
+    },
+    {
+      "questionId": "f6g7h8i9q1",
+      "passageId": "f6g7h8i9",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best describes the function of the bolded portion?",
+      "options": {
+        "A": "It shows Levin's enjoyment of the party's entertainment.",
+        "B": "It reveals Levin's critical and weary attitude toward the social event.",
+        "C": "It indicates that Levin wishes to dance more often.",
+        "D": "It explains why Levin decides to leave the ball immediately."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The bolded sentence contrasts polite nodding with growing weariness, revealing Levin's internal disconnection from the hollow social rituals described earlier."
+    },
+    {
+      "questionId": "g7h8i9j0q1",
+      "passageId": "g7h8i9j0",
+      "passageHighlight": null,
+      "questionHtml": "Which choice best states the main purpose of the text?",
+      "options": {
+        "A": "To argue that eucalyptus trees are the most important species for reforestation.",
+        "B": "To describe a scientist's discovery that clarified eucalyptus genetics and aided forestry.",
+        "C": "To compare hybridization in eucalyptus with that in other Australian plants.",
+        "D": "To explain why eucalyptus species are often misidentified in the outback."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The text focuses on Briggs's discovery, her method (leaf oil analysis), and its practical impact on reforestation and climate studies."
+    },
+    {
+      "questionId": "h8i9j0k1q1",
+      "passageId": "h8i9j0k1",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best describes the function of the bolded portion?",
+      "options": {
+        "A": "It questions the reliability of the 2023 study's data.",
+        "B": "It introduces a new fish species discovered during the research.",
+        "C": "It emphasizes how the study's findings contradict a prior assumption.",
+        "D": "It summarizes the mating habits of all midshipman fish."
+      },
+      "correctOption": "C",
+      "explanationHtml": "The bolded sentence directly states that the evidence challenges a long-held belief about male-only fish sounds, highlighting the study's novelty."
+    },
+    {
+      "questionId": "i9j0k1l2q1",
+      "passageId": "i9j0k1l2",
+      "passageHighlight": null,
+      "questionHtml": "Which choice best describes the overall structure of the text?",
+      "options": {
+        "A": "It introduces an artist and then explains common characteristics of his work.",
+        "B": "It describes a specific print and then compares it to a later reproduction.",
+        "C": "It gives an opinion on an artist and then argues why he is underrated.",
+        "D": "It explains a printing technique and then lists artists who use it."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The first sentence introduces Hokusai; the following sentences describe features of his prints (single natural elements, horizontal compositions, handmade paper)."
+    },
+    {
+      "questionId": "j0k1l2m3q1",
+      "passageId": "j0k1l2m3",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best describes the function of the bolded portion?",
+      "options": {
+        "A": "It emphasizes Ishmael's anxiety about being at sea.",
+        "B": "It suggests that Ishmael is lost and worried about direction.",
+        "C": "It conveys a sense of calm and detachment in the narrator.",
+        "D": "It introduces a conflict between Ishmael and the crew."
+      },
+      "correctOption": "C",
+      "explanationHtml": "The imagery of the ocean as a 'silent and indifferent' desert and Ishmael's lack of urgency reinforce a peaceful, unhurried mood."
+    },
+    {
+      "questionId": "k1l2m3n4q1",
+      "passageId": "k1l2m3n4",
+      "passageHighlight": null,
+      "questionHtml": "Which choice best states the main purpose of the text?",
+      "options": {
+        "A": "To argue that parks reduce asthma more effectively than hospitals.",
+        "B": "To describe multiple benefits of urban parks supported by research.",
+        "C": "To compare Chicago's parks with those in other major cities.",
+        "D": "To explain how to renovate a park in a low-income neighborhood."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The text lists several benefits (lower asthma, higher property values, reduced heat islands) and cites a study, showing multiple advantages of parks."
+    },
+    {
+      "questionId": "l2m3n4o5q1",
+      "passageId": "l2m3n4o5",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best describes the function of the bolded portion?",
+      "options": {
+        "A": "It describes the physical appearance of the elephant skull.",
+        "B": "It argues that the skull was used for religious rituals.",
+        "C": "It proposes a broader historical implication of the discovery.",
+        "D": "It criticizes earlier interpretations of Shang trade routes."
+      },
+      "correctOption": "C",
+      "explanationHtml": "The bolded sentence moves beyond describing the skull to suggest its meaning (long-distance ivory trade), offering a historical implication."
+    },
+    {
+      "questionId": "m3n4o5p6q1",
+      "passageId": "m3n4o5p6",
+      "passageHighlight": null,
+      "questionHtml": "Which choice best describes the overall structure of the text?",
+      "options": {
+        "A": "It presents a problem, then introduces and summarizes a solution.",
+        "B": "It compares two different irrigation methods and declares one superior.",
+        "C": "It describes a historical trend and then predicts future outcomes.",
+        "D": "It lists several unrelated research findings about saltwater intrusion."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The text identifies a problem (saltwater intrusion from over-pumping), then presents a tested solution (clay barriers) and its results."
+    },
+    {
+      "questionId": "n4o5p6q7q1",
+      "passageId": "n4o5p6q7",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best describes the function of the bolded portion?",
+      "options": {
+        "A": "It establishes the speaker's impatience with the cold morning.",
+        "B": "It personifies the birch trees to reflect the speaker's own sense of anticipation.",
+        "C": "It contrasts the trees' movement with the stillness of the brook.",
+        "D": "It suggests that spring is an unpleasant season for the speaker."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The bolded line gives the trees human emotion (trembling from shedding frost), which mirrors the speaker's trembling for 'something just begun,' creating a shared mood of anticipation."
+    },
+    {
+      "questionId": "o5p6q7r8q1",
+      "passageId": "o5p6q7r8",
+      "passageHighlight": null,
+      "questionHtml": "Which choice best states the main purpose of the text?",
+      "options": {
+        "A": "To argue that air fryers will eventually replace microwaves.",
+        "B": "To trace the history and lasting relevance of the microwave oven.",
+        "C": "To explain how microwave radiation heats food in modern kitchens.",
+        "D": "To compare microwaves with other kitchen appliances."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The text moves from the microwave's invention (1945) to its adoption (1970s) to current prevalence, emphasizing its enduring speed and ubiquity."
+    },
+    {
+      "questionId": "3a7f9e22q1",
+      "passageId": "3a7f9e22",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best describes the function of the bolded portion in the text as a whole?",
+      "options": {
+        "A": "It introduces a contrast between the stillness of the grass and the movement of the sky.",
+        "B": "It provides a sensory detail that reinforces the mood of isolation and timelessness.",
+        "C": "It suggests that the narrator is frightened by the vastness of the prairie.",
+        "D": "It explains why the narrator prefers the prairie to the city."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The bolded sentence adds an auditory detail (the wind singing a \"lonely tune\") that deepens the mood of solitude and agelessness already established by the description of the grass and sky. It does not introduce contrast (A), nor does it suggest fear (C) or a preference for the prairie over the city (D)."
+    },
+    {
+      "questionId": "9c4d2b81q1",
+      "passageId": "9c4d2b81",
+      "passageHighlight": null,
+      "questionHtml": "Which choice best describes the overall structure of the text?",
+      "options": {
+        "A": "It presents two competing theories about a historical event and then offers evidence that supports one of them.",
+        "B": "It describes a problem faced by historians and then explains why that problem cannot be solved.",
+        "C": "It summarizes a popular belief and then argues that belief is completely false.",
+        "D": "It outlines a method used by archaeologists and then lists the limitations of that method."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The text first mentions the military-overexpansion theory, then introduces an alternative economic theory, and finally provides evidence (coinage study) that supports the economic view. It does not claim the military view is false (C), nor does it discuss unsolvable problems (B) or archaeological methods (D)."
+    },
+    {
+      "questionId": "5f2e7a94q1",
+      "passageId": "5f2e7a94",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best describes the function of the bolded portion?",
+      "options": {
+        "A": "It introduces a new finding that challenges the generality of earlier research.",
+        "B": "It summarizes the main conclusion of the 2022 study.",
+        "C": "It defines a term that is used later in the passage.",
+        "D": "It provides an example of a failed experiment."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The bolded sentence presents a specific finding about bumblebees that contrasts with the honeybee waggle dance research, thereby challenging the idea that all bees communicate similarly. It is not a conclusion (B), a definition (C), or a failed experiment (D)."
+    },
+    {
+      "questionId": "1d8a3c67q1",
+      "passageId": "1d8a3c67",
+      "passageHighlight": null,
+      "questionHtml": "Which choice best states the main purpose of the text?",
+      "options": {
+        "A": "To argue that Patrick's method is outdated compared to modern techniques",
+        "B": "To describe the development and lasting impact of Patrick's water-quality assessment method",
+        "C": "To compare Patrick's diatom index with other methods of measuring pollution",
+        "D": "To explain why algae are the best indicator species for stream health"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The text traces Patrick's method from its creation in the 1950s to its current global use, focusing on its development and significance. It does not argue it is outdated (A), compare it to other methods (C), or focus solely on algae (D)."
+    },
+    {
+      "questionId": "7e9b2f43q1",
+      "passageId": "7e9b2f43",
+      "passageHighlight": null,
+      "questionHtml": "Which choice best describes the overall structure of the text?",
+      "options": {
+        "A": "It corrects a common misconception and then explains what can be learned from an overlooked aspect of an artifact.",
+        "B": "It describes the historical event shown in an artifact and then argues that the artifact is unreliable.",
+        "C": "It presents two conflicting interpretations of an artifact and then suggests a way to resolve them.",
+        "D": "It summarizes the content of an artifact and then criticizes museum display practices."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The first sentence corrects the misconception that it is a tapestry. Then the text shifts to discussing what the reverse side reveals. It does not argue the artifact is unreliable (B), present conflicting interpretations (C), or criticize museums (D)."
+    },
+    {
+      "questionId": "2c5a8b76q1",
+      "passageId": "2c5a8b76",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best describes the function of the bolded portion?",
+      "options": {
+        "A": "It contrasts two different settings in the novel.",
+        "B": "It emphasizes Clarissa's simultaneous engagement with and detachment from the world.",
+        "C": "It suggests that Clarissa is angry with the people around her.",
+        "D": "It explains why Clarissa prefers to stay indoors."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The bolded sentence captures Clarissa's dual feeling of being both deeply involved (\"sliced like a knife\") and separate (\"outside, looking on\"), matching the text's theme of inner contradiction. It does not contrast settings (A), suggest anger (C), or explain an indoor preference (D)."
+    },
+    {
+      "questionId": "9a1d4f38q1",
+      "passageId": "9a1d4f38",
+      "passageHighlight": null,
+      "questionHtml": "Which choice best states the main purpose of the text?",
+      "options": {
+        "A": "To argue that the hummingbird hawk-moth is more interesting than hummingbirds",
+        "B": "To distinguish the hummingbird hawk-moth from hummingbirds and explain their similarity",
+        "C": "To describe the feeding habits of the hummingbird hawk-moth in detail",
+        "D": "To prove that convergent evolution occurs only in insects"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The text clarifies that the hawk-moth is an insect, not a bird, and contrasts their features while explaining why they look similar (convergent evolution). It does not argue which is more interesting (A), focus only on feeding habits (C), or claim convergent evolution is only in insects (D)."
+    },
+    {
+      "questionId": "4b6e2c91q1",
+      "passageId": "4b6e2c91",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best describes the function of the bolded portion?",
+      "options": {
+        "A": "It identifies the main problem that the hypothesis in the following sentence attempts to solve.",
+        "B": "It provides evidence that blinker stars are actually pulsars.",
+        "C": "It defines the term \"blinker star\" for the reader.",
+        "D": "It compares blinker stars to other celestial objects."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The bolded sentence states that the irregularity is puzzling because it breaks normal patterns. The next sentence then offers a hypothesis to explain it. It does not claim they are pulsars (B), define the term (C), or make a comparison (D—the comparison to pulsars occurs earlier)."
+    },
+    {
+      "questionId": "6f8c3a54q1",
+      "passageId": "6f8c3a54",
+      "passageHighlight": null,
+      "questionHtml": "Which choice best describes the overall structure of the text?",
+      "options": {
+        "A": "It presents a general historical context, then a specific example, then a broader conclusion.",
+        "B": "It compares two different methods of manuscript copying and declares one superior.",
+        "C": "It lists several problems with medieval copying and then offers solutions.",
+        "D": "It describes a debate among historians and then takes one side."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The text starts with the general context (medieval copying), gives a specific example (the 12th-century Bible and its symbols), and ends with a broader conclusion about individual creativity. It does not compare methods (B), list problems (C), or describe a debate (D)."
+    },
+    {
+      "questionId": "3d7e9b02q1",
+      "passageId": "3d7e9b02",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best describes the function of the bolded portion?",
+      "options": {
+        "A": "It suggests that Douglass regrets his efforts to learn to read.",
+        "B": "It previews the explanation of the clever methods Douglass used.",
+        "C": "It argues that learning to read is always difficult.",
+        "D": "It contrasts Douglass's experience with that of other enslaved people."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The bolded sentence states that Douglass used \"various stratagems,\" and the following sentences explain those circumstances (no teacher, mistress forced to stop). It does not show regret (A), make a general argument (C), or contrast with others (D)."
+    },
+    {
+      "questionId": "8a2f6e77q1",
+      "passageId": "8a2f6e77",
+      "passageHighlight": null,
+      "questionHtml": "Which choice best states the main purpose of the text?",
+      "options": {
+        "A": "To argue that Fleming deserved sole credit for the discovery of penicillin",
+        "B": "To trace the development of penicillin from accidental discovery to mass production",
+        "C": "To compare the research methods of Fleming, Florey, and Chain",
+        "D": "To explain why penicillin kills bacteria but not human cells"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The text follows penicillin from Fleming's accidental discovery through Florey and Chain's mass-production breakthrough to its impact. It does not assign credit (A), compare methods (C), or explain biological mechanisms (D)."
+    },
+    {
+      "questionId": "1c5b9e43q1",
+      "passageId": "1c5b9e43",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best describes the function of the bolded portion?",
+      "options": {
+        "A": "It introduces the solution that the following sentence provides.",
+        "B": "It defines a technical term used later in the text.",
+        "C": "It criticizes earlier studies of panda digestion.",
+        "D": "It compares pandas to other carnivorous animals."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The bolded sentence presents the puzzle (mismatch and lack of enzymes). The following sentence then explains how pandas compensate (eating large amounts, gut microbes). It does not define a term (B), criticize studies (C), or compare to other carnivores (D)."
+    },
+    {
+      "questionId": "7d3a2f81q1",
+      "passageId": "7d3a2f81",
+      "passageHighlight": null,
+      "questionHtml": "Which choice best describes the overall structure of the text?",
+      "options": {
+        "A": "It presents three different theories about literary meaning and then endorses one.",
+        "B": "It describes a historical debate and then argues that both sides are wrong.",
+        "C": "It explains a single theory in detail and gives examples.",
+        "D": "It lists problems with author-intention theory and then offers solutions."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The text outlines three positions (authorial intention, reader-created meaning, and Zunshine's middle ground), then notes that Zunshine's approach has gained support. It does not argue both sides are wrong (B), explain only one theory (C), or list problems with one theory (D)."
+    },
+    {
+      "questionId": "9e6b4c27q1",
+      "passageId": "9e6b4c27",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best describes the function of the bolded portion?",
+      "options": {
+        "A": "It conveys the physical discomfort and harshness of Tom's journey.",
+        "B": "It suggests that Tom is considering turning back.",
+        "C": "It introduces a memory of a happier time.",
+        "D": "It contrasts the sun's heat with the cool shade ahead."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The simile \"like a hammer\" emphasizes the intense, painful heat, reinforcing the harsh conditions Tom endures. It does not suggest turning back (B), introduce a memory (C), or contrast with shade (D—that comes in the next sentence)."
+    },
+    {
+      "questionId": "2a6c8d59q1",
+      "passageId": "2a6c8d59",
+      "passageHighlight": null,
+      "questionHtml": "Which choice best states the main purpose of the text?",
+      "options": {
+        "A": "To argue that Margulis's theory was more controversial than it deserved to be",
+        "B": "To describe the proposal, initial rejection, and eventual acceptance of a major biological theory",
+        "C": "To explain the difference between mitochondria and chloroplasts",
+        "D": "To compare endosymbiosis with other evolutionary mechanisms"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The text follows the arc of Margulis's theory from its proposal to rejection to confirmation and acceptance. It does not focus on the degree of controversy (A), detail organelle differences (C), or compare mechanisms (D)."
+    },
+    {
+      "questionId": "9f3a7c22q1",
+      "passageId": "9f3a7c22",
+      "passageHighlight": null,
+      "questionHtml": "Which choice best states the main purpose of the text?",
+      "options": {
+        "A": "To argue that oxytocin's effects are entirely negative and should be medically suppressed",
+        "B": "To present a counterintuitive finding about oxytocin that complicates its popular image",
+        "C": "To compare oxytocin's effects in humans with its effects in non-mammalian species",
+        "D": "To explain the chemical mechanism by which oxytocin influences trust in strangers"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The text first states the popular view of oxytocin as a \"love hormone,\" then introduces research showing it can also promote in-group favoritism and hostility to outsiders. This complicates the simple positive image. It does not argue the effects are entirely negative (A), compare across species (C), or explain the chemical mechanism (D)."
+    },
+    {
+      "questionId": "5d8b2e71q1",
+      "passageId": "5d8b2e71",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best describes the function of the bolded portion in the text as a whole?",
+      "options": {
+        "A": "It provides a specific example of the kind of social conflict Hobbes described.",
+        "B": "It introduces a second philosopher's opposing view to highlight the contrast with Hobbes.",
+        "C": "It summarizes the main argument of Rousseau's Social Contract in detail.",
+        "D": "It concedes that Hobbes's view has been completely discredited by later thinkers."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The bolded sentence explicitly contrasts Rousseau with Hobbes (\"by contrast\"), presenting an opposing view on human nature. It does not provide an example of Hobbes's conflict (A), summarize the Social Contract in detail (C), or concede discrediting (D)."
+    },
+    {
+      "questionId": "2c9a4e63q1",
+      "passageId": "2c9a4e63",
+      "passageHighlight": null,
+      "questionHtml": "Which choice best describes the overall structure of the text?",
+      "options": {
+        "A": "It presents two conflicting views, then introduces a third view that synthesizes elements of both.",
+        "B": "It describes a historical debate and then argues that both sides are irrelevant.",
+        "C": "It lists several ecosystem services and then explains how each is valued differently.",
+        "D": "It criticizes one economist's methods and then praises a different economist's approach."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The text first presents two opposing positions (pro-valuation and anti-valuation), then introduces Santos's third view as a middle ground. It does not argue both sides are irrelevant (B), list services (C), or focus on criticizing one economist (D)."
+    },
+    {
+      "questionId": "7b1d9f58q1",
+      "passageId": "7b1d9f58",
+      "passageHighlight": null,
+      "questionHtml": "Which choice best states the main purpose of the text?",
+      "options": {
+        "A": "To celebrate Carter's discovery while acknowledging minor omissions",
+        "B": "To argue that Carter's excavation was fraudulent and should be disregarded entirely",
+        "C": "To present evidence that a famous archaeological find was significantly compromised by biased reporting",
+        "D": "To compare the methods of Carter with those of other early 20th-century excavators"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The text challenges the celebratory view by presenting evidence that Carter's team systematically underreported and destroyed non-gold artifacts, distorting later understanding. It does not celebrate the discovery (A), call for disregarding it entirely (B), or compare methods (D)."
+    },
+    {
+      "questionId": "4e6c2a85q1",
+      "passageId": "4e6c2a85",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best describes the function of the bolded portion?",
+      "options": {
+        "A": "It introduces a flaw that undermines the positive traits described in the previous sentence.",
+        "B": "It provides a specific example of Dorothea's self-admiring behavior mentioned earlier.",
+        "C": "It explains a seeming inconsistency in Dorothea's character by identifying a different kind of self-regard.",
+        "D": "It contrasts Dorothea's behavior with that of other characters in the novel."
+      },
+      "correctOption": "C",
+      "explanationHtml": "The previous sentence says Dorothea is not self-admiring; the bolded sentence says she has a naive sense of her own importance regarding her plans. This explains the \"contradiction\" named in the following sentence. It does not undermine positive traits (A), provide an example of self-admiring behavior (B), or contrast with other characters (D)."
+    },
+    {
+      "questionId": "9d2f7b34q1",
+      "passageId": "9d2f7b34",
+      "passageHighlight": null,
+      "questionHtml": "Which choice best describes the overall structure of the text?",
+      "options": {
+        "A": "It summarizes a philosophical principle, then describes two successive challenges to it.",
+        "B": "It compares three different definitions of science and endorses one as superior.",
+        "C": "It lists the major works of Popper, Kuhn, and Feyerabend with publication dates.",
+        "D": "It explains why falsification was rejected by all later philosophers."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The text first presents Popper's falsification principle, then Kuhn's challenge, then Feyerabend's more radical challenge. It does not endorse one (B), just list works (C), or claim universal rejection (D)."
+    },
+    {
+      "questionId": "1a8c3e56q1",
+      "passageId": "1a8c3e56",
+      "passageHighlight": null,
+      "questionHtml": "Which choice best states the main purpose of the text?",
+      "options": {
+        "A": "To argue that the replication-first hypothesis has been conclusively proven",
+        "B": "To present a new experimental finding that offers a third possibility in a longstanding debate",
+        "C": "To describe the chemical structure of autocatalytic cycles in detail",
+        "D": "To compare hydrothermal vents with other proposed sites for the origin of life"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The text introduces a debate (metabolism-first vs. replication-first), then presents Yang's study, which shows autocatalytic cycles without genetics—a third possibility. It does not argue for replication-first (A), describe chemical structure in detail (C), or compare sites (D)."
+    },
+    {
+      "questionId": "6e7b2c91q1",
+      "passageId": "6e7b2c91",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best describes the function of the bolded portion?",
+      "options": {
+        "A": "It introduces an exception that modifies the definition of heteroglossia given earlier.",
+        "B": "It rejects Bakhtin's concept as internally inconsistent.",
+        "C": "It provides a specific example of a novel that lacks heteroglossia.",
+        "D": "It argues that generic conventions are unimportant for literary analysis."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The previous sentence defines heteroglossia; the bolded sentence adds a qualification (\"However ... no text is fully heteroglot\"), modifying the concept. It does not reject the concept (B), give an example (C), or argue conventions are unimportant (D)."
+    },
+    {
+      "questionId": "3d5a9f78q1",
+      "passageId": "3d5a9f78",
+      "passageHighlight": null,
+      "questionHtml": "Which choice best describes the overall structure of the text?",
+      "options": {
+        "A": "It describes a classic study, then presents later research that undermines its original conclusions.",
+        "B": "It compares two different experimental methods for measuring self-control in children.",
+        "C": "It summarizes the history of psychology from the 1960s to the present.",
+        "D": "It argues that delay of gratification is not a stable trait but situation-dependent."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The text first describes Mischel's marshmallow test and its initial conclusions, then presents a 2018 replication that questions those conclusions by controlling for confounding variables. It does not compare methods (B), summarize all of psychology (C), or make a general argument about stability (D)."
+    },
+    {
+      "questionId": "8f2c4d17q1",
+      "passageId": "8f2c4d17",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best describes the function of the bolded portion?",
+      "options": {
+        "A": "It provides a literal explanation of the narrator's optical properties.",
+        "B": "It offers an extended metaphor that clarifies the nature of the narrator's invisibility.",
+        "C": "It contrasts the narrator's situation with that of a physically invisible person.",
+        "D": "It introduces a new character who represents societal blindness."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The bolded sentence uses the metaphor of being made of glass and seen through or as reflections of assumptions to explain the social, not physical, invisibility the narrator experiences. It is not literal (A), does not contrast with physical invisibility (C), and does not introduce a new character (D)."
+    },
+    {
+      "questionId": "2b7e8a43q1",
+      "passageId": "2b7e8a43",
+      "passageHighlight": null,
+      "questionHtml": "Which choice best states the main purpose of the text?",
+      "options": {
+        "A": "To summarize Schumpeter's theory of creative destruction and then challenge it with evidence of state investment",
+        "B": "To defend Schumpeter against Marxist critiques by highlighting technological innovation",
+        "C": "To compare the iPhone's components with those of earlier smartphones",
+        "D": "To argue that private entrepreneurs never innovate without government funding"
+      },
+      "correctOption": "A",
+      "explanationHtml": "The text first presents Schumpeter's theory, then introduces Mazzucato's challenge, citing specific technologies that were state-funded. It does not defend Schumpeter (B), compare phone components (C), or make the absolute claim in D."
+    },
+    {
+      "questionId": "7c4a9b65q1",
+      "passageId": "7c4a9b65",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best describes the function of the bolded portion?",
+      "options": {
+        "A": "It provides a counterargument to the interpretation given in the previous sentence.",
+        "B": "It states a specific hypothesis that the following sentence then challenges.",
+        "C": "It offers an explanation for an observed historical pattern described earlier in the text.",
+        "D": "It describes the method Lepore used to date the gravestones."
+      },
+      "correctOption": "C",
+      "explanationHtml": "The first sentence describes the pattern (death's heads to cherubs). The bolded sentence offers Lepore's explanation for why that shift occurred (the Great Awakening). The following sentence adds nuance about resistance. It does not counter an argument (A), present a hypothesis that is challenged (B), or describe dating methods (D)."
+    },
+    {
+      "questionId": "5a1e8c24q1",
+      "passageId": "5a1e8c24",
+      "passageHighlight": null,
+      "questionHtml": "Which choice best describes the overall structure of the text?",
+      "options": {
+        "A": "It presents two opposing theories, then describes an experiment that favors one over the other.",
+        "B": "It traces the history of the universal grammar hypothesis and then declares it obsolete.",
+        "C": "It lists the limitations of neural networks for studying human cognition.",
+        "D": "It compares the methods of cognitive science with those of linguistics."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The text contrasts universal grammar (innate) with usage-based (emergent) theories, then presents Lieven's neural network study and its support for usage-based linguistics. It does not trace history (B), list limitations (C), or compare disciplines broadly (D)."
+    },
+    {
+      "questionId": "9c6d2f31q1",
+      "passageId": "9c6d2f31",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best describes the function of the bolded portion?",
+      "options": {
+        "A": "It directly contradicts the previous sentence's claim about a gentleman's duty.",
+        "B": "It explains a paradoxical social strategy that the previous sentence introduced.",
+        "C": "It provides an example of a character who failed to follow this strategy.",
+        "D": "It argues that detachment is impossible in a rigid society."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The previous sentence states that the duty is to observe convention with ironic grace. The bolded sentence unpacks that idea: open defiance gives convention power; perfect observance with detachment masters it. This explains the paradox. It does not contradict (A), give an example of failure (C), or argue impossibility (D)."
+    },
+    {
+      "questionId": "4e2b9a87q1",
+      "passageId": "4e2b9a87",
+      "passageHighlight": null,
+      "questionHtml": "Which choice best states the main purpose of the text?",
+      "options": {
+        "A": "To argue that the placebo effect is entirely unconscious and that expectation plays no role",
+        "B": "To present a study that challenges the primacy of conscious expectation in placebo effects",
+        "C": "To describe the neural mechanisms that underlie subliminal perception of faces",
+        "D": "To compare the effectiveness of placebo creams with that of actual pain medication"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The text contrasts the traditional focus on conscious expectation with Jensen's study, which shows subliminal cues can produce placebo effects regardless of conscious belief. It does not claim expectation plays no role (A), describe neural mechanisms (C), or compare with actual medication (D)."
+    }
+  ]
+}

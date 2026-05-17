@@ -1,265 +1,601 @@
 {
-  "passages": [],
+  "passages": [
+    {
+      "passageId": "p1",
+      "passageHtml": "The following text is adapted from Lucy Maud Montgomery's 1908 novel <i>Anne of Green Gables</i>. Marilla Cuthbert is speaking to Anne Shirley, a young orphan who has just arrived at her farm.<br><br>“You don't need to [highlight-1]stare[/highlight-1] at me so,” Marilla said sharply. “I'm not a circus animal. Haven't you ever seen a middle‑aged woman in an apron before?”"
+    },
+    {
+      "passageId": "p2",
+      "passageHtml": "Marine biologist Ayana Johnson argues that protecting ocean ecosystems and supporting coastal communities are not opposing goals. In fact, she says, sustainable fishing practices can _____ both at once."
+    },
+    {
+      "passageId": "p3",
+      "passageHtml": "The following text is from Zora Neale Hurston's 1937 novel <i>Their Eyes Were Watching God</i>. The protagonist, Janie, is reflecting on a conversation.<br><br>She had been [highlight-1]listening[/highlight-1] to the words for so long, but now she realized that hearing was not the same as understanding. The voice went on, but she had stopped following its meaning."
+    },
+    {
+      "passageId": "p4",
+      "passageHtml": "Before the invention of the modern elevator, buildings in most cities rarely ____ five or six stories. Passengers simply refused to climb more than a hundred stairs on a regular basis."
+    },
+    {
+      "passageId": "p5",
+      "passageHtml": "The ancient library at Alexandria was said to [highlight-1]house[/highlight-1] hundreds of thousands of papyrus scrolls. Scholars from across the Mediterranean traveled there to consult works on astronomy, medicine, philosophy, and poetry."
+    },
+    {
+      "passageId": "p6",
+      "passageHtml": "In the 1990s, geneticist Spencer Wells began collecting DNA samples from indigenous populations around the world. His goal was to trace ancient human migration patterns, and over a decade he _____ more than 10,000 samples."
+    },
+    {
+      "passageId": "p7",
+      "passageHtml": "The following text is adapted from Jack London's 1903 novel <i>The Call of the Wild</i>. Buck, a dog, has been taken from his comfortable home and forced to pull a sled in harsh conditions.<br><br>The [highlight-1]strain[/highlight-1] of the traces was a shock to Buck's body, but he braced himself against it. His muscles ached, yet he refused to quit, learning quickly that survival demanded endurance."
+    },
+    {
+      "passageId": "p8",
+      "passageHtml": "Architect Frank Lloyd Wright believed that buildings should ___ with their natural surroundings rather than dominate them. His famous house Fallingwater, built partially over a waterfall, is a prime example of this philosophy."
+    },
+    {
+      "passageId": "p9",
+      "passageHtml": "The discovery of penicillin in 1928 [highlight-1]revolutionized[/highlight-1] medicine. Before antibiotics, a simple scratch could lead to a fatal infection; afterward, doctors could cure diseases that had plagued humanity for millennia."
+    },
+    {
+      "passageId": "p10",
+      "passageHtml": "Unlike many birds that build elaborate nests, the common cuckoo ____ its eggs directly into the nests of other bird species. The unsuspecting host parents then raise the cuckoo chicks as their own."
+    },
+    {
+      "passageId": "p11",
+      "passageHtml": "The squirrels in the park had learned to _____ the city's traffic patterns, darting between cars and dodging feet with a skill that seemed almost human."
+    },
+    {
+      "passageId": "p12",
+      "passageHtml": "The following text is adapted from Ralph Ellison's 1952 novel <i>Invisible Man</i>. The narrator is describing his apartment.<br><br>I lived in a basement room [highlight-1]buried[/highlight-1] beneath a white‑owned building, but the ceiling was lined with 1,369 light bulbs. When I turned them on, the hum of the electricity drowned out the footsteps above."
+    },
+    {
+      "passageId": "p13",
+      "passageHtml": "Linguist Deborah Tannen found that in many conversations, listeners _____ not to dominate but to show engagement. These \"cooperative overlaps\" can signal enthusiasm, but they risk being misinterpreted as rudeness by speakers from different cultural backgrounds."
+    },
+    {
+      "passageId": "p14",
+      "passageHtml": "The following text is adapted from Virginia Woolf's 1927 novel <i>To the Lighthouse</i>. Mrs. Ramsay is thinking about her children.<br><br>It was [highlight-1]odd[/highlight-1] how often the children's demands coincided with the very moments she had set aside for herself. She would sink into a chair with a book, and instantly a small voice would call from the stairs."
+    },
+    {
+      "passageId": "p15",
+      "passageHtml": "Architectural historian Fatima Al‑Hassan argues that the Great Mosque of Djenné in Mali does not merely _____ traditional Sudano‑Sahelian architecture; it actively preserves a living building culture, as local masons reapply its mud plaster each year in a communal ceremony."
+    },
+    {
+      "passageId": "p16",
+      "passageHtml": "The following text is adapted from E. M. Forster's 1910 novel <i>Howards End</i>. Margaret Schlegel is speaking.<br><br>\"It is [highlight-1]nasty[/highlight-1] of people to be always stingy about the future,\" she said. \"They save and save, and for what? So that someone else can squander it after they're dead.\""
+    },
+    {
+      "passageId": "p17",
+      "passageHtml": "Neuroscientist Indira Rajan discovered that sleep does not ___ weak neural connections as previously thought. Instead, her experiments with mice showed that sleep actively strengthens a subset of memories while allowing others to fade naturally."
+    },
+    {
+      "passageId": "p18",
+      "passageHtml": "The following text is adapted from Mark Twain's 1884 novel <i>Adventures of Huckleberry Finn</i>. Huck is describing his friend Jim.<br><br>Jim had a [highlight-1]level head[/highlight-1], even when the raft was spinning in the fog. While I panicked, he sat quiet, listening to the river and figuring which way was land."
+    },
+    {
+      "passageId": "p19",
+      "passageHtml": "Botanist Yuki Tanaka showed that certain desert plants can ____ their leaves not only to conserve water but also to physically remove salt buildup. The falling leaves carry away sodium that would otherwise poison the plant."
+    },
+    {
+      "passageId": "p20",
+      "passageHtml": "The following text is adapted from George Eliot's 1871 novel <i>Middlemarch</i>. The character Dorothea Brooke is described.<br><br>She was [highlight-1]alive to[/highlight-1] the smallest details of the cottagers' lives, noticing when a child's shoe was worn thin or when a widow's fire had gone cold. Her sympathy was not a theory but a daily practice."
+    },
+    {
+      "passageId": "p21",
+      "passageHtml": "Composer Jessie Montgomery's <i>Strum</i> for string orchestra _____ on American folk tunes and protest songs, but it never directly quotes them. Instead, Montgomery captures their rhythmic energy and harmonic shapes to create something entirely new."
+    },
+    {
+      "passageId": "p22",
+      "passageHtml": "The following text is adapted from James Baldwin's 1953 story \"Sonny's Blues.\" The narrator is watching his brother play piano.<br><br>Sonny's fingers [highlight-1]struck[/highlight-1] the keys not like hammers but like a man walking on hot sand, touching and lifting, each note a fleeting escape from pain."
+    },
+    {
+      "passageId": "p23",
+      "passageHtml": "Astronomer Priyamvada Natarajan argues that the term \"planet\" should ____ flexible. As we discover worlds unlike any in our solar system—ocean planets, rogue planets, diamond planets—rigid definitions would only hinder science."
+    },
+    {
+      "passageId": "p24",
+      "passageHtml": "The following text is adapted from Chinua Achebe's 1958 novel <i>Things Fall Apart</i>. The village of Umuofia is preparing for a festival.<br><br>The drums [highlight-1]spoke[/highlight-1] long before the dancers appeared. First a slow, pregnant pulse, then a rapid chatter that set the young men's feet twitching. The old women smiled; they knew what was coming."
+    },
+    {
+      "passageId": "p25",
+      "passageHtml": "The following text is adapted from Herman Melville's 1851 novel <i>Moby‑Dick</i>. The narrator, Ishmael, is describing Captain Ahab.<br><br>Ahab's [highlight-1]temper[/highlight-1] was a thing of volcanic abruptness; it would lie dormant for days, then erupt without warning, shattering the calm of the quarter‑deck. Yet the crew, having witnessed the pattern, learned to read the subtle swell before the blast."
+    },
+    {
+      "passageId": "p26",
+      "passageHtml": "Political scientist Elena Vespa found that voters often _____ policy promises made late in a campaign, treating them as desperate attempts to sway undecideds rather than genuine commitments. This skepticism, however, disappears when the candidate has a long record of fulfilling similar pledges."
+    },
+    {
+      "passageId": "p27",
+      "passageHtml": "The following text is adapted from Henry James's 1881 novel <i>The Portrait of a Lady</i>. The character Isabel Archer is thinking about her future.<br><br>She had a [highlight-1]theory[/highlight-1] that to be reckless was to be free, and that to be cautious was to be a coward. But standing in the garden, watching the shadows lengthen, she began to suspect that recklessness had its own chains."
+    },
+    {
+      "passageId": "p28",
+      "passageHtml": "Neuroeconomist Paul Glimcher's research challenges the notion that human decision‑making is fundamentally _____. He argues that seemingly illogical choices often reflect efficient trade‑offs between effort and reward, given the brain's limited computational resources."
+    },
+    {
+      "passageId": "p29",
+      "passageHtml": "The following text is adapted from Edith Wharton's 1920 novel <i>The Age of Innocence</i>. Newland Archer is attending the opera.<br><br>He [highlight-1]sustained[/highlight-1] his part in the ritual of the boxes, nodding to acquaintances and murmuring appropriate nothings, while his eyes followed the Countess Olenska's profile. His face showed nothing; his performance was flawless."
+    },
+    {
+      "passageId": "p30",
+      "passageHtml": "Geographer Kathryn Furlong argues that treating water infrastructure as a purely technical system _____ the political decisions embedded in every pipe and pump. When a city chooses to meter residential water, that choice reflects values about fairness, not just engineering."
+    },
+    {
+      "passageId": "p31",
+      "passageHtml": "The following text is adapted from Thomas Hardy's 1891 novel <i>Tess of the d'Urbervilles</i>. The narrator describes Tess's feelings after a difficult experience.<br><br>She had grown to [highlight-1]regard[/highlight-1] her suffering as a natural part of the landscape, like the rain or the thorns. It was not that she accepted it gladly, but that she no longer expected anything else."
+    },
+    {
+      "passageId": "p32",
+      "passageHtml": "Classicist Emily Wilson, in her translation of the <i>Iliad</i>, chose to _____ the Greek word <i>doulos</i> as \"enslaved person\" rather than the traditional \"slave.\" She argues that the participle form emphasizes the condition imposed by war, not an inherent identity."
+    },
+    {
+      "passageId": "p33",
+      "passageHtml": "The following text is adapted from Franz Kafka's 1915 novella <i>The Metamorphosis</i>. Gregor Samsa has transformed into an insect.<br><br>He [highlight-1]pushed[/highlight-1] against the door with his entire body, but the wood was indifferent. His many legs, which he had not yet learned to coordinate, waved uselessly in the air. Only his voice, still human, remained his own."
+    },
+    {
+      "passageId": "p34",
+      "passageHtml": "Political theorist Danielle Allen argues that true democracy requires not just voting but also _____ shared commitments across lines of difference. This process is difficult, she admits, because it demands that citizens learn to trust those they have been taught to fear."
+    }
+  ],
   "questions": [
     {
-      "questionId": "q1",
-      "passageId": "",
-      "questionHtml": "What is the value of \\(|8 - 3| - |3 - 8|\\)?",
+      "questionId": "p1q1",
+      "passageId": "p1",
+      "passageHighlight": "1",
+      "questionHtml": "As used in the text, what does the word “<b>stare</b>” most nearly mean?",
       "options": {
-        "A": "\\(-10\\)",
-        "B": "\\(-5\\)",
-        "C": "0",
-        "D": "5"
+        "A": "Glance",
+        "B": "Gaze",
+        "C": "Wink",
+        "D": "Ignore"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul>\n  <li><b>B is correct</b> – “stare” means to look fixedly and intently. Marilla’s sharp tone and her comment about being a circus animal show that Anne is looking too directly and too long.</li>\n  <li><b>A is incorrect</b> – a “glance” is a quick, brief look, which would not provoke Marilla’s irritation.</li>\n  <li><b>C is incorrect</b> – “wink” means to blink one eye deliberately, unrelated to looking.</li>\n  <li><b>D is incorrect</b> – “ignore” means to pay no attention, the opposite of what Anne is doing.</li>\n</ul>"
+    },
+    {
+      "questionId": "p2q1",
+      "passageId": "p2",
+      "questionHtml": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": {
+        "A": "delay",
+        "B": "hide",
+        "C": "achieve",
+        "D": "complicate"
       },
       "correctOption": "C",
-      "explanationHtml": "\\[|8 - 3| = |5| = 5\\] \\[|3 - 8| = |-5| = 5\\] \\[5 - 5 = 0\\] Absolute value always gives a non‑negative result; the distance between two numbers is the same in both directions."
+      "explanationHtml": "<ul>\n  <li><b>C is correct</b> – “achieve” means to successfully reach a goal. Johnson argues that sustainable fishing can reach both goals together.</li>\n  <li><b>A is incorrect</b> – “delay” means to postpone, not to succeed at something.</li>\n  <li><b>B is incorrect</b> – “hide” means to conceal, which makes no sense here.</li>\n  <li><b>D is incorrect</b> – “complicate” means to make more difficult, but Johnson sees the two goals as compatible.</li>\n</ul>"
     },
     {
-      "questionId": "q2",
-      "passageId": "",
-      "questionHtml": "Which of the following is a rational number?",
+      "questionId": "p3q1",
+      "passageId": "p3",
+      "passageHighlight": "1",
+      "questionHtml": "As used in the text, what does the word “<b>listening</b>” most nearly mean?",
       "options": {
-        "A": "\\(\\sqrt{5}\\)",
-        "B": "\\(\\pi\\)",
-        "C": "\\(\\sqrt{16}\\)",
-        "D": "\\(\\sqrt{8}\\)"
+        "A": "Ignoring",
+        "B": "Obeying",
+        "C": "Paying attention to",
+        "D": "Forgetting"
       },
       "correctOption": "C",
-      "explanationHtml": "A rational number can be written as a fraction \\(\\frac{p}{q}\\) with integers \\(p, q\\). \\(\\sqrt{16} = 4 = \\frac{4}{1}\\) → rational. \\(\\sqrt{5}\\), \\(\\pi\\), \\(\\sqrt{8}\\) are irrational."
+      "explanationHtml": "<ul>\n  <li><b>C is correct</b> – “listening” means actively paying attention to sound. The text contrasts listening with understanding but still shows she was focused on the words.</li>\n  <li><b>A is incorrect</b> – ignoring is deliberately not paying attention, contradicting her long period of listening.</li>\n  <li><b>B is incorrect</b> – obeying means following commands; no commands are given.</li>\n  <li><b>D is incorrect</b> – forgetting means failing to remember, unrelated to hearing.</li>\n</ul>"
     },
     {
-      "questionId": "q3",
-      "passageId": "",
-      "questionHtml": "What rational number is exactly halfway between \\(\\frac{1}{4}\\) and \\(\\frac{1}{2}\\)?",
+      "questionId": "p4q1",
+      "passageId": "p4",
+      "questionHtml": "Which choice completes the text with the most logical and precise word or phrase?",
       "options": {
-        "A": "\\(\\frac{1}{3}\\)",
-        "B": "\\(\\frac{3}{8}\\)",
-        "C": "\\(\\frac{2}{5}\\)",
-        "D": "\\(\\frac{3}{4}\\)"
-      },
-      "correctOption": "B",
-      "explanationHtml": "Halfway = average = \\(\\frac{\\frac{1}{4} + \\frac{1}{2}}{2}\\). Common denominator: \\(\\frac{1}{4} + \\frac{2}{4} = \\frac{3}{4}\\). Divide by 2: \\(\\frac{3}{4} \\div 2 = \\frac{3}{4} \\times \\frac{1}{2} = \\frac{3}{8}\\)."
-    },
-    {
-      "questionId": "q4",
-      "passageId": "",
-      "questionHtml": "Given \\(i = \\sqrt{-1}\\), what is the value of \\(\\sqrt{25} + \\sqrt{-4}\\)?",
-      "options": {
-        "A": "\\(5 + 2i\\)",
-        "B": "\\(5 - 2i\\)",
-        "C": "\\(7i\\)",
-        "D": "3"
-      },
-      "correctOption": "A",
-      "explanationHtml": "\\[\\sqrt{25} = 5\\] \\[\\sqrt{-4} = \\sqrt{4} \\cdot \\sqrt{-1} = 2i\\] \\[\\text{Sum} = 5 + 2i\\]"
-    },
-    {
-      "questionId": "q5",
-      "passageId": "",
-      "questionHtml": "If \\(x < y\\), then \\(|x - y|\\) is equivalent to:",
-      "options": {
-        "A": "\\(x - y\\)",
-        "B": "\\(y - x\\)",
-        "C": "\\(x + y\\)",
-        "D": "\\(-x - y\\)"
-      },
-      "correctOption": "B",
-      "explanationHtml": "For any two numbers, \\(|a - b|\\) is the distance between them. Since \\(x < y\\), \\(x - y\\) is negative and its absolute value is \\(-(x - y) = y - x\\)."
-    },
-    {
-      "questionId": "q6",
-      "passageId": "",
-      "questionHtml": "Simplify: \\((4 + 5i) - (2 - 3i)\\)",
-      "options": {
-        "A": "\\(2 + 8i\\)",
-        "B": "\\(6 + 2i\\)",
-        "C": "\\(2 + 2i\\)",
-        "D": "\\(6 + 8i\\)"
-      },
-      "correctOption": "A",
-      "explanationHtml": "Subtract real parts: \\(4 - 2 = 2\\). Subtract imaginary parts: \\(5i - (-3i) = 5i + 3i = 8i\\). Result: \\(2 + 8i\\)."
-    },
-    {
-      "questionId": "q7",
-      "passageId": "",
-      "questionHtml": "What is the product of \\(\\frac{3}{4}\\) and \\(\\frac{2}{5}\\)?",
-      "options": {
-        "A": "\\(\\frac{5}{9}\\)",
-        "B": "\\(\\frac{6}{20}\\)",
-        "C": "\\(\\frac{3}{10}\\)",
-        "D": "\\(\\frac{1}{2}\\)"
-      },
-      "correctOption": "C",
-      "explanationHtml": "\\[\\frac{3}{4} \\times \\frac{2}{5} = \\frac{3 \\times 2}{4 \\times 5} = \\frac{6}{20} = \\frac{3}{10}\\] (simplified)."
-    },
-    {
-      "questionId": "q8",
-      "passageId": "",
-      "questionHtml": "Which number is NOT a real number?",
-      "options": {
-        "A": "\\(\\sqrt{-1}\\)",
-        "B": "\\(\\sqrt{4}\\)",
-        "C": "0",
-        "D": "\\(-\\frac{2}{3}\\)"
-      },
-      "correctOption": "A",
-      "explanationHtml": "\\(\\sqrt{-1} = i\\) is an imaginary (non‑real) number. All others lie on the real number line."
-    },
-    {
-      "questionId": "q9",
-      "passageId": "",
-      "questionHtml": "What is the value of \\(i^2\\)?",
-      "options": {
-        "A": "1",
-        "B": "-1",
-        "C": "i",
-        "D": "-i"
-      },
-      "correctOption": "B",
-      "explanationHtml": "By definition, \\(i = \\sqrt{-1}\\). Squaring both sides gives \\(i^2 = -1\\)."
-    },
-    {
-      "questionId": "q10",
-      "passageId": "",
-      "questionHtml": "Convert 0.2 to a fraction in simplest form.",
-      "options": {
-        "A": "\\(\\frac{2}{100}\\)",
-        "B": "\\(\\frac{1}{5}\\)",
-        "C": "\\(\\frac{1}{50}\\)",
-        "D": "\\(\\frac{2}{10}\\)"
-      },
-      "correctOption": "B",
-      "explanationHtml": "\\[0.2 = \\frac{2}{10} = \\frac{1}{5}\\] (simplified)."
-    },
-    {
-      "questionId": "q11",
-      "passageId": "",
-      "questionHtml": "What is the distance in the complex plane between \\(1 + 2i\\) and \\(4 + 6i\\)?",
-      "options": {
-        "A": "3",
-        "B": "4",
-        "C": "5",
-        "D": "\\(\\sqrt{7}\\)"
-      },
-      "correctOption": "C",
-      "explanationHtml": "Treat as points \\((1,2)\\) and \\((4,6)\\). \\[\\text{Distance} = \\sqrt{(4-1)^2 + (6-2)^2} = \\sqrt{3^2 + 4^2} = \\sqrt{9+16} = \\sqrt{25} = 5\\]"
-    },
-    {
-      "questionId": "q12",
-      "passageId": "",
-      "questionHtml": "For \\(i = \\sqrt{-1}\\), what is the value of \\((1 + i)^{4}\\)?",
-      "options": {
-        "A": "4",
-        "B": "-4",
-        "C": "4i",
-        "D": "-4i"
-      },
-      "correctOption": "B",
-      "explanationHtml": "First compute \\((1+i)^2 = 1 + 2i + i^2 = 1 + 2i - 1 = 2i\\). Then \\((1+i)^4 = (2i)^2 = 4i^2 = 4(-1) = -4\\)."
-    },
-    {
-      "questionId": "q13",
-      "passageId": "",
-      "questionHtml": "Which of the following is equivalent to \\(\\frac{5}{2 - i}\\)?",
-      "options": {
-        "A": "\\(2 + i\\)",
-        "B": "\\(2 - i\\)",
-        "C": "\\(\\frac{5}{2} + \\frac{5}{2}i\\)",
-        "D": "\\(\\frac{5}{3} + \\frac{5}{3}i\\)"
-      },
-      "correctOption": "A",
-      "explanationHtml": "Multiply numerator and denominator by the conjugate \\(2 + i\\): \\[\\frac{5}{2-i} \\cdot \\frac{2+i}{2+i} = \\frac{5(2+i)}{(2-i)(2+i)} = \\frac{5(2+i)}{4+1} = \\frac{5(2+i)}{5} = 2+i\\]"
-    },
-    {
-      "questionId": "q14",
-      "passageId": "",
-      "questionHtml": "If \\(x\\) and \\(y\\) are real numbers and \\((x + yi)(1 + 2i) = -3 + 4i\\), what is the value of \\(x + y\\)?",
-      "options": {
-        "A": "1",
-        "B": "2",
-        "C": "3",
-        "D": "4"
-      },
-      "correctOption": "C",
-      "explanationHtml": "Expand: \\((x + yi)(1 + 2i) = x + 2xi + yi + 2yi^2 = x + 2xi + yi - 2y = (x - 2y) + (2x + y)i\\).\nSet equal to \\(-3 + 4i\\):\n\\[\\begin{cases} x - 2y = -3 \\\\ 2x + y = 4 \\end{cases}\\]\nFrom the second, \\(y = 4 - 2x\\). Substitute into the first: \\(x - 2(4 - 2x) = -3 \\implies x - 8 + 4x = -3 \\implies 5x = 5 \\implies x = 1\\). Then \\(y = 4 - 2(1) = 2\\). So \\(x + y = 3\\)."
-    },
-    {
-      "questionId": "q15",
-      "passageId": "",
-      "questionHtml": "Factor \\(x^2 + 36\\) over the complex numbers.",
-      "options": {
-        "A": "\\((x + 6)(x - 6)\\)",
-        "B": "\\((x + 6i)(x - 6i)\\)",
-        "C": "\\((x + 6i)^2\\)",
-        "D": "\\((x - 6i)^2\\)"
-      },
-      "correctOption": "B",
-      "explanationHtml": "Over the reals, \\(x^2 + 36\\) is prime. Over the complex numbers, use the identity \\(a^2 + b^2 = (a + bi)(a - bi)\\). Here \\(a = x\\), \\(b = 6\\): \\(x^2 + 36 = (x + 6i)(x - 6i)\\)."
-    },
-    {
-      "questionId": "q16",
-      "passageId": "",
-      "questionHtml": "If \\(a\\) and \\(b\\) are positive integers and \\(\\frac{a}{b} = 0.\\overline{3}\\), what is the least possible value of \\(a + b\\)?",
-      "options": {
-        "A": "4",
-        "B": "5",
-        "C": "6",
-        "D": "7"
-      },
-      "correctOption": "A",
-      "explanationHtml": "\\(0.\\overline{3} = \\frac{1}{3}\\). Thus \\(\\frac{a}{b} = \\frac{1}{3} \\implies 3a = b\\). The smallest positive integer \\(a = 1\\) gives \\(b = 3\\), so \\(a + b = 1 + 3 = 4\\)."
-    },
-    {
-      "questionId": "q17",
-      "passageId": "",
-      "questionHtml": "What is the modulus of \\(-5 + 12i\\)?",
-      "options": {
-        "A": "7",
-        "B": "13",
-        "C": "17",
-        "D": "-13"
-      },
-      "correctOption": "B",
-      "explanationHtml": "The modulus of \\(a + bi\\) is \\(\\sqrt{a^2 + b^2}\\). Here \\(a = -5\\), \\(b = 12\\): \\[\\sqrt{(-5)^2 + 12^2} = \\sqrt{25 + 144} = \\sqrt{169} = 13\\]"
-    },
-    {
-      "questionId": "q18",
-      "passageId": "",
-      "questionHtml": "Which of the following is equivalent to \\(\\sqrt{-50}\\)?",
-      "options": {
-        "A": "\\(5i\\sqrt{2}\\)",
-        "B": "\\(5\\sqrt{2}\\)",
-        "C": "\\(25i\\sqrt{2}\\)",
-        "D": "\\(5i\\sqrt{10}\\)"
-      },
-      "correctOption": "A",
-      "explanationHtml": "\\[\\sqrt{-50} = \\sqrt{50} \\cdot \\sqrt{-1} = i\\sqrt{50} = i\\sqrt{25 \\cdot 2} = i \\cdot 5\\sqrt{2} = 5i\\sqrt{2}\\]"
-    },
-    {
-      "questionId": "q19",
-      "passageId": "",
-      "questionHtml": "If \\(\\frac{5 + 5i}{c + di} = 2 + i\\), where \\(c\\) and \\(d\\) are real numbers, what is the value of \\(c \\cdot d\\)?",
-      "options": {
-        "A": "1",
-        "B": "2",
-        "C": "3",
-        "D": "4"
-      },
-      "correctOption": "C",
-      "explanationHtml": "From \\(\\frac{5 + 5i}{c + di} = 2 + i\\), we have \\(5 + 5i = (2 + i)(c + di)\\). Expand the right side: \\(2c + 2di + ci + di^2 = (2c - d) + (2d + c)i\\). Equate real and imaginary parts: \\[\\begin{cases} 2c - d = 5 \\\\ 2d + c = 5 \\end{cases}\\] From the first, \\(d = 2c - 5\\). Substitute into the second: \\(2(2c - 5) + c = 5 \\implies 4c - 10 + c = 5 \\implies 5c = 15 \\implies c = 3\\). Then \\(d = 2(3) - 5 = 1\\). So \\(c \\cdot d = 3 \\cdot 1 = 3\\)."
-    },
-    {
-      "questionId": "q20",
-      "passageId": "",
-      "questionHtml": "The expression \\(\\frac{1}{i^{37}}\\) is equivalent to:",
-      "options": {
-        "A": "1",
-        "B": "-1",
-        "C": "i",
-        "D": "-i"
+        "A": "decorated",
+        "B": "survived",
+        "C": "measured",
+        "D": "surpassed"
       },
       "correctOption": "D",
-      "explanationHtml": "Powers of \\(i\\) cycle every 4: \\(i^1 = i,\\; i^2 = -1,\\; i^3 = -i,\\; i^4 = 1\\). Divide 37 by 4: remainder 1, so \\(i^{37} = i^1 = i\\). Then \\(\\frac{1}{i^{37}} = \\frac{1}{i}\\). Multiply numerator and denominator by \\(i\\): \\(\\frac{1}{i} \\cdot \\frac{i}{i} = \\frac{i}{i^2} = \\frac{i}{-1} = -i\\)."
+      "explanationHtml": "<ul>\n  <li><b>D is correct</b> – “surpassed” means to go beyond a limit. Without elevators, buildings did not go higher than five or six stories.</li>\n  <li><b>A is incorrect</b> – “decorated” means adorned, unrelated to height.</li>\n  <li><b>B is incorrect</b> – “survived” means continued to live; buildings don’t live.</li>\n  <li><b>C is incorrect</b> – “measured” means calculated the size of, not exceeded a limit.</li>\n</ul>"
+    },
+    {
+      "questionId": "p5q1",
+      "passageId": "p5",
+      "passageHighlight": "1",
+      "questionHtml": "As used in the text, what does the word “<b>house</b>” most nearly mean?",
+      "options": {
+        "A": "Build",
+        "B": "Contain",
+        "C": "Hide",
+        "D": "Sell"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul>\n  <li><b>B is correct</b> – as a verb, “house” means to contain or provide space for something. The library held the scrolls within its walls.</li>\n  <li><b>A is incorrect</b> – “build” means to construct; the library did not construct the scrolls.</li>\n  <li><b>C is incorrect</b> – “hide” means to conceal; the library was a place of study, not secrecy.</li>\n  <li><b>D is incorrect</b> – “sell” implies commerce; the passage emphasizes consultation and study.</li>\n</ul>"
+    },
+    {
+      "questionId": "p6q1",
+      "passageId": "p6",
+      "questionHtml": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": {
+        "A": "discarded",
+        "B": "avoided",
+        "C": "amassed",
+        "D": "borrowed"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<ul>\n  <li><b>C is correct</b> – “amassed” means gathered or accumulated a large quantity, matching his collection of 10,000 samples.</li>\n  <li><b>A is incorrect</b> – “discarded” means thrown away, the opposite of what he did.</li>\n  <li><b>B is incorrect</b> – “avoided” means stayed away from, contradicting active collection.</li>\n  <li><b>D is incorrect</b> – “borrowed” implies returning the items; DNA samples are not typically borrowed.</li>\n</ul>"
+    },
+    {
+      "questionId": "p7q1",
+      "passageId": "p7",
+      "passageHighlight": "1",
+      "questionHtml": "As used in the text, what does the word “<b>strain</b>” most nearly mean?",
+      "options": {
+        "A": "Relaxation",
+        "B": "Pressure",
+        "C": "Melody",
+        "D": "Breed"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul>\n  <li><b>B is correct</b> – “strain” means physical pressure or tension. Buck feels the pull of the sled traces, causing muscle aches.</li>\n  <li><b>A is incorrect</b> – relaxation is the opposite of the physical demand described.</li>\n  <li><b>C is incorrect</b> – melody refers to music, unrelated.</li>\n  <li><b>D is incorrect</b> – breed refers to a type of animal, not relevant.</li>\n</ul>"
+    },
+    {
+      "questionId": "p8q1",
+      "passageId": "p8",
+      "questionHtml": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": {
+        "A": "contrast",
+        "B": "fight",
+        "C": "harmonize",
+        "D": "replace"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<ul>\n  <li><b>C is correct</b> – “harmonize” means to combine in a pleasing or compatible way. Wright wanted buildings to fit naturally with the environment.</li>\n  <li><b>A is incorrect</b> – “contrast” means to stand out sharply, the opposite of blending.</li>\n  <li><b>B is incorrect</b> – “fight” means to struggle against, not to cooperate with.</li>\n  <li><b>D is incorrect</b> – “replace” means to take the place of, but buildings don’t replace the landscape.</li>\n</ul>"
+    },
+    {
+      "questionId": "p9q1",
+      "passageId": "p9",
+      "passageHighlight": "1",
+      "questionHtml": "As used in the text, what does the word “<b>revolutionized</b>” most nearly mean?",
+      "options": {
+        "A": "Ignored",
+        "B": "Described",
+        "C": "Preserved",
+        "D": "Transformed"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<ul>\n  <li><b>D is correct</b> – “revolutionized” means completely changed for the better. Penicillin fundamentally altered medical treatment.</li>\n  <li><b>A is incorrect</b> – “ignored” means disregarded, opposite of making a dramatic impact.</li>\n  <li><b>B is incorrect</b> – “described” means explained in words, not changed.</li>\n  <li><b>C is incorrect</b> – “preserved” means kept the same, but medicine was radically altered.</li>\n</ul>"
+    },
+    {
+      "questionId": "p10q1",
+      "passageId": "p10",
+      "questionHtml": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": {
+        "A": "hides",
+        "B": "lays",
+        "C": "cooks",
+        "D": "retrieves"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul>\n  <li><b>B is correct</b> – “lays” is the precise verb for egg‑deposition in birds. The cuckoo places its eggs in other nests.</li>\n  <li><b>A is incorrect</b> – “hides” means to conceal; the cuckoo doesn’t necessarily hide the eggs, simply leaves them.</li>\n  <li><b>C is incorrect</b> – “cooks” is nonsensical for eggs in this biological context.</li>\n  <li><b>D is incorrect</b> – “retrieves” means to go and get something; the cuckoo leaves eggs, does not pick them up.</li>\n</ul>"
+    },
+    {
+      "questionId": "p11q1",
+      "passageId": "p11",
+      "questionHtml": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": {
+        "A": "avoid",
+        "B": "navigate",
+        "C": "create",
+        "D": "lament"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul>\n  <li><b>B is correct</b> – “navigate” means to find a way through a complex area. The squirrels move skillfully through traffic.</li>\n  <li><b>A is incorrect</b> – “avoid” would mean staying away, but they move through it.</li>\n  <li><b>C is incorrect</b> – “create” implies making traffic, which squirrels don’t do.</li>\n  <li><b>D is incorrect</b> – “lament” means to express grief, unrelated.</li>\n</ul>"
+    },
+    {
+      "questionId": "p12q1",
+      "passageId": "p12",
+      "passageHighlight": "1",
+      "questionHtml": "As used in the text, what does the word “<b>buried</b>” most nearly mean?",
+      "options": {
+        "A": "Interred",
+        "B": "Hidden",
+        "C": "Submerged",
+        "D": "Surrounded"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul>\n  <li><b>B is correct</b> – metaphorically, “buried” means hidden or concealed from view. The basement is out of sight beneath the building.</li>\n  <li><b>A is incorrect</b> – “interred” refers specifically to burial of a dead body, too literal.</li>\n  <li><b>C is incorrect</b> – “submerged” implies under liquid, not a building.</li>\n  <li><b>D is incorrect</b> – “surrounded” means enclosed on all sides; the emphasis is on being out of sight.</li>\n</ul>"
+    },
+    {
+      "questionId": "p13q1",
+      "passageId": "p13",
+      "questionHtml": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": {
+        "A": "conclude",
+        "B": "echo",
+        "C": "interrupt",
+        "D": "postpone"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<ul>\n  <li><b>C is correct</b> – “interrupt” means to break into a conversation. The text explicitly describes “cooperative overlaps” as a form of interruption.</li>\n  <li><b>A is incorrect</b> – “conclude” means to end, not to interject.</li>\n  <li><b>B is incorrect</b> – “echo” means to repeat, not the same as interrupting.</li>\n  <li><b>D is incorrect</b> – “postpone” means to delay, unrelated to conversation timing.</li>\n</ul>"
+    },
+    {
+      "questionId": "p14q1",
+      "passageId": "p14",
+      "passageHighlight": "1",
+      "questionHtml": "As used in the text, what does the word “<b>odd</b>” most nearly mean?",
+      "options": {
+        "A": "Strange",
+        "B": "Numerical",
+        "C": "Remaining",
+        "D": "Inconsistent"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<ul>\n  <li><b>A is correct</b> – “odd” means peculiar or curious. Mrs. Ramsay finds it noteworthy that interruptions happen so regularly.</li>\n  <li><b>B is incorrect</b> – “numerical” refers to numbers, not relevant.</li>\n  <li><b>C is incorrect</b> – “remaining” means left over, doesn’t fit.</li>\n  <li><b>D is incorrect</b> – “inconsistent” means not staying the same, but the text describes a consistent pattern.</li>\n</ul>"
+    },
+    {
+      "questionId": "p15q1",
+      "passageId": "p15",
+      "questionHtml": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": {
+        "A": "display",
+        "B": "exaggerate",
+        "C": "discard",
+        "D": "imitate"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<ul>\n  <li><b>A is correct</b> – “display” means to show or present. The mosque shows traditional architecture, but the text says it does more than that.</li>\n  <li><b>B is incorrect</b> – “exaggerate” means to overstate, not suggested.</li>\n  <li><b>C is incorrect</b> – “discard” means to throw away, opposite of preserving.</li>\n  <li><b>D is incorrect</b> – “imitate” means to copy; the mosque is an original example, not a copy.</li>\n</ul>"
+    },
+    {
+      "questionId": "p16q1",
+      "passageId": "p16",
+      "passageHighlight": "1",
+      "questionHtml": "As used in the text, what does the word “<b>nasty</b>” most nearly mean?",
+      "options": {
+        "A": "Filthy",
+        "B": "Unpleasant",
+        "C": "Vicious",
+        "D": "Trivial"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul>\n  <li><b>B is correct</b> – “nasty” here means disagreeable or mean‑spirited. She criticizes stinginess as morally unpleasant.</li>\n  <li><b>A is incorrect</b> – “filthy” refers to physical dirt, not moral character.</li>\n  <li><b>C is incorrect</b> – “vicious” implies cruelty or malice, too strong for mere stinginess.</li>\n  <li><b>D is incorrect</b> – “trivial” means unimportant; she clearly thinks it’s significant.</li>\n</ul>"
+    },
+    {
+      "questionId": "p17q1",
+      "passageId": "p17",
+      "questionHtml": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": {
+        "A": "memorize",
+        "B": "create",
+        "C": "erase",
+        "D": "weaken"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<ul>\n  <li><b>C is correct</b> – “erase” means to remove completely. The new finding contrasts with deleting weak connections.</li>\n  <li><b>A is incorrect</b> – “memorize” is about learning, not removing.</li>\n  <li><b>B is incorrect</b> – “create” means to make new, opposite of erasing.</li>\n  <li><b>D is incorrect</b> – “weaken” is not as strong as “erase”; the old theory was elimination, not just reduction.</li>\n</ul>"
+    },
+    {
+      "questionId": "p18q1",
+      "passageId": "p18",
+      "passageHighlight": "1",
+      "questionHtml": "As used in the text, what does the phrase “<b>level head</b>” most nearly mean?",
+      "options": {
+        "A": "Flat skull",
+        "B": "Calm judgment",
+        "C": "Honest nature",
+        "D": "Equal status"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul>\n  <li><b>B is correct</b> – idiom meaning calm, sensible thinking under stress. Jim stays quiet and figures out direction while Huck panics.</li>\n  <li><b>A is incorrect</b> – literal reading ignores the idiom.</li>\n  <li><b>C is incorrect</b> – context emphasizes composure, not honesty.</li>\n  <li><b>D is incorrect</b> – “equal status” is unrelated.</li>\n</ul>"
+    },
+    {
+      "questionId": "p19q1",
+      "passageId": "p19",
+      "questionHtml": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": {
+        "A": "grow",
+        "B": "shed",
+        "C": "protect",
+        "D": "absorb"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul>\n  <li><b>B is correct</b> – “shed” means to cast off or discard. Plants drop leaves to remove salt.</li>\n  <li><b>A is incorrect</b> – “grow” is the opposite of shedding.</li>\n  <li><b>C is incorrect</b> – “protect” suggests keeping leaves safe, not dropping them.</li>\n  <li><b>D is incorrect</b> – “absorb” means to take in, the opposite.</li>\n</ul>"
+    },
+    {
+      "questionId": "p20q1",
+      "passageId": "p20",
+      "passageHighlight": "1",
+      "questionHtml": "As used in the text, what does the phrase “<b>alive to</b>” most nearly mean?",
+      "options": {
+        "A": "Breathing",
+        "B": "Awake",
+        "C": "Sensitive",
+        "D": "Energetic"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<ul>\n  <li><b>C is correct</b> – “alive to” means acutely aware of or sensitive to something. She notices tiny, overlooked details.</li>\n  <li><b>A is incorrect</b> – “breathing” is literal, not figurative.</li>\n  <li><b>B is incorrect</b> – “awake” means not sleeping; context is about perception, not consciousness.</li>\n  <li><b>D is incorrect</b> – “energetic” suggests physical vigor, not emotional sensitivity.</li>\n</ul>"
+    },
+    {
+      "questionId": "p21q1",
+      "passageId": "p21",
+      "questionHtml": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": {
+        "A": "turns",
+        "B": "comments",
+        "C": "draws",
+        "D": "expands"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<ul>\n  <li><b>C is correct</b> – “draws on” means uses as a source or inspiration. Montgomery uses folk and protest songs as raw material.</li>\n  <li><b>A is incorrect</b> – “turns on” would mean activates or depends on, not idiomatic here.</li>\n  <li><b>B is incorrect</b> – “comments on” implies critique or discussion, not artistic borrowing.</li>\n  <li><b>D is incorrect</b> – “expands on” means to add detail to a single idea, not source from multiple influences.</li>\n</ul>"
+    },
+    {
+      "questionId": "p22q1",
+      "passageId": "p22",
+      "passageHighlight": "1",
+      "questionHtml": "As used in the text, what does the word “<b>struck</b>” most nearly mean?",
+      "options": {
+        "A": "Hit violently",
+        "B": "Occurred to",
+        "C": "Impressed",
+        "D": "Touched briefly"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<ul>\n  <li><b>D is correct</b> – the simile compares his fingers to “a man walking on hot sand, touching and lifting,” implying quick, light contact.</li>\n  <li><b>A is incorrect</b> – “hit violently” is opposite of delicate touch.</li>\n  <li><b>B is incorrect</b> – “occurred to” is a mental event, unrelated.</li>\n  <li><b>C is incorrect</b> – “impressed” means to make a positive impact, not a physical action.</li>\n</ul>"
+    },
+    {
+      "questionId": "p23q1",
+      "passageId": "p23",
+      "questionHtml": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": {
+        "A": "remain",
+        "B": "survive",
+        "C": "prove",
+        "D": "become"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<ul>\n  <li><b>A is correct</b> – “remain” means to continue to be. She wants the definition to stay flexible, not become rigid.</li>\n  <li><b>B is incorrect</b> – “survive” means to continue despite threats; flexibility is not under threat.</li>\n  <li><b>C is incorrect</b> – “prove” means to demonstrate, doesn’t fit.</li>\n  <li><b>D is incorrect</b> – “become” would mean changing into something new; she wants it to stay as is.</li>\n</ul>"
+    },
+    {
+      "questionId": "p24q1",
+      "passageId": "p24",
+      "passageHighlight": "1",
+      "questionHtml": "As used in the text, what does the word “<b>spoke</b>” most nearly mean?",
+      "options": {
+        "A": "Articulated words",
+        "B": "Communicated meaning",
+        "C": "Made noise",
+        "D": "Commanded obedience"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul>\n  <li><b>B is correct</b> – metaphorically, the drums communicated meaning (slow pulse, rapid chatter) that the villagers understood.</li>\n  <li><b>A is incorrect</b> – drums do not literally articulate words.</li>\n  <li><b>C is incorrect</b> – “made noise” is too generic; the text emphasizes conveyed messages.</li>\n  <li><b>D is incorrect</b> – “commanded obedience” implies authority; context is rhythm and anticipation.</li>\n</ul>"
+    },
+    {
+      "questionId": "p25q1",
+      "passageId": "p25",
+      "passageHighlight": "1",
+      "questionHtml": "As used in the text, what does the word “<b>temper</b>” most nearly mean?",
+      "options": {
+        "A": "mood",
+        "B": "climate",
+        "C": "anger",
+        "D": "disposition"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<ul>\n  <li><b>D is correct</b> – “temper” here means characteristic disposition or habitual state of mind. The description of lying dormant then erupting refers to a deep‑seated personality trait.</li>\n  <li><b>A is incorrect</b> – “mood” suggests a temporary state, but the text shows a recurring pattern over days.</li>\n  <li><b>B is incorrect</b> – “climate” is a metaphorical stretch; the passage is about personality, not atmosphere.</li>\n  <li><b>C is incorrect</b> – “anger” is too narrow; temper includes abruptness and volatility, not solely anger.</li>\n</ul>"
+    },
+    {
+      "questionId": "p26q1",
+      "passageId": "p26",
+      "questionHtml": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": {
+        "A": "ignore",
+        "B": "reduce the price of",
+        "C": "discount",
+        "D": "foresee"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<ul>\n  <li><b>C is correct</b> – “discount” here means to regard with doubt or disbelief, to distrust. Voters treat late promises as unreliable.</li>\n  <li><b>A is incorrect</b> – “ignore” means to pay no attention; voters do pay attention but don’t believe them.</li>\n  <li><b>B is incorrect</b> – literal meaning (lower the price) doesn’t fit policy promises.</li>\n  <li><b>D is incorrect</b> – “foresee” means to predict, unrelated to skepticism.</li>\n</ul>"
+    },
+    {
+      "questionId": "p27q1",
+      "passageId": "p27",
+      "passageHighlight": "1",
+      "questionHtml": "As used in the text, what does the word “<b>theory</b>” most nearly mean?",
+      "options": {
+        "A": "scientific hypothesis",
+        "B": "speculative belief",
+        "C": "proven fact",
+        "D": "moral instruction"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul>\n  <li><b>B is correct</b> – “theory” here means a personal conviction or speculative belief, not yet tested. She later doubts it.</li>\n  <li><b>A is incorrect</b> – the context is personal philosophy, not a scientific framework.</li>\n  <li><b>C is incorrect</b> – she begins to doubt it, so it is not proven.</li>\n  <li><b>D is incorrect</b> – a moral instruction is an external directive; her theory is self‑derived.</li>\n</ul>"
+    },
+    {
+      "questionId": "p28q1",
+      "passageId": "p28",
+      "questionHtml": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": {
+        "A": "emotional",
+        "B": "unpredictable",
+        "C": "irrational",
+        "D": "inconsistent"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<ul>\n  <li><b>C is correct</b> – “irrational” means without reason or logic. Glimcher counters that even odd choices are reasoned trade‑offs.</li>\n  <li><b>A is incorrect</b> – “emotional” is a different dimension; irrationality is about lack of reason, not presence of emotion.</li>\n  <li><b>B is incorrect</b> – “unpredictable” refers to inability to forecast, not absence of logic.</li>\n  <li><b>D is incorrect</b> – “inconsistent” means varying, not necessarily illogical.</li>\n</ul>"
+    },
+    {
+      "questionId": "p29q1",
+      "passageId": "p29",
+      "passageHighlight": "1",
+      "questionHtml": "As used in the text, what does the word “<b>sustained</b>” most nearly mean?",
+      "options": {
+        "A": "endured",
+        "B": "supported physically",
+        "C": "maintained",
+        "D": "suffered"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<ul>\n  <li><b>C is correct</b> – “sustained” means to keep up or continue (a role or activity). Archer maintains his social performance despite distraction.</li>\n  <li><b>A is incorrect</b> – “endured” implies bearing hardship; the text emphasizes deliberate continuation, not suffering.</li>\n  <li><b>B is incorrect</b> – the physical meaning (hold up weight) doesn’t fit a social ritual.</li>\n  <li><b>D is incorrect</b> – “suffered” is too negative and passive; Archer is actively performing.</li>\n</ul>"
+    },
+    {
+      "questionId": "p30q1",
+      "passageId": "p30",
+      "questionHtml": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": {
+        "A": "obscures",
+        "B": "complicates",
+        "C": "clarifies",
+        "D": "undermines"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<ul>\n  <li><b>A is correct</b> – “obscures” means to make unclear or hide from view. A purely technical view hides the political aspects.</li>\n  <li><b>B is incorrect</b> – “complicates” means to make more complex; obscuring is about hiding, not adding complexity.</li>\n  <li><b>C is incorrect</b> – “clarifies” is the opposite of obscures.</li>\n  <li><b>D is incorrect</b> – “undermines” means to weaken, not to hide.</li>\n</ul>"
+    },
+    {
+      "questionId": "p31q1",
+      "passageId": "p31",
+      "passageHighlight": "1",
+      "questionHtml": "As used in the text, what does the word “<b>regard</b>” most nearly mean?",
+      "options": {
+        "A": "look at",
+        "B": "respect",
+        "C": "consider",
+        "D": "attend to"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<ul>\n  <li><b>C is correct</b> – “regard” means to think of or consider in a particular way. Tess considers her suffering natural and inevitable.</li>\n  <li><b>A is incorrect</b> – “look at” is literal visual perception, not a mental attitude.</li>\n  <li><b>B is incorrect</b> – “respect” implies admiration; Tess does not admire her suffering.</li>\n  <li><b>D is incorrect</b> – “attend to” means to take care of or pay attention to, not to form a belief.</li>\n</ul>"
+    },
+    {
+      "questionId": "p32q1",
+      "passageId": "p32",
+      "questionHtml": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": {
+        "A": "render",
+        "B": "perform",
+        "C": "surrender",
+        "D": "depict"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<ul>\n  <li><b>A is correct</b> – “render” in translation means to represent or interpret a word from one language into another.</li>\n  <li><b>B is incorrect</b> – “perform” is for actions or music, not translation.</li>\n  <li><b>C is incorrect</b> – “surrender” means to give up, unrelated.</li>\n  <li><b>D is incorrect</b> – “depict” means to show visually, not linguistically.</li>\n</ul>"
+    },
+    {
+      "questionId": "p33q1",
+      "passageId": "p33",
+      "passageHighlight": "1",
+      "questionHtml": "As used in the text, what does the word “<b>pushed</b>” most nearly mean?",
+      "options": {
+        "A": "shoved violently",
+        "B": "urged persistently",
+        "C": "applied pressure to",
+        "D": "advanced forcefully"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<ul>\n  <li><b>C is correct</b> – “pushed” means to exert pressure against a surface. His futile physical effort against the indifferent door.</li>\n  <li><b>A is incorrect</b> – “shoved violently” suggests aggression and force that may not be present; Gregor’s movements are clumsy.</li>\n  <li><b>B is incorrect</b> – “urged persistently” implies metaphorical or verbal effort, not physical.</li>\n  <li><b>D is incorrect</b> – “advanced forcefully” suggests moving forward; focus is on pressing, not progressing.</li>\n</ul>"
+    },
+    {
+      "questionId": "p34q1",
+      "passageId": "p34",
+      "questionHtml": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": {
+        "A": "counterfeiting",
+        "B": "forging",
+        "C": "discovering",
+        "D": "imposing"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul>\n  <li><b>B is correct</b> – “forging” metaphorically means to create or shape through sustained effort, like a blacksmith. Allen describes hard work building trust.</li>\n  <li><b>A is incorrect</b> – “counterfeiting” means faking, with negative connotations not intended.</li>\n  <li><b>C is incorrect</b> – “discovering” implies finding something pre‑existing, not creating it.</li>\n  <li><b>D is incorrect</b> – “imposing” means forcing on others, opposite of shared commitment.</li>\n</ul>"
     }
   ]
 }

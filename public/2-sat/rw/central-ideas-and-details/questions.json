@@ -1,0 +1,601 @@
+{
+  "passages": [
+    {
+      "passageId": "pass_01",
+      "passageHtml": "<strong>pass_01</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br><br>The following text is adapted from a nature blog.<br>In the Sonoran Desert, the saguaro cactus can live for over 150 years and grow more than 40 feet tall. These cacti serve as nesting sites for birds like the Gila woodpecker, which carves holes in their fleshy trunks. Far from harming the saguaro, these holes are sealed off by the cactus's own tissue, creating a protected cavity. This relationship allows birds to raise young in a safe environment while the cactus remains unharmed."
+    },
+    {
+      "passageId": "pass_02",
+      "passageHtml": "<strong>pass_02</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br><br>From a 2019 article on urban planning.<br>In Copenhagen, Denmark, planners have prioritized bicycle infrastructure for decades. More than 60% of residents bike to work or school daily, thanks to over 400 kilometers of protected bike lanes. These lanes are separated from car traffic by curbs or parked cars, reducing accidents and encouraging even more cycling. Unlike cities that treat bikes as an afterthought, Copenhagen has made cycling a primary mode of transportation."
+    },
+    {
+      "passageId": "pass_03",
+      "passageHtml": "<strong>pass_03</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br><br>From a memoir about growing up in rural Montana.<br>Every morning before school, my grandmother would hand me a warm biscuit wrapped in a cloth napkin. She never said much, just patted my shoulder as I ran out the door. Years later, when I smelled fresh bread in a bakery, I didn't think of the bread itself—I thought of her hands, dusted with flour, and the quiet way she showed love."
+    },
+    {
+      "passageId": "pass_04",
+      "passageHtml": "<strong>pass_04</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br><br>From a science summary on animal behavior.<br>Researchers studying African elephants have observed that these animals produce low-frequency rumbles that travel through the ground. Other elephants detect these vibrations using sensitive nerve endings in their feet. This allows herds to communicate over distances of up to two miles, even when visual contact is impossible. Scientists believe this seismic communication helps elephants coordinate movements and warn of danger."
+    },
+    {
+      "passageId": "pass_05",
+      "passageHtml": "<strong>pass_05</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br><br>From a historical account of the 19th century.<br>In the 1840s, thousands of families traveled the Oregon Trail in covered wagons. The journey took five to six months and covered over 2,000 miles. Contrary to popular myth, most travelers did not face attacks from Native Americans; in fact, Native tribes often provided food, guidance, and trade. The greatest dangers were disease, accidental injury, and harsh weather."
+    },
+    {
+      "passageId": "pass_06",
+      "passageHtml": "<strong>pass_06</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br><br>From a novel about a young artist.<br>Maya stared at the blank canvas for an hour. Her brush hovered, then retreated. She had painted dozens of landscapes before, but this one was different. Her grandmother had asked for a portrait—not of a face, but of \"the feeling of home.\" Maya closed her eyes, remembering the smell of woodsmoke and the creak of the porch swing. When she opened them, she dipped her brush in ochre and began."
+    },
+    {
+      "passageId": "pass_07",
+      "passageHtml": "<strong>pass_07</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br><br>From an article on food waste.<br>In South Korea, citizens are required to dispose of food waste in special biodegradable bags. The bags are priced to cover the cost of processing, which includes turning the waste into animal feed and fertilizer. Since the program began, food waste recycling has reached 95%, a dramatic increase from just 2% in 1995. This policy has made South Korea a global leader in waste reduction."
+    },
+    {
+      "passageId": "pass_08",
+      "passageHtml": "<strong>pass_08</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br><br>From a biography of a scientist.<br>Dr. Yuki Tanaka spent ten years studying a single species of moss in the Japanese Alps. She visited the same square meter of forest floor every month, recording temperature, moisture, and growth patterns. Colleagues questioned why she focused so narrowly. But her long-term data eventually revealed how even tiny changes in climate could alter moss reproduction—a finding now used to predict ecosystem shifts worldwide."
+    },
+    {
+      "passageId": "pass_09",
+      "passageHtml": "<strong>pass_09</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br><br>From a 1922 short story.<br>The lighthouse keeper lit the lamp at dusk, as he had done for thirty years. Sailors called him Old Stoneface because he never waved or smiled. But each night, after the lamp was lit, he would walk to the edge of the cliff and place a single white flower in a crack of the rock. No one knew that his son had drowned in a storm fifty yards from shore—and that the flowers were his silent hello."
+    },
+    {
+      "passageId": "pass_10",
+      "passageHtml": "<strong>pass_10</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br><br>From a summary of an economics study.<br>A recent study tracked 1,000 small business owners who switched from annual to monthly budget reviews. After one year, 78% reported fewer cash flow emergencies, and 62% increased their profit margins. Researchers attribute these improvements to more frequent detection of spending trends and faster adjustments to pricing. The study suggests that small changes in financial habits can yield significant results."
+    },
+    {
+      "passageId": "pass_11",
+      "passageHtml": "<strong>pass_11</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br><br>The following text is adapted from a 2015 article on renewable energy.<br>In Denmark, wind turbines now generate nearly half of the country's electricity. This success did not happen by accident: the government began investing heavily in wind technology in the 1970s after the oil crisis. Subsidies for wind energy, combined with a national goal of carbon neutrality by 2050, encouraged private investment. Today, Denmark exports wind power to neighboring countries and has created thousands of jobs in turbine manufacturing. However, critics note that wind energy remains intermittent, requiring backup from fossil fuels or storage systems that are still expensive."
+    },
+    {
+      "passageId": "pass_12",
+      "passageHtml": "<strong>pass_12</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br><br>From a 2022 biography of poet Phillis Wheatley.<br>Phillis Wheatley was enslaved in Boston but became the first African American to publish a book of poetry in 1773. Her work often employed classical forms and Christian themes, which appealed to white audiences who might otherwise have dismissed her abilities. Yet some modern scholars argue that Wheatley's poetry subtly critiques slavery by using irony and double meanings. For example, her poem \"On Being Brought from Africa to America\" can be read as both a thanksgiving and a veiled protest. This dual reading has made her work a subject of ongoing debate."
+    },
+    {
+      "passageId": "pass_13",
+      "passageHtml": "<strong>pass_13</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br><br>From a historical study of medieval trade routes.<br>The Silk Road was not a single road but a network of paths connecting China to the Mediterranean. From the 2nd century BCE to the 14th century CE, merchants transported silk, spices, and precious metals. However, recent archaeological evidence suggests that the most profitable commodity was not silk but paper. Paper money and written documents allowed for more complex financial transactions, fueling the rise of banking houses in Samarkand and Baghdad. Without paper, the Silk Road's economic impact might have been far smaller."
+    },
+    {
+      "passageId": "pass_14",
+      "passageHtml": "<strong>pass_14</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br><br>Adapted from an 1898 novel by Mary Wilkins Freeman.<br>The old woman sat by the window, her hands folded over the quilt she would never finish. Outside, the elm tree her husband had planted fifty years ago scraped the glass. She remembered the day he brought it home, a bare root wrapped in burlap. \"For shade,\" he'd said. Now the tree was taller than the house, and he had been dead for twenty years. She rose slowly, walked to the cupboard, and took down a cup that had not been used since his last birthday. She drank her tea from it, holding it with both hands."
+    },
+    {
+      "passageId": "pass_15",
+      "passageHtml": "<strong>pass_15</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br><br>From a science report on bat navigation.<br>For decades, scientists believed that bats used echolocation exclusively for navigation. However, a 2021 study by researchers at Tel Aviv University found that fruit bats also rely on visual landmarks, especially during twilight hours when light levels are low but not absent. The bats were observed making distinct turns at recognizable trees and buildings even when echolocation was experimentally blocked. This suggests that bats integrate multiple sensory inputs, adapting their strategies based on available light."
+    },
+    {
+      "passageId": "pass_16",
+      "passageHtml": "<strong>pass_16</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br><br>From a 2020 essay on urban green spaces.<br>Community gardens in low-income neighborhoods do more than provide fresh vegetables. A five-year study in Detroit found that residents living within 500 feet of a community garden reported 40% fewer stress-related illnesses and 25% lower rates of petty crime. Researchers attribute this to increased social interaction and a sense of shared responsibility. However, the gardens require sustained volunteer commitment, and many fail within two years due to lack of funding or leadership turnover."
+    },
+    {
+      "passageId": "pass_17",
+      "passageHtml": "<strong>pass_17</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br><br>Adapted from a 1957 short story by Ray Bradbury.<br>The last man on Mars walked into the abandoned greenhouse. Glass panes had long since cracked, and the air was thin and cold. But the soil troughs still held seeds—earth seeds, brought a century ago. He had no water, no hope of growing anything. Still, he knelt and touched the dry pellets. They crumbled to dust. He sat back on his heels and looked up at the pink sky. Somewhere, he knew, the other colonists had left recordings. He had chosen not to listen. Silence, he thought, was a kinder memorial."
+    },
+    {
+      "passageId": "pass_18",
+      "passageHtml": "<strong>pass_18</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br><br>From an economics study on tipping behavior.<br>A field experiment in New York City restaurants tested whether servers' written messages on checks influenced tip amounts. Over 2,000 dinners, servers added either \"Thank you\" or a specific compliment (\"Great choice!\") or no message. The \"Thank you\" message increased tips by an average of 3%, while the specific compliment increased tips by 8%. The researchers concluded that personalized, positive feedback creates a brief social bond, making customers more generous. However, the effect disappeared when the server was perceived as insincere."
+    },
+    {
+      "passageId": "pass_19",
+      "passageHtml": "<strong>pass_19</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br><br>Adapted from a 1925 memoir by Zora Neale Hurston.<br>Eatonville, Florida, was the first all-Black town to be incorporated in the United States. I grew up there without ever feeling inferior. The white tourists who passed through on their way to Orlando would sometimes stop and stare at us as if we were curiosities. My mother would say, \"Don't you pay them no mind.\" So we didn't. We had our own mayor, our own stores, our own stories. The only time I realized I was \"colored\" was when I left Eatonville for school in Jacksonville."
+    },
+    {
+      "passageId": "pass_20",
+      "passageHtml": "<strong>pass_20</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br><br>From a research summary on octopus intelligence.<br>Octopuses have long been known for problem-solving abilities, such as opening jars to get food. A 2019 study at the University of Chicago found that individual octopuses exhibit consistent personality traits—some are shy, others bold or curious. When presented with a novel object (a bright plastic lobster), bold octopuses approached immediately, while shy ones retreated. Interestingly, shy octopuses learned faster how to open a complex latch, suggesting that personality affects learning style, not just ability."
+    },
+    {
+      "passageId": "pass_21",
+      "passageHtml": "<strong>pass_21</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br><br>From an 1843 essay by Thomas Carlyle.<br>Democracy, we are told, is the inevitable destination of modern society. But I wonder: is the mere counting of heads a sufficient guide for the soul of a nation? The voice of the people is loud, but is it wise? In a storm, the captain does not poll the passengers on which way to steer. He consults his compass and his charts. So too must a nation be guided by those who have studied the winds of history, not by the momentary shout of the crowd."
+    },
+    {
+      "passageId": "pass_22",
+      "passageHtml": "<strong>pass_22</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br><br>From a 2018 article on urban wildlife.<br>Coyotes have adapted to life in Los Angeles by becoming nocturnal, avoiding humans and busy streets. Researchers fitted 20 coyotes with GPS collars and found that their activity peaked between midnight and 4 a.m., when human traffic is lowest. However, coyotes living near parks with high daytime visitation (like Griffith Park) were more likely to be active at dawn than those in purely residential areas. This suggests that coyotes adjust their schedules locally based on patterns of human presence."
+    },
+    {
+      "passageId": "pass_23",
+      "passageHtml": "<strong>pass_23</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br><br>Adapted from Jane Austen's 1813 novel Pride and Prejudice (slightly modified).<br>Mr. Bennet was so odd a mixture of quick parts, sarcastic humor, reserve, and caprice, that the experience of three-and-twenty years had been insufficient to make his wife understand his character. Her mind was less difficult to comprehend. She was a woman of mean understanding, little information, and uncertain temper. When she was discontented, she fancied herself nervous. The business of her life was to get her daughters married; its solace was visiting and news."
+    },
+    {
+      "passageId": "pass_24",
+      "passageHtml": "<strong>pass_24</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br><br>From a 2021 environmental study on beaver dams.<br>Beaver dams are often removed because they flood roads or farmland. However, a ten-year study in Oregon found that streams with active beaver dams had 50% more salmon fry (young fish) than streams without. The dams create deep pools that provide refuge from predators and slow water flow, allowing insects to thrive as food. Moreover, the ponds recharge groundwater and reduce downstream flooding during heavy rain. The study concludes that beaver dams are net beneficial for most watersheds, despite localized conflicts."
+    },
+    {
+      "passageId": "pass_25",
+      "passageHtml": "<strong>pass_25</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br><br>Adapted from a 1916 story by Sherwood Anderson.<br>The old man climbed the stairs to his room slowly, gripping the rail. He had been a carpenter, but his hands now shook so badly he could not hold a hammer. The room smelled of dust and loneliness. On the dresser stood a photograph of a woman—his wife, dead thirty years. He talked to her every night. \"I kept the house,\" he whispered. \"The roof never leaked.\" He sat on the bed and stared out the window at the factory where he had worked. The whistle blew. Five o'clock. Time to go home, he thought. But he was already home."
+    },
+    {
+      "passageId": "pass_26",
+      "passageHtml": "<strong>pass_26</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br><br>The following text is adapted from a 2018 study on urban heat islands.<br>In cities, dark asphalt and concrete absorb solar radiation during the day and release it slowly at night, creating urban heat islands where temperatures can be 5-10°F higher than in surrounding rural areas. Traditional countermeasures—white roofs and increased tree canopy—have proven effective but face practical limits: white roofs require frequent cleaning to maintain reflectivity, and trees need water that many cities lack. A newer approach involves reflective \"cool\" pavements that emit infrared radiation more efficiently. However, a 2017 simulation showed that while cool pavements reduce surface temperatures, they can increase pedestrian-level heat by reflecting sunlight onto people and buildings. The optimal solution may require a mix of strategies tailored to each city's specific layout and climate."
+    },
+    {
+      "passageId": "pass_27",
+      "passageHtml": "<strong>pass_27</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br><br>From a 2021 philosophical essay on memory and identity.<br>To claim that memory is essential to personal identity is nearly a truism. Yet consider the case of someone who loses all autobiographical memory due to brain injury. Does that person cease to exist as the same individual? Some philosophers argue that character traits, habits, and social relations persist, providing continuity. But if those too change over time, what remains? Perhaps identity is not a fixed substance but a narrative we constantly revise. The paradox is that the very act of revising one's life story presupposes a self who does the revising. Thus memory's role is not to preserve a static core but to enable the dynamic process of self-construction."
+    },
+    {
+      "passageId": "pass_28",
+      "passageHtml": "<strong>pass_28</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br><br>From a 2019 archaeological report on the Indus Valley civilization.<br>The Indus Valley civilization (c. 2600-1900 BCE) is renowned for its standardized brick sizes, advanced drainage systems, and undeciphered script. Unlike Egypt or Mesopotamia, no monumental palaces or royal tombs have been found, leading early scholars to posit an egalitarian society. Recent excavations at Rakhighari, however, have uncovered a large structure with multiple rooms, storage facilities, and what appears to be a ceremonial platform. While not a palace in the Mesopotamian sense, the building's scale and isolation from common dwellings suggest the presence of elites. Yet the absence of lavish grave goods or imperial propaganda indicates that power, if it existed, was expressed through control of resources rather than ostentation. This complicates the very definition of \"hierarchy\" in non-Western contexts."
+    },
+    {
+      "passageId": "pass_29",
+      "passageHtml": "<strong>pass_29</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br><br>Adopted from a 1947 novel by Malcolm Lowry.<br>The consul sat in the cantina, staring at the mescal bottle. Outside, the Mexican sun bleached everything to bone. He had come here to forget, but forgetting required a memory to begin with. His wife had left him six months ago, or was it a year? The telegram was in his coat pocket, unread. He had learned that some truths are like the worm in the bottle: you can remove it, but the taste remains. He poured another glass, watching the liquid climb the sides. Down, he thought. Everything goes down eventually."
+    },
+    {
+      "passageId": "pass_30",
+      "passageHtml": "<strong>pass_30</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br><br>From a 2020 biology paper on plant communication.<br>For decades, the idea that plants can \"communicate\" was dismissed as pseudoscience. Yet recent experiments show that when a tomato plant's leaf is cut, it releases volatile organic compounds (VOCs) that neighboring tomato plants detect, prompting them to produce defense chemicals. This is not communication in the human sense, but a form of information transfer. However, a 2019 study by Karban et al. found that sagebrush plants emit VOCs that are more effective at warning genetically identical neighbors than unrelated ones. This kin-discrimination suggests an evolutionary adaptation: helping relatives propagate shared genes. The researchers caution against anthropomorphism; the plants do not \"choose\" to help. Instead, natural selection has shaped a mechanism that operates without consciousness."
+    },
+    {
+      "passageId": "pass_31",
+      "passageHtml": "<strong>pass_31</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br><br>Adapted from an 1887 essay by John Ruskin on Gothic architecture.<br>The Gothic cathedral is not a static object but a record of human labor. Look at the mismatched capitals, the slightly crooked arches, the carvings where the chisel slipped and was corrected. These imperfections are not failures; they are signatures. The Greek temple strives for the ideal—a geometry that gods might inhabit. But the Gothic church confesses that its builders were men, with tired hands and wandering eyes. You can trace the fatigue in the uneven spacing of the columns, the joy in the grinning gargoyle, the prayer in the pointed arch that reaches but never quite touches heaven. To love Gothic is to love the struggle, not the triumph."
+    },
+    {
+      "passageId": "pass_32",
+      "passageHtml": "<strong>pass_32</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br><br>From a 2022 economics report on the gig economy.<br>The rise of app-based gig work (Uber, DoorDash, etc.) has been hailed as a flexible alternative to traditional employment. However, a longitudinal study of 1,200 gig workers in Chicago found that 68% worked more than 50 hours per week to earn a net income equivalent to minimum wage, after accounting for vehicle depreciation, fuel, and self-employment taxes. Moreover, the flexibility is asymmetrical: platforms can deactivate workers at any time without cause, but workers face penalties for rejecting too many trips. The study's authors conclude that while gig work offers short-term cash flow, it often fails to provide the economic stability or genuine autonomy that proponents claim. Policy interventions such as portable benefits and minimum earnings guarantees are suggested but remain untested at scale."
+    },
+    {
+      "passageId": "pass_33",
+      "passageHtml": "<strong>pass_33</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br><br>From a 1911 short story by D. H. Lawrence.<br>The miner's wife stood at the window, watching the slag heap grow. Every day the black pile rose higher, swallowing the meadow where she used to pick wild garlic. Her husband came home with coal dust ground into his knuckles. He ate in silence, then slept. She wanted to ask him: what is it for? The company owns the coal, the house, the store. You give them your back, and they give you a check that passes through your hands like water. But she said nothing. Instead, she scrubbed the stoop until the wood turned white. That was her heap—a small defiance against the darkness that crept in from the pit."
+    },
+    {
+      "passageId": "pass_34",
+      "passageHtml": "<strong>pass_34</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br><br>From a 2023 astronomy article on exoplanet atmospheres.<br>Detecting biosignatures in exoplanet atmospheres is a primary goal of the James Webb Space Telescope (JWST). However, a recent model by Meadows et al. warns that false positives are likely. For example, a planet with a thin atmosphere and a dead surface might still show oxygen and methane—traditional biosignatures—if volcanic activity releases methane and ultraviolet light splits water vapor into oxygen. To avoid errors, the team proposes a \"detective\" approach: measure multiple gases, look for temporal changes, and model the planet's geological history. Even then, confidence may require sampling many planets in the same system to find statistical anomalies. The authors conclude that biosignature detection is not a simple yes/no but a Bayesian inference problem requiring prior probabilities."
+    },
+    {
+      "passageId": "pass_35",
+      "passageHtml": "<strong>pass_35</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br><br>Adapted from a 1927 poem by Langston Hughes.<br>I, too, sing America.<br>I am the darker brother.<br>They send me to eat in the kitchen<br>When company comes,<br>But I laugh,<br>And eat well,<br>And grow strong.<br><br>Tomorrow,<br>I'll be at the table<br>When company comes.<br>Nobody'll dare<br>Say to me,<br>\"Eat in the kitchen,\"<br>Then.<br><br>Besides,<br>They'll see how beautiful I am<br>And be ashamed—<br>I, too, am America."
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "pass_01q1",
+      "passageId": "pass_01",
+      "questionHtml": "Which choice best states the main idea of the text?",
+      "options": {
+        "A": "The saguaro cactus is the tallest plant in the Sonoran Desert.",
+        "B": "Gila woodpeckers harm saguaro cacti by carving holes in them.",
+        "C": "Saguaro cacti and Gila woodpeckers share a mutually beneficial relationship.",
+        "D": "Saguaro cacti can live for over 150 years."
+      },
+      "correctOption": "C",
+      "explanationHtml": "Choice C is correct because the text focuses on how both the cactus and the bird benefit from the nesting arrangement. Choice A is a detail, not the main idea. Choice B is opposite of the truth—the text says the cactus is unharmed. Choice D is also a detail, but the passage is about the relationship, not just the cactus's lifespan."
+    },
+    {
+      "questionId": "pass_02q1",
+      "passageId": "pass_02",
+      "questionHtml": "According to the text, what is one result of Copenhagen's bicycle infrastructure?",
+      "options": {
+        "A": "Car accidents have increased due to crowded roads.",
+        "B": "The majority of residents use bikes for daily commuting.",
+        "C": "Biking has become less popular over time.",
+        "D": "The city has removed all car traffic from downtown."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Choice B is directly supported: \"More than 60% of residents bike to work or school daily.\" Choice A is not mentioned. Choice C is opposite—biking is encouraged. Choice D is extreme and unsupported."
+    },
+    {
+      "questionId": "pass_03q1",
+      "passageId": "pass_03",
+      "questionHtml": "Which choice best states the main idea of the text?",
+      "options": {
+        "A": "The narrator's grandmother was not very talkative.",
+        "B": "The smell of fresh bread reminds the narrator of his grandmother's silent affection.",
+        "C": "Biscuits are better when wrapped in a cloth napkin.",
+        "D": "The narrator prefers bakery bread to homemade bread."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Choice B captures the central emotional connection between the sensory memory and the grandmother's love. Choice A is a detail but not the main idea. Choice C is not supported. Choice D is contradicted—the narrator associates bakery bread with his grandmother, not preference."
+    },
+    {
+      "questionId": "pass_04q1",
+      "passageId": "pass_04",
+      "questionHtml": "According to the text, why do elephants use low-frequency rumbles?",
+      "options": {
+        "A": "To scare away predators with loud sounds.",
+        "B": "To communicate over long distances through the ground.",
+        "C": "To attract mates during mating season.",
+        "D": "To mark their territory with vibrations."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Choice B is directly stated: the rumbles travel through the ground and allow communication over two miles. Choice A is not mentioned. Choices C and D are unsupported by the text."
+    },
+    {
+      "questionId": "pass_05q1",
+      "passageId": "pass_05",
+      "questionHtml": "Which choice best states the main idea of the text?",
+      "options": {
+        "A": "Native Americans were hostile to Oregon Trail travelers.",
+        "B": "The Oregon Trail journey was short and easy for most families.",
+        "C": "The real dangers of the Oregon Trail were disease and weather, not Native American attacks.",
+        "D": "Covered wagons were the only way to travel west in the 1840s."
+      },
+      "correctOption": "C",
+      "explanationHtml": "Choice C corrects a common myth and summarizes the text's central point. Choice A is opposite of what the text says. Choice B is false—the journey was long and hard. Choice D is unsupported and extreme."
+    },
+    {
+      "questionId": "pass_06q1",
+      "passageId": "pass_06",
+      "questionHtml": "According to the text, why is Maya struggling to begin painting?",
+      "options": {
+        "A": "She has never painted a landscape before.",
+        "B": "Her grandmother asked for an unusual and abstract subject.",
+        "C": "She doesn't like her grandmother's request.",
+        "D": "She has no memory of her home."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Choice B is correct—her grandmother asked for \"the feeling of home,\" which is abstract, not a typical portrait. Choice A is false (she painted many landscapes). Choice C is not stated. Choice D is false—she remembers details clearly."
+    },
+    {
+      "questionId": "pass_07q1",
+      "passageId": "pass_07",
+      "questionHtml": "Which choice best states the main idea of the text?",
+      "options": {
+        "A": "South Korea charges citizens for regular trash bags.",
+        "B": "A government policy has dramatically increased food waste recycling in South Korea.",
+        "C": "Food waste cannot be turned into useful products.",
+        "D": "Most countries recycle 95% of their food waste."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Choice B summarizes the cause (policy) and effect (increased recycling). Choice A is incorrect—the text specifies biodegradable bags for food waste, not all trash. Choice C is opposite—the text says waste is turned into feed and fertilizer. Choice D is false and unsupported."
+    },
+    {
+      "questionId": "pass_08q1",
+      "passageId": "pass_08",
+      "questionHtml": "According to the text, what was the value of Dr. Tanaka's long-term study?",
+      "options": {
+        "A": "It proved that moss is not affected by climate change.",
+        "B": "It helped her win a popularity contest among colleagues.",
+        "C": "It provided data that helps predict ecosystem changes globally.",
+        "D": "It showed that studying one square meter is a waste of time."
+      },
+      "correctOption": "C",
+      "explanationHtml": "Choice C is directly stated: her finding is \"now used to predict ecosystem shifts worldwide.\" Choice A is opposite—she found that climate changes affect moss. Choice B is not mentioned. Choice D is contradicted."
+    },
+    {
+      "questionId": "pass_09q1",
+      "passageId": "pass_09",
+      "questionHtml": "Which choice best states the main idea of the text?",
+      "options": {
+        "A": "The lighthouse keeper was unfriendly to sailors.",
+        "B": "The lighthouse keeper's nightly ritual was a private act of remembrance for his son.",
+        "C": "Storms are dangerous for sailors and lighthouse keepers.",
+        "D": "White flowers grow naturally on cliffs near lighthouses."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Choice B captures the hidden emotional meaning behind the keeper's actions. Choice A is a superficial detail, not the main idea. Choice C is too general and not the focus. Choice D is false—the flowers are placed, not growing naturally."
+    },
+    {
+      "questionId": "pass_10q1",
+      "passageId": "pass_10",
+      "questionHtml": "Which choice best states the main idea of the text?",
+      "options": {
+        "A": "Monthly budget reviews help small business owners improve financial outcomes.",
+        "B": "Annual budget reviews are useless for small businesses.",
+        "C": "Most small business owners fail because of poor pricing.",
+        "D": "Researchers studied 1,000 large corporations."
+      },
+      "correctOption": "A",
+      "explanationHtml": "Choice A directly summarizes the study's finding. Choice B is extreme and not stated—annual reviews aren't called \"useless.\" Choice C is not mentioned. Choice D is wrong—the study tracked small business owners, not corporations."
+    },
+    {
+      "questionId": "pass_11q1",
+      "passageId": "pass_11",
+      "questionHtml": "Which choice best states the main idea of the text?",
+      "options": {
+        "A": "Denmark's wind energy program has been successful but faces ongoing challenges.",
+        "B": "Denmark would not have developed wind power without the 1970s oil crisis.",
+        "C": "Wind energy is cheaper than fossil fuels in most European countries.",
+        "D": "Critics believe Denmark should abandon wind power in favor of nuclear energy."
+      },
+      "correctOption": "A",
+      "explanationHtml": "Choice A captures both the success (high production, exports, jobs) and the challenge (intermittency, storage costs). Choice B is too narrow—the oil crisis was a catalyst, but the text lists other factors. Choice C is not supported. Choice D misrepresents critics' concerns."
+    },
+    {
+      "questionId": "pass_12q1",
+      "passageId": "pass_12",
+      "questionHtml": "According to the text, what is one reason Phillis Wheatley's poetry remains significant today?",
+      "options": {
+        "A": "It was the first book of poetry published by any American.",
+        "B": "It contains hidden meanings that scholars continue to interpret differently.",
+        "C": "It directly attacked slavery in plain language that white audiences rejected.",
+        "D": "It avoided religious themes to appeal to a broader audience."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The text says her work is \"a subject of ongoing debate\" because it can be read in two ways (thanksgiving and protest). Choice A is incorrect—she was the first African American, not the first American. Choice C is false; the text says she used subtle irony, not direct attacks. Choice D is opposite—she used Christian themes."
+    },
+    {
+      "questionId": "pass_13q1",
+      "passageId": "pass_13",
+      "questionHtml": "Which choice best states the main idea of the text?",
+      "options": {
+        "A": "The Silk Road was primarily used for transporting silk despite paper's importance.",
+        "B": "Paper was a more economically significant commodity on the Silk Road than silk.",
+        "C": "The Silk Road declined because paper money became worthless in the 14th century.",
+        "D": "Banking houses in Samarkand and Baghdad were the first in the world."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The text argues that paper \"might have been the most profitable commodity\" and that without it the economic impact would be smaller. Choice A is contradicted. Choice C is not mentioned. Choice D is unsupported."
+    },
+    {
+      "questionId": "pass_14q1",
+      "passageId": "pass_14",
+      "questionHtml": "Which choice best states the main idea of the text?",
+      "options": {
+        "A": "The old woman is angry that the elm tree has grown too large.",
+        "B": "The old woman performs quiet rituals to remember her deceased husband.",
+        "C": "The old woman prefers drinking tea alone rather than with company.",
+        "D": "The old woman plans to finish the quilt despite her age."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The passage shows her remembering her husband (the tree he planted, the cup from his last birthday) and using the cup as a ritual. Choice A is not supported—she doesn't express anger. Choice C is not the focus. Choice D is contradicted (\"never finish\")."
+    },
+    {
+      "questionId": "pass_15q1",
+      "passageId": "pass_15",
+      "questionHtml": "According to the text, what did the 2021 study reveal about fruit bats?",
+      "options": {
+        "A": "They cannot navigate at all without echolocation.",
+        "B": "They use vision in addition to echolocation for navigation.",
+        "C": "They prefer to fly only during complete darkness.",
+        "D": "They rely solely on visual landmarks during the day."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The study showed bats use visual landmarks even when echolocation is blocked. Choice A is opposite. Choice C is not stated. Choice D is extreme—they use both, not solely vision."
+    },
+    {
+      "questionId": "pass_16q1",
+      "passageId": "pass_16",
+      "questionHtml": "Which choice best states the main idea of the text?",
+      "options": {
+        "A": "Community gardens improve health and safety but often struggle to survive.",
+        "B": "Detroit has more community gardens than any other US city.",
+        "C": "The primary purpose of community gardens is to reduce crime.",
+        "D": "Volunteering in gardens is the best way to lower stress."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The text balances benefits (lower stress, less crime) with challenges (fail within two years). Choice B is unsupported. Choice C is too narrow—vegetables and stress are also mentioned. Choice D is extreme."
+    },
+    {
+      "questionId": "pass_17q1",
+      "passageId": "pass_17",
+      "questionHtml": "According to the text, why does the man avoid listening to the recordings?",
+      "options": {
+        "A": "He believes silence honors the past better than voices.",
+        "B": "He is afraid the recordings will contain bad news.",
+        "C": "He cannot find the recordings in the greenhouse.",
+        "D": "He prefers the sound of wind on Mars."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The last line explicitly says \"Silence ... was a kinder memorial.\" Choice B is not stated. Choice C is false—he knows where they are. Choice D is not mentioned."
+    },
+    {
+      "questionId": "pass_18q1",
+      "passageId": "pass_18",
+      "questionHtml": "Which choice best states the main idea of the text?",
+      "options": {
+        "A": "Specific compliments are more effective than general thanks at increasing tips, but only if perceived as genuine.",
+        "B": "Servers should never write anything on checks because customers dislike manipulation.",
+        "C": "Tipping behavior is unaffected by anything servers write on checks.",
+        "D": "A \"Thank you\" message increases tips more than a specific compliment."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The text reports that specific compliments increased tips more (8% vs 3%), but the effect disappeared if insincere. Choice B is opposite. Choice C is false. Choice D is reversed."
+    },
+    {
+      "questionId": "pass_19q1",
+      "passageId": "pass_19",
+      "questionHtml": "Which choice best states the main idea of the text?",
+      "options": {
+        "A": "Growing up in an all-Black town protected the narrator from feeling inferior despite outside racism.",
+        "B": "The narrator resented white tourists for treating her like a curiosity.",
+        "C": "Eatonville was the most prosperous town in Florida during the 1920s.",
+        "D": "The narrator's mother encouraged her to become mayor."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The text emphasizes that she \"never felt inferior\" in Eatonville and only realized race outside. Choice B is too strong—she doesn't express resentment. Choice C is unsupported. Choice D is false."
+    },
+    {
+      "questionId": "pass_20q1",
+      "passageId": "pass_20",
+      "questionHtml": "According to the text, what is one finding about octopus personality?",
+      "options": {
+        "A": "Bold octopuses are always better at solving puzzles than shy ones.",
+        "B": "Shy octopuses learned a complex task more quickly than bold ones.",
+        "C": "All octopuses react identically to novel objects.",
+        "D": "Octopus personality is determined solely by genetics."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The text explicitly says shy octopuses learned faster. Choice A is opposite. Choice C is false (they reacted differently). Choice D is unsupported."
+    },
+    {
+      "questionId": "pass_21q1",
+      "passageId": "pass_21",
+      "questionHtml": "Which choice best states the main idea of the text?",
+      "options": {
+        "A": "Democracy is the best form of government because it gives everyone a voice.",
+        "B": "Leaders should ignore public opinion and rule according to expert knowledge.",
+        "C": "The author believes that democracy is inevitable but dangerous.",
+        "D": "Captains are better leaders than politicians."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The author argues that the \"voice of the people\" is not wise; leaders should consult experts like a captain uses a compass. Choice A is opposite. Choice C is not stated (he doesn't call democracy inevitable). Choice D is an analogy, not the main idea."
+    },
+    {
+      "questionId": "pass_22q1",
+      "passageId": "pass_22",
+      "questionHtml": "Which choice best states the main idea of the text?",
+      "options": {
+        "A": "Los Angeles coyotes are nocturnal only in residential areas but diurnal in parks.",
+        "B": "Coyotes in Los Angeles have learned to modify their daily rhythms to avoid humans.",
+        "C": "Griffith Park coyotes are more dangerous than other coyotes.",
+        "D": "GPS collars are essential for studying urban wildlife."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The text shows coyotes are mostly nocturnal but adjust locally (dawn activity near busy parks). Choice A oversimplifies. Choice C is not supported. Choice D is a detail, not the main idea."
+    },
+    {
+      "questionId": "pass_23q1",
+      "passageId": "pass_23",
+      "questionHtml": "Which choice best states the main idea of the text?",
+      "options": {
+        "A": "Mr. Bennet is more intelligent than his wife, but she is more practical.",
+        "B": "Mrs. Bennet is obsessed with marrying off her daughters and has a simple personality.",
+        "C": "The Bennets have been married for twenty-three unhappy years.",
+        "D": "Mr. Bennet's sarcastic humor makes him difficult to live with."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The text focuses on Mrs. Bennet's character: \"mean understanding,\" \"uncertain temper,\" and her single-minded goal of marrying daughters. Choice A is not stated. Choice C is not implied. Choice D is too narrow."
+    },
+    {
+      "questionId": "pass_24q1",
+      "passageId": "pass_24",
+      "questionHtml": "Which choice best states the main idea of the text?",
+      "options": {
+        "A": "Beaver dams should never be removed because they increase salmon populations.",
+        "B": "Beaver dams have ecological benefits that often outweigh their drawbacks.",
+        "C": "Salmon populations decline in streams without beaver dams.",
+        "D": "Beaver dams cause more flooding than they prevent."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The text lists multiple benefits (salmon, insects, groundwater, flood reduction) and acknowledges conflicts (\"localized\"), concluding they are \"net beneficial.\" Choice A is too absolute. Choice C is not directly stated (the study shows 50% more fry, not decline). Choice D is opposite."
+    },
+    {
+      "questionId": "pass_25q1",
+      "passageId": "pass_25",
+      "questionHtml": "According to the text, what is the old man's state of mind?",
+      "options": {
+        "A": "He is angry about his failing health.",
+        "B": "He is confused about whether he is still at work.",
+        "C": "He is content because his wife is still alive.",
+        "D": "He is hopeful about returning to carpentry."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The final lines show he hears the factory whistle and thinks \"Time to go home\" even though he is already home, indicating confusion or habit. Choice A is not shown. Choice C is false (wife dead 30 years). Choice D is contradicted (hands shake)."
+    },
+    {
+      "questionId": "pass_26q1",
+      "passageId": "pass_26",
+      "questionHtml": "Which choice best states the main idea of the text?",
+      "options": {
+        "A": "Cool pavements are less effective than white roofs at reducing urban heat islands because they reflect heat onto pedestrians.",
+        "B": "Urban heat islands can be mitigated only by combining white roofs, trees, and cool pavements in equal measure.",
+        "C": "No single strategy perfectly addresses urban heat islands; the best approach depends on local conditions and a combination of methods.",
+        "D": "Traditional countermeasures to urban heat islands are superior to newer technologies like cool pavements."
+      },
+      "correctOption": "C",
+      "explanationHtml": "The text reviews three strategies (white roofs, trees, cool pavements), notes limitations of each, and concludes that \"the optimal solution may require a mix of strategies tailored to each city's specific layout and climate.\" Choice C captures this balanced, conditional main idea. Choice A is too narrow—the text does not rank cool pavements below white roofs, and it mentions pedestrians as one issue. Choice B is extreme (\"only by combining ... in equal measure\")—the text does not prescribe equal measures. Choice D contradicts the text, which does not declare traditional methods superior."
+    },
+    {
+      "questionId": "pass_27q1",
+      "passageId": "pass_27",
+      "questionHtml": "What does the text most strongly suggest about the relationship between memory and personal identity?",
+      "options": {
+        "A": "Memory is irrelevant to identity because character traits and social relations are more important.",
+        "B": "Memory is necessary for identity only if one believes identity is a fixed substance.",
+        "C": "Memory allows identity to be continuously rebuilt, which paradoxically requires a stable self as the builder.",
+        "D": "The loss of autobiographical memory proves that identity is entirely dependent on other people's perceptions."
+      },
+      "correctOption": "C",
+      "explanationHtml": "The text concludes that memory's role is \"to enable the dynamic process of self-construction,\" and notes the paradox that revision presupposes a self who revises. Choice C directly restates this. Choice A is opposite—memory is not irrelevant. Choice B misreads; the text does not limit memory's necessity to a fixed-substance view. Choice D introduces an unsupported claim about other people's perceptions."
+    },
+    {
+      "questionId": "pass_28q1",
+      "passageId": "pass_28",
+      "questionHtml": "Which choice best states the main idea of the text?",
+      "options": {
+        "A": "The discovery at Rakhighari proves that the Indus Valley civilization had a hierarchical society similar to Egypt and Mesopotamia.",
+        "B": "The Indus Valley civilization was entirely egalitarian, and the Rakhighari structure was likely a public granary, not an elite residence.",
+        "C": "Evidence from Rakhighari suggests social stratification in the Indus Valley, but power was manifested differently than in other ancient civilizations.",
+        "D": "The undeciphered Indus script is the only reliable source for understanding Indus social structure."
+      },
+      "correctOption": "C",
+      "explanationHtml": "The text presents evidence of a large structure suggesting elites, but notes the absence of lavish displays, concluding that power was expressed through resource control, complicating definitions of hierarchy. Choice C captures this nuanced claim. Choice A is too strong (\"similar to Egypt and Mesopotamia\") and ignores differences. Choice B contradicts the evidence. Choice D is not supported—the script is undeciphered, so it cannot be the \"only reliable source.\""
+    },
+    {
+      "questionId": "pass_29q1",
+      "passageId": "pass_29",
+      "questionHtml": "Based on the text, what does the consul's drinking most likely symbolize?",
+      "options": {
+        "A": "A desire to escape painful memories that remain even when he tries to forget them.",
+        "B": "A celebration of Mexican culture and its traditional beverages.",
+        "C": "A strategy to improve his memory by focusing on sensory details.",
+        "D": "An attempt to physically harm himself as punishment for his wife leaving."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The text explicitly states he \"came here to forget,\" and the worm metaphor shows that the truth/taste remains. Choice A captures this symbolic meaning. Choice B is not supported—the setting is Mexican but drinking is not celebratory. Choice C is opposite—he is trying to forget, not improve memory. Choice D is extreme; there is no indication of self-harm."
+    },
+    {
+      "questionId": "pass_30q1",
+      "passageId": "pass_30",
+      "questionHtml": "What does the text most strongly suggest about plant VOC emission?",
+      "options": {
+        "A": "It is a conscious form of language that scientists have only recently recognized.",
+        "B": "It is an evolved mechanism that can benefit genetically related individuals without any intention on the plant's part.",
+        "C": "It occurs only in tomato plants and sagebrush, not in other species.",
+        "D": "It is less effective at warning relatives than strangers because of kin discrimination."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The text states that kin-discrimination is an evolutionary adaptation, and researchers caution against anthropomorphism—plants do not \"choose.\" Choice B correctly characterizes it as an evolved, non-conscious mechanism that benefits relatives. Choice A is wrong because it is not conscious language. Choice C is too narrow; the text gives examples but does not claim exclusivity. Choice D is opposite—VOCs are more effective with relatives."
+    },
+    {
+      "questionId": "pass_31q1",
+      "passageId": "pass_31",
+      "questionHtml": "Which choice best states the main idea of the text?",
+      "options": {
+        "A": "Gothic cathedrals are inferior to Greek temples because they are full of mistakes.",
+        "B": "The value of Gothic architecture lies in its expression of imperfect human effort.",
+        "C": "Gothic builders intentionally made their work asymmetrical to confuse viewers.",
+        "D": "Greek temples are more spiritually meaningful than Gothic cathedrals."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The text argues that imperfections are \"signatures\" of human labor and that loving Gothic means loving the struggle. Choice B captures this central idea. Choice A is opposite; the text does not call Gothic inferior. Choice C is unsupported—imperfections are not described as intentional confusion. Choice D is contradicted; the text does not rank spiritual meaning."
+    },
+    {
+      "questionId": "pass_32q1",
+      "passageId": "pass_32",
+      "questionHtml": "According to the text, what is one reason the flexibility of gig work may be overstated?",
+      "options": {
+        "A": "Gig workers earn more than minimum wage, so flexibility is not needed.",
+        "B": "Platforms penalize workers for rejecting trips, limiting their actual choice.",
+        "C": "Most gig workers prefer traditional employment but cannot find it.",
+        "D": "Vehicle depreciation is not a real cost for most gig workers."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The text says \"flexibility is asymmetrical: platforms can deactivate workers ... but workers face penalties for rejecting too many trips.\" This shows limits on worker choice. Choice B correctly identifies this. Choice A is false—they often earn minimum wage equivalent after expenses. Choice C is not stated. Choice D is opposite—depreciation is a real cost mentioned."
+    },
+    {
+      "questionId": "pass_33q1",
+      "passageId": "pass_33",
+      "questionHtml": "According to the text, why does the wife scrub the stoop?",
+      "options": {
+        "A": "She hopes to impress the mining company managers who visit occasionally.",
+        "B": "She is trying to create a small act of control and cleanliness in a life dominated by the coal industry.",
+        "C": "She is angry at her husband and takes out her frustration on the housework.",
+        "D": "She plans to sell the house and leave the mining town."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The text contrasts the growing slag heap (industrial dirt) with her scrubbing the stoop \"white,\" calling it \"her heap\" and \"small defiance against the darkness.\" Choice B captures this symbolic act of control. Choice A is unsupported. Choice C is not indicated—she is not angry at her husband. Choice D is not mentioned."
+    },
+    {
+      "questionId": "pass_34q1",
+      "passageId": "pass_34",
+      "questionHtml": "Which choice best states the main idea of the text?",
+      "options": {
+        "A": "The James Webb Space Telescope is unlikely to detect any biosignatures because false positives are too common.",
+        "B": "Identifying life on exoplanets will involve complex probabilistic reasoning and multiple lines of evidence, not a single test.",
+        "C": "Volcanic activity and ultraviolet light are the only sources of false positive biosignatures.",
+        "D": "Scientists should focus only on planets with thick atmospheres to avoid false positives."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The text describes false positives, then proposes a multi-evidence, Bayesian approach, concluding it's \"not a simple yes/no.\" Choice B correctly summarizes this. Choice A is too pessimistic—the text does not say JWST is unlikely to detect any. Choice C is too narrow (\"only sources\"). Choice D is not recommended; the example with a thin atmosphere shows thickness is not the sole factor."
+    },
+    {
+      "questionId": "pass_35q1",
+      "passageId": "pass_35",
+      "questionHtml": "Based on the text, what does the speaker's insistence on eating in the kitchen now while expecting to be at the table tomorrow most strongly suggest?",
+      "options": {
+        "A": "The speaker accepts segregation as temporary and is patiently waiting for change without resistance.",
+        "B": "The speaker uses current exclusion as motivation to become stronger and more confident, anticipating future inclusion.",
+        "C": "The speaker plans to physically force his way to the table regardless of others' wishes.",
+        "D": "The speaker believes that beauty alone will end discrimination without any need for personal growth."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The speaker \"laughs, eats well, and grows strong\" in the kitchen, then asserts \"Tomorrow, I'll be at the table.\" This suggests using adversity to build strength and confidence for future equality. Choice B captures this. Choice A misses the active growth (\"grow strong\")—it is not passive waiting. Choice C introduces violence not in the poem. Choice D overemphasizes beauty and ignores the growth and strength mentioned."
+    }
+  ]
+}
