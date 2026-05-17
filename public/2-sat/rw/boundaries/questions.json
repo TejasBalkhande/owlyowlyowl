@@ -1,0 +1,601 @@
+{
+  "passages": [
+    {
+      "passageId": "easy01",
+      "passageHtml": "<strong>easy01</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nAlthough sea turtles spend most of their lives underwater ______ they must come ashore to lay their eggs in sandy nests."
+    },
+    {
+      "passageId": "easy02",
+      "passageHtml": "<strong>easy02</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nThe Great Wall of China stretches thousands of miles across mountains and deserts ______ it was originally built as a series of smaller walls by different dynasties before being connected."
+    },
+    {
+      "passageId": "easy03",
+      "passageHtml": "<strong>easy03</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nBefore starting a new exercise routine, experts recommend warming up properly ______ staying hydrated, and listening to your body's signals."
+    },
+    {
+      "passageId": "easy04",
+      "passageHtml": "<strong>easy04</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nThe Amazon rainforest produces more than 20% of the world's oxygen ______ it is often called \"the lungs of the Earth.\""
+    },
+    {
+      "passageId": "easy05",
+      "passageHtml": "<strong>easy05</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nIn her memoir, the former astronaut recounts her experiences ______ of spacewalks, equipment malfunctions, and the awe of seeing Earth from orbit."
+    },
+    {
+      "passageId": "easy06",
+      "passageHtml": "<strong>easy06</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nBecause the telescope's primary mirror had a manufacturing defect ______ the Hubble Space Telescope initially sent back blurry images until corrective optics were installed."
+    },
+    {
+      "passageId": "easy07",
+      "passageHtml": "<strong>easy07</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nThe museum curator needed to determine which painting ______ most valuable in the estate collection."
+    },
+    {
+      "passageId": "easy08",
+      "passageHtml": "<strong>easy08</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nAlthough the company's profits have increased for five consecutive quarters ______ shareholders remain concerned about rising debt levels."
+    },
+    {
+      "passageId": "easy09",
+      "passageHtml": "<strong>easy09</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nThe newly discovered species of orchid grows only on the branches of a single tree ______ on the northern slopes of a remote mountain in Madagascar."
+    },
+    {
+      "passageId": "easy10",
+      "passageHtml": "<strong>easy10</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nThe ancient manuscript contained marginal notes written by multiple scribes ______ have helped historians trace the document's journey across medieval monasteries."
+    },
+    {
+      "passageId": "medium01",
+      "passageHtml": "<strong>medium01</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nThe process of desertification, by which fertile land becomes increasingly arid and unproductive ______ affects more than 250 million people directly and threatens the livelihoods of over one billion across the globe."
+    },
+    {
+      "passageId": "medium02",
+      "passageHtml": "<strong>medium02</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nThe Voynich Manuscript, a mysterious illustrated book from the early 15th century, has defied all decryption attempts ______ it remains one of history's most famous unsolved puzzles."
+    },
+    {
+      "passageId": "medium03",
+      "passageHtml": "<strong>medium03</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nBiologist Lynn Margulis proposed the endosymbiotic theory, which explains that eukaryotic cells originated when larger cells engulfed smaller bacteria without digesting them ______ the smaller bacteria eventually evolved into organelles such as mitochondria and chloroplasts."
+    },
+    {
+      "passageId": "medium04",
+      "passageHtml": "<strong>medium04</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nThe city of Petra, carved into rose‑red cliffs in southern Jordan ______ was lost to the Western world for nearly a thousand years until a Swiss explorer rediscovered it in 1812."
+    },
+    {
+      "passageId": "medium05",
+      "passageHtml": "<strong>medium05</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nAfrican elephants have larger ears than Asian elephants ______ the ears help dissipate heat more effectively in the hotter African climate."
+    },
+    {
+      "passageId": "medium06",
+      "passageHtml": "<strong>medium06</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nIn 1963, Betty Friedan published <em>The Feminine Mystique</em>, a book that challenged the post‑World War II belief that women's fulfillment could only be found through homemaking and motherhood ______ the book is widely credited with sparking the second wave of American feminism."
+    },
+    {
+      "passageId": "medium07",
+      "passageHtml": "<strong>medium07</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nThe dodo bird, native to the island of Mauritius ______ became extinct by 1681, less than a century after Dutch sailors first encountered it."
+    },
+    {
+      "passageId": "medium08",
+      "passageHtml": "<strong>medium08</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nDuring the Han Dynasty in China (206 BCE‑220 CE), officials developed a civil service examination system based on Confucian texts ______ applicants were tested on their knowledge of history, law, and classical literature."
+    },
+    {
+      "passageId": "medium09",
+      "passageHtml": "<strong>medium09</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nMaria Sibylla Merian, a 17th‑century German naturalist ______ traveled to Suriname to study and illustrate the metamorphosis of insects, documenting species that had never been described before."
+    },
+    {
+      "passageId": "medium10",
+      "passageHtml": "<strong>medium10</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nThe Chernobyl nuclear disaster of 1986 released large amounts of radioactive particles into the atmosphere ______ the nearby city of Pripyat, which once housed nearly 50,000 residents, remains uninhabitable today."
+    },
+    {
+      "passageId": "medium11",
+      "passageHtml": "<strong>medium11</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nIn her painting <em>The Two Fridas</em> (1939), Frida Kahlo depicts two versions of herself seated side by side ______ one wearing a traditional Mexican dress and the other wearing a European‑style white gown."
+    },
+    {
+      "passageId": "medium12",
+      "passageHtml": "<strong>medium12</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nThe ancient city of Mohenjo‑Daro, located in the Indus Valley of modern‑day Pakistan ______ was one of the largest settlements of the Indus Valley Civilization, boasting advanced drainage systems and grid‑like street planning."
+    },
+    {
+      "passageId": "medium13",
+      "passageHtml": "<strong>medium13</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nMost people associate the invention of the telephone with Alexander Graham Bell ______ the Italian inventor Antonio Meucci actually developed a working telecommunication device in 1854, decades before Bell's patent."
+    },
+    {
+      "passageId": "medium14",
+      "passageHtml": "<strong>medium14</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nThe Hubble Space Telescope, launched in 1990 and initially hampered by a flawed mirror ______ was repaired by astronauts in 1993 and has since captured some of the most iconic images of distant galaxies."
+    },
+    {
+      "passageId": "medium15",
+      "passageHtml": "<strong>medium15</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nGeneticist Barbara McClintock discovered transposons (jumping genes) in maize in the 1940s ______ her work was largely ignored for decades until scientists finally recognized its significance, awarding her the Nobel Prize in 1983."
+    },
+    {
+      "passageId": "hard01",
+      "passageHtml": "<strong>hard01</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nLinguist Sarah Thomason of the University of Michigan has spent decades studying language contact and pidgin formation ______ her 2001 book <em>Language Contact</em> remains a foundational text in the field."
+    },
+    {
+      "passageId": "hard02",
+      "passageHtml": "<strong>hard02</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nThe discovery of the tomb of Tutankhamun in 1922 by British archaeologist Howard Carter ______ ignited a worldwide fascination with ancient Egypt that continues to this day."
+    },
+    {
+      "passageId": "hard03",
+      "passageHtml": "<strong>hard03</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nIn a landmark 1973 study, psychologists David Rosenhan and his colleagues sent pseudopatients to psychiatric hospitals complaining of hearing voices ______ once admitted, the pseudopatients behaved normally and reported that the voices had stopped, yet hospital staff kept them hospitalized for an average of 19 days."
+    },
+    {
+      "passageId": "hard04",
+      "passageHtml": "<strong>hard04</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nMarine biologist Edie Widder has argued that many deep‑sea creatures use bioluminescence not for hunting or mating ______ as a form of stealth: by matching the downwelling light from the surface, they effectively erase their own shadows."
+    },
+    {
+      "passageId": "hard05",
+      "passageHtml": "<strong>hard05</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nThe city of Uruk in ancient Mesopotamia, which flourished around 3200 BCE, is often credited with the invention of writing ______ the earliest known cuneiform tablets were discovered there by German archaeologists in the early 20th century."
+    },
+    {
+      "passageId": "hard06",
+      "passageHtml": "<strong>hard06</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nA 2018 study by economist Raj Chetty found that children who moved to lower‑poverty neighborhoods before age 13 had significantly higher college attendance rates than their peers who did not ______ the effect was most pronounced for children who moved between ages 8 and 12."
+    },
+    {
+      "passageId": "hard07",
+      "passageHtml": "<strong>hard07</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nIn her 1989 essay \"The Site of Memory,\" Toni Morrison describes how she reconstructs the inner lives of enslaved characters in her fiction ______ consulting historical narratives but also using her imagination to fill the gaps left by the archive."
+    },
+    {
+      "passageId": "hard08",
+      "passageHtml": "<strong>hard08</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nBiologist E. O. Wilson, who passed away in 2021, spent decades advocating for the concept of biophilia—the idea that humans possess an innate tendency to seek connections with nature and other forms of life ______ this hypothesis has influenced fields ranging from conservation psychology to urban planning."
+    },
+    {
+      "passageId": "hard09",
+      "passageHtml": "<strong>hard09</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nThe 1969 Stonewall uprising is often cited as the birth of the modern LGBTQ+ rights movement ______ as historians such as Lillian Faderman have noted, earlier acts of resistance, including the 1966 Compton's Cafeteria riot in San Francisco, predate Stonewall by several years."
+    },
+    {
+      "passageId": "hard10",
+      "passageHtml": "<strong>hard10</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nTo determine the age of ancient pottery, archaeologists often use a technique called thermoluminescence dating ______ the method measures the accumulated radiation dose since the ceramic was last heated, typically at the time of its firing."
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "easy01q1",
+      "passageId": "easy01",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "underwater,",
+        "B": "underwater",
+        "C": "underwater;",
+        "D": "underwater."
+      },
+      "correctOption": "A",
+      "explanationHtml": "Choice A is correct because a comma separates the dependent clause (\"Although sea turtles spend most of their lives underwater\") from the independent clause that follows. Choice B creates a run‑on sentence. Choice C incorrectly uses a semicolon (first clause is dependent). Choice D creates a sentence fragment."
+    },
+    {
+      "questionId": "easy02q1",
+      "passageId": "easy02",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "deserts,",
+        "B": "deserts but",
+        "C": "deserts",
+        "D": "deserts, but"
+      },
+      "correctOption": "D",
+      "explanationHtml": "Choice D correctly uses a comma + \"but\" to join two independent clauses. Choice A is a comma splice. Choice B misses the comma before \"but\". Choice C is a run‑on sentence."
+    },
+    {
+      "questionId": "easy03q1",
+      "passageId": "easy03",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "properly",
+        "B": "properly;",
+        "C": "properly:",
+        "D": "properly,"
+      },
+      "correctOption": "D",
+      "explanationHtml": "A comma separates the first two items in a list of three. Choice A omits punctuation. Choices B and C misuse a semicolon or colon for simple list items."
+    },
+    {
+      "questionId": "easy04q1",
+      "passageId": "easy04",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "oxygen",
+        "B": "oxygen,",
+        "C": "oxygen;",
+        "D": "oxygen and"
+      },
+      "correctOption": "C",
+      "explanationHtml": "A semicolon joins two independent clauses. Choice A is a run‑on. Choice B is a comma splice. Choice D uses \"and\" without a comma, which is insufficient."
+    },
+    {
+      "questionId": "easy05q1",
+      "passageId": "easy05",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": ":",
+        "B": "",
+        "C": "-",
+        "D": ";"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The word \"of\" is already present in the sentence, so the blank requires no extra punctuation to maintain a natural grammatical flow. The noun phrase \"experiences of\" carries over smoothly to all list items."
+    },
+    {
+      "questionId": "easy06q1",
+      "passageId": "easy06",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "defect and",
+        "B": "defect,",
+        "C": "defect",
+        "D": "defect, and"
+      },
+      "correctOption": "B",
+      "explanationHtml": "A comma marks the boundary between the subordinate clause (\"Because... defect\") and the main clause. Choices A and D incorrectly add \"and\", breaking the sentence. Choice C omits necessary punctuation."
+    },
+    {
+      "questionId": "easy07q1",
+      "passageId": "easy07",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "was",
+        "B": "was?",
+        "C": "was.",
+        "D": "was,"
+      },
+      "correctOption": "A",
+      "explanationHtml": "The sentence is a statement, not a question. \"Which painting was most valuable\" is a noun clause. No extra punctuation or question mark is needed."
+    },
+    {
+      "questionId": "easy08q1",
+      "passageId": "easy08",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "quarters.",
+        "B": "quarters,",
+        "C": "quarters;",
+        "D": "quarters:"
+      },
+      "correctOption": "B",
+      "explanationHtml": "A comma separates the dependent clause (\"Although...quarters\") from the independent clause. Choice A creates a fragment. Choices C and D misuse a semicolon or colon after a dependent clause."
+    },
+    {
+      "questionId": "easy09q1",
+      "passageId": "easy09",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": ":",
+        "B": ",",
+        "C": "",
+        "D": ";"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The word \"on\" begins a prepositional phrase modifying \"tree.\" No punctuation is needed between a noun and its modifying prepositional phrase."
+    },
+    {
+      "questionId": "easy10q1",
+      "passageId": "easy10",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "scribes:",
+        "B": "scribes, which",
+        "C": "scribes which",
+        "D": "scribes. Which"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The relative clause \"which have helped...\" is nonessential and must be set off with commas. Choice A uses a colon incorrectly. Choice C omits the comma before \"which\". Choice D creates a sentence fragment."
+    },
+    {
+      "questionId": "medium01q1",
+      "passageId": "medium01",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "unproductive",
+        "B": "unproductive,",
+        "C": "unproductive;",
+        "D": "unproductive:"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The phrase \"by which...unproductive\" is a nonessential supplement. The comma after \"unproductive\" pairs with the comma after \"desertification\" to set it off. Choice A omits punctuation; C and D misuse a semicolon/colon."
+    },
+    {
+      "questionId": "medium02q1",
+      "passageId": "medium02",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "attempts,",
+        "B": "attempts and",
+        "C": "attempts",
+        "D": "attempts;"
+      },
+      "correctOption": "D",
+      "explanationHtml": "A semicolon joins two independent clauses. Choice A is a comma splice. Choice B uses \"and\" without a comma. Choice C is a run‑on."
+    },
+    {
+      "questionId": "medium03q1",
+      "passageId": "medium03",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "them;",
+        "B": "them,",
+        "C": "them",
+        "D": "them."
+      },
+      "correctOption": "A",
+      "explanationHtml": "A semicolon properly joins two independent clauses. Choice B creates a comma splice, and Choice C creates a run‑on sentence. Choice D is incorrect because a period would require the next word (\"the\") to be capitalized, but it is lowercase."
+    },
+    {
+      "questionId": "medium04q1",
+      "passageId": "medium04",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "Jordan",
+        "B": "Jordan,",
+        "C": "Jordan;",
+        "D": "Jordan:"
+      },
+      "correctOption": "B",
+      "explanationHtml": "\"Carved into...Jordan\" is a nonessential phrase. The comma after \"Jordan\" pairs with the comma after \"Petra\". Choice A omits the closing comma; C and D misuse a semicolon/colon."
+    },
+    {
+      "questionId": "medium05q1",
+      "passageId": "medium05",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "elephants,",
+        "B": "elephants;",
+        "C": "elephants",
+        "D": "elephants."
+      },
+      "correctOption": "B",
+      "explanationHtml": "A semicolon joins two independent clauses. Choice A is a comma splice. Choice C is a run‑on. Choice D is incorrect because a period would require the next word (\"the\") to be capitalized, but it is not."
+    },
+    {
+      "questionId": "medium06q1",
+      "passageId": "medium06",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "motherhood,",
+        "B": "motherhood;",
+        "C": "motherhood",
+        "D": "motherhood."
+      },
+      "correctOption": "B",
+      "explanationHtml": "A semicolon joins two independent clauses. Choice A is a comma splice. Choice C is a run‑on. Choice D is incorrect because a period would require the next word (\"the\") to be capitalized, but it is not."
+    },
+    {
+      "questionId": "medium07q1",
+      "passageId": "medium07",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "Mauritius,",
+        "B": "Mauritius",
+        "C": "Mauritius;",
+        "D": "Mauritius:"
+      },
+      "correctOption": "A",
+      "explanationHtml": "\"Native to...Mauritius\" is a nonessential adjective phrase. The comma after \"Mauritius\" pairs with the comma after \"bird\". Choices B, C, D omit or misuse punctuation."
+    },
+    {
+      "questionId": "medium08q1",
+      "passageId": "medium08",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "texts,",
+        "B": "texts",
+        "C": "texts;",
+        "D": "texts."
+      },
+      "correctOption": "C",
+      "explanationHtml": "A semicolon joins two independent clauses. Choice A is a comma splice. Choice B is a run‑on. Choice D would create two separate sentences, but the blank is within a single‑sentence context."
+    },
+    {
+      "questionId": "medium09q1",
+      "passageId": "medium09",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "naturalist,",
+        "B": "naturalist",
+        "C": "naturalist;",
+        "D": "naturalist:"
+      },
+      "correctOption": "A",
+      "explanationHtml": "\"A 17th‑century German naturalist\" is an appositive. The comma after \"naturalist\" pairs with the comma after \"Merian\". Choices B, C, D omit or misuse punctuation."
+    },
+    {
+      "questionId": "medium10q1",
+      "passageId": "medium10",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "atmosphere,",
+        "B": "atmosphere;",
+        "C": "atmosphere",
+        "D": "atmosphere."
+      },
+      "correctOption": "B",
+      "explanationHtml": "A semicolon joins two independent clauses. Choice A is a comma splice. Choice C is a run‑on. Choice D would require a capital letter after the period (\"The\" is lowercase)."
+    },
+    {
+      "questionId": "medium11q1",
+      "passageId": "medium11",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "side",
+        "B": "side,",
+        "C": "side;",
+        "D": "side:"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The phrase \"one wearing...white gown\" is a nonessential description. A comma after \"side\" separates it from the main clause. Choice A is a run‑on. Choices C and D misuse a semicolon/colon (the phrase is not an independent clause)."
+    },
+    {
+      "questionId": "medium12q1",
+      "passageId": "medium12",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "Pakistan,",
+        "B": "Pakistan",
+        "C": "Pakistan;",
+        "D": "Pakistan:"
+      },
+      "correctOption": "A",
+      "explanationHtml": "\"Located in...Pakistan\" is a nonessential participial phrase. The comma after \"Pakistan\" pairs with the comma after \"Mohenjo‑Daro\". Choice B omits the comma; C and D misuse a semicolon/colon."
+    },
+    {
+      "questionId": "medium13q1",
+      "passageId": "medium13",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "Bell,",
+        "B": "Bell;",
+        "C": "Bell",
+        "D": "Bell."
+      },
+      "correctOption": "B",
+      "explanationHtml": "A semicolon joins two independent clauses. Choice A is a comma splice. Choice C is a run‑on. Choice D would require capitalizing \"The\" after the period."
+    },
+    {
+      "questionId": "medium14q1",
+      "passageId": "medium14",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "mirror",
+        "B": "mirror,",
+        "C": "mirror;",
+        "D": "mirror:"
+      },
+      "correctOption": "B",
+      "explanationHtml": "\"Launched in 1990...mirror\" is a nonessential participial phrase. The comma after \"mirror\" pairs with the comma after \"telescope\". Choice A omits the closing comma; C and D misuse a semicolon/colon."
+    },
+    {
+      "questionId": "medium15q1",
+      "passageId": "medium15",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "1940s,",
+        "B": "1940s;",
+        "C": "1940s",
+        "D": "1940s."
+      },
+      "correctOption": "B",
+      "explanationHtml": "A semicolon joins two independent clauses. Choice A is a comma splice. Choice C is a run‑on. Choice D would require capitalizing \"Her\" after the period."
+    },
+    {
+      "questionId": "hard01q1",
+      "passageId": "hard01",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "formation,",
+        "B": "formation;",
+        "C": "formation",
+        "D": "formation."
+      },
+      "correctOption": "B",
+      "explanationHtml": "A semicolon joins two independent clauses. Choice A is a comma splice. Choice C is a run‑on. Choice D would require capitalizing \"Her\" after the period."
+    },
+    {
+      "questionId": "hard02q1",
+      "passageId": "hard02",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "Carter,",
+        "B": "Carter",
+        "C": "Carter;",
+        "D": "Carter:"
+      },
+      "correctOption": "B",
+      "explanationHtml": "No punctuation should separate the complete subject from its verb (\"ignited\"). Choices A, C, and D incorrectly insert punctuation. The trap is that \"Howard Carter\" looks like an appositive but is essential."
+    },
+    {
+      "questionId": "hard03q1",
+      "passageId": "hard03",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "voices;",
+        "B": "voices,",
+        "C": "voices",
+        "D": "voices."
+      },
+      "correctOption": "A",
+      "explanationHtml": "A semicolon joins two independent clauses; the second contains internal commas. Choice B is a comma splice. Choice C is a run‑on. Choice D would require capitalizing \"Once\" after the period."
+    },
+    {
+      "questionId": "hard04q1",
+      "passageId": "hard04",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "mating,",
+        "B": "mating;",
+        "C": "mating but",
+        "D": "mating, but"
+      },
+      "correctOption": "C",
+      "explanationHtml": "\"Not...but\" is a correlative pair. No comma is needed before \"but\" when connecting parallel phrases within a single clause. Choices A, B, and D insert unnecessary punctuation."
+    },
+    {
+      "questionId": "hard05q1",
+      "passageId": "hard05",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "writing;",
+        "B": "writing,",
+        "C": "writing",
+        "D": "writing."
+      },
+      "correctOption": "A",
+      "explanationHtml": "A semicolon joins two independent clauses. Choice B is a comma splice. Choice C is a run‑on. Choice D would require capitalizing \"The\" after the period."
+    },
+    {
+      "questionId": "hard06q1",
+      "passageId": "hard06",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "not;",
+        "B": "not,",
+        "C": "not",
+        "D": "not."
+      },
+      "correctOption": "A",
+      "explanationHtml": "A semicolon joins two independent clauses. Choice B is a comma splice. Choice C is a run‑on. Choice D would require capitalizing \"The\" after the period."
+    },
+    {
+      "questionId": "hard07q1",
+      "passageId": "hard07",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "fiction;",
+        "B": "fiction,",
+        "C": "fiction:",
+        "D": "fiction"
+      },
+      "correctOption": "C",
+      "explanationHtml": "A colon introduces an explanation of how she reconstructs inner lives. What follows is a supplementary phrase, not an independent clause, so a semicolon (A) would be incorrect. Choice B is a comma splice. Choice D is a run‑on."
+    },
+    {
+      "questionId": "hard08q1",
+      "passageId": "hard08",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "life;",
+        "B": "life,",
+        "C": "life",
+        "D": "life."
+      },
+      "correctOption": "A",
+      "explanationHtml": "A semicolon joins two independent clauses. The dash‑appositive does not affect the clause boundary. Choice B is a comma splice. Choice C is a run‑on. Choice D would require capitalizing \"This\" after the period."
+    },
+    {
+      "questionId": "hard09q1",
+      "passageId": "hard09",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "movement;",
+        "B": "movement,",
+        "C": "movement",
+        "D": "movement."
+      },
+      "correctOption": "A",
+      "explanationHtml": "A semicolon joins two independent clauses (the core of the second is \"earlier acts...predate Stonewall\"). Choice B is a comma splice. Choice C is a run‑on. Choice D would require capitalizing \"As\" after the period."
+    },
+    {
+      "questionId": "hard10q1",
+      "passageId": "hard10",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "dating;",
+        "B": "dating,",
+        "C": "dating",
+        "D": "dating:"
+      },
+      "correctOption": "D",
+      "explanationHtml": "A colon properly introduces a definition/explanation of the term \"thermoluminescence dating.\" Although the second part is an independent clause, a colon is the conventional choice for defining a term. A semicolon (A) would also be grammatically correct but less precise; in SAT style, the colon is preferred for explanation. Choice B is a comma splice. Choice C is a run‑on."
+    }
+  ]
+}

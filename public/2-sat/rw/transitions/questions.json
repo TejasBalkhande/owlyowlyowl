@@ -1,0 +1,601 @@
+{
+  "passages": [
+    {
+      "passageId": "p1",
+      "passageHtml": "<strong>p1</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nIn the 1870s, the American bison population was nearly hunted to extinction on the Great Plains. ______ conservation efforts in the early 20th century, including the establishment of protected herds in Yellowstone National Park, allowed the species to slowly recover."
+    },
+    {
+      "passageId": "p2",
+      "passageHtml": "<strong>p2</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nSea otters use rocks to crack open shellfish on their stomachs while floating on their backs. ______ young otters learn this skill by watching their mothers and practicing repeatedly over many months."
+    },
+    {
+      "passageId": "p3",
+      "passageHtml": "<strong>p3</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nFarmers in ancient Egypt relied on the annual flooding of the Nile River to fertilize their crops. ______ the floods were too weak, the soil would lack nutrients; if they were too strong, entire villages could be destroyed."
+    },
+    {
+      "passageId": "p4",
+      "passageHtml": "<strong>p4</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nA solar eclipse occurs when the Moon passes directly between Earth and the Sun. ______ The Moon's orbit is slightly tilted, so most months the Moon passes above or below the Sun from our perspective, causing no eclipse at all."
+    },
+    {
+      "passageId": "p5",
+      "passageHtml": "<strong>p5</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nIn 1969, the first human walked on the Moon during the Apollo 11 mission. ______ in 2024, NASA's Artemis program aims to return astronauts to the lunar surface, including the first woman and the first person of color."
+    },
+    {
+      "passageId": "p6",
+      "passageHtml": "<strong>p6</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nIn many species of birds, the male displays bright feathers to attract a mate. ______ the female peahen is drawn to the peacock's elaborate tail not just for its beauty but as an indicator of health and genetic fitness."
+    },
+    {
+      "passageId": "p7",
+      "passageHtml": "<strong>p7</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nA team of archaeologists discovered ancient pottery shards at a site in Turkey. ______ they uncovered bronze tools, animal bones, and the remains of a large hearth, suggesting the location was once a thriving village."
+    },
+    {
+      "passageId": "p8",
+      "passageHtml": "<strong>p8</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nMost fish species rely on gills to extract oxygen from water. ______ the lungfish possesses both gills and a primitive lung, allowing it to survive in oxygen‑poor water or even on land for short periods."
+    },
+    {
+      "passageId": "p9",
+      "passageHtml": "<strong>p9</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nBefore the invention of the refrigerator, people preserved food using salt, smoking, or ice houses. ______ many modern chefs are reviving these traditional techniques to enhance flavor and reduce food waste."
+    },
+    {
+      "passageId": "p10",
+      "passageHtml": "<strong>p10</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nA single honey bee can visit up to 5,000 flowers in a single day. ______ a colony of 50,000 bees can collectively pollinate millions of flowers, making them essential to agriculture worldwide."
+    },
+    {
+      "passageId": "p11",
+      "passageHtml": "<strong>p11</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nIn deep‑sea hydrothermal vent ecosystems, giant tube worms rely entirely on chemosynthetic bacteria living inside their tissues for nutrition. ______ these bacteria convert hydrogen sulfide from the vents into organic compounds that sustain the worms."
+    },
+    {
+      "passageId": "p12",
+      "passageHtml": "<strong>p12</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nThe Great Pacific Garbage Patch contains an estimated 1.8 trillion pieces of plastic, most of which are microplastics invisible to the naked eye. ______ cleanup efforts that target large visible debris, such as fishing nets, remove only a tiny fraction of the total mass."
+    },
+    {
+      "passageId": "p13",
+      "passageHtml": "<strong>p13</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nIn the 18th century, British scientist Henry Cavendish used a torsion balance to measure the density of Earth. ______ his experiments allowed him to calculate the gravitational constant G, a fundamental value in physics."
+    },
+    {
+      "passageId": "p14",
+      "passageHtml": "<strong>p14</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nMost birds have hollow bones, which reduce body weight and enable flight. ______ penguins have solid, dense bones that aid in diving by counteracting buoyancy."
+    },
+    {
+      "passageId": "p15",
+      "passageHtml": "<strong>p15</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nScientists initially believed that the first Americans arrived via the Bering Land Bridge around 13,000 years ago. ______ recent discoveries of 15,000‑year‑old footprints in New Mexico suggest human presence at least 2,000 years earlier."
+    },
+    {
+      "passageId": "p16",
+      "passageHtml": "<strong>p16</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nIn bacterial conjugation, a donor cell transfers a plasmid to a recipient cell through a structure called a pilus. ______ the recipient cell can acquire new traits, such as antibiotic resistance, without undergoing reproduction."
+    },
+    {
+      "passageId": "p17",
+      "passageHtml": "<strong>p17</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nBotanist Carlos Magdalena specializes in reviving extinct plant species using seeds from herbarium specimens. ______ he successfully germinated a plant of the extinct Guadalupe Island olive after seeds sat in a drawer for over a century."
+    },
+    {
+      "passageId": "p18",
+      "passageHtml": "<strong>p18</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nUnlike solar eclipses, which last only a few minutes, lunar eclipses can persist for over an hour. ______ the Moon's shadow during a solar eclipse covers only a small area, while Earth's shadow during a lunar eclipse covers the entire Moon."
+    },
+    {
+      "passageId": "p19",
+      "passageHtml": "<strong>p19</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nThe P versus NP problem, one of the most famous unsolved questions in computer science, asks whether every problem whose solution can be verified quickly can also be solved quickly. ______ most experts believe that P does not equal NP, though a definitive proof remains elusive."
+    },
+    {
+      "passageId": "p20",
+      "passageHtml": "<strong>p20</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nAt first glance, the desert horned lizard appears defenseless against predators like hawks and snakes. ______ when threatened, it can squirt a stream of blood from its eyes up to four feet, startling attackers and allowing escape."
+    },
+    {
+      "passageId": "p21",
+      "passageHtml": "<strong>p21</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nIn 2015, the New Horizons spacecraft flew past Pluto, capturing detailed images of its icy surface. ______ the mission revealed nitrogen glaciers, towering water‑ice mountains, and a possible subsurface ocean."
+    },
+    {
+      "passageId": "p22",
+      "passageHtml": "<strong>p22</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nMany fungi form mutualistic relationships with plant roots, supplying water and minerals in exchange for carbohydrates. ______ the honey fungus (Armillaria) is a notorious parasite that kills trees by destroying their root systems."
+    },
+    {
+      "passageId": "p23",
+      "passageHtml": "<strong>p23</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nThe ancient Greek historian Herodotus traveled extensively to gather accounts of the Persian Wars. ______ he often included stories he acknowledged were unverified or even fantastical, such as giant ants that dug up gold."
+    },
+    {
+      "passageId": "p24",
+      "passageHtml": "<strong>p24</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nDuring the Han Dynasty in China, officials used a system of merit‑based examinations to select government employees. ______ this approach was later adopted by European civil services in the 19th century, fundamentally changing how bureaucrats were chosen."
+    },
+    {
+      "passageId": "p25",
+      "passageHtml": "<strong>p25</strong> <span style='color: orange; margin-left: 8px; font-size:15px'>Medium</span><br/>\nThe kakapo, a flightless parrot from New Zealand, has a unique breeding strategy that depends entirely on the mast seeding of rimu trees. When rimu trees produce abundant fruit every two to four years, kakapos breed successfully; ______ in non‑mast years, they do not breed at all."
+    },
+    {
+      "passageId": "p26",
+      "passageHtml": "<strong>p26</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nThe discovery of the Denisovan hominin genome was made not from fossilized bones but from a single finger bone and a few teeth found in a Siberian cave. ______ the genome sequence was extracted from ancient DNA preserved in the cave's cool, stable environment, a rare and fortunate preservation event."
+    },
+    {
+      "passageId": "p27",
+      "passageHtml": "<strong>p27</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nBiologist Lynn Margulis's theory of endosymbiosis—that eukaryotic cells originated from symbiotic unions of prokaryotes—was ridiculed when she proposed it in the 1960s. ______ decades of molecular evidence have since vindicated her, making endosymbiosis a cornerstone of modern cell biology."
+    },
+    {
+      "passageId": "p28",
+      "passageHtml": "<strong>p28</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nThe 17th‑century Italian painter Artemisia Gentileschi was one of the first female artists to achieve success in a male‑dominated field. ______ some art historians now argue that her dramatic use of chiaroscuro and depictions of strong female figures were direct responses to the trauma of her own biography."
+    },
+    {
+      "passageId": "p29",
+      "passageHtml": "<strong>p29</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nEconomists generally agree that rent control policies reduce the long‑term supply of affordable housing by discouraging new construction. ______ the policy remains popular among voters in expensive cities who benefit from capped rents."
+    },
+    {
+      "passageId": "p30",
+      "passageHtml": "<strong>p30</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nThe philosopher David Hume argued that reason alone cannot motivate action; rather, moral sentiments drive human behavior. ______ Immanuel Kant contended that rational duty, not emotion, is the proper foundation of ethics, directly challenging Hume's sentimentalism."
+    },
+    {
+      "passageId": "p31",
+      "passageHtml": "<strong>p31</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nThe concept of 'schadenfreude'—pleasure derived from another's misfortune—is often considered a universal human emotion. ______ cross‑cultural studies have found that speakers of languages lacking a direct translation for the word still experience the feeling, suggesting its psychological basis is not linguistically dependent."
+    },
+    {
+      "passageId": "p32",
+      "passageHtml": "<strong>p32</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nThe 19th‑century naturalist Alfred Russel Wallace independently conceived of natural selection at roughly the same time as Charles Darwin. ______ Wallace's work emphasized the role of geographic isolation in speciation more strongly than Darwin did, a difference that has led some historians to distinguish their views."
+    },
+    {
+      "passageId": "p33",
+      "passageHtml": "<strong>p33</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nIn a famous psychological experiment, participants who were told to smile—even artificially—reported feeling happier afterward. ______ the reverse effect also occurs: people who are forced to frown rate cartoons as less funny, supporting the 'facial feedback hypothesis' that expressions influence emotions."
+    },
+    {
+      "passageId": "p34",
+      "passageHtml": "<strong>p34</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nThe ancient Roman architect Vitruvius believed that a building's design should embody three qualities: firmitas (durability), utilitas (utility), and venustas (beauty). ______ contemporary architecture often prioritizes utility and durability while treating beauty as subjective or secondary, a shift that has generated ongoing debate."
+    },
+    {
+      "passageId": "p35",
+      "passageHtml": "<strong>p35</strong> <span style='color: red; margin-left: 8px; font-size:15px'>Hard</span><br/>\nThe 2019 discovery of a fossilized turtle with an unusually elongated snout initially puzzled paleontologists. ______ the specimen was eventually identified as a juvenile of a known species whose snout elongates dramatically with age, meaning the 'odd' features were simply signs of immaturity."
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "p1q1",
+      "passageId": "p1",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "However",
+        "B": "Therefore",
+        "C": "For example",
+        "D": "Similarly"
+      },
+      "correctOption": "A",
+      "explanationHtml": "The first sentence describes near‑extinction. The second describes successful recovery. This is a contrast, so \"however\" is correct. \"Therefore\" would incorrectly suggest extinction caused recovery. \"For example\" would imply the recovery is an example of extinction, which is illogical. \"Similarly\" would suggest a parallel, but the two ideas oppose each other."
+    },
+    {
+      "questionId": "p2q1",
+      "passageId": "p2",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "In other words",
+        "B": "On the contrary",
+        "C": "Specifically",
+        "D": "As a result"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The first sentence describes what otters do. The second provides how they learn it. \"Specifically\" introduces a precise detail about the previous claim. \"In other words\" would just restate, not specify. \"On the contrary\" would signal opposition, which is false. \"As a result\" suggests causation, but learning is not a direct result of using rocks — it's a related detail."
+    },
+    {
+      "questionId": "p3q1",
+      "passageId": "p3",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "Nevertheless",
+        "B": "For instance",
+        "C": "However",
+        "D": "Regardless"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The first sentence presents flooding as beneficial. The second presents risks of weak or strong floods. This is a contrast (benefit vs. danger). \"However\" signals this shift. \"Nevertheless\" also signals contrast but implies the second idea happens despite the first - here, the risks are not despite the benefits but in addition to them. \"For instance\" would suggest an example, but the second sentence is a counterpoint. \"Regardless\" ignores the logical structure."
+    },
+    {
+      "questionId": "p4q1",
+      "passageId": "p4",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "Moreover",
+        "B": "Consequently",
+        "C": "However",
+        "D": "Likewise"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The first sentence describes the condition for an eclipse. The second explains why eclipses don't happen every month. This is a contrast between expectation (direct alignment = eclipse) and reality (tilted orbit = no eclipse). \"However\" works. \"Moreover\" and \"Likewise\" add similar ideas, not contrasts. \"Consequently\" would suggest the tilt is a result of the alignment, which is backward."
+    },
+    {
+      "questionId": "p5q1",
+      "passageId": "p5",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "Earlier",
+        "B": "For this reason",
+        "C": "Decades later",
+        "D": "In comparison"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The first sentence describes a 1969 event. The second describes a planned 2024 event. This is a chronological sequence with a large time gap. \"Decades later\" is logical. \"Earlier\" would reverse time. \"For this reason\" suggests causation, but the first mission didn't cause the second—it inspired it, but that's not explicitly stated. \"In comparison\" would work for contrast, but the two events are similar, not contrasting."
+    },
+    {
+      "questionId": "p6q1",
+      "passageId": "p6",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "In fact",
+        "B": "However",
+        "C": "For example",
+        "D": "Similarly"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The first sentence states a general principle (bright feathers attract mates). The second provides a specific instance of that principle: the peacock/peahen. \"For example\" perfectly signals a general‑to‑specific shift. \"In fact\" would emphasize the previous claim, but the second sentence is not simply a reinforcement; it's an illustration. \"However\" would suggest contrast, but the second sentence agrees. \"Similarly\" would compare two different things, but this is about one species."
+    },
+    {
+      "questionId": "p7q1",
+      "passageId": "p7",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "In addition",
+        "B": "On the contrary",
+        "C": "In conclusion",
+        "D": "As a result"
+      },
+      "correctOption": "A",
+      "explanationHtml": "The first sentence mentions one discovery (pottery). The second lists additional discoveries (tools, bones, hearth). \"In addition\" signals accumulation of evidence. \"On the contrary\" would introduce opposition, which is false. \"In conclusion\" would sum up, but the sentence adds new info, not a conclusion. \"As a result\" suggests causation, but the pottery didn't cause the other discoveries."
+    },
+    {
+      "questionId": "p8q1",
+      "passageId": "p8",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "Likewise",
+        "B": "By contrast",
+        "C": "Therefore",
+        "D": "For instance"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The first sentence describes the typical fish anatomy (gills only). The second describes an exception (lungfish with gills + lung). This is a direct contrast between the norm and an outlier. \"By contrast\" is perfect. \"Likewise\" would suggest similarity, which is wrong. \"Therefore\" would suggest causation, which is illogical. \"For instance\" would present lungfish as an example of the norm, but it's actually an exception."
+    },
+    {
+      "questionId": "p9q1",
+      "passageId": "p9",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "Today",
+        "B": "As a result",
+        "C": "Nevertheless",
+        "D": "For example"
+      },
+      "correctOption": "A",
+      "explanationHtml": "The first sentence describes a past practice (before refrigerators). The second describes a present trend (modern chefs reviving techniques). \"Today\" signals a shift in time to the present. \"As a result\" would incorrectly suggest past preservation caused modern revival. \"Nevertheless\" signals contrast, but there's no direct opposition. \"For example\" would imply modern chefs are an example of past methods, which is chronologically illogical."
+    },
+    {
+      "questionId": "p10q1",
+      "passageId": "p10",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "Similarly",
+        "B": "However",
+        "C": "Consequently",
+        "D": "In other words"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The first sentence gives an individual bee's high capacity. The second sentence shows a logical consequence: a large colony, given that capacity, can pollinate millions. \"Consequently\" properly signals cause‑and‑effect. \"In other words\" would be a restatement, but scaling up from one bee to 50,000 is not a restatement—it is a deduction. \"Similarly\" would compare two different ideas, but this is the same idea scaled. \"However\" would suggest contrast, which is false."
+    },
+    {
+      "questionId": "p11q1",
+      "passageId": "p11",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "In contrast",
+        "B": "Similarly",
+        "C": "Specifically",
+        "D": "Nevertheless"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The first sentence makes a general claim (worms rely on bacteria). The second provides a precise mechanism (bacteria convert hydrogen sulfide). \"Specifically\" introduces that detail. \"In contrast\" would suggest opposition. \"Similarly\" would compare two ideas, but this is elaboration. \"Nevertheless\" signals contrast, which is incorrect."
+    },
+    {
+      "questionId": "p12q1",
+      "passageId": "p12",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "For example",
+        "B": "Consequently",
+        "C": "However",
+        "D": "In addition"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The first sentence states that most plastic is microplastic. The second states a logical result: targeting large debris removes little mass. \"Consequently\" shows cause‑effect. \"For example\" would imply large debris is an example of microplastic, which is wrong. \"However\" would suggest contrast, but the two ideas are consistent (microplastic dominance → inefficiency of large‑debris cleanup). \"In addition\" would add a point, not a consequence."
+    },
+    {
+      "questionId": "p13q1",
+      "passageId": "p13",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "Likewise",
+        "B": "Therefore",
+        "C": "On the contrary",
+        "D": "For instance"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The second sentence describes the outcome or result of the first sentence (measuring Earth's density allowed calculation of G). \"Therefore\" shows a direct consequence. \"Likewise\" would add a similar idea. \"On the contrary\" would oppose. \"For instance\" would provide an example, but this is a result, not an example."
+    },
+    {
+      "questionId": "p14q1",
+      "passageId": "p14",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "By contrast",
+        "B": "As a result",
+        "C": "In other words",
+        "D": "Furthermore"
+      },
+      "correctOption": "A",
+      "explanationHtml": "The first sentence describes a common avian adaptation (hollow bones for flight). The second describes an exception (penguins with solid bones for diving). This is a direct contrast, so \"by contrast\" fits. \"As a result\" would incorrectly suggest causation. \"In other words\" would restate, but the two are different. \"Furthermore\" would add a similar idea, which is false."
+    },
+    {
+      "questionId": "p15q1",
+      "passageId": "p15",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "Likewise",
+        "B": "However",
+        "C": "Therefore",
+        "D": "For example"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The first sentence gives an old theory (13,000 years ago). The second gives new evidence for an earlier date (15,000 years ago). This is a contrast/contradiction. \"However\" signals that shift. \"Likewise\" would suggest agreement. \"Therefore\" would imply the old theory led to the new date, which is illogical. \"For example\" would present the footprints as an example of the 13,000‑year theory, which is wrong."
+    },
+    {
+      "questionId": "p16q1",
+      "passageId": "p16",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "On the other hand",
+        "B": "Nonetheless",
+        "C": "As a result",
+        "D": "Similarly"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The first sentence describes the mechanism (transfer of plasmid via pilus). The second describes the consequence (acquisition of new traits). \"As a result\" shows cause‑effect. \"On the other hand\" would contrast, but there is no opposition. \"Nonetheless\" would signal concession, but there is no contrast. \"Similarly\" would compare two different processes, but this is a single process with an outcome."
+    },
+    {
+      "questionId": "p17q1",
+      "passageId": "p17",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "In other words",
+        "B": "Regardless",
+        "C": "For instance",
+        "D": "Consequently"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The first sentence states a general ability (reviving extinct plants). The second gives a specific example (the Guadalupe Island olive). \"For instance\" introduces that example. \"In other words\" would restate, not exemplify. \"Regardless\" would dismiss previous info. \"Consequently\" would suggest causation, but the example is not a result of the first sentence—it's an illustration."
+    },
+    {
+      "questionId": "p18q1",
+      "passageId": "p18",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "Likewise",
+        "B": "In addition",
+        "C": "Nevertheless",
+        "D": "For this reason"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The first sentence gives one difference (duration). The second gives another difference (coverage area). \"In addition\" adds a new but related point. \"Likewise\" would suggest similarity, but these are differences. \"Nevertheless\" signals contrast, but both sentences agree on the theme of differences. \"For this reason\" would indicate causation, but duration does not cause coverage."
+    },
+    {
+      "questionId": "p19q1",
+      "passageId": "p19",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "By contrast",
+        "B": "Consequently",
+        "C": "In practice",
+        "D": "Similarly"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The first sentence defines the theoretical problem. The second sentence describes the prevailing expert belief (P ≠ NP) despite lack of proof. \"In practice\" signals a shift from theory to real‑world consensus. \"By contrast\" would oppose, but the belief is not opposite to the definition. \"Consequently\" would suggest the definition leads to the belief, which is not necessarily true. \"Similarly\" would compare two ideas, but this is a different aspect."
+    },
+    {
+      "questionId": "p20q1",
+      "passageId": "p20",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "Likewise",
+        "B": "For example",
+        "C": "However",
+        "D": "Consequently"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The first sentence presents an appearance (defenseless). The second reveals an actual defense (blood‑squinting). This is a contrast between appearance and reality. \"However\" signals that shift. \"Likewise\" would suggest similarity, which is wrong. \"For example\" would imply the blood‑squinting is an example of defenselessness, which is contradictory. \"Consequently\" would imply defenselessness causes the ability, which is illogical."
+    },
+    {
+      "questionId": "p21q1",
+      "passageId": "p21",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "Earlier",
+        "B": "For instance",
+        "C": "Nevertheless",
+        "D": "There"
+      },
+      "correctOption": "D",
+      "explanationHtml": "\"There\" refers to Pluto, the location of the flyby. The second sentence describes what the mission revealed at that location. \"There\" is a spatial transition. \"Earlier\" would shift time backward, but the sequence is forward. \"For instance\" would introduce an example, but the sentence lists multiple discoveries, not a single example of the flyby. \"Nevertheless\" would signal contrast, but there is no opposition."
+    },
+    {
+      "questionId": "p22q1",
+      "passageId": "p22",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "Similarly",
+        "B": "In contrast",
+        "C": "As a result",
+        "D": "For this reason"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The first sentence describes mutualistic (beneficial) fungi. The second describes a parasitic (harmful) fungus. This is a direct contrast. \"In contrast\" works. \"Similarly\" would incorrectly suggest they are alike. \"As a result\" and \"For this reason\" imply causation, which is not present."
+    },
+    {
+      "questionId": "p23q1",
+      "passageId": "p23",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "Consequently",
+        "B": "Nonetheless",
+        "C": "In addition",
+        "D": "For example"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The first sentence says Herodotus traveled to gather accounts (suggests reliability). The second says he included unverified/fantastical stories. This is a concession or contrast: despite his efforts, he included questionable material. \"Nonetheless\" signals that the second point is true even after the first. \"Consequently\" would suggest the traveling caused the fantastical stories, which is not logical. \"In addition\" would add a similar point, but the ideas are somewhat opposing. \"For example\" would present the giant ants as an example of traveling, which is wrong."
+    },
+    {
+      "questionId": "p24q1",
+      "passageId": "p24",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "In other words",
+        "B": "On the contrary",
+        "C": "Centuries afterward",
+        "D": "For instance"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The first sentence describes a practice during the Han Dynasty (approx. 200 BCE - 200 CE). The second describes adoption in 19th‑century Europe. This is a chronological shift with a large time gap. \"Centuries afterward\" is logical. \"In other words\" would restate, but it's a later event. \"On the contrary\" would oppose, but no opposition exists. \"For instance\" would suggest European adoption is an example of Han practice, which is anachronistic."
+    },
+    {
+      "questionId": "p25q1",
+      "passageId": "p25",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "Similarly",
+        "B": "However",
+        "C": "As a result",
+        "D": "For example"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The first part of the sentence describes breeding during mast years. The blank introduces the contrast: in non‑mast years, no breeding. \"However\" signals that contrast. \"Similarly\" would suggest both conditions lead to breeding, which is false. \"As a result\" would imply mast years cause non‑breeding, which is backwards. \"For example\" would present non‑mast years as an example of breeding, which is wrong."
+    },
+    {
+      "questionId": "p26q1",
+      "passageId": "p26",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "Nevertheless",
+        "B": "In other words",
+        "C": "Specifically",
+        "D": "Ultimately"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The first sentence states the unusual source of the genome (finger bone and teeth). The second provides a precise detail about how the genome was extracted (from ancient DNA preserved in the cave). \"Specifically\" introduces that elaboration. \"Nevertheless\" would signal contrast, but there is no opposition. \"In other words\" would restate, but the second sentence adds new mechanism detail, not a restatement. \"Ultimately\" suggests a final outcome, but the extraction is not the endpoint of the discovery process here—it's a clarifying detail."
+    },
+    {
+      "questionId": "p27q1",
+      "passageId": "p27",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "Likewise",
+        "B": "As a result",
+        "C": "On the contrary",
+        "D": "That said"
+      },
+      "correctOption": "D",
+      "explanationHtml": "The first sentence describes initial ridicule. The second describes later vindication. \"That said\" functions like \"however\" or \"nevertheless,\" gracefully handling the shift from past rejection to modern acceptance. \"On the contrary\" would incorrectly deny the truth of the first sentence (it is a historical fact that the theory was ridiculed). \"Likewise\" would suggest similarity, but the two ideas contrast. \"As a result\" would imply ridicule caused vindication, which is illogical."
+    },
+    {
+      "questionId": "p28q1",
+      "passageId": "p28",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "Nonetheless",
+        "B": "Therefore",
+        "C": "Moreover",
+        "D": "In fact"
+      },
+      "correctOption": "A",
+      "explanationHtml": "The first sentence states an achievement (first female artist to succeed). The second states a further claim (her style was a response to trauma). This is an additive contrast—despite the achievement, historians argue about motivation. \"Nonetheless\" signals that the second point is true even given the first. \"Therefore\" would suggest the achievement caused the artistic choices, which is not stated. \"Moreover\" would add a supportive point, but the second is not merely additional—it introduces a new interpretive angle. \"In fact\" would emphasize the first, but the second is not an emphasis."
+    },
+    {
+      "questionId": "p29q1",
+      "passageId": "p29",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "Nonetheless",
+        "B": "Therefore",
+        "C": "Moreover",
+        "D": "In fact"
+      },
+      "correctOption": "A",
+      "explanationHtml": "The first sentence states an economic consensus (rent control reduces supply). The second states a contradictory political reality (it remains popular). \"Nonetheless\" signals that the second point is true despite the first. \"Therefore\" would incorrectly suggest the economic consensus causes popularity. \"Moreover\" would add a supporting point, but the second point opposes the first. \"In fact\" would emphasize the first point, but the second point is not an emphasis—it's a contrast."
+    },
+    {
+      "questionId": "p30q1",
+      "passageId": "p30",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "By contrast",
+        "B": "In agreement",
+        "C": "Consequently",
+        "D": "For example"
+      },
+      "correctOption": "A",
+      "explanationHtml": "Hume says sentiments drive action. Kant says rational duty (not emotion) is the foundation. These are opposing views. \"By contrast\" signals opposition. \"In agreement\" would be false. \"Consequently\" would suggest Hume's view led to Kant's, which is not the relationship described (Kant challenged him). \"For example\" would present Kant as an example of Hume's view, which is opposite."
+    },
+    {
+      "questionId": "p31q1",
+      "passageId": "p31",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "In other words",
+        "B": "Nevertheless",
+        "C": "In fact",
+        "D": "Granted"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The first sentence claims schadenfreude is universal. The second provides evidence (cross‑cultural studies) that supports and strengthens that claim. \"In fact\" emphasizes the truth of the statement and adds confirming evidence. \"In other words\" would restate, but the second sentence provides new evidence, not a restatement. \"Nevertheless\" would signal contrast, but there is no contrast—the evidence agrees. \"Granted\" concedes a point, but here the second sentence reinforces, not concedes."
+    },
+    {
+      "questionId": "p32q1",
+      "passageId": "p32",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "Similarly",
+        "B": "Nonetheless",
+        "C": "Therefore",
+        "D": "That is"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The first sentence notes a similarity (both conceived natural selection). The second introduces a difference (Wallace emphasized isolation more). \"Nonetheless\" signals that despite the similarity, there is an important distinction. \"Similarly\" would incorrectly add another similarity. \"Therefore\" would suggest similarity causes difference, which is illogical. \"That is\" would restate, but the second sentence does not restate—it contrasts."
+    },
+    {
+      "questionId": "p33q1",
+      "passageId": "p33",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "In conclusion",
+        "B": "Alternatively",
+        "C": "Likewise",
+        "D": "Crucially"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The first sentence gives an example (smiling → happier). The second gives a parallel example (frowning → less funny). Both support the same hypothesis. \"Likewise\" adds a similar instance. \"In conclusion\" would sum up, but the second is another example, not a conclusion. \"Alternatively\" suggests a different possibility, but the two examples are complementary, not alternative. \"Crucially\" emphasizes importance but does not signal addition of a similar case."
+    },
+    {
+      "questionId": "p34q1",
+      "passageId": "p34",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "For this reason",
+        "B": "By contrast",
+        "C": "In addition",
+        "D": "Specifically"
+      },
+      "correctOption": "B",
+      "explanationHtml": "Vitruvius valued all three equally, including beauty. Contemporary architecture treats beauty as secondary. This is a direct contrast between ancient and modern values. \"By contrast\" signals that shift. \"For this reason\" would suggest Vitruvius's view caused the modern shift, which is not stated. \"In addition\" would add a similar point, but the modern view differs. \"Specifically\" would provide detail, but the second sentence is not a detail of the first—it's a departure."
+    },
+    {
+      "questionId": "p35q1",
+      "passageId": "p35",
+      "questionHtml": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "Nonetheless",
+        "B": "Hence",
+        "C": "Ultimately",
+        "D": "In fact"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The first sentence describes an initial puzzle. The second describes the eventual resolution (identification as juvenile). \"Ultimately\" means 'in the end' and signals a conclusion after a process. \"Nonetheless\" would suggest contrast, but the resolution does not contrast with the puzzle—it resolves it. \"Hence\" would indicate immediate causation, but the identification is not an automatic result of the puzzle. \"In fact\" would emphasize or correct, but the second sentence is not simply emphasizing the first—it's providing a temporal outcome."
+    }
+  ]
+}

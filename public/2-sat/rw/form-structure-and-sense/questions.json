@@ -1,0 +1,601 @@
+{
+  "passages": [
+    {
+      "passageId": "7a3f2d1c",
+      "passageHtml": "<strong>7a3f2d1c</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span></br>\nIn the highlands of Scotland, the rare creeping lady's tresses orchid thrives in damp, mossy glens. This delicate plant ______ a unique spiral arrangement of small white flowers that bloom in late summer."
+    },
+    {
+      "passageId": "8b4e9f2a",
+      "passageHtml": "<strong>8b4e9f2a</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span></br>\nBefore the invention of the telegraph, news traveled slowly across the United States. The Pony Express, a mail service that used young riders on fast horses, reduced delivery time dramatically. Riders carried letters in special saddlebags, and ______ horses were changed at stations every ten to fifteen miles."
+    },
+    {
+      "passageId": "9c5d0e3b",
+      "passageHtml": "<strong>9c5d0e3b</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span></br>\nEvery spring, thousands of tourists visit the cherry blossoms along the Tidal Basin in Washington, D.C. The trees originally ______ a gift from Japan in 1912 and continue to symbolize the friendship between the two nations."
+    },
+    {
+      "passageId": "0d6e1f4c",
+      "passageHtml": "<strong>0d6e1f4c</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span></br>\nIn her memoir, The Color of Water, author James McBride explores the complex identity of his mother, a White Jewish woman who married a Black man in the 1940s. McBride traces ______ life from her childhood in the South to her later years in New York."
+    },
+    {
+      "passageId": "1e7f2a5d",
+      "passageHtml": "<strong>1e7f2a5d</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span></br>\nIn an effort to reduce plastic waste, engineers at a British startup have designed a fully biodegradable water bottle made from seaweed extract. Unlike traditional plastic bottles, which take centuries to decompose, this new bottle ______ in just four to six weeks."
+    },
+    {
+      "passageId": "2f8b3c6e",
+      "passageHtml": "<strong>2f8b3c6e</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span></br>\nThe ancient city of Great Zimbabwe, built between the 11th and 15th centuries, is famous for its massive stone enclosures. The walls ______ constructed without mortar, yet they have stood for over 700 years."
+    },
+    {
+      "passageId": "3a9c4d7f",
+      "passageHtml": "<strong>3a9c4d7f</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span></br>\nThe leafcutter ant is a remarkable insect. It does not eat the leaves it cuts; instead, ______ carries the leaves back to its nest and feeds them to a fungus, which the ants then consume."
+    },
+    {
+      "passageId": "4b0d5e8g",
+      "passageHtml": "<strong>4b0d5e8g</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span></br>\nComputer scientist Fei-Fei Li, a professor at Stanford University, ______ a key role in developing ImageNet, a large database of labeled images that helped fuel advances in artificial intelligence."
+    },
+    {
+      "passageId": "5c1e6f9h",
+      "passageHtml": "<strong>5c1e6f9h</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span></br>\nEvery year, the monarch butterfly population migrates from Canada to Mexico. Scientists believe that the insects use the position of the sun and Earth's magnetic field to navigate. Without these natural cues, the butterflies ______ lost and fail to reach their destination."
+    },
+    {
+      "passageId": "6d2f7a0i",
+      "passageHtml": "<strong>6d2f7a0i</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span></br>\nThe Library of Congress, the largest library in the world, holds over 170 million items. Among its treasures ______ a Gutenberg Bible, Thomas Jefferson's original library, and a rough draft of the Declaration of Independence."
+    },
+    {
+      "passageId": "m1a2b3c4",
+      "passageHtml": "<strong>m1a2b3c4</strong> <span style='color: #f0ad4e; margin-left: 8px; font-size:15px'>Medium</span></br>\nIn 1928, Scottish biologist Alexander Fleming discovered that a mold called Penicillium notatum had accidentally contaminated one of his petri dishes. Around the mold, Fleming noticed a clear ring where bacteria had not grown. This observation ______ the development of the first antibiotic, penicillin."
+    },
+    {
+      "passageId": "m2c4d5e6",
+      "passageHtml": "<strong>m2c4d5e6</strong> <span style='color: #f0ad4e; margin-left: 8px; font-size:15px'>Medium</span></br>\nThe giant panda's diet consists almost entirely of bamboo, even though its digestive system is better suited to eating meat. As a result, a panda must consume up to 40 pounds of bamboo each day. Without this constant feeding, ______ would quickly lose energy and struggle to survive."
+    },
+    {
+      "passageId": "m3e5f6g7",
+      "passageHtml": "<strong>m3e5f6g7</strong> <span style='color: #f0ad4e; margin-left: 8px; font-size:15px'>Medium</span></br>\nOften celebrated for his landscape paintings, French artist Claude Monet also produced more than 500 figurative works, including portraits and caricatures. However, many of ______ remain lesser known because they were rarely exhibited during his lifetime."
+    },
+    {
+      "passageId": "m4f6g7h8",
+      "passageHtml": "<strong>m4f6g7h8</strong> <span style='color: #f0ad4e; margin-left: 8px; font-size:15px'>Medium</span></br>\nIn 1963, climatologist Hubert Lamb published a landmark study analyzing weather patterns over the previous 1,000 years. Lamb's research revealed that Europe had experienced periods of unusual warmth and cold, ______ the idea that climate is naturally variable."
+    },
+    {
+      "passageId": "m5g7h8i9",
+      "passageHtml": "<strong>m5g7h8i9</strong> <span style='color: #f0ad4e; margin-left: 8px; font-size:15px'>Medium</span></br>\nThe Venus flytrap, a carnivorous plant native to the Carolinas, catches insects by snapping its leaves shut when trigger hairs are touched twice within about 20 seconds. This mechanism ______ energy efficient, as it prevents the plant from wasting resources on false alarms like falling raindrops."
+    },
+    {
+      "passageId": "m6h8i9jo",
+      "passageHtml": "<strong>m6h8i9jo</strong> <span style='color: #f0ad4e; margin-left: 8px; font-size:15px'>Medium</span></br>\nBefore the introduction of modern refrigeration, Arctic indigenous peoples such as the Inuit preserved meat by freezing it outdoors. They also developed techniques for storing food underground in permafrost, which naturally ______ a constant temperature below freezing."
+    },
+    {
+      "passageId": "m7i9j0k1",
+      "passageHtml": "<strong>m7i9j0k1</strong> <span style='color: #f0ad4e; margin-left: 8px; font-size:15px'>Medium</span></br>\nA skilled negotiator, former UN diplomat Lakhdar Brahimi helped broker peace agreements in Lebanon, Afghanistan, and Iraq. His approach emphasized patience and listening, skills ______ crucial in resolving long-standing conflicts."
+    },
+    {
+      "passageId": "m8j0k1l2",
+      "passageHtml": "<strong>m8j0k1l2</strong> <span style='color: #f0ad4e; margin-left: 8px; font-size:15px'>Medium</span></br>\nUnlike most frogs, which lay their eggs in water, the male Darwin's frog carries developing tadpoles inside its vocal sac. After about six weeks, the father regurgitates tiny, fully formed froglets. This unusual reproductive strategy ______ by only a few other amphibians."
+    },
+    {
+      "passageId": "m9k1l2m3",
+      "passageHtml": "<strong>m9k1l2m3</strong> <span style='color: #f0ad4e; margin-left: 8px; font-size:15px'>Medium</span></br>\nNowhere near as famous as his contemporary Rembrandt, Dutch painter Johannes Vermeer produced only about 36 known works. Yet paintings such as Girl with a Pearl Earring have achieved iconic status. Vermeer's mastery of light and color ______ him a \"master of Dutch Golden Age painting.\""
+    },
+    {
+      "passageId": "m0l2m3n4",
+      "passageHtml": "<strong>m0l2m3n4</strong> <span style='color: #f0ad4e; margin-left: 8px; font-size:15px'>Medium</span></br>\nClimbing Mount Everest, the world's highest peak, presents extreme challenges: thin air, brutal cold, and avalanches. Despite these dangers, hundreds of climbers attempt the summit each year. For many, the goal is not just to reach the top but ______ the experience of a lifetime."
+    },
+    {
+      "passageId": "m1m2n3o4",
+      "passageHtml": "<strong>m1m2n3o4</strong> <span style='color: #f0ad4e; margin-left: 8px; font-size:15px'>Medium</span></br>\nBuilt in the 15th century, the Forbidden City in Beijing was home to Chinese emperors for nearly 500 years. Its design reflects traditional Chinese cosmology, with the emperor's throne room located at the precise center. A visitor entering the complex ______ through a series of symbolic gates, each representing a different virtue."
+    },
+    {
+      "passageId": "m2n3o4p5",
+      "passageHtml": "<strong>m2n3o4p5</strong> <span style='color: #f0ad4e; margin-left: 8px; font-size:15px'>Medium</span></br>\nThe platypus, an egg-laying mammal native to Australia, possesses a unique electrosensory system. When underwater, it closes its eyes, ears, and nostrils, relying instead on electroreceptors in its bill to detect prey. Scientists have long been puzzled by how such a seemingly primitive creature ______ such a sophisticated adaptation."
+    },
+    {
+      "passageId": "m3o4p5q6",
+      "passageHtml": "<strong>m3o4p5q6</strong> <span style='color: #f0ad4e; margin-left: 8px; font-size:15px'>Medium</span></br>\nIn her novel Beloved, Toni Morrison deliberately avoids providing a clear timeline. Events from the past, present, and even the supernatural realm intertwine. This narrative technique forces readers to piece together the story themselves, ______ Morrison's theme that traumatic memories resist orderly retelling."
+    },
+    {
+      "passageId": "m4p5q6r7",
+      "passageHtml": "<strong>m4p5q6r7</strong> <span style='color: #f0ad4e; margin-left: 8px; font-size:15px'>Medium</span></br>\nThe Sahara Desert was not always a vast expanse of sand. Around 10,000 years ago, it was a lush, green savanna dotted with lakes and rivers. Rock art from that period depicts giraffes, elephants, and other animals that could not survive in today's hyper-arid climate. Scientists believe that a shift in Earth's orbit ______ the Sahara into a desert."
+    },
+    {
+      "passageId": "m5q6r7s8",
+      "passageHtml": "<strong>m5q6r7s8</strong> <span style='color: #f0ad4e; margin-left: 8px; font-size:15px'>Medium</span></br>\nIn a 2016 study, researchers at MIT found that people who regularly used social media were more likely to overestimate their friends' happiness. This tendency, known as the \"positivity bias,\" occurs because users post disproportionately positive content. The researchers concluded that social media ______ to feelings of social isolation despite its name."
+    },
+    {
+      "passageId": "h1a2b3c4",
+      "passageHtml": "<strong>h1a2b3c4</strong> <span style='color: #d9534f; margin-left: 8px; font-size:15px'>Hard</span></br>\nOriginally discovered in a shallow Chinese lagoon in 2009, ______ a type of marine fungus that produces a potent anti-cancer compound called hirsutanol A."
+    },
+    {
+      "passageId": "h2c3d4e5",
+      "passageHtml": "<strong>h2c3d4e5</strong> <span style='color: #d9534f; margin-left: 8px; font-size:15px'>Hard</span></br>\nNeither the governor nor her top advisors, despite months of public hearings and expert testimony, ______ prepared to endorse the new environmental regulations without further economic analysis."
+    },
+    {
+      "passageId": "h3d4e5f6",
+      "passageHtml": "<strong>h3d4e5f6</strong> <span style='color: #d9534f; margin-left: 8px; font-size:15px'>Hard</span></br>\nEach of the cyclists who completed the grueling 3,000-mile race across the Sahara Desert received a medallion, but none of them felt that ______ performance truly reflected the months of training they had endured."
+    },
+    {
+      "passageId": "h4e5f6g7",
+      "passageHtml": "<strong>h4e5f6g7</strong> <span style='color: #d9534f; margin-left: 8px; font-size:15px'>Hard</span></br>\nBy the time the fire department arrived at the museum, the automatic sprinkler system ______ the blaze, but smoke had already damaged several priceless manuscripts."
+    },
+    {
+      "passageId": "h5f6g7h8",
+      "passageHtml": "<strong>h5f6g7h8</strong> <span style='color: #d9534f; margin-left: 8px; font-size:15px'>Hard</span></br>\nThe fossils of a previously unknown dinosaur species, discovered in Patagonia and believed by paleontologists to have weighed nearly 70 tons, ______ the largest land animal ever to have lived."
+    },
+    {
+      "passageId": "h6g7h8i9",
+      "passageHtml": "<strong>h6g7h8i9</strong> <span style='color: #d9534f; margin-left: 8px; font-size:15px'>Hard</span></br>\nAlthough Maria had known the Tanaka family for years, she was surprised when they invited ______ to their private art collection, which had never been shown to outsiders."
+    },
+    {
+      "passageId": "h7h8i9jo",
+      "passageHtml": "<strong>h7h8i9jo</strong> <span style='color: #d9534f; margin-left: 8px; font-size:15px'>Hard</span></br>\nA virtuoso of the kora (a 21-string West African harp), ______ not only in traditional Mandinka songs but also in jazz and pop collaborations with artists such as Paul Simon."
+    },
+    {
+      "passageId": "h8i9jok1",
+      "passageHtml": "<strong>h8i9jok1</strong> <span style='color: #d9534f; margin-left: 8px; font-size:15px'>Hard</span></br>\nIn her memoir, Zora Neale Hurston describes her childhood in Eatonville, Florida, as idyllic. She writes of front porch storytelling, of attending a school founded by her father, and of how she ______ no fear of the natural world that surrounded her."
+    },
+    {
+      "passageId": "h9j0k112",
+      "passageHtml": "<strong>h9j0k112</strong> <span style='color: #d9534f; margin-left: 8px; font-size:15px'>Hard</span></br>\nThe goal of the new space mission is not only to search for signs of microbial life on Jupiter's moon Europa but also ______ the moon's subsurface ocean for potential landing sites for future probes."
+    },
+    {
+      "passageId": "h0k112m3",
+      "passageHtml": "<strong>h0k112m3</strong> <span style='color: #d9534f; margin-left: 8px; font-size:15px'>Hard</span></br>\nThe mathematician's groundbreaking proof, which took over 200 pages to write and was verified by only a handful of colleagues, ______ significance was not fully appreciated until decades after her death."
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "7a3f2d1c_q",
+      "passageId": "7a3f2d1c",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "feature",
+        "B": "featuring",
+        "C": "features",
+        "D": "have featured"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice C is correct.</b> The subject <span style=\"color: #555;\">“this delicate plant”</span> is singular, so the verb must be the singular present tense <span style=\"color: #555;\">“features”</span> to match the present tense verb <span style=\"color: #555;\">“thrives”</span> in the previous sentence.</li>\n  <li><b>Choice A is incorrect.</b> <span style=\"color: #555;\">“feature”</span> is plural and does not agree with the singular subject.</li>\n  <li><b>Choice B is incorrect.</b> <span style=\"color: #555;\">“featuring”</span> is a nonfinite participle and cannot function as the sentence’s main verb.</li>\n  <li><b>Choice D is incorrect.</b> <span style=\"color: #555;\">“have featured”</span> is plural and also creates an unnecessary tense shift.</li>\n</ul>"
+    },
+    {
+      "questionId": "8b4e9f2a_q",
+      "passageId": "8b4e9f2a",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "there",
+        "B": "their",
+        "C": "they're",
+        "D": "them"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice B is correct.</b> The possessive plural pronoun <span style=\"color: #555;\">“their”</span> correctly modifies <span style=\"color: #555;\">“horses”</span>, showing that the horses belonged to the riders.</li>\n  <li><b>Choice A is incorrect.</b> <span style=\"color: #555;\">“there”</span> refers to a place, not possession.</li>\n  <li><b>Choice C is incorrect.</b> <span style=\"color: #555;\">“they’re”</span> is a contraction of <span style=\"color: #555;\">“they are”</span>, which does not fit the sentence.</li>\n  <li><b>Choice D is incorrect.</b> <span style=\"color: #555;\">“them”</span> is an object pronoun and cannot be used to modify a noun.</li>\n</ul>"
+    },
+    {
+      "questionId": "9c5d0e3b_q",
+      "passageId": "9c5d0e3b",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "are",
+        "B": "were",
+        "C": "have been",
+        "D": "will be"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice B is correct.</b> The past tense <span style=\"color: #555;\">“were”</span> matches the past time reference <span style=\"color: #555;\">“in 1912”</span> and works with the present tense <span style=\"color: #555;\">“continue”</span> to show a past fact that remains true.</li>\n  <li><b>Choice A is incorrect.</b> <span style=\"color: #555;\">“are”</span> is present tense, conflicting with <span style=\"color: #555;\">“in 1912.”</span></li>\n  <li><b>Choice C is incorrect.</b> <span style=\"color: #555;\">“have been”</span> suggests an action continuing from past to present, but the giving is a single past event.</li>\n  <li><b>Choice D is incorrect.</b> <span style=\"color: #555;\">“will be”</span> is future tense, which makes no sense for an event in 1912.</li>\n</ul>"
+    },
+    {
+      "questionId": "0d6e1f4c_q",
+      "passageId": "0d6e1f4c",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "his mothers",
+        "B": "his mother's",
+        "C": "his mothers'",
+        "D": "his mother"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice B is correct.</b> The singular possessive <span style=\"color: #555;\">“mother's”</span> shows that the life belongs to McBride's mother.</li>\n  <li><b>Choice A is incorrect.</b> <span style=\"color: #555;\">“mothers”</span> is plural and lacks apostrophe for possession.</li>\n  <li><b>Choice C is incorrect.</b> <span style=\"color: #555;\">“mothers'”</span> is plural possessive, implying more than one mother.</li>\n  <li><b>Choice D is incorrect.</b> <span style=\"color: #555;\">“mother”</span> without apostrophe makes the phrase \"mother life\" ungrammatical.</li>\n</ul>"
+    },
+    {
+      "questionId": "1e7f2a5d_q",
+      "passageId": "1e7f2a5d",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "breaks down",
+        "B": "broke down",
+        "C": "has broken down",
+        "D": "will have broken down"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice A is correct.</b> The simple present tense <span style=\"color: #555;\">“breaks down”</span> is used to state a general fact about the bottle's property, consistent with the present tense <span style=\"color: #555;\">“are designed”</span> and <span style=\"color: #555;\">“takes.”</span></li>\n  <li><b>Choice B is incorrect.</b> Past tense <span style=\"color: #555;\">“broke down”</span> suggests the action already happened, not a general fact.</li>\n  <li><b>Choice C is incorrect.</b> Present perfect <span style=\"color: #555;\">“has broken down”</span> implies a completed action, not a habitual or general quality.</li>\n  <li><b>Choice D is incorrect.</b> Future perfect <span style=\"color: #555;\">“will have broken down”</span> refers to a future completed action, not a general present fact.</li>\n</ul>"
+    },
+    {
+      "questionId": "2f8b3c6e_q",
+      "passageId": "2f8b3c6e",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "are",
+        "B": "were",
+        "C": "have been",
+        "D": "will be"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice B is correct.</b> The past tense <span style=\"color: #555;\">“were constructed”</span> matches the historical time frame (11th-15th centuries) and pairs with <span style=\"color: #555;\">“have stood”</span> in the present perfect to contrast past action with ongoing result.</li>\n  <li><b>Choice A is incorrect.</b> <span style=\"color: #555;\">“are constructed”</span> suggests present action, which is illogical.</li>\n  <li><b>Choice C is incorrect.</b> <span style=\"color: #555;\">“have been constructed”</span> suggests the action began in the past but is still happening, which is not true.</li>\n  <li><b>Choice D is incorrect.</b> <span style=\"color: #555;\">“will be constructed”</span> is future tense, impossible for an ancient city.</li>\n</ul>"
+    },
+    {
+      "questionId": "3a9c4d7f_q",
+      "passageId": "3a9c4d7f",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "they",
+        "B": "he",
+        "C": "she",
+        "D": "it"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice D is correct.</b> The singular neuter pronoun <span style=\"color: #555;\">“it”</span> agrees with the singular antecedent <span style=\"color: #555;\">“the leafcutter ant”</span> and is appropriate for an animal.</li>\n  <li><b>Choice A is incorrect.</b> <span style=\"color: #555;\">“they”</span> is plural.</li>\n  <li><b>Choice B is incorrect.</b> <span style=\"color: #555;\">“he”</span> unnecessarily genders the ant.</li>\n  <li><b>Choice C is incorrect.</b> <span style=\"color: #555;\">“she”</span> also unnecessarily genders the ant and is not supported by context.</li>\n</ul>"
+    },
+    {
+      "questionId": "4b0d5e8g_q",
+      "passageId": "4b0d5e8g",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "play",
+        "B": "playing",
+        "C": "has played",
+        "D": "to play"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice C is correct.</b> The present perfect verb <span style=\"color: #555;\">“has played”</span> correctly indicates an action that began in the past and continues to be relevant or is completed at an unspecified past time.</li>\n  <li><b>Choice A is incorrect.</b> <span style=\"color: #555;\">“play”</span> is present tense but doesn't fit the past-connected context.</li>\n  <li><b>Choice B is incorrect.</b> <span style=\"color: #555;\">“playing”</span> is a participle and cannot serve as the main verb.</li>\n  <li><b>Choice D is incorrect.</b> <span style=\"color: #555;\">“to play”</span> is an infinitive and cannot function as the main verb of the clause.</li>\n</ul>"
+    },
+    {
+      "questionId": "5c1e6f9h_q",
+      "passageId": "5c1e6f9h",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "get",
+        "B": "got",
+        "C": "have gotten",
+        "D": "will get"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice A is correct.</b> The simple present tense <span style=\"color: #555;\">“get”</span> is used in a general factual or conditional statement (if X happens, then Y happens). It matches the present tense verbs <span style=\"color: #555;\">“use”</span> and <span style=\"color: #555;\">“fail.”</span></li>\n  <li><b>Choice B is incorrect.</b> Past tense <span style=\"color: #555;\">“got”</span> suggests a past event, not a general truth.</li>\n  <li><b>Choice C is incorrect.</b> <span style=\"color: #555;\">“have gotten”</span> is present perfect, which doesn't fit the general conditional structure.</li>\n  <li><b>Choice D is incorrect.</b> <span style=\"color: #555;\">“will get”</span> would be appropriate for a future prediction but here the sentence uses present tense <span style=\"color: #555;\">“fail,”</span> so <span style=\"color: #555;\">“get”</span> maintains consistency.</li>\n</ul>"
+    },
+    {
+      "questionId": "6d2f7a0i_q",
+      "passageId": "6d2f7a0i",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "is",
+        "B": "are",
+        "C": "has",
+        "D": "have"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice B is correct.</b> The subject of the verb is <span style=\"color: #555;\">“a Gutenberg Bible, Thomas Jefferson's original library, and a rough draft,”</span> which is a compound plural subject. Therefore, the plural verb <span style=\"color: #555;\">“are”</span> is needed. The sentence is inverted (verb before subject).</li>\n  <li><b>Choice A is incorrect.</b> <span style=\"color: #555;\">“is”</span> is singular, but the subject is plural.</li>\n  <li><b>Choice C is incorrect.</b> <span style=\"color: #555;\">“has”</span> would require a singular subject and would change the meaning (the library \"has\" treasures, but here the structure lists what the treasures \"are\").</li>\n  <li><b>Choice D is incorrect.</b> <span style=\"color: #555;\">“have”</span> is plural but would also require a different sentence structure (e.g., \"The library has treasures\"); here the verb must agree with the plural subject after \"are.\"</li>\n</ul>"
+    },
+    {
+      "questionId": "m1a2b3c4_q",
+      "passageId": "m1a2b3c4",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "has led to",
+        "B": "will lead to",
+        "C": "led to",
+        "D": "leads to"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice C is correct.</b> The simple past tense <span style=\"color: #555;\">“led to”</span> matches the past time frame established by <span style=\"color: #555;\">“in 1928,”</span> <span style=\"color: #555;\">“discovered,”</span> and <span style=\"color: #555;\">“noticed.”</span></li>\n  <li><b>A is incorrect.</b> Present perfect <span style=\"color: #555;\">“has led to”</span> suggests a connection to the present, but the development of penicillin happened in the past.</li>\n  <li><b>B is incorrect.</b> Future tense <span style=\"color: #555;\">“will lead to”</span> does not fit a past narrative.</li>\n  <li><b>D is incorrect.</b> Present tense <span style=\"color: #555;\">“leads to”</span> is used for general facts, not a specific historical event.</li>\n</ul>"
+    },
+    {
+      "questionId": "m2c4d5e6_q",
+      "passageId": "m2c4d5e6",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "they",
+        "B": "it",
+        "C": "he",
+        "D": "she"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice B is correct.</b> The singular pronoun <span style=\"color: #555;\">“it”</span> agrees with the singular antecedent <span style=\"color: #555;\">“a panda.”</span></li>\n  <li><b>A is incorrect.</b> <span style=\"color: #555;\">“they”</span> is plural.</li>\n  <li><b>C and D are incorrect.</b> Pandas are not referred to by gendered pronouns unless specified; <span style=\"color: #555;\">“it”</span> is the standard neuter for animals.</li>\n</ul>"
+    },
+    {
+      "questionId": "m3e5f6g7_q",
+      "passageId": "m3e5f6g7",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "this",
+        "B": "that",
+        "C": "them",
+        "D": "those"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice D is correct.</b> The plural demonstrative pronoun <span style=\"color: #555;\">“those”</span> refers to <span style=\"color: #555;\">“figurative works”</span> and <span style=\"color: #555;\">“portraits and caricatures”</span> (plural).</li>\n  <li><b>A and B are incorrect.</b> <span style=\"color: #555;\">“this”</span> and <span style=\"color: #555;\">“that”</span> are singular.</li>\n  <li><b>C is incorrect.</b> <span style=\"color: #555;\">“them”</span> is an object pronoun, but here a demonstrative is needed to introduce <span style=\"color: #555;\">“remain lesser known.”</span></li>\n</ul>"
+    },
+    {
+      "questionId": "m4f6g7h8_q",
+      "passageId": "m4f6g7h8",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "supporting",
+        "B": "supported",
+        "C": "to support",
+        "D": "will support"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice A is correct.</b> The present participle <span style=\"color: #555;\">“supporting”</span> introduces a modifying phrase that describes the result of Lamb's research, without needing a new subject or finite verb.</li>\n  <li><b>B is incorrect.</b> <span style=\"color: #555;\">“supported”</span> (past tense) would require a subject and a conjunction (e.g., \"and supported\").</li>\n  <li><b>C is incorrect.</b> <span style=\"color: #555;\">“to support”</span> would imply purpose, but the sentence describes an outcome, not an intention.</li>\n  <li><b>D is incorrect.</b> <span style=\"color: #555;\">“will support”</span> is future tense, inconsistent with the past narrative.</li>\n</ul>"
+    },
+    {
+      "questionId": "m5g7h8i9_q",
+      "passageId": "m5g7h8i9",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "are",
+        "B": "being",
+        "C": "is",
+        "D": "were"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice C is correct.</b> The singular subject <span style=\"color: #555;\">“mechanism”</span> requires the singular present tense verb <span style=\"color: #555;\">“is”</span> to state a general fact.</li>\n  <li><b>A is incorrect.</b> <span style=\"color: #555;\">“are”</span> is plural.</li>\n  <li><b>B is incorrect.</b> <span style=\"color: #555;\">“being”</span> is a participle and cannot serve as the main verb.</li>\n  <li><b>D is incorrect.</b> <span style=\"color: #555;\">“were”</span> is past tense and plural (for singular, \"was\" would be past, but present tense is needed for a general fact).</li>\n</ul>"
+    },
+    {
+      "questionId": "m6h8i9jo_q",
+      "passageId": "m6h8i9jo",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "maintain",
+        "B": "maintains",
+        "C": "maintaining",
+        "D": "have maintained"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice B is correct.</b> The singular relative pronoun <span style=\"color: #555;\">“which”</span> refers to <span style=\"color: #555;\">“permafrost”</span> (singular), so the verb must be the singular present tense <span style=\"color: #555;\">“maintains.”</span></li>\n  <li><b>A is incorrect.</b> <span style=\"color: #555;\">“maintain”</span> is plural.</li>\n  <li><b>C is incorrect.</b> <span style=\"color: #555;\">“maintaining”</span> is a participle and cannot be the main verb of the relative clause.</li>\n  <li><b>D is incorrect.</b> <span style=\"color: #555;\">“have maintained”</span> is plural present perfect, not appropriate for a general fact about permafrost.</li>\n</ul>"
+    },
+    {
+      "questionId": "m7i9j0k1_q",
+      "passageId": "m7i9j0k1",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "is",
+        "B": "are",
+        "C": "was",
+        "D": "being"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice B is correct.</b> The plural noun <span style=\"color: #555;\">“skills”</span> is the subject of the relative clause (implied \"that are\"), so the plural verb <span style=\"color: #555;\">“are”</span> is needed.</li>\n  <li><b>A and C are singular.</b></li>\n  <li><b>D is a participle</b> and cannot function as the main verb in the clause.</li>\n</ul>"
+    },
+    {
+      "questionId": "m8j0k1l2_q",
+      "passageId": "m8j0k1l2",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "shares",
+        "B": "is shared",
+        "C": "share",
+        "D": "are shared"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice B is correct.</b> The singular subject <span style=\"color: #555;\">“strategy”</span> requires a singular verb, and the passive voice <span style=\"color: #555;\">“is shared”</span> correctly indicates that the strategy is used by other amphibians.</li>\n  <li><b>A is incorrect.</b> <span style=\"color: #555;\">“shares”</span> would mean the strategy itself does the sharing, which is illogical.</li>\n  <li><b>C and D are plural</b> (<span style=\"color: #555;\">“share,”</span> <span style=\"color: #555;\">“are shared”</span>) and do not agree with the singular subject.</li>\n</ul>"
+    },
+    {
+      "questionId": "m9k1l2m3_q",
+      "passageId": "m9k1l2m3",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "earn",
+        "B": "are earning",
+        "C": "earns",
+        "D": "have earned"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice C is correct.</b> The singular subject <span style=\"color: #555;\">“mastery”</span> requires the singular verb <span style=\"color: #555;\">“earns.”</span> The present tense is appropriate for a timeless evaluation.</li>\n  <li><b>A is plural; B is plural present progressive; D is plural present perfect.</b> All disagree with <span style=\"color: #555;\">“mastery.”</span></li>\n</ul>"
+    },
+    {
+      "questionId": "m0l2m3n4_q",
+      "passageId": "m0l2m3n4",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "get",
+        "B": "to get",
+        "C": "getting",
+        "D": "got"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice B is correct.</b> The construction <span style=\"color: #555;\">“not just to reach... but to get”</span> maintains parallel structure using infinitives.</li>\n  <li><b>A is incorrect.</b> <span style=\"color: #555;\">“get”</span> does not parallel <span style=\"color: #555;\">“to reach.”</span></li>\n  <li><b>C and D break the parallel infinitive pattern.</b></li>\n</ul>"
+    },
+    {
+      "questionId": "m1m2n3o4_q",
+      "passageId": "m1m2n3o4",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "is guided",
+        "B": "guides",
+        "C": "guiding",
+        "D": "has guided"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice A is correct.</b> The passive voice <span style=\"color: #555;\">“is guided”</span> is needed because the visitor does not guide themselves; the architecture guides them. The present tense matches the general description.</li>\n  <li><b>B is active and illogical</b> (visitor guides through gates).</li>\n  <li><b>C is a participle</b> with no main verb.</li>\n  <li><b>D is active and present perfect,</b> also illogical.</li>\n</ul>"
+    },
+    {
+      "questionId": "m2n3o4p5_q",
+      "passageId": "m2n3o4p5",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "evolve",
+        "B": "evolving",
+        "C": "evolved",
+        "D": "have evolved"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice C is correct.</b> The past tense <span style=\"color: #555;\">“evolved”</span> matches the past time reference (<span style=\"color: #555;\">“have long been puzzled”</span> implies a past evolutionary event). The singular subject <span style=\"color: #555;\">“creature”</span> agrees with <span style=\"color: #555;\">“evolved.”</span></li>\n  <li><b>A is present tense,</b> not appropriate for an evolutionary event.</li>\n  <li><b>B is a participle,</b> cannot be main verb.</li>\n  <li><b>D is plural,</b> and <span style=\"color: #555;\">“have evolved”</span> would be present perfect, which doesn't fit as well with the simple past context.</li>\n</ul>"
+    },
+    {
+      "questionId": "m3o4p5q6_q",
+      "passageId": "m3o4p5q6",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "reinforces",
+        "B": "reinforce",
+        "C": "reinforcing",
+        "D": "to reinforce"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice C is correct.</b> The present participle <span style=\"color: #555;\">“reinforcing”</span> introduces a modifying phrase that explains the effect of the narrative technique, without creating a second main verb.</li>\n  <li><b>A would create a comma splice</b> (two main verbs without a conjunction).</li>\n  <li><b>B is plural and also a main verb.</b></li>\n  <li><b>D would imply purpose,</b> but the sentence describes an outcome, not an intention.</li>\n</ul>"
+    },
+    {
+      "questionId": "m4p5q6r7_q",
+      "passageId": "m4p5q6r7",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "turns",
+        "B": "turned",
+        "C": "has turned",
+        "D": "will turn"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice B is correct.</b> The simple past tense <span style=\"color: #555;\">“turned”</span> matches the past time frame (<span style=\"color: #555;\">“around 10,000 years ago,”</span> <span style=\"color: #555;\">“was,”</span> <span style=\"color: #555;\">“depicts”</span> [historical present is fine but the shift itself is past]).</li>\n  <li><b>A is present tense,</b> inappropriate for a past event.</li>\n  <li><b>C is present perfect,</b> which would imply a connection to the present that is not specified.</li>\n  <li><b>D is future,</b> obviously incorrect.</li>\n</ul>"
+    },
+    {
+      "questionId": "m5q6r7s8_q",
+      "passageId": "m5q6r7s8",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "contributes",
+        "B": "contribute",
+        "C": "contributing",
+        "D": "to contribute"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice A is correct.</b> The singular subject <span style=\"color: #555;\">“social media”</span> (treated as a singular entity) requires the singular verb <span style=\"color: #555;\">“contributes.”</span> The present tense is appropriate for a research finding.</li>\n  <li><b>B is plural.</b></li>\n  <li><b>C is a participle,</b> cannot be main verb.</li>\n  <li><b>D is an infinitive,</b> cannot be main verb.</li>\n</ul>"
+    },
+    {
+      "questionId": "h1a2b3c4_q",
+      "passageId": "h1a2b3c4",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "researchers identified the Hirsutella fungus as",
+        "B": "the Hirsutella fungus is",
+        "C": "there is the Hirsutella fungus,",
+        "D": "the discovery of the Hirsutella fungus was"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice B is correct.</b> The opening modifier <span style=\"color: #555;\">“originally discovered... lagoon”</span> must be followed immediately by the noun it describes: the Hirsutella fungus.</li>\n  <li><b>A is incorrect.</b> <span style=\"color: #555;\">“researchers”</span> were not discovered in a lagoon.</li>\n  <li><b>C is incorrect.</b> <span style=\"color: #555;\">“there is”</span> delays the subject and creates a weak construction; also \"there\" is not what was discovered.</li>\n  <li><b>D is incorrect.</b> <span style=\"color: #555;\">“the discovery”</span> was not discovered in a lagoon; the fungus was.</li>\n</ul>"
+    },
+    {
+      "questionId": "h2c3d4e5_q",
+      "passageId": "h2c3d4e5",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "is",
+        "B": "are",
+        "C": "was",
+        "D": "were"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice B is correct.</b> With <span style=\"color: #555;\">“neither... nor,”</span> the verb agrees with the closer subject (<span style=\"color: #555;\">“advisors”</span>), which is plural. Present tense <span style=\"color: #555;\">“are”</span> fits the general present situation.</li>\n  <li><b>A is singular</b> (\"is\") would agree only if both subjects were singular.</li>\n  <li><b>C is singular past</b> (\"was\") incorrect for plural subject and tense not required.</li>\n  <li><b>D is plural past</b> (\"were\") past tense is not supported by context (no past time marker).</li>\n</ul>"
+    },
+    {
+      "questionId": "h3d4e5f6_q",
+      "passageId": "h3d4e5f6",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "their",
+        "B": "his or her",
+        "C": "its",
+        "D": "our"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice B is correct.</b> <span style=\"color: #555;\">“Each”</span> is singular, so the pronoun must be singular. <span style=\"color: #555;\">“His or her”</span> is the traditional singular gender-neutral option.</li>\n  <li><b>A is incorrect.</b> <span style=\"color: #555;\">“their”</span> is plural, though increasingly accepted in casual usage, SAT prefers strict agreement.</li>\n  <li><b>C is incorrect.</b> <span style=\"color: #555;\">“its”</span> refers to things, not people.</li>\n  <li><b>D is incorrect.</b> <span style=\"color: #555;\">“our”</span> includes the speaker, who is not a cyclist.</li>\n</ul>"
+    },
+    {
+      "questionId": "h4e5f6g7_q",
+      "passageId": "h4e5f6g7",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "extinguishes",
+        "B": "had extinguished",
+        "C": "was extinguishing",
+        "D": "would extinguish"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice B is correct.</b> The past perfect <span style=\"color: #555;\">“had extinguished”</span> shows that the extinguishing occurred before the arrival of the fire department (another past event).</li>\n  <li><b>A is simple past</b> - would suggest the extinguishing happened after or at the same time, illogical.</li>\n  <li><b>C is past progressive</b> - implies ongoing action at the time of arrival, but the context shows completion.</li>\n  <li><b>D is conditional</b> - inappropriate for a factual past sequence.</li>\n</ul>"
+    },
+    {
+      "questionId": "h5f6g7h8_q",
+      "passageId": "h5f6g7h8",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "representing",
+        "B": "to represent",
+        "C": "represent",
+        "D": "represented"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice C is correct.</b> The main clause needs a finite verb. The plural subject <span style=\"color: #555;\">“fossils”</span> agrees with the present tense <span style=\"color: #555;\">“represent”</span> (used for a current scientific claim).</li>\n  <li><b>A is a participle,</b> cannot be main verb.</li>\n  <li><b>B is an infinitive,</b> cannot be main verb.</li>\n  <li><b>D is past tense,</b> but the statement is a present fact (the fossils still represent that claim).</li>\n</ul>"
+    },
+    {
+      "questionId": "h6g7h8i9_q",
+      "passageId": "h6g7h8i9",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "she",
+        "B": "her",
+        "C": "herself",
+        "D": "them"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice B is correct.</b> The object pronoun <span style=\"color: #555;\">“her”</span> is needed as the object of the verb <span style=\"color: #555;\">“invited.”</span></li>\n  <li><b>A is subjective case</b> (\"she\" would be subject).</li>\n  <li><b>C is reflexive</b> (\"herself\") would imply she invited herself, which is not the meaning.</li>\n  <li><b>D is plural</b> (\"them\") but the antecedent is <span style=\"color: #555;\">“Maria”</span> (singular).</li>\n</ul>"
+    },
+    {
+      "questionId": "h7h8i9jo_q",
+      "passageId": "h7h8i9jo",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "Toumani Diabate's playing has been heard",
+        "B": "the playing of Toumani Diabate has been heard",
+        "C": "Toumani Diabate has been heard playing",
+        "D": "one can hear Toumani Diabate playing"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice C is correct.</b> The opening modifier <span style=\"color: #555;\">“a virtuoso of the kora”</span> describes a person, so the subject must be the person <span style=\"color: #555;\">“Toumani Diabate.”</span></li>\n  <li><b>A and B have</b> <span style=\"color: #555;\">“playing”</span> as the subject, not the virtuoso.</li>\n  <li><b>D uses</b> <span style=\"color: #555;\">“one,”</span> which is not the virtuoso.</li>\n  <li><b>C correctly places the person immediately after the modifier.</b></li>\n</ul>"
+    },
+    {
+      "questionId": "h8i9jok1_q",
+      "passageId": "h8i9jok1",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "had had",
+        "B": "would have",
+        "C": "has",
+        "D": "had"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice D is correct.</b> The sentence uses historical present tense (<span style=\"color: #555;\">“describes,”</span> <span style=\"color: #555;\">“writes”</span>), so the subordinate clause should also use past tense (<span style=\"color: #555;\">“had”</span>) to refer to her childhood feelings.</li>\n  <li><b>A is past perfect</b> (\"had had\") unnecessary because there is no earlier past event to reference.</li>\n  <li><b>B is conditional</b> not appropriate for a factual memory.</li>\n  <li><b>C is present perfect</b> (\"has\") would imply the feeling continues to the present, which is not indicated.</li>\n</ul>"
+    },
+    {
+      "questionId": "h9j0k112_q",
+      "passageId": "h9j0k112",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "mapping",
+        "B": "to map",
+        "C": "map",
+        "D": "in mapping"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice B is correct.</b> The parallel structure <span style=\"color: #555;\">“not only to search... but also to map”</span> uses two infinitives.</li>\n  <li><b>A is a gerund,</b> breaking parallelism.</li>\n  <li><b>C is base form without \"to,\"</b> not parallel to \"to search.\"</li>\n  <li><b>D is prepositional phrase,</b> not parallel.</li>\n</ul>"
+    },
+    {
+      "questionId": "h0k112m3_q",
+      "passageId": "h0k112m3",
+      "questionHtml": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "it's",
+        "B": "its",
+        "C": "their",
+        "D": "whose"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<ul style=\"line-height: 1.8;\">\n  <li><b>Choice D is correct.</b> The relative pronoun <span style=\"color: #555;\">“whose”</span> introduces a clause that modifies <span style=\"color: #555;\">“proof,”</span> indicating that the proof's significance was not appreciated.</li>\n  <li><b>A is a contraction</b> of \"it is\" ungrammatical here.</li>\n  <li><b>B is possessive</b> \"its\" would require a different sentence structure (e.g., \"its significance was...\" but that would be a separate clause without a relative pronoun).</li>\n  <li><b>C is plural</b> \"proof\" is singular.</li>\n  <li><b>D correctly links the proof to its significance.</b></li>\n</ul>"
+    }
+  ]
+}

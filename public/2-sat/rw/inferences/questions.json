@@ -1,0 +1,584 @@
+{
+  "passages": [
+    {
+      "passageId": "P1",
+      "passageHtml": "Urban parks are often designed with large grassy areas for recreational use. However, a study by ecologist Marina Chen found that parks with more native shrubs and wildflowers supported three times as many bee and butterfly species than parks dominated by manicured lawns. Chen notes that many city planners prioritize aesthetics over biodiversity when designing green spaces. This finding suggests that"
+    },
+    {
+      "passageId": "P2",
+      "passageHtml": "A small coffee shop chain tested two loyalty programs: one offered a free drink after every 10 purchases, and the other offered a small discount on every 5th purchase. After six months, the chain found that customers in the discount program visited the shop 40% more often than those in the free-drink program. The chain's manager concluded that"
+    },
+    {
+      "passageId": "P3",
+      "passageHtml": "In a study of student study habits, researchers found that students who listened to instrumental music while studying scored 15% higher on recall tests than students who studied in silence. However, students who listened to music with lyrics scored 10% lower than the silence group. The researchers hypothesize that"
+    },
+    {
+      "passageId": "P4",
+      "passageHtml": "In a small town, a library began offering free after-school robotics workshops. Attendance at the library's other events, such as book clubs and author readings, did not change. However, the number of books borrowed about science and engineering doubled within three months. This suggests that"
+    },
+    {
+      "passageId": "P5",
+      "passageHtml": "Marine biologist Tomas Lee studied two coral reefs: one near a busy shipping lane and one in a protected marine reserve. The reef near the shipping lane had 60% less coral cover and half as many fish species as the reserve. Lee notes that ships often release ballast water containing invasive species and pollutants. This evidence suggests that"
+    },
+    {
+      "passageId": "P6",
+      "passageHtml": "A mobile app developer tested two versions of a fitness app: one with daily reminder notifications and one without. Users of the version with reminders exercised an average of 4 days per week, while users without reminders exercised 2 days per week. However, 30% of users with reminders disabled notifications within two weeks. This suggests that"
+    },
+    {
+      "passageId": "P7",
+      "passageHtml": "Archaeologists discovered two ancient cooking pots at a site in modern-day Turkey. One pot contained residue of wheat and barley; the other contained only animal fat. The wheat-barley pot was found in a residential building, while the animal fat pot was found near a ritual temple. This suggests that"
+    },
+    {
+      "passageId": "P8",
+      "passageHtml": "A study on sleep found that people who used their smartphone for 30 minutes before bed took an average of 45 minutes to fall asleep. Those who read a physical book for 30 minutes before bed fell asleep in 20 minutes. The researchers measured no difference in overall sleep quality between the two groups. This suggests that"
+    },
+    {
+      "passageId": "P9",
+      "passageHtml": "A museum noticed that visitors spent an average of 10 minutes in its Egyptian artifact gallery but 25 minutes in its modern art gallery. When the museum added interactive touchscreens to the Egyptian gallery, average visit time increased to 22 minutes. The museum director concluded that"
+    },
+    {
+      "passageId": "P10",
+      "passageHtml": "A biologist studied two populations of squirrels: one in a busy city park and one in a remote forest. City squirrels spent 60% of their time alert (looking around) while eating, compared to 10% in forest squirrels. City squirrels also abandoned their food more quickly when a human approached. This suggests that"
+    },
+    {
+      "passageId": "P11",
+      "passageHtml": "Urban planners in Copenhagen noticed that adding more bicycle lanes reduced car traffic by 12% but also led to a 5% decrease in bus ridership. A follow-up survey found that former bus riders who switched to cycling reported higher satisfaction with commute times but lower satisfaction in bad weather. The city council is considering expanding the bike lane network further. This evidence suggests that"
+    },
+    {
+      "passageId": "P12",
+      "passageHtml": "A museum compared two methods for teaching art history to high school students: traditional lectures and interactive gallery discussions. Students in the discussion group scored 18% higher on a recognition test of paintings but showed no difference in remembering artists' names. The museum concluded that the discussion method was more effective overall. However, a critic noted that the recognition test was administered immediately after the session, while no follow-up test was given. This criticism suggests that"
+    },
+    {
+      "passageId": "P13",
+      "passageHtml": "In a study of remote work, employees who worked from home three days per week reported 30% higher job satisfaction than fully in-office employees. However, the remote group also reported feeling less connected to coworkers. Managers observed that the remote group completed tasks faster but made 15% more errors. The company is considering a hybrid policy. This suggests that"
+    },
+    {
+      "passageId": "P14",
+      "passageHtml": "A biologist studied two species of frogs in the same rainforest. Species A breeds in small, temporary ponds; Species B breeds in large, permanent lakes. After a drought, the temporary ponds dried up completely, and Species A populations crashed by 90%. Species B populations declined only 10%. The researcher concluded that"
+    },
+    {
+      "passageId": "P15",
+      "passageHtml": "A tech company tested two versions of its website: one with a simple layout (fewer images, less text) and one with a complex layout (many images, detailed descriptions). Users spent an average of 3 minutes on the simple layout and 6 minutes on the complex layout. However, the completion rate for the main task (finding a product) was 85% on the simple layout and 60% on the complex layout. The company's UX team concluded that"
+    },
+    {
+      "passageId": "P16",
+      "passageHtml": "Archaeologists found two ancient settlements near a river. Settlement A had large grain storage pits and evidence of trade goods from distant regions. Settlement B had no storage pits and only local pottery. Both settlements existed at the same time. The researchers hypothesize that"
+    },
+    {
+      "passageId": "P17",
+      "passageHtml": "In a taste test, 200 participants tried two brands of chocolate: Brand X (mass-produced) and Brand Y (small-batch, artisanal). When told the brands, 80% preferred Brand Y. When the same participants tasted the chocolates blind (without knowing which was which), only 55% preferred Brand Y. This suggests that"
+    },
+    {
+      "passageId": "P18",
+      "passageHtml": "A study of coral reefs found that reefs near populated coastlines had 40% less coral cover than reefs near uninhabited islands. However, reefs near populated areas had higher levels of nutrients (from runoff) that can accelerate coral growth. The researchers concluded that nutrient pollution alone does not explain the difference. This conclusion implies that"
+    },
+    {
+      "passageId": "P19",
+      "passageHtml": "A historian compared two accounts of the same battle from 1812. Account A was written by a general who commanded the winning side, published two years after the battle. Account B was written by a private soldier on the losing side, published 40 years later. The historian notes that Account A describes the battle as a decisive, well-planned victory, while Account B describes chaotic retreats and friendly fire. This suggests that"
+    },
+    {
+      "passageId": "P20",
+      "passageHtml": "A city installed reflective roofs on 500 buildings in one neighborhood to reduce summer heat. Compared to a similar neighborhood without reflective roofs, the test neighborhood had 2°C lower average surface temperature. However, residents in the test neighborhood reported no difference in indoor comfort, and some complained of glare from neighboring roofs. The city's sustainability office concluded that"
+    },
+    {
+      "passageId": "P21",
+      "passageHtml": "A linguist studied two isolated communities that speak the same ancestral language. Community X has frequent contact with outsiders; Community Y has almost no contact. The linguist found that Community X's vocabulary has changed 30% in 100 years, while Community Y's vocabulary has changed only 5%. This suggests that"
+    },
+    {
+      "passageId": "P22",
+      "passageHtml": "A medical study followed 10,000 adults for 20 years. Those who ate nuts five times per week had a 25% lower rate of heart disease than those who ate nuts less than once per month. However, the nut-eaters also exercised more and ate fewer processed foods. The researchers caution that"
+    },
+    {
+      "passageId": "P23",
+      "passageHtml": "An art dealer purchased a painting claimed to be from the 17th century. A forensic analysis found that the canvas contained trace amounts of a synthetic fiber invented in 1950. The dealer concluded the painting is a forgery. The seller argued that the fiber could have been introduced during a later restoration. This argument implies that"
+    },
+    {
+      "passageId": "P24",
+      "passageHtml": "A wildlife biologist tracked two populations of deer: one in a national park with no hunting, and one in an adjacent forest with regulated hunting. After five years, the park population grew by 40%, while the hunted forest population grew by 10%. The park population also showed higher rates of vehicle collisions on nearby roads. The biologist concluded that"
+    },
+    {
+      "passageId": "P25",
+      "passageHtml": "In a study of urban bee populations, researchers compared two green roof designs: one with a thin layer of sedum (a succulent) and another with a deeper soil mix containing native wildflowers. The sedum roofs supported stable bee populations year after year, while the wildflower roofs initially attracted three times as many bee species but saw a 60% drop in diversity after two years due to weed invasion and soil nutrient depletion. The researchers concluded that for long-term bee conservation, the sedum roofs were more reliable. This conclusion implies that"
+    },
+    {
+      "passageId": "P26",
+      "passageHtml": "Historian Eleanor T. argues that the widespread adoption of the printing press in 15th-century Europe did not immediately increase literacy rates. Instead, she claims that literacy remained largely confined to urban elites for decades after Gutenberg. She points to parish records showing that in rural areas, book ownership did not rise significantly until the late 1500s, and that most early printed books were in Latin, which common people could not read. Eleanor T.'s argument suggests that"
+    },
+    {
+      "passageId": "P27",
+      "passageHtml": "A cognitive psychologist tested two groups of students on a math test. Before the test, two randomly assigned and academically identical groups of students received the same ten-minute lesson on problem-solving strategies. Group A was told that the test measured innate ability. Group B was told that the test measured a skill that can improve with effort. After the test, students who performed poorly were given a chance to retake a similar test. Group B was 40% more likely to retake than Group A. The psychologist concluded that mindset messaging affects motivation to persist after failure. This conclusion relies on the assumption that"
+    },
+    {
+      "passageId": "P28",
+      "passageHtml": "In the 19th century, British naturalists observed that certain moth species in industrial areas had darker wings than their rural counterparts. They hypothesized that soot darkened tree bark, making dark moths less visible to predators. Later experiments confirmed that birds preferentially ate light moths on sooted trees. However, recent genetic analysis revealed that the dark-wing trait existed in small numbers before industrialization and was controlled by a single gene. This discovery implies that"
+    },
+    {
+      "passageId": "P29",
+      "passageHtml": "A streaming service tested two recommendation algorithms on 10,000 users over six months. Algorithm X recommended popular, mainstream content. Algorithm Y recommended niche content based on each user's unique viewing history. Users of Algorithm Y watched 50% more hours per week and had lower cancellation rates. However, Algorithm Y also increased the likelihood that users would rate content as \"strange\" or \"unusual.\" The service's product manager concluded that Algorithm Y was better for retention despite the negative ratings. This conclusion is most supported if"
+    },
+    {
+      "passageId": "P30",
+      "passageHtml": "In a remote mountain range, two lakes are home to the same species of trout. Lake A has a population that spawns in early spring; Lake B's population spawns in late summer. Genetic testing shows that the two populations are reproductively isolated despite being the same species. A biologist notes that the lakes are connected by a stream that flows only during spring snowmelt, a period when Lake B's trout are not spawning. This observation suggests that"
+    },
+    {
+      "passageId": "P31",
+      "passageHtml": "A literary scholar argues that a famous 19th-century novel is not a critique of capitalism, as many believe, but rather a defense of traditional agrarian values. She notes that the novel's protagonist inherits a farm and rejects city life, and that all sympathetic characters are farmers while all greedy characters are merchants. However, the novel ends with the protagonist using a bank loan to modernize the farm, selling produce to urban markets. The scholar acknowledges this ending but claims it does not undermine her interpretation. To maintain her claim, she must assume that"
+    },
+    {
+      "passageId": "P32",
+      "passageHtml": "A team of materials scientists developed a new alloy that is twice as strong as steel but also twice as dense. They propose using it for deep-sea pressure vessels, where weight is less of a concern than strength. A critic points out that the alloy's density would make transport and installation extremely costly. The scientists reply that for deep-sea applications, the vessels are assembled on site using robotic submarines, so transport costs are minimal. The scientists' reply is most effective if"
+    },
+    {
+      "passageId": "P33",
+      "passageHtml": "An economist studied two neighboring countries with similar GDP per capita. Country X has a high minimum wage and strong labor unions; Country Y has no minimum wage and weak unions. Over ten years, Country X's unemployment rate averaged 8%, while Country Y's averaged 4%. However, Country X's median household income grew 15% faster than Country Y's. The economist concludes that the higher minimum wage and union strength in Country X led to greater income growth for the typical household, despite higher unemployment. This conclusion would be weakened if"
+    },
+    {
+      "passageId": "P34",
+      "passageHtml": "In a famous psychological experiment, children were left alone in a room with a marshmallow and told they could have two marshmallows if they did not eat the first one for 15 minutes. Follow-up studies decades later found that children who waited longer had better life outcomes (higher SAT scores, lower BMI). Some researchers argue that self-control caused the better outcomes. Others argue that the ability to wait merely reflects socioeconomic status, which itself predicts outcomes. To test the second explanation, researchers would need to"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "P1q1",
+      "passageId": "P1",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "manicured lawns are more attractive to bees and butterflies than native plants are.",
+        "B": "city planners should eliminate all grassy areas from urban parks to improve biodiversity.",
+        "C": "prioritizing aesthetic appeal in park design may unintentionally reduce pollinator diversity.",
+        "D": "urban parks with wildflowers are less popular with residents than parks with lawns."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<b>Choice C</b> is correct. The study shows that parks with native shrubs and wildflowers have more pollinators, while planners prioritize aesthetics (like lawns). This implies that the aesthetic focus may reduce pollinator diversity.<br>A is wrong because the study found the opposite. B is too extreme (eliminate all grassy areas) and not supported. D introduces resident popularity, which is not mentioned."
+    },
+    {
+      "questionId": "P2q1",
+      "passageId": "P2",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "customers prefer larger, less frequent rewards to smaller, more frequent ones.",
+        "B": "the free-drink program caused customers to switch to competing coffee shops.",
+        "C": "more frequent, smaller rewards may encourage more repeat visits than larger, delayed rewards.",
+        "D": "discount programs are always more profitable than free-drink programs."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<b>Choice C</b> is correct. The discount program (every 5th purchase) led to more visits than the free-drink program (every 10th). This suggests that smaller, more frequent rewards increase customer visits.<br>A says the opposite of what the data shows. B is not supported—no mention of switching to competitors. D uses \"always,\" which is too absolute and not supported."
+    },
+    {
+      "questionId": "P3q1",
+      "passageId": "P3",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "all types of music improve memory if played at low volume.",
+        "B": "instrumental music may help focus, while lyrics may distract.",
+        "C": "studying in silence is the most effective method for all students.",
+        "D": "students should never listen to music while studying."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<b>Choice B</b> is correct. Instrumental music helped recall; lyrical music hurt it. This suggests instrumental music aids focus, while lyrics distract.<br>A is false because lyrics hurt performance. C contradicts the finding that instrumental music improved scores. D is too extreme and not supported."
+    },
+    {
+      "questionId": "P4q1",
+      "passageId": "P4",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "students in the robotics workshops became more interested in reading science-related books.",
+        "B": "the library stopped promoting book clubs to focus on robotics.",
+        "C": "robotics workshops caused fewer people to attend author readings.",
+        "D": "most students who attended the workshops had never borrowed books before."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<b>Choice A</b> is correct. Robotics workshops led to a doubling of science book borrowing, suggesting increased interest in science reading.<br>B is not mentioned—book clubs continued. C is false—attendance at other events did not change. D is possible but not directly supported by the data given."
+    },
+    {
+      "questionId": "P5q1",
+      "passageId": "P5",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "marine reserves are the only way to protect coral reefs from damage.",
+        "B": "shipping activity may harm coral reefs by introducing invasive species and pollutants.",
+        "C": "fish species in the shipping lane are more resilient than those in the reserve.",
+        "D": "coral reefs near shipping lanes grow faster due to nutrients from ships."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<b>Choice B</b> is correct. The damaged reef near the shipping lane, combined with known ballast water issues, suggests shipping harms reefs.<br>A is too extreme (\"only way\"). C is contradicted—the shipping lane had fewer species. D is opposite—the shipping lane reef had less coral."
+    },
+    {
+      "questionId": "P6q1",
+      "passageId": "P6",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "reminders are ineffective at increasing exercise frequency.",
+        "B": "while reminders can boost exercise, some users may find them bothersome.",
+        "C": "most users prefer apps without any notifications.",
+        "D": "exercise frequency is determined entirely by user motivation, not app features."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<b>Choice B</b> is correct. Reminders increased exercise (4 vs. 2 days), but 30% disabled them, suggesting some users find them annoying.<br>A is false—reminders did increase exercise. C is too strong—only 30% disabled them, not most. D ignores the clear effect of reminders."
+    },
+    {
+      "questionId": "P7q1",
+      "passageId": "P7",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "people in this ancient society never ate meat.",
+        "B": "the temple may have been used for animal-based rituals or offerings.",
+        "C": "wheat and barley were only grown for religious purposes.",
+        "D": "the residential building was abandoned earlier than the temple."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<b>Choice B</b> is correct. The animal fat pot near the temple suggests ritual use of animals.<br>A is false—animal fat was present. C is not supported—wheat/barley were in a home, not temple. D introduces dating, which is not mentioned."
+    },
+    {
+      "questionId": "P8q1",
+      "passageId": "P8",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "smartphone use before bed delays falling asleep compared to reading a book.",
+        "B": "reading a physical book causes worse sleep quality than using a smartphone.",
+        "C": "people who use smartphones before bed sleep longer than those who read.",
+        "D": "avoiding screens before bed guarantees falling asleep in under 20 minutes."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<b>Choice A</b> is correct. Smartphone users took longer to fall asleep (45 min vs. 20 min), so smartphone use delays sleep onset.<br>B is false—sleep quality was the same. C is not measured—sleep duration isn't mentioned. D uses \"guarantees,\" which is too absolute."
+    },
+    {
+      "questionId": "P9q1",
+      "passageId": "P9",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "modern art is inherently more interesting than ancient artifacts.",
+        "B": "adding interactive elements can increase visitor engagement with historical exhibits.",
+        "C": "visitors dislike touchscreens in art galleries.",
+        "D": "the Egyptian gallery was originally too large for its artifacts."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<b>Choice B</b> is correct. Adding touchscreens increased visit time, suggesting interactivity boosts engagement.<br>A is undermined by the fact that interactivity closed the gap. C is not supported—no data on modern art touchscreens. D is not mentioned or suggested."
+    },
+    {
+      "questionId": "P10q1",
+      "passageId": "P10",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "forest squirrels are less intelligent than city squirrels.",
+        "B": "city squirrels have adapted to higher perceived threat levels by being more vigilant.",
+        "C": "human activity has no effect on squirrel behavior.",
+        "D": "city squirrels eat less food overall than forest squirrels."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<b>Choice B</b> is correct. City squirrels are more alert and quick to flee, suggesting adaptation to human-related threats.<br>A introduces intelligence, not supported. C is false—behavior clearly differs. D is not measured—food abandonment doesn't mean less total food eaten."
+    },
+    {
+      "questionId": "P11q1",
+      "passageId": "P11",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "expanding bike lanes will eliminate bus ridership entirely within five years.",
+        "B": "the benefits of bike lanes in reducing car traffic may be accompanied by unintended effects on public transit.",
+        "C": "cyclists are always more satisfied with their commute than bus riders are.",
+        "D": "bad weather has no effect on people's choice of transportation."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<b>Choice B</b> is correct. The passage shows bike lanes reduce car traffic (benefit) but also reduce bus ridership and cause weather-related dissatisfaction (unintended effects).<br>A is too extreme (\"eliminate entirely\"). C uses \"always,\" which is not supported (weather matters). D contradicts the survey finding about lower satisfaction in bad weather."
+    },
+    {
+      "questionId": "P12q1",
+      "passageId": "P12",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "the discussion method may not lead to longer-term retention of information.",
+        "B": "traditional lectures are better for teaching painting recognition than gallery discussions.",
+        "C": "students prefer discussions over lectures regardless of test scores.",
+        "D": "the museum should only use traditional lectures to avoid bias."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<b>Choice A</b> is correct. The critic points out the lack of a follow-up test, implying that the short-term advantage might not persist.<br>B is opposite—discussion was better for recognition. C introduces student preference, not mentioned. D is an unsupported extreme recommendation."
+    },
+    {
+      "questionId": "P13q1",
+      "passageId": "P13",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "working from home full-time would eliminate errors entirely.",
+        "B": "hybrid work may improve satisfaction but reduce accuracy and social connection.",
+        "C": "employees should never work from home because of the error rate.",
+        "D": "job satisfaction has no relationship to task completion speed."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<b>Choice B</b> captures the trade-off: higher satisfaction but lower accuracy and connection.<br>A is extreme and unsupported. C is an overgeneralization. D contradicts the finding that remote work increased both satisfaction and speed."
+    },
+    {
+      "questionId": "P14q1",
+      "passageId": "P14",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "Species B is better adapted to survive drought conditions than Species A.",
+        "B": "temporary ponds are a safer breeding habitat than permanent lakes.",
+        "C": "the drought had no effect on either species.",
+        "D": "Species A will go extinct within a decade."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<b>Choice A</b> is correct. Species B's much smaller decline suggests better adaptation to drought.<br>B is contradicted—temporary ponds dried up. C is false (both declined). D is too extreme and not supported by one drought event."
+    },
+    {
+      "questionId": "P15q1",
+      "passageId": "P15",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "longer time spent on a website always indicates better user experience.",
+        "B": "complex layouts may increase engagement time but reduce task efficiency.",
+        "C": "simple layouts are preferred by all users regardless of task.",
+        "D": "the company should eliminate the complex layout entirely."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<b>Choice B</b> is correct. Complex layout increased time (engagement) but lowered task completion (efficiency).<br>A is false—longer time here meant worse performance. C uses \"all,\" too strong. D is extreme—complex layout might still be useful for other goals."
+    },
+    {
+      "questionId": "P16q1",
+      "passageId": "P16",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "Settlement A was a trading hub while Settlement B was a subsistence farming village.",
+        "B": "The river flooded more frequently near Settlement B.",
+        "C": "Settlement A had a larger population than Settlement B.",
+        "D": "Trade goods cause grain storage pits to form."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<b>Choice A</b> is correct. Settlement A has storage and trade goods, indicating a trading hub; Settlement B lacks these, suggesting subsistence farming.<br>B introduces flooding, not mentioned. C population size not discussed. D reverses causation—storage pits enable trade, not the other way."
+    },
+    {
+      "questionId": "P17q1",
+      "passageId": "P17",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "branding and expectations strongly influence taste perception.",
+        "B": "Brand X is objectively better tasting than Brand Y.",
+        "C": "blind taste tests are unreliable.",
+        "D": "participants lied about their preferences when brands were known."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<b>Choice A</b> is correct. Preference dropped dramatically when brands were hidden, showing brand influence.<br>B is opposite—blind test showed near tie. C is not supported—blind tests are useful here. D is unsupported (no evidence of lying)."
+    },
+    {
+      "questionId": "P18q1",
+      "passageId": "P18",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "other factors, such as overfishing or sedimentation, may be harming reefs near populated areas.",
+        "B": "nutrients are always harmful to coral reefs.",
+        "C": "uninhabited islands have more nutrient pollution than populated coastlines.",
+        "D": "coral cover is unrelated to human activity."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<b>Choice A</b> is correct. Since nutrients alone should help growth but cover is lower, other factors must be at play.<br>B is false—nutrients can accelerate growth. C is opposite of the data. D contradicts the clear difference found."
+    },
+    {
+      "questionId": "P19q1",
+      "passageId": "P19",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "the private soldier's memory was likely more accurate because it was written later.",
+        "B": "the general may have exaggerated the victory to enhance his reputation.",
+        "C": "both accounts are completely unreliable.",
+        "D": "the losing side actually won the battle."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<b>Choice B</b> is correct. The general's account is more flattering and written sooner after the battle, suggesting possible bias.<br>A is wrong—later memory can be less accurate. C is too extreme. D contradicts established facts (winning side said general)."
+    },
+    {
+      "questionId": "P20q1",
+      "passageId": "P20",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "reflective roofs successfully reduce outdoor temperatures but may not improve indoor comfort and can cause new problems.",
+        "B": "reflective roofs should be banned due to glare complaints.",
+        "C": "the test neighborhood was cooler but residents did not notice because they stayed indoors.",
+        "D": "surface temperature has no effect on human comfort."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<b>Choice A</b> is correct. Outdoor temperature dropped (success), but indoor comfort unchanged and glare appeared (new problems).<br>B is extreme (banned). C is unsupported—they may have been indoors but no data. D is contradicted—surface temperature often affects comfort."
+    },
+    {
+      "questionId": "P21q1",
+      "passageId": "P21",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "language change is primarily driven by contact with other language speakers.",
+        "B": "isolation slows down language change.",
+        "C": "Community Y's language will eventually disappear.",
+        "D": "vocabulary changes faster than grammar in all languages."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<b>Choice B</b> is correct. Less contact (isolation) led to less change, so isolation slows change.<br>A is too strong—contact is a driver but not necessarily primary (other factors exist). C is unsupported (no extinction data). D is a broad claim not supported by this study."
+    },
+    {
+      "questionId": "P22q1",
+      "passageId": "P22",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "eating nuts directly prevents heart disease regardless of other habits.",
+        "B": "the lower heart disease rate may be due to other lifestyle factors, not nuts alone.",
+        "C": "nuts are harmful if eaten more than five times per week.",
+        "D": "exercise has no effect on heart disease."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<b>Choice B</b> is correct. Confounding variables (exercise, diet) exist, so causation cannot be attributed solely to nuts.<br>A ignores confounding. C is unsupported. D contradicts known science and the data (nut-eaters exercised more)."
+    },
+    {
+      "questionId": "P23q1",
+      "passageId": "P23",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "the presence of modern materials does not prove the original artwork is a fake.",
+        "B": "all 17th-century paintings contain synthetic fibers.",
+        "C": "restoration never uses modern materials.",
+        "D": "the painting is definitely authentic."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<b>Choice A</b> is correct. The seller offers an alternative explanation (restoration contamination), so modern material alone may not prove forgery.<br>B is false. C is false—restoration can use modern materials. D is too strong—still possible it's a forgery."
+    },
+    {
+      "questionId": "P24q1",
+      "passageId": "P24",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "hunting is the only effective way to control deer populations.",
+        "B": "banning hunting may lead to overpopulation and increased human-wildlife conflicts.",
+        "C": "deer in hunted areas are healthier than those in protected areas.",
+        "D": "vehicle collisions are unrelated to deer population density."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<b>Choice B</b> is correct. Park had larger growth and more collisions, suggesting overpopulation and conflict.<br>A is false—park population grew despite no hunting. C is unsupported (no health data). D is contradicted—higher density in park correlated with more collisions."
+    },
+    {
+      "questionId": "P25q1",
+      "passageId": "P25",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "the initial higher diversity on wildflower roofs was due to temporary factors that could not be sustained.",
+        "B": "sedum roofs are superior to wildflower roofs in every climate condition.",
+        "C": "bee populations on wildflower roofs would recover if weeds were manually removed each year.",
+        "D": "urban planners should never install wildflower roofs because they harm bee diversity."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<b>Choice A</b> is correct. The wildflower roofs initially attracted more species but declined sharply, suggesting that the initial advantage came from transient conditions (e.g., fresh soil, no weeds) that were not sustainable.<br>B is too broad (\"every climate condition\" not supported). C introduces an untested solution. D is extreme (\"never\") and contradicts the initial benefit."
+    },
+    {
+      "questionId": "P26q1",
+      "passageId": "P26",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "the printing press had a greater impact on the availability of religious texts than on secular texts.",
+        "B": "technological inventions alone do not guarantee rapid social change without complementary factors like language accessibility.",
+        "C": "rural Europeans were inherently less interested in reading than urban Europeans.",
+        "D": "the printing press was more important for the spread of scientific knowledge than for literacy."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<b>Choice B</b> is correct. The passage shows that despite the printing press, literacy didn't spread quickly because books were in Latin (language barrier) and rural areas lacked access. This implies that technology alone isn't enough; other factors matter.<br>A focuses on religious vs. secular, not mentioned. C makes a value judgment (\"less interested\") not supported. D compares scientific knowledge vs. literacy, not discussed."
+    },
+    {
+      "questionId": "P27q1",
+      "passageId": "P27",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "students in Group A were inherently less capable in math than students in Group B.",
+        "B": "the lesson on problem-solving strategies was equally effective for both groups.",
+        "C": "students who retook the test believed they could improve their performance.",
+        "D": "the difference in retake rates was not caused by differences in initial test scores."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<b>Choice C</b> is correct. The conclusion links mindset messaging to motivation to persist. For that to hold, the retake decision must reflect a belief in improvement (growth mindset), not other factors.<br>A is contradicted—groups were randomly assigned and academically identical. B is about lesson effectiveness, not directly relevant. D is eliminated because the passage already states the groups are academically identical, so initial test scores cannot explain the difference."
+    },
+    {
+      "questionId": "P28q1",
+      "passageId": "P28",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "natural selection acted on pre-existing genetic variation rather than creating new mutations.",
+        "B": "industrialization caused a new mutation that led to dark wings.",
+        "C": "birds do not actually influence moth populations.",
+        "D": "the dark-wing trait was always advantageous regardless of tree color."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<b>Choice A</b> is correct. The fact that the dark-wing trait existed before industrialization (pre-existing variation) and was then favored by natural selection implies that selection acted on existing variation, not new mutations.<br>B is opposite—trait existed before. C contradicts the earlier bird predation experiments. D is false—trait was rare before soot, so not always advantageous."
+    },
+    {
+      "questionId": "P29q1",
+      "passageId": "P29",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "users who rate content as \"strange\" are more likely to recommend the service to friends.",
+        "B": "negative ratings of individual items do not correlate with overall satisfaction with the service.",
+        "C": "Algorithm X caused users to watch less content but rate everything as \"normal.\"",
+        "D": "the service's revenue depends entirely on total viewing hours, not on user ratings."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<b>Choice B</b> is correct. For the conclusion that Algorithm Y is better despite negative ratings, it must be that those negative ratings don't reflect overall dissatisfaction. If negative ratings correlated with churn, then Y's lower cancellation rates would be contradicted.<br>A is possible but not necessary; B directly addresses the paradox. C compares X, but doesn't resolve the contradiction. D says revenue depends only on hours, but cancellation rates matter too; B is better."
+    },
+    {
+      "questionId": "P30q1",
+      "passageId": "P30",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "the timing of spawning is a learned behavior, not genetic.",
+        "B": "the seasonal stream flow may prevent gene flow between the populations.",
+        "C": "Lake A's trout evolved earlier spawning to avoid predators.",
+        "D": "the two populations will eventually merge into one if the climate warms."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<b>Choice B</b> is correct. The stream flows only during spring, when Lake A spawns but Lake B does not. This physical and temporal barrier likely prevents interbreeding, explaining reproductive isolation.<br>A is not supported—no evidence behavior is learned. C introduces predator avoidance, not mentioned. D speculates on future climate effects, not supported."
+    },
+    {
+      "questionId": "P31q1",
+      "passageId": "P31",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "the protagonist's use of a bank loan is portrayed as a necessary evil rather than an endorsement of capitalism.",
+        "B": "readers in the 19th century were less likely to notice contradictions than modern readers.",
+        "C": "the author intended to criticize both capitalism and agrarianism equally.",
+        "D": "farm modernization through bank loans was common in the 19th century."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<b>Choice A</b> is correct. The scholar's interpretation (defense of agrarian values) is challenged by the ending where the protagonist uses capitalist tools. To resolve this, she must assume that these actions are portrayed negatively or as unavoidable compromises, not endorsements.<br>B is about reader perception, not textual evidence. C contradicts her claim. D is factual but doesn't preserve her interpretation."
+    },
+    {
+      "questionId": "P32q1",
+      "passageId": "P32",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "the robotic submarines used for assembly are themselves made of the same alloy.",
+        "B": "no other material exists that is both stronger than steel and less dense than the new alloy.",
+        "C": "the cost of the alloy per kilogram is lower than that of steel.",
+        "D": "the on-site assembly process does not require moving large alloy components from the surface."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<b>Choice D</b> is correct. The scientists argue that transport costs are minimal because assembly is on-site. For that to hold, the alloy's components must not be transported from the surface in large pieces—i.e., they are manufactured or delivered in a way that avoids high transport costs.<br>A is irrelevant—submarines' material doesn't affect transport of vessel parts. B is about alternatives, not transport costs. C addresses material cost, not transport."
+    },
+    {
+      "questionId": "P33q1",
+      "passageId": "P33",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "Country X experienced a technology boom that disproportionately increased wages for low-skilled workers.",
+        "B": "Country Y had a larger informal economy that is not captured in official unemployment statistics.",
+        "C": "the population of Country X is significantly younger than that of Country Y.",
+        "D": "both countries have similar rates of inflation over the same period."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<b>Choice A</b> is correct. The economist attributes income growth to minimum wage and unions. If a technology boom (alternative cause) explains the growth, then the conclusion is weakened.<br>B could affect unemployment but not directly income growth. C population age might affect employment but not directly the claimed causal link. D similar inflation doesn't weaken; it might strengthen comparability."
+    },
+    {
+      "questionId": "P34q1",
+      "passageId": "P34",
+      "questionHtml": "Which choice most logically completes the text?",
+      "options": {
+        "A": "compare children from identical socioeconomic backgrounds on their ability to wait.",
+        "B": "measure children's self-control using a different task, not marshmallows.",
+        "C": "follow the children for a longer period than the original study.",
+        "D": "randomly assign children to different waiting conditions."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<b>Choice A</b> is correct. The second explanation claims SES causes both waiting ability and later outcomes. To test that, you must hold SES constant (compare children with same SES) and see if waiting ability still predicts outcomes.<br>B changes the task but doesn't address SES confound. C longer follow-up doesn't isolate causation. D random assignment would test the first explanation (self-control causes outcomes), not the SES alternative."
+    }
+  ]
+}

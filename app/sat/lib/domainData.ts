@@ -20,7 +20,7 @@ export const readingWritingDomains = [
     domain: "Standard English Conventions",
     description:
       "Measures the ability to edit texts to conform to core conventions of Standard English sentence structure, usage, and punctuation.",
-    skills: "Boundaries; Form, Structure, and Sense",
+    skills: "Boundaries; Form Structure and Sense",
     questions: "11–15 questions",
   },
   {

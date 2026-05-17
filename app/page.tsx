@@ -63,5 +63,5 @@ export default function Home() {
         <p className="mt-4">Your one-stop destination for all exam prep.</p>
       </main>
     </>
-  );
+  ); 
 }

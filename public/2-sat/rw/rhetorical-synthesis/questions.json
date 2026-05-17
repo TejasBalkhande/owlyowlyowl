@@ -1,0 +1,601 @@
+{
+  "passages": [
+    {
+      "passageId": "easy1",
+      "passageHtml": "<strong>Id easy1</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The giant panda is native to the mountain forests of central China.</li>\n<li>Its diet consists almost entirely of bamboo, which it consumes for up to 14 hours per day.</li>\n<li>Unlike most bears, giant pandas do not hibernate.</li>\n<li>Their digestive system is better suited to eating meat, but they have evolved to survive on bamboo.</li>\n</ul>"
+    },
+    {
+      "passageId": "easy2",
+      "passageHtml": "<strong>Id easy2</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The Venus flytrap is a carnivorous plant native to the wetlands of North and South Carolina.</li>\n<li>Its leaves form a trap that snaps shut when tiny hairs are touched twice within 20 seconds.</li>\n<li>This mechanism prevents the plant from wasting energy on false alarms, such as falling rain.</li>\n<li>The plant then secretes digestive enzymes to absorb nutrients from its prey.</li>\n</ul>"
+    },
+    {
+      "passageId": "easy3",
+      "passageHtml": "<strong>Id easy3</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The Hubble Space Telescope was launched into low Earth orbit in 1990.</li>\n<li>It has a 2.4-meter mirror and captures images in visible, ultraviolet, and near-infrared light.</li>\n<li>Hubble has made over 1.5 million observations, including the famous Hubble Deep Field image.</li>\n<li>The telescope is named after astronomer Edwin Hubble, who proved the universe is expanding.</li>\n</ul>"
+    },
+    {
+      "passageId": "easy4",
+      "passageHtml": "<strong>Id easy4</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The Great Barrier Reef is the world's largest coral reef system, located off the coast of Australia.</li>\n<li>It is home to over 1,500 species of fish, 400 species of coral, and 30 species of whales and dolphins.</li>\n<li>Climate change has caused mass coral bleaching events in 1998, 2002, 2016, 2017, and 2020.</li>\n<li>Coral bleaching occurs when stressed corals expel the algae living in their tissues, turning them white.</li>\n</ul>"
+    },
+    {
+      "passageId": "easy5",
+      "passageHtml": "<strong>Id easy5</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The first successful powered airplane flight was made by the Wright Brothers in 1903.</li>\n<li>Their aircraft, the Wright Flyer, flew for 12 seconds and covered 120 feet.</li>\n<li>The flight took place at Kitty Hawk, North Carolina.</li>\n<li>Prior to this, the brothers had tested gliders and built a wind tunnel to study wing designs.</li>\n</ul>"
+    },
+    {
+      "passageId": "easy6",
+      "passageHtml": "<strong>Id easy6</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The Cherokee people originally lived in the southeastern United States, including parts of Georgia, North Carolina, and Tennessee.</li>\n<li>In the 1830s, the U.S. government forced the Cherokee to relocate to present-day Oklahoma.</li>\n<li>This forced journey is known as the Trail of Tears, during which thousands died from disease and exposure.</li>\n<li>Despite this, the Cherokee rebuilt their nation and today are the largest federally recognized tribe in the U.S.</li>\n</ul>"
+    },
+    {
+      "passageId": "easy7",
+      "passageHtml": "<strong>Id easy7</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The Palace of Versailles was originally a hunting lodge built by Louis XIII in 1623.</li>\n<li>It was expanded by Louis XIV, who moved the French government there in 1682.</li>\n<li>The palace features 700 rooms, 67 staircases, and the famous Hall of Mirrors.</li>\n<li>The gardens of Versailles cover 800 hectares and include 50 fountains.</li>\n</ul>"
+    },
+    {
+      "passageId": "easy8",
+      "passageHtml": "<strong>Id easy8</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>Marie Curie was a Polish-born physicist and chemist who worked in France.</li>\n<li>She coined the term \"radioactivity\" and discovered two elements: polonium and radium.</li>\n<li>Curie was the first woman to win a Nobel Prize (Physics, 1903) and the only person to win Nobels in two sciences.</li>\n<li>Her research laid the groundwork for the development of X-ray machines during World War I.</li>\n</ul>"
+    },
+    {
+      "passageId": "easy9",
+      "passageHtml": "<strong>Id easy9</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones.</li>\n<li>It often begins 0, 1, 1, 2, 3, 5, 8, 13, 21...</li>\n<li>This sequence appears in nature, such as in the spiral patterns of sunflowers, pinecones, and nautilus shells.</li>\n<li>The sequence is named after Italian mathematician Leonardo Fibonacci, who introduced it to Western Europe in 1202.</li>\n</ul>"
+    },
+    {
+      "passageId": "easy10",
+      "passageHtml": "<strong>Id easy10</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The game of chess originated in northern India during the Gupta Empire (c. 6th century CE).</li>\n<li>It was originally called chaturanga, meaning \"four divisions of the military.\"</li>\n<li>The game spread to Persia, where it became known as shatranj, and later to Europe.</li>\n<li>Modern chess rules were standardized in the 19th century, including the introduction of the queen's current powerful movement.</li>\n</ul>"
+    },
+    {
+      "passageId": "medium1",
+      "passageHtml": "<strong>Id medium1</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The thylacine, also known as the Tasmanian tiger, was a carnivorous marsupial native to Australia, Tasmania, and New Guinea.</li>\n<li>It was hunted to extinction in the early 20th century due to perceived threats to livestock.</li>\n<li>The last known thylacine died in captivity at Hobart Zoo in 1936.</li>\n<li>Despite official extinction status, unconfirmed sightings continue to be reported in remote areas of Tasmania.</li>\n</ul>"
+    },
+    {
+      "passageId": "medium2",
+      "passageHtml": "<strong>Id medium2</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The Great Smoky Mountains National Park is the most visited national park in the United States.</li>\n<li>It straddles the border between North Carolina and Tennessee.</li>\n<li>The park is known for its biodiversity, including over 1,500 species of flowering plants.</li>\n<li>Unlike many western parks, it has no entrance fee, which contributes to its high visitation numbers.</li>\n</ul>"
+    },
+    {
+      "passageId": "medium3",
+      "passageHtml": "<strong>Id medium3</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The kelp forest ecosystem is found in cold, nutrient-rich waters along coastlines worldwide.</li>\n<li>Sea otters are a keystone species in this ecosystem because they prey on sea urchins.</li>\n<li>Without sea otters, sea urchin populations explode and overgraze kelp, destroying the forest.</li>\n<li>The reintroduction of sea otters to parts of the Pacific coast has led to kelp forest recovery.</li>\n</ul>"
+    },
+    {
+      "passageId": "medium4",
+      "passageHtml": "<strong>Id medium4</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The Chinese zodiac assigns an animal to each year in a 12-year cycle.</li>\n<li>2020 was the Year of the Rat, 2021 the Year of the Ox, 2022 the Year of the Tiger, and 2023 the Year of the Rabbit.</li>\n<li>People born in a particular year are said to inherit the traits of that year's animal.</li>\n<li>For example, those born in the Year of the Tiger are considered brave and competitive.</li>\n</ul>"
+    },
+    {
+      "passageId": "medium5",
+      "passageHtml": "<strong>Id medium5</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The city of Chicago, Illinois, is located on the southwestern shore of Lake Michigan.</li>\n<li>In 1871, the Great Chicago Fire destroyed over 17,000 buildings and left 100,000 people homeless.</li>\n<li>The fire started in a barn owned by Patrick and Catherine O'Leary, though the exact cause remains unknown.</li>\n<li>After the fire, Chicago experienced rapid reconstruction, leading to the birth of the modern skyscraper.</li>\n</ul>"
+    },
+    {
+      "passageId": "medium6",
+      "passageHtml": "<strong>Id medium6</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The Fibonacci spiral is a series of quarter-circles drawn inside squares whose side lengths follow the Fibonacci sequence.</li>\n<li>This spiral approximates the golden spiral, which appears frequently in nature.</li>\n<li>Examples include the arrangement of seed heads in sunflowers, the shells of nautiluses, and the shape of galaxies.</li>\n<li>Artists and architects have also used the golden spiral in works such as the Parthenon and Leonardo da Vinci's paintings.</li>\n</ul>"
+    },
+    {
+      "passageId": "medium7",
+      "passageHtml": "<strong>Id medium7</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The Burj Khalifa in Dubai, United Arab Emirates, is the tallest building in the world at 828 meters.</li>\n<li>It was designed by the architectural firm Skidmore, Owings &amp; Merrill, which also designed the Willis Tower in Chicago.</li>\n<li>Construction began in 2004 and was completed in 2010.</li>\n<li>The building's Y-shaped floor plan is inspired by the geometry of a desert flower.</li>\n</ul>"
+    },
+    {
+      "passageId": "medium8",
+      "passageHtml": "<strong>Id medium8</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The CRISPR-Cas9 system is a gene-editing tool adapted from a bacterial defense mechanism.</li>\n<li>It allows scientists to cut DNA at specific locations, enabling the removal or addition of genetic material.</li>\n<li>CRISPR has been used to create disease-resistant crops and to correct genetic defects in animal models.</li>\n<li>Ethical concerns have been raised about its potential use in human embryos.</li>\n</ul>"
+    },
+    {
+      "passageId": "medium9",
+      "passageHtml": "<strong>Id medium9</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The Naadam festival is a traditional Mongolian event held every July.</li>\n<li>It features three primary sports: horse racing, wrestling, and archery.</li>\n<li>The horse races are long-distance, often 15-30 kilometers, and are ridden by child jockeys aged 5 to 13.</li>\n<li>Wrestling matches have no weight classes or time limits; a wrestler loses when any part of the body except feet touches the ground.</li>\n</ul>"
+    },
+    {
+      "passageId": "medium10",
+      "passageHtml": "<strong>Id medium10</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The Spanish flu pandemic of 1918-1919 infected an estimated 500 million people worldwide.</li>\n<li>Unlike many flu strains that primarily kill the very young and elderly, the Spanish flu had a high mortality rate among healthy adults aged 20-40.</li>\n<li>Wartime conditions of World War I, including troop movements and overcrowded hospitals, accelerated its spread.</li>\n<li>No vaccine or antiviral drugs were available at the time.</li>\n</ul>"
+    },
+    {
+      "passageId": "medium11",
+      "passageHtml": "<strong>Id medium11</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The Svalbard Global Seed Vault is a secure seed bank located on the Norwegian island of Spitsbergen.</li>\n<li>It holds over 1 million seed samples from almost every country, serving as a backup for other gene banks.</li>\n<li>The vault is built into permafrost and rock, providing natural freezing without active cooling.</li>\n<li>Its location above the Arctic Circle and 130 meters above sea level protect it from climate change risks such as flooding.</li>\n</ul>"
+    },
+    {
+      "passageId": "medium12",
+      "passageHtml": "<strong>Id medium12</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The game of Go originated in China over 2,500 years ago, making it one of the oldest board games still played.</li>\n<li>Players take turns placing black and white stones on a 19×19 grid, aiming to surround more territory than their opponent.</li>\n<li>Despite its simple rules, Go has immense strategic complexity, with more possible board configurations than atoms in the universe.</li>\n<li>In 2016, the AlphaGo program became the first computer to defeat a world champion Go player.</li>\n</ul>"
+    },
+    {
+      "passageId": "medium13",
+      "passageHtml": "<strong>Id medium13</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The Amazon River is the world's largest river by volume, discharging about 209,000 cubic meters per second.</li>\n<li>Its length is approximately 6,400 kilometers, making it the second-longest river after the Nile.</li>\n<li>The river flows through Peru, Colombia, and Brazil before emptying into the Atlantic Ocean.</li>\n<li>No bridge crosses the Amazon River because its width and seasonal flooding make construction impractical.</li>\n</ul>"
+    },
+    {
+      "passageId": "medium14",
+      "passageHtml": "<strong>Id medium14</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The phenomenon of \"plant blindness\" refers to the human tendency to overlook plants in one's environment.</li>\n<li>Humans are more likely to notice animals because animals move and respond to stimuli.</li>\n<li>Plant blindness can lead to underestimating plants' ecological importance.</li>\n<li>Botanical gardens and nature education programs aim to combat plant blindness by highlighting plant behaviors and adaptations.</li>\n</ul>"
+    },
+    {
+      "passageId": "medium15",
+      "passageHtml": "<strong>Id medium15</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The concept of \"ubuntu\" originates in Southern African philosophy, often summarized as \"I am because we are.\"</li>\n<li>Ubuntu emphasizes interconnectedness, community, and mutual responsibility.</li>\n<li>Nelson Mandela and Desmond Tutu both cited ubuntu as an inspiration for post-apartheid reconciliation in South Africa.</li>\n<li>In contrast, Western individualism focuses on personal achievement and autonomy.</li>\n</ul>"
+    },
+    {
+      "passageId": "hard1",
+      "passageHtml": "<strong>Id hard1</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The concept of \"deep time\" refers to the vast age of the Earth, far beyond human comprehension.</li>\n<li>Geologist James Hutton first proposed deep time in the late 18th century, challenging then-dominant biblical chronologies.</li>\n<li>Hutton's idea was based on observing slow geological processes such as erosion and sedimentation.</li>\n<li>Charles Lyell later popularized deep time in his Principles of Geology (1830-1833), which greatly influenced Charles Darwin.</li>\n<li>Despite its scientific acceptance, deep time remains difficult for many people to grasp intuitively.</li>\n</ul>"
+    },
+    {
+      "passageId": "hard2",
+      "passageHtml": "<strong>Id hard2</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The Northwest Passage is a sea route through the Arctic archipelago of Canada, connecting the Atlantic and Pacific Oceans.</li>\n<li>For centuries, explorers sought it as a potential trade shortcut, but thick sea ice made navigation impossible until recently.</li>\n<li>Climate change has reduced summer sea ice, making the passage increasingly navigable.</li>\n<li>Melting ice also opens the region to potential oil drilling, shipping, and tourism, raising environmental and geopolitical concerns.</li>\n<li>Some Indigenous communities fear that increased shipping will disrupt marine wildlife and traditional hunting.</li>\n</ul>"
+    },
+    {
+      "passageId": "hard3",
+      "passageHtml": "<strong>Id hard3</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The European eel (Anguilla anguilla) has a complex life cycle: adults spawn in the Sargasso Sea, then larvae drift to European coasts.</li>\n<li>Once in rivers, they mature for up to 20 years before returning to the Sargasso Sea to spawn and die.</li>\n<li>Eel populations have declined by over 90% since the 1980s due to overfishing, habitat loss, and barriers to migration (e.g., dams).</li>\n<li>The species is now listed as critically endangered on the IUCN Red List.</li>\n<li>Conservation efforts include restocking, improving fish passages, and combating illegal trade in glass eels.</li>\n</ul>"
+    },
+    {
+      "passageId": "hard4",
+      "passageHtml": "<strong>Id hard4</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The Roman Empire did not fall in a single event but experienced a long decline often called the \"third-century crisis\" (235-284 CE).</li>\n<li>During this period, the empire suffered from repeated civil wars, economic collapse, plague, and foreign invasions.</li>\n<li>Emperor Diocletian (reigned 284-305) implemented major reforms, including dividing the empire into Eastern and Western halves, each with its own ruler.</li>\n<li>Diocletian's reforms temporarily stabilized the empire but also made the division permanent, which later contributed to the Western Empire's fall in 476 CE.</li>\n<li>Some historians argue that the division saved the Eastern (Byzantine) Empire, which lasted another 1,000 years.</li>\n</ul>"
+    },
+    {
+      "passageId": "hard5",
+      "passageHtml": "<strong>Id hard5</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The term \"hobbit\" was popularized by J.R.R. Tolkien's The Hobbit (1937), but it also refers to a real extinct human species, Homo floresiensis.</li>\n<li>Homo floresiensis fossils were discovered in 2003 on the Indonesian island of Flores.</li>\n<li>The species stood about 1.1 meters tall and had a brain the size of a chimpanzee's, yet made stone tools and used fire.</li>\n<li>Some researchers argue they were a dwarfed descendant of Homo erectus; others claim they descend from an even older hominin.</li>\n<li>Nicknamed \"hobbits\" by scientists because of their small stature, the species lived as recently as 50,000 years ago.</li>\n</ul>"
+    },
+    {
+      "passageId": "hard6",
+      "passageHtml": "<strong>Id hard6</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>In 1928, Scottish bacteriologist Alexander Fleming noticed that a mold called Penicillium had killed bacteria in a discarded petri dish.</li>\n<li>He identified the antibacterial substance as penicillin but could not purify it in large quantities.</li>\n<li>In 1939, a team at Oxford University led by Howard Florey and Ernst Chain developed a method to mass-produce penicillin.</li>\n<li>Their work was accelerated by World War II, as penicillin became critical for treating infected wounds in soldiers.</li>\n<li>Fleming, Florey, and Chain shared the 1945 Nobel Prize in Physiology or Medicine for the discovery and development of penicillin.</li>\n</ul>"
+    },
+    {
+      "passageId": "hard7",
+      "passageHtml": "<strong>Id hard7</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The Tupac Katari satellite (TKSAT-1) is Bolivia's first and only telecommunications satellite.</li>\n<li>It was built by a Chinese state-owned company and launched from China in 2013.</li>\n<li>The satellite is named after Tupac Katari, an 18th-century indigenous leader who led a major rebellion against Spanish colonial rule.</li>\n<li>Bolivia's government stated that the name honors Katari's legacy of anti-colonial resistance and indigenous pride.</li>\n<li>The satellite provides telephone, internet, and television services to remote rural areas, reducing the country's digital divide.</li>\n</ul>"
+    },
+    {
+      "passageId": "hard8",
+      "passageHtml": "<strong>Id hard8</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The \"bystander effect\" is a social psychological phenomenon where individuals are less likely to offer help to a victim when other people are present.</li>\n<li>It was first identified and named after the 1964 murder of Kitty Genovese, during which 38 witnesses reportedly did nothing.</li>\n<li>Later research by Latane and Darley (1968) experimentally demonstrated the effect using mock emergencies.</li>\n<li>The effect occurs because each bystander assumes someone else will act (diffusion of responsibility) or looks to others for cues (social influence).</li>\n<li>However, recent re-analyses have questioned the original Genovese case, suggesting the number of witnesses and inaction were exaggerated.</li>\n</ul>"
+    },
+    {
+      "passageId": "hard9",
+      "passageHtml": "<strong>Id hard9</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The \"wisdom of the crowd\" effect occurs when aggregate judgments of many individuals are more accurate than any single expert's.</li>\n<li>This was famously demonstrated by Francis Galton in 1906, when he found that the median of 787 guesses of an ox's weight was within 1% of the true weight.</li>\n<li>For the effect to work, the guesses must be independent (not influenced by others) and diverse.</li>\n<li>However, social influence (e.g., hearing others' guesses) can destroy the effect by narrowing the range of opinions.</li>\n<li>The rise of social media, where opinions are highly visible and subject to peer influence, may undermine wisdom of the crowd in many online contexts.</li>\n</ul>"
+    },
+    {
+      "passageId": "hard10",
+      "passageHtml": "<strong>Id hard10</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br/>\nWhile researching a topic, a student has taken the following notes:<br/>\n<ul style=\"margin-left:14px; list-style-type: disc;\">\n<li>The poet Phillis Wheatley (c. 1753-1784) was the first African American to publish a book of poetry.</li>\n<li>She was enslaved as a child in Boston but was taught to read and write by her enslavers.</li>\n<li>Her collection Poems on Various Subjects, Religious and Moral (1773) was published in London because Boston publishers refused it.</li>\n<li>Wheatley had to be examined by a panel of prominent Bostonians (including John Hancock) to prove she was the author, as many doubted a Black woman could write poetry.</li>\n<li>George Washington praised her work and invited her to visit him after she wrote a poem in his honor.</li>\n</ul>"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "easy1q1",
+      "passageId": "easy1",
+      "questionHtml": "The student wants to emphasize a unique behavioral trait of giant pandas compared to other bears. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Native to central China, giant pandas spend up to 14 hours a day eating bamboo.",
+        "B": "Giant pandas have a digestive system adapted for meat but survive on bamboo.",
+        "C": "Unlike most bears, giant pandas do not hibernate.",
+        "D": "The giant panda is a bear species that lives in mountain forests and eats bamboo."
+      },
+      "correctOption": "C",
+      "explanationHtml": "Choice C is correct because it directly states the difference between giant pandas and most other bears (lack of hibernation).<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>A is incorrect; it describes diet but not a comparative behavioral trait.</li>\n<li>B is incorrect; it describes digestive adaptation, not behavior.</li>\n<li>D is incorrect; it provides general facts without comparison.</li>\n</ul>"
+    },
+    {
+      "questionId": "easy2q1",
+      "passageId": "easy2",
+      "questionHtml": "The student wants to explain why the Venus flytrap requires two touches before closing its trap. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "The Venus flytrap, a carnivorous plant native to the Carolinas, secretes digestive enzymes to absorb nutrients.",
+        "B": "Requiring two touches within 20 seconds prevents the Venus flytrap from wasting energy on false alarms like rain.",
+        "C": "Venus flytraps grow in wetlands and have leaves that form a trap.",
+        "D": "The trap of a Venus flytrap snaps shut when tiny hairs are touched twice."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Choice B correctly explains the adaptive purpose of the two-touch requirement.<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>A is incorrect; it describes digestion, not the reason for the mechanism.</li>\n<li>C is incorrect; it provides habitat and structure but no explanation.</li>\n<li>D is incorrect; it describes what happens but not why.</li>\n</ul>"
+    },
+    {
+      "questionId": "easy3q1",
+      "passageId": "easy3",
+      "questionHtml": "The student wants to specify the types of light Hubble can detect. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Launched in 1990, the Hubble Space Telescope is named after astronomer Edwin Hubble.",
+        "B": "Hubble has made over 1.5 million observations, including the Hubble Deep Field.",
+        "C": "The Hubble Space Telescope captures images in visible, ultraviolet, and near-infrared light.",
+        "D": "Hubble's 2.4-meter mirror allows it to observe distant galaxies."
+      },
+      "correctOption": "C",
+      "explanationHtml": "Choice C directly lists the three types of light Hubble can detect.<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>A is incorrect; it provides naming and launch info, not detection capabilities.</li>\n<li>B is incorrect; it mentions observations but not light types.</li>\n<li>D is incorrect; it describes the mirror's role but not light types.</li>\n</ul>"
+    },
+    {
+      "questionId": "easy4q1",
+      "passageId": "easy4",
+      "questionHtml": "The student wants to emphasize the impact of climate change on the Great Barrier Reef. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "The Great Barrier Reef is home to over 1,500 fish species and 400 coral species.",
+        "B": "Located off Australia, the Great Barrier Reef has experienced multiple mass coral bleaching events due to climate change.",
+        "C": "Coral bleaching happens when stressed corals expel their algae, turning white.",
+        "D": "The Great Barrier Reef is the largest coral reef system in the world."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Choice B directly links climate change to repeated bleaching events on the reef.<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>A is incorrect; it lists biodiversity, not climate impacts.</li>\n<li>C is incorrect; it defines bleaching but doesn't connect it to climate change or the reef.</li>\n<li>D is incorrect; it states size, not impact.</li>\n</ul>"
+    },
+    {
+      "questionId": "easy5q1",
+      "passageId": "easy5",
+      "questionHtml": "The student wants to specify the duration and distance of the Wright Flyer's first flight. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Before 1903, the Wright Brothers tested gliders and built a wind tunnel.",
+        "B": "The Wright Brothers' first successful powered flight took place at Kitty Hawk, North Carolina.",
+        "C": "The Wright Flyer flew for 12 seconds and covered 120 feet in 1903.",
+        "D": "The Wright Brothers are credited with inventing the first powered airplane."
+      },
+      "correctOption": "C",
+      "explanationHtml": "Choice C directly states both the time (12 seconds) and distance (120 feet) of the flight.<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>A is incorrect; it describes prior experiments, not the flight.</li>\n<li>B is incorrect; it gives location only.</li>\n<li>D is incorrect; it's a general claim without specific data.</li>\n</ul>"
+    },
+    {
+      "questionId": "easy6q1",
+      "passageId": "easy6",
+      "questionHtml": "The student wants to describe the consequence of the Cherokee removal as explained in the notes. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "The Cherokee originally lived in Georgia, North Carolina, and Tennessee.",
+        "B": "The Trail of Tears was a forced journey during which thousands of Cherokee died.",
+        "C": "Today, the Cherokee are the largest federally recognized tribe in the U.S.",
+        "D": "In the 1830s, the U.S. government forced the Cherokee to relocate to Oklahoma."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Choice B directly describes the deadly consequence (thousands died) of the forced removal.<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>A is incorrect; it gives original location, not consequence.</li>\n<li>C is incorrect; it describes a later recovery, not the consequence of removal.</li>\n<li>D is incorrect; it states the action but not its outcome.</li>\n</ul>"
+    },
+    {
+      "questionId": "easy7q1",
+      "passageId": "easy7",
+      "questionHtml": "The student wants to introduce the Palace of Versailles to an audience unfamiliar with it. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "The Palace of Versailles has 700 rooms and 67 staircases.",
+        "B": "Originally a hunting lodge, Versailles became the seat of French government under Louis XIV.",
+        "C": "The gardens of Versailles cover 800 hectares and include 50 fountains.",
+        "D": "The Hall of Mirrors is one of the most famous rooms in the Palace of Versailles."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Choice B provides key historical background (origin, transformation, political role) suitable for an unfamiliar audience.<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>A, C, and D are incorrect; they give specific details without providing overarching context or historical significance.</li>\n</ul>"
+    },
+    {
+      "questionId": "easy8q1",
+      "passageId": "easy8",
+      "questionHtml": "The student wants to specify the elements Marie Curie discovered. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Marie Curie was the first woman to win a Nobel Prize and the only person to win in two sciences.",
+        "B": "Working in France, Polish-born Curie coined the term \"radioactivity.\"",
+        "C": "Curie's research led to X-ray machines used in World War I.",
+        "D": "Marie Curie discovered two elements: polonium and radium."
+      },
+      "correctOption": "D",
+      "explanationHtml": "Choice D directly names the two elements Curie discovered.<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>A is incorrect; it describes Nobel achievements, not elements.</li>\n<li>B is incorrect; it describes terminology, not elements.</li>\n<li>C is incorrect; it describes later applications, not discoveries.</li>\n</ul>"
+    },
+    {
+      "questionId": "easy9q1",
+      "passageId": "easy9",
+      "questionHtml": "The student wants to emphasize where the Fibonacci sequence appears naturally. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Named after Fibonacci, the sequence begins 0, 1, 1, 2, 3, 5, 8...",
+        "B": "The Fibonacci sequence appears in spiral patterns of sunflowers, pinecones, and nautilus shells.",
+        "C": "Leonardo Fibonacci introduced the sequence to Western Europe in 1202.",
+        "D": "In the Fibonacci sequence, each number is the sum of the two preceding ones."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Choice B directly lists natural occurrences (sunflowers, pinecones, nautilus shells).<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>A is incorrect; it gives naming and starting numbers, not natural examples.</li>\n<li>C is incorrect; it gives historical introduction, not natural occurrence.</li>\n<li>D is incorrect; it defines the sequence mathematically but doesn't mention nature.</li>\n</ul>"
+    },
+    {
+      "questionId": "easy10q1",
+      "passageId": "easy10",
+      "questionHtml": "The student wants to describe the origin and original name of chess. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Chess spread from India to Persia and then to Europe.",
+        "B": "Modern chess rules, including the queen's movement, were standardized in the 19th century.",
+        "C": "Chess originated in northern India during the Gupta Empire and was called chaturanga.",
+        "D": "In Persia, chess became known as shatranj."
+      },
+      "correctOption": "C",
+      "explanationHtml": "Choice C correctly identifies both the geographic/cultural origin (northern India, Gupta Empire) and the original name (chaturanga).<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>A is incorrect; it describes spread, not origin or original name.</li>\n<li>B is incorrect; it describes modern rules, not origin.</li>\n<li>D is incorrect; it gives the Persian name only, not the origin or original name.</li>\n</ul>"
+    },
+    {
+      "questionId": "medium1q1",
+      "passageId": "medium1",
+      "questionHtml": "The student wants to emphasize the current official status of the thylacine while acknowledging continued reports of sightings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "The thylacine, a carnivorous marsupial, was hunted to extinction in the early 20th century.",
+        "B": "Although officially extinct since 1936, the thylacine is still reportedly sighted in remote Tasmanian areas.",
+        "C": "The last known thylacine died in captivity at Hobart Zoo in 1936, but unconfirmed sightings persist.",
+        "D": "Native to Australia, Tasmania, and New Guinea, the thylacine is considered extinct by most biologists."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Choice B correctly contrasts the official status (extinct since 1936) with continued reports of sightings.<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>A is incorrect; it mentions extinction but not the sightings.</li>\n<li>C is incorrect; it gives the date and location of the last death but not the official extinction status.</li>\n<li>D is incorrect; it states extinction but does not acknowledge ongoing sighting reports.</li>\n</ul>"
+    },
+    {
+      "questionId": "medium2q1",
+      "passageId": "medium2",
+      "questionHtml": "The student wants to explain one reason why the Great Smoky Mountains National Park receives so many visitors. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "The Great Smoky Mountains National Park is famous for its biodiversity and location between North Carolina and Tennessee.",
+        "B": "Over 1,500 species of flowering plants can be found in the park, which straddles two states.",
+        "C": "Unlike many western parks, the Great Smoky Mountains National Park has no entrance fee.",
+        "D": "The park is the most visited in the United States, attracting millions annually."
+      },
+      "correctOption": "C",
+      "explanationHtml": "Choice C directly provides the reason (no entrance fee) as a factor contributing to high visitation.<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>A is incorrect; it lists features but not a cause of high visitation.</li>\n<li>B is incorrect; it mentions biodiversity and location but not visitation.</li>\n<li>D is incorrect; it restates the fact of high visitation without explaining why.</li>\n</ul>"
+    },
+    {
+      "questionId": "medium3q1",
+      "passageId": "medium3",
+      "questionHtml": "The student wants to present the relationship between sea otters and kelp forests to an audience already familiar with the term \"keystone species.\" Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Sea otters control sea urchin populations; without otters, urchins overgraze and destroy kelp forests.",
+        "B": "Sea otters are a keystone species, meaning they have a disproportionately large effect on their environment.",
+        "C": "Kelp forests are found in cold, nutrient-rich waters and rely on sea otters to keep sea urchins in check.",
+        "D": "By preying on sea urchins, sea otters prevent the overgrazing of kelp, allowing kelp forests to recover when otters are reintroduced."
+      },
+      "correctOption": "A",
+      "explanationHtml": "Choice A presents the predator-prey relationship without defining \"keystone species,\" assuming audience familiarity.<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>B is incorrect; it defines the term, unnecessary for a familiar audience.</li>\n<li>C is incorrect; it introduces background on kelp forests but doesn't focus on the relationship.</li>\n<li>D is correct in content but includes reintroduction detail; A is more direct and concise.</li>\n</ul>"
+    },
+    {
+      "questionId": "medium4q1",
+      "passageId": "medium4",
+      "questionHtml": "The student wants to generalize about how the Chinese zodiac links animals to personality traits, using a specific example. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "The Chinese zodiac assigns an animal to each year, and people born in that year inherit its traits; for instance, Tiger years produce brave, competitive individuals.",
+        "B": "2020 was the Year of the Rat, 2021 the Ox, 2022 the Tiger, and 2023 the Rabbit.",
+        "C": "Those born in the Year of the Tiger are considered brave and competitive.",
+        "D": "The Chinese zodiac's 12-year cycle links each animal to specific personality traits."
+      },
+      "correctOption": "A",
+      "explanationHtml": "Choice A states the general principle (animal assigned to year, traits inherited) and provides a specific example (Tiger = brave and competitive).<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>B is incorrect; it only lists years, no generalization or traits.</li>\n<li>C is incorrect; it gives an example without the generalization.</li>\n<li>D is incorrect; it gives the generalization but no example.</li>\n</ul>"
+    },
+    {
+      "questionId": "medium5q1",
+      "passageId": "medium5",
+      "questionHtml": "The student wants to specify where the Great Chicago Fire started, according to historical accounts. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "The Great Chicago Fire of 1871 left 100,000 people homeless and destroyed over 17,000 buildings.",
+        "B": "Located on Lake Michigan, Chicago rebuilt after the fire and pioneered the skyscraper.",
+        "C": "Historical accounts indicate the Great Chicago Fire started in a barn owned by Patrick and Catherine O'Leary.",
+        "D": "The exact cause of the Great Chicago Fire remains unknown, though it began in a barn."
+      },
+      "correctOption": "C",
+      "explanationHtml": "Choice C directly states the location (barn owned by the O'Learys) according to historical accounts.<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>A is incorrect; it gives damage statistics but not the starting location.</li>\n<li>B is incorrect; it discusses reconstruction, not the fire's origin.</li>\n<li>D is incorrect; it mentions the barn but omits the owners' names, making it less specific.</li>\n</ul>"
+    },
+    {
+      "questionId": "medium6q1",
+      "passageId": "medium6",
+      "questionHtml": "The student wants to emphasize that the Fibonacci spiral is not only natural but also used in human design. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "The Fibonacci spiral appears in sunflowers and nautilus shells, and it also inspired the Parthenon.",
+        "B": "Found in nature and human design alike, the Fibonacci spiral appears in galaxies, sunflowers, and the Parthenon.",
+        "C": "The Fibonacci spiral approximates the golden spiral, which artists and architects have used in works like the Parthenon.",
+        "D": "While the Fibonacci spiral occurs in nature, it has also been applied in human-made structures such as the Parthenon."
+      },
+      "correctOption": "D",
+      "explanationHtml": "Choice D explicitly contrasts natural occurrence with human design using \"while... also,\" emphasizing both domains.<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>A is incorrect; it lists examples but doesn't clearly contrast or emphasize the dual presence.</li>\n<li>B is incorrect; it states \"found in nature and human design alike\" but the examples mix both without clear separation.</li>\n<li>C is incorrect; it focuses on the golden spiral and artistic use, not the Fibonacci spiral itself.</li>\n</ul>"
+    },
+    {
+      "questionId": "medium7q1",
+      "passageId": "medium7",
+      "questionHtml": "The student wants to introduce the Burj Khalifa to an audience unfamiliar with it, including its most notable feature. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Completed in 2010, the Burj Khalifa was designed by Skidmore, Owings &amp; Merrill.",
+        "B": "The Burj Khalifa, standing 828 meters tall, is the world's tallest building and features a Y-shaped floor plan inspired by a desert flower.",
+        "C": "The Willis Tower in Chicago and the Burj Khalifa in Dubai were both designed by the same architectural firm.",
+        "D": "Construction of the Burj Khalifa began in 2004 and took six years to complete."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Choice B provides the name, location (implied by Dubai), notable feature (tallest), and a unique design detail, suitable for an unfamiliar audience.<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>A is incorrect; it omits the height and the \"tallest\" claim.</li>\n<li>C is incorrect; it compares buildings but doesn't introduce the Burj Khalifa's key feature.</li>\n<li>D is incorrect; it gives construction timeline but not why the building is notable.</li>\n</ul>"
+    },
+    {
+      "questionId": "medium8q1",
+      "passageId": "medium8",
+      "questionHtml": "The student wants to describe a capability of CRISPR-Cas9 without discussing its ethical implications. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "CRISPR-Cas9 can cut DNA at precise locations, allowing scientists to add or remove genetic material.",
+        "B": "Although CRISPR-Cas9 raises ethical concerns, it has been used to create disease-resistant crops.",
+        "C": "Adapted from bacteria, the CRISPR-Cas9 system is a powerful gene-editing tool.",
+        "D": "Correcting genetic defects in animal models is one application of CRISPR-Cas9."
+      },
+      "correctOption": "A",
+      "explanationHtml": "Choice A directly describes the mechanism (cut DNA, add/remove genetic material) without any mention of ethics.<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>B is incorrect; it mentions ethical concerns.</li>\n<li>C is incorrect; it states it's a tool but doesn't describe a capability.</li>\n<li>D is incorrect; it gives an application but not the underlying capability.</li>\n</ul>"
+    },
+    {
+      "questionId": "medium9q1",
+      "passageId": "medium9",
+      "questionHtml": "The student wants to contrast the rules of horse racing and wrestling at the Naadam festival. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Unlike horse racing, which uses child jockeys, wrestling has no weight classes or time limits.",
+        "B": "Horse racing in Naadam is long-distance, while wrestling involves matches without time limits.",
+        "C": "Naadam features horse racing with child jockeys and wrestling with no weight classes.",
+        "D": "Horse races at Naadam can be 15-30 kilometers long, whereas wrestling ends when a wrestler touches the ground with anything but feet."
+      },
+      "correctOption": "D",
+      "explanationHtml": "Choice D contrasts specific rules: distance/child jockeys (implied in the race) versus wrestling's losing condition. D clearly contrasts race distance with wrestling's ground-touch rule.<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>A is incorrect; it contrasts jockey age with weight classes, but the notes don't say horse racing lacks weight classes.</li>\n<li>B is incorrect; it contrasts distance with time limits, but the losing condition is more distinctive.</li>\n<li>C is incorrect; it lists differences without clear contrast or specific rules.</li>\n</ul>"
+    },
+    {
+      "questionId": "medium10q1",
+      "passageId": "medium10",
+      "questionHtml": "The student wants to specify what made the Spanish flu unusual compared to typical flu outbreaks. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "The Spanish flu infected 500 million people and spread rapidly due to World War I.",
+        "B": "Unlike typical flu strains, the Spanish flu caused high mortality among healthy adults aged 20-40.",
+        "C": "No vaccine existed for the Spanish flu, which contributed to its devastating impact.",
+        "D": "Wartime conditions such as troop movements and overcrowded hospitals worsened the pandemic."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Choice B directly states the unusual feature (high mortality among young adults) using \"unlike typical flu strains.\"<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>A is incorrect; it gives infection numbers and spread factors but not what made it unusual.</li>\n<li>C is incorrect; lack of vaccine was common for many historical flus, not unique.</li>\n<li>D is incorrect; wartime conditions exacerbated spread but are not the unusual mortality pattern.</li>\n</ul>"
+    },
+    {
+      "questionId": "medium11q1",
+      "passageId": "medium11",
+      "questionHtml": "The student wants to explain why the Svalbard Global Seed Vault is considered secure against environmental threats. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Located above the Arctic Circle, the vault holds over 1 million seed samples from around the world.",
+        "B": "The vault's permafrost and rock construction eliminate the need for active cooling.",
+        "C": "Its high elevation and Arctic location protect the Svalbard Global Seed Vault from flooding and climate change risks.",
+        "D": "Serving as a backup for other gene banks, the vault is built into permafrost."
+      },
+      "correctOption": "C",
+      "explanationHtml": "Choice C explicitly links its security to specific environmental protections (high elevation against flooding, Arctic location against climate risks).<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>A is incorrect; it mentions location but not why it's secure.</li>\n<li>B is incorrect; it describes natural cooling but not protection from threats.</li>\n<li>D is incorrect; it notes permafrost construction but omits flood and climate protection.</li>\n</ul>"
+    },
+    {
+      "questionId": "medium12q1",
+      "passageId": "medium12",
+      "questionHtml": "The student wants to emphasize the contrast between Go's simple rules and its deep complexity. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Go is over 2,500 years old, yet it remains popular today.",
+        "B": "The rules of Go are simple—players place stones to surround territory—but the game has more possible configurations than atoms in the universe.",
+        "C": "In 2016, AlphaGo defeated a world champion, demonstrating the game's difficulty.",
+        "D": "Go uses a 19×19 grid, and players take turns placing black and white stones."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Choice B directly contrasts simple rules (place stones to surround territory) with immense complexity (more configurations than atoms).<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>A is incorrect; it contrasts age with popularity, not rules vs. complexity.</li>\n<li>C is incorrect; it mentions AI victory but not the rules/complexity contrast.</li>\n<li>D is incorrect; it only describes rules, no contrast.</li>\n</ul>"
+    },
+    {
+      "questionId": "medium13q1",
+      "passageId": "medium13",
+      "questionHtml": "The student wants to specify why no bridge spans the Amazon River, according to the notes. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "The Amazon River discharges 209,000 cubic meters per second, more than any other river.",
+        "B": "Flowing through Peru, Colombia, and Brazil, the Amazon is the second-longest river in the world.",
+        "C": "The width and seasonal flooding of the Amazon River make bridge construction impractical.",
+        "D": "No bridge crosses the Amazon River because of its remote location."
+      },
+      "correctOption": "C",
+      "explanationHtml": "Choice C directly gives the reasons from the notes: width and seasonal flooding.<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>A is incorrect; it gives volume but not the reason for no bridge.</li>\n<li>B is incorrect; it gives length and countries, irrelevant to bridges.</li>\n<li>D is incorrect; \"remote location\" is not mentioned in the notes.</li>\n</ul>"
+    },
+    {
+      "questionId": "medium14q1",
+      "passageId": "medium14",
+      "questionHtml": "The student wants to describe one cause of plant blindness. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Plant blindness is the human tendency to overlook plants, often because animals are more noticeable due to movement.",
+        "B": "Botanical gardens help combat plant blindness by highlighting plant adaptations.",
+        "C": "Underestimating plants' ecological importance is a consequence of plant blindness.",
+        "D": "Humans tend to notice animals more than plants because animals move and respond."
+      },
+      "correctOption": "A",
+      "explanationHtml": "Choice A states the phenomenon and gives a cause (animals are more noticeable due to movement).<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>B is incorrect; it describes a solution, not a cause.</li>\n<li>C is incorrect; it describes a consequence, not a cause.</li>\n<li>D is incorrect; it explains animal noticeability but doesn't link to \"plant blindness\" as a term.</li>\n</ul>"
+    },
+    {
+      "questionId": "medium15q1",
+      "passageId": "medium15",
+      "questionHtml": "The student wants to emphasize the difference between ubuntu and Western individualism. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Ubuntu, a Southern African philosophy, is summarized as \"I am because we are.\"",
+        "B": "Unlike Western individualism, which values personal achievement, ubuntu emphasizes interconnectedness and community.",
+        "C": "Nelson Mandela and Desmond Tutu used ubuntu to guide post-apartheid reconciliation.",
+        "D": "Ubuntu focuses on mutual responsibility, while Western individualism focuses on autonomy."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Choice B directly contrasts ubuntu (interconnectedness) with Western individualism (personal achievement) using \"unlike.\"<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>A is incorrect; it defines ubuntu but no contrast.</li>\n<li>C is incorrect; it gives applications but no contrast.</li>\n<li>D is partially correct but less complete than B because B includes the \"I am because we are\" implication and the reconciliation context is not needed for contrast. B is the clearest.</li>\n</ul>"
+    },
+    {
+      "questionId": "hard1q1",
+      "passageId": "hard1",
+      "questionHtml": "The student wants to introduce the concept of deep time to an audience unfamiliar with geology, emphasizing both its origin and its ongoing cognitive challenge. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "First proposed by James Hutton in the late 18th century, deep time is the idea that Earth is immensely old—a concept that remains difficult for many to grasp even though it is scientifically accepted.",
+        "B": "Charles Lyell's Principles of Geology popularized deep time, a concept that influenced Darwin but is still hard to understand intuitively.",
+        "C": "Deep time, based on slow processes like erosion, challenges biblical chronologies and was first suggested by Hutton.",
+        "D": "Although deep time is accepted by geologists, many people find it hard to grasp because Earth's age is so vast; Hutton and Lyell were key figures in its development."
+      },
+      "correctOption": "A",
+      "explanationHtml": "Choice A is best because it introduces deep time (definition), gives its origin (Hutton, late 18th century), and explicitly notes the ongoing cognitive challenge (\"difficult for many to grasp\"), all in a clear order suitable for an unfamiliar audience.<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>B is incorrect; it omits Hutton (the originator) and does not define deep time clearly.</li>\n<li>C is incorrect; it mentions the challenge only implicitly (\"challenges biblical chronologies\") and lacks the explicit \"difficult to grasp\" point.</li>\n<li>D is incorrect; it mentions the difficulty but buries the origin and does not clearly define deep time at the start.</li>\n</ul>"
+    },
+    {
+      "questionId": "hard2q1",
+      "passageId": "hard2",
+      "questionHtml": "The student wants to present a balanced overview of the Northwest Passage's changing status, including both opportunities and concerns. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Once an impassable Arctic route, the Northwest Passage is becoming more navigable due to climate change, which brings both economic opportunities and risks to Indigenous hunting and marine life.",
+        "B": "Climate change has reduced sea ice in the Northwest Passage, allowing shipping and tourism but also threatening traditional hunting by Indigenous communities.",
+        "C": "The Northwest Passage connects the Atlantic and Pacific Oceans; its melting ice raises geopolitical concerns as well as hopes for oil drilling.",
+        "D": "While explorers long sought the Northwest Passage as a trade shortcut, today's melting ice creates opportunities for shipping and raises environmental worries."
+      },
+      "correctOption": "A",
+      "explanationHtml": "Choice A is best because it clearly states the historical status (impassable), the cause of change (climate change), and explicitly mentions both opportunities (economic) and concerns (Indigenous hunting, marine life) in a balanced, single-sentence overview.<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>B is incorrect; it mentions threats to hunting but omits the broader \"concerns\" for marine wildlife and geopolitical issues. It is less complete than A.</li>\n<li>C is incorrect; it omits Indigenous concerns and does not mention the historical context of impassability.</li>\n<li>D is incorrect; it mentions environmental worries but not the specific impact on Indigenous communities or marine wildlife.</li>\n</ul>"
+    },
+    {
+      "questionId": "hard3q1",
+      "passageId": "hard3",
+      "questionHtml": "The student wants to explain why the European eel's life cycle makes it particularly vulnerable to human activities. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Because European eels migrate long distances between the Sargasso Sea and European rivers, they are exposed to multiple threats including overfishing, dams, and habitat loss along their route.",
+        "B": "The European eel's complex life cycle—spawning in the Sargasso Sea, drifting to Europe, maturing in rivers, then returning to spawn—requires many habitats, so damage at any stage can devastate the population.",
+        "C": "Overfishing, habitat loss, and migration barriers like dams have caused a 90% decline in European eel populations, making the species critically endangered.",
+        "D": "European eels mature in rivers for up to 20 years before returning to the Sargasso Sea to spawn; this long maturation makes them vulnerable to overfishing during their river phase."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Choice B is best because it directly links the life cycle's complexity (multiple stages, multiple habitats) to vulnerability (damage at any stage can devastate the population). It explains the mechanism of vulnerability, not just lists threats.<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>A is incorrect; it mentions multiple threats but does not explain why the life cycle itself creates vulnerability—just that eels are exposed.</li>\n<li>C is incorrect; it describes the decline and status but does not connect life cycle to vulnerability.</li>\n<li>D is incorrect; it focuses only on long maturation in rivers, ignoring the Sargasso spawning and larval drift, thus offering an incomplete explanation.</li>\n</ul>"
+    },
+    {
+      "questionId": "hard4q1",
+      "passageId": "hard4",
+      "questionHtml": "The student wants to emphasize the ambiguous legacy of Diocletian's reforms—how they both helped and hurt the Roman Empire. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Diocletian's reforms divided the Roman Empire into Eastern and Western halves, temporarily stabilizing it but also making the division permanent, which later contributed to the Western Empire's fall.",
+        "B": "Although Diocletian's reforms ended the third-century crisis by stabilizing the empire, they inadvertently set the stage for the Western Empire's eventual collapse while allowing the East to survive for a millennium.",
+        "C": "The third-century crisis saw civil wars, economic collapse, and invasions; Diocletian's response was to divide the empire, a move that some historians credit with saving the East.",
+        "D": "Diocletian's reforms created a permanent East-West division, which led to the Western Empire's fall in 476 CE, though the Eastern Empire lasted another 1,000 years."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Choice B is best because it explicitly presents the ambiguity: reforms ended the crisis and stabilized (help), but inadvertently set up the Western fall (hurt), while also allowing the East to survive (another help). The phrase \"although\" signals the contrast, and both positive and negative outcomes are clearly stated.<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>A is incorrect; it mentions temporary stabilization and later contribution to Western fall, but omits the positive survival of the Eastern Empire, making the legacy less balanced.</li>\n<li>C is incorrect; it focuses on saving the East but does not mention the negative consequence for the West.</li>\n<li>D is incorrect; it emphasizes only the negative (Western fall) and the positive for the East, but lacks the \"temporary stabilization\" and the ambiguous trade-off.</li>\n</ul>"
+    },
+    {
+      "questionId": "hard5q1",
+      "passageId": "hard5",
+      "questionHtml": "The student wants to introduce Homo floresiensis to an audience that knows only the fictional hobbit, emphasizing both the scientific nickname and one key discovery fact. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Nicknamed \"hobbits\" by scientists, Homo floresiensis stood only 1.1 meters tall and lived on the Indonesian island of Flores as recently as 50,000 years ago.",
+        "B": "The real \"hobbit\" species, Homo floresiensis, was discovered in 2003; despite a chimpanzee-sized brain, it made stone tools and used fire.",
+        "C": "Unlike Tolkien's fictional hobbits, the real Homo floresiensis lived 50,000 years ago on Flores and is known for its tiny stature and surprisingly advanced behaviors.",
+        "D": "Scientists discovered Homo floresiensis fossils in 2003 on the island of Flores; they called the species \"hobbits\" because of its small height (about 1.1 meters)."
+      },
+      "correctOption": "A",
+      "explanationHtml": "Choice A is best because it directly connects the nickname (\"hobbits\"), gives a key fact about stature (1.1 m), adds location and recent survival (50,000 years ago), and does not assume prior scientific knowledge. It is concise and suitable for an audience familiar only with the fictional hobbit.<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>B is incorrect; it mentions tool use and fire but omits the nickname's explanation (height) and does not clearly state the stature.</li>\n<li>C is incorrect; it contrasts with fictional hobbits, which is unnecessary for introduction, and omits the nickname.</li>\n<li>D is incorrect; it states the nickname and stature but omits the time frame (50,000 years ago), making it less informative. It also buries the nickname in the second clause.</li>\n</ul>"
+    },
+    {
+      "questionId": "hard6q1",
+      "passageId": "hard6",
+      "questionHtml": "The student wants to present the sequence of events leading to mass production of penicillin, emphasizing the collaborative nature of the achievement. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "After Fleming discovered penicillin's antibacterial effect in 1928, Florey and Chain later developed mass production; all three shared the Nobel Prize in 1945.",
+        "B": "Fleming's 1928 observation that Penicillium mold killed bacteria was the first step, but it took Florey and Chain's wartime-accelerated work to make penicillin a life-saving drug, a collaboration recognized by the 1945 Nobel Prize.",
+        "C": "Penicillin was discovered by Fleming in 1928, but mass production was achieved by Florey and Chain in 1939, driven by World War II needs; the three won the Nobel Prize together.",
+        "D": "The development of penicillin from a laboratory curiosity to a mass-produced medicine involved Fleming's discovery, then Florey and Chain's purification method, and was accelerated by WWII, culminating in a shared Nobel Prize."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Choice B is best because it presents a clear sequence (Fleming → Florey/Chain), explicitly mentions \"wartime-accelerated\" and \"collaboration recognized by the 1945 Nobel Prize,\" emphasizing teamwork. The phrasing \"first step ... but it took\" highlights the collaborative nature.<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>A is incorrect; it lists events but does not emphasize collaboration or the wartime acceleration.</li>\n<li>C is incorrect; it gives dates and facts but lacks the explicit emphasis on collaboration.</li>\n<li>D is incorrect; it is a factual sequence but the phrase \"culminating in a shared Nobel Prize\" is weak; it does not stress the teamwork as effectively as B's phrasing.</li>\n</ul>"
+    },
+    {
+      "questionId": "hard7q1",
+      "passageId": "hard7",
+      "questionHtml": "The student wants to explain the significance of the satellite's name, connecting it to both historical and contemporary contexts. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Naming its first satellite after Tupac Katari, an anti-colonial rebel, Bolivia honored indigenous resistance while using the satellite to bridge the digital divide in remote areas.",
+        "B": "Bolivia's TKSAT-1 is named after Tupac Katari, an 18th-century leader, and provides services to rural areas, showing a link between past and present.",
+        "C": "By naming the satellite after an indigenous rebel, Bolivia expressed indigenous pride, and the satellite's services help reduce the digital divide.",
+        "D": "The Tupac Katari satellite, built in China and launched in 2013, is named after a colonial-era rebel; it brings telecommunications to remote Bolivians, thus connecting anti-colonial history with modern connectivity."
+      },
+      "correctOption": "A",
+      "explanationHtml": "Choice A is best because it explicitly names the historical figure and his action (anti-colonial rebel), directly states \"honored indigenous resistance\" (historical context), and then links to contemporary context (\"bridge the digital divide\"). The sentence is tight and causal.<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>B is incorrect; it mentions \"link between past and present\" but does not specify the nature of the link (resistance vs. connectivity) clearly.</li>\n<li>C is incorrect; it gives indigenous pride and digital divide but omits the historical figure's name and the specific anti-colonial rebellion.</li>\n<li>D is incorrect; it is too detailed (built in China, launched 2013) and buries the significance; the phrase \"connecting anti-colonial history with modern connectivity\" is abstract and less direct than A.</li>\n</ul>"
+    },
+    {
+      "questionId": "hard8q1",
+      "passageId": "hard8",
+      "questionHtml": "The student wants to summarize the bystander effect, including its classic origin story and a qualification of that story's accuracy. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "The bystander effect, first identified after the Kitty Genovese murder, describes how the presence of others reduces helping; however, later re-analyses suggest the original case may have been exaggerated.",
+        "B": "Named for the Kitty Genovese case, the bystander effect is the tendency to not help when others are present, but researchers now believe the 38 witnesses figure was inflated.",
+        "C": "The bystander effect—people are less likely to help when others are around—was inspired by the 1964 Genovese murder, though some historians dispute details of that case.",
+        "D": "Latane and Darley experimentally demonstrated the bystander effect, which is caused by diffusion of responsibility; the classic example is Kitty Genovese, but its accuracy has been questioned."
+      },
+      "correctOption": "A",
+      "explanationHtml": "Choice A is best because it defines the effect, gives the origin (Kitty Genovese), and explicitly states the qualification (\"re-analyses suggest the original case may have been exaggerated\") in a clear, balanced summary.<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>B is incorrect; it mentions the 38 witnesses figure but does not define the effect clearly (\"tendency to not help\" is vague), and the qualification is narrower.</li>\n<li>C is incorrect; it uses \"inspired by\" which is less precise than \"first identified after,\" and \"some historians dispute details\" is weaker than \"exaggerated.\"</li>\n<li>D is incorrect; it leads with Latane and Darley (secondary) rather than the classic origin, and the qualification is at the end but the sentence is less focused on the origin story.</li>\n</ul>"
+    },
+    {
+      "questionId": "hard9q1",
+      "passageId": "hard9",
+      "questionHtml": "The student wants to present the key conditions for the wisdom of the crowd effect and a modern threat to those conditions. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Independence and diversity of opinions are required for the wisdom of the crowd to work, but social influence—amplified by social media—can narrow opinions and ruin the effect.",
+        "B": "Galton's 1906 ox-weighing contest showed the wisdom of the crowd, but only when guesses are independent; social media now threatens that independence.",
+        "C": "The wisdom of the crowd requires independent, diverse judgments; social influence, such as seeing others' guesses, can destroy it, and social media makes such influence widespread.",
+        "D": "For the crowd to be wise, guesses must be independent and diverse; unfortunately, social media exposes users to others' opinions, causing social influence that undermines accuracy."
+      },
+      "correctOption": "A",
+      "explanationHtml": "Choice A is best because it clearly states both conditions (independence, diversity) and then explicitly names the modern threat (\"social influence—amplified by social media\") and its consequence (\"narrow opinions and ruin the effect\"). The sentence is direct and complete.<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>B is incorrect; it mentions Galton (unnecessary for the goal) and only notes social media threatens independence, missing the specific mechanism of social influence.</li>\n<li>C is incorrect; it lists conditions and threat but does not specify \"modern\" threat (social media is implied but not named).</li>\n<li>D is incorrect; it gives conditions and describes social influence but omits the key term \"social media\" (only \"exposes users to others' opinions\"), making the modern threat less precise.</li>\n</ul>"
+    },
+    {
+      "questionId": "hard10q1",
+      "passageId": "hard10",
+      "questionHtml": "The student wants to emphasize the obstacles Wheatley overcame to publish her poetry, using specific evidence from the notes. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Although she was enslaved and had to prove her authorship to a panel that included John Hancock, Wheatley published her first book in London in 1773, becoming the first African American poet to do so.",
+        "B": "Wheatley overcame enslavement, the refusal of Boston publishers, and the need to be examined by a panel of white Bostonians before her book could be published in London.",
+        "C": "Despite doubts that a Black woman could write poetry, Wheatley's Poems on Various Subjects was published in London, and she later earned praise from George Washington.",
+        "D": "Enslaved as a child, Wheatley learned to read and write, then faced a panel examination to prove she authored her poems; her book was eventually published in London."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Choice B is best because it lists three specific obstacles: enslavement, refusal of Boston publishers, and the panel examination. The phrase \"overcame\" directly emphasizes obstacles, and all details are from the notes. It is concise and evidence-driven.<br/>\n<ul style=\"margin-left: 14px; list-style-type: disc;\">\n<li>A is incorrect; it mentions enslavement and the panel but omits the refusal of Boston publishers, a key obstacle. It also includes \"first African American\" which is an achievement, not an obstacle.</li>\n<li>C is incorrect; it mentions doubts and the panel indirectly but omits enslavement and the Boston publishers' refusal.</li>\n<li>D is incorrect; it mentions enslavement and panel examination but omits the Boston publishers' refusal and does not emphasize the overcoming of obstacles as strongly as B.</li>\n</ul>"
+    }
+  ]
+}
