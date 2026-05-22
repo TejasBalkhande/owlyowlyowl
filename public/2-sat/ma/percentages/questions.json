@@ -1,0 +1,395 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "questionId": "perc_01",
+      "passageId": "",
+      "questionHtml": "<p>What is \\(35\\%\\) of 80?</p>",
+      "options": {
+        "A": "24",
+        "B": "28",
+        "C": "30",
+        "D": "32"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Choice B is correct.</strong> To find \\(35\\%\\) of 80, convert the percent to a decimal: \\(35\\% = 0.35\\). Then multiply: \\(0.35 \\times 80 = 28\\).</p><p>Choice A is incorrect and may result from using \\(30\\%\\) instead of \\(35\\%\\). Choice C is incorrect and may result from using \\(37.5\\%\\) or a miscalculation. Choice D is incorrect and may result from using \\(40\\%\\).</p>"
+    },
+    {
+      "questionId": "perc_02",
+      "passageId": "",
+      "questionHtml": "<p>The price of a book increased from $25 to $30. What is the percent increase?</p>",
+      "options": {
+        "A": "\\(5\\%\\)",
+        "B": "\\(16.7\\%\\)",
+        "C": "\\(20\\%\\)",
+        "D": "\\(25\\%\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Choice C is correct.</strong> Percent increase \\(= \\frac{\\text{new - original}}{\\text{original}} \\times 100\\% = \\frac{30 - 25}{25} = \\frac{5}{25} = 0.20 = 20\\%\\).</p><p>Choice A is incorrect and may result from simply subtracting the two prices without dividing. Choice B is incorrect and may result from dividing by the new price instead of the original. Choice D is incorrect and may result from miscalculating \\(5 / 20\\).</p>"
+    },
+    {
+      "questionId": "perc_03",
+      "passageId": "",
+      "questionHtml": "<p>A shirt originally priced at $40 is on sale for $32. What is the percent decrease?</p>",
+      "options": {
+        "A": "\\(8\\%\\)",
+        "B": "\\(20\\%\\)",
+        "C": "\\(25\\%\\)",
+        "D": "\\(80\\%\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Choice B is correct.</strong> Percent decrease \\(= \\frac{\\text{original - new}}{\\text{original}} \\times 100\\% = \\frac{40 - 32}{40} = \\frac{8}{40} = 0.20 = 20\\%\\).</p><p>Choice A is incorrect and may result from simply finding the dollar decrease without dividing. Choice C is incorrect and may result from dividing by the new price \\((8 / 32 = 25\\%)\\). Choice D is incorrect and represents the new price as a percent of the original (\\(32 / 40 = 80\\%\\)).</p>"
+    },
+    {
+      "questionId": "perc_04",
+      "passageId": "",
+      "questionHtml": "<p>If \\(15\\%\\) of a number is 45, what is the number?</p>",
+      "options": {
+        "A": "6.75",
+        "B": "60",
+        "C": "300",
+        "D": "450"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Choice C is correct.</strong> Let the number be \\(x\\). Then \\(0.15x = 45\\). Solving, \\(x = 45 \\div 0.15 = 300\\).</p><p>Choice A is incorrect and results from multiplying 45 by 0.15. Choice B is incorrect and may result from dividing 45 by 0.75. Choice D is incorrect and may result from multiplying 45 by 10.</p>"
+    },
+    {
+      "questionId": "perc_05",
+      "passageId": "",
+      "questionHtml": "<p>What number is \\(25\\%\\) greater than 120?</p>",
+      "options": {
+        "A": "90",
+        "B": "145",
+        "C": "150",
+        "D": "180"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Choice C is correct.</strong> A number \\(25\\%\\) greater than 120 is \\(125\\%\\) of 120. As a decimal, \\(125\\% = 1.25\\). Multiply: \\(1.25 \\times 120 = 150\\). Alternate approach: \\(25\\%\\) of 120 is 30, so \\(120 + 30 = 150\\).</p><p>Choice A is incorrect and results from subtracting \\(25\\%\\) (\\(120 - 30 = 90\\)). Choice B is incorrect and may result from adding 25 to 120. Choice D is incorrect and may result from multiplying by 1.5.</p>"
+    },
+    {
+      "questionId": "perc_06",
+      "passageId": "",
+      "questionHtml": "<p>What number is \\(30\\%\\) less than 200?</p>",
+      "options": {
+        "A": "60",
+        "B": "140",
+        "C": "170",
+        "D": "260"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Choice B is correct.</strong> A number \\(30\\%\\) less than 200 is \\(70\\%\\) of 200. \\(70\\% = 0.70\\), so \\(0.70 \\times 200 = 140\\). Alternate: \\(30\\%\\) of 200 is 60, so \\(200 - 60 = 140\\).</p><p>Choice A is incorrect and is just \\(30\\%\\) of 200. Choice C is incorrect and may result from subtracting 30 instead of \\(30\\%\\). Choice D is incorrect and results from adding \\(30\\%\\).</p>"
+    },
+    {
+      "questionId": "perc_07",
+      "passageId": "",
+      "questionHtml": "<p>A store increases the price of an item by \\(10\\%\\), then decreases the new price by \\(10\\%\\). What is the overall percent change from the original price?</p>",
+      "options": {
+        "A": "\\(0\\%\\)",
+        "B": "\\(1\\%\\) decrease",
+        "C": "\\(1\\%\\) increase",
+        "D": "\\(10\\%\\) decrease"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Choice B is correct.</strong> Let original price \\(= 100\\). After \\(10\\%\\) increase: \\(110\\). After \\(10\\%\\) decrease on \\(110\\): \\(110 \\times 0.10 = 11\\), new price \\(= 110 - 11 = 99\\). Overall change \\(= -1\\), which is a \\(1\\%\\) decrease.</p><p>Choice A is incorrect because successive percent changes do not cancel out unless applied to the same base. Choices C and D are incorrect as the net change is a \\(1\\%\\) decrease.</p>"
+    },
+    {
+      "questionId": "perc_08",
+      "passageId": "",
+      "questionHtml": "<p>In a survey of 500 people, \\(32\\%\\) said they prefer tea, \\(28\\%\\) prefer coffee, and the rest prefer other drinks. How many people prefer other drinks?</p>",
+      "options": {
+        "A": "140",
+        "B": "160",
+        "C": "200",
+        "D": "300"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Choice C is correct.</strong> The percent who prefer other drinks \\(= 100\\% - (32\\% + 28\\%) = 40\\%\\). \\(40\\%\\) of \\(500 = 0.40 \\times 500 = 200\\).</p><p>Choice A is incorrect and may result from using \\(28\\%\\) (\\(0.28 \\times 500 = 140\\)). Choice B is incorrect and may result from using \\(32\\%\\) (\\(0.32 \\times 500 = 160\\)). Choice D is incorrect and may result from using \\(60\\%\\) (300).</p>"
+    },
+    {
+      "questionId": "perc_09",
+      "passageId": "",
+      "questionHtml": "<p>The original price of a laptop is $800. It is discounted by \\(15\\%\\) and then a \\(7\\%\\) sales tax is added to the sale price. What is the final cost?</p>",
+      "options": {
+        "A": "$680.00",
+        "B": "$727.60",
+        "C": "$744.00",
+        "D": "$800.00"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Choice B is correct.</strong> First, discount: sale price \\(= 85\\%\\) of $800 \\(= 0.85 \\times 800 = 680\\). Then add 7% tax: tax \\(= 0.07 \\times 680 = 47.60\\), so final cost \\(= 680 + 47.60 = 727.60\\).</p><p>Choice A is the sale price before tax. Choice C is incorrect and may result from applying tax to the original price (\\(0.93 \\times 800 = 744\\)). Choice D is the original price.</p>"
+    },
+    {
+      "questionId": "perc_10",
+      "passageId": "",
+      "questionHtml": "<p>In 2019, a city had 240,000 residents. In 2020, the population increased by \\(5\\%\\). In 2021, it decreased by \\(5\\%\\) from the 2020 population. How many residents were there in 2021, and what is the percent change from 2019 to 2021?</p>",
+      "options": {
+        "A": "240,000; \\(0\\%\\)",
+        "B": "239,400; \\(0.25\\%\\) decrease",
+        "C": "239,400; \\(0.25\\%\\) increase",
+        "D": "240,600; \\(0.25\\%\\) increase"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Choice B is correct.</strong> 2019: 240,000. 2020: increase \\(5\\% \\rightarrow 240,000 \\times 1.05 = 252,000\\). 2021: decrease \\(5\\% \\rightarrow 252,000 \\times 0.95 = 239,400\\). Overall change \\(= 239,400 - 240,000 = -600\\). Percent change \\(= (-600 / 240,000) \\times 100\\% = -0.25\\%\\), a \\(0.25\\%\\) decrease.</p><p>Choice A is incorrect because the two percent changes do not cancel. Choice C incorrectly shows increase. Choice D incorrectly increases both years.</p>"
+    },
+    {
+      "questionId": "perc_11",
+      "passageId": "",
+      "questionHtml": "<p>A survey found that \\(45\\%\\) of the 620 residents in a town support a new park proposal. How many residents support the proposal?</p>",
+      "options": {
+        "A": "279",
+        "B": "310",
+        "C": "341",
+        "D": "400"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Choice A is correct.</strong> To find \\(45\\%\\) of 620, convert \\(45\\%\\) to decimal 0.45, then multiply: \\(0.45 \\times 620 = 279\\).</p><p>Choice B is incorrect and may result from using \\(50\\%\\) (310). Choice C is incorrect and may result from adding \\(45 + 620\\). Choice D is incorrect and may result from using \\(65\\%\\) or miscalculation.</p>"
+    },
+    {
+      "questionId": "perc_12",
+      "passageId": "",
+      "questionHtml": "<p>The number of students at a school increased from 1,200 to 1,350 over one year. What was the percent increase?</p>",
+      "options": {
+        "A": "\\(11.1\\%\\)",
+        "B": "\\(12.5\\%\\)",
+        "C": "\\(15\\%\\)",
+        "D": "\\(20\\%\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Choice B is correct.</strong> Percent increase \\(= \\frac{\\text{new - original}}{\\text{original}} \\times 100\\% = \\frac{1350 - 1200}{1200} = \\frac{150}{1200} = 0.125 = 12.5\\%\\).</p><p>Choice A is incorrect and may result from dividing by the new number (\\(150 / 1350 \\approx 11.1\\%\\)). Choice C is incorrect and may result from dividing by 1000. Choice D is incorrect and may result from dividing by 750.</p>"
+    },
+    {
+      "questionId": "perc_13",
+      "passageId": "",
+      "questionHtml": "<p>A laptop's price was reduced from $850 to $680 during a sale. What is the percent decrease?</p>",
+      "options": {
+        "A": "\\(15\\%\\)",
+        "B": "\\(20\\%\\)",
+        "C": "\\(25\\%\\)",
+        "D": "\\(30\\%\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Choice B is correct.</strong> Percent decrease \\(= \\frac{\\text{original - new}}{\\text{original}} \\times 100\\% = \\frac{850 - 680}{850} = \\frac{170}{850} = 0.20 = 20\\%\\).</p><p>Choice A is incorrect (\\(170/1133\\)). Choice C is incorrect (\\(170/680 = 25\\%\\) but that's dividing by the new price). Choice D is incorrect (\\(170/567\\)).</p>"
+    },
+    {
+      "questionId": "perc_14",
+      "passageId": "",
+      "questionHtml": "<p>After a \\(15\\%\\) increase, a worker's salary is $4,600. What was the salary before the increase?</p>",
+      "options": {
+        "A": "$3,910",
+        "B": "$4,000",
+        "C": "$4,150",
+        "D": "$5,290"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Choice B is correct.</strong> Let original salary \\(= x\\). After \\(15\\%\\) increase, salary \\(= x \\times 1.15 = 4600\\). So \\(x = 4600 \\div 1.15 = 4000\\).</p><p>Choice A is incorrect (subtracting \\(15\\%\\) of 4600 incorrectly). Choice C is incorrect (\\(4600/1.1\\)). Choice D is incorrect (multiplying by 1.15).</p>"
+    },
+    {
+      "questionId": "perc_15",
+      "passageId": "",
+      "questionHtml": "<p>What number is \\(18\\%\\) greater than 250?</p>",
+      "options": {
+        "A": "268",
+        "B": "270",
+        "C": "295",
+        "D": "300"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Choice C is correct.</strong> A number \\(18\\%\\) greater than 250 is \\(118\\%\\) of 250. \\(118\\% = 1.18\\), so \\(1.18 \\times 250 = 295\\). Alternate: \\(18\\%\\) of \\(250 = 45\\), \\(250 + 45 = 295\\).</p><p>Choice A is incorrect \\((250 + 18)\\). Choice B is incorrect \\((250 \\times 1.08)\\). Choice D is incorrect \\((250 \\times 1.2)\\).</p>"
+    },
+    {
+      "questionId": "perc_16",
+      "passageId": "",
+      "questionHtml": "<p>In a school, \\(60\\%\\) of the students are enrolled in a math club. Of those in the math club, \\(25\\%\\) are also in the science club. What percentage of all students are in both clubs?</p>",
+      "options": {
+        "A": "\\(15\\%\\)",
+        "B": "\\(20\\%\\)",
+        "C": "\\(25\\%\\)",
+        "D": "\\(35\\%\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Choice A is correct.</strong> Let total students \\(= T\\). Math club students \\(= 0.60T\\). Of these, \\(25\\%\\) are in science club: \\(0.25 \\times (0.60T) = 0.15T\\). That is \\(15\\%\\) of all students.</p><p>Choice B is incorrect (maybe \\(0.25 \\times 0.8\\)). Choice C is the percentage within math club. Choice D is sum \\(60\\% + 25\\%\\) incorrectly.</p>"
+    },
+    {
+      "questionId": "perc_17",
+      "passageId": "",
+      "questionHtml": "<p>A store raises the price of an item by \\(20\\%\\), then later lowers the new price by \\(20\\%\\). What is the net percent change from the original price?</p>",
+      "options": {
+        "A": "\\(0\\%\\)",
+        "B": "\\(4\\%\\) decrease",
+        "C": "\\(4\\%\\) increase",
+        "D": "\\(20\\%\\) decrease"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Choice B is correct.</strong> Assume original \\(= 100\\). After \\(20\\%\\) increase: \\(120\\). After \\(20\\%\\) decrease on \\(120\\): \\(120 \\times 0.20 = 24\\), new price \\(= 96\\). Net change \\(= -4\\), which is a \\(4\\%\\) decrease.</p><p>Choice A is incorrect because successive percent changes do not cancel. Choice C is incorrect (increase? no). Choice D is the single decrease percent.</p>"
+    },
+    {
+      "questionId": "perc_18",
+      "passageId": "",
+      "questionHtml": "<p>A car's value depreciates by \\(15\\%\\) each year. If the car was purchased for $24,000, what is its estimated value after 3 years?</p>",
+      "options": {
+        "A": "$12,000",
+        "B": "$14,739",
+        "C": "$15,600",
+        "D": "$17,340"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Choice B is correct.</strong> Each year the car retains \\(100\\% - 15\\% = 85\\% = 0.85\\) of its previous value. After 3 years: value \\(= 24000 \\times (0.85)^3 = 24000 \\times 0.614125 = 14,739\\) (rounded).</p><p>Choice A is too low (linear depreciation). Choice C is after 2 years (\\(24000 \\times 0.85^2 = 17,340\\)). Choice D is after 1 year (\\(24000 \\times 0.85 = 20,400\\)).</p>"
+    },
+    {
+      "questionId": "perc_19",
+      "passageId": "",
+      "questionHtml": "<p>238 is \\(85\\%\\) of what number?</p>",
+      "options": {
+        "A": "202.3",
+        "B": "280",
+        "C": "323",
+        "D": "350"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Choice B is correct.</strong> Let the number be \\(x\\). Then \\(0.85x = 238\\). So \\(x = 238 \\div 0.85 = 280\\).</p><p>Choice A is \\(85\\%\\) of 238. Choice C is \\(238 \\times 1.36\\). Choice D is \\(238 \\div 0.68\\).</p>"
+    },
+    {
+      "questionId": "perc_20",
+      "passageId": "",
+      "questionHtml": "<p>A jacket originally costs $120. It is first discounted by \\(25\\%\\), then an additional \\(10\\%\\) is taken off the discounted price. Finally, a \\(6\\%\\) sales tax is added to the sale price. What is the final cost?</p>",
+      "options": {
+        "A": "$77.76",
+        "B": "$81.00",
+        "C": "$85.86",
+        "D": "$90.72"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Choice C is correct.</strong> First discount: \\(25\\%\\) off \\(\\rightarrow\\) pay \\(75\\%\\) of $120 \\(= 0.75 \\times 120 = 90\\). Second discount: \\(10\\%\\) off 90 \\(\\rightarrow\\) pay \\(90\\%\\) of $90 \\(= 0.90 \\times 90 = 81\\). Then add \\(6\\%\\) tax: tax \\(= 0.06 \\times 81 = 4.86\\), total \\(= 81 + 4.86 = 85.86\\).</p><p>Choice A is incorrect (perhaps applying discounts to original and tax on wrong base). Choice B is price after both discounts before tax. Choice D is incorrect (maybe \\(25\\%\\) then \\(10\\%\\) then tax added to original?).</p>"
+    },
+    {
+      "questionId": "perc_21",
+      "passageId": "",
+      "questionHtml": "<p>The number \\(a\\) is \\(40\\%\\) less than the positive number \\(b\\). The number \\(c\\) is \\(25\\%\\) greater than \\(a\\). What is the value of \\(\\frac{c}{b}\\)?</p>",
+      "options": {
+        "A": "0.65",
+        "B": "0.75",
+        "C": "0.85",
+        "D": "1.05"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Choice B is correct.</strong> \\(a\\) is \\(40\\%\\) less than \\(b \\rightarrow a = (1 - 0.40)b = 0.60b\\). \\(c\\) is \\(25\\%\\) greater than \\(a \\rightarrow c = (1 + 0.25)a = 1.25a\\). Substitute: \\(c = 1.25(0.60b) = 0.75b\\). Thus \\(\\frac{c}{b} = 0.75\\).</p><p>Choice A (0.65) might come from \\(a = 0.6b\\) and \\(c = 1.25a\\) incorrectly as \\(1.25 \\times 0.6 = 0.75\\), so no; 0.65 is from \\(0.6 + 0.05\\). Choice C (0.85) from \\(1.25 \\times 0.68\\). Choice D (1.05) from adding percents.</p>"
+    },
+    {
+      "questionId": "perc_22",
+      "passageId": "",
+      "questionHtml": "<p>The price of a stock increased from 2019 to 2020 by \\(x\\%\\). From 2020 to 2021, the price increased by half that percent. If the overall percent increase from 2019 to 2021 was \\(32\\%\\), what is the value of \\(x\\)?</p>",
+      "options": {
+        "A": "10",
+        "B": "15",
+        "C": "20",
+        "D": "25"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Choice C is correct.</strong> Let original price \\(= P\\). After first increase: \\(P(1 + \\frac{x}{100})\\). After second increase of \\(\\frac{x}{2}\\%\\): \\(P(1 + \\frac{x}{100})(1 + \\frac{x}{200}) = P(1 + \\frac{32}{100}) = 1.32P\\). Divide by \\(P\\): \\((1 + \\frac{x}{100})(1 + \\frac{x}{200}) = 1.32\\). Let \\(t = \\frac{x}{100}\\). Then \\((1 + t)(1 + \\frac{t}{2}) = 1.32 \\rightarrow 1 + 1.5t + 0.5t^2 = 1.32 \\rightarrow 0.5t^2 +1.5t - 0.32 = 0 \\rightarrow\\) multiply by 2: \\(t^2 + 3t - 0.64 = 0\\). Solve: \\(t = \\frac{-3 \\pm \\sqrt{9 + 2.56}}{2} = \\frac{-3 \\pm \\sqrt{11.56}}{2} = \\frac{-3 \\pm 3.4}{2}\\). Positive: \\(t = 0.4 / 2 = 0.2 \\rightarrow x = 20\\%\\).</p><p>Choices A, B, D do not satisfy the equation.</p>"
+    },
+    {
+      "questionId": "perc_23",
+      "passageId": "",
+      "questionHtml": "<p>In a certain library, \\(24\\%\\) of the books are fiction. Of the fiction books, \\(75\\%\\) are hardcover. Of the hardcover fiction books, \\(20\\%\\) are bestsellers. What percentage of all books in the library are hardcover fiction bestsellers?</p>",
+      "options": {
+        "A": "\\(1.2\\%\\)",
+        "B": "\\(3.6\\%\\)",
+        "C": "\\(15\\%\\)",
+        "D": "\\(18\\%\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Choice B is correct.</strong> Let total books \\(= T\\). Fiction \\(= 0.24T\\). Hardcover fiction \\(= 0.75 \\times 0.24T = 0.18T\\). Hardcover fiction bestsellers \\(= 0.20 \\times 0.18T = 0.036T = 3.6\\%\\) of \\(T\\).</p><p>Choice A \\((1.2\\%)\\) is \\(0.20 \\times 0.24 \\times 0.25\\). Choice C \\((15\\%)\\) is \\(0.75 \\times 0.20\\). Choice D \\((18\\%)\\) is just hardcover fiction without bestseller.</p>"
+    },
+    {
+      "questionId": "perc_24",
+      "passageId": "",
+      "questionHtml": "<p>A company surveyed employees about their preferred work mode. \\(35\\%\\) preferred remote, \\(40\\%\\) preferred hybrid, \\(15\\%\\) preferred in-office, and the remaining 50 employees had no preference. How many more employees preferred hybrid than in-office?</p>",
+      "options": {
+        "A": "125",
+        "B": "200",
+        "C": "75",
+        "D": "50"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>The correct answer is 125.</strong> The employees with no preference represent \\(100\\% - (35+40+15)\\% = 10\\%\\) of total. So \\(0.10 \\times \\text{Total} = 50 \\rightarrow \\text{Total} = 50 / 0.10 = 500\\). Hybrid \\(= 0.40 \\times 500 = 200\\). In-office \\(= 0.15 \\times 500 = 75\\). Difference \\(= 200 - 75 = 125\\).</p><p>Choice B is the number of hybrid employees. Choice C is the number of in-office employees. Choice D is the number with no preference.</p>"
+    },
+    {
+      "questionId": "perc_25",
+      "passageId": "",
+      "questionHtml": "<p>The value of a painting increased by \\(80\\%\\) from 2010 to 2015, then decreased by \\(40\\%\\) from 2015 to 2020. What was the net percent change in the painting's value from 2010 to 2020?</p>",
+      "options": {
+        "A": "\\(8\\%\\) increase",
+        "B": "\\(8\\%\\) decrease",
+        "C": "\\(12\\%\\) increase",
+        "D": "\\(40\\%\\) increase"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Choice A is correct.</strong> Let value in 2010 \\(= V\\). After \\(80\\%\\) increase: \\(V \\times 1.80 = 1.8V\\). After \\(40\\%\\) decrease: multiply by \\(1 - 0.40 = 0.60\\), so value \\(= 1.8V \\times 0.60 = 1.08V\\). That is an \\(8\\%\\) increase from \\(V\\).</p><p>Choice B (8% decrease) would be 0.92V. Choice C (12% increase) would be 1.12V. Choice D (40% increase) is from adding \\(80\\% - 40\\%\\) incorrectly.</p>"
+    },
+    {
+      "questionId": "perc_26",
+      "passageId": "",
+      "questionHtml": "<p>The number \\(p\\) is \\(30\\%\\) less than \\(q\\). The number \\(r\\) is \\(50\\%\\) greater than \\(p\\). The number \\(s\\) is \\(20\\%\\) less than \\(r\\). What is the value of \\(\\frac{s}{q}\\)?</p>",
+      "options": {
+        "A": "0.84",
+        "B": "0.70",
+        "C": "1.05",
+        "D": "0.96"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>The correct answer is 0.84.</strong> \\(p = (1 - 0.30)q = 0.70q\\). \\(r = (1 + 0.50)p = 1.50 \\times 0.70q = 1.05q\\). \\(s = (1 - 0.20)r = 0.80 \\times 1.05q = 0.84q\\). Thus \\(s/q = 0.84\\).</p><p>Choice B is \\(p/q\\). Choice C is \\(r/q\\). Choice D might come from multiplying 0.8 by 1.2 instead of 1.05.</p>"
+    },
+    {
+      "questionId": "perc_27",
+      "passageId": "",
+      "questionHtml": "<p>The table below shows the results of a survey asking adults whether they exercise regularly.</p><table border='1' cellpadding='5' cellspacing='0'><tr><th>Age group</th><th>Exercise regularly</th><th>Do not exercise regularly</th><th>Total</th></tr><tr><td>18-34</td><td>120</td><td>80</td><td>200</td></tr><tr><td>35-54</td><td>150</td><td>100</td><td>250</td></tr><tr><td>55+</td><td>80</td><td>120</td><td>200</td></tr></table><p>To the nearest whole percent, what is the difference between the percentage of adults aged 18-34 who exercise regularly and the percentage of adults aged 55+ who exercise regularly?</p>",
+      "options": {
+        "A": "\\(10\\%\\)",
+        "B": "\\(15\\%\\)",
+        "C": "\\(20\\%\\)",
+        "D": "\\(25\\%\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Choice C is correct.</strong> For 18-34: exercise regularly \\(= 120 / 200 = 0.60 = 60\\%\\). For 55+: \\(80 / 200 = 0.40 = 40\\%\\). Difference \\(= 20\\) percentage points.</p><p>Choice A \\((10\\%)\\) might be \\(50\\% - 40\\%\\). Choice B \\((15\\%)\\) might be average. Choice D \\((25\\%)\\) is \\(60\\% - 35\\%\\).</p>"
+    },
+    {
+      "questionId": "perc_28",
+      "passageId": "",
+      "questionHtml": "<p>A pharmaceutical company must ensure that a certain medication contains no more than \\(0.0005\\%\\) of a particular impurity by mass. If a batch of the medication has a mass of 250 kilograms, what is the maximum mass, in grams, of the impurity allowed?</p>",
+      "options": {
+        "A": "1.25",
+        "B": "0.00125",
+        "C": "1250",
+        "D": "0.0125"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>The correct answer is 1.25 grams.</strong> \\(0.0005\\%\\) means \\(\\frac{0.0005}{100} = 0.000005\\) as a decimal. Maximum impurity mass = \\(0.000005 \\times 250\\) kg = \\(0.00125\\) kg. Convert to grams: \\(0.00125 \\times 1000 = 1.25\\) grams. (Note: common mistake is to forget to divide by 100 when converting percent to decimal.)</p><p>Choice B is the result without converting kg to grams. Choice C is multiplying by 1000 incorrectly. Choice D is a decimal misplacement.</p>"
+    },
+    {
+      "questionId": "perc_29",
+      "passageId": "",
+      "questionHtml": "<p>The number \\(x\\) is \\(75\\%\\) greater than \\(y\\). The number \\(y\\) is \\(60\\%\\) less than \\(z\\). The number \\(z\\) is \\(20\\%\\) greater than 100. What is the value of \\(x\\)?</p>",
+      "options": {
+        "A": "48",
+        "B": "56",
+        "C": "72",
+        "D": "84"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p><strong>Choice D is correct.</strong> Work backwards: \\(z\\) is \\(20\\%\\) greater than \\(100 \\rightarrow z = 1.20 \\times 100 = 120\\). \\(y\\) is \\(60\\%\\) less than \\(z \\rightarrow y = (1 - 0.60) \\times 120 = 0.40 \\times 120 = 48\\). \\(x\\) is \\(75\\%\\) greater than \\(y \\rightarrow x = 1.75 \\times 48 = 84\\).</p><p>Choice A (48) is just \\(y\\). Choice B (56) is \\(1.75 \\times 32\\). Choice C (72) is \\(1.5 \\times 48\\).</p>"
+    },
+    {
+      "questionId": "perc_30",
+      "passageId": "",
+      "questionHtml": "<p>The population of a town increased by \\(25\\%\\) from 2015 to 2018, then decreased by \\(10\\%\\) from 2018 to 2020, then increased by \\(8\\%\\) from 2020 to 2023. What was the net percent change from 2015 to 2023?</p>",
+      "options": {
+        "A": "\\(20.15\\%\\) increase",
+        "B": "\\(21.5\\%\\) increase",
+        "C": "\\(23.0\\%\\) increase",
+        "D": "\\(24.3\\%\\) increase"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Choice B is correct.</strong> Let initial population \\(= P\\). After \\(25\\%\\) increase: \\(1.25P\\). After \\(10\\%\\) decrease: \\(1.25P \\times 0.90 = 1.125P\\). After \\(8\\%\\) increase: \\(1.125P \\times 1.08 = 1.215P\\). Net multiplier \\(= 1.215\\) which is a \\(21.5\\%\\) increase (since \\(1.215 - 1 = 0.215\\)).</p><p>Choice A \\((20.15\\%)\\) would be from adding \\(25 - 10 + 8 = 23\\%\\) then slight adjustment. Choice C \\((23\\%)\\) is simple sum. Choice D \\((24.3\\%)\\) is from multiplying incorrectly.</p>"
+    }
+  ]
+}

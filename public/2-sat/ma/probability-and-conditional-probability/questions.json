@@ -1,0 +1,394 @@
+{
+  "questions": [
+    {
+      "questionId": "e1",
+      "passageId": "",
+      "questionHtml": "<p>A jar contains 12 red jellybeans, 18 green jellybeans, and 10 blue jellybeans. If one jellybean is chosen at random, what is the probability that it is green?</p>",
+      "options": {
+        "A": "\\(\\frac{12}{40}\\)",
+        "B": "\\(\\frac{18}{40}\\)",
+        "C": "\\(\\frac{10}{40}\\)",
+        "D": "\\(\\frac{18}{30}\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Total jellybeans = 12 + 18 + 10 = 40.<br/><strong>Step 2:</strong> Number of green jellybeans = 18.<br/><strong>Step 3:</strong> Probability = number of green / total = \\(\\frac{18}{40}\\).<br/><strong>Step 4:</strong> This matches option B.</p>"
+    },
+    {
+      "questionId": "e2",
+      "passageId": "",
+      "questionHtml": "<p>Using the same jar from Question 1 (12 red, 18 green, 10 blue), what is the probability that a randomly selected jellybean is not blue?</p>",
+      "options": {
+        "A": "\\(\\frac{10}{40}\\)",
+        "B": "\\(\\frac{12}{40}\\)",
+        "C": "\\(\\frac{30}{40}\\)",
+        "D": "\\(\\frac{18}{40}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Not blue means red or green. Number of non-blue = 12 + 18 = 30.<br/><strong>Step 2:</strong> Total jellybeans = 40.<br/><strong>Step 3:</strong> Probability = \\(\\frac{30}{40}\\).<br/><strong>Step 4:</strong> Alternatively, \\(1 - \\frac{10}{40} = \\frac{30}{40}\\). Option C is correct.</p>"
+    },
+    {
+      "questionId": "e3",
+      "passageId": "",
+      "questionHtml": "<p>A survey of 200 students asked whether they own a dog and whether they own a cat. The results are shown below.</p>\n\\(\\begin{array}{c|c|c|c}\n & \\text{Own a cat} & \\text{Do not own a cat} & \\text{Total} \\\\ \\hline\n\\text{Own a dog} & 45 & 55 & 100 \\\\\n\\text{Do not own a dog} & 35 & 65 & 100 \\\\ \\hline\n\\text{Total} & 80 & 120 & 200\n\\end{array}\\)\n<p>If a student is selected at random, what is the probability that the student owns a dog?</p>",
+      "options": {
+        "A": "\\(\\frac{45}{200}\\)",
+        "B": "\\(\\frac{55}{200}\\)",
+        "C": "\\(\\frac{80}{200}\\)",
+        "D": "\\(\\frac{100}{200}\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p><strong>Step 1:</strong> Total students who own a dog = 100 (row total).<br/><strong>Step 2:</strong> Total students = 200.<br/><strong>Step 3:</strong> Probability = \\(\\frac{100}{200}\\).<br/><strong>Step 4:</strong> Option D is correct.</p>"
+    },
+    {
+      "questionId": "e4",
+      "passageId": "",
+      "questionHtml": "<p>Using the same table from Question 3, what is the probability that a randomly selected student does not own a cat?</p>",
+      "options": {
+        "A": "\\(\\frac{80}{200}\\)",
+        "B": "\\(\\frac{120}{200}\\)",
+        "C": "\\(\\frac{100}{200}\\)",
+        "D": "\\(\\frac{45}{200}\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> \"Does not own a cat\" corresponds to the column total for \"Do not own a cat\" = 120.<br/><strong>Step 2:</strong> Total students = 200.<br/><strong>Step 3:</strong> Probability = \\(\\frac{120}{200}\\).<br/><strong>Step 4:</strong> Option B is correct.</p>"
+    },
+    {
+      "questionId": "e5",
+      "passageId": "",
+      "questionHtml": "<p>A bookstore sold 150 books in a week: 60 fiction, 50 non‑fiction, and 40 children's books. If a book sold that week is chosen at random, what is the probability it is either fiction or non‑fiction?</p>",
+      "options": {
+        "A": "\\(\\frac{60}{150}\\)",
+        "B": "\\(\\frac{50}{150}\\)",
+        "C": "\\(\\frac{110}{150}\\)",
+        "D": "\\(\\frac{40}{150}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Fiction or non‑fiction = 60 + 50 = 110 books.<br/><strong>Step 2:</strong> Total books = 150.<br/><strong>Step 3:</strong> Probability = \\(\\frac{110}{150}\\).<br/><strong>Step 4:</strong> Option C is correct.</p>"
+    },
+    {
+      "questionId": "e6",
+      "passageId": "",
+      "questionHtml": "<p>Refer again to the dog/cat table from Question 3. If a student owns a dog, what is the probability that the student also owns a cat?</p>",
+      "options": {
+        "A": "\\(\\frac{45}{100}\\)",
+        "B": "\\(\\frac{45}{200}\\)",
+        "C": "\\(\\frac{55}{100}\\)",
+        "D": "\\(\\frac{35}{100}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Given the student owns a dog, we consider only the 100 dog owners.<br/><strong>Step 2:</strong> Among these, 45 own a cat.<br/><strong>Step 3:</strong> Conditional probability = \\(\\frac{45}{100}\\).<br/><strong>Step 4:</strong> Option A is correct.</p>"
+    },
+    {
+      "questionId": "e7",
+      "passageId": "",
+      "questionHtml": "<p>A group of 80 athletes is surveyed about their training. The table shows the number who run and/or swim.</p>\n\\(\\begin{array}{c|c|c|c}\n & \\text{Swim} & \\text{Do not swim} & \\text{Total} \\\\ \\hline\n\\text{Run} & 24 & 16 & 40 \\\\\n\\text{Do not run} & 28 & 12 & 40 \\\\ \\hline\n\\text{Total} & 52 & 28 & 80\n\\end{array}\\)\n<p>If an athlete is selected at random and does not swim, what is the probability that the athlete runs?</p>",
+      "options": {
+        "A": "\\(\\frac{16}{28}\\)",
+        "B": "\\(\\frac{16}{80}\\)",
+        "C": "\\(\\frac{24}{28}\\)",
+        "D": "\\(\\frac{24}{80}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Given \"does not swim\" → total in that column = 28.<br/><strong>Step 2:</strong> Among these, the number who run = 16.<br/><strong>Step 3:</strong> Conditional probability = \\(\\frac{16}{28}\\).<br/><strong>Step 4:</strong> Option A is correct.</p>"
+    },
+    {
+      "questionId": "e8",
+      "passageId": "",
+      "questionHtml": "<p>Using the swim/run table from Question 7, what is the probability that a randomly selected athlete either runs or swims (or both)?</p>",
+      "options": {
+        "A": "\\(\\frac{40+52}{80}\\)",
+        "B": "\\(\\frac{40+52-24}{80}\\)",
+        "C": "\\(\\frac{24}{80}\\)",
+        "D": "\\(\\frac{40 \\times 52}{80}\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> P(run or swim) = P(run) + P(swim) - P(run and swim).<br/><strong>Step 2:</strong> P(run) = \\(\\frac{40}{80}\\), P(swim) = \\(\\frac{52}{80}\\), P(run and swim) = \\(\\frac{24}{80}\\).<br/><strong>Step 3:</strong> So probability = \\(\\frac{40+52-24}{80}\\).<br/><strong>Step 4:</strong> Option B is correct.</p>"
+    },
+    {
+      "questionId": "e9",
+      "passageId": "",
+      "questionHtml": "<p>From the same swim/run table (Question 7), what is the probability that a randomly selected athlete swims and does not run?</p>",
+      "options": {
+        "A": "\\(\\frac{12}{80}\\)",
+        "B": "\\(\\frac{24}{80}\\)",
+        "C": "\\(\\frac{28}{80}\\)",
+        "D": "\\(\\frac{52}{80}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> The cell for \"Swim\" and \"Do not run\" contains 28 athletes.<br/><strong>Step 2:</strong> Total athletes = 80.<br/><strong>Step 3:</strong> Probability = \\(\\frac{28}{80}\\).<br/><strong>Step 4:</strong> Option C is correct.</p>"
+    },
+    {
+      "questionId": "e10",
+      "passageId": "",
+      "questionHtml": "<p>A bag contains only red and blue marbles. There are 50 marbles in total. The probability of selecting a red marble at random is 0.64. How many blue marbles are in the bag?</p>",
+      "options": {
+        "A": "14",
+        "B": "18",
+        "C": "32",
+        "D": "36"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> P(red) = 0.64, so number of red marbles = 0.64 × 50 = 32.<br/><strong>Step 2:</strong> Blue marbles = total − red = 50 − 32 = 18.<br/><strong>Step 3:</strong> Alternatively, P(blue) = 1 − 0.64 = 0.36, then 0.36 × 50 = 18.<br/><strong>Step 4:</strong> Option B is correct.</p>"
+    },
+    {
+      "questionId": "m1",
+      "passageId": "",
+      "questionHtml": "<p>A survey of 120 students asked whether they play a musical instrument and whether they sing in a choir. The results are shown below.</p>\n\\(\\begin{array}{c|c|c|c}\n & \\text{Sing in choir} & \\text{Do not sing} & \\text{Total} \\\\ \\hline\n\\text{Play instrument} & 28 & 42 & 70 \\\\\n\\text{Do not play} & 18 & 32 & 50 \\\\ \\hline\n\\text{Total} & 46 & 74 & 120\n\\end{array}\\)\n<p>If one student is selected at random, what is the probability that the student plays an instrument and sings in a choir?</p>",
+      "options": {
+        "A": "\\(\\frac{28}{120}\\)",
+        "B": "\\(\\frac{28}{70}\\)",
+        "C": "\\(\\frac{46}{70}\\)",
+        "D": "\\(\\frac{120}{120}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> The cell for \"plays an instrument\" AND \"sings in a choir\" contains 28 students.<br/><strong>Step 2:</strong> Total students = 120.<br/><strong>Step 3:</strong> Probability = \\(\\frac{28}{120}\\).<br/><strong>Step 4:</strong> Option A is correct.</p>"
+    },
+    {
+      "questionId": "m2",
+      "passageId": "",
+      "questionHtml": "<p>Using the same table from Question 11, if a student plays an instrument, what is the probability that the student sings in a choir?</p>",
+      "options": {
+        "A": "\\(\\frac{28}{120}\\)",
+        "B": "\\(\\frac{28}{70}\\)",
+        "C": "\\(\\frac{46}{70}\\)",
+        "D": "\\(\\frac{28}{46}\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Given the student plays an instrument → total in that row = 70.<br/><strong>Step 2:</strong> Among these, 28 sing in a choir.<br/><strong>Step 3:</strong> Conditional probability = \\(\\frac{28}{70}\\).<br/><strong>Step 4:</strong> Option B is correct.</p>"
+    },
+    {
+      "questionId": "m3",
+      "passageId": "",
+      "questionHtml": "<p>From the same table in Question 11, what is the probability that a randomly selected student either plays an instrument or sings in a choir (or both)?</p>",
+      "options": {
+        "A": "\\(\\frac{70}{120} + \\frac{46}{120}\\)",
+        "B": "\\(\\frac{70}{120} + \\frac{46}{120} - \\frac{28}{120}\\)",
+        "C": "\\(\\frac{70}{120} \\times \\frac{46}{120}\\)",
+        "D": "\\(\\frac{28}{120}\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> P(play or sing) = P(play) + P(sing) - P(play and sing).<br/><strong>Step 2:</strong> P(play) = \\(\\frac{70}{120}\\), P(sing) = \\(\\frac{46}{120}\\), P(play and sing) = \\(\\frac{28}{120}\\).<br/><strong>Step 3:</strong> So probability = \\(\\frac{70}{120} + \\frac{46}{120} - \\frac{28}{120}\\).<br/><strong>Step 4:</strong> Option B is correct.</p>"
+    },
+    {
+      "questionId": "m4",
+      "passageId": "",
+      "questionHtml": "<p>A bag contains 24 red marbles, 16 blue marbles, and 10 green marbles. If one marble is selected at random, what is the probability that it is not blue?</p>",
+      "options": {
+        "A": "\\(\\frac{16}{50}\\)",
+        "B": "\\(\\frac{24}{50}\\)",
+        "C": "\\(\\frac{34}{50}\\)",
+        "D": "\\(\\frac{10}{50}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Total marbles = 24 + 16 + 10 = 50.<br/><strong>Step 2:</strong> Not blue means red or green: 24 + 10 = 34.<br/><strong>Step 3:</strong> Probability = \\(\\frac{34}{50}\\).<br/><strong>Step 4:</strong> Alternatively, 1 − \\(\\frac{16}{50}\\) = \\(\\frac{34}{50}\\). Option C is correct.</p>"
+    },
+    {
+      "questionId": "m5",
+      "passageId": "",
+      "questionHtml": "<p>At a school, 40% of the students are in the band. If there are 480 students in the band, how many students are not in the band?</p>",
+      "options": {
+        "A": "192",
+        "B": "288",
+        "C": "720",
+        "D": "1200"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> 40% of total students = 480 → total students = 480 ÷ 0.40 = 1200.<br/><strong>Step 2:</strong> Students not in band = 1200 − 480 = 720.<br/><strong>Step 3:</strong> Alternatively, 60% of 1200 = 720.<br/><strong>Step 4:</strong> Option C is correct.</p>"
+    },
+    {
+      "questionId": "m6",
+      "passageId": "",
+      "questionHtml": "<p>A restaurant recorded customer orders during lunch. The table shows whether customers ordered a sandwich, a salad, or neither, and whether they ordered a drink.</p>\n\\(\\begin{array}{c|c|c|c}\n & \\text{Ordered a drink} & \\text{Did not order a drink} & \\text{Total} \\\\ \\hline\n\\text{Ordered sandwich} & 45 & 25 & 70 \\\\\n\\text{Ordered salad} & 30 & 20 & 50 \\\\\n\\text{Ordered neither} & 15 & 15 & 30 \\\\ \\hline\n\\text{Total} & 90 & 60 & 150\n\\end{array}\\)\n<p>If a customer did not order a drink, what is the probability that the customer ordered a sandwich?</p>",
+      "options": {
+        "A": "\\(\\frac{25}{60}\\)",
+        "B": "\\(\\frac{25}{70}\\)",
+        "C": "\\(\\frac{45}{90}\\)",
+        "D": "\\(\\frac{25}{150}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Given \"did not order a drink\" → total in that column = 60.<br/><strong>Step 2:</strong> Among these, 25 ordered a sandwich.<br/><strong>Step 3:</strong> Conditional probability = \\(\\frac{25}{60}\\).<br/><strong>Step 4:</strong> Option A is correct.</p>"
+    },
+    {
+      "questionId": "m7",
+      "passageId": "",
+      "questionHtml": "<p>Using the same restaurant table from Question 16, what is the probability that a randomly selected customer ordered neither a sandwich nor a salad?</p>",
+      "options": {
+        "A": "\\(\\frac{15}{150}\\)",
+        "B": "\\(\\frac{30}{150}\\)",
+        "C": "\\(\\frac{15}{30}\\)",
+        "D": "\\(\\frac{30}{90}\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> \"Neither sandwich nor salad\" means the row \"Ordered neither\" – total in that row = 30.<br/><strong>Step 2:</strong> Total customers = 150.<br/><strong>Step 3:</strong> Probability = \\(\\frac{30}{150}\\).<br/><strong>Step 4:</strong> Option B is correct.</p>"
+    },
+    {
+      "questionId": "m8",
+      "passageId": "",
+      "questionHtml": "<p>The table shows the number of tablets sold by four stores.</p>\n\\(\\begin{array}{c|c}\n\\text{Store} & \\text{Number sold} \\\\ \\hline\nP & 290 \\\\\nQ & 310 \\\\\nR & 180 \\\\\nS & 100\n\\end{array}\\)\n<p>If one tablet sold is selected at random, the probability it came from store P is closest to which fraction?</p>",
+      "options": {
+        "A": "\\(\\frac{1}{4}\\)",
+        "B": "\\(\\frac{1}{3}\\)",
+        "C": "\\(\\frac{2}{5}\\)",
+        "D": "\\(\\frac{1}{2}\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Total sold = 290 + 310 + 180 + 100 = 880.<br/><strong>Step 2:</strong> P(store P) = 290 / 880 = 29/88 ≈ 0.3295.<br/><strong>Step 3:</strong> Compare: 1/3 ≈ 0.3333, 1/4 = 0.25, 2/5 = 0.4, 1/2 = 0.5.<br/><strong>Step 4:</strong> 0.3295 is closest to 1/3, so option B is correct.</p>"
+    },
+    {
+      "questionId": "m9",
+      "passageId": "",
+      "questionHtml": "<p>A jar contains only red, green, and blue marbles. The probability of selecting a red marble at random is 0.35, and the probability of selecting a green marble is 0.25. If there are 120 marbles in total, how many blue marbles are in the jar?</p>",
+      "options": {
+        "A": "30",
+        "B": "42",
+        "C": "48",
+        "D": "72"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> P(blue) = 1 − 0.35 − 0.25 = 0.40.<br/><strong>Step 2:</strong> Number of blue marbles = 0.40 × 120 = 48.<br/><strong>Step 3:</strong> Option C is correct.</p>"
+    },
+    {
+      "questionId": "m10",
+      "passageId": "",
+      "questionHtml": "<p>A summer camp recorded the activities chosen by 200 campers. Each camper chose exactly one main activity. The table shows the number of campers by age group and activity.</p>\n\\(\\begin{array}{c|c|c|c|c}\n\\text{Age group} & \\text{Swimming} & \\text{Hiking} & \\text{Arts} & \\text{Total} \\\\ \\hline\n8-10 & 30 & 20 & 10 & 60 \\\\\n11-13 & 25 & 35 & 20 & 80 \\\\\n14-16 & 15 & 25 & 20 & 60 \\\\ \\hline\n\\text{Total} & 70 & 80 & 50 & 200\n\\end{array}\\)\n<p>If a camper is selected at random and is known to be in the 11‑13 age group, what is the probability that the camper chose either hiking or arts?</p>",
+      "options": {
+        "A": "\\(\\frac{35}{80}\\)",
+        "B": "\\(\\frac{20}{80}\\)",
+        "C": "\\(\\frac{55}{80}\\)",
+        "D": "\\(\\frac{35}{200}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Given age group 11‑13 → total in that row = 80.<br/><strong>Step 2:</strong> Hiking = 35, Arts = 20. Hiking or arts = 35 + 20 = 55.<br/><strong>Step 3:</strong> Probability = \\(\\frac{55}{80}\\).<br/><strong>Step 4:</strong> Option C is correct.</p>"
+    },
+    {
+      "questionId": "h1",
+      "passageId": "",
+      "questionHtml": "<p>A school surveyed 400 students about their participation in two activities: debate and drama. The results are shown below.</p>\n\\(\\begin{array}{c|c|c|c}\n & \\text{In drama} & \\text{Not in drama} & \\text{Total} \\\\ \\hline\n\\text{In debate} & 48 & 72 & 120 \\\\\n\\text{Not in debate} & 112 & 168 & 280 \\\\ \\hline\n\\text{Total} & 160 & 240 & 400\n\\end{array}\\)\n<p>If a student is selected at random from those who are not in drama, what is the probability that the student is in debate?</p>",
+      "options": {
+        "A": "0.12",
+        "B": "0.30",
+        "C": "0.40",
+        "D": "0.72"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> \"Not in drama\" total = 240 (column total).<br/><strong>Step 2:</strong> Among these, \"in debate\" = 72.<br/><strong>Step 3:</strong> Probability = 72 / 240 = 0.30.<br/><strong>Step 4:</strong> Option B is correct.</p>"
+    },
+    {
+      "questionId": "h2",
+      "passageId": "",
+      "questionHtml": "<p>The table shows the distribution of 120 participants in a study by age group and fitness level.</p>\n\\(\\begin{array}{c|c|c|c|c}\n\\text{Age group} & \\text{High fitness} & \\text{Medium fitness} & \\text{Low fitness} & \\text{Total} \\\\ \\hline\n18-29 & 18 & 12 & 6 & 36 \\\\\n30-49 & 24 & 20 & 16 & 60 \\\\\n50+ & 6 & 10 & 8 & 24 \\\\ \\hline\n\\text{Total} & 48 & 42 & 30 & 120\n\\end{array}\\)\n<p>If a participant is selected at random and is known to be at least 30 years old, what is the probability that the participant has high fitness?</p>",
+      "options": {
+        "A": "\\(\\frac{30}{84}\\)",
+        "B": "\\(\\frac{30}{120}\\)",
+        "C": "\\(\\frac{24}{84}\\)",
+        "D": "\\(\\frac{24}{60}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> At least 30 years old = age groups 30‑49 and 50+ → total = 60 + 24 = 84.<br/><strong>Step 2:</strong> High fitness in those groups = 24 + 6 = 30.<br/><strong>Step 3:</strong> Probability = \\(\\frac{30}{84}\\).<br/><strong>Step 4:</strong> Option A is correct.</p>"
+    },
+    {
+      "questionId": "h3",
+      "passageId": "",
+      "questionHtml": "<p>A survey of 600 pet owners asked about dog and cat ownership. The table below shows partial data.</p>\n\\(\\begin{array}{c|c|c|c}\n & \\text{Own a cat} & \\text{Do not own a cat} & \\text{Total} \\\\ \\hline\n\\text{Own a dog} & 108 & 132 & 240 \\\\\n\\text{Do not own a dog} & 132 & 228 & 360 \\\\ \\hline\n\\text{Total} & 240 & 360 & 600\n\\end{array}\\)\n<p>If a pet owner who owns a cat is selected at random, the probability that the owner also owns a dog is 0.45. How many owners own neither a dog nor a cat?</p>",
+      "options": {
+        "A": "108",
+        "B": "132",
+        "C": "228",
+        "D": "360"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Given cat owner, P(dog) = 108 / (total cat owners) = 0.45 → total cat owners = 108 / 0.45 = 240. This matches the table.<br/><strong>Step 2:</strong> \"Neither\" = do not own dog AND do not own cat = cell at row \"Do not own a dog\", column \"Do not own a cat\" = 228.<br/><strong>Step 3:</strong> Option C is correct.</p>"
+    },
+    {
+      "questionId": "h4",
+      "passageId": "",
+      "questionHtml": "<p>The table below shows the number of students who play violin, piano, or both, by grade level.</p>\n\\(\\begin{array}{c|c|c|c|c}\n\\text{Grade} & \\text{Violin only} & \\text{Piano only} & \\text{Both} & \\text{Total} \\\\ \\hline\n10\\text{th} & 10 & x & 6 & 40\n\\end{array}\\)\n<p>If a 10th‑grade student is selected at random, the probability that the student plays piano (either only piano or both) is 0.5. What is the value of \\(x\\)?</p>",
+      "options": {
+        "A": "14",
+        "B": "16",
+        "C": "18",
+        "D": "20"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> In 10th grade, total students = 40.<br/><strong>Step 2:</strong> Piano players = (piano only) + (both) = x + 6.<br/><strong>Step 3:</strong> Probability = (x + 6) / 40 = 0.5 → x + 6 = 20 → x = 14.<br/><strong>Step 4:</strong> Option A is correct.</p>"
+    },
+    {
+      "questionId": "h5",
+      "passageId": "",
+      "questionHtml": "<p>A company collected feedback via online and paper surveys. The number of online surveys was four times the number of paper surveys. The table shows the percentage distribution of ratings for each method.</p>\n\\(\\begin{array}{c|c|c}\n\\text{Rating} & \\text{Paper} & \\text{Online} \\\\ \\hline\n5\\text{ stars} & 20\\% & 50\\% \\\\\n4\\text{ stars} & 30\\% & 25\\% \\\\\n3\\text{ stars} & 40\\% & 15\\% \\\\\n2\\text{ stars} & 10\\% & 10\\%\n\\end{array}\\)\n<p>If a respondent who gave a 3‑star rating is selected at random, what is the probability that the respondent used the online survey?</p>",
+      "options": {
+        "A": "\\(\\frac{2}{5}\\)",
+        "B": "\\(\\frac{3}{5}\\)",
+        "C": "\\(\\frac{3}{8}\\)",
+        "D": "\\(\\frac{5}{8}\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Let number of paper surveys = p, then online = 4p.<br/><strong>Step 2:</strong> Number of 3‑star ratings from paper = 0.40p, from online = 0.15(4p) = 0.60p.<br/><strong>Step 3:</strong> Total 3‑star ratings = 0.40p + 0.60p = 1.00p.<br/><strong>Step 4:</strong> Probability online given 3‑star = 0.60p / 1.00p = 0.60 = \\(\\frac{3}{5}\\).<br/><strong>Step 5:</strong> Option B is correct.</p>"
+    },
+    {
+      "questionId": "h6",
+      "passageId": "",
+      "questionHtml": "<p>The same 30 contestants competed on three different days. Each day they received a score from 0 to 5. The table shows the number of contestants receiving each score on each day. No contestant received the same score on two different days.</p>\n\\(\\begin{array}{c|c|c|c|c}\n\\text{Score} & \\text{Day 1} & \\text{Day 2} & \\text{Day 3} & \\text{Total} \\\\ \\hline\n5 & 4 & 5 & 3 & 12 \\\\\n4 & 6 & 4 & 5 & 15 \\\\\n3 & 8 & 7 & 6 & 21 \\\\\n2 & 7 & 6 & 8 & 21 \\\\\n1 & 3 & 5 & 4 & 12 \\\\\n0 & 2 & 3 & 4 & 9 \\\\ \\hline\n\\text{Total} & 30 & 30 & 30 & 90\n\\end{array}\\)\n<p>If a contestant who received a score of 4 on one of the three days is selected at random, what is the probability that the contestant received a score of 4 on Day 2 or Day 3?</p>",
+      "options": {
+        "A": "\\(\\frac{4}{15}\\)",
+        "B": "\\(\\frac{5}{15}\\)",
+        "C": "\\(\\frac{9}{15}\\)",
+        "D": "\\(\\frac{11}{15}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Total contestants who received a score of 4 = 15 (sum of Day 1‑3).<br/><strong>Step 2:</strong> Because no contestant got the same score on two days, these 15 are distinct.<br/><strong>Step 3:</strong> Those who got a 4 on Day 2 or Day 3 = 4 + 5 = 9.<br/><strong>Step 4:</strong> Probability = \\(\\frac{9}{15}\\).<br/><strong>Step 5:</strong> Option C is correct.</p>"
+    },
+    {
+      "questionId": "h7",
+      "passageId": "",
+      "questionHtml": "<p>The table below shows the number of students who passed exam 1 and exam 2.</p>\n\\(\\begin{array}{c|c|c|c}\n & \\text{Passed exam 2} & \\text{Failed exam 2} & \\text{Total} \\\\ \\hline\n\\text{Passed exam 1} & 42 & 28 & 70 \\\\\n\\text{Failed exam 1} & 18 & 12 & 30 \\\\ \\hline\n\\text{Total} & 60 & 40 & 100\n\\end{array}\\)\n<p>If a student who passed at least one exam is selected at random, what is the probability that the student failed exam 1, given that the student passed exam 2?</p>",
+      "options": {
+        "A": "\\(\\frac{18}{60}\\)",
+        "B": "\\(\\frac{18}{42}\\)",
+        "C": "\\(\\frac{18}{70}\\)",
+        "D": "\\(\\frac{18}{30}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> \"Passed at least one exam\" includes all except the 12 who failed both, but the condition \"given that the student passed exam 2\" already implies passing at least one.<br/><strong>Step 2:</strong> Restrict to students who passed exam 2 (total 60).<br/><strong>Step 3:</strong> Among these, the number who failed exam 1 = 18.<br/><strong>Step 4:</strong> Probability = \\(\\frac{18}{60}\\).<br/><strong>Step 5:</strong> Option A is correct.</p>"
+    },
+    {
+      "questionId": "h8",
+      "passageId": "",
+      "questionHtml": "<p>A factory produces gadgets. The table shows the number of gadgets with defects type X and type Y.</p>\n\\(\\begin{array}{c|c|c|c}\n & \\text{Defect Y} & \\text{No defect Y} & \\text{Total} \\\\ \\hline\n\\text{Defect X} & 15 & 25 & 40 \\\\\n\\text{No defect X} & 35 & 125 & 160 \\\\ \\hline\n\\text{Total} & 50 & 150 & 200\n\\end{array}\\)\n<p>If a gadget with at least one defect is selected at random, what is the probability that the gadget has no defect X, given that it has defect Y?</p>",
+      "options": {
+        "A": "\\(\\frac{15}{50}\\)",
+        "B": "\\(\\frac{35}{50}\\)",
+        "C": "\\(\\frac{40}{35}\\)",
+        "D": "\\(\\frac{160}{200}\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Condition: has at least one defect AND has defect Y. Having defect Y already implies at least one defect.<br/><strong>Step 2:</strong> Restrict to gadgets with defect Y (total 50).<br/><strong>Step 3:</strong> Among those, the number with no defect X = 35.<br/><strong>Step 4:</strong> Probability = \\(\\frac{35}{50}\\).<br/><strong>Step 5:</strong> Option B is correct.</p>"
+    },
+    {
+      "questionId": "h9",
+      "passageId": "",
+      "questionHtml": "<p>A bag contains only red, blue, and green marbles. The probability of selecting a red marble is 0.3, and the probability of selecting a blue marble is 0.5. If there are 20 green marbles, how many total marbles are in the bag?</p>",
+      "options": {
+        "A": "40",
+        "B": "80",
+        "C": "100",
+        "D": "200"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> P(green) = 1 − 0.3 − 0.5 = 0.2.<br/><strong>Step 2:</strong> Let total marbles = T. Then 0.2T = 20 → T = 100.<br/><strong>Step 3:</strong> Option C is correct.</p>"
+    },
+    {
+      "questionId": "h10",
+      "passageId": "",
+      "questionHtml": "<p>At a school with 200 students, the probability that a randomly selected student takes art is 0.55, and the probability that a randomly selected student takes music is 0.30. The probability that a student takes art given that they take music is 0.60. How many students take only music?</p>",
+      "options": {
+        "A": "12",
+        "B": "18",
+        "C": "24",
+        "D": "30"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Total music students = 0.30 × 200 = 60.<br/><strong>Step 2:</strong> P(art | music) = 0.60 → students taking both = 0.60 × 60 = 36.<br/><strong>Step 3:</strong> Only music = 60 − 36 = 24.<br/><strong>Step 4:</strong> Option C is correct.</p>"
+    }
+  ]
+}

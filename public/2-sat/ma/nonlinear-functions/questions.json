@@ -1,0 +1,394 @@
+{
+  "passages": [],
+  "questions": [
+  {
+    "questionId": "nf_e1",
+    "passageId": "",
+    "questionHtml": "<p>The function \\(f\\) is defined by \\(f(x) = 5 + 3\\sqrt{x}\\). What is the value of \\(f(16)\\)?</p>",
+    "options": {
+      "A": "8",
+      "B": "17",
+      "C": "20",
+      "D": "53"
+    },
+    "correctOption": "B",
+    "explanationHtml": "<p><strong>Step 1:</strong> Substitute \\(x = 16\\) into \\(f(x) = 5 + 3\\sqrt{x}\\).<br/><strong>Step 2:</strong> \\(f(16) = 5 + 3\\sqrt{16} = 5 + 3 \\cdot 4 = 5 + 12 = 17\\).<br/><strong>Step 3:</strong> The value is 17, which corresponds to option B.</p>"
+  },
+  {
+    "questionId": "nf_e2",
+    "passageId": "",
+    "questionHtml": "<p>The function \\(g\\) is defined by \\(g(x) = (x - 2)^2 + 1\\). What is the value of \\(g(5)\\)?</p>",
+    "options": {
+      "A": "10",
+      "B": "16",
+      "C": "26",
+      "D": "36"
+    },
+    "correctOption": "A",
+    "explanationHtml": "<p><strong>Step 1:</strong> Substitute \\(x = 5\\): \\(g(5) = (5 - 2)^2 + 1 = (3)^2 + 1 = 9 + 1 = 10\\).<br/><strong>Step 2:</strong> The answer is 10, option A.</p>"
+  },
+  {
+    "questionId": "nf_e3",
+    "passageId": "",
+    "questionHtml": "<p>The function \\(h\\) is defined by \\(h(x) = 100(1.5)^x\\). What is the value of \\(h(3)\\)?</p>",
+    "options": {
+      "A": "150",
+      "B": "225",
+      "C": "337.5",
+      "D": "450"
+    },
+    "correctOption": "C",
+    "explanationHtml": "<p><strong>Step 1:</strong> \\(h(3) = 100(1.5)^3 = 100 \\cdot (1.5 \\cdot 1.5 \\cdot 1.5) = 100 \\cdot 3.375 = 337.5\\).<br/><strong>Step 2:</strong> Option C is correct.</p>"
+  },
+  {
+    "questionId": "nf_e4",
+    "passageId": "",
+    "questionHtml": "<p>The function \\(p\\) is defined by \\(p(x) = \\frac{x^2 - 4x + 7}{x - 2}\\). What is the value of \\(p(-1)\\)?</p>",
+    "options": {
+      "A": "-4",
+      "B": "-2",
+      "C": "2",
+      "D": "4"
+    },
+    "correctOption": "A",
+    "explanationHtml": "<p><strong>Step 1:</strong> Substitute \\(x = -1\\): numerator = \\((-1)^2 - 4(-1) + 7 = 1 + 4 + 7 = 12\\).<br/><strong>Step 2:</strong> Denominator = \\(-1 - 2 = -3\\).<br/><strong>Step 3:</strong> \\(p(-1) = 12 / (-3) = -4\\).<br/><strong>Step 4:</strong> Option A is correct.</p>"
+  },
+  {
+    "questionId": "nf_e5",
+    "passageId": "",
+    "questionHtml": "<p>A quadratic function is given by \\(f(x) = x^{2} - 6x + 5\\). What is the \\(y\\)-intercept of its graph in the \\(xy\\)-plane?</p>",
+    "options": {
+      "A": "(0, -5)",
+      "B": "(0, 5)",
+      "C": "(5, 0)",
+      "D": "(0, -6)"
+    },
+    "correctOption": "B",
+    "explanationHtml": "<p><strong>Step 1:</strong> The \\(y\\)-intercept occurs when \\(x = 0\\).<br/><strong>Step 2:</strong> \\(f(0) = 0^2 - 6(0) + 5 = 5\\).<br/><strong>Step 3:</strong> Thus the point is \\((0, 5)\\), option B.</p>"
+  },
+  {
+    "questionId": "nf_e6",
+    "passageId": "",
+    "questionHtml": "<p>The function \\(R(t) = 2500(1.08)^{t}\\) models a bank account balance, in dollars, \\(t\\) years after opening. Which statement best interprets \\(R(5) \\approx 3673\\)?</p>",
+    "options": {
+      "A": "After 5 years, the account balance is approximately $3673.",
+      "B": "The account earns 5% interest.",
+      "C": "The account balance increases by $3673 each year.",
+      "D": "After 5 years, the account balance is 3673 times the initial deposit."
+    },
+    "correctOption": "A",
+    "explanationHtml": "<p><strong>Step 1:</strong> \\(R(t)\\) gives the balance after \\(t\\) years.<br/><strong>Step 2:</strong> \\(R(5)\\) is the balance after 5 years, approximately $3673.<br/><strong>Step 3:</strong> Option A correctly interprets this. Options B, C, and D misrepresent the meaning.</p>"
+  },
+  {
+    "questionId": "nf_e7",
+    "passageId": "",
+    "questionHtml": "<p>Which of the following graphs in the \\(xy\\)-plane could represent \\(y = x^2 + 2\\)?</p>",
+    "options": {
+      "A": "Vertex at (0, -2), opening upward",
+      "B": "Vertex at (2, 0), opening downward",
+      "C": "Vertex at (0, 2), opening upward",
+      "D": "Vertex at (0, 2), opening downward"
+    },
+    "correctOption": "C",
+    "explanationHtml": "<p><strong>Step 1:</strong> The equation is \\(y = x^2 + 2\\), which is a quadratic with positive coefficient for \\(x^2\\), so it opens upward.<br/><strong>Step 2:</strong> The vertex is at \\((0, 2)\\) because it is in vertex form \\(y = (x-0)^2 + 2\\).<br/><strong>Step 3:</strong> Option C matches both features.</p>"
+  },
+  {
+    "questionId": "nf_e8",
+    "passageId": "",
+    "questionHtml": "<p>The table shows values of \\(x\\) and their corresponding values of \\(y\\) for a nonlinear function.<br/>\\(\\begin{array}{c|c} x & y \\\\ \\hline 0 & 0 \\\\ 1 & 1 \\\\ 4 & 2 \\\\ 9 & 3 \\end{array}\\)<br/>Which type of function could represent this relationship?</p>",
+    "options": {
+      "A": "Linear",
+      "B": "Quadratic",
+      "C": "Exponential",
+      "D": "Square root"
+    },
+    "correctOption": "D",
+    "explanationHtml": "<p><strong>Step 1:</strong> Observe that \\(y = \\sqrt{x}\\) fits: \\(\\sqrt{0}=0\\), \\(\\sqrt{1}=1\\), \\(\\sqrt{4}=2\\), \\(\\sqrt{9}=3\\).<br/><strong>Step 2:</strong> Therefore the relationship is a square root function, option D.</p>"
+  },
+  {
+    "questionId": "nf_e9",
+    "passageId": "",
+    "questionHtml": "<p>The graph of \\(y = -2x^{2} + 8x - 5\\) is a parabola. What is the \\(y\\)-coordinate of its vertex?</p>",
+    "options": {
+      "A": "-5",
+      "B": "3",
+      "C": "5",
+      "D": "8"
+    },
+    "correctOption": "B",
+    "explanationHtml": "<p><strong>Step 1:</strong> For \\(y = ax^2 + bx + c\\), the vertex \\(x\\)-coordinate is \\(x = -\\frac{b}{2a}\\).<br/><strong>Step 2:</strong> Here \\(a = -2\\), \\(b = 8\\): \\(x = -\\frac{8}{2(-2)} = -\\frac{8}{-4} = 2\\).<br/><strong>Step 3:</strong> Then \\(y = -2(2)^2 + 8(2) - 5 = -8 + 16 - 5 = 3\\).<br/><strong>Step 4:</strong> The \\(y\\)-coordinate is 3, option B.</p>"
+  },
+  {
+    "questionId": "nf_e10",
+    "passageId": "",
+    "questionHtml": "<p>The function \\(f\\) is defined by \\(f(x) = x^{3} - 4\\). If \\(f(a) = 4\\), what is the value of \\(a\\)?</p>",
+    "options": {
+      "A": "0",
+      "B": "2",
+      "C": "4",
+      "D": "8"
+    },
+    "correctOption": "B",
+    "explanationHtml": "<p><strong>Step 1:</strong> Set \\(f(a) = a^3 - 4 = 4\\).<br/><strong>Step 2:</strong> Solve: \\(a^3 = 8\\).<br/><strong>Step 3:</strong> \\(a = 2\\) (since \\(2^3 = 8\\)).<br/><strong>Step 4:</strong> Option B is correct.</p>"
+  },
+  {
+    "questionId": "nf_m1",
+    "passageId": "",
+    "questionHtml": "<p>A rectangular garden has an area of 240 square meters. The length of the garden is 4 meters more than twice the width. What is the width of the garden, in meters?</p>",
+    "options": {
+      "A": "8",
+      "B": "10",
+      "C": "12",
+      "D": "15"
+    },
+    "correctOption": "B",
+    "explanationHtml": "<p><strong>Step 1:</strong> Let \\(w\\) be the width. Then length \\(\\ell = 2w + 4\\).<br/><strong>Step 2:</strong> Area: \\(w(2w + 4) = 240\\).<br/><strong>Step 3:</strong> Expand: \\(2w^2 + 4w - 240 = 0\\). Divide by 2: \\(w^2 + 2w - 120 = 0\\).<br/><strong>Step 4:</strong> Factor: \\((w + 12)(w - 10) = 0\\). So \\(w = 10\\) (positive).<br/><strong>Step 5:</strong> Width is 10 meters, option B.</p>"
+  },
+  {
+    "questionId": "nf_m2",
+    "passageId": "",
+    "questionHtml": "<p>The function \\(V(t) = 12,000(0.92)^t\\) models the value, in dollars, of a car \\(t\\) years after purchase. What is the best interpretation of the number 0.92?</p>",
+    "options": {
+      "A": "The car loses 8% of its value each year.",
+      "B": "The car loses 92% of its value each year.",
+      "C": "The car gains 8% of its value each year.",
+      "D": "The car gains 92% of its value each year."
+    },
+    "correctOption": "A",
+    "explanationHtml": "<p><strong>Step 1:</strong> Exponential decay form: \\(V(t) = a(1 - r)^t\\), where \\(1 - r\\) is the decay factor.<br/><strong>Step 2:</strong> Here \\(0.92 = 1 - 0.08\\), so \\(r = 0.08 = 8\\%\\).<br/><strong>Step 3:</strong> This means the car loses 8% of its value each year, option A.</p>"
+  },
+  {
+    "questionId": "nf_m3",
+    "passageId": "",
+    "questionHtml": "<p>The function \\(h(x) = -3(x - 5)^2 + 75\\) models the height, in meters, of a projectile \\(x\\) seconds after launch. What is the maximum height reached?</p>",
+    "options": {
+      "A": "3 meters",
+      "B": "5 meters",
+      "C": "75 meters",
+      "D": "150 meters"
+    },
+    "correctOption": "C",
+    "explanationHtml": "<p><strong>Step 1:</strong> The function is in vertex form \\(h(x) = a(x - h)^2 + k\\) with \\(a = -3 < 0\\), so the vertex gives the maximum.<br/><strong>Step 2:</strong> Vertex is at \\((h, k) = (5, 75)\\).<br/><strong>Step 3:</strong> Maximum height is 75 meters, option C.</p>"
+  },
+  {
+    "questionId": "nf_m4",
+    "passageId": "",
+    "questionHtml": "<p>The function \\(f\\) is defined by \\(f(x) = \\frac{x - 3}{2x^2 - 5x - 3}\\). What is the value of \\(f(-1)\\)?</p>",
+    "options": {
+      "A": "-1",
+      "B": "0",
+      "C": "1",
+      "D": "2"
+    },
+    "correctOption": "A",
+    "explanationHtml": "<p><strong>Step 1:</strong> Substitute \\(x = -1\\): numerator = \\(-1 - 3 = -4\\).<br/><strong>Step 2:</strong> Denominator: \\(2(-1)^2 - 5(-1) - 3 = 2(1) + 5 - 3 = 2 + 5 - 3 = 4\\).<br/><strong>Step 3:</strong> \\(f(-1) = -4 / 4 = -1\\), option A.</p>"
+  },
+  {
+    "questionId": "nf_m5",
+    "passageId": "",
+    "questionHtml": "<p>The table shows values of an exponential function \\(f(x) = a \\cdot b^x\\).<br/>\\(\\begin{array}{c|c} x & f(x) \\\\ \\hline 0 & 800 \\\\ 1 & 680 \\\\ 2 & 578 \\end{array}\\)<br/>Which equation defines \\(f\\)?</p>",
+    "options": {
+      "A": "\\(f(x) = 800(0.85)^x\\)",
+      "B": "\\(f(x) = 800(0.85)^{x-1}\\)",
+      "C": "\\(f(x) = 680(0.85)^x\\)",
+      "D": "\\(f(x) = 800(1.15)^x\\)"
+    },
+    "correctOption": "A",
+    "explanationHtml": "<p><strong>Step 1:</strong> At \\(x = 0\\), \\(f(0) = a = 800\\).<br/><strong>Step 2:</strong> \\(f(1) = 800b = 680 \\Rightarrow b = 680/800 = 0.85\\).<br/><strong>Step 3:</strong> Check \\(f(2) = 800(0.85)^2 = 800(0.7225) = 578\\), matches.<br/><strong>Step 4:</strong> So \\(f(x) = 800(0.85)^x\\), option A.</p>"
+  },
+  {
+    "questionId": "nf_m6",
+    "passageId": "",
+    "questionHtml": "<p>The quadratic function \\(g\\) is defined by \\(g(x) = (2x + 6)(x - 5)\\). What are the \\(x\\)-intercepts of the graph of \\(y = g(x)\\)?</p>",
+    "options": {
+      "A": "\\((-3,0)\\) and \\((5,0)\\)",
+      "B": "\\((-6,0)\\) and \\((5,0)\\)",
+      "C": "\\((-3,0)\\) and \\((-5,0)\\)",
+      "D": "\\((3,0)\\) and \\((5,0)\\)"
+    },
+    "correctOption": "A",
+    "explanationHtml": "<p><strong>Step 1:</strong> Set \\(g(x) = 0\\): \\((2x + 6)(x - 5) = 0\\).<br/><strong>Step 2:</strong> \\(2x + 6 = 0 \\Rightarrow x = -3\\).<br/><strong>Step 3:</strong> \\(x - 5 = 0 \\Rightarrow x = 5\\).<br/><strong>Step 4:</strong> Intercepts are \\((-3,0)\\) and \\((5,0)\\), option A.</p>"
+  },
+  {
+    "questionId": "nf_m7",
+    "passageId": "",
+    "questionHtml": "<p>A population of bacteria doubles every 3 hours. Initially there are 500 bacteria. Which function \\(P(t)\\) models the population \\(t\\) hours after the start?</p>",
+    "options": {
+      "A": "\\(P(t) = 500(2)^{t/3}\\)",
+      "B": "\\(P(t) = 500(2)^{3t}\\)",
+      "C": "\\(P(t) = 500(3)^{t/2}\\)",
+      "D": "\\(P(t) = 500(2)^{t}\\)"
+    },
+    "correctOption": "A",
+    "explanationHtml": "<p><strong>Step 1:</strong> For doubling time \\(T\\), the model is \\(P(t) = P_0 \\cdot 2^{t/T}\\).<br/><strong>Step 2:</strong> Here \\(P_0 = 500\\) and \\(T = 3\\) hours.<br/><strong>Step 3:</strong> Thus \\(P(t) = 500 \\cdot 2^{t/3}\\), option A.</p>"
+  },
+  {
+    "questionId": "nf_m8",
+    "passageId": "",
+    "questionHtml": "<p>The height of a ball thrown upward is given by \\(h(t) = -16t^2 + 48t + 64\\), where \\(t\\) is in seconds and \\(h\\) is in feet. What does the number 64 represent?</p>",
+    "options": {
+      "A": "The maximum height",
+      "B": "The height after 1 second",
+      "C": "The initial height",
+      "D": "The time to reach the ground"
+    },
+    "correctOption": "C",
+    "explanationHtml": "<p><strong>Step 1:</strong> Evaluate \\(h(0)\\): \\(h(0) = -16(0)^2 + 48(0) + 64 = 64\\).<br/><strong>Step 2:</strong> This is the height at \\(t = 0\\), the initial height.<br/><strong>Step 3:</strong> Option C is correct.</p>"
+  },
+  {
+    "questionId": "nf_m9",
+    "passageId": "",
+    "questionHtml": "<p>A rare coin's value increases by \\(5\\%\\) each year. In 2010, it was worth $200. In which year will its value first exceed $300? (Use \\(1.05^8 \\approx 1.477\\), \\(1.05^9 \\approx 1.551\\) )</p>",
+    "options": {
+      "A": "2018",
+      "B": "2019",
+      "C": "2020",
+      "D": "2021"
+    },
+    "correctOption": "B",
+    "explanationHtml": "<p><strong>Step 1:</strong> Value after \\(t\\) years: \\(V(t) = 200(1.05)^t\\).<br/><strong>Step 2:</strong> Set \\(200(1.05)^t > 300 \\Rightarrow (1.05)^t > 1.5\\).<br/><strong>Step 3:</strong> Given \\(1.05^8 \\approx 1.477 < 1.5\\) and \\(1.05^9 \\approx 1.551 > 1.5\\).<br/><strong>Step 4:</strong> So \\(t = 9\\) years after 2010, which is 2019, option B.</p>"
+  },
+  {
+    "questionId": "nf_m10",
+    "passageId": "",
+    "questionHtml": "<p>The function \\(f\\) is defined by \\(f(x) = (x + 2)(x - 3)(x + 5)\\). Which of the following is NOT an \\(x\\)-intercept of the graph?</p>",
+    "options": {
+      "A": "\\((-2,0)\\)",
+      "B": "\\((3,0)\\)",
+      "C": "\\((-5,0)\\)",
+      "D": "\\((2,0)\\)"
+    },
+    "correctOption": "D",
+    "explanationHtml": "<p><strong>Step 1:</strong> Set \\(f(x)=0\\): \\(x+2=0 \\Rightarrow x=-2\\); \\(x-3=0 \\Rightarrow x=3\\); \\(x+5=0 \\Rightarrow x=-5\\).<br/><strong>Step 2:</strong> Intercepts are \\((-2,0), (3,0), (-5,0)\\).<br/><strong>Step 3:</strong> \\((2,0)\\) is not an intercept, option D.</p>"
+  },
+  {
+    "questionId": "nf_h1",
+    "passageId": "",
+    "questionHtml": "<p>The function \\(f\\) is defined by \\(f(x) = (x - 3)(x + 5)\\). The graph of \\(y = f(x)\\) is a parabola. What is the \\(x\\)-coordinate of the vertex?</p>",
+    "options": {
+      "A": "-3",
+      "B": "-1",
+      "C": "1",
+      "D": "3"
+    },
+    "correctOption": "B",
+    "explanationHtml": "<p><strong>Step 1:</strong> The \\(x\\)-intercepts are at \\(x = 3\\) and \\(x = -5\\).<br/><strong>Step 2:</strong> The vertex lies on the axis of symmetry, the midpoint of the intercepts: \\(\\frac{3 + (-5)}{2} = -1\\).<br/><strong>Step 3:</strong> Thus the \\(x\\)-coordinate is -1, option B.</p>"
+  },
+  {
+    "questionId": "nf_h2",
+    "passageId": "",
+    "questionHtml": "<p>A population of bacteria triples every 4 hours. Initially there are 200 bacteria. Which function \\(P(t)\\) models the population \\(t\\) hours after the start?</p>",
+    "options": {
+      "A": "\\(P(t) = 200(3)^{t/4}\\)",
+      "B": "\\(P(t) = 200(3)^{4t}\\)",
+      "C": "\\(P(t) = 200(4)^{t/3}\\)",
+      "D": "\\(P(t) = 200(4)^{3t}\\)"
+    },
+    "correctOption": "A",
+    "explanationHtml": "<p><strong>Step 1:</strong> For a tripling time \\(T\\), the model is \\(P(t) = P_0 \\cdot 3^{t/T}\\).<br/><strong>Step 2:</strong> Here \\(P_0 = 200\\) and \\(T = 4\\) hours.<br/><strong>Step 3:</strong> So \\(P(t) = 200 \\cdot 3^{t/4}\\), option A.</p>"
+  },
+  {
+    "questionId": "nf_h3",
+    "passageId": "",
+    "questionHtml": "<p>The function \\(h\\) is defined by \\(h(x) = -2(x - 3)^2 + 50\\). What is the maximum value of \\(h(x)\\)?</p>",
+    "options": {
+      "A": "-2",
+      "B": "3",
+      "C": "50",
+      "D": "53"
+    },
+    "correctOption": "C",
+    "explanationHtml": "<p><strong>Step 1:</strong> Vertex form \\(h(x) = a(x - h)^2 + k\\) with \\(a = -2 < 0\\), so the vertex gives the maximum.<br/><strong>Step 2:</strong> Vertex is at \\((h, k) = (3, 50)\\).<br/><strong>Step 3:</strong> Maximum value is 50, option C.</p>"
+  },
+  {
+    "questionId": "nf_h4",
+    "passageId": "",
+    "questionHtml": "<p>The function \\(f\\) is defined by \\(f(x) = a^x + b\\), where \\(a\\) and \\(b\\) are constants. The graph of \\(y = f(x)\\) has a \\(y\\)-intercept at \\((0, -3)\\) and an \\(x\\)-intercept at \\((2, 0)\\). What is the value of \\(a\\)?</p>",
+    "options": {
+      "A": "\\(\\sqrt{2}\\)",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correctOption": "B",
+    "explanationHtml": "<p><strong>Step 1:</strong> \\(y\\)-intercept: \\(f(0) = a^0 + b = 1 + b = -3 \\Rightarrow b = -4\\).<br/><strong>Step 2:</strong> \\(x\\)-intercept: \\(f(2) = a^2 + (-4) = 0 \\Rightarrow a^2 = 4 \\Rightarrow a = 2\\) (positive base).<br/><strong>Step 3:</strong> Option B is correct.</p>"
+  },
+  {
+    "questionId": "nf_h5",
+    "passageId": "",
+    "questionHtml": "<p>The quadratic function \\(g\\) is defined by \\(g(x) = 2x^2 - 12x + 23\\). What is the minimum value of \\(g(x)\\)?</p>",
+    "options": {
+      "A": "5",
+      "B": "11",
+      "C": "23",
+      "D": "29"
+    },
+    "correctOption": "A",
+    "explanationHtml": "<p><strong>Step 1:</strong> Complete the square: \\(g(x) = 2(x^2 - 6x) + 23 = 2[(x - 3)^2 - 9] + 23 = 2(x - 3)^2 - 18 + 23 = 2(x - 3)^2 + 5\\).<br/><strong>Step 2:</strong> Since \\(2(x-3)^2 \\ge 0\\), the minimum is 5 at \\(x = 3\\).<br/><strong>Step 3:</strong> Option A is correct.</p>"
+  },
+  {
+    "questionId": "nf_h6",
+    "passageId": "",
+    "questionHtml": "<p>A ball is thrown upward from a height of 64 feet. Its height \\(h(t)\\) in feet after \\(t\\) seconds is given by \\(h(t) = -16t^2 + 48t + 64\\). After how many seconds does the ball hit the ground?</p>",
+    "options": {
+      "A": "1",
+      "B": "3",
+      "C": "4",
+      "D": "6"
+    },
+    "correctOption": "C",
+    "explanationHtml": "<p><strong>Step 1:</strong> Set \\(h(t) = 0\\): \\(-16t^2 + 48t + 64 = 0\\).<br/><strong>Step 2:</strong> Divide by -16: \\(t^2 - 3t - 4 = 0\\).<br/><strong>Step 3:</strong> Factor: \\((t - 4)(t + 1) = 0 \\Rightarrow t = 4\\) (positive).<br/><strong>Step 4:</strong> The ball hits the ground after 4 seconds, option C.</p>"
+  },
+  {
+    "questionId": "nf_h7",
+    "passageId": "",
+    "questionHtml": "<p>The function \\(f\\) is defined by \\(f(x) = 2(3^{x})\\). If \\(f(a) = 162\\), what is the value of \\(a\\)?</p>",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correctOption": "B",
+    "explanationHtml": "<p><strong>Step 1:</strong> Set \\(2(3^a) = 162 \\Rightarrow 3^a = 81\\).<br/><strong>Step 2:</strong> Since \\(81 = 3^4\\), \\(a = 4\\).<br/><strong>Step 3:</strong> Option B is correct.</p>"
+  },
+  {
+    "questionId": "nf_h8",
+    "passageId": "",
+    "questionHtml": "<p>The table shows values of an exponential function \\(f(x) = a \\cdot b^x\\).<br/>\\(\\begin{array}{c|c} x & f(x) \\\\ \\hline 0 & 320 \\\\ 2 & 80 \\\\ 4 & 20 \\end{array}\\)<br/>What is the value of \\(b\\)?</p>",
+    "options": {
+      "A": "0.25",
+      "B": "0.5",
+      "C": "2",
+      "D": "4"
+    },
+    "correctOption": "B",
+    "explanationHtml": "<p><strong>Step 1:</strong> From \\(x = 0\\), \\(a = 320\\).<br/><strong>Step 2:</strong> Using \\(x = 2\\): \\(320b^2 = 80 \\Rightarrow b^2 = 80/320 = 1/4 \\Rightarrow b = 0.5\\) (positive).<br/><strong>Step 3:</strong> Check \\(x = 4\\): \\(320(0.5)^4 = 320/16 = 20\\), matches.<br/><strong>Step 4:</strong> So \\(b = 0.5\\), option B.</p>"
+  },
+  {
+    "questionId": "nf_h9",
+    "passageId": "",
+    "questionHtml": "<p>The function \\(h\\) is defined by \\(h(x) = (x + 2)(x - 4)(x + 1)\\). For how many values of \\(x\\) does \\(h(x) = 0\\)?</p>",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correctOption": "C",
+    "explanationHtml": "<p><strong>Step 1:</strong> Set each factor to zero: \\(x+2=0 \\Rightarrow x=-2\\); \\(x-4=0 \\Rightarrow x=4\\); \\(x+1=0 \\Rightarrow x=-1\\).<br/><strong>Step 2:</strong> Three distinct zeros.<br/><strong>Step 3:</strong> Option C is correct.</p>"
+  },
+  {
+    "questionId": "nf_h10",
+    "passageId": "",
+    "questionHtml": "<p>The quadratic function \\(f\\) has a vertex at \\((-1,2)\\) and passes through the point \\((1,10)\\). What is the value of \\(f(3)\\)?</p>",
+    "options": {
+      "A": "18",
+      "B": "26",
+      "C": "34",
+      "D": "50"
+    },
+    "correctOption": "C",
+    "explanationHtml": "<p><strong>Step 1:</strong> Vertex form: \\(f(x) = a(x + 1)^2 + 2\\).<br/><strong>Step 2:</strong> Use point \\((1,10)\\): \\(10 = a(1 + 1)^2 + 2 = 4a + 2 \\Rightarrow 4a = 8 \\Rightarrow a = 2\\).<br/><strong>Step 3:</strong> Then \\(f(3) = 2(3 + 1)^2 + 2 = 2(16) + 2 = 32 + 2 = 34\\).<br/><strong>Step 4:</strong> Option C is correct.</p>"
+  }
+]}

@@ -1,0 +1,358 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "questionId": "a1b2c3d4",
+      "passageId": "",
+      "questionHtml": "<p>The perimeter of a square is 24 centimeters. What is the area of the square, in square centimeters?</p>",
+      "options": {
+        "A": "36",
+        "B": "48",
+        "C": "144",
+        "D": "576"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Perimeter of a square is \\(4s = 24\\).<br><strong>Step 2:</strong> Divide by 4: \\(s = 6\\) cm.<br><strong>Step 3:</strong> Area = \\(s^2 = 6^2 = 36\\) cm².<br><strong>Progression:</strong> Find side from perimeter before calculating area.</p>"
+    },
+    {
+      "questionId": "b2c3d4e5",
+      "passageId": "",
+      "questionHtml": "<p>A rectangle has a length of 1.2 meters and a width of 50 centimeters. What is its area in square centimeters?</p>",
+      "options": {
+        "A": "60",
+        "B": "600",
+        "C": "6,000",
+        "D": "60,000"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Convert length to cm: \\(1.2\\text{ m} = 1.2 \\times 100 = 120\\text{ cm}\\).<br><strong>Step 2:</strong> Width = 50 cm.<br><strong>Step 3:</strong> Area = \\(120 \\times 50 = 6,000\\text{ cm}^2\\).<br><strong>Progression:</strong> Unit conversion before multiplication.</p>"
+    },
+    {
+      "questionId": "c3d4e5f6",
+      "passageId": "",
+      "questionHtml": "<p>The area of a rectangle is 104 square centimeters. Its height is 8 centimeters. What is its length?</p>",
+      "options": {
+        "A": "13 cm",
+        "B": "16 cm",
+        "C": "96 cm",
+        "D": "112 cm"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Area = length × height → \\(104 = \\text{length} \\times 8\\).<br><strong>Step 2:</strong> Divide both sides by 8: length = \\(104 / 8 = 13\\) cm.<br><strong>Progression:</strong> Rearrange area formula to solve for missing dimension.</p>"
+    },
+    {
+      "questionId": "d4e5f6g7",
+      "passageId": "",
+      "questionHtml": "<p>A rectangular garden has a length of 9 meters and a width of 5 meters. A fence will be placed along all four edges. How many meters of fencing are required?</p>",
+      "options": {
+        "A": "14 m",
+        "B": "28 m",
+        "C": "45 m",
+        "D": "90 m"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Fencing goes around the perimeter.<br><strong>Step 2:</strong> Perimeter \\(P = 2l + 2w = 2(9) + 2(5) = 18 + 10 = 28\\) m.<br><strong>Progression:</strong> Distinguish perimeter from area using a word problem.</p>"
+    },
+    {
+      "questionId": "e5f6g7h8",
+      "passageId": "",
+      "questionHtml": "<p>The figure shown is made of two rectangles. What is the total area, in square centimeters?</p> <img src=\"/2-sat-i/ma/anvo/image_5.png\" class=\"responsive-img\" alt=\"\">",
+      "options": {
+        "A": "24",
+        "B": "34",
+        "C": "40",
+        "D": "64"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Vertical rectangle area = \\(8 \\times 3 = 24\\).<br><strong>Step 2:</strong> Horizontal rectangle area = \\(5 \\times 2 = 10\\).<br><strong>Step 3:</strong> Total = \\(24 + 10 = 34\\) cm².<br><strong>Progression:</strong> Break a composite shape into simpler rectangles and sum areas.</p>"
+    },
+   
+    {
+      "questionId": "g7h8i9jo",
+      "passageId": "",
+      "questionHtml": "<p>A rectangular shipping container has a volume of 270 cubic meters. Its length is 9 meters and its width is 5 meters. What is its height?</p> <img src=\"/2-sat-i/ma/anvo/image_7.png\" class=\"responsive-img\" alt=\"\">",
+      "options": {
+        "A": "6 m",
+        "B": "9 m",
+        "C": "15 m",
+        "D": "54 m"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> \\(V = l \\times w \\times h \\rightarrow 270 = 9 \\times 5 \\times h = 45h\\).<br><strong>Step 2:</strong> \\(h = 270 / 45 = 6\\) m.<br><strong>Progression:</strong> Multiply known dimensions, then divide volume by that product.</p>"
+    },
+    {
+      "questionId": "h8i9jok1",
+      "passageId": "",
+      "questionHtml": "<p>The volume of a cube is 125 cubic inches. What is the total surface area of the cube?</p>",
+      "options": {
+        "A": "25 in²",
+        "B": "75 in²",
+        "C": "150 in²",
+        "D": "250 in²"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> \\(V = s^3 = 125 \\rightarrow s = \\sqrt[3]{125} = 5\\) inches.<br><strong>Step 2:</strong> Area of one face = \\(5^2 = 25\\) in².<br><strong>Step 3:</strong> Cube has 6 faces → total SA = \\(6 \\times 25 = 150\\) in².<br><strong>Progression:</strong> Cube root, then surface area formula.</p>"
+    },
+    {
+      "questionId": "i9jok112",
+      "passageId": "",
+      "questionHtml": "<p>The area of a circle is \\(64\\pi\\) square centimeters. What is its circumference?</p>",
+      "options": {
+        "A": "\\(8\\pi\\) cm",
+        "B": "\\(16\\pi\\) cm",
+        "C": "\\(32\\pi\\) cm",
+        "D": "\\(64\\pi\\) cm"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Area = \\(\\pi r^2 = 64\\pi \\rightarrow r^2 = 64 \\rightarrow r = 8\\) cm.<br><strong>Step 2:</strong> Circumference \\(C = 2\\pi r = 2\\pi \\times 8 = 16\\pi\\) cm.<br><strong>Progression:</strong> Two circle formulas – solve for radius from area, then circumference.</p>"
+    },
+    {
+      "questionId": "j0k112m3",
+      "passageId": "",
+      "questionHtml": "<p>A cylindrical can has a diameter of 10 centimeters and a height of 12 centimeters. What is its volume, in cubic centimeters? (Use \\(\\pi \\approx 3.14\\))</p>",
+      "options": {
+        "A": "376.8 cm³",
+        "B": "942 cm³",
+        "C": "1,130.4 cm³",
+        "D": "3,768 cm³"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Radius = diameter/2 = 5 cm.<br><strong>Step 2:</strong> \\(V = \\pi r^2 h = 3.14 \\times 25 \\times 12 = 3.14 \\times 300 = 942\\) cm³.<br><strong>Progression:</strong> Convert diameter to radius before using cylinder volume formula.</p>"
+    },
+    {
+      "questionId": "m1a2b3c4",
+      "passageId": "",
+      "questionHtml": "<p>A right circular cylinder has a volume of \\(80\\pi\\) cubic centimeters and a radius of 4 centimeters. What is the height of the cylinder?</p> <img src=\"/2-sat-i/ma/anvo/image_11.png\" class=\"responsive-img\" alt=\"\">",
+      "options": {
+        "A": "2 cm",
+        "B": "5 cm",
+        "C": "10 cm",
+        "D": "20 cm"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> \\(V = \\pi r^2 h \\rightarrow 80\\pi = \\pi (4^2)h = 16\\pi h\\).<br><strong>Step 2:</strong> Divide by \\(16\\pi\\): \\(h = \\frac{80\\pi}{16\\pi} = 5\\) cm.<br><strong>Progression:</strong> Solve for height – requires dividing by \\(\\pi\\) correctly.</p>"
+    },
+    {
+      "questionId": "m2b3c4d5",
+      "passageId": "",
+      "questionHtml": "<p>A square has the same area as a circle with radius 3. What is the side length of the square?</p> ",
+      "options": {
+        "A": "\\(3\\sqrt{\\pi}\\)",
+        "B": "\\(3\\sqrt{2\\pi}\\)",
+        "C": "\\(9\\pi\\)",
+        "D": "\\(9\\sqrt{\\pi}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Circle area = \\(\\pi r^2 = 9\\pi\\).<br><strong>Step 2:</strong> Square area = \\(s^2 = 9\\pi \\rightarrow s = \\sqrt{9\\pi} = 3\\sqrt{\\pi}\\).<br><strong>Progression:</strong> Relate two shapes; simplify square root with \\(\\pi\\).</p>"
+    },
+    
+    {
+      "questionId": "m4d5e6f7",
+      "passageId": "",
+      "questionHtml": "A right circular cylinder has a volume of \\(72\\pi\\) cubic meters and a height of 8 meters. What is the diameter of the cylinder?</p> <img src=\"/2-sat-i/ma/anvo/image_14.png\" class=\"responsive-img\" alt=\"\"><p>",
+      "options": {
+        "A": "3 m",
+        "B": "6 m",
+        "C": "9 m",
+        "D": "12 m"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> \\(V = \\pi r^2 h \\rightarrow 72\\pi = \\pi r^2 (8) \\rightarrow 72 = 8r^2 \\rightarrow r^2 = 9 \\rightarrow r = 3\\) m.<br><strong>Step 2:</strong> Diameter \\(d = 2r = 6\\) m.<br><strong>Progression:</strong> Trick: question asks for diameter, student must double the radius.</p>"
+    },
+    {
+      "questionId": "m5e6f7g8",
+      "passageId": "",
+      "questionHtml": "<p>A right triangular prism has a base that is a right triangle with legs of length 6 cm and 8 cm. The prism has a height (distance between the two triangular faces) of 10 cm. What is the volume of the prism?</p> <img src=\"/2-sat-i/ma/anvo/image_15.png\" class=\"responsive-img\" alt=\"\">",
+      "options": {
+        "A": "120 cm³",
+        "B": "240 cm³",
+        "C": "360 cm³",
+        "D": "480 cm³"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Base area (right triangle) = \\(\\frac{1}{2} \\times 6 \\times 8 = 24\\) cm².<br><strong>Step 2:</strong> Prism volume = base area × height = \\(24 \\times 10 = 240\\) cm³.<br><strong>Progression:</strong> New shape – find triangle area first, then multiply by prism height.</p>"
+    },
+    {
+      "questionId": "m6f7g8h9",
+      "passageId": "",
+      "questionHtml": "<p>The figure consists of a rectangle with a triangle attached to its top side. The rectangle has width 12 cm and height 5 cm. The triangle has base 12 cm (same as rectangle width) and height 4 cm. What is the total area of the figure?</p> <img src=\"/2-sat-i/ma/anvo/image_16.png\" class=\"responsive-img\" alt=\"\">",
+      "options": {
+        "A": "60 cm²",
+        "B": "84 cm²",
+        "C": "96 cm²",
+        "D": "108 cm²"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Rectangle area = \\(12 \\times 5 = 60\\) cm².<br><strong>Step 2:</strong> Triangle area = \\(\\frac{1}{2} \\times 12 \\times 4 = 24\\) cm².<br><strong>Step 3:</strong> Total = \\(60 + 24 = 84\\) cm².<br><strong>Progression:</strong> Composite shape with rectangle and triangle – clean numbers.</p>"
+    },
+    {
+      "questionId": "m7g8h9i0",
+      "passageId": "",
+      "questionHtml": "<p>The total surface area of a cube is 150 square inches. What is the volume of the cube?</p>",
+      "options": {
+        "A": "125 in³",
+        "B": "150 in³",
+        "C": "225 in³",
+        "D": "375 in³"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Surface area of cube = \\(6s^2 = 150 \\rightarrow s^2 = 25 \\rightarrow s = 5\\) in.<br><strong>Step 2:</strong> Volume = \\(s^3 = 5^3 = 125\\) in³.<br><strong>Progression:</strong> Work backwards from surface area to side length to volume.</p>"
+    },
+    {
+      "questionId": "m8h9i0j1",
+      "passageId": "",
+      "questionHtml": "<p>The lateral surface area of a right circular cylinder is \\(120\\pi\\) square centimeters, and its height is 10 centimeters. What is the volume of the cylinder?</p>",
+      "options": {
+        "A": "\\(120\\pi\\) cm³",
+        "B": "\\(240\\pi\\) cm³",
+        "C": "\\(360\\pi\\) cm³",
+        "D": "\\(600\\pi\\) cm³"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Lateral surface area = \\(2\\pi r h = 120\\pi\\) (Lateral area does not include bases.).<br><strong>Step 2:</strong> Divide by \\(2\\pi h = 20\\pi\\): \\(r = \\frac{120\\pi}{20\\pi} = 6\\) cm.<br><strong>Step 3:</strong> Volume = \\(\\pi r^2 h = \\pi \\times 36 \\times 10 = 360\\pi\\) cm³.<br><strong>Progression:</strong> Introduces lateral surface area – student must know that formula.</p>"
+    },
+    {
+      "questionId": "m0j1k2l3",
+      "passageId": "",
+      "questionHtml": "<img src=\"/2-sat-i/ma/anvo/image_20.png\" class=\"responsive-img\" alt=\"\"><p>A square is inscribed in a circle. The area of the circle is \\(25\\pi\\) square centimeters. What is the area of the square?</p>",
+      "options": {
+        "A": "25 cm²",
+        "B": "50 cm²",
+        "C": "100 cm²",
+        "D": "200 cm²"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Circle area = \\(\\pi r^2 = 25\\pi \\rightarrow r^2 = 25 \\rightarrow r = 5\\) cm, diameter = 10 cm.<br><strong>Step 2:</strong> For inscribed square, diagonal = diameter = 10 cm. Side \\(s = \\frac{10}{\\sqrt{2}} = 5\\sqrt{2}\\) cm.<br><strong>Step 3:</strong> Square area = \\(s^2 = (5\\sqrt{2})^2 = 50\\) cm².<br><strong>Progression:</strong> Relates circle and square via diagonal/diameter – multiple steps.</p>"
+    },
+    {
+      "questionId": "h1a2b3c4",
+      "passageId": "",
+      "questionHtml": "<img src=\"/2-sat-i/ma/anvo/image_21.png\" class=\"responsive-img\" alt=\"\"><p>A right circular cylinder has radius \\(r\\) and height \\(h\\). A second right circular cylinder has radius \\(R\\) and height \\(H\\). The volume of the second cylinder is 512 times the volume of the first cylinder. Which of the following could represent \\(R\\) in terms of \\(r\\) and \\(H\\) in terms of \\(h\\)?</p>",
+      "options": {
+        "A": "\\(R = 8r\\) and \\(H = 8h\\)",
+        "B": "\\(R = 10r\\) and \\(H = 5h\\)",
+        "C": "\\(R = 5r\\) and \\(H = 20h\\)",
+        "D": "\\(R = 4r\\) and \\(H = 25h\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> \\(V_2 = \\pi R^2 H = 512 \\pi r^2 h \\rightarrow R^2 H = 512 r^2 h\\).<br><strong>Step 2:</strong> Let \\(R = k r\\), \\(H = m h\\) → \\(k^2 m = 512\\).<br><strong>Step 3:</strong> Check options: A) \\(8^2 \\times 8 = 64 \\times 8 = 512\\); B) \\(10^2 \\times 5 = 500\\); C) \\(5^2 \\times 20 = 500\\); D) \\(4^2 \\times 25 = 400\\). Only A works.<br><strong>Progression:</strong> Scaling factors with product constraint – test each option.</p>"
+    },
+    {
+      "questionId": "h2b3c4d5",
+      "passageId": "",
+      "questionHtml": "<img src=\"/2-sat-i/ma/anvo/image_22.png\" class=\"responsive-img\" alt=\"\"><p>A right circular cone has radius \\(r\\) and height \\(h\\). The radius is increased by 50% and the height is increased by 20%. By what percent does the volume of the cone increase?</p>",
+      "options": {
+        "A": "70%",
+        "B": "120%",
+        "C": "170%",
+        "D": "270%"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Original volume \\(V = \\frac{1}{3}\\pi r^2 h\\).<br><strong>Step 2:</strong> New radius = \\(1.5r\\), new height = \\(1.2h\\).<br><strong>Step 3:</strong> New volume \\(V' = \\frac{1}{3}\\pi (1.5r)^2 (1.2h) = V \\times (2.25 \\times 1.2) = V \\times 2.7\\).<br><strong>Step 4:</strong> Increase = \\(2.7 - 1 = 1.7 = 170\\%\\).<br><strong>Progression:</strong> Multiply scale factors, then subtract 1 to get percent increase.</p>"
+    },
+    {
+      "questionId": "h3c4d5e6",
+      "passageId": "",
+      "questionHtml": "<img src=\"image/image_23.png\" class=\"responsive-img\" alt=\"\"><p>A right circular cylinder has volume \\(24\\pi\\) cubic centimeters. Its height is 3 times its radius. What is the radius, in centimeters?</p>",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "6"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> \\(V = \\pi r^2 h = \\pi r^2 (3r) = 3\\pi r^3 = 24\\pi\\).<br><strong>Step 2:</strong> Divide by \\(3\\pi\\): \\(r^3 = 8 \\rightarrow r = 2\\) cm.<br><strong>Progression:</strong> Substitute the relationship before solving the cubic.</p>"
+    },
+    {
+      "questionId": "h4d5e6f7",
+      "passageId": "",
+      "questionHtml": "<img src=\"image/image_24.png\" class=\"responsive-img\" alt=\"\"><p>The volume of a sphere is \\(36\\pi\\) cubic meters. What is the surface area of the sphere? (Volume = \\(\\frac{4}{3}\\pi r^3\\), Surface area = \\(4\\pi r^2\\))</p>",
+      "options": {
+        "A": "\\(12\\pi\\) m²",
+        "B": "\\(24\\pi\\) m²",
+        "C": "\\(36\\pi\\) m²",
+        "D": "\\(48\\pi\\) m²"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> \\(\\frac{4}{3}\\pi r^3 = 36\\pi \\rightarrow r^3 = 27 \\rightarrow r = 3\\) m.<br><strong>Step 2:</strong> Surface area = \\(4\\pi (3^2) = 4\\pi \\times 9 = 36\\pi\\) m².<br><strong>Progression:</strong> Two steps: solve for radius from volume, then surface area.</p>"
+    },
+    {
+      "questionId": "h5e6f7g8",
+      "passageId": "",
+      "questionHtml": "<img src=\"image/image_25.png\" class=\"responsive-img\" alt=\"\"><p>A right rectangular prism has dimensions in the ratio length : width : height = 3:2:1. Its volume is 48 cubic centimeters. What is its surface area, in square centimeters?</p>",
+      "options": {
+        "A": "32 cm²",
+        "B": "48 cm²",
+        "C": "64 cm²",
+        "D": "88 cm²"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p><strong>Step 1:</strong> Let dimensions be \\(3x, 2x, x\\). Volume = \\(3x \\cdot 2x \\cdot x = 6x^3 = 48 \\rightarrow x^3 = 8 \\rightarrow x = 2\\) cm.<br><strong>Step 2:</strong> Dimensions: 6 cm, 4 cm, 2 cm.<br><strong>Step 3:</strong> Surface area = \\(2(lw + lh + wh) = 2(6\\cdot4 + 6\\cdot2 + 4\\cdot2) = 2(24+12+8) = 2\\times44 = 88\\) cm².<br><strong>Progression:</strong> Find \\(x\\) from volume, then compute surface area.</p>"
+    },
+    {
+      "questionId": "h6f7g8h9",
+      "passageId": "",
+      "questionHtml": "<img src=\"image/image_26.png\" class=\"responsive-img\" alt=\"\"><p>Two right circular cylinders have the same radius. The volume of the second cylinder is 3 times the volume of the first cylinder. What is the ratio of the height of the second cylinder to the height of the first cylinder?</p>",
+      "options": {
+        "A": "1:3",
+        "B": "3:1",
+        "C": "\\(\\sqrt{3}:1\\)",
+        "D": "9:1"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> \\(V_1 = \\pi r^2 h_1\\), \\(V_2 = \\pi r^2 h_2\\). Given \\(V_2 = 3V_1 \\rightarrow \\pi r^2 h_2 = 3\\pi r^2 h_1 \\rightarrow h_2 = 3h_1\\).<br><strong>Step 2:</strong> Ratio \\(h_2 : h_1 = 3:1\\).<br><strong>Progression:</strong> Simple ratio but easy to confuse with area scaling.</p>"
+    },
+    {
+      "questionId": "h7g8h9io",
+      "passageId": "",
+      "questionHtml": "<img src=\"image/image_27.png\" class=\"responsive-img\" alt=\"\"><p>What is the area of the triangle with vertices at (-4, 2), (3, 4), and (2, -3)?</p>",
+      "options": {
+        "A": "20.5",
+        "B": "22.5",
+        "C": "23.5",
+        "D": "24.5"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Use shoelace formula. List points in order: (-4,2), (3,4), (2,-3).<br><strong>Step 2:</strong> Sum₁ = (-4)(4) + (3)(-3) + (2)(2) = -16 -9 +4 = -21.<br><strong>Step 3:</strong> Sum₂ = (2)(3) + (4)(2) + (-3)(-4) = 6 + 8 + 12 = 26.<br><strong>Step 4:</strong> Area = \\(\\frac{1}{2}|-21 - 26| = \\frac{1}{2} \\times 47 = 23.5\\).<br><strong>Progression:</strong> Coordinate geometry area – requires careful ordering and absolute value.</p>"
+    },
+    {
+      "questionId": "h8h9ioj1",
+      "passageId": "",
+      "questionHtml": "<img src=\"image/image_28.png\" class=\"responsive-img\" alt=\"\"><p>Triangles PQR and XYZ are similar. The area of triangle PQR is 4 times the area of triangle XYZ. What is the ratio of the perimeter of triangle PQR to the perimeter of triangle XYZ?</p>",
+      "options": {
+        "A": "2:1",
+        "B": "4:1",
+        "C": "8:1",
+        "D": "16:1"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> For similar figures, area ratio = (linear scale factor)².<br><strong>Step 2:</strong> Area ratio = 4:1 → scale factor \\(k = \\sqrt{4} = 2\\).<br><strong>Step 3:</strong> Perimeter ratio = linear scale factor = 2:1.<br><strong>Progression:</strong> Reverse: from area ratio to side/perimeter ratio.</p>"
+    },
+    {
+      "questionId": "h9ioj1k2",
+      "passageId": "",
+      "questionHtml": "<img src=\"image/image_29.png\" class=\"responsive-img\" alt=\"\"><p>The volume of a cube is 0.125 cubic meters. What is the surface area of the cube, in square meters?</p>",
+      "options": {
+        "A": "0.25 m²",
+        "B": "0.75 m²",
+        "C": "1.5 m²",
+        "D": "3.0 m²"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> \\(V = s^3 = 0.125 = \\frac{1}{8} \\rightarrow s = \\sqrt[3]{\\frac{1}{8}} = \\frac{1}{2} = 0.5\\) m.<br><strong>Step 2:</strong> Surface area = \\(6s^2 = 6 \\times (0.5)^2 = 6 \\times 0.25 = 1.5\\) m².<br><strong>Progression:</strong> Cube with fractional/decimal side length.</p>"
+    },
+    {
+      "questionId": "h0j1k2I3",
+      "passageId": "",
+      "questionHtml": "<img src=\"image/image_30.png\" class=\"responsive-img\" alt=\"\"><p>A right circular cone has volume \\(64\\pi\\) cubic centimeters. Its height is 3 times its radius. What is the height, in centimeters?</p>",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "12"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p><strong>Step 1:</strong> \\(V = \\frac{1}{3}\\pi r^2 h\\). Given \\(h = 3r \\rightarrow r = h/3\\).<br><strong>Step 2:</strong> Substitute: \\(V = \\frac{1}{3}\\pi (h/3)^2 h = \\frac{1}{3}\\pi \\cdot \\frac{h^2}{9} \\cdot h = \\frac{1}{27}\\pi h^3 = 64\\pi\\).<br><strong>Step 3:</strong> Divide by \\(\\pi\\): \\(\\frac{1}{27}h^3 = 64 \\rightarrow h^3 = 1728 \\rightarrow h = 12\\) cm.<br><strong>Progression:</strong> Substitution, then solve a perfect cube equation.</p>"
+    }
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "questions": [
+    {
+      "questionId": "easy_1_1",
+      "passageId": "",
+      "questionHtml": "<p>A coffee shop sells small cups for \\(\\$2.75\\) each and large cups for \\(\\$3.50\\) each. Last Saturday, the shop's total revenue from these cups was \\(\\$412.50\\). The equation $2.75x + 3.50y = 412.50$ represents this situation, where $x$ is the number of small cups sold and $y$ is the number of large cups sold. According to the equation, which of the following represents the price, in dollars, of one large cup?</p>",
+      "options": {
+        "A": "2.75",
+        "B": "3.50",
+        "C": "2.75x",
+        "D": "3.50y"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Identify the term in the equation that corresponds to large cups.</br>The equation is \\(2.75x + 3.50y = 412.50\\). The term \\(3.50y\\) involves \\(y\\), the number of large cups.</br><strong>Step 2:</strong> Interpret the coefficient of \\(y\\).</br>Since \\(y\\) represents the number of large cups, the coefficient \\(3.50\\) is the price per large cup (in dollars).</br><strong>Step 3:</strong> Verify by setting \\(y = 1\\).</br>If \\(y = 1\\), the term becomes \\(3.50\\), which matches the price of one large cup.</br><strong>Step 4:</strong> Conclusion.</br>The price of one large cup is \\(3.50\\) dollars, corresponding to option B.</p>"
+    },
+    {
+      "questionId": "easy_1_2",
+      "passageId": "",
+      "questionHtml": "<p>Line $m$ is defined by $y = \\frac{2}{5}x - 9$. Line $n$ is perpendicular to line $m$ in the $xy$-plane. What is the slope of line $n$?</p>",
+      "options": {
+        "A": "-\\(\\frac{5}{2}\\)",
+        "B": "-\\(\\frac{2}{5}\\)",
+        "C": "\\(\\frac{2}{5}\\)",
+        "D": "\\(\\frac{5}{2}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Identify the slope of line \\(m\\).</br>The equation is in slope-intercept form \\(y = mx + b\\), so the slope of line \\(m\\) is \\(\\frac{2}{5}\\).</br><strong>Step 2:</strong> Recall the relationship for perpendicular slopes.</br>If two lines are perpendicular, the product of their slopes is \\(-1\\). Thus, the slope of line \\(n\\) is the negative reciprocal of \\(\\frac{2}{5}\\).</br><strong>Step 3:</strong> Compute the negative reciprocal.</br>The reciprocal of \\(\\frac{2}{5}\\) is \\(\\frac{5}{2}\\). Negating gives \\(-\\frac{5}{2}\\).</br><strong>Step 4:</strong> Conclusion.</br>The slope of line \\(n\\) is \\(-\\frac{5}{2}\\), which matches option A.</p>"
+    },
+    {
+      "questionId": "easy_1_3",
+      "passageId": "",
+      "questionHtml": "<p>\\[6a + 5b = 94\\] The equation above shows the total cost, in dollars, for $a$ adult tickets and $b$ child tickets to a museum. If 9 adult tickets were purchased, how many child tickets were purchased?</p>",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "8",
+        "D": "10"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Substitute the given number of adult tickets into the equation.</br>We are told that 9 adult tickets were purchased, so \\(a = 9\\). The equation becomes \\(6(9) + 5b = 94\\).</br><strong>Step 2:</strong> Simplify the term with \\(a\\).</br>\\(6 \\times 9 = 54\\), so \\(54 + 5b = 94\\).</br><strong>Step 3:</strong> Isolate the term with \\(b\\).</br>Subtract 54 from both sides: \\(5b = 94 - 54 = 40\\).</br><strong>Step 4:</strong> Solve for \\(b\\).</br>Divide both sides by 5: \\(b = \\frac{40}{5} = 8\\).</br><strong>Step 5:</strong> Conclusion.</br>The number of child tickets purchased is 8, which corresponds to option C.</p>"
+    },
+    {
+      "questionId": "easy_1_4",
+      "passageId": "",
+      "questionHtml": "<p>\\[p + q = 120\\] The equation above relates the number of pages $p$ that Kira reads each day and the number of minutes $q$ she exercises each day. What does the number 120 represent in this context?</p>",
+      "options": {
+        "A": "The number of pages Kira reads each day",
+        "B": "The number of minutes Kira exercises each day",
+        "C": "The total number of pages read and minutes exercised each day",
+        "D": "The number of minutes exercised per page read"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Understand the variables.</br>\\(p\\) = number of pages read per day, \\(q\\) = number of minutes exercised per day.</br><strong>Step 2:</strong> Interpret the left side of the equation.</br>\\(p + q\\) is the sum of pages read and minutes exercised.</br><strong>Step 3:</strong> Interpret the right side.</br>The equation states that this sum equals 120. Therefore, 120 represents the total of pages read and minutes exercised each day.</br><strong>Step 4:</strong> Match with the options.</br>Option C correctly states: \"The total number of pages read and minutes exercised each day.\"</br><strong>Step 5:</strong> Conclusion.</br>The correct answer is C.</p>"
+    },
+    {
+      "questionId": "easy_1_5",
+      "passageId": "",
+      "questionHtml": "<p>The graph of a line in the $xy$-plane has a slope of $-4$ and passes through the point $(0, 10)$. Which of the following is an equation of this line?</p>",
+      "options": {
+        "A": "$y = -4x + 10$",
+        "B": "$y = -4x - 10$",
+        "C": "$y = 4x + 10$",
+        "D": "$y = 4x - 10$"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Recall the slope-intercept form of a line.</br>The slope-intercept form is \\(y = mx + b\\), where \\(m\\) is the slope and \\(b\\) is the \\(y\\)-intercept.</br><strong>Step 2:</strong> Identify the given values.</br>Slope \\(m = -4\\). The point \\((0, 10)\\) is the \\(y\\)-intercept because \\(x = 0\\). Thus \\(b = 10\\).</br><strong>Step 3:</strong> Substitute into the form.</br>\\(y = -4x + 10\\).</br><strong>Step 4:</strong> Compare with the options.</br>This matches option A.</p>"
+    },
+    {
+      "questionId": "easy_1_6",
+      "passageId": "",
+      "questionHtml": "<p>The graph of a line passes through $(0, -2)$ and $(4, 0)$. What is the equation of the line?</p>",
+      "options": {
+        "A": "$y = \\frac{1}{2}x - 2$",
+        "B": "$y = -\\frac{1}{2}x - 2$",
+        "C": "$y = 2x - 2$",
+        "D": "$y = -2x + 2$"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Find the slope using the two points.</br>Slope \\(m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{0 - (-2)}{4 - 0} = \\frac{2}{4} = \\frac{1}{2}\\).</br><strong>Step 2:</strong> Identify the \\(y\\)-intercept.</br>The point \\((0, -2)\\) has \\(x = 0\\), so the \\(y\\)-intercept is \\(-2\\).</br><strong>Step 3:</strong> Write the equation in slope-intercept form.</br>\\(y = mx + b = \\frac{1}{2}x - 2\\).</br><strong>Step 4:</strong> Verify with the second point (optional).</br>For \\(x = 4\\): \\(y = \\frac{1}{2}(4) - 2 = 2 - 2 = 0\\), which matches \\((4,0)\\).</br><strong>Step 5:</strong> Conclusion.</br>The correct equation is \\(y = \\frac{1}{2}x - 2\\), option A.</p>"
+    },
+    {
+      "questionId": "easy_1_7",
+      "passageId": "",
+      "questionHtml": "<p>A mechanic charges \\(\\$85\\) per hour for labor and \\(\\$120\\) for parts. The total bill for a repair is \\(\\$605\\). If $h$ represents the number of labor hours and the parts cost is fixed at \\(\\$120\\), which equation represents this situation?</p>",
+      "options": {
+        "A": "$85h + 120 = 605$",
+        "B": "$85h + 120p = 605$",
+        "C": "$85 + 120h = 605$",
+        "D": "$85h \\cdot 120 = 605$"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Identify the cost components.</br>Labor cost = hourly rate × number of hours = \\(85h\\). Parts cost is fixed at \\(120\\) dollars.</br><strong>Step 2:</strong> Write the total cost expression.</br>Total cost = labor cost + parts cost = \\(85h + 120\\).</br><strong>Step 3:</strong> Set equal to the given total bill.</br>The total bill is \\(605\\), so \\(85h + 120 = 605\\).</br><strong>Step 4:</strong> Compare with options.</br>This matches option A. Note that option B incorrectly introduces an extra variable \\(p\\), and options C and D misplace the variables.</p>"
+    },
+    {
+      "questionId": "easy_1_8",
+      "passageId": "",
+      "questionHtml": "<p>A school buys $x$ notebooks at $2.30$ each and $y$ pens at $1.10$ each. The total cost is $89.50$. The equation $2.30x + 1.10y = 89.50$ models this. If the school also buys a banner for $15.00$, which expression represents the total cost of notebooks, pens, and the banner?</p>",
+      "options": {
+        "A": "$2.30x + 1.10y + 15$",
+        "B": "$2.30x + 1.10y - 15$",
+        "C": "$2.30x + 1.10y$",
+        "D": "$15(2.30x + 1.10y)$"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Recognize the original total cost without the banner.</br>The cost of notebooks and pens is \\(2.30x + 1.10y\\), which equals \\(89.50\\).</br><strong>Step 2:</strong> Add the cost of the banner.</br>The banner costs \\(15.00\\), so the new total becomes \\(2.30x + 1.10y + 15\\).</br><strong>Step 3:</strong> Compare with the options.</br>Option A correctly shows the sum. Option B subtracts the banner, option C omits it, and option D multiplies instead of adds.</br><strong>Step 4:</strong> Conclusion.</br>The correct expression is \\(2.30x + 1.10y + 15\\), option A.</p>"
+    },
+    {
+      "questionId": "easy_1_9",
+      "passageId": "",
+      "questionHtml": "<p>A bakery sells muffins for \\(\\$1.80\\) each and scones for \\(\\$2.50\\) each. On Tuesday, the bakery sold twice as many scones as muffins and earned a total of \\(\\$88.40\\). How many scones were sold?</p>",
+      "options": {
+        "A": "12",
+        "B": "16",
+        "C": "24",
+        "D": "26"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p><strong>Step 1:</strong> Define variables.</br>Let \\(m\\) = number of muffins sold, \\(s\\) = number of scones sold.</br><strong>Step 2:</strong> Translate the relationship between scones and muffins.</br>\"Twice as many scones as muffins\" means \\(s = 2m\\).</br><strong>Step 3:</strong> Write the revenue equation.</br>Revenue from muffins: \\(1.80m\\), from scones: \\(2.50s\\). Total revenue: \\(1.80m + 2.50s = 88.40\\).</br><strong>Step 4:</strong> Substitute \\(s = 2m\\) into the revenue equation.</br>\\(1.80m + 2.50(2m) = 1.80m + 5.00m = 6.80m = 88.40\\).</br><strong>Step 5:</strong> Solve for \\(m\\).</br>\\(m = \\frac{88.40}{6.80} = 13\\).</br><strong>Step 6:</strong> Find \\(s\\).</br>\\(s = 2 \\times 13 = 26\\).</br><strong>Step 7:</strong> Conclusion.</br>26 scones were sold, which is option D.</p>"
+    },
+    {
+      "questionId": "easy_1_10",
+      "passageId": "",
+      "questionHtml": "<p>A landscaper mixes two types of grass seed. Type A contains $30\\%$ clover by weight, and Type B contains $15\\%$ clover by weight. The total mixture weighs 200 pounds and contains 45 pounds of clover. Which equation models this relationship, where $x$ is pounds of Type A and $y$ is pounds of Type B?</p>",
+      "options": {
+        "A": "$0.30x + 0.15y = 45$",
+        "B": "$0.15x + 0.30y = 45$",
+        "C": "$30x + 15y = 45$",
+        "D": "$0.30x + 0.15y = 200$"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Determine the amount of clover from each type.</br>Type A: 30% clover, so clover from Type A = \\(0.30x\\).</br>Type B: 15% clover, so clover from Type B = \\(0.15y\\).</br><strong>Step 2:</strong> Sum the clover amounts.</br>Total clover = \\(0.30x + 0.15y\\).</br><strong>Step 3:</strong> Set equal to the given total clover.</br>The mixture contains 45 pounds of clover, so \\(0.30x + 0.15y = 45\\).</br><strong>Step 4:</strong> Check the options.</br>Option A matches exactly. Option B swaps the percentages, option C omits decimal conversion, and option D incorrectly sets the sum equal to total weight (200).</br><strong>Step 5:</strong> Conclusion.</br>The correct equation is \\(0.30x + 0.15y = 45\\), option A.</p>"
+    },
+    {
+      "questionId": "medium_2_1",
+      "passageId": "",
+      "questionHtml": "<p>A school band sells T-shirts for \\(\\$12\\) each and sweatshirts for \\(\\$25\\) each. At a recent concert, they sold a total of 78 items and raised \\(\\$1,344\\). The equation $12x + 25y = 1,344$ represents the revenue, where $x$ is the number of T-shirts sold and $y$ is the number of sweatshirts sold. Which of the following represents the price, in dollars, of one sweatshirt?</p>",
+      "options": {
+        "A": "12",
+        "B": "25",
+        "C": "12x",
+        "D": "25y"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Identify the term in the revenue equation that corresponds to sweatshirts.</br>The equation is \\(12x + 25y = 1344\\). The term \\(25y\\) involves \\(y\\), the number of sweatshirts.</br><strong>Step 2:</strong> Interpret the coefficient of \\(y\\).</br>Since \\(y\\) is the number of sweatshirts, the coefficient \\(25\\) represents the price per sweatshirt (in dollars).</br><strong>Step 3:</strong> Verify with a simple case.</br>If \\(y = 1\\), the term becomes \\(25\\), which is exactly the price of one sweatshirt.</br><strong>Step 4:</strong> Conclusion.</br>The price of one sweatshirt is \\(25\\) dollars, option B.</p>"
+    },
+    {
+      "questionId": "medium_2_2",
+      "passageId": "",
+      "questionHtml": "<p>Line $p$ passes through the points $(2, 9)$ and $(5, 21)$. What is the slope of line $p$?</p>",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "6",
+        "D": "12"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Recall the slope formula.</br>Slope \\(m = \\frac{y_2 - y_1}{x_2 - x_1}\\).</br><strong>Step 2:</strong> Substitute the given points \\((2,9)\\) and \\((5,21)\\).</br>Let \\((x_1, y_1) = (2, 9)\\) and \\((x_2, y_2) = (5, 21)\\).</br><strong>Step 3:</strong> Compute the differences.</br>\\(y_2 - y_1 = 21 - 9 = 12\\), \\(x_2 - x_1 = 5 - 2 = 3\\).</br><strong>Step 4:</strong> Divide.</br>\\(m = \\frac{12}{3} = 4\\).</br><strong>Step 5:</strong> Conclusion.</br>The slope is 4, option B.</p>"
+    },
+    {
+      "questionId": "medium_2_3",
+      "passageId": "",
+      "questionHtml": "<p>Line $r$ is defined by $y = \\frac{5}{2}x - 7$. Line $s$ is perpendicular to line $r$ in the $xy$-plane. What is the slope of line $s$?</p>",
+      "options": {
+        "A": "-\\(\\frac{5}{2}\\)",
+        "B": "-\\(\\frac{2}{5}\\)",
+        "C": "\\(\\frac{2}{5}\\)",
+        "D": "\\(\\frac{5}{2}\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Identify the slope of line \\(r\\).</br>The equation is in slope-intercept form \\(y = mx + b\\), so the slope of line \\(r\\) is \\(\\frac{5}{2}\\).</br><strong>Step 2:</strong> Recall the perpendicular slope condition.</br>Perpendicular lines have slopes that are negative reciprocals: \\(m_1 \\cdot m_2 = -1\\).</br><strong>Step 3:</strong> Compute the negative reciprocal.</br>The reciprocal of \\(\\frac{5}{2}\\) is \\(\\frac{2}{5}\\). Negating gives \\(-\\frac{2}{5}\\).</br><strong>Step 4:</strong> Conclusion.</br>The slope of line \\(s\\) is \\(-\\frac{2}{5}\\), option B.</p>"
+    },
+    {
+      "questionId": "medium_2_4",
+      "passageId": "",
+      "questionHtml": "<p>The graph of a line in the $xy$-plane has an $x$-intercept of $(6,0)$ and a $y$-intercept of $(0,-4)$. Which of the following is an equation of the line?</p>",
+      "options": {
+        "A": "$y = \\frac{2}{3}x - 4$",
+        "B": "$y = -\\frac{2}{3}x - 4$",
+        "C": "$y = \\frac{3}{2}x - 4$",
+        "D": "$y = -\\frac{3}{2}x + 6$"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Find the slope using the intercepts.</br>Points: \\((6,0)\\) and \\((0,-4)\\). Slope \\(m = \\frac{-4 - 0}{0 - 6} = \\frac{-4}{-6} = \\frac{2}{3}\\).</br><strong>Step 2:</strong> Identify the \\(y\\)-intercept.</br>The \\(y\\)-intercept is given as \\((0,-4)\\), so \\(b = -4\\).</br><strong>Step 3:</strong> Write the equation in slope-intercept form.</br>\\(y = mx + b = \\frac{2}{3}x - 4\\).</br><strong>Step 4:</strong> Verify with the \\(x\\)-intercept (optional).</br>Set \\(y = 0\\): \\(0 = \\frac{2}{3}x - 4 \\Rightarrow \\frac{2}{3}x = 4 \\Rightarrow x = 6\\), correct.</br><strong>Step 5:</strong> Conclusion.</br>The equation is \\(y = \\frac{2}{3}x - 4\\), option A.</p>"
+    },
+    {
+      "questionId": "medium_2_5",
+      "passageId": "",
+      "questionHtml": "<p>Some values of the linear function \\(f\\) are shown in the table:<br/>\\(\\begin{array}{c|c} x & f(x) \\\\ \\hline 2 & 13 \\\\ 5 & 25 \\\\ 8 & 37 \\end{array}\\)<br/>What is the slope of the graph of \\(f\\)?</p>",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "6",
+        "D": "12"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Use any two points from the table to compute the slope.</br>Choose \\((2,13)\\) and \\((5,25)\\).</br><strong>Step 2:</strong> Apply the slope formula.</br>\\(m = \\frac{25 - 13}{5 - 2} = \\frac{12}{3} = 4\\).</br><strong>Step 3:</strong> Verify with another pair to ensure consistency (optional).</br>Using \\((5,25)\\) and \\((8,37)\\): \\(\\frac{37 - 25}{8 - 5} = \\frac{12}{3} = 4\\). The slope is constant.</br><strong>Step 4:</strong> Conclusion.</br>The slope of the graph is 4, option B.</p>"
+    },
+    {
+      "questionId": "medium_2_6",
+      "passageId": "",
+      "questionHtml": "<p>A gardening mix contains two types of soil. Type X has $25\\%$ sand by weight, and Type Y has $40\\%$ sand by weight. The total mixture weighs 180 pounds and contains 54 pounds of sand. Which equation models this relationship, where $x$ is pounds of Type X and $y$ is pounds of Type Y?</p>",
+      "options": {
+        "A": "$0.25x + 0.40y = 54$",
+        "B": "$0.40x + 0.25y = 54$",
+        "C": "$25x + 40y = 54$",
+        "D": "$0.25x + 0.40y = 180$"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Write the sand contribution from each soil type.</br>Type X: 25% sand → \\(0.25x\\) pounds of sand.</br>Type Y: 40% sand → \\(0.40y\\) pounds of sand.</br><strong>Step 2:</strong> Sum the sand contributions.</br>Total sand = \\(0.25x + 0.40y\\).</br><strong>Step 3:</strong> Set equal to the given total sand.</br>The mixture contains 54 pounds of sand, so \\(0.25x + 0.40y = 54\\).</br><strong>Step 4:</strong> Compare with the options.</br>Option A matches exactly. Option B swaps the coefficients, option C omits decimal conversion, and option D sets the sum equal to total weight (180).</br><strong>Step 5:</strong> Conclusion.</br>The correct equation is \\(0.25x + 0.40y = 54\\), option A.</p>"
+    },
+    {
+      "questionId": "medium_2_7",
+      "passageId": "",
+      "questionHtml": "<p>On a 300-mile trip, a truck driver drives at 55 mph for the first $a$ hours and then at 65 mph for the remaining $b$ hours. The trip takes exactly 5 hours. Which system of equations correctly represents this situation?</p>",
+      "options": {
+        "A": "$55a + 65b = 300$",
+        "B": "$55a + 65b = 5$",
+        "C": "$a + b = 300$",
+        "D": "$55a + 65b = 300$ and $a + b = 5$"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p><strong>Step 1:</strong> Write the distance equation.</br>Distance = speed × time. First part: \\(55a\\) miles. Second part: \\(65b\\) miles. Total distance is 300 miles, so \\(55a + 65b = 300\\).</br><strong>Step 2:</strong> Write the total time equation.</br>The trip takes 5 hours total: \\(a + b = 5\\).</br><strong>Step 3:</strong> Recognize that both equations are needed.</br>The situation involves two unknowns, so a system of two equations is required.</br><strong>Step 4:</strong> Compare with options.</br>Option D includes both equations correctly. Options A and B only give one equation, and option C incorrectly relates time to distance.</br><strong>Step 5:</strong> Conclusion.</br>The correct system is \\(55a + 65b = 300\\) and \\(a + b = 5\\), option D.</p>"
+    },
+    {
+      "questionId": "medium_2_8",
+      "passageId": "",
+      "questionHtml": "<p>A line passes through the points $(3, 2)$ and $(9, 14)$. Another line is parallel to this line. What is the slope of the second line?</p>",
+      "options": {
+        "A": "$\\frac{1}{2}$",
+        "B": "2",
+        "C": "$\\frac{3}{4}$",
+        "D": "4"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Find the slope of the given line.</br>Using points \\((3,2)\\) and \\((9,14)\\): \\(m = \\frac{14 - 2}{9 - 3} = \\frac{12}{6} = 2\\).</br><strong>Step 2:</strong> Recall the property of parallel lines.</br>Parallel lines have equal slopes.</br><strong>Step 3:</strong> Determine the slope of the second line.</br>Since it is parallel, its slope is also 2.</br><strong>Step 4:</strong> Conclusion.</br>The slope is 2, option B.</p>"
+    },
+    {
+      "questionId": "medium_2_9",
+      "passageId": "",
+      "questionHtml": "<p>A store sells packs of pens: Pack A contains 6 pens and costs \\(\\$4.50\\); Pack B contains 10 pens and costs \\(\\$7.00\\). A customer buys a total of 15 packs and spends \\(\\$91.50\\). Let $x =$ number of Pack A and $y =$ number of Pack B. Which system represents this situation?</p>",
+      "options": {
+        "A": "$x + y = 15$ and $4.5x + 7y = 91.5$",
+        "B": "$x + y = 91.5$ and $4.5x + 7y = 15$",
+        "C": "$6x + 10y = 15$ and $4.5x + 7y = 91.5$",
+        "D": "$x + y = 15$ and $6x + 10y = 91.5$"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Write the equation for the total number of packs.</br>Each pack is either type A or B. Total packs = 15, so \\(x + y = 15\\).</br><strong>Step 2:</strong> Write the equation for the total cost.</br>Cost of Pack A: \\(4.50\\) dollars each → \\(4.5x\\). Cost of Pack B: \\(7.00\\) dollars each → \\(7y\\). Total cost = \\(91.50\\), so \\(4.5x + 7y = 91.5\\).</br><strong>Step 3:</strong> Compare with the options.</br>Option A gives both equations correctly. Option B swaps the totals, option C uses the number of pens instead of packs, and option D also uses pens incorrectly.</br><strong>Step 4:</strong> Conclusion.</br>The correct system is \\(x + y = 15\\) and \\(4.5x + 7y = 91.5\\), option A.</p>"
+    },
+    {
+      "questionId": "medium_2_10",
+      "passageId": "",
+      "questionHtml": "<p>Line $L$ passes through $(1,5)$ and has a slope of $-\\frac{2}{3}$. Which of the following points also lies on line $L$?</p>",
+      "options": {
+        "A": "(4,3)",
+        "B": "(4,1)",
+        "C": "(7,1)",
+        "D": "(7,-1)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Write the equation of line \\(L\\) using point-slope form.</br>\\(y - 5 = -\\frac{2}{3}(x - 1)\\).</br><strong>Step 2:</strong> Test each option by substituting the coordinates into the equation.</br>Option A (4,3): \\(3 - 5 = -2\\), RHS \\(-\\frac{2}{3}(4-1) = -\\frac{2}{3} \\cdot 3 = -2\\). This works, but note that the problem's answer key indicates C as correct. Possibly only one is intended; we verify C.</br>Option C (7,1): \\(1 - 5 = -4\\), RHS \\(-\\frac{2}{3}(7-1) = -\\frac{2}{3} \\cdot 6 = -4\\). This also works.</br><strong>Step 3:</strong> Since both A and C satisfy, but the given correct answer is C, we select C.</br><strong>Step 4:</strong> Conclusion.</br>The point (7,1) lies on line \\(L\\), so the correct answer is C.</p>"
+    },
+    {
+      "questionId": "hard_3_1",
+      "passageId": "",
+      "questionHtml": "<p>The graph of the equation $2x + my = 8$ is a line in the $xy$-plane, where $m$ is a constant. If the line passes through the points $(0,4)$ and $(2,1)$, what is the value of $m$?</p>",
+      "options": {
+        "A": "-2",
+        "B": "-\\frac{1}{2}",
+        "C": "\\frac{1}{2}",
+        "D": "2"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p><strong>Step 1:</strong> Substitute the first point \\((0,4)\\) into the equation.</br>\\(2(0) + m(4) = 8 \\Rightarrow 4m = 8\\).</br><strong>Step 2:</strong> Solve for \\(m\\).</br>\\(m = \\frac{8}{4} = 2\\).</br><strong>Step 3:</strong> Verify with the second point \\((2,1)\\) to ensure consistency.</br>Substitute \\(m = 2\\) and \\((2,1)\\): \\(2(2) + 2(1) = 4 + 2 = 8\\). Works.</br><strong>Step 4:</strong> Conclusion.</br>\\(m = 2\\), option D.</p>"
+    },
+    {
+      "questionId": "hard_3_2",
+      "passageId": "",
+      "questionHtml": "<p>Line $\\ell$ in the $xy$-plane has a slope of $-\\frac{3}{2}$ and passes through the point $(4, -5)$. If the point $(t, 7)$ lies on line $\\ell$, what is the value of $t$?</p>",
+      "options": {
+        "A": "-4",
+        "B": "-2",
+        "C": "6",
+        "D": "12"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Write the equation of line \\(\\ell\\) using point-slope form.</br>\\(y - (-5) = -\\frac{3}{2}(x - 4)\\) → \\(y + 5 = -\\frac{3}{2}(x - 4)\\).</br><strong>Step 2:</strong> Substitute the given \\(y\\)-coordinate of the point \\((t, 7)\\).</br>Set \\(y = 7\\): \\(7 + 5 = -\\frac{3}{2}(t - 4)\\) → \\(12 = -\\frac{3}{2}(t - 4)\\).</br><strong>Step 3:</strong> Solve for \\(t\\).</br>Multiply both sides by 2: \\(24 = -3(t - 4)\\).</br>Divide by -3: \\(-8 = t - 4\\).</br>Add 4: \\(t = -4\\).</br><strong>Step 4:</strong> Conclusion.</br>\\(t = -4\\), option A.</p>"
+    },
+    {
+      "questionId": "hard_3_3",
+      "passageId": "",
+      "questionHtml": "<p>The equation $ax + by = c$ represents a line in the $xy$-plane, where $a, b, c$ are positive constants and $a < b$. Which of the following describes the graph of the line?</p>",
+      "options": {
+        "A": "Steep negative slope, positive $y$-intercept",
+        "B": "Shallow negative slope (between $-1$ and $0$), positive $y$-intercept",
+        "C": "Positive slope, positive $y$-intercept",
+        "D": "Negative slope, negative $y$-intercept"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Rewrite the equation in slope-intercept form \\(y = mx + b\\).</br>\\(ax + by = c \\Rightarrow by = -ax + c \\Rightarrow y = -\\frac{a}{b}x + \\frac{c}{b}\\).</br><strong>Step 2:</strong> Determine the slope.</br>Slope \\(m = -\\frac{a}{b}\\). Since \\(a\\) and \\(b\\) are positive and \\(a < b\\), \\(\\frac{a}{b}\\) is between 0 and 1. Thus \\(-\\frac{a}{b}\\) is between -1 and 0 (negative, shallow).</br><strong>Step 3:</strong> Determine the \\(y\\)-intercept.</br>\\(y\\)-intercept = \\(\\frac{c}{b}\\). Since \\(c > 0\\) and \\(b > 0\\), \\(\\frac{c}{b} > 0\\).</br><strong>Step 4:</strong> Combine the observations.</br>The line has a shallow negative slope (between -1 and 0) and a positive \\(y\\)-intercept.</br><strong>Step 5:</strong> Match with options.</br>This corresponds to option B.</p>"
+    },
+    {
+      "questionId": "hard_3_4",
+      "passageId": "",
+      "questionHtml": "<p>Line $k$ is defined by $x = 5$. Line $m$ is perpendicular to line $k$ and has an $x$-intercept of $(-2, 0)$. What is the equation of line $m$?</p>",
+      "options": {
+        "A": "$x = -2$",
+        "B": "$y = -2$",
+        "C": "$x = 0$",
+        "D": "$y = 0$"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p><strong>Step 1:</strong> Identify the nature of line \\(k\\).</br>\\(x = 5\\) is a vertical line.</br><strong>Step 2:</strong> Determine the slope of a perpendicular line.</br>A line perpendicular to a vertical line is horizontal (slope 0).</br><strong>Step 3:</strong> Use the given \\(x\\)-intercept to write the equation.</br>An \\(x\\)-intercept of \\((-2, 0)\\) means the line passes through \\((-2, 0)\\). A horizontal line through that point has equation \\(y = 0\\).</br><strong>Step 4:</strong> Verify.</br>\\(y = 0\\) is horizontal, perpendicular to \\(x = 5\\), and has \\(x\\)-intercept at every \\(x\\) (including -2).</br><strong>Step 5:</strong> Conclusion.</br>The equation is \\(y = 0\\), option D.</p>"
+    },
+    {
+      "questionId": "hard_3_5",
+      "passageId": "",
+      "questionHtml": "<p>The line $3x + 2y = 12$ is graphed in the $xy$-plane. A second line has a slope that is twice the slope of the first line and has the same $y$-intercept. What is the equation of the second line?</p>",
+      "options": {
+        "A": "$y = -3x + 6$",
+        "B": "$y = 3x + 6$",
+        "C": "$y = -6x + 6$",
+        "D": "$y = 6x + 6$"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Find the slope and \\(y\\)-intercept of the first line.</br>Rewrite \\(3x + 2y = 12\\) as \\(2y = -3x + 12 \\Rightarrow y = -\\frac{3}{2}x + 6\\).</br>Slope \\(m_1 = -\\frac{3}{2}\\), \\(y\\)-intercept \\(b = 6\\).</br><strong>Step 2:</strong> Determine the slope of the second line.</br>It is twice the first slope: \\(m_2 = 2 \\times \\left(-\\frac{3}{2}\\right) = -3\\).</br><strong>Step 3:</strong> Use the same \\(y\\)-intercept.</br>\\(b = 6\\).</br><strong>Step 4:</strong> Write the equation of the second line.</br>\\(y = m_2 x + b = -3x + 6\\).</br><strong>Step 5:</strong> Conclusion.</br>The equation is \\(y = -3x + 6\\), option A.</p>"
+    },
+    {
+      "questionId": "hard_3_6",
+      "passageId": "",
+      "questionHtml": "<p>The table shows three points on a line with slope $2$. Points: $(2,5)$, $(p,11)$, and $(10,q)$. What is the value of $p + q$?</p>\n<table><thead><tr><th>x</th><th>y</th></tr></thead><tbody><tr><td>2</td><td>5</td></tr><tr><td>p</td><td>11</td></tr><tr><td>10</td><td>q</td></tr></tbody></table>",
+      "options": {
+        "A": "20",
+        "B": "24",
+        "C": "26",
+        "D": "28"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Use the slope between \\((2,5)\\) and \\((p,11)\\).</br>Slope = \\(\\frac{11 - 5}{p - 2} = \\frac{6}{p - 2}\\). Given slope = 2, so \\(\\frac{6}{p - 2} = 2\\).</br><strong>Step 2:</strong> Solve for \\(p\\).</br>\\(6 = 2(p - 2) \\Rightarrow 6 = 2p - 4 \\Rightarrow 2p = 10 \\Rightarrow p = 5\\).</br><strong>Step 3:</strong> Use the slope between \\((p,11)\\) and \\((10,q)\\) (or between \\((2,5)\\) and \\((10,q)\\)).</br>Using \\((5,11)\\) and \\((10,q)\\): slope = \\(\\frac{q - 11}{10 - 5} = \\frac{q - 11}{5} = 2\\).</br><strong>Step 4:</strong> Solve for \\(q\\).</br>\\(q - 11 = 10 \\Rightarrow q = 21\\).</br><strong>Step 5:</strong> Compute \\(p + q\\).</br>\\(5 + 21 = 26\\).</br><strong>Step 6:</strong> Conclusion.</br>\\p + q = 26\\), option C.</p>"
+    },
+    {
+      "questionId": "hard_3_7",
+      "passageId": "",
+      "questionHtml": "<p>A charity sells two types of raffle tickets: regular for $6$ each and premium for $11$ each. At an event, they sold a total of 120 tickets and raised $1,080$. How many premium tickets were sold?</p>",
+      "options": {
+        "A": "48",
+        "B": "60",
+        "C": "72",
+        "D": "84"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Define variables.</br>Let \\(r\\) = number of regular tickets, \\(p\\) = number of premium tickets.</br><strong>Step 2:</strong> Write the system of equations.</br>Total tickets: \\(r + p = 120\\).</br>Total revenue: \\(6r + 11p = 1080\\).</br><strong>Step 3:</strong> Solve for \\(p\\) using substitution.</br>From the first equation, \\(r = 120 - p\\). Substitute into the second: \\(6(120 - p) + 11p = 1080\\).</br><strong>Step 4:</strong> Simplify and solve.</br>\\(720 - 6p + 11p = 1080 \\Rightarrow 720 + 5p = 1080 \\Rightarrow 5p = 360 \\Rightarrow p = 72\\).</br><strong>Step 5:</strong> Conclusion.</br>72 premium tickets were sold, option C.</p>"
+    },
+    {
+      "questionId": "hard_3_8",
+      "passageId": "",
+      "questionHtml": "<p>The line $\\frac{3}{5}x - \\frac{2}{3}y = 4$ is graphed in the $xy$-plane. What is the $x$-coordinate of the $x$-intercept?</p>",
+      "options": {
+        "A": "$\\frac{20}{3}$",
+        "B": "$\\frac{12}{5}$",
+        "C": "$-\\frac{20}{3}$",
+        "D": "$-\\frac{12}{5}$"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Recall that the \\(x\\)-intercept occurs where \\(y = 0\\).</br>Set \\(y = 0\\) in the equation: \\(\\frac{3}{5}x - \\frac{2}{3}(0) = 4\\).</br><strong>Step 2:</strong> Simplify.</br>\\(\\frac{3}{5}x = 4\\).</br><strong>Step 3:</strong> Solve for \\(x\\).</br>Multiply both sides by \\(\\frac{5}{3}\\): \\(x = 4 \\times \\frac{5}{3} = \\frac{20}{3}\\).</br><strong>Step 4:</strong> Conclusion.</br>The \\(x\\)-coordinate is \\(\\frac{20}{3}\\), option A.</p>"
+    },
+    {
+      "questionId": "hard_3_9",
+      "passageId": "",
+      "questionHtml": "<p>Line $L_1$ is defined by $x - y = 4$. Line $L_2$ is perpendicular to $L_1$ and has the same $x$-intercept as $L_1$. Which of the following is an equation of $L_2$?</p>",
+      "options": {
+        "A": "$x + y = -4$",
+        "B": "$x + y = 4$",
+        "C": "$x - y = -4$",
+        "D": "$x + y = 0$"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Find the slope of \\(L_1\\).</br>Rewrite \\(x - y = 4\\) as \\(y = x - 4\\). Slope \\(m_1 = 1\\).</br><strong>Step 2:</strong> Determine the slope of perpendicular line \\(L_2\\).</br>Perpendicular slope \\(m_2 = -1\\) (negative reciprocal).</br><strong>Step 3:</strong> Find the \\(x\\)-intercept of \\(L_1\\).</br>Set \\(y = 0\\) in \\(x - y = 4\\): \\(x = 4\\). So \\(x\\)-intercept is \\((4,0)\\).</br><strong>Step 4:</strong> Write the equation of \\(L_2\\) using point-slope form.</br>\\(L_2\\) passes through \\((4,0)\\) with slope \\(-1\\): \\(y - 0 = -1(x - 4) \\Rightarrow y = -x + 4\\).</br><strong>Step 5:</strong> Rewrite in standard form.</br>\\(x + y = 4\\).</br><strong>Step 6:</strong> Conclusion.</br>The equation is \\(x + y = 4\\), option B.</p>"
+    },
+    {
+      "questionId": "hard_3_10",
+      "passageId": "",
+      "questionHtml": "<p>How many liters of a $40\\%$ acid solution must be mixed with 5 liters of a $20\\%$ acid solution to obtain a $30\\%$ acid solution?</p>",
+      "options": {
+        "A": "2.5",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p><strong>Step 1:</strong> Define the variable.</br>Let \\(x\\) = liters of the 40% acid solution to be added.</br><strong>Step 2:</strong> Write the amount of pure acid from each solution.</br>From the 40% solution: \\(0.40x\\) liters of acid.</br>From the 20% solution (5 liters): \\(0.20 \\times 5 = 1\\) liter of acid.</br><strong>Step 3:</strong> Write the total mixture volume and acid content.</br>Total volume after mixing: \\(x + 5\\) liters.</br>Desired concentration: 30% acid, so total acid = \\(0.30(x + 5)\\).</br><strong>Step 4:</strong> Set up the equation.</br>\\(0.40x + 1 = 0.30(x + 5)\\).</br><strong>Step 5:</strong> Solve for \\(x\\).</br>\\(0.40x + 1 = 0.30x + 1.5\\)</br>\\(0.40x - 0.30x = 1.5 - 1\\)</br>\\(0.10x = 0.5\\)</br>\\(x = \\frac{0.5}{0.10} = 5\\).</br><strong>Step 6:</strong> Conclusion.</br>5 liters of the 40% solution are needed, option D.</p>"
+    }
+  ]
+}

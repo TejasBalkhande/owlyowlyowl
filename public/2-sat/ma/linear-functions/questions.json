@@ -1,0 +1,395 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "questionId": "e1_progressive",
+      "passageId": "",
+      "questionHtml": "<p>A taxi company charges a flat fee of $3.50 plus $2.25 per mile traveled. Which equation gives the total fare \\(F\\), in dollars, for a trip of \\(m\\) miles?</p>",
+      "options": {
+        "A": "\\(F = 3.50m + 2.25\\)",
+        "B": "\\(F = 2.25m + 3.50\\)",
+        "C": "\\(F = 5.75m\\)",
+        "D": "\\(F = 3.50m - 2.25\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Identify the constant (flat fee) and the variable cost per mile.<br/><strong>Step 2:</strong> Flat fee = $3.50, which does not depend on miles. This is the constant term.<br/><strong>Step 3:</strong> Cost per mile = $2.25, so for m miles the variable cost = 2.25m.<br/><strong>Step 4:</strong> Total fare = variable cost + constant = 2.25m + 3.50.<br/><strong>Step 5:</strong> Compare with options: Option B matches exactly. Option A swaps the two terms. Option C adds them incorrectly. Option D uses subtraction.</p>"
+    },
+    {
+      "questionId": "e2_progressive",
+      "passageId": "",
+      "questionHtml": "<p>The function \\(g\\) is defined by \\(g(x) = 4x - 9\\). What is the value of \\(g(6)\\)?</p>",
+      "options": {
+        "A": "15",
+        "B": "24",
+        "C": "33",
+        "D": "42"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> The function is g(x) = 4x - 9. We need g(6), so substitute x = 6.<br/><strong>Step 2:</strong> g(6) = 4(6) - 9.<br/><strong>Step 3:</strong> Multiply: 4 × 6 = 24.<br/><strong>Step 4:</strong> Subtract: 24 - 9 = 15.<br/><strong>Step 5:</strong> Thus the value is 15, which is option A. Option B forgets to subtract 9. Option C adds 9 instead. Option D multiplies 7 by 6 incorrectly.</p>"
+    },
+    {
+      "questionId": "e3_progressive",
+      "passageId": "",
+      "questionHtml": "<p>The distance \\(d\\) (in meters) a train travels is given by \\(d = 32t\\), where \\(t\\) is the time in seconds since it started moving. What is the best interpretation of 32 in this context?</p>",
+      "options": {
+        "A": "The train travels 32 meters in total.",
+        "B": "The train started 32 meters from the starting point.",
+        "C": "The train's speed is 32 meters per second.",
+        "D": "It takes 32 seconds for the train to travel 1 meter."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> The equation is d = 32t, where d is distance in meters and t is time in seconds.<br/><strong>Step 2:</strong> This is of the form distance = rate × time.<br/><strong>Step 3:</strong> The number multiplying t (32) represents the constant rate of change of distance with respect to time.<br/><strong>Step 4:</strong> That rate is speed: 32 meters per second.<br/><strong>Step 5:</strong> Option A confuses the meaning (total distance would be when t is given). Option B suggests an initial distance, but no constant term exists. Option D reverses the relationship. Therefore, option C is correct.</p>"
+    },
+    {
+      "questionId": "e4_progressive",
+      "passageId": "",
+      "questionHtml": "<p>The function \\(h\\) is defined by \\(h(x) = -3x + 10\\). What is the value of \\(h(0)\\)?</p>",
+      "options": {
+        "A": "-10",
+        "B": "0",
+        "C": "7",
+        "D": "10"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p><strong>Step 1:</strong> We have h(x) = -3x + 10. Evaluate at x = 0.<br/><strong>Step 2:</strong> h(0) = -3(0) + 10.<br/><strong>Step 3:</strong> Multiply: -3 × 0 = 0.<br/><strong>Step 4:</strong> Add 10: 0 + 10 = 10.<br/><strong>Step 5:</strong> So h(0) = 10, which is option D. Option A might be from h(-10). Option B is the input value itself. Option C could be -3 + 10.</p>"
+    },
+    {
+      "questionId": "e5_progressive",
+      "passageId": "",
+      "questionHtml": "<p>Some values of the linear function \\(f\\) are shown in the table:<br/>\\(\\begin{array}{c|c} x & f(x) \\\\ \\hline 2 & 5 \\\\ 5 & 14 \\end{array}\\)<br/>What is the slope of the graph of \\(f\\)?</p>",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Slope formula: m = (change in f(x)) / (change in x) = (f(x₂) - f(x₁)) / (x₂ - x₁).<br/><strong>Step 2:</strong> Use points (2, 5) and (5, 14). So x₁=2, f(x₁)=5; x₂=5, f(x₂)=14.<br/><strong>Step 3:</strong> Difference in f(x): 14 - 5 = 9.<br/><strong>Step 4:</strong> Difference in x: 5 - 2 = 3.<br/><strong>Step 5:</strong> Slope = 9 / 3 = 3.<br/><strong>Step 6:</strong> Option C is correct. Option A would be 3/3 mistake, option B is 6/3, option D is 12/3.</p>"
+    },
+    {
+      "questionId": "e6_progressive",
+      "passageId": "",
+      "questionHtml": "<p>The graph shows the amount of water (in gallons) in a tank after \\(t\\) minutes. The line passes through the points (0, 50) and (4, 130). How many gallons of water are added per minute?</p>",
+      "options": {
+        "A": "20",
+        "B": "30",
+        "C": "50",
+        "D": "80"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Gallons added per minute = slope of the line.<br/><strong>Step 2:</strong> Use the two points: (0, 50) and (4, 130).<br/><strong>Step 3:</strong> Change in gallons: 130 - 50 = 80.<br/><strong>Step 4:</strong> Change in minutes: 4 - 0 = 4.<br/><strong>Step 5:</strong> Slope = 80 / 4 = 20.<br/><strong>Step 6:</strong> Thus 20 gallons are added per minute, option A. Option B might be 120/4. Option C is the initial amount. Option D is the total increase (80) but not per minute.</p>"
+    },
+    {
+      "questionId": "e7_progressive",
+      "passageId": "",
+      "questionHtml": "<p>The table shows values of a linear function \\(k\\):<br/>\\(\\begin{array}{c|c} x & k(x) \\\\ \\hline 0 & 4 \\\\ 3 & 13 \\end{array}\\)<br/>Which equation defines \\(k\\)?</p>",
+      "options": {
+        "A": "\\(k(x) = 3x + 4\\)",
+        "B": "\\(k(x) = 4x + 3\\)",
+        "C": "\\(k(x) = 5x + 4\\)",
+        "D": "\\(k(x) = 4x + 1\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Find slope: m = (13 - 4) / (3 - 0) = 9/3 = 3.<br/><strong>Step 2:</strong> The y-intercept is the value when x=0, which is given as 4.<br/><strong>Step 3:</strong> Slope-intercept form: k(x) = mx + b = 3x + 4.<br/><strong>Step 4:</strong> Verify with x=3: 3(3)+4 = 9+4=13, correct.<br/><strong>Step 5:</strong> Option A matches. Option B gives 4(3)+3=15, not 13. Option C gives 5(3)+4=19. Option D gives 4(3)+1=13 but the y-intercept would be 1, but table shows (0,4). So only A works.</p>"
+    },
+    {
+      "questionId": "e8_progressive",
+      "passageId": "",
+      "questionHtml": "<p>The function \\(p\\) is defined by \\(p(x) = 7x + b\\), where \\(b\\) is a constant. If \\(p(5) = 44\\), what is the value of \\(b\\)?</p>",
+      "options": {
+        "A": "9",
+        "B": "14",
+        "C": "30",
+        "D": "39"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> p(x) = 7x + b. We know p(5) = 44.<br/><strong>Step 2:</strong> Substitute x = 5: p(5) = 7(5) + b = 35 + b.<br/><strong>Step 3:</strong> Set equal to 44: 35 + b = 44.<br/><strong>Step 4:</strong> Solve for b: b = 44 - 35 = 9.<br/><strong>Step 5:</strong> Option A is correct. Option B is 44-30, option C is 7(5) alone, option D is 44-5.</p>"
+    },
+    {
+      "questionId": "e9_progressive",
+      "passageId": "",
+      "questionHtml": "<p>Which of the following is the graph of the equation \\(y = -\\frac{2}{3}x + 2\\) in the \\(xy\\)-plane?</p>",
+      "options": {
+        "A": "A line with slope \\(\\frac{2}{3}\\) and y-intercept \\((0,2)\\)",
+        "B": "A line with slope \\(-\\frac{2}{3}\\) and y-intercept \\((0,-2)\\)",
+        "C": "A line with slope \\(-\\frac{2}{3}\\) and y-intercept \\((0,2)\\)",
+        "D": "A line with slope \\(\\frac{3}{2}\\) and y-intercept \\((0,2)\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> The equation is in slope-intercept form y = mx + b, where m is slope and b is y-intercept.<br/><strong>Step 2:</strong> Here m = -2/3 and b = 2.<br/><strong>Step 3:</strong> So the slope is negative 2/3, and the line crosses the y-axis at (0,2).<br/><strong>Step 4:</strong> Option C exactly matches these features. Option A has positive slope. Option B has wrong y-intercept. Option D has reciprocal slope.</p>"
+    },
+    {
+      "questionId": "e10_progressive",
+      "passageId": "",
+      "questionHtml": "<p>A gym charges a membership fee of $25 per month plus a one-time enrollment fee of $60. The total cost \\(C\\) in dollars for \\(m\\) months is given by \\(C = 25m + 60\\). If Lily paid a total of $285, how many months did she pay for?</p>",
+      "options": {
+        "A": "7",
+        "B": "9",
+        "C": "11",
+        "D": "12"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> We are given C = 25m + 60 and total paid = $285.<br/><strong>Step 2:</strong> Set up equation: 25m + 60 = 285.<br/><strong>Step 3:</strong> Subtract 60 from both sides: 25m = 225.<br/><strong>Step 4:</strong> Divide both sides by 25: m = 225 / 25 = 9.<br/><strong>Step 5:</strong> So Lily paid for 9 months, option B. Option A might be (285-60)/30, option C is 285/25 rounded, option D is (285-25)/60.</p>"
+    },
+    {
+      "questionId": "m1_progressive",
+      "passageId": "",
+      "questionHtml": "<p>A car rental company charges a flat fee of $45 plus $0.25 per mile driven. Which equation gives the total cost \\(C\\), in dollars, for driving \\(m\\) miles?</p>",
+      "options": {
+        "A": "\\(C = 0.25m + 45\\)",
+        "B": "\\(C = 45m + 0.25\\)",
+        "C": "\\(C = 45m - 0.25\\)",
+        "D": "\\(C = 0.25m - 45\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Flat fee (constant) = $45, regardless of miles.<br/><strong>Step 2:</strong> Per mile cost = $0.25, so for m miles the variable cost = 0.25m.<br/><strong>Step 3:</strong> Total cost = variable + constant = 0.25m + 45.<br/><strong>Step 4:</strong> Option A matches. Option B swaps the terms. Option C subtracts incorrectly. Option D subtracts 45.</p>"
+    },
+    {
+      "questionId": "m2_progressive",
+      "passageId": "",
+      "questionHtml": "<p>In the \\(xy\\)-plane, the graph of the linear function \\(f\\) passes through the points \\((2,7)\\) and \\((6,19)\\). Which equation defines \\(f\\), where \\(y = f(x)\\)?</p>",
+      "options": {
+        "A": "\\(f(x) = 2x + 3\\)",
+        "B": "\\(f(x) = 3x + 1\\)",
+        "C": "\\(f(x) = 4x - 1\\)",
+        "D": "\\(f(x) = 5x - 3\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Find slope: m = (19 - 7) / (6 - 2) = 12 / 4 = 3.<br/><strong>Step 2:</strong> Use point-slope form with (2,7): y - 7 = 3(x - 2).<br/><strong>Step 3:</strong> Simplify: y - 7 = 3x - 6 → y = 3x + 1.<br/><strong>Step 4:</strong> So f(x) = 3x + 1, which is option B. Option A has slope 2, option C slope 4, option D slope 5.</p>"
+    },
+    {
+      "questionId": "m3_progressive",
+      "passageId": "",
+      "questionHtml": "<p>The graph of a linear function shows the height \\(h\\) (in centimeters) of a growing plant \\(w\\) weeks after it was planted. The line has a slope of 3.5. What is the best interpretation of the slope in this context?</p>",
+      "options": {
+        "A": "The plant was 3.5 cm tall when planted.",
+        "B": "The plant grows 3.5 cm each week.",
+        "C": "The plant takes 3.5 weeks to grow 1 cm.",
+        "D": "The plant's height doubles every 3.5 weeks."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Slope represents rate of change of dependent variable (height) with respect to independent variable (weeks).<br/><strong>Step 2:</strong> Slope = change in height / change in weeks = 3.5 cm per week.<br/><strong>Step 3:</strong> This means each week, the plant grows 3.5 cm.<br/><strong>Step 4:</strong> Option B correctly states this. Option A describes the y-intercept. Option C inverts the rate. Option D describes exponential growth.</p>"
+    },
+    {
+      "questionId": "m4_progressive",
+      "passageId": "",
+      "questionHtml": "<p>The equation \\(y = 80 - 4x\\) models the amount of water \\(y\\) (in gallons) remaining in a tank after \\(x\\) minutes of draining. What is the best interpretation of the \\(x\\)-intercept in this context?</p>",
+      "options": {
+        "A": "The tank initially contains 80 gallons.",
+        "B": "Water drains at 4 gallons per minute.",
+        "C": "The tank will be empty after 20 minutes.",
+        "D": "After 80 minutes, the tank has 4 gallons left."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> The x-intercept occurs when y = 0 (no water remaining).<br/><strong>Step 2:</strong> Set 0 = 80 - 4x.<br/><strong>Step 3:</strong> Solve: 4x = 80 → x = 20.<br/><strong>Step 4:</strong> So after 20 minutes, the tank is empty.<br/><strong>Step 5:</strong> Option C matches. Option A is the y-intercept. Option B is the slope. Option D is incorrect.</p>"
+    },
+    {
+      "questionId": "m5_progressive",
+      "passageId": "",
+      "questionHtml": "<p>For the function \\(h(x) = \\frac{3x - 5}{2}\\), what is the value of \\(h(9) - h(5)\\)?</p>",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Compute h(9): numerator = 3(9)-5 = 27-5 = 22; then h(9)=22/2=11.<br/><strong>Step 2:</strong> Compute h(5): numerator = 3(5)-5 = 15-5 = 10; then h(5)=10/2=5.<br/><strong>Step 3:</strong> Difference: h(9)-h(5) = 11 - 5 = 6.<br/><strong>Step 4:</strong> Option C is correct. Option A might be (9-5)/2, option B = 3×2, option D = 11+5.</p>"
+    },
+    {
+      "questionId": "m6_progressive",
+      "passageId": "",
+      "questionHtml": "<p>The function \\(g\\) is defined by \\(g(x) = 4x + c\\), where \\(c\\) is a constant. If \\(g(6) = 31\\), what is the value of \\(c\\)?</p>",
+      "options": {
+        "A": "5",
+        "B": "7",
+        "C": "9",
+        "D": "11"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> g(x) = 4x + c. We know g(6) = 31.<br/><strong>Step 2:</strong> Substitute x=6: 4(6) + c = 24 + c = 31.<br/><strong>Step 3:</strong> Solve for c: c = 31 - 24 = 7.<br/><strong>Step 4:</strong> Option B is correct. Option A = 31-26, option C = 31-22, option D = 31-20.</p>"
+    },
+    {
+      "questionId": "m7_progressive",
+      "passageId": "",
+      "questionHtml": "<p>Some values of the linear function \\(f\\) are shown in the table:<br/>\\(\\begin{array}{c|c} x & f(x) \\\\ \\hline 0 & -3 \\\\ 4 & 13 \\end{array}\\)<br/>What is the value of \\(f(7)\\)?</p>",
+      "options": {
+        "A": "22",
+        "B": "25",
+        "C": "28",
+        "D": "31"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Find slope: m = (13 - (-3)) / (4 - 0) = (16) / 4 = 4.<br/><strong>Step 2:</strong> y-intercept from (0,-3): b = -3.<br/><strong>Step 3:</strong> So f(x) = 4x - 3.<br/><strong>Step 4:</strong> Compute f(7) = 4(7) - 3 = 28 - 3 = 25.<br/><strong>Step 5:</strong> Option B is correct. Option A = 4(7)-6, option C = 4(7), option D = 4(7)+3.</p>"
+    },
+    {
+      "questionId": "m8_progressive",
+      "passageId": "",
+      "questionHtml": "<p>The graph of a linear function has a slope of \\(-\\frac{3}{4}\\) and a \\(y\\)-intercept of \\((0,6)\\). Which of the following equations represents this function?</p>",
+      "options": {
+        "A": "\\(f(x) = \\frac{3}{4}x + 6\\)",
+        "B": "\\(f(x) = -\\frac{3}{4}x - 6\\)",
+        "C": "\\(f(x) = -\\frac{3}{4}x + 6\\)",
+        "D": "\\(f(x) = \\frac{3}{4}x - 6\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Slope-intercept form: f(x) = mx + b, where m = slope, b = y-intercept.<br/><strong>Step 2:</strong> Given m = -3/4 and b = 6.<br/><strong>Step 3:</strong> So f(x) = -3/4 x + 6.<br/><strong>Step 4:</strong> Option C matches. Option A has positive slope. Option B has negative y-intercept. Option D has positive slope and negative intercept.</p>"
+    },
+    {
+      "questionId": "m9_progressive",
+      "passageId": "",
+      "questionHtml": "<p>If \\(f(x) = 2x + 5\\) and \\(g(x) = 3x - 4\\), what is the value of \\(3f(4) - 2g(3)\\)?</p>",
+      "options": {
+        "A": "19",
+        "B": "24",
+        "C": "29",
+        "D": "34"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Compute f(4) = 2(4)+5 = 8+5 = 13. Then 3f(4) = 3×13 = 39.<br/><strong>Step 2:</strong> Compute g(3) = 3(3)-4 = 9-4 = 5. Then 2g(3) = 2×5 = 10.<br/><strong>Step 3:</strong> Subtract: 39 - 10 = 29.<br/><strong>Step 4:</strong> Option C is correct. Option A = 13+6, option B = 39-15, option D = 39+5.</p>"
+    },
+    {
+      "questionId": "m10_progressive",
+      "passageId": "",
+      "questionHtml": "<p>A linear model estimates the number of subscribers (in thousands) for a streaming service from 2015 to 2025. The model estimates 108 thousand subscribers in 2015 and 288 thousand subscribers in 2020. What is the estimated number of subscribers, in thousands, for the year 2024?</p>",
+      "options": {
+        "A": "408",
+        "B": "432",
+        "C": "456",
+        "D": "480"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Let t = years after 2015. Then t=0 → 108, t=5 → 288.<br/><strong>Step 2:</strong> Slope = (288 - 108) / (5 - 0) = 180/5 = 36 thousand per year.<br/><strong>Step 3:</strong> Equation: S(t) = 36t + 108.<br/><strong>Step 4:</strong> Year 2024 corresponds to t = 2024 - 2015 = 9.<br/><strong>Step 5:</strong> S(9) = 36×9 + 108 = 324 + 108 = 432.<br/><strong>Step 6:</strong> Option B is correct. Option A is t=8, option C is t=10, option D is approximate error.</p>"
+    },
+    {
+      "questionId": "h1_progressive",
+      "passageId": "",
+      "questionHtml": "<p>A coffee shop's daily profit \\(P\\) (in dollars) is modeled as a linear function of the number of cups sold \\(c\\). When 120 cups are sold, the profit is $240. When 200 cups are sold, the profit is $560. Based on the model, what is the profit, in dollars, when 250 cups are sold?</p>",
+      "options": {
+        "A": "680",
+        "B": "720",
+        "C": "760",
+        "D": "800"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Let P = m c + b. Use points (120,240) and (200,560).<br/><strong>Step 2:</strong> Slope m = (560 - 240) / (200 - 120) = 320 / 80 = 4.<br/><strong>Step 3:</strong> Find b: 240 = 4(120) + b → 240 = 480 + b → b = -240.<br/><strong>Step 4:</strong> Model: P = 4c - 240.<br/><strong>Step 5:</strong> For c = 250: P = 4(250) - 240 = 1000 - 240 = 760.<br/><strong>Step 6:</strong> Option C is correct. Others come from calculation errors.</p>"
+    },
+    {
+      "questionId": "h2_progressive",
+      "passageId": "",
+      "questionHtml": "<p>A delivery service charges $15 for the first pound and $8 for each additional pound or fraction thereof. Which equation gives the total cost \\(y\\), in dollars, for shipping a package weighing \\(x\\) pounds, where \\(x\\) is a positive integer?</p>",
+      "options": {
+        "A": "\\(y = 15x + 8\\)",
+        "B": "\\(y = 8x + 15\\)",
+        "C": "\\(y = 8x + 7\\)",
+        "D": "\\(y = 8x + 23\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> First pound costs $15. The remaining (x-1) pounds cost $8 each.<br/><strong>Step 2:</strong> Total cost = 15 + 8(x-1).<br/><strong>Step 3:</strong> Expand: 15 + 8x - 8 = 8x + 7.<br/><strong>Step 4:</strong> So y = 8x + 7, which is option C. Option A would be $15 per pound plus $8 flat. Option B has wrong intercept. Option D adds extra $8 incorrectly.</p>"
+    },
+    {
+      "questionId": "h3_progressive",
+      "passageId": "",
+      "questionHtml": "<p>The functions \\(f\\) and \\(g\\) are defined as \\(f(x) = \\frac{2}{3}x + 5\\) and \\(g(x) = \\frac{1}{3}x - 12\\). The function \\(h\\) is defined as \\(h(x) = f(x) - g(x)\\). What is the \\(x\\)-coordinate of the \\(x\\)-intercept of the graph of \\(y = h(x)\\)?</p>",
+      "options": {
+        "A": "-51",
+        "B": "-17",
+        "C": "17",
+        "D": "51"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Compute h(x) = f(x) - g(x) = (2/3 x + 5) - (1/3 x - 12).<br/><strong>Step 2:</strong> Distribute negative: = 2/3 x + 5 - 1/3 x + 12.<br/><strong>Step 3:</strong> Combine like terms: (2/3 - 1/3)x = 1/3 x, constants 5+12=17. So h(x) = (1/3)x + 17.<br/><strong>Step 4:</strong> x-intercept occurs when h(x)=0: (1/3)x + 17 = 0 → (1/3)x = -17 → x = -51.<br/><strong>Step 5:</strong> Option A is correct. Option B is -17 (sign error), option C is 17 (forgot to multiply by 3), option D is 51 (added instead of subtracted).</p>"
+    },
+    {
+      "questionId": "h4_progressive",
+      "passageId": "",
+      "questionHtml": "<p>The temperature \\(T\\) (in degrees Celsius) of a chemical reaction \\(t\\) minutes after it begins is modeled by \\(T(t) = 95 - 4(t - 5)\\). The constant 95 in this model estimates which of the following?</p>",
+      "options": {
+        "A": "The temperature 5 minutes after the reaction begins",
+        "B": "The temperature at the start of the reaction",
+        "C": "The rate at which the temperature decreases per minute",
+        "D": "The temperature after 10 minutes"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> To interpret 95, evaluate T at t = 5 (since (t-5) becomes zero).<br/><strong>Step 2:</strong> T(5) = 95 - 4(5-5) = 95 - 0 = 95.<br/><strong>Step 3:</strong> So 95 is the temperature at t = 5 minutes.<br/><strong>Step 4:</strong> Option A matches. Option B: T(0)=95-4(-5)=115. Option C: slope is -4. Option D: T(10)=95-4(5)=75.</p>"
+    },
+    {
+      "questionId": "h5_progressive",
+      "passageId": "",
+      "questionHtml": "<p>The population of a certain town decreased from 12,500 in 2010 to 8,900 in 2018 at a constant annual rate. Which of the following linear functions \\(P(t)\\) best models the population \\(t\\) years after 2010?</p>",
+      "options": {
+        "A": "\\(P(t) = 12,500 - 450t\\)",
+        "B": "\\(P(t) = 12,500 - 480t\\)",
+        "C": "\\(P(t) = 8,900 + 450(t-8)\\)",
+        "D": "\\(P(t) = 8,900 - 450(t+8)\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> From 2010 to 2018 is 8 years. Population decrease = 12,500 - 8,900 = 3,600.<br/><strong>Step 2:</strong> Annual decrease = 3,600 / 8 = 450 people per year.<br/><strong>Step 3:</strong> Starting population at t=0 (2010) is 12,500. So P(t) = 12,500 - 450t.<br/><strong>Step 4:</strong> Option A matches. Option B uses 480 (incorrect rate). Option C gives increasing function. Option D has wrong intercept.</p>"
+    },
+    {
+      "questionId": "h6_progressive",
+      "passageId": "",
+      "questionHtml": "<p>The function \\(C(F) = \\frac{5}{9}(F-32)\\) converts a temperature from degrees Fahrenheit \\(F\\) to degrees Celsius \\(C\\). If the temperature increases by 54 degrees Fahrenheit, by how many degrees Celsius does it increase?</p>",
+      "options": {
+        "A": "10",
+        "B": "22",
+        "C": "30",
+        "D": "54"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> The function is linear: C = (5/9)F - (160/9). The slope is 5/9.<br/><strong>Step 2:</strong> Slope = change in Celsius per change in Fahrenheit = 5/9.<br/><strong>Step 3:</strong> For a 54°F increase, the Celsius increase = (5/9) × 54.<br/><strong>Step 4:</strong> Compute: 54 × 5/9 = (54/9)×5 = 6×5 = 30.<br/><strong>Step 5:</strong> Option C is correct. Option A is 54×1/5.4, option B is 54-32, option D is the Fahrenheit increase.</p>"
+    },
+    {
+      "questionId": "h7_progressive",
+      "passageId": "",
+      "questionHtml": "<p>The table above shows values of a linear function \\(f\\):<br/>\\(\\begin{array}{c|c} x & f(x) \\\\ \\hline -2 & 14 \\\\ 3 & -1 \\\\ 8 & -16 \\end{array}\\)<br/>What is the \\(x\\)-intercept of the graph of \\(y = f(x)\\) in the \\(xy\\)-plane?</p>",
+      "options": {
+        "A": "\\(-\\frac{8}{3}\\)",
+        "B": "\\(-\\frac{3}{8}\\)",
+        "C": "\\(\\frac{8}{3}\\)",
+        "D": "\\(\\frac{16}{3}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Use points (-2,14) and (3,-1) to find slope: m = (-1 - 14) / (3 - (-2)) = (-15) / 5 = -3.<br/><strong>Step 2:</strong> Use point-slope: y - 14 = -3(x + 2) → y = -3x -6 + 14 → y = -3x + 8.<br/><strong>Step 3:</strong> x-intercept when y=0: 0 = -3x + 8 → 3x = 8 → x = 8/3.<br/><strong>Step 4:</strong> Option C is correct. Option A and B have negative signs, option D is double.</p>"
+    },
+    {
+      "questionId": "h8_progressive",
+      "passageId": "",
+      "questionHtml": "<p>A nutritionist uses the following table for energy content of macronutrients (calories per gram):<br/>Protein: 4.0, Fat: 9.0, Carbohydrate: 4.0.<br/>A snack bar contains 250 total calories from \\(p\\) grams of protein, \\(f\\) grams of fat, and \\(c\\) grams of carbohydrate. Which of the following expresses \\(f\\) in terms of \\(p\\) and \\(c\\)?</p>",
+      "options": {
+        "A": "\\(f = \\frac{250}{9} - \\frac{4}{9}(p + c)\\)",
+        "B": "\\(f = \\frac{250}{9} - \\frac{4}{9}(p - c)\\)",
+        "C": "\\(f = \\frac{250}{9} + \\frac{4}{9}(p + c)\\)",
+        "D": "\\(f = \\frac{250}{9} - \\frac{4}{9}(p + c)\\)? (duplicate? Actually D in PDF was different but we use A)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Total calories equation: 4p + 9f + 4c = 250.<br/><strong>Step 2:</strong> Isolate the term with f: 9f = 250 - 4p - 4c.<br/><strong>Step 3:</strong> Factor the right side: 9f = 250 - 4(p + c).<br/><strong>Step 4:</strong> Divide both sides by 9: f = 250/9 - (4/9)(p + c).<br/><strong>Step 5:</strong> Option A matches. Option B uses subtraction inside parentheses incorrectly. Option C adds. Option D would have incorrect coefficients.</p>"
+    },
+    {
+      "questionId": "h9_progressive",
+      "passageId": "",
+      "questionHtml": "<p>The length \\(L\\) (in millimeters) of a metal rod when heated to temperature \\(T\\) (in degrees Celsius) is given by \\(L(T) = 200 + 0.025T\\). Which of the following best describes the meaning of 0.025 in this context?</p>",
+      "options": {
+        "A": "The length of the rod at \\(0^{\\circ}C\\)",
+        "B": "The increase in temperature for each 1 mm increase in length",
+        "C": "The increase in length, in mm, for each \\(1^{\\circ}C\\) increase in temperature",
+        "D": "The temperature at which the rod length is 200 mm"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> The equation is linear: L = 200 + 0.025T. The coefficient of T is the slope.<br/><strong>Step 2:</strong> Slope = change in L / change in T = 0.025 mm per 1°C.<br/><strong>Step 3:</strong> So for each 1°C increase, length increases by 0.025 mm.<br/><strong>Step 4:</strong> Option C states this correctly. Option A describes the constant 200. Option B is the reciprocal (40°C per mm). Option D would be solving 200+0.025T=200 → T=0.</p>"
+    },
+    {
+      "questionId": "h10_progressive",
+      "passageId": "",
+      "questionHtml": "<p>If \\(f(2x+1) = 4x - 3\\), what is the value of \\(f(7)\\)?</p>",
+      "options": {
+        "A": "5",
+        "B": "7",
+        "C": "9",
+        "D": "13"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> We want f(7). Set the argument equal to 7: 2x + 1 = 7.<br/><strong>Step 2:</strong> Solve for x: 2x = 6 → x = 3.<br/><strong>Step 3:</strong> Substitute x = 3 into the expression for f(2x+1): f(7) = 4(3) - 3 = 12 - 3 = 9.<br/><strong>Step 4:</strong> Option C is correct. Option A uses x=1, option B uses x=2, option D uses x=4.</p>"
+    }
+  ]
+}

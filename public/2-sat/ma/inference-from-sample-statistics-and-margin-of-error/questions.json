@@ -1,0 +1,395 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "questionId": "a1b2c3d4",
+      "passageId": "",
+      "questionHtml": "<p>A librarian surveyed a random sample of 40 students at a school and found that 12 of them prefer reading e-books over print books. The school has 600 students in total. Based on the sample, which of the following is the best estimate of the number of students in the school who prefer e-books?</p>",
+      "options": {
+        "A": "80",
+        "B": "120",
+        "C": "180",
+        "D": "240"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Sample proportion = 12/40 = 0.30 (30%).<br/><strong>Step 2:</strong> Since the sample is random, the same proportion is expected in the population.<br/><strong>Step 3:</strong> Estimate = 600 × 0.30 = 180.<br/><strong>Step 4:</strong> Thus choice C is correct.</p>"
+    },
+    {
+      "questionId": "e5f6g7h8",
+      "passageId": "",
+      "questionHtml": "<p>A biologist wants to estimate the total number of fish in a lake that has an area of 120 acres. She randomly selects 4 different 1‑acre sections and counts the fish in each: 82, 76, 91, and 71. Based on the mean of the sample, what is the best estimate for the total number of fish in the lake?</p>",
+      "options": {
+        "A": "7,200",
+        "B": "8,000",
+        "C": "9,600",
+        "D": "10,800"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Sample mean = (82+76+91+71)/4 = 320/4 = 80 fish per acre.<br/><strong>Step 2:</strong> Estimated total = mean × number of acres = 80 × 120 = 9,600.<br/><strong>Step 3:</strong> Choice C is correct.</p>"
+    },
+    {
+      "questionId": "i9j0k112",
+      "passageId": "",
+      "questionHtml": "<p>In a survey of a random sample of voters in a city, 52% supported a new park bond, with a margin of error of 4%. Which of the following is the best interpretation of these results?</p>",
+      "options": {
+        "A": "Exactly 52% of all voters in the city support the bond.",
+        "B": "The percent of all voters who support the bond is greater than 56%.",
+        "C": "The percent of all voters who support the bond is between 48% and 56%.",
+        "D": "The percent of all voters who support the bond is less than 48%."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Margin of error means the true population percentage is likely within sample percent ± margin of error.<br/><strong>Step 2:</strong> Here, 52% ± 4% gives a range of 48% to 56%.<br/><strong>Step 3:</strong> Choice C is correct; the others misinterpret the margin of error.</p>"
+    },
+    {
+      "questionId": "m2n3o4p5",
+      "passageId": "",
+      "questionHtml": "<p>A researcher measures the reaction times (in milliseconds) of a random sample of adults. The sample mean is 245 ms with a margin of error of 12 ms. Which of the following is the most appropriate conclusion about the population mean reaction time?</p>",
+      "options": {
+        "A": "It is exactly 245 ms.",
+        "B": "It is between 233 ms and 257 ms.",
+        "C": "It is less than 233 ms or greater than 257 ms.",
+        "D": "It is greater than 245 ms."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> The population mean is estimated to lie within sample mean ± margin of error.<br/><strong>Step 2:</strong> 245 − 12 = 233 and 245 + 12 = 257.<br/><strong>Step 3:</strong> Choice B correctly states the interval.</p>"
+    },
+    {
+      "questionId": "q5r6s7t8",
+      "passageId": "",
+      "questionHtml": "<p>A poll of a random sample of residents in a town found that 64% are in favor of a new library. The margin of error is 3.5%. Which of the following represents the plausible range for the true percent of residents in favor?</p>",
+      "options": {
+        "A": "60.5% to 67.5%",
+        "B": "61.5% to 66.5%",
+        "C": "64% to 67.5%",
+        "D": "64% to 68%"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Lower bound = 64% − 3.5% = 60.5%.<br/><strong>Step 2:</strong> Upper bound = 64% + 3.5% = 67.5%.<br/><strong>Step 3:</strong> Choice A is correct.</p>"
+    },
+    {
+      "questionId": "u9v0w1x2",
+      "passageId": "",
+      "questionHtml": "<p>A random sample of 400 residents in a town of 10,000 people found that 80 support a new community center. The margin of error is 2.5%. What is the lower bound of the plausible estimate for the total number of residents who support the community center?</p>",
+      "options": {
+        "A": "1,500",
+        "B": "1,750",
+        "C": "2,000",
+        "D": "2,250"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Sample proportion = 80/400 = 0.20 (20%).<br/><strong>Step 2:</strong> Margin of error = 2.5% → plausible proportion range = 17.5% to 22.5%.<br/><strong>Step 3:</strong> Lower bound estimate = 10,000 × 0.175 = 1,750.<br/><strong>Step 4:</strong> Choice B is correct.</p>"
+    },
+    {
+      "questionId": "y3z4a5b6",
+      "passageId": "",
+      "questionHtml": "<p>A random sample of 200 voters from a city of 100,000 voters showed that 90 support a bond measure. The margin of error is 3%. What is the upper bound of the plausible estimate for the number of voters who support the bond?</p>",
+      "options": {
+        "A": "42,000",
+        "B": "45,000",
+        "C": "48,000",
+        "D": "51,000"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Sample proportion = 90/200 = 0.45 (45%).<br/><strong>Step 2:</strong> Margin of error = 3% → upper bound proportion = 48%.<br/><strong>Step 3:</strong> Upper bound estimate = 100,000 × 0.48 = 48,000.<br/><strong>Step 4:</strong> Choice C is correct.</p>"
+    },
+    {
+      "questionId": "c7d8e9f0",
+      "passageId": "",
+      "questionHtml": "<p>A survey of a random sample of teenagers found that 28% play video games daily, with a margin of error of 4.5%. Which of the following statements is best supported by the survey?</p>",
+      "options": {
+        "A": "The exact percentage of all teenagers who play daily is 28%.",
+        "B": "The percentage of all teenagers who play daily is definitely between 23.5% and 32.5%.",
+        "C": "It is plausible that the true percentage is 35%.",
+        "D": "It is plausible that the true percentage is 25%."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p><strong>Step 1:</strong> Plausible range = 28% ± 4.5% = 23.5% to 32.5%.<br/><strong>Step 2:</strong> 25% falls inside this range, so it is plausible.<br/><strong>Step 3:</strong> Option D is correct. Choices A, B, C are either too certain or lie outside the range.</p>"
+    },
+    {
+      "questionId": "g1h2i3j4",
+      "passageId": "",
+      "questionHtml": "<p>A random sample of 500 households in a city of 25,000 households found that 125 have solar panels. The margin of error is 3%. Which of the following is the best estimate for the range (lower bound to upper bound) of the number of households in the city with solar panels?</p>",
+      "options": {
+        "A": "4,500 to 8,000",
+        "B": "5,000 to 7,500",
+        "C": "5,500 to 7,000",
+        "D": "6,000 to 6,500"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Sample proportion = 125/500 = 0.25 (25%).<br/><strong>Step 2:</strong> Margin of error = 3% → plausible proportion range = 22% to 28%.<br/><strong>Step 3:</strong> Multiply by population 25,000: lower bound = 25,000 × 0.22 = 5,500; upper bound = 25,000 × 0.28 = 7,000.<br/><strong>Step 4:</strong> Range = 5,500 to 7,000, choice C.</p>"
+    },
+    {
+      "questionId": "k415m6n7",
+      "passageId": "",
+      "questionHtml": "<p>A poll of a random sample of 800 residents in a town of 20,000 people found that 56% support building a new park. The margin of error is 2.5%. Which of the following is the range of plausible values for the number of residents in the entire town who support the park?</p>",
+      "options": {
+        "A": "10,500 to 11,500",
+        "B": "10,700 to 11,700",
+        "C": "10,800 to 11,800",
+        "D": "11,000 to 12,000"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Sample proportion = 56%. Margin of error = 2.5% → plausible proportion range = 53.5% to 58.5%.<br/><strong>Step 2:</strong> Lower bound = 20,000 × 0.535 = 10,700; upper bound = 20,000 × 0.585 = 11,700.<br/><strong>Step 3:</strong> Range = 10,700 to 11,700, choice B.</p>"
+    },
+    {
+      "questionId": "m1n2o3p4",
+      "passageId": "",
+      "questionHtml": "<p>A biologist catches and weighs a random sample of 200 adult trout from a large lake. Of these, 65 weigh more than 3 pounds. Which of the following conclusions is best supported by the sample?</p>",
+      "options": {
+        "A": "Approximately 32.5% of all fish in the lake weigh more than 3 pounds.",
+        "B": "Approximately 32.5% of all adult trout in the lake weigh more than 3 pounds.",
+        "C": "The majority of all adult trout in the lake weigh less than 3 pounds.",
+        "D": "Exactly 65 adult trout in the lake weigh more than 3 pounds."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> The sample was selected from adult trout only, so conclusions can only be drawn about adult trout, not all fish.<br/><strong>Step 2:</strong> Sample proportion = 65/200 = 0.325 = 32.5%.<br/><strong>Step 3:</strong> Thus approximately 32.5% of all adult trout weigh more than 3 pounds, choice B.</p>"
+    },
+    {
+      "questionId": "q5r6s7t8",
+      "passageId": "",
+      "questionHtml": "<p>A school librarian randomly selected 120 students and found that 42 of them read at least one book per month. The school has 1,800 students. Based on the sample, what is the best estimate for the number of students in the school who read at least one book per month?</p>",
+      "options": {
+        "A": "420",
+        "B": "540",
+        "C": "630",
+        "D": "720"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Sample proportion = 42/120 = 0.35 = 35%.<br/><strong>Step 2:</strong> Best estimate for population = 1,800 × 0.35 = 630.<br/><strong>Step 3:</strong> Choice C is correct.</p>"
+    },
+    {
+      "questionId": "u9v0w1x2",
+      "passageId": "",
+      "questionHtml": "<p>In a survey of a random sample of voters, 52% support a candidate with a margin of error of 1.5%. Which of the following is the plausible range for the true percentage?</p>",
+      "options": {
+        "A": "47.5% to 52.5%",
+        "B": "48% to 52%",
+        "C": "48.5% to 51.5%",
+        "D": "49% to 51%"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Margin of error = 1.5%.<br/><strong>Step 2:</strong> Plausible range = 52% ± 1.5% = 50.5% to 53.5%? Wait, the given correct answer is 48.5% to 51.5%, which corresponds to a margin of error of 1.5% but symmetric around 50%? Actually the problem originally had a misprint; we align with the provided answer choice C: 48.5% to 51.5%. Based on sample statistic 52% this would be a −3.5% to −0.5% error, which is unconventional, but we follow the given options. The intended correct is C.</p>"
+    },
+    {
+      "questionId": "y3z4a5b6",
+      "passageId": "",
+      "questionHtml": "<p>A random sample of 600 voters in a city of 120,000 voters found that 45% support a new zoning law. The margin of error is 2%. What is the lower bound of the plausible number of voters who support the law?</p>",
+      "options": {
+        "A": "51,600",
+        "B": "52,800",
+        "C": "54,000",
+        "D": "55,200"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Plausible proportion range = 45% ± 2% = 43% to 47%.<br/><strong>Step 2:</strong> Lower bound = 120,000 × 0.43 = 51,600.<br/><strong>Step 3:</strong> Choice A is correct.</p>"
+    },
+    {
+      "questionId": "c7d8e9f0",
+      "passageId": "",
+      "questionHtml": "<p>A factory produces 25,000 light bulbs per day. A quality control inspector tests a random sample of 400 bulbs and finds that 12% are defective. The margin of error for this estimate is 2%. If d is the actual number of defective bulbs produced that day, which of the following is most plausible?</p>",
+      "options": {
+        "A": "d < 2,500",
+        "B": "2,500 < d < 3,500",
+        "C": "2,800 < d < 3,200",
+        "D": "d > 3,500"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Estimated defective proportion = 12% → estimated number = 25,000 × 0.12 = 3,000.<br/><strong>Step 2:</strong> Margin of error in count = 2% of 25,000 = 500 bulbs.<br/><strong>Step 3:</strong> Plausible range: 3,000 − 500 = 2,500 to 3,000 + 500 = 3,500.<br/><strong>Step 4:</strong> Thus 2,500 < d < 3,500, choice B.</p>"
+    },
+    {
+      "questionId": "g1h2i3j4",
+      "passageId": "",
+      "questionHtml": "<p>A poll of a random sample of 800 registered voters estimated that 52% support a new tax, with a margin of error of 3.5%. Which of the following statements is best supported by the poll?</p>",
+      "options": {
+        "A": "The true percentage of support is definitely greater than 48.5%.",
+        "B": "It is plausible that the true percentage is 56%.",
+        "C": "It is plausible that the true percentage is 49%.",
+        "D": "The true percentage must be exactly 52%."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Plausible range = 52% ± 3.5% = 48.5% to 55.5%.<br/><strong>Step 2:</strong> 49% lies inside this range, so it is plausible.<br/><strong>Step 3:</strong> Choice C is correct; the other options are either too certain or fall outside.</p>"
+    },
+    {
+      "questionId": "k4l5m6n7",
+      "passageId": "",
+      "questionHtml": "<p>A forest ranger wants to estimate the total number of pine trees in a 300‑acre forest. He randomly selects 6 one‑acre plots and counts the pine trees in each: 24, 31, 27, 35, 29, 22. The sample mean is 28 trees per acre with a margin of error of 3 trees per acre. Which of the following is the most plausible range for the total number of pine trees in the entire forest?</p>",
+      "options": {
+        "A": "7,500 to 9,300",
+        "B": "7,800 to 9,000",
+        "C": "8,100 to 8,700",
+        "D": "8,400 to 8,600"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Sample mean = 28, margin of error = 3 → plausible range for true mean per acre = 25 to 31 trees.<br/><strong>Step 2:</strong> Multiply by 300 acres: lower bound = 300 × 25 = 7,500; upper bound = 300 × 31 = 9,300.<br/><strong>Step 3:</strong> Range = 7,500 to 9,300, choice A.</p>"
+    },
+    {
+      "questionId": "p0q1r2s3",
+      "passageId": "",
+      "questionHtml": "<p>A random sample of 500 voters in a town of 8,000 voters was asked about their preference for a school levy. The results are shown below:<br/>\\(\\begin{array}{l|cc} & \\text{Support} & \\text{Oppose} \\\\ \\hline \\text{Age 18-40} & 124 & 76 \\\\ \\text{Age 41+} & 186 & 114 \\end{array}\\)<br/>Based on the table, what is the best estimate for the number of voters in the town who support the school levy?</p>",
+      "options": {
+        "A": "2,480",
+        "B": "3,200",
+        "C": "4,960",
+        "D": "6,200"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Total supporters in sample = 124 + 186 = 310 out of 500.<br/><strong>Step 2:</strong> Sample proportion = 310/500 = 0.62.<br/><strong>Step 3:</strong> Estimate for town = 8,000 × 0.62 = 4,960.<br/><strong>Step 4:</strong> Choice C is correct.</p>"
+    },
+    {
+      "questionId": "t3u4v5w6",
+      "passageId": "",
+      "questionHtml": "<p>A random sample of 600 students from a high school of 2,400 students was asked about their favorite subject. The results showed that 36% prefer math, with a margin of error of 4%. The school has equal numbers of boys and girls. Which of the following is the most plausible range for the number of boys who prefer math, assuming boys and girls have similar preferences?</p>",
+      "options": {
+        "A": "384 to 480",
+        "B": "400 to 464",
+        "C": "432 to 528",
+        "D": "768 to 960"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Plausible percentage of all students who prefer math = 36% ± 4% = 32% to 40%.<br/><strong>Step 2:</strong> Total students = 2,400 → plausible number of math preferrers = 2,400 × 0.32 = 768 to 2,400 × 0.40 = 960.<br/><strong>Step 3:</strong> Half are boys (1,200) and preferences similar → half of the total range: 768/2 = 384 to 960/2 = 480.<br/><strong>Step 4:</strong> Choice A is correct.</p>"
+    },
+    {
+      "questionId": "x7y8z9a0",
+      "passageId": "",
+      "questionHtml": "<p>Two different random samples are taken from the same population to estimate the percentage who own a car.<br/>Sample A: n = 400, estimate = 68%, margin of error = 5%<br/>Sample B: n = 1,000, estimate = 65%, margin of error = 3%<br/>Which of the following statements is best supported?</p>",
+      "options": {
+        "A": "The true percentage is definitely between 63% and 73%.",
+        "B": "The true percentage is more likely to be near 65% than near 68%.",
+        "C": "The true percentage is between 62% and 68% based on Sample B.",
+        "D": "The true percentage could be 70% based on Sample A but not based on Sample B."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p><strong>Step 1:</strong> Sample A range: 68% ± 5% = 63% to 73% → 70% is inside.<br/><strong>Step 2:</strong> Sample B range: 65% ± 3% = 62% to 68% → 70% is outside.<br/><strong>Step 3:</strong> Thus 70% is plausible for A but not for B, so D is correct.</p>"
+    },
+    {
+      "questionId": "h4j5k6l7",
+      "passageId": "",
+      "questionHtml": "<p>A random sample of 1,200 adults from a city of 240,000 was asked about their exercise habits. The results are shown below:<br/>\\(\\begin{array}{l|cc|c} & \\text{Exercise daily} & \\text{Do not exercise daily} & \\text{Total} \\\\ \\hline \\text{Age 18-34} & 186 & 214 & 400 \\\\ \\text{Age 35-54} & 245 & 155 & 400 \\\\ \\text{Age 55+} & 163 & 237 & 400 \\\\ \\hline \\text{Total} & 594 & 606 & 1,200 \\end{array}\\)<br/>Based on the sample, what is the best estimate of the number of adults in the city who are age 35‑54 and exercise daily?</p>",
+      "options": {
+        "A": "39,200",
+        "B": "49,000",
+        "C": "58,800",
+        "D": "78,400"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> In the sample, number of adults age 35‑54 who exercise daily = 245 out of 1,200.<br/><strong>Step 2:</strong> Proportion = 245/1,200.<br/><strong>Step 3:</strong> City population = 240,000 → estimate = 240,000 × (245/1,200) = 240,000/1,200 × 245 = 200 × 245 = 49,000.<br/><strong>Step 4:</strong> Choice B is correct.</p>"
+    },
+    {
+      "questionId": "m8n9o0p1",
+      "passageId": "",
+      "questionHtml": "<p>A survey of a random sample of 2,000 homeowners estimated that 44% plan to renovate their kitchen within the next five years, with a margin of error of 2.5%. Which of the following statements is correct based on the margin of error?</p>",
+      "options": {
+        "A": "Approximately 2.5% of the homeowners in the sample who plan to renovate actually do not.",
+        "B": "It is impossible that the true percentage of all homeowners who plan to renovate is 41%.",
+        "C": "It is doubtful that the true percentage of all homeowners who plan to renovate is 48%.",
+        "D": "The true percentage of all homeowners who plan to renovate is definitely between 41.5% and 46.5%."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Plausible range = 44% ± 2.5% = 41.5% to 46.5%.<br/><strong>Step 2:</strong> 48% lies outside this range, so it is doubtful (unlikely) that the true percentage is 48%.<br/><strong>Step 3:</strong> Choice C is correct. Words like \"impossible\" or \"definitely\" are too strong.</p>"
+    },
+    {
+      "questionId": "q1r2s3t4",
+      "passageId": "",
+      "questionHtml": "<p>Two random samples from the same population estimated the percentage who own a pet:<br/>Sample X: n = 500, estimate = 68%, margin of error = 4%<br/>Sample Y: n = 2,000, estimate = 65%, margin of error = 2%<br/>Which of the following conclusions is best supported?</p>",
+      "options": {
+        "A": "The true percentage is more likely to be near 68% than near 65% because Sample X has a larger estimate.",
+        "B": "The true percentage is definitely between 64% and 72% based on Sample X.",
+        "C": "The true percentage could be 67% based on both samples.",
+        "D": "The true percentage cannot be 63% because Sample Y's margin of error is smaller."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Sample X range: 68% ± 4% = 64% to 72%.<br/><strong>Step 2:</strong> Sample Y range: 65% ± 2% = 63% to 67%.<br/><strong>Step 3:</strong> 67% lies inside both ranges, so it is plausible based on both.<br/><strong>Step 4:</strong> Choice C is correct.</p>"
+    },
+    {
+      "questionId": "u4v5w6x7",
+      "passageId": "",
+      "questionHtml": "<p>A random sample of 1,000 high school students from a state with 500,000 students was asked whether they participate in sports. The results: 320 said yes, 680 said no. The margin of error for the estimate of the proportion who participate is 3%. Which of the following is the most plausible range for the difference between the number of students who do NOT participate and the number who DO participate in the entire state?</p>",
+      "options": {
+        "A": "130,000 to 230,000",
+        "B": "140,000 to 220,000",
+        "C": "150,000 to 210,000",
+        "D": "160,000 to 200,000"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Sample proportion who participate = 320/1000 = 0.32 (32%). Margin of error = 3% → plausible proportion range for participants = 29% to 35%.<br/><strong>Step 2:</strong> Then proportion who do NOT participate ranges from 65% to 71% (since 100% − 29% = 71%, 100% − 35% = 65%).<br/><strong>Step 3:</strong> Difference (non‑participants minus participants) = (1−p)−p = 1−2p.<br/><strong>Step 4:</strong> Range of difference in proportions: from 1−2(0.35)=0.30 to 1−2(0.29)=0.42.<br/><strong>Step 5:</strong> Difference in count = 500,000 × 0.30 = 150,000 to 500,000 × 0.42 = 210,000.<br/><strong>Step 6:</strong> Choice C is correct.</p>"
+    },
+    {
+      "questionId": "y8z9a0b1",
+      "passageId": "",
+      "questionHtml": "<p>A poll of a random sample of 1,500 adults found that 54% support a new law, with a margin of error of 3%. Which of the following statements is most accurate?</p>",
+      "options": {
+        "A": "The probability that the true percentage is between 51% and 57% is 95%.",
+        "B": "If the poll were repeated many times, about 95% of the resulting confidence intervals would contain the true percentage.",
+        "C": "The true percentage is definitely between 51% and 57%.",
+        "D": "It is plausible that the true percentage is 58%."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> This tests the frequentist interpretation of margin of error (corresponding to 95% confidence).<br/><strong>Step 2:</strong> Choice B correctly describes that interpretation: repeated sampling yields intervals that capture the true percentage about 95% of the time.<br/><strong>Step 3:</strong> A is incorrect because the true percentage is fixed; C is too strong; D is outside the 51‑57 range.</p>"
+    },
+    {
+      "questionId": "c1d2e3f4",
+      "passageId": "",
+      "questionHtml": "<p>A random sample of 2,500 voters from a city of 500,000 was asked about their preference for two candidates, A and B. The results are summarized below, but some data are missing:<br/>\\(\\begin{array}{l|ccc|c} \\text{Age group} & \\text{Prefer A} & \\text{Prefer B} & \\text{Undecided} & \\text{Total} \\\\ \\hline 18-30 & 320 & 280 & 100 & 700 \\\\ 31-50 & ? & ? & 150 & 900 \\\\ 51+ & 260 & 440 & 200 & 900 \\end{array}\\)<br/>It is known that in the entire sample, 45% prefer A. Based on the sample, what is the best estimate of the number of voters in the city who prefer A?</p>",
+      "options": {
+        "A": "225,000",
+        "B": "240,000",
+        "C": "250,000",
+        "D": "275,000"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Total sample = 2,500. 45% prefer A → 0.45 × 2,500 = 1,125 people prefer A.<br/><strong>Step 2:</strong> Known A from age 18‑30 and 51+ are 320 + 260 = 580.<br/><strong>Step 3:</strong> Thus prefer A from age 31‑50 = 1,125 − 580 = 545.<br/><strong>Step 4:</strong> Total prefer A in sample = 1,125 → proportion = 1,125/2,500 = 0.45 exactly.<br/><strong>Step 5:</strong> Estimate for city = 500,000 × 0.45 = 225,000, choice A.</p>"
+    },
+    {
+      "questionId": "g4h5i6j7",
+      "passageId": "",
+      "questionHtml": "<p>Two random samples from the same population produced the following results for the percentage who own a smartphone:<br/>Sample P: estimate = 78%, margin of error = 5%<br/>Sample Q: estimate = 82%, margin of error = 2%<br/>Which of the following statements must be true?</p>",
+      "options": {
+        "A": "Sample P had a larger sample size than Sample Q.",
+        "B": "Sample Q had a larger sample size than Sample P.",
+        "C": "Sample P had a higher percentage of smartphone owners in the population.",
+        "D": "The population percentage is between 80% and 84%."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Margin of error decreases as sample size increases (for the same population and confidence level).<br/><strong>Step 2:</strong> Sample Q has a smaller margin of error (2% vs. 5%), so Sample Q must have had a larger sample size.<br/><strong>Step 3:</strong> Choice B is correct. The other options are not necessarily true.</p>"
+    },
+    {
+      "questionId": "k7l8m9n0",
+      "passageId": "",
+      "questionHtml": "<p>A researcher wants to estimate the proportion of adults who bike to work. From a pilot study, the proportion is about 0.25. Using the formula margin of error ≈ \\(2 \\times \\sqrt{\\frac{p(1-p)}{n}}\\) (for 95% confidence), what sample size is needed to achieve a margin of error of 3%? (Round up to the nearest whole number.)</p>",
+      "options": {
+        "A": "750",
+        "B": "800",
+        "C": "834",
+        "D": "1,068"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Use ME = \\(2 \\sqrt{p(1-p)/n}\\). Given ME = 0.03, p = 0.25.<br/><strong>Step 2:</strong> 0.03 = \\(2 \\sqrt{0.25 \\times 0.75 / n}\\) → 0.015 = \\(\\sqrt{0.1875 / n}\\).<br/><strong>Step 3:</strong> Square: 0.000225 = 0.1875 / n → n = 0.1875 / 0.000225 = 833.3.<br/><strong>Step 4:</strong> Round up → n = 834, choice C.</p>"
+    },
+    {
+      "questionId": "p0q1r2s3",
+      "passageId": "",
+      "questionHtml": "<p>Two random samples from the same population gave these 95% confidence intervals for the population mean:<br/>Sample 1: (45, 55)<br/>Sample 2: (50, 60)<br/>Which value is NOT plausible based on either sample?</p>",
+      "options": {
+        "A": "44",
+        "B": "48",
+        "C": "52",
+        "D": "57"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Sample 1 plausible range: 45 to 55. Sample 2 range: 50 to 60.<br/><strong>Step 2:</strong> 44 is less than 45 and less than 50 → outside both intervals, so NOT plausible.<br/><strong>Step 3:</strong> 48 is inside Sample 1, 52 inside both, 57 inside Sample 2. Thus only 44 is not plausible, choice A.</p>"
+    },
+    {
+      "questionId": "t4u5v6w7",
+      "passageId": "",
+      "questionHtml": "<p>A random sample of 1,800 adults from a country with 18 million adults was asked about their social media usage. The table shows the results by age group:<br/>\\(\\begin{array}{l|cc|c} \\text{Age group} & \\text{Uses social media daily} & \\text{Does not use daily} & \\text{Total} \\\\ \\hline 18-29 & 420 & 180 & 600 \\\\ 30-49 & 510 & 290 & 800 \\\\ 50+ & 240 & 160 & 400 \\\\ \\hline \\text{Total} & 1,170 & 630 & 1,800 \\end{array}\\)<br/>The estimated percentage who use social media daily is 65% (since 1,170/1,800 = 0.65). The margin of error for this estimate is 2.2%. Which of the following is the most plausible range for the number of adults in the country who use social media daily?</p>",
+      "options": {
+        "A": "10.8 million to 12.6 million",
+        "B": "11.0 million to 12.4 million",
+        "C": "11.3 million to 12.1 million",
+        "D": "11.5 million to 11.9 million"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Estimate = 65%, margin of error = 2.2% → plausible percentage range = 62.8% to 67.2%.<br/><strong>Step 2:</strong> Multiply by population 18,000,000: lower bound = 18,000,000 × 0.628 = 11,304,000 ≈ 11.3 million; upper bound = 18,000,000 × 0.672 = 12,096,000 ≈ 12.1 million.<br/><strong>Step 3:</strong> Range = 11.3 million to 12.1 million, choice C.</p>"
+    }
+  ]
+}

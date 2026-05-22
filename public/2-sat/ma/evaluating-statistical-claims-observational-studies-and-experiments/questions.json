@@ -1,0 +1,394 @@
+{"passages": [],
+  "questions": [
+    {
+      "questionId": "a3f2c89b",
+      "passageId": "",
+      "questionHtml": "<p>A local news station wants to know whether residents support building a new library. They ask viewers to call a toll-free number to vote \"yes\" or \"no.\" After one hour, they receive 1,200 calls, with 72% saying \"yes.\" Which of the following is the biggest flaw in this survey?</p>",
+      "options": {
+        "A": "The sample size is too small to draw any conclusion.",
+        "B": "The survey only includes people who watch that news station.",
+        "C": "The survey is a voluntary response sample and likely biased.",
+        "D": "The wording of the question may have influenced responses."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> The survey uses self-selected callers, not a random sample. <strong>Step 2:</strong> Voluntary response samples are almost always biased because those with strong opinions are more likely to participate. <strong>Step 3:</strong> This does not represent all residents. <strong>Step 4:</strong> Choice C is correct. Choice A is incorrect because 1,200 is a large sample; bias is the main issue. Choice B is partially true but not the biggest flaw. Choice D is not indicated since no wording is given.</p>"
+    },
+    {
+      "questionId": "7d4e1a6f",
+      "passageId": "",
+      "questionHtml": "<p>A high school principal wants to know if students would prefer a later start time. She randomly selects 100 students from the school's enrollment list and surveys them. 68% say yes. Which of the following must be true?</p>",
+      "options": {
+        "A": "Exactly 68% of all students prefer a later start time.",
+        "B": "The result is unbiased because the sample was random.",
+        "C": "The result is likely close to the true population preference, but not guaranteed to be exact.",
+        "D": "The principal should have surveyed at least 500 students to get reliable results."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Random sampling reduces bias but does not guarantee the sample result equals the population parameter. <strong>Step 2:</strong> Sampling variability means the result is an estimate. <strong>Step 3:</strong> Choice C correctly states this. Choice A is false because sample results are rarely exact. Choice B is false because random sampling minimizes bias but does not guarantee zero bias (e.g., non-response). Choice D is false; 100 can be sufficient depending on population size.</p>"
+    },
+    {
+      "questionId": "2b9f4c7e",
+      "passageId": "",
+      "questionHtml": "<p>A researcher finds that people who eat breakfast daily have lower cholesterol levels. He concludes that eating breakfast causes lower cholesterol. Which of the following, if true, would most weaken his conclusion?</p>",
+      "options": {
+        "A": "People who eat breakfast also tend to exercise more.",
+        "B": "The study included 5,000 participants.",
+        "C": "The study was an observational study, not an experiment.",
+        "D": "Both A and C."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p><strong>Step 1:</strong> The study is observational, so causation cannot be established (C). <strong>Step 2:</strong> A confounding variable (exercise) could explain the association (A). <strong>Step 3:</strong> Together they strongly weaken the causal claim. <strong>Step 4:</strong> Choice D is correct. Choice B would strengthen the study's reliability. Choice A alone weakens but C alone also weakens; D is best.</p>"
+    },
+    {
+      "questionId": "8c3a5d1b",
+      "passageId": "",
+      "questionHtml": "<p>To test whether a new fertilizer increases tomato yield, a gardener applies the fertilizer to 20 tomato plants in a sunny part of the garden and uses no fertilizer on 20 plants in a shady part. The fertilized plants produce more tomatoes. Why can't the gardener conclude the fertilizer caused the increase?</p>",
+      "options": {
+        "A": "The sample size is too small.",
+        "B": "The plants in the sunny area may have grown better due to more sunlight.",
+        "C": "Fertilizer never increases yield.",
+        "D": "The gardener should have used a survey instead of an experiment."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Confounding variable (sunlight) differs between groups. <strong>Step 2:</strong> A proper experiment would randomly assign plants to fertilizer or no fertilizer, keeping all other conditions the same. <strong>Step 3:</strong> Choice B is correct. Choice A is incorrect; 20 per group can be enough if design is sound. Choice C is false. Choice D is irrelevant; an experiment is appropriate for causation.</p>"
+    },
+    {
+      "questionId": "5f6a2e9c",
+      "passageId": "",
+      "questionHtml": "<p>A pharmaceutical company wants to test a new drug for headaches. They recruit 200 volunteers and randomly assign 100 to receive the drug and 100 to receive a sugar pill. 78% of the drug group reported pain relief, compared to 32% of the sugar pill group. Which of the following is the best conclusion?</p>",
+      "options": {
+        "A": "The drug caused the higher relief rate because of random assignment and blinding.",
+        "B": "The sugar pill group's relief is impossible.",
+        "C": "The study is flawed because a sugar pill cannot affect headaches.",
+        "D": "The results are only valid for people who volunteer for drug trials."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Random assignment helps ensure groups are comparable; blinding prevents bias. <strong>Step 2:</strong> This allows a causal conclusion. <strong>Step 3:</strong> Choice A is correct. Choice B is incorrect; the placebo effect often produces relief. Choice C is incorrect; placebos can have real physiological effects. Choice D is incorrect; random selection was not used, but the causal conclusion about the drug's effect is still valid for similar populations.</p>"
+    },
+    {
+      "questionId": "4d8b7c2a",
+      "passageId": "",
+      "questionHtml": "<p>In a study, 300 people were randomly assigned to either listen to Mozart or sit in silence for 10 minutes before taking a spatial reasoning test. The Mozart group scored higher on average. Which of the following statements is most accurate?</p>",
+      "options": {
+        "A": "Listening to Mozart improves spatial reasoning for everyone.",
+        "B": "The study proves that silence harms spatial reasoning.",
+        "C": "The difference could be due to chance, but random assignment suggests a causal effect if the difference is statistically significant.",
+        "D": "The study is worthless because it didn't survey participants' music preferences."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Random assignment allows causal claims, but we need to consider statistical significance. <strong>Step 2:</strong> The observed difference might be due to random variability. <strong>Step 3:</strong> Choice C is correct. Choice A is too absolute; results show an average effect. Choice B is incorrect; the study compares Mozart to silence, not proving silence \"harms.\" Choice D is incorrect; the study design is valid without surveying preferences.</p>"
+    },
+    {
+      "questionId": "1e9f3b6d",
+      "passageId": "",
+      "questionHtml": "<p>A school district wants to know if a new math curriculum improves test scores. They implement the new curriculum in one elementary school and compare its scores to a neighboring school that kept the old curriculum. The new-curriculum school has higher scores. Which of the following is a hidden variable that could explain the difference?</p>",
+      "options": {
+        "A": "The number of teachers at each school.",
+        "B": "The socioeconomic status of students' families.",
+        "C": "The length of the math period.",
+        "D": "All of the above."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p><strong>Step 1:</strong> Without random assignment, many confounding variables could differ between two non-randomly chosen schools. <strong>Step 2:</strong> Each of A, B, C could differ and affect scores. <strong>Step 3:</strong> Therefore, no causal claim is justified. <strong>Step 4:</strong> Choice D is correct.</p>"
+    },
+    {
+      "questionId": "6a2c8f4b",
+      "passageId": "",
+      "questionHtml": "<p>A researcher surveys 1,000 randomly selected adults and finds that those who read more than 30 minutes per day have higher vocabulary scores. He claims that reading more causes higher vocabulary. Which of the following would be necessary to support that claim?</p>",
+      "options": {
+        "A": "A larger sample size.",
+        "B": "An experiment where adults are randomly assigned to read different amounts.",
+        "C": "A survey that includes only people with low vocabulary.",
+        "D": "A survey that includes only people with low vocabulary."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Observational studies cannot establish causation due to possible confounding. <strong>Step 2:</strong> A randomized experiment could establish causality. <strong>Step 3:</strong> Choice B is correct. Choice A is incorrect; larger sample reduces margin of error but doesn't fix confounding. Choice C would introduce bias. Choice D is already done; self-report may be inaccurate but not the main issue.</p>"
+    },
+    {
+      "questionId": "9d7e3a1f",
+      "passageId": "",
+      "questionHtml": "<p>A city council wants to determine whether a new traffic signal reduces accidents. They install the signal at a busy intersection and compare the number of accidents in the 6 months before installation to the 6 months after. Accidents decreased by 40%. Which of the following is the most serious threat to concluding the signal caused the decrease?</p>",
+      "options": {
+        "A": "The sample size (only one intersection) is too small.",
+        "B": "Accidents might have decreased due to other factors, such as improved driver awareness or weather changes.",
+        "C": "The council should have surveyed drivers instead.",
+        "D": "The decrease is too small to be meaningful."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> This is a before-after study without a control group. <strong>Step 2:</strong> Many other factors could cause the decrease. <strong>Step 3:</strong> Choice B is correct. Choice A is not the main issue; even with many intersections, without a control group causation is weak. Choice C is wrong; an experiment or controlled observational study is better. Choice D is incorrect; 40% is large, but confounding remains.</p>"
+    },
+    {
+      "questionId": "3b7f2e8c",
+      "passageId": "",
+      "questionHtml": "<p>A nutritionist wants to test if a low-carb diet leads to weight loss. She recruits 50 volunteers, measures their weight, puts them all on a low-carb diet for 4 weeks, and measures weight again. The average weight loss is 3 pounds. Which of the following statements is true?</p>",
+      "options": {
+        "A": "The study proves that the low-carb diet causes weight loss.",
+        "B": "The study is an observational study, so no causation can be inferred.",
+        "C": "The study lacks a control group, so we cannot rule out other explanations (e.g., natural weight fluctuation, placebo effect).",
+        "D": "The sample size is too small to draw any conclusion."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Without a control group, we cannot know if the weight loss would have happened anyway. <strong>Step 2:</strong> This is a common design flaw called \"no control.\" <strong>Step 3:</strong> Choice C is correct. Choice A is incorrect because lack of control prevents causal claims. Choice B is incorrect; this is actually a simple experiment (treatment applied), but poorly designed. Choice D is incorrect; 50 is a reasonable sample size; the main flaw is design.</p>"
+    },
+    {
+      "questionId": "1a7b3c9d",
+      "passageId": "",
+      "questionHtml": "<p>A city council wants to estimate the percentage of residents who support building a new park. They randomly select 300 residents from the city's voter registration list and mail them a survey. Only 120 residents respond, and 80% of those respondents say they support the park. Which of the following is the most serious concern about the survey's conclusion?</p>",
+      "options": {
+        "A": "The sample size is too small to be reliable.",
+        "B": "The survey suffers from nonresponse bias because only 40% responded.",
+        "C": "The question wording may have been confusing.",
+        "D": "The city should have surveyed only homeowners."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Nonresponse bias occurs when respondents differ systematically from nonrespondents. <strong>Step 2:</strong> Here, only 120 of 300 responded (40% response rate). <strong>Step 3:</strong> Those who care strongly about the park may be more likely to respond, skewing results. <strong>Step 4:</strong> Choice B is correct. Choice A is incorrect; 120 responses can be adequate if random and no bias. Choice C is not indicated. Choice D would introduce sampling bias.</p>"
+    },
+    {
+      "questionId": "2f8e4a1b",
+      "passageId": "",
+      "questionHtml": "<p>A researcher randomly selects 500 adults from a large city and asks them, \"Do you support an increase in the sales tax to fund public schools?\" 62% say yes. Based on this, which of the following statements must be true?<br/>I. If all adults in the city were asked the same question, exactly 62% would say yes.<br/>II. If another random sample of 500 adults from the same city were surveyed, exactly 62% would say yes.<br/>III. The true population percentage who support the tax is likely close to 62%, but not necessarily equal.</p>",
+      "options": {
+        "A": "None",
+        "B": "III only",
+        "C": "I and II only",
+        "D": "I, II, and III"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Statement III is a proper interpretation: random samples provide estimates, not exact values. <strong>Step 2:</strong> Statement I is false because a sample result is rarely exactly equal to the population parameter. <strong>Step 3:</strong> Statement II is false because different random samples typically yield slightly different results due to sampling variability. <strong>Step 4:</strong> Thus only III must be true, so choice B is correct.</p>"
+    },
+    {
+      "questionId": "3c5d9e2f",
+      "passageId": "",
+      "questionHtml": "<p>A study followed 2,000 randomly selected adults over 10 years and found that those who drank coffee daily were 20% less likely to develop heart disease. The researchers concluded that drinking coffee prevents heart disease. Which of the following is the most appropriate criticism?</p>",
+      "options": {
+        "A": "The sample size is too small.",
+        "B": "The study was an observational study, so causation cannot be established.",
+        "C": "The study should have used a control group.",
+        "D": "Coffee drinkers may have reported their coffee consumption inaccurately."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> This is a prospective observational study, not a randomized experiment. <strong>Step 2:</strong> There may be confounding variables. <strong>Step 3:</strong> Observational studies can show association but not causation. <strong>Step 4:</strong> Choice B is correct. Choice A is incorrect; 2,000 is a large sample. Choice C is misleading; observational studies can have implicit control groups but lack random assignment. Choice D is possible but not the most fundamental criticism.</p>"
+    },
+    {
+      "questionId": "4d6b7a2c",
+      "passageId": "",
+      "questionHtml": "<p>A school district wants to test whether a new reading program improves comprehension. They randomly assign 10 elementary schools to use the new program and 10 other elementary schools to continue with the old program. After one year, the new-program schools have significantly higher average scores. Which of the following is the strongest conclusion?</p>",
+      "options": {
+        "A": "The new program causes higher scores because of random assignment.",
+        "B": "The new program works only for elementary schools.",
+        "C": "The improvement could be due to differences in school funding.",
+        "D": "The study should have been an observational study instead."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Random assignment of entire schools (clusters) still allows a causal claim. <strong>Step 2:</strong> The design controls for confounding variables at the school level. <strong>Step 3:</strong> Choice A is correct. Choice B is too narrow; results may generalize to similar elementary schools. Choice C is incorrect because random assignment balances confounders. Choice D is incorrect; experiments are better for causation.</p>"
+    },
+    {
+      "questionId": "5e1f9c8d",
+      "passageId": "",
+      "questionHtml": "<p>A health club surveys its members by asking them to fill out a comment card at the front desk. Of the 400 cards returned, 85% say they are satisfied with the equipment. The club manager claims that 85% of all members are satisfied. Which of the following is the best reason to doubt this claim?</p>",
+      "options": {
+        "A": "The sample size is too small.",
+        "B": "The survey is a voluntary response sample, and satisfied members may be more or less likely to respond.",
+        "C": "The club should have asked about other services too.",
+        "D": "The manager should have used an experiment instead."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Comment cards are a classic voluntary response sample. <strong>Step 2:</strong> Those with strong opinions are more likely to return cards, creating bias. <strong>Step 3:</strong> Choice B is correct. Choice A is incorrect; 400 is a decent size, but bias is the problem. Choice C is irrelevant. Choice D is incorrect; an experiment is not appropriate for measuring satisfaction.</p>"
+    },
+    {
+      "questionId": "6a2b4e7f",
+      "passageId": "",
+      "questionHtml": "<p>A researcher wants to know if a new allergy medication reduces symptoms. She recruits 200 volunteers and randomly assigns 100 to receive the medication and 100 to receive a placebo. Neither the participants nor the evaluators know who received which treatment. After two weeks, the medication group reports 40% fewer symptoms. Which of the following statements is true?<br/>I. The study is double-blind, which reduces bias.<br/>II. The medication can be claimed to cause the symptom reduction.<br/>III. The results cannot be generalized beyond volunteers.</p>",
+      "options": {
+        "A": "I only",
+        "B": "I and II only",
+        "C": "I, II, and III",
+        "D": "II only"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Statement I is true: double-blind means participants and outcome assessors are unaware of treatment assignment. <strong>Step 2:</strong> Statement II is true: random assignment + blinding allows causal inference. <strong>Step 3:</strong> Statement III is true: the sample was not randomly selected from a larger population; it was a volunteer sample, so generalization is limited. <strong>Step 4:</strong> All three are correct, so choice C.</p>"
+    },
+    {
+      "questionId": "7c8d9e0f",
+      "passageId": "",
+      "questionHtml": "<p>A newspaper article states: \"A survey of 500 randomly selected registered voters found that 52% approve of the mayor's job performance. The margin of error is ±4%.\" Which of the following is the most accurate interpretation?</p>",
+      "options": {
+        "A": "The true approval rating among all registered voters is exactly 52%.",
+        "B": "The approval rating is between 48% and 56% for all voters.",
+        "C": "It is likely that the true approval rating is between 48% and 56%, but it could be outside that range.",
+        "D": "Another random sample of 500 voters would have an approval rating between 48% and 56%."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Margin of error creates a confidence interval. <strong>Step 2:</strong> The interval likely contains the true population parameter, but there is a chance (usually 5%) it does not. <strong>Step 3:</strong> Choice C is correct. Choice A is false; the sample estimate is not exact. Choice B is too definitive. Choice D is false; different samples produce different intervals.</p>"
+    },
+    {
+      "questionId": "8e1f2a3b",
+      "passageId": "",
+      "questionHtml": "<p>A company wants to know if a new website design increases sales. They implement the new design on Monday and compare sales from Monday to Friday of that week to sales from the previous Monday-Friday. Sales increased by 15%. Which of the following is a hidden variable that could explain the increase?</p>",
+      "options": {
+        "A": "A holiday fell during the new-design week.",
+        "B": "The company ran a social media ad campaign during the new-design week.",
+        "C": "The weather was different.",
+        "D": "All of the above."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p><strong>Step 1:</strong> This is a before-after study with no control group. <strong>Step 2:</strong> Any other change at the same time (holiday, advertising, weather, competitor actions) could cause the sales increase. <strong>Step 3:</strong> Without a control group, causation cannot be determined. <strong>Step 4:</strong> Choice D is correct.</p>"
+    },
+    {
+      "questionId": "9f2b3c4d",
+      "passageId": "",
+      "questionHtml": "<p>A researcher surveys 1,200 randomly selected adults from a national database. He finds that people who exercise at least 3 times per week have significantly lower stress levels. He concludes that exercise reduces stress. Which of the following, if true, would most weaken his conclusion?</p>",
+      "options": {
+        "A": "People who exercise also tend to have higher incomes.",
+        "B": "The sample was randomly selected.",
+        "C": "The correlation was strong (r = -0.6).",
+        "D": "The study was an experiment with random assignment."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> An observational study cannot rule out confounding. <strong>Step 2:</strong> Higher income could reduce stress and also be associated with more exercise. <strong>Step 3:</strong> This is a confounding variable. <strong>Step 4:</strong> Choice A is correct. Choice B strengthens generalizability. Choice C strengthens the association. Choice D would be ideal for causation, but the question says \"survey\" (observational).</p>"
+    },
+    {
+      "questionId": "0c9f8e7d",
+      "passageId": "",
+      "questionHtml": "<p>A pharmaceutical company conducts a randomized double-blind experiment to test a new drug for headaches. They recruit 200 volunteers and randomly assign half to the drug and half to a placebo. The drug group shows significantly greater pain relief. Which of the following statements is true?<br/>I. The results can be generalized to all people because the sample was random.<br/>II. The study design allows a causal conclusion about the drug's effect.<br/>III. The placebo effect is controlled for by the placebo group.</p>",
+      "options": {
+        "A": "I only",
+        "B": "II only",
+        "C": "II and III only",
+        "D": "I, II, and III"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Statement II is true: random assignment + double-blind + control group supports causation. <strong>Step 2:</strong> Statement III is true: the placebo group accounts for natural healing and placebo effects. <strong>Step 3:</strong> Statement I is false: the sample was likely a convenience sample (volunteers), not randomly selected from the entire population. Random assignment ≠ random selection. <strong>Step 4:</strong> Thus II and III only, choice C.</p>"
+    },
+    {
+      "questionId": "3f8a2c9b",
+      "passageId": "",
+      "questionHtml": "<p>A researcher wants to estimate the proportion of high school students in a large district who own a smartphone. She randomly selects 5 schools out of the district's 50 schools and then surveys every student in those 5 schools. 92% of students surveyed own a smartphone. Which of the following is the largest population to which the results can be generalized?</p>",
+      "options": {
+        "A": "The students in the 5 selected schools",
+        "B": "All students in the district",
+        "C": "All high school students in the state",
+        "D": "All students in the 5 selected schools who own a smartphone"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> The researcher used cluster sampling (randomly selecting schools, then surveying all students in those schools). <strong>Step 2:</strong> Because the schools were chosen at random from the district, the sample is representative of the entire district. <strong>Step 3:</strong> The largest population for generalization is all students in the district. <strong>Step 4:</strong> Choice B is correct. Choice A is too narrow. Choice C is incorrect because the sample was not drawn from the entire state. Choice D is a subset of the sample.</p>"
+    },
+    {
+      "questionId": "5d7e1b4c",
+      "passageId": "",
+      "questionHtml": "<p>A medical study randomly assigned 300 patients with chronic headaches to one of two groups: 150 received a new drug, and 150 received a placebo. Neither patients nor doctors knew who received which treatment. After 6 weeks, the drug group reported a 45% greater reduction in headache frequency than the placebo group. Which of the following statements is true?<br/>I. The study design allows the conclusion that the drug causes the reduction in headaches.<br/>II. The results can be generalized to all people with chronic headaches because the sample size is large.<br/>III. The placebo effect is controlled for by the study design.</p>",
+      "options": {
+        "A": "I only",
+        "B": "I and II only",
+        "C": "I and III only",
+        "D": "I, II, and III"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Step 1:</strong> Statement I is true: random assignment + double-blind + control group supports causation. <strong>Step 2:</strong> Statement III is true: the placebo group accounts for the placebo effect. <strong>Step 3:</strong> Statement II is false: generalization would require random selection from that population; the study used a convenience sample. <strong>Step 4:</strong> Thus I and III only, choice C.</p>"
+    },
+    {
+      "questionId": "2a6f8e3d",
+      "passageId": "",
+      "questionHtml": "<p>A university wants to estimate the average number of hours students spend studying per week. They email a survey to all 10,000 enrolled students. Only 1,200 students respond, and the average among respondents is 14 hours per week. The university claims that the average for all students is 14 hours. Which of the following is the most valid criticism?</p>",
+      "options": {
+        "A": "The sample size of 1,200 is too small to estimate the average for 10,000 students.",
+        "B": "The response rate is only 12%, so nonresponse bias is likely, making the estimate unreliable.",
+        "C": "The survey should have been conducted in person.",
+        "D": "The average would be more accurate if they had used a smaller random sample instead of surveying everyone."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> A 12% response rate means 88% did not respond. <strong>Step 2:</strong> Those who respond may be more diligent students, biasing the average upward. <strong>Step 3:</strong> Nonresponse bias is a serious threat. <strong>Step 4:</strong> Choice B is correct. Choice A is incorrect; 1,200 is generally sufficient if the sample were random and unbiased. Choice C is not necessarily true. Choice D is incorrect; a census would be ideal if everyone responded.</p>"
+    },
+    {
+      "questionId": "7c9b2d4a",
+      "passageId": "",
+      "questionHtml": "<p>A local news station runs an online poll asking, \"Do you support the new curfew for teenagers?\" Viewers can vote on the station's website. After 24 hours, 15,000 people have voted, with 82% saying \"no.\" The station reports that \"82% of the public opposes the curfew.\" Which of the following best explains why this conclusion is likely invalid?</p>",
+      "options": {
+        "A": "The sample size of 15,000 is too large; large samples can be misleading.",
+        "B": "The poll is a voluntary response sample, and those with strong opinions are overrepresented.",
+        "C": "The question is biased because it mentions teenagers.",
+        "D": "The poll should have been conducted by phone."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Voluntary response polls (self-selected) are inherently biased. <strong>Step 2:</strong> People who feel strongly are more likely to vote, making the sample unrepresentative. <strong>Step 3:</strong> Choice B is correct. Choice A is incorrect; large sample size does not fix bias. Choice C is questionable but not the main flaw. Choice D is incorrect; phone polls can also be biased.</p>"
+    },
+    {
+      "questionId": "4d1e9f6b",
+      "passageId": "",
+      "questionHtml": "<p>A researcher studying the effect of a tutoring program on test scores selects 50 students who volunteer for tutoring and compares their scores to 50 students who did not volunteer. The tutored students score 15 points higher on average. Which of the following is the most serious threat to concluding that tutoring causes higher scores?</p>",
+      "options": {
+        "A": "The sample size is too small to detect a true effect.",
+        "B": "The study is observational, and students who volunteer may be more motivated regardless of tutoring.",
+        "C": "The test scores may not be accurate.",
+        "D": "The researcher should have used a survey instead."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> This is an observational study with self-selection bias. <strong>Step 2:</strong> Students who volunteer for tutoring likely differ systematically (more motivated, higher prior achievement) from those who do not. <strong>Step 3:</strong> This confounding variable could explain the score difference. <strong>Step 4:</strong> Choice B is correct. Choice A is incorrect; 50 per group is reasonable. Choice C is not indicated. Choice D is incorrect; an experiment with random assignment would be better.</p>"
+    },
+    {
+      "questionId": "8a3f2c7e",
+      "passageId": "",
+      "questionHtml": "<p>A city installs a new traffic light at a dangerous intersection. They record the number of accidents in the 6 months before and the 6 months after installation. Accidents decrease from 24 to 16. The city claims the traffic light caused the reduction. Which of the following, if true, would most weaken this claim?</p>",
+      "options": {
+        "A": "The city also increased police patrols in the area during the after period.",
+        "B": "The number of accidents in the neighboring intersection increased during the after period.",
+        "C": "The weather was similar in both periods.",
+        "D": "The sample size (6 months each) is too small."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> This is a before-after study with no control group. <strong>Step 2:</strong> Any concurrent change (increased police patrols) could cause the accident reduction. <strong>Step 3:</strong> This is a confounding variable. <strong>Step 4:</strong> Choice A is correct. Choice B is irrelevant. Choice C would strengthen the claim. Choice D is incorrect; the problem is confounding, not sample size.</p>"
+    },
+    {
+      "questionId": "9b5e2a4f",
+      "passageId": "",
+      "questionHtml": "<p>A researcher wants to determine whether a new teaching method improves math scores. She randomly assigns 30 students to the new method and 30 to the traditional method. All students take the same math test at the end of the semester. The new-method group scores significantly higher. Which of the following is the largest population to which the results can be generalized?</p>",
+      "options": {
+        "A": "The 60 students in the study",
+        "B": "All students at the school where the study was conducted",
+        "C": "All students in the district",
+        "D": "The results cannot be generalized beyond the study participants because the sample was not randomly selected from a larger population."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p><strong>Step 1:</strong> The researcher used random assignment to groups (for causal inference) but did not randomly select students from a larger population. <strong>Step 2:</strong> The 60 students were likely a convenience sample. <strong>Step 3:</strong> Therefore, generalization to any larger population is not statistically justified. <strong>Step 4:</strong> Choice D is correct.</p>"
+    },
+    {
+      "questionId": "1c7d8e5b",
+      "passageId": "",
+      "questionHtml": "<p>A pollster randomly selects 1,000 adults from a national database and asks whether they support a new tax. 55% say yes, with a margin of error of ±3%. Which of the following statements must be true?<br/>I. The true population proportion is between 52% and 58%.<br/>II. If another random sample of 1,000 adults were taken, the proportion who say yes would be between 52% and 58%.<br/>III. The margin of error accounts for bias due to nonresponse.</p>",
+      "options": {
+        "A": "None",
+        "B": "I only",
+        "C": "I and II only",
+        "D": "III only"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Step 1:</strong> Statement I is not guaranteed to be true; the confidence interval likely contains the true proportion, but not with certainty. <strong>Step 2:</strong> Statement II is false; different samples produce different estimates, not necessarily within the original interval. <strong>Step 3:</strong> Statement III is false; margin of error accounts for sampling variability, not bias from nonresponse. <strong>Step 4:</strong> Therefore, none must be true, choice A.</p>"
+    },
+    {
+      "questionId": "6e2a9f3c",
+      "passageId": "",
+      "questionHtml": "<p>A school district wants to know if a new anti-bullying program reduces reports of bullying. They implement the program in all 20 elementary schools in the district. After one year, bullying reports decreased by 30%. Which of the following is the most appropriate conclusion?</p>",
+      "options": {
+        "A": "The program caused the decrease because it was implemented district-wide.",
+        "B": "The decrease could be due to a change in reporting behavior (e.g., students less willing to report) rather than a true reduction.",
+        "C": "The district should have used a survey instead.",
+        "D": "The program is ineffective because the decrease is only 30%."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> Without a control group and without random assignment, many alternative explanations exist. <strong>Step 2:</strong> One key threat is that the program might change reporting behavior rather than actual bullying. <strong>Step 3:</strong> Other threats include historical trends or simultaneous interventions. <strong>Step 4:</strong> Choice B is correct. Choice A is incorrect; district-wide implementation does not prove causation. Choice C is incorrect; a survey would not improve causal inference. Choice D is incorrect; a 30% decrease could be meaningful, but causation is unproven.</p>"
+    },
+    {
+      "questionId": "0f4b7d2e",
+      "passageId": "",
+      "questionHtml": "<p>A researcher conducts a randomized experiment to test whether a new fertilizer increases crop yield. She randomly assigns 100 plots of land to receive the new fertilizer and 100 plots to receive the old fertilizer. The new fertilizer yields an average of 10% more. She then concludes that the new fertilizer causes higher yield and that the results apply to all farms in the region. Which part of her conclusion is not justified by the study design?</p>",
+      "options": {
+        "A": "The claim that the new fertilizer causes higher yield.",
+        "B": "The claim that the results apply to all farms in the region.",
+        "C": "Both A and B are justified.",
+        "D": "Neither A nor B is justified."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Step 1:</strong> The study used random assignment, so a causal claim (A) is justified. <strong>Step 2:</strong> However, generalization to \"all farms in the region\" requires that the 200 plots were randomly selected from the region's farms. <strong>Step 3:</strong> The question does not state random selection, so (B) is not justified. <strong>Step 4:</strong> Thus choice B is correct.</p>"
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "questionId": "q001",
+      "passageId": "",
+      "questionHtml": "<p>Which expression is equivalent to \\((5x + 3) + (2x - 7)\\) ?</p>",
+      "options": {
+        "A": "\\(7x - 4\\)",
+        "B": "\\(7x + 4\\)",
+        "C": "\\(3x - 4\\)",
+        "D": "\\(3x + 10\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Combine like terms: \\((5x + 2x) + (3 - 7) = 7x - 4\\). Choice B incorrectly adds constants \\((3 + 7)\\). Choice C subtracts the x-terms. Choice D combines constants and x-terms incorrectly.</p>"
+    },
+    {
+      "questionId": "q002",
+      "passageId": "",
+      "questionHtml": "<p>Which expression is equivalent to \\(4(3x - 2) + 5\\) ?</p>",
+      "options": {
+        "A": "\\(12x - 3\\)",
+        "B": "\\(12x + 3\\)",
+        "C": "\\(12x - 8\\)",
+        "D": "\\(12x - 13\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Distribute: \\(4(3x) + 4(-2) = 12x - 8\\); then add 5: \\(12x - 8 + 5 = 12x - 3\\). Choice B adds \\(8 + 5\\) incorrectly. Choice C forgets to add 5. Choice D subtracts 5 instead of adding.</p>"
+    },
+    {
+      "questionId": "q003",
+      "passageId": "",
+      "questionHtml": "<p>Which expression is equivalent to \\(7a - 4b + 3a + 9b\\) ?</p>",
+      "options": {
+        "A": "\\(10a + 5b\\)",
+        "B": "\\(10a + 13b\\)",
+        "C": "\\(4a + 5b\\)",
+        "D": "\\(4a - 13b\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Combine like terms: \\((7a + 3a) = 10a;\\) \\((-4b + 9b) = 5b.\\) Result: \\(10a + 5b\\). Choice B adds both b-terms without sign. Choice C combines a-terms incorrectly. Choice D misapplies signs.</p>"
+    },
+    {
+      "questionId": "q004",
+      "passageId": "",
+      "questionHtml": "<p>Which expression is equivalent to \\((4x^{2} + 3x) - (2x^{2} - 5x)\\) ?</p>",
+      "options": {
+        "A": "\\(2x^{2} - 2x\\)",
+        "B": "\\(2x^{2} + 8x\\)",
+        "C": "\\(6x^{2} + 8x\\)",
+        "D": "\\(2x^{2} - 8x\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Distribute the negative: \\(4x^{2} + 3x - 2x^{2} + 5x\\). Combine: \\((4x^{2} - 2x^{2}) = 2x^{2}\\); \\((3x + 5x) = 8x\\). Result: \\(2x^{2} + 8x\\). Choice A subtracts 5x. Choice C adds first terms incorrectly. Choice D misapplies negative to 5x.</p>"
+    },
+    {
+      "questionId": "q005",
+      "passageId": "",
+      "questionHtml": "<p>Which expression is equivalent to \\(18x^{2} + 12x\\) ?</p>",
+      "options": {
+        "A": "\\(6x(3x + 2)\\)",
+        "B": "\\(6(3x^{2} + 2x)\\)",
+        "C": "\\(3x(6x + 4)\\)",
+        "D": "\\(2x(9x + 6)\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>GCF is \\(6x\\). Factoring: \\(6x(3x) + 6x(2) = 6x(3x + 2)\\). Choices B, C, D are also factored forms but not fully factored (they still have a common factor inside) or contain decimals. Choice A is the simplest correct equivalent.</p>"
+    },
+    {
+      "questionId": "q006",
+      "passageId": "",
+      "questionHtml": "<p>Which expression is equivalent to \\(x(3x + 4) - x(2x - 1)\\) ?</p>",
+      "options": {
+        "A": "\\(x^{2} + 5x\\)",
+        "B": "\\(5x^{2} + 3x\\)",
+        "C": "\\(x^{2} + 3x\\)",
+        "D": "\\(x^{2} - 5x\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Expand: \\(x(3x + 4) = 3x^{2} + 4x\\); \\(x(2x - 1) = 2x^{2} - x\\). Subtract: \\((3x^{2} + 4x) - (2x^{2} - x) = 3x^{2} + 4x - 2x^{2} + x = x^{2} + 5x\\). Choice B adds instead of subtracts. Choice C loses a term. Choice D misapplies negative.</p>"
+    },
+    {
+      "questionId": "q007",
+      "passageId": "",
+      "questionHtml": "<p>Which expression is equivalent to \\(64x^{2} - 49\\) ?</p>",
+      "options": {
+        "A": "\\((8x-7)(8x-7)\\)",
+        "B": "\\((8x+7)(8x+7)\\)",
+        "C": "\\((8x-7)(8x+7)\\)",
+        "D": "\\((4x-7)(16x+7)\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Difference of squares: \\((8x)^{2} - 7^{2} = (8x - 7)(8x + 7)\\). Choice A expands to \\(64x^{2} - 112x + 49\\). Choice B gives \\(64x^{2} + 112x + 49\\). Choice D does not match.</p>"
+    },
+    {
+      "questionId": "q008",
+      "passageId": "",
+      "questionHtml": "<p>Which expression is equivalent to \\((2x - 3)(x + 5)\\) ?</p>",
+      "options": {
+        "A": "\\(2x^{2}+7x-15\\)",
+        "B": "\\(2x^{2}+10x-15\\)",
+        "C": "\\(2x^{2}+7x+15\\)",
+        "D": "\\(2x^{2}+10x+15\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>FOIL: First \\(2x\\cdot x = 2x^{2}\\); Outer \\(2x\\cdot 5 = 10x\\); Inner \\(-3\\cdot x = -3x\\); Last \\(-3\\cdot 5 = -15\\). Combine: \\(2x^{2} + (10x - 3x) - 15 = 2x^{2} + 7x - 15\\). Choice B does not combine outer and inner. Choice C has wrong constant sign. Choice D has wrong middle term and constant.</p>"
+    },
+    {
+      "questionId": "q009",
+      "passageId": "",
+      "questionHtml": "<p>Which expression is equivalent to \\(12x^{2} + 18x\\) ?</p>",
+      "options": {
+        "A": "\\(3x(4x + 6)\\)",
+        "B": "\\(6x(2x + 3)\\)",
+        "C": "\\(2x(6x+9)\\)",
+        "D": "\\(12x(x + 1.5)\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>GCF is \\(6x\\). Factoring: \\(6x(2x) + 6x(3) = 6x(2x + 3)\\). Choices A and C can be factored further (e.g., \\(3x(4x + 6) = 6x(2x + 3)\\)). Choice D has a decimal. Choice B is the simplest fully factored form with integer coefficients.</p>"
+    },
+    {
+      "questionId": "q010",
+      "passageId": "",
+      "questionHtml": "<p>Which expression is equivalent to \\(3(x^{2} - 4) + (x + 2)(x - 2)\\) ?</p>",
+      "options": {
+        "A": "\\(4x^{2} - 16\\)",
+        "B": "\\(4x^{2} - 8\\)",
+        "C": "\\(2x^{2} - 8\\)",
+        "D": "\\(2x^{2} - 16\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Expand: \\(3x^{2} - 12\\); \\((x + 2)(x - 2) = x^{2} - 4\\). Sum: \\(3x^{2} - 12 + x^{2} - 4 = 4x^{2} - 16\\). Choice B adds constants incorrectly. Choice C mis-distributes the 3. Choice D misses the \\(x^{2}\\) term from the product.</p>"
+    },
+    {
+      "questionId": "q011",
+      "passageId": "",
+      "questionHtml": "<p>Which of the following is a factor of the polynomial \\(9x^{2} - 12x + 4\\) ?</p>",
+      "options": {
+        "A": "\\(3x - 2\\)",
+        "B": "\\(3x + 2\\)",
+        "C": "\\(9x - 4\\)",
+        "D": "\\(x - 2\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The polynomial is a perfect square trinomial: \\(9x^{2} - 12x + 4 = (3x - 2)^{2}\\). Thus \\(3x - 2\\) is a factor. Choice B would give \\((3x + 2)^{2} = 9x^{2} + 12x + 4\\). Choices C and D do not produce the correct middle term.</p>"
+    },
+    {
+      "questionId": "q012",
+      "passageId": "",
+      "questionHtml": "<p>If \\(p = x + 2\\) and \\(q = 2x - 1\\), which of the following is equivalent to \\(pq - p + q\\) ?</p>",
+      "options": {
+        "A": "\\(2x^{2} + 4x - 5\\)",
+        "B": "\\(2x^{2} + 5x - 3\\)",
+        "C": "\\(2x^{2} + 3x - 4\\)",
+        "D": "\\(2x^{2} + 2x - 7\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>\\(pq = (x + 2)(2x - 1) = 2x^{2} - x + 4x - 2 = 2x^{2} + 3x - 2\\). Then \\(-p = -x - 2\\) and \\(+q = 2x - 1\\). Sum: \\(2x^{2} + (3x - x + 2x) = 2x^{2} + 4x\\); constants: \\(-2 - 2 - 1 = -5\\). Result: \\(2x^{2} + 4x - 5\\).</p>"
+    },
+    {
+      "questionId": "q013",
+      "passageId": "",
+      "questionHtml": "<p>Which of the following is equivalent to \\(x^{4} - 5x^{2} - 14\\) ?</p>",
+      "options": {
+        "A": "\\((x^{2} - 7)(x^{2} + 2)\\)",
+        "B": "\\((x^{2} - 2)(x^{2} + 7)\\)",
+        "C": "\\((x^{2} - 14)(x^{2} + 1)\\)",
+        "D": "\\((x^{2} - 1)(x^{2} + 14)\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Treat as quadratic in \\(x^{2}\\): let \\(u = x^{2}\\), then \\(u^{2} - 5u - 14 = (u - 7)(u + 2)\\). Back-substitute: \\((x^{2} - 7)(x^{2} + 2)\\). Choice B gives \\(x^{4} + 5x^{2} - 14\\). Choices C and D give incorrect constant terms.</p>"
+    },
+    {
+      "questionId": "q014",
+      "passageId": "",
+      "questionHtml": "<p>The expression \\(3x^{2} + 12x + 5\\) can be written in the form \\(a(x + h)^{2} + k\\). What is the value of \\(k\\) ?</p>",
+      "options": {
+        "A": "\\(-7\\)",
+        "B": "\\(-1\\)",
+        "C": "\\(5\\)",
+        "D": "\\(17\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Complete the square: \\(3x^{2} + 12x + 5 = 3(x^{2} + 4x) + 5 = 3[(x^{2} + 4x + 4) - 4] + 5 = 3(x + 2)^{2} - 12 + 5 = 3(x + 2)^{2} - 7.\\) Thus \\(k = -7\\).</p>"
+    },
+    {
+      "questionId": "q015",
+      "passageId": "",
+      "questionHtml": "<p>Which expression is equivalent to \\((2x - 3\\sqrt{2})(2x + 3\\sqrt{2})\\) ?</p>",
+      "options": {
+        "A": "\\(4x^{2} - 18\\)",
+        "B": "\\(4x^{2} - 9\\sqrt{2}\\)",
+        "C": "\\(4x^{2} - 6\\sqrt{2} x - 18\\)",
+        "D": "\\(4x^{2} - 18\\sqrt{2}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Difference of squares: \\((2x)^{2} - (3\\sqrt{2})^{2} = 4x^{2} - (9\\cdot 2) = 4x^{2} - 18.\\) Choice B squares only the 3. Choices C and D introduce incorrect cross terms.</p>"
+    },
+    {
+      "questionId": "q016",
+      "passageId": "",
+      "questionHtml": "<p>Which of the following is equivalent to \\(\\sqrt{25x^{6}y^{10}}\\) ?</p>",
+      "options": {
+        "A": "\\(5x^{3}y^{5}\\)",
+        "B": "\\(5x^{5}y^{3}\\)",
+        "C": "\\(25x^{3}y^{5}\\)",
+        "D": "\\(25x^{5}y^{3}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>\\(\\sqrt{25} = 5;\\) \\(\\sqrt{x^{6}} = x^{6/2} = x^{3};\\) \\(\\sqrt{y^{10}} = y^{10/2} = y^{5}\\). Thus \\(5x^{3}y^{5}\\). Choice B reverses exponents; C and D incorrectly square the coefficient.</p>"
+    },
+    {
+      "questionId": "q017",
+      "passageId": "",
+      "questionHtml": "<p>Which expression is equivalent to \\((x^{-2}y^{4}z^{3})(x^{5}z^{-1} + y^{-2}z^{2})\\) ?</p>",
+      "options": {
+        "A": "\\(x^{3}y^{4}z^{2} + x^{-2}y^{2}z^{5}\\)",
+        "B": "\\(x^{3}y^{4}z^{2} + x^{-2}y^{6}z^{5}\\)",
+        "C": "\\(x^{3}y^{4}z^{2} + x^{-2}y^{4}z^{5}\\)",
+        "D": "\\(x^{3}y^{4}z^{2} + x^{-2}y^{2}z^{3}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Distribute: first term: \\(x^{-2+5}y^{4}z^{3-1} = x^{3}y^{4}z^{2}\\). Second term: \\(x^{-2}y^{4-2}z^{3+2} = x^{-2}y^{2}z^{5}\\). Sum: \\(x^{3}y^{4}z^{2} + x^{-2}y^{2}z^{5}\\).</p>"
+    },
+    {
+      "questionId": "q018",
+      "passageId": "",
+      "questionHtml": "<p>Which of the following is equivalent to \\((1 - 2t)(1 + 2t + 4t^{2} + 8t^{3} + 16t^{4})\\) ?</p>",
+      "options": {
+        "A": "\\(1 - 32t^{5}\\)",
+        "B": "\\(1 - 16t^{5}\\)",
+        "C": "\\(1 - 32t^{4}\\)",
+        "D": "\\(1 - 2t^{5}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The sum of the finite geometric series \\(1 + r + r^{2} + r^{3} + r^{4}\\) with \\(r = 2t\\) is \\(\\frac{1 - (2t)^{5}}{1 - 2t}\\). Multiplying by \\((1 - 2t)\\) gives \\(1 - (2t)^{5} = 1 - 32t^{5}\\).</p>"
+    },
+    {
+      "questionId": "q019",
+      "passageId": "",
+      "questionHtml": "<p>If \\(m = a + 2b\\) and \\(n = a - 2b\\), which of the following is equal to \\((m^{2} - n^{2})^{2}\\) ?</p>",
+      "options": {
+        "A": "\\(64a^{2}b^{2}\\)",
+        "B": "\\(64a^{2}b^{4}\\)",
+        "C": "\\(16a^{2}b^{2}\\)",
+        "D": "\\(16a^{4}b^{2}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>\\(m^{2} - n^{2} = (m - n)(m + n) = [(a + 2b) - (a - 2b)] \\cdot [(a + 2b) + (a - 2b)] = (4b)(2a) = 8ab.\\) Then \\((8ab)^{2} = 64a^{2}b^{2}\\).</p>"
+    },
+    {
+      "questionId": "q020",
+      "passageId": "",
+      "questionHtml": "<p>The expression \\(\\left(\\frac{1}{2} x + \\frac{1}{3}\\right)\\left(\\frac{3}{4} x + \\frac{2}{3}\\right)\\) is equivalent to \\(ax^{2} + bx + c\\). What is the value of \\(b\\) ?</p>",
+      "options": {
+        "A": "\\(\\frac{1}{2}\\)",
+        "B": "\\(\\frac{5}{12}\\)",
+        "C": "\\(\\frac{7}{12}\\)",
+        "D": "\\(\\frac{11}{12}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Multiply: First: \\(\\frac{1}{2} \\cdot \\frac{3}{4} x^{2} = \\frac{3}{8} x^{2}\\). Outer: \\(\\frac{1}{2} x \\cdot \\frac{2}{3} = \\frac{1}{3} x\\). Inner: \\(\\frac{1}{3} \\cdot \\frac{3}{4} x = \\frac{1}{4} x\\). Last: \\(\\frac{1}{3} \\cdot \\frac{2}{3} = \\frac{2}{9}\\). Combine \\(x\\)-terms: \\(\\frac{1}{3} + \\frac{1}{4} = \\frac{4}{12} + \\frac{3}{12} = \\frac{7}{12}\\). Thus \\(b = \\frac{7}{12}\\).</p>"
+    },
+    {
+      "questionId": "q021",
+      "passageId": "",
+      "questionHtml": "<p>\\((ax + 2)(3x^{2} - bx + 5) = 6x^{3} - 6x^{2} + cx + 10\\)<br>The equation above is true for all \\(x\\), where \\(a\\), \\(b\\), and \\(c\\) are constants. What is the value of \\(ab\\) ?</p>",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "12",
+        "D": "18"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Expand left: \\(3ax^3 + (-ab + 6)x^2 + (5a - 2b)x + 10.\\) Equate with right: \\(3a = 6 \\Rightarrow a = 2\\); \\(-ab + 6 = -6 \\Rightarrow -2b + 6 = -6 \\Rightarrow -2b = -12 \\Rightarrow b = 6.\\) Thus \\(ab = 2 \\cdot 6 = 12\\).</p>"
+    },
+    {
+      "questionId": "q022",
+      "passageId": "",
+      "questionHtml": "<p>\\(\\frac{18}{x - 4} + \\frac{1}{x + 2} = \\frac{px + q}{(x - 4)(x + 2)}\\)<br>The equation above is true for all \\(x > 4\\), where \\(p\\) and \\(q\\) are constants. What is the value of \\(p - q\\) ?</p>",
+      "options": {
+        "A": "-13",
+        "B": "-3",
+        "C": "3",
+        "D": "13"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Combine left side numerator: \\(18(x + 2) + 1(x - 4) = 18x + 36 + x - 4 = 19x + 32.\\) Thus \\(px + q = 19x + 32\\), so \\(p = 19\\), \\(q = 32\\). Then \\(p - q = 19 - 32 = -13\\).</p>"
+    },
+    {
+      "questionId": "q023",
+      "passageId": "",
+      "questionHtml": "<p>\\(\\sqrt{x^{3}\\sqrt{x}} = x^{\\frac{a}{b}}\\)<br>For all \\(x > 0\\), the equation holds, where \\(a\\) and \\(b\\) are positive integers with no common factor. What is the value of \\(a + b\\) ?</p>",
+      "options": {
+        "A": "8",
+        "B": "11",
+        "C": "13",
+        "D": "17"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Inside the outer square root: \\(x^{3} \\cdot \\sqrt{x} = x^{3} \\cdot x^{1/2} = x^{7/2}\\). Then \\(\\sqrt{x^{7/2}} = (x^{7/2})^{1/2} = x^{7/4}\\). Thus \\(a = 7, b = 4, a + b = 11\\).</p>"
+    },
+    {
+      "questionId": "q024",
+      "passageId": "",
+      "questionHtml": "<p>\\(\\frac{x^{2} - 25}{x - 5} + \\frac{x^{2} - 1}{x + 1} = ax + b\\)<br>For all \\(x\\) except where undefined, the equation holds. What is the value of \\(a^{2} - b^{2}\\) ?</p>",
+      "options": {
+        "A": "-20",
+        "B": "-12",
+        "C": "12",
+        "D": "20"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Simplify: \\(\\frac{x^{2} - 25}{x - 5} = x + 5\\); \\(\\frac{x^{2} - 1}{x + 1} = x - 1\\). Sum: \\((x + 5) + (x - 1) = 2x + 4\\). Thus \\(a = 2, b = 4\\). Then \\(a^{2} - b^{2} = 4 - 16 = -12\\).</p>"
+    },
+    {
+      "questionId": "q025",
+      "passageId": "",
+      "questionHtml": "<p>\\((px + q)(2x^{2} + 3x - 5) = 8x^{3} + 2x^{2} - 35x + 25\\)<br>What is the value of \\(p + q\\) ?</p>",
+      "options": {
+        "A": "-1",
+        "B": "1",
+        "C": "5",
+        "D": "7"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Expand left: \\(2px^3 + (3p + 2q)x^2 + (-5p + 3q)x - 5q.\\) Equate: \\(2p = 8 \\Rightarrow p = 4.\\) Constant: \\(-5q = 25 \\Rightarrow q = -5.\\) Check \\(x^2\\): \\(3(4) + 2(-5) = 12 - 10 = 2\\) matches. Thus \\(p + q = 4 - 5 = -1.\\)</p>"
+    },
+    {
+      "questionId": "q026",
+      "passageId": "",
+      "questionHtml": "<p>\\(\\frac{3x^{2} + 6x}{x + 2} - \\frac{x^{2} - x}{x - 1} = ax + b\\)<br>For all \\(x\\) except \\(-2\\) and \\(1\\), the expression simplifies to \\(ax + b\\). What is the value of \\(a + b\\) ?</p>",
+      "options": {
+        "A": "-2",
+        "B": "0",
+        "C": "2",
+        "D": "4"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Simplify each fraction: \\(\\frac{3x(x + 2)}{x + 2} = 3x\\) (for \\(x \\neq -2\\)); \\(\\frac{x(x - 1)}{x - 1} = x\\) (for \\(x \\neq 1\\)). Thus expression \\(= 3x - x = 2x.\\) So \\(a = 2, b = 0, a + b = 2.\\)</p>"
+    },
+    {
+      "questionId": "q027",
+      "passageId": "",
+      "questionHtml": "<p>The expression \\(0.48x^2 + 0.84x + 1.32\\) can be rewritten as \\(a(4x^2 + 7x + 11)\\), where \\(a\\) is a constant. What is the value of \\(a\\) ?</p>",
+      "options": {
+        "A": "0.09",
+        "B": "0.12",
+        "C": "0.15",
+        "D": "0.18"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Expand: \\(4ax^2 + 7ax + 11a\\). Equate coefficients: \\(4a = 0.48 \\Rightarrow a = 0.12\\). Check: \\(7(0.12) = 0.84\\) and \\(11(0.12) = 1.32\\) both match.</p>"
+    },
+    {
+      "questionId": "q028",
+      "passageId": "",
+      "questionHtml": "<p>\\(\\sqrt[6]{\\sqrt{x^5\\sqrt{x^4}}} = x^{\\frac{m}{n}}\\)<br>For all \\(x > 0\\), where \\(m\\) and \\(n\\) are positive integers with no common factor. What is the value of \\(m + n\\) ?</p>",
+      "options": {
+        "A": "11",
+        "B": "13",
+        "C": "14",
+        "D": "17"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Inside the sixth root: \\(x^5 \\cdot \\sqrt{x^4} = x^5 \\cdot x^{4/2} = x^5 \\cdot x^2 = x^7\\). Then sixth root: \\((x^7)^{1/6} = x^{7/6}\\). Thus \\(m = 7, n = 6, m + n = 13\\).</p>"
+    },
+    {
+      "questionId": "q029",
+      "passageId": "",
+      "questionHtml": "<p>Which of the following is equivalent to \\(\\frac{x^2 + 6x - 3}{x + 3}\\) ?</p>",
+      "options": {
+        "A": "\\(x + 3 - \\frac{12}{x + 3}\\)",
+        "B": "\\(x + 3 - \\frac{6}{x + 3}\\)",
+        "C": "\\(x + 6 - \\frac{21}{x + 3}\\)",
+        "D": "\\(x - 3 + \\frac{6}{x + 3}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Polynomial division: \\(x^2 + 6x - 3\\) divided by \\(x + 3\\):<br>\\(x^2 / x = x\\), multiply \\((x + 3)x = x^2 + 3x\\), subtract: \\((x^2 + 6x - 3) - (x^2 + 3x) = 3x - 3\\).<br>\\(3x / x = 3\\), multiply \\((x + 3)3 = 3x + 9\\), subtract: \\((3x - 3) - (3x + 9) = -12\\).<br>Thus quotient \\(x + 3\\), remainder \\(-12\\): \\(\\frac{x^2 + 6x - 3}{x + 3} = x + 3 - \\frac{12}{x + 3}\\).</p>"
+    },
+    {
+      "questionId": "q030",
+      "passageId": "",
+      "questionHtml": "<p>\\(\\sqrt{(a + b)^2} \\cdot \\sqrt[5]{(a + b)^9} = (a + b)^{\\frac{p}{q}}\\)<br>For all \\(a + b > 0\\), where \\(p\\) and \\(q\\) are positive integers with no common factor. What is the value of \\(p + q\\) ?</p>",
+      "options": {
+        "A": "11",
+        "B": "13",
+        "C": "17",
+        "D": "19"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>\\(\\sqrt{(a + b)^2} = (a + b)^1\\); \\(\\sqrt[5]{(a + b)^9} = (a + b)^{9/5}\\). Product: \\((a + b)^{1 + 9/5} = (a + b)^{14/5}\\). Thus \\(p = 14, q = 5, p + q = 19\\).</p>"
+    }
+  ]
+}

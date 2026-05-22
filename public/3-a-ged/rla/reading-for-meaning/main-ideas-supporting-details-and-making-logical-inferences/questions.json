@@ -1,0 +1,24 @@
+{
+  "passages": [
+    {
+      "passageId": "passage-001",
+      "passageHtml": "<p>This is the passage text. It can include <strong>HTML</strong> and images like <img src=\"images/diagram.png\" />.</p>"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q-001",
+      "passageId": "passage-001",
+      "passageHighlight": "1",
+      "questionHtml": "<p>According to the passage, what is the main idea?</p>",
+      "options": {
+        "A": "Option A text",
+        "B": "Option B text",
+        "C": "Option C text",
+        "D": "Option D text"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>This is the correct answer because...</p>"
+    }
+  ]
+}

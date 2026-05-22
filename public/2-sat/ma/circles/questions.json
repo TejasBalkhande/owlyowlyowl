@@ -1,0 +1,226 @@
+{
+  "passages": [],
+  "questions": [
+    {
+      "questionId": "23c5fcc",
+      "passageId": "",
+      "questionHtml": "<p><img src=\"/2-sat-i/ma/cir/image_1.png\" class=\"responsive-img\" alt=\"\"> The circle above with center O has a circumference of 36. What is the length of minor arc \\(\\widehat{AC}\\) ?</p>",
+      "options": {
+        "A": "9",
+        "B": "12",
+        "C": "18",
+        "D": "36"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Choice A is correct. A circle has 360 degrees of arc. In the circle shown, O is the center of the circle and \\(\\angle AOC\\) is a central angle of the circle. From the figure, the two diameters that meet to form \\(\\angle AOC\\) are perpendicular, so the measure of \\(\\angle AOC\\) is \\(90^{\\circ}\\) . Therefore, the length of minor arc \\(\\widehat{AC}\\) is \\(\\frac{90}{360}\\) of the circumference of the circle. Since the circumference of the circle is 36, the length of minor arc \\(\\widehat{AC}\\) is \\(\\frac{90}{360} \\times 36 = 9\\) .</p><p>Choices B, C, and D are incorrect. The perpendicular diameters divide the circumference of the circle into four equal arcs; therefore, minor arc \\(\\widehat{AC}\\) is \\(\\frac{1}{4}\\) of the circumference. However, the lengths in choices B and C are, respectively, \\(\\frac{1}{3}\\) and \\(\\frac{1}{2}\\) the circumference of the circle, and the length in choice D is the length of the entire circumference. None of these lengths is \\(\\frac{1}{4}\\) the circumference.</p>"
+    },
+    {
+      "questionId": "8e7689e0",
+      "passageId": "",
+      "questionHtml": "<p>The number of radians in a 720- degree angle can be written as \\(a\\pi\\) , where a is a constant. What is the value of \\(a\\) ?</p>",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "correctOption": "4",
+      "explanationHtml": "<p>The correct answer is 4. There are \\(\\pi\\) radians in a \\(180^{\\circ}\\) angle. An angle measure of \\(720^{\\circ}\\) is 4 times greater than an angle measure of \\(180^{\\circ}\\) . Therefore, the number of radians in a \\(720^{\\circ}\\) angle is \\(4\\pi\\) .</p>"
+    },
+    {
+      "questionId": "74d8b897",
+      "passageId": "",
+      "questionHtml": "<p>An angle has a measure of \\(\\frac{9\\pi}{20}\\) radians. What is the measure of the angle in degrees?</p>",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "correctOption": "81",
+      "explanationHtml": "<p>The correct answer is 81. The measure of an angle, in degrees, can be found by multiplying its measure, in radians, by \\(\\frac{180 \\text{ degrees}}{\\pi \\text{ radians}}\\) . Multiplying the given angle measure, \\(\\frac{9\\pi}{20}\\) radians, by \\(\\frac{180 \\text{ degrees}}{\\pi \\text{ radians}}\\) yields \\(\\left(\\frac{9\\pi}{20} \\text{ radians}\\right) \\left(\\frac{180 \\text{ degrees}}{\\pi \\text{ radians}}\right)\\) , which is equivalent to 81 degrees.</p>"
+    },
+    {
+      "questionId": "856372ca",
+      "passageId": "",
+      "questionHtml": "<p>In the xy- plane, a circle with radius 5 has center \\((- 8,6)\\) . Which of the following is an equation of the circle?</p>",
+      "options": {
+        "A": "\\((x - 8)^2 +(y + 6)^2 = 25\\)",
+        "B": "\\((x + 8)^2 +(y - 6)^2 = 25\\)",
+        "C": "\\((x - 8)^2 +(y + 6)^2 = 5\\)",
+        "D": "\\((x + 8)^2 +(y - 6)^2 = 5\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Choice B is correct. An equation of a circle is \\((x - h)^2 +(y - k)^2 = r^2\\) , where the center of the circle is \\((h,k)\\) and the radius is r. It's given that the center of this circle is \\((- 8,6)\\) and the radius is 5. Substituting these values into the equation gives \\((x - (- 8))^2 +(y - 6)^2 = 5^2\\) , or \\((x + 8)^2 +(y - 6)^2 = 25\\) .</p><p>Choice A is incorrect. This is an equation of a circle that has center \\((8, - 6)\\) . Choice C is incorrect. This is an equation of a circle that has center \\((8, - 6) \\text{and radius} \\sqrt{5}\\) . Choice D is incorrect. This is an equation of a circle that has radius \\(\\sqrt{5}\\) .</p>"
+    },
+    {
+      "questionId": "95ba2d09",
+      "passageId": "",
+      "questionHtml": "<p><img src=\"/2-sat-i/ma/cir/image_2.png\" class=\"responsive-img\" alt=\"\"> In the xy- plane above, points \\(P\\) , \\(Q\\) , \\(R\\) , and \\(T\\) lie on the circle with center \\(O\\) . The degree measures of angles \\(POQ\\) and \\(ROT\\) are each \\(30^{\\circ}\\) . What is the radian measure of angle \\(QOR\\) ?</p>",
+      "options": {
+        "A": "\\(\\frac{5}{6}\\pi\\)",
+        "B": "\\(\\frac{3}{4}\\pi\\)",
+        "C": "\\(\\frac{2}{3}\\pi\\)",
+        "D": "\\(\\frac{1}{3}\\pi\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Choice C is correct. Because points T, O, and P all lie on the x- axis, they form a line. Since the angles on a line add up to \\(180^{\\circ}\\) , and it's given that angles POQ and ROT each measure \\(30^{\\circ}\\) , it follows that the measure of angle \\(QOR\\) is \\(180^{\\circ} - 30^{\\circ} - 30^{\\circ} = 120^{\\circ}\\) . Since the arc of a complete circle is \\(360^{\\circ}\\) or \\(2\\pi\\) radians, a proportion can be set up to convert the measure of angle QOR from degrees to radians: \\(\\frac{360 \\text{ degrees}}{2\\pi \\text{ radians}} = \\frac{120 \\text{ degrees}}{x \\text{ radians}}\\) , where \\(x\\) is the radian measure of angle QOR. Multiplying each side of the proportion by \\(2\\pi x\\) gives \\(360x = 240\\pi\\) . Solving for \\(x\\) gives \\(\\frac{240}{360}\\pi\\) , or \\(\\frac{2}{3}\\pi\\) .</p><p>Choice A is incorrect and may result from subtracting only angle POQ from \\(180^{\\circ}\\) to get a value of \\(150^{\\circ}\\) and then finding the radian measure equivalent to that value. Choice B is incorrect and may result from a calculation error. Choice D is incorrect and may result from calculating the sum of the angle measures, in radians, of angles POQ and ROT.</p>"
+    },
+    {
+      "questionId": "82c8325f",
+      "passageId": "",
+      "questionHtml": "<p>A circle in the xy- plane has its center at \\((- 4,5)\\) and the point \\((- 8,8)\\) lies on the circle. Which equation represents this circle?</p>",
+      "options": {
+        "A": "\\((x - 4)^2 +(y + 5)^2 = 5\\)",
+        "B": "\\((x + 4)^2 +(y - 5)^2 = 5\\)",
+        "C": "\\((x - 4)^2 +(y + 5)^2 = 25\\)",
+        "D": "\\((x + 4)^2 +(y - 5)^2 = 25\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Choice D is correct. A circle in the xy- plane can be represented by an equation of the form \\((x - h)^2 +(y - k)^2 = r^2\\) , where \\((h,k)\\) is the center of the circle and \\(r\\) is the length of a radius of the circle. It's given that the circle has its center at \\((- 4,5)\\) . Therefore, \\(h = - 4\\) and \\(k = 5\\) . Substituting \\(- 4\\) for \\(h\\) and 5 for \\(k\\) in the equation \\((x - h)^2 +(y - k)^2 = r^2\\) yields \\((x - (- 4))^2 +(y - 5)^2 = r^2\\) , or \\((x + 4)^2 +(y - 5)^2 = r^2\\) . It's also given that the point \\((- 8,8)\\) lies on the circle. Substituting \\(- 8\\) for \\(x\\) and 8 for \\(y\\) in the equation \\((x + 4)^2 +(y - 5)^2 = r^2\\) yields \\((- 8 + 4)^2 +(8 - 5)^2 = r^2\\) , or \\((- 4)^2 +(3)^2 = r^2\\) , which is equivalent to \\(16 + 9 = r^2\\) , or \\(25 = r^2\\) . Substituting 25 for \\(r^2\\) in the equation \\((x + 4)^2 +(y - 5)^2 = r^2\\) yields \\((x + 4)^2 +(y - 5)^2 = 25\\) . Thus, the equation \\((x + 4)^2 +(y - 5)^2 = 25\\) represents the circle.</p><p>Choice A is incorrect. The circle represented by this equation has its center at \\((4, - 5)\\) , not \\((- 4,5)\\) , and the point \\((- 8,8)\\) doesn't lie on the circle. Choice B is incorrect. The point \\((- 8,8)\\) doesn't lie on the circle represented by this equation. Choice C is incorrect. The circle represented by this equation has its center at \\((4, - 5)\\) , not \\((- 4,5)\\) , and the point \\((- 8,8)\\) doesn't lie on the circle.</p>"
+    },
+    {
+      "questionId": "c8345903",
+      "passageId": "",
+      "questionHtml": "<p><img src=\"/2-sat-i/ma/cir/image_3.png\" class=\"responsive-img\" alt=\"\"> The circle above has center \\(O\\) , the length of arc \\(\\widehat{ADC}\\) is \\(5\\pi\\) , and \\(\\chi = 100\\) . What is the length of arc \\(\\widehat{ABC}\\) ?</p>",
+      "options": {
+        "A": "\\(9\\pi\\)",
+        "B": "\\(13\\pi\\)",
+        "C": "\\(18\\pi\\)",
+        "D": "\\(\\frac{13}{2}\\pi\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Choice B is correct. The ratio of the lengths of two arcs of a circle is equal to the ratio of the measures of the central angles that subtend the arcs. It's given that arc \\(\\widehat{ADC}\\) is subtended by a central angle with measure \\(100^{\\circ}\\) . Since the sum of the measures of the angles about a point is \\(360^{\\circ}\\) , it follows that arc \\(\\widehat{ABC}\\) is subtended by a central angle with measure \\(360^{\\circ} - 100^{\\circ} = 260^{\\circ}\\) . If \\(s\\) is the length of arc \\(\\widehat{ABC}\\) , then \\(s\\) must satisfy the ratio \\(\\frac{s}{5\\pi} = \\frac{260}{100}\\) . Reducing the fraction \\(\\frac{260}{100}\\) to its simplest form gives \\(\\frac{13}{5}\\) . Therefore, \\(\\frac{s}{5\\pi} = \\frac{13}{5}\\) . Multiplying both sides of \\(\\frac{s}{5\\pi} = \\frac{13}{5}\\) by \\(5\\pi\\) yields \\(s = 13\\pi\\) .</p><p>Choice A is incorrect. This is the length of an arc consisting of exactly half of the circle, but arc \\(\\widehat{ABC}\\) is greater than half of the circle. Choice C is incorrect. This is the total circumference of the circle. Choice D is incorrect. This is half the length of arc \\(\\widehat{ABC}\\) , not its full length.</p>"
+    },
+    {
+      "questionId": "2266984b",
+      "passageId": "",
+      "questionHtml": "<p>\\(x^{2} + 20x + y^{2} + 16y = - 20\\)</p><p>The equation above defines a circle in the xy- plane. What are the coordinates of the center of the circle?</p>",
+      "options": {
+        "A": "\\((-20, -16)\\)",
+        "B": "\\((-10, -8)\\)",
+        "C": "(10,8)",
+        "D": "(20,16)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Choice B is correct. The standard equation of a circle in the xy- plane is of the form \\((x - h)^2 +(y - k)^2 = r^2,\\) where \\((h,k)\\) are the coordinates of the center of the circle and r is the radius. The given equation can be rewritten in standard form by completing the squares. So the sum of the first two terms, \\(x^{2} + 20x\\) , needs a 100 to complete the square, and the sum of the second two terms, \\(y^{2} + 16y\\) , needs a 64 to complete the square. Adding 100 and 64 to both sides of the given equation yields \\((x^{2} + 20x + 100) + (y^{2} + 16y + 64) = - 20 + 100 + 64\\) , which is equivalent to \\((x + 10)^2 +(y + 8)^2 = 144\\) . Therefore, the coordinates of the center of the circle are \\((- 10, - 8)\\) .</p><p>Choices A, C, and D are incorrect and may result from computational errors made when attempting to complete the squares or when identifying the coordinates of the center.</p>"
+    },
+    {
+      "questionId": "69b0d79d",
+      "passageId": "",
+      "questionHtml": "<p><img src=\"/2-sat-i/ma/cir/image_4.png\" class=\"responsive-img\" alt=\"\"> Point O is the center of the circle above, and the measure of \\(\\angle OAB\\) is \\(30^{\\circ}\\) . If the length of \\(\\widehat{OC}\\) is 18, what is the length of arc \\(\\widehat{AB}\\) ?</p>",
+      "options": {
+        "A": "\\(9\\pi\\)",
+        "B": "\\(12\\pi\\)",
+        "C": "\\(15\\pi\\)",
+        "D": "\\(18\\pi\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Choice B is correct. Because segments OA and OB are radii of the circle centered at point O, these segments have equal lengths. Therefore, triangle AOB is an isosceles triangle, where angles OAB and OBA are congruent base angles of the triangle. It's given that angle OAB measures \\(30^{\\circ}\\) . Therefore, angle OBA also measures \\(30^{\\circ}\\) . Let \\(\\mathbf{x}^{\\circ}\\) represent the measure of angle AOB. Since the sum of the measures of the three angles of any triangle is \\(180^{\\circ}\\) , it follows that \\(30^{\\circ} + 30^{\\circ} + \\mathbf{x}^{\\circ} = 180^{\\circ}\\) , or \\(60^{\\circ} + \\mathbf{x}^{\\circ} = 180^{\\circ}\\) . Subtracting \\(60^{\\circ}\\) from both sides of this equation yields \\(\\mathbf{x}^{\\circ} = 120^{\\circ}\\) , or \\(\\frac{2\\pi}{3}\\) radians. Therefore, the measure of angle AOB, and thus the measure of arc \\(\\overline{AB}\\) , is \\(\\frac{2\\pi}{3}\\) radians. Since \\(\\overline{OC}\\) is a radius of the given circle and its length is 18, the length of the radius of the circle is 18. Therefore, the length of arc \\(\\overline{AB}\\) can be calculated as \\(\\left(\\frac{2\\pi}{3}\\right)(18)\\) , or \\(12\\pi\\) .</p><p>Choices A, C, and D are incorrect and may result from conceptual or computational errors.</p>"
+    },
+    {
+      "questionId": "ab176ad6",
+      "passageId": "",
+      "questionHtml": "<p>The equation \\((x + 6)^2 +(y + 3)^2 = 121\\) defines a circle in the xy- plane. What is the radius of the circle?</p>",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "correctOption": "11",
+      "explanationHtml": "<p>The correct answer is 11. A circle with equation \\((x - a)^2 +(y - b)^2 = r^2\\) , where a, b, and r are constants, has center \\((a,b)\\) and radius r. Therefore, the radius of the given circle is \\(\\sqrt{121}\\) , or 11.</p>"
+    },
+    {
+      "questionId": "3e577e4a",
+      "passageId": "",
+      "questionHtml": "<p>A circle in the xy- plane has its center at \\((- 4, - 6)\\) . Line \\(k\\) is tangent to this circle at the point \\((- 7, - 7)\\) . What is the slope of line \\(k\\) ?</p>",
+      "options": {
+        "A": "-3",
+        "B": "-1",
+        "C": "\\(\\frac{1}{3}\\)",
+        "D": "3"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Choice A is correct. A line that's tangent to a circle is perpendicular to the radius of the circle at the point of tangency. It's given that the circle has its center at \\((- 4, - 6)\\) and line \\(k\\) is tangent to the circle at the point \\((- 7, - 7)\\) . The slope of a radius defined by the points \\((q,r)\\) and \\((s,t)\\) can be calculated as \\(\\frac{t - r}{q - t}\\) . The points \\((- 7, - 7)\\) and \\((- 4, - 6)\\) define the radius of the circle at the point of tangency. Therefore, the slope of this radius can be calculated as \\(\\frac{(- 6) - (- 7)}{(- 4) - (- 7)}\\) or \\(\\frac{1}{3}\\) . If a line and a radius are perpendicular, the slope of the line must be the negative reciprocal of the slope of the radius. The negative reciprocal of \\(\\frac{1}{3}\\) is \\(- 3\\) . Thus, the slope of line \\(k\\) is \\(- 3\\) .</p><p>Choice B is incorrect and may result from conceptual or calculation errors. Choice C is incorrect. This is the slope of the radius of the circle at the point of tangency, not the slope of line \\(k\\) . Choice D is incorrect and may result from conceptual or calculation errors.</p>"
+    },
+    {
+      "questionId": "9e44284b",
+      "passageId": "",
+      "questionHtml": "<p>In the xy- plane, the graph of \\(2x^{2} - 6x + 2y^{2} + 2y = 45\\) is a circle. What is the radius of the circle?</p>",
+      "options": {
+        "A": "5",
+        "B": "6.5",
+        "C": "\\(\\sqrt{40}\\)",
+        "D": "\\(\\sqrt{50}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Choice A is correct. One way to find the radius of the circle is to rewrite the given equation in standard form, \\((x - h)^{2} + (y - k)^{2} = r^{2}\\) , where \\((h,k)\\) is the center of the circle and the radius of the circle is r. To do this, divide the original equation, \\(2x^{2} - 6x + 2y^{2} + 2y = 45\\) , by 2 to make the leading coefficients of \\(x^{2}\\) and \\(y^{2}\\) each equal to \\(1: x^{2} - 3x + y^{2} + y = 22.5\\) . Then complete the square to put the equation in standard form. To do so, first rewrite \\(x^{2} - 3x + y^{2} + y = 22.5\\) as \\((x^{2} - 3x + 2.25) - 2.25 + (y^{2} + y + 0.25) - 0.25 = 22.5\\) . Second, add 2.25 and 0.25 to both sides of the equation: \\((x^{2} - 3x + 2.25) + (y^{2} + y + 0.25) = 25\\) . Since \\(x^{2} - 3x + 2.25 = (x - 1.5)^{2}\\) , \\(y^{2} + y + 0.25 = (y + 0.5)^{2}\\) , and \\(25 = 5^{2}\\) , it follows that \\((x - 1.5)^{2} + (y + 0.5)^{2} = 5^{2}\\) . Therefore, the radius of the circle is 5.</p><p>Choices B, C, and D are incorrect and may be the result of errors in manipulating the equation or of a misconception about the standard form of the equation of a circle in the xy- plane.</p>"
+    },
+    {
+      "questionId": "ca2235f6",
+      "passageId": "",
+      "questionHtml": "<p>A circle has center \\(O\\) , and points \\(A\\) and \\(B\\) lie on the circle. The measure of arc \\(AB\\) is \\(45^{\\circ}\\) and the length of arc \\(AB\\) is 3 inches. What is the circumference, in inches, of the circle?</p>",
+      "options": {
+        "A": "3",
+        "B": "6",
+        "C": "9",
+        "D": "24"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Choice D is correct. It's given that the measure of arc \\(AB\\) is \\(45^{\\circ}\\) and the length of arc \\(AB\\) is 3 inches. The arc measure of the full circle is \\(360^{\\circ}\\) . If \\(x\\) represents the circumference, in inches, of the circle, it follows that \\(\\frac{45^{\\circ}}{360^{\\circ}} = \\frac{3 \\text{ inches}}{x \\text{ inches}}\\) . This equation is equivalent to \\(\\frac{45}{360} = \\frac{3}{x}\\) , or \\(\\frac{1}{8} = \\frac{3}{x}\\) . Multiplying both sides of this equation by \\(8x\\) yields \\(1(x) = 3(8)\\) , or \\(x = 24\\) . Therefore, the circumference of the circle is 24 inches.</p><p>Choice A is incorrect. This is the length of arc \\(AB\\) . Choice B is incorrect and may result from multiplying the length of arc \\(AB\\) by 2. Choice C is incorrect and may result from squaring the length of arc \\(AB\\) .</p>"
+    },
+    {
+      "questionId": "981275d2",
+      "passageId": "",
+      "questionHtml": "<p>\\((x - 6)^2 +(y + 5)^2 = 16\\)</p><p>In the xy- plane, the graph of the equation above is a circle. Point \\(P\\) is on the circle and has coordinates \\((10, - 5)\\) . If \\(\\overline{PQ}\\) is a diameter of the circle, what are the coordinates of point \\(Q\\) ?</p>",
+      "options": {
+        "A": "(2, -5)",
+        "B": "(6, -1)",
+        "C": "(6, -5)",
+        "D": "(6, -9)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Choice A is correct. The standard form for the equation of a circle is \\((x - h)^2 +(y - k)^2 = r^2\\) , where \\((h,k)\\) are the coordinates of the center and \\(r\\) is the length of the radius. According to the given equation, the center of the circle is \\((6, - 5)\\) . Let \\((x_1,y_1)\\) represent the coordinates of point \\(Q\\) . Since point \\(P(10, - 5)\\) and point \\(Q(x_1,y_1)\\) are the endpoints of a diameter of the circle, the center \\((6, - 5)\\) lies on the diameter, halfway between \\(P\\) and \\(Q\\).</p><p>\\[\\frac{x_1 + 10}{2} = 6 \\quad \\frac{y_1 + (-5)}{2} = -5\\]</p><p>Therefore, the following relationships hold: and Solving the equations for \\(x_{1}\\) and \\(y_{1}\\) respectively, yields \\(x_{1} = 2\\) and \\(y_{1} = - 5\\) . Therefore, the coordinates of point \\(Q\\) are \\((2, - 5)\\) .</p><p>Alternate approach: Since point \\(P(10, - 5)\\) on the circle and the center of the circle \\((6, - 5)\\) have the same y- coordinate, it follows that the radius of the circle is \\(10 - 6 = 4\\) . In addition, the opposite end of the diameter \\(\\overline{PQ}\\) must have the same y- coordinate as \\(P\\) and be 4 units away from the center. Hence, the coordinates of point \\(Q\\) must be \\((2, - 5)\\) .</p><p>Choices B and D are incorrect because the points given in these choices lie on a diameter that is perpendicular to the diameter \\(\\overline{PQ}\\) . If either of these points were point \\(Q\\) , then \\(\\overline{PQ}\\) would not be the diameter of the circle. Choice C is incorrect because \\((6, - 5)\\) is the center of the circle and does not lie on the circle.</p>"
+    },
+    {
+      "questionId": "89661424",
+      "passageId": "",
+      "questionHtml": "<p>A circle in the xy- plane has its center at \\((- 5,2)\\) and has a radius of 9. An equation of this circle is \\(x^{2} + y^{2} + ax + by + c = 0\\) , where \\(a, b,\\) and \\(c\\) are constants. What is the value of \\(c\\) ?</p>",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "correctOption": "-52",
+      "explanationHtml": "<p>The correct answer is \\(- 52\\) . The equation of a circle in the xy- plane with its center at \\((h,k)\\) and a radius of \\(r\\) can be written in the form \\((x - h)^2 + (y - k)^2 = r^2\\) . It's given that a circle in the xy- plane has its center at \\((- 5,2)\\) and has a radius of 9. Substituting \\(- 5\\) for \\(h,2\\) for \\(k,\\) and 9 for \\(r\\) in the equation \\((x - h)^2 + (y - k)^2 = r^2\\) yields \\((x - (- 5))^2 + (y - 2)^2 = 9^2\\) , or \\((x + 5)^2 + (y - 2)^2 = 81\\) . It's also given that an equation of this circle is \\(x^{2} + y^{2} + ax + by + c = 0\\) , where \\(a, b,\\) and \\(c\\) are constants. Therefore, \\((x + 5)^2 + (y - 2)^2 = 81\\) can be rewritten in the form \\(x^{2} + y^{2} + ax + by + c = 0\\) . The equation \\((x + 5)^2 + (y - 2)^2 = 81\\) , or \\((x + 5)(x + 5) + (y - 2)(y - 2) = 81\\) , can be rewritten as \\(x^{2} + 5x + 5x + 25 + y^{2} - 2y - 2y + 4 = 81\\) . Combining like terms on the left- hand side of this equation yields \\(x^{2} + y^{2} + 10x - 4y + 29 = 81\\) . Subtracting 81 from both sides of this equation yields \\(x^{2} + y^{2} + 10x - 4y - 52 = 0\\) , which is equivalent to \\(x^{2} + y^{2} + 10x + (- 4)y + (- 52) = 0\\) . This equation is in the form \\(x^{2} + y^{2} + ax + by + c = 0\\) . Therefore, the value of \\(c\\) is \\(- 52\\) .</p>"
+    },
+    {
+      "questionId": "fb58c0db",
+      "passageId": "",
+      "questionHtml": "<p>Points A and B lie on a circle with radius 1, and arc \\(\\overline{AB}\\) has length \\(\\frac{\\pi}{3}\\) . What fraction of the circumference of the circle is the length of arc \\(\\overline{AB}\\) ?</p>",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "correctOption": "1/6",
+      "explanationHtml": "<p>The correct answer is \\(\\frac{1}{6}\\) . The circumference, \\(C\\) , of a circle is \\(C = 2\\pi r\\) , where \\(r\\) is the length of the radius of the circle. For the given circle with a radius of 1, the circumference is \\(C = 2(\\pi)(1)\\) , or \\(C = 2\\pi\\) . To find what fraction of the circumference the length of arc \\(\\overline{AB}\\) is, divide the length of the arc by the circumference, which gives \\(\\frac{\\pi}{3} + 2\\pi\\) . This division can be represented by \\(\\frac{\\pi}{3} \\cdot \\frac{1}{2\\pi} = \\frac{1}{6}\\) . Note that 1/6, 1666, 1667, 0.166, and 0.167 are examples of ways to enter a correct answer.</p>"
+    },
+    {
+      "questionId": "acd30391",
+      "passageId": "",
+      "questionHtml": "<p>A circle in the xy- plane has equation \\((x + 3)^2 + (y - 1)^2 = 25\\) . Which of the following points does NOT lie in the interior of the circle?</p>",
+      "options": {
+        "A": "\\((-7,3)\\)",
+        "B": "\\((-3,1)\\)",
+        "C": "(0,0)",
+        "D": "(3,2)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Choice D is correct. The circle with equation \\((x + 3)^2 + (y - 1)^2 = 25\\) has center \\((- 3,1)\\) and radius 5. For a point to be inside of the circle, the distance from that point to the center must be less than the radius, 5. The distance between \\((3,2)\\) and \\((- 3,1)\\) is \\(\\sqrt{(- 3 - 3)^2 + (1 - 2)^2} = \\sqrt{(- 6)^2 + (- 1)^2} = \\sqrt{37}\\) , which is greater than 5. Therefore, \\((3,2)\\) does NOT lie in the interior of the circle.</p><p>Choice A is incorrect. The distance between \\((-7,3)\\) and \\((-3,1)\\) is \\(\\sqrt{(- 7 + 3)^2 + (3 - 1)^2} = \\sqrt{(- 4)^2 + (2)^2} = \\sqrt{20}\\) , which is less than 5, and therefore \\((-7,3)\\) lies in the interior of the circle. Choice B is incorrect because it is the center of the circle. Choice C is incorrect because the distance between \\((0,0)\\) and \\((-3,1)\\) is \\(\\sqrt{(0 + 3)^2 + (0 - 1)^2} = \\sqrt{(3)^2 + (1)^2} = \\sqrt{8}\\) , which is less than 5, and therefore \\((0,0)\\) in the interior of the circle.</p>"
+    }
+  ]
+}

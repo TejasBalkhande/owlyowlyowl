@@ -1,0 +1,394 @@
+{  "passages": [],
+  "questions": [
+    {
+      "questionId": "data_01",
+      "passageId": "",
+      "questionHtml": "<p>Data set: 5, 10, 15, 20, 25</p><p>What is the mean of the data set?</p>",
+      "options": {
+        "A": "10",
+        "B": "15",
+        "C": "20",
+        "D": "25"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The mean is found by summing all values and dividing by the number of values. Sum = 5 + 10 + 15 + 20 + 25 = 75. Number of values = 5. Mean = 75 / 5 = 15. Choice A is the minimum, C is the median (also 15 in this symmetric set), D is the maximum.</p>"
+    },
+    {
+      "questionId": "data_02",
+      "passageId": "",
+      "questionHtml": "<p>Data set: 8, 12, 12, 16, 20</p><p>What is the median of the data set?</p>",
+      "options": {
+        "A": "12",
+        "B": "13.6",
+        "C": "16",
+        "D": "20"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The median is the middle value when the data are ordered from least to greatest. The ordered set is 8, 12, 12, 16, 20. Since there are 5 values (odd), the third value is the median: 12. Choice B is the mean (68 / 5 = 13.6), C is the third largest, D is the maximum.</p>"
+    },
+    {
+      "questionId": "data_03",
+      "passageId": "",
+      "questionHtml": "<p>Data set: 3, 7, 7, 9, 11, 7, 5</p><p>What is the mode of the data set?</p>",
+      "options": {
+        "A": "7",
+        "B": "9",
+        "C": "3",
+        "D": "There is no mode"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The mode is the value that appears most frequently. The frequencies: 3 appears once, 5 once, 7 three times, 9 once, 11 once. Therefore, 7 is the mode. Choice B is the maximum, C is the minimum, D is incorrect because a mode exists.</p>"
+    },
+    {
+      "questionId": "data_04",
+      "passageId": "",
+      "questionHtml": "<p>Data set: 14, 22, 18, 25, 30, 20</p><p>What is the range of the data set?</p>",
+      "options": {
+        "A": "16",
+        "B": "18",
+        "C": "21.5",
+        "D": "30"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The range is the difference between the greatest and least values. Greatest = 30, least = 14. Range = 30 - 14 = 16. Choice B is the difference between 30 and 12? No. C is the mean (sum=129, mean=21.5). D is the maximum.</p>"
+    },
+    {
+      "questionId": "data_05",
+      "passageId": "",
+      "questionHtml": "<p>The table shows the results of a survey asking 150 people how many books they read per month.</p>\\(\\begin{array}{c|c}\\text{Number of books}&\\text{Frequency}\\\\ \\hline 0&25\\\\ 1&40\\\\ 2&35\\\\ 3&30\\\\ 4\\text{ or more}&20\\end{array}\\)<p>How many people read either 0 books or 1 book per month?</p>",
+      "options": {
+        "A": "25",
+        "B": "40",
+        "C": "65",
+        "D": "150"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>People who read 0 books = 25, people who read 1 book = 40. Total = 25 + 40 = 65. Choice A is only 0 books, B is only 1 book, D is total respondents.</p>"
+    },
+    {
+      "questionId": "data_06",
+      "passageId": "",
+      "questionHtml": "<p>Data set P: 10, 12, 14, 16, 18<br />Data set Q: 8, 11, 14, 17, x</p><p>The mean of data set P is equal to the mean of data set Q. What is the value of x?</p>",
+      "options": {
+        "A": "14",
+        "B": "18",
+        "C": "20",
+        "D": "22"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Mean of P = (10+12+14+16+18)/5 = 70/5 = 14. Mean of Q = (8+11+14+17+x)/5 = (50+x)/5. Set equal: 14 = (50+x)/5 → Multiply by 5: 70 = 50+x → x = 20. Choice A is the median of P, B is the max of P, D is incorrect.</p>"
+    },
+    {
+      "questionId": "data_07",
+      "passageId": "",
+      "questionHtml": "<p>Data set R: 4, 8, 12, 16, 20<br />Data set S: 5, 7, 9, 11, 13</p><p>Which statement correctly compares the medians of data set R and data set S?</p>",
+      "options": {
+        "A": "The median of R is equal to the median of S.",
+        "B": "The median of R is greater than the median of S.",
+        "C": "The median of R is less than the median of S.",
+        "D": "The median of R is twice the median of S."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>For R (5 values): ordered 4,8,12,16,20 → median = 12. For S: ordered 5,7,9,11,13 → median = 9. Therefore, median of R (12) > median of S (9). Choice A is false, C is false, D would require S median to be 6.</p>"
+    },
+    {
+      "questionId": "data_08",
+      "passageId": "",
+      "questionHtml": "<p>The bar graph below shows the number of books read by five students in a month.<br />Student A: 5 books, Student B: 8 books, Student C: 3 books, Student D: 6 books, Student E: 7 books</p><p>What is the mean number of books read by the five students?</p>",
+      "options": {
+        "A": "5.0",
+        "B": "5.8",
+        "C": "6.0",
+        "D": "7.0"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Sum = 5 + 8 + 3 + 6 + 7 = 29. Number of students = 5. Mean = 29 / 5 = 5.8. Choice A is the minimum, C is the median (ordered: 3,5,6,7,8 → median 6), D is the second highest.</p>"
+    },
+    {
+      "questionId": "data_09",
+      "passageId": "",
+      "questionHtml": "<p>A box plot summarizes the test scores (out of 100) for a class. The box plot has the following five-number summary: Minimum = 55, Q1 = 70, Median = 78, Q3 = 88, Maximum = 95.</p><p>What is the median test score?</p>",
+      "options": {
+        "A": "55",
+        "B": "70",
+        "C": "78",
+        "D": "88"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>In a box plot, the vertical line inside the box represents the median. The five-number summary explicitly gives the median as 78. Choice A is the minimum, B is Q1, D is Q3.</p>"
+    },
+    {
+      "questionId": "data_10",
+      "passageId": "",
+      "questionHtml": "<p>Data set T: 20, 20, 25, 25, 30, 30</p><p>Which of the following is NOT equal to 25?</p>",
+      "options": {
+        "A": "The mean",
+        "B": "The median",
+        "C": "The mode",
+        "D": "The range"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Mean = (20+20+25+25+30+30)/6 = 150/6 = 25. Median: ordered 20,20,25,25,30,30 → middle two are 25 and 25 → median = 25. Mode: 20 appears twice, 25 twice, 30 twice → 25 is a mode. Range = 30 - 20 = 10, not 25.</p>"
+    },
+    {
+      "questionId": "data_11",
+      "passageId": "",
+      "questionHtml": "<p>The ages of 15 students are shown in the frequency table below.</p>\\(\\begin{array}{c|c}\\text{Age}&\\text{Frequency}\\\\ \\hline 16&4\\\\ 17&5\\\\ 18&3\\\\ 19&2\\\\ 20&1\\end{array}\\)<p>What is the median age of the students?</p>",
+      "options": {
+        "A": "16",
+        "B": "17",
+        "C": "18",
+        "D": "19"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>There are 15 students, so the median is the 8th value when ages are ordered. Cumulative frequencies: 16 → 4, 17 → 4+5=9. The 8th value falls in the 17 age group. Thus median = 17.</p>"
+    },
+    {
+      "questionId": "data_12",
+      "passageId": "",
+      "questionHtml": "<p>The table shows the number of books read by 20 students in a month.</p>\\(\\begin{array}{c|c}\\text{Books}&\\text{Frequency}\\\\ \\hline 0&2\\\\ 1&3\\\\ 2&7\\\\ 3&5\\\\ 4&3\\end{array}\\)<p>What is the mean number of books read per student?</p>",
+      "options": {
+        "A": "2.0",
+        "B": "2.2",
+        "C": "2.5",
+        "D": "2.8"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Sum = (0×2) + (1×3) + (2×7) + (3×5) + (4×3) = 0 + 3 + 14 + 15 + 12 = 44. Mean = 44 / 20 = 2.2.</p>"
+    },
+    {
+      "questionId": "data_13",
+      "passageId": "",
+      "questionHtml": "<p>Data set X: 8, 12, 12, 15, 15, 22, 22, 22, 30</p><p>What is the difference between the mode and the median of data set X?</p>",
+      "options": {
+        "A": "4",
+        "B": "7",
+        "C": "10",
+        "D": "12"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Mode = 22 (appears 3 times). Median: 9 values, the 5th value when ordered. Ordered set: 8,12,12,15,15,22,22,22,30 → median = 15. Difference = 22 - 15 = 7.</p>"
+    },
+    {
+      "questionId": "data_14",
+      "passageId": "",
+      "questionHtml": "<p>The table shows the distribution of test scores for 25 students.</p>\\(\\begin{array}{c|c}\\text{Score}&\\text{Frequency}\\\\ \\hline 70&3\\\\ 75&5\\\\ 80&7\\\\ 85&6\\\\ 90&4\\end{array}\\)<p>What is the mean score?</p>",
+      "options": {
+        "A": "79.4",
+        "B": "80.0",
+        "C": "80.6",
+        "D": "81.2"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Sum = (70×3) + (75×5) + (80×7) + (85×6) + (90×4) = 210 + 375 + 560 + 510 + 360 = 2015. Mean = 2015 / 25 = 80.6.</p>"
+    },
+    {
+      "questionId": "data_15",
+      "passageId": "",
+      "questionHtml": "<p>Data set: 4, 6, 8, 10, 12, 14, 16, 18, 20, 22</p><p>If the number 30 is added to the data set, which of the following measures will increase the most?</p>",
+      "options": {
+        "A": "Mean",
+        "B": "Median",
+        "C": "Mode",
+        "D": "Range"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Original: mean = 13, median = 13, range = 18. After adding 30: new mean ≈ 14.55 (↑1.55), new median = 14 (↑1), new range = 26 (↑8). Mode unchanged. Range increases most.</p>"
+    },
+    {
+      "questionId": "data_16",
+      "passageId": "",
+      "questionHtml": "<p>A box plot summarizes the distances (in miles) run by 30 runners in a week. The five-number summary is: Minimum = 5, Q1 = 10, Median = 15, Q3 = 22, Maximum = 35.</p><p>Which of the following statements must be true?</p>",
+      "options": {
+        "A": "At least 15 runners ran more than 15 miles.",
+        "B": "At least 7 runners ran between 10 and 15 miles.",
+        "C": "At most 8 runners ran more than 22 miles.",
+        "D": "Exactly 15 runners ran less than 15 miles."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Q3 = 22 means at most 25% of data lie above 22. 25% of 30 = 7.5, so at most 7 runners can be above 22. 'At most 8' is therefore true. A, B, D are not necessarily true because of possible ties at quartiles or median.</p>"
+    },
+    {
+      "questionId": "data_17",
+      "passageId": "",
+      "questionHtml": "<p>Two data sets have the same mean of 50. Data set X has a standard deviation of 5, and data set Y has a standard deviation of 12.</p><p>Which of the following conclusions is most justified?</p>",
+      "options": {
+        "A": "The data in set X are more spread out than the data in set Y.",
+        "B": "The median of set X is greater than the median of set Y.",
+        "C": "The range of set X is less than the range of set Y.",
+        "D": "The values in set X are generally closer to the mean than the values in set Y."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Standard deviation measures spread; a smaller SD means data are more clustered around the mean. Thus set X (SD=5) has values closer to the mean than set Y (SD=12). Choices A, B, C are not necessarily true.</p>"
+    },
+    {
+      "questionId": "data_18",
+      "passageId": "",
+      "questionHtml": "<p>The heights (in inches) of 11 basketball players are: 70, 72, 73, 74, 74, 75, 76, 77, 78, 79, 80.</p><p>If the shortest player (70 inches) is removed from the set, which of the following will occur?</p>",
+      "options": {
+        "A": "The mean will increase, and the median will increase.",
+        "B": "The mean will increase, but the median will remain the same.",
+        "C": "The mean will decrease, and the median will decrease.",
+        "D": "The mean will decrease, but the median will remain the same."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Original mean ≈ 75.27, median = 75. After removing 70, new mean = 75.8, new median = (75 + 76)/2 = 75.5. Both increase.</p>"
+    },
+    {
+      "questionId": "data_19",
+      "passageId": "",
+      "questionHtml": "<p>For a set of 9 consecutive odd integers, the mean is 25. What is the median?</p>",
+      "options": {
+        "A": "23",
+        "B": "25",
+        "C": "27",
+        "D": "Cannot be determined"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>For any set of consecutive integers (or consecutive odd integers with constant difference), the mean equals the median. Since there is an odd number (9), the median is the middle value, which is also the mean. Thus median = 25.</p>"
+    },
+    {
+      "questionId": "data_20",
+      "passageId": "",
+      "questionHtml": "<p>The table shows the number of goals scored by a soccer team in 20 matches.</p>\\(\\begin{array}{c|c}\\text{Goals}&\\text{Frequency}\\\\ \\hline 0&2\\\\ 1&7\\\\ 2&6\\\\ 3&3\\\\ 4&2\\end{array}\\)<p>Which of the following is true about the mean, median, and mode?</p>",
+      "options": {
+        "A": "mean < median < mode",
+        "B": "mode < median < mean",
+        "C": "median < mode < mean",
+        "D": "mode < mean < median"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Mode = 1 (highest frequency). Median: 20 matches, 10th and 11th values - cumulative: 0→2, 1→9, so both in goals=2 → median=2. Mean = (0×2 + 1×7 + 2×6 + 3×3 + 4×2)/20 = (0+7+12+9+8)/20 = 36/20 = 1.8. Thus mode (1) < mean (1.8) < median (2).</p>"
+    },
+    {
+      "questionId": "data_21",
+      "passageId": "",
+      "questionHtml": "<p>The mean score of 8 players in a basketball game was 14.5 points. After the highest score is removed, the mean of the remaining 7 players becomes 12 points. What was the highest score?</p>",
+      "options": {
+        "A": "20",
+        "B": "24",
+        "C": "32",
+        "D": "36"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Total of all 8 scores = 8 × 14.5 = 116. Total of remaining 7 = 7 × 12 = 84. 116 - 84 = 32.</p>"
+    },
+    {
+      "questionId": "data_22",
+      "passageId": "",
+      "questionHtml": "<p>The frequency table shows the number of books read by students in two classes.</p>\\(\\begin{array}{c|c|c}\\text{Books}&\\text{Class X}&\\text{Class Y}\\\\ \\hline 0&2&1\\\\ 1&1&4\\\\ 2&4&5\\\\ 3&3&4\\\\ 4&1&3\\end{array}\\)<p>Which of the following statements must be true?</p>",
+      "options": {
+        "A": "The mean of Class X is greater than the mean of Class Y.",
+        "B": "The median of Class X is less than the median of Class Y.",
+        "C": "The mode of Class X is equal to the mode of Class Y.",
+        "D": "The range of Class X is greater than the range of Class Y."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Class X median (15 values) = 8th value = 2. Class Y median (17 values) = 9th value = 3. So median X < median Y. Means: X mean = 27/15 = 1.8, Y mean ≈ 2.71, so A false. Mode X = 2, mode Y = 3, C false. Range both = 4, D false.</p>"
+    },
+    {
+      "questionId": "data_23",
+      "passageId": "",
+      "questionHtml": "<p>A data set of 25 different numbers has a mean of 50 and a median of 50. A new data set is created by adding 10 to each number that is greater than the median and subtracting 10 from each number that is less than the median. The median itself remains unchanged.</p><p>Which of the following measures has the same value in both the original and new data sets?</p><p>I. Mean<br />II. Standard deviation<br />III. Interquartile range</p>",
+      "options": {
+        "A": "I only",
+        "B": "I and III only",
+        "C": "II and III only",
+        "D": "I, II, and III"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Adding 10 to 12 numbers and subtracting 10 from 12 numbers leaves total sum unchanged → mean unchanged (I true). Spread increases → standard deviation increases (II false). Quartiles move apart: new IQR = (Q3+10) - (Q1-10) = original IQR + 20 → III false. Only I remains the same.</p>"
+    },
+    {
+      "questionId": "data_24",
+      "passageId": "",
+      "questionHtml": "<p>The frequency table below summarizes a data set where \\(k\\) is a positive integer.</p>\\(\\begin{array}{c|c}\\text{Value}&\\text{Frequency}\\\\ \\hline 10&1\\\\ 20&2\\\\ 30&0\\\\ 40&k\\\\ 50&3\\end{array}\\)<p>For which value of \\(k\\) is the mean greater than the median?</p>",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>For k = 1: total 11 numbers, median = 30, mean = (30 + 360)/11 ≈ 35.45 > 30. For k = 2: median = 40, mean = 35 < 40. For k ≥ 2, mean ≤ 35 and median ≥ 40, so only k = 1 works.</p>"
+    },
+    {
+      "questionId": "data_25",
+      "passageId": "",
+      "questionHtml": "<p>Data set P has a mean of 100 and a standard deviation of 15. Data set Q has a mean of 100 and a standard deviation of 5. Each data set contains 20 numbers. If the number 200 is added to each data set, which of the following statements is true about the new standard deviations?</p>",
+      "options": {
+        "A": "The standard deviation of P increases more than the standard deviation of Q.",
+        "B": "The standard deviation of Q increases more than the standard deviation of P.",
+        "C": "Both standard deviations increase by the same amount.",
+        "D": "Neither standard deviation changes."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Adding an outlier increases SD more for a tightly clustered set. Exact calculation: P: SD from 15 to ≈ 25.42 (↑10.42); Q: SD from 5 to ≈ 21.35 (↑16.35). Thus Q's SD increases more.</p>"
+    },
+    {
+      "questionId": "data_26",
+      "passageId": "",
+      "questionHtml": "<p>A box plot of 40 test scores has Q3 = 84. What is the greatest possible number of scores that are greater than 84?</p>",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "10",
+        "D": "11"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>By definition, at most 25% of data lie above Q3. 25% of 40 = 10. Therefore, at most 10 scores can be greater than 84.</p>"
+    },
+    {
+      "questionId": "data_27",
+      "passageId": "",
+      "questionHtml": "<p>The numbers 4, 8, 12, \\(x\\), and 20 are five positive integers. The mean of the five numbers is equal to the median. What is the larger possible value of \\(x\\)?</p>",
+      "options": {
+        "A": "11",
+        "B": "12",
+        "C": "15",
+        "D": "16"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Mean = (44 + x)/5. Median depends on x. If 8 < x ≤ 12: median = x → (44 + x)/5 = x → x = 11. If 12 < x ≤ 20: median = 12 → (44 + x)/5 = 12 → x = 16. Larger possible x is 16.</p>"
+    },
+    {
+      "questionId": "data_28",
+      "passageId": "",
+      "questionHtml": "<p>A data set consists of 10 numbers. The sum of the numbers is 150. The median is 14. When a new number is added, the median becomes 15. Which of the following could be the added number?</p>",
+      "options": {
+        "A": "12",
+        "B": "15",
+        "C": "18",
+        "D": "21"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Original median of 10 numbers = average of 5th and 6th = 14 → 5th + 6th = 28. Let 5th = 13, 6th = 15 (one possible pair). After adding x, the 6th value of the 11 numbers becomes the median. If x > 15, the 6th value remains 15, so median = 15. Thus any x > 15 works. Among choices, 18 and 21 both work; 18 is a valid answer.</p>"
+    },
+    {
+      "questionId": "data_29",
+      "passageId": "",
+      "questionHtml": "<p>The mean of 8 numbers is 20. When one number is removed, the mean of the remaining 7 numbers is 18. What is the removed number?</p>",
+      "options": {
+        "A": "22",
+        "B": "26",
+        "C": "30",
+        "D": "34"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Sum of 8 numbers = 8 × 20 = 160. Sum of remaining 7 = 7 × 18 = 126. Removed number = 160 - 126 = 34.</p>"
+    },
+    {
+      "questionId": "data_30",
+      "passageId": "",
+      "questionHtml": "<p>Five positive integers have a median of 10 and a mean of 12. What is the greatest possible range of these five numbers?</p>",
+      "options": {
+        "A": "34",
+        "B": "35",
+        "C": "36",
+        "D": "37"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Let numbers in order: a ≤ b ≤ c ≤ d ≤ e, with c = 10. Sum = 5 × 12 = 60 → a + b + 10 + d + e = 60 → a + b + d + e = 50. To maximize range e - a, maximize e and minimize a. Smallest positive integer a = 1. Then b ≥ 1, d ≥ 10. Minimize b and d: b = 1, d = 10. Then 1 + 1 + 10 + 10 + e = 60? Wait recalc: a+b+d+e=50, with a=1, b=1, d=10 gives 1+1+10+e=50 → e=38. But then the set would be 1,1,10,10,38. However median must be 10, that's fine. Range = 38-1=37. Check sum: 1+1+10+10+38=60. Yes. So range 37. Option D.</p>"
+    }
+  ]
+}

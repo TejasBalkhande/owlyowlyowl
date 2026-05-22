@@ -13,7 +13,7 @@ export const readingWritingDomains = [
     description:
       "Measures comprehension, analysis, and reasoning skills and knowledge and the ability to locate, interpret, evaluate, and integrate information and ideas from texts and informational graphics (tables, bar graphs, and line graphs).",
     skills:
-      "Central Ideas and Details; Command of Evidence (Textual, Quantitative); Inferences",
+      "Central Ideas and Details; Command of Evidence; Inferences",
     questions: "12–14 questions",
   },
   {
@@ -55,15 +55,15 @@ export const mathDomains = [
     description:
       "Measures the ability to apply quantitative reasoning about ratios, rates, and proportional relationships; understand and apply unit rate; and analyze and interpret 1- and 2-variable data.",
     skills:
-      "Ratios, rates, proportional relationships, and units; Percentages; 1-variable data: distributions and measures of center and spread; 2-variable data: models and scatterplots; Probability and conditional probability; Inference from sample statistics and margin of error; Evaluating statistical claims: observational studies and experiments",
+      "Ratios Rates Proportional relationships and Units; Percentages; 1-variable data: distributions and measures of center and spread; 2-variable data: models and scatterplots; Probability and conditional probability; Inference from sample statistics and margin of error; Evaluating statistical claims: observational studies and experiments",
     questions: "5–7 questions",
   },
   {
     domain: "Geometry and Trigonometry",
     description:
-      "Measures the ability to solve problems that focus on area and volume; lines, angles, triangles, and trigonometry; and circles.",
+      "Measures the ability to solve problems that focus on area and volume; lines angles triangles and trigonometry; and circles.",
     skills:
-      "Area and volume; Lines, angles, and triangles, including right triangles and trigonometry; Circles",
+      "Area and volume; Lines Angles and Triangles including Right triangles and Trigonometry; Circles",
     questions: "5–7 questions",
   },
 ];

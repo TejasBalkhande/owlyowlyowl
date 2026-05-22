@@ -1,0 +1,51 @@
+public/
+└── 3-a-ged/
+    ├── images/               (shared images used in questions/passages)
+    ├── rla/                  (Reasoning Through Language Arts)
+    │   └── reading-for-meaning/   (domain folder name, slugified)
+    │       └── main-ideas-supporting-details/   (skill folder name, slugified)
+    │           └── questions.json
+    │       └── authors-purpose-tone/             (another skill)
+    │           └── questions.json
+    │   └── identifying-and-creating-arguments/
+    │       └── evaluating-evidence/
+    │           └── questions.json
+    │   └── grammar-and-language/
+    │       └── sentence-structure/
+    │           └── questions.json
+    ├── math/                 (Mathematical Reasoning)
+    │   └── basic-math/
+    │       └── fractions-and-decimals/
+    │           └── questions.json
+    │   └── geometry/
+    │       └── side-lengths-perimeter-area/
+    │           └── questions.json
+    │   └── basic-algebra/
+    │       └── linear-equations-and-inequalities/
+    │           └── questions.json
+    │   └── graphs-and-functions/
+    │       └── coordinate-planes/
+    │           └── questions.json
+    ├── science/              (Science)
+    │   └── life-science/
+    │       └── cell-structures/
+    │           └── questions.json
+    │   └── physical-science/
+    │       └── atoms-molecules/
+    │           └── questions.json
+    │   └── earth-and-space-science/
+    │       └── plate-tectonics/
+    │           └── questions.json
+    └── social/               (Social Studies)
+        └── civics-and-government/
+            └── us-constitution/
+                └── questions.json
+        └── united-states-history/
+            └── colonial-era/
+                └── questions.json
+        └── economics/
+            └── supply-demand/
+                └── questions.json
+        └── geography-and-the-world/
+            └── reading-maps/
+                └── questions.json

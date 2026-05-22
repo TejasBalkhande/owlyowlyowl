@@ -1,0 +1,394 @@
+{
+  "questions": [
+    {
+      "questionId": "a1b2c3d4",
+      "passageId": "",
+      "questionHtml": "<p>\\[x^{2} = 49\\]</p><p>Which of the following is a positive solution to the equation above?</p>",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Taking the square root of both sides gives \\(x = 7\\) or \\(x = -7\\). The positive solution is 7.</p>"
+    },
+    {
+      "questionId": "b2c3d4e5",
+      "passageId": "",
+      "questionHtml": "<p>\\[x^{2} - 5x = 0\\]</p><p>What is the non-zero solution to the equation above?</p>",
+      "options": {
+        "A": "0",
+        "B": "5",
+        "C": "-5",
+        "D": "1"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Factor: \\(x(x - 5) = 0\\), so \\(x = 0\\) or \\(x = 5\\). The non-zero solution is 5.</p>"
+    },
+    {
+      "questionId": "c3d4e5f6",
+      "passageId": "",
+      "questionHtml": "<p>\\[|x - 6| = 4\\]</p><p>What is the sum of the two solutions to the equation above?</p>",
+      "options": {
+        "A": "2",
+        "B": "6",
+        "C": "8",
+        "D": "12"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>\\(x - 6 = 4\\) or \\(x - 6 = -4 \\rightarrow x = 10\\) and \\(x = 2\\). Sum \\(= 10 + 2 = 12\\).</p>"
+    },
+    {
+      "questionId": "d4e5f6g7",
+      "passageId": "",
+      "questionHtml": "<p>\\[\\begin{cases} y = x^{2} \\\\ y = 3x \\end{cases}\\]</p><p>The system of equations above has two solutions. What is the positive \\(x\\)-coordinate of a solution?</p>",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Substitute: \\(x^{2} = 3x \\rightarrow x^{2} - 3x = 0 \\rightarrow x(x - 3) = 0 \\rightarrow x = 0\\) or \\(x = 3\\). Positive \\(x = 3\\).</p>"
+    },
+    {
+      "questionId": "e5f6g7h8",
+      "passageId": "",
+      "questionHtml": "<p>\\[\\sqrt{2x + 3} = 5\\]</p><p>What is the value of \\(x\\) that satisfies the equation above?</p>",
+      "options": {
+        "A": "4",
+        "B": "11",
+        "C": "22",
+        "D": "25"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Square both sides: \\(2x + 3 = 25 \\rightarrow 2x = 22 \\rightarrow x = 11\\).</p>"
+    },
+    {
+      "questionId": "f6g7h8i9",
+      "passageId": "",
+      "questionHtml": "<p>\\[\\begin{cases} y = x^{2} - 4 \\\\ y = 0 \\end{cases}\\]</p><p>Which of the following is a negative solution \\((x,y)\\) to the system?</p>",
+      "options": {
+        "A": "(-4,0)",
+        "B": "(-2,0)",
+        "C": "(0,-4)",
+        "D": "(2,0)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>\\(x^{2} - 4 = 0 \\rightarrow x^{2} = 4 \\rightarrow x = 2\\) or \\(x = -2\\). Negative \\(x\\) gives \\((-2,0)\\).</p>"
+    },
+    {
+      "questionId": "g7h8i9jo",
+      "passageId": "",
+      "questionHtml": "<p>\\[\\frac{x + 4}{x - 2} = 3\\]</p><p>What is the solution to the equation above?</p>",
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "5",
+        "D": "7"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Multiply by \\(x - 2\\) (with \\(x \\neq 2\\)): \\(x + 4 = 3(x - 2) \\rightarrow x + 4 = 3x - 6 \\rightarrow 10 = 2x \\rightarrow x = 5\\).</p>"
+    },
+    {
+      "questionId": "h8i9jok1",
+      "passageId": "",
+      "questionHtml": "<p>\\[\\begin{cases} x^{2} + y^{2} = 100 \\\\ y = 8 \\end{cases}\\]</p><p>If \\(x > 0\\), what is the value of \\(x\\) in the solution to the system?</p>",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "10"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Substitute \\(y = 8\\): \\(x^{2} + 64 = 100 \\rightarrow x^{2} = 36 \\rightarrow x = 6\\) (positive).</p>"
+    },
+    {
+      "questionId": "i9jok112",
+      "passageId": "",
+      "questionHtml": "<p>\\[(2x - 1)^{2} = 9\\]</p><p>What is the smaller solution to the equation?</p>",
+      "options": {
+        "A": "-1",
+        "B": "1",
+        "C": "2",
+        "D": "4"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>\\(2x - 1 = 3\\) or \\(2x - 1 = -3 \\rightarrow x = 2\\) or \\(x = -1\\). The smaller solution is \\(-1\\).</p>"
+    },
+    {
+      "questionId": "jok112m3",
+      "passageId": "",
+      "questionHtml": "<p>\\[x^{2} + 6x = 0\\]</p><p>The equation above has two solutions. What is the product of the two solutions?</p>",
+      "options": {
+        "A": "-6",
+        "B": "0",
+        "C": "6",
+        "D": "9"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Factor: \\(x(x + 6) = 0\\) gives solutions \\(x = 0\\) and \\(x = -6\\). Product \\(= 0 \\times (-6) = 0\\).</p>"
+    },
+    {
+      "questionId": "m1a2b3c4",
+      "passageId": "",
+      "questionHtml": "<p>\\[x^{2} - 2x = 15\\]</p><p>What is the sum of the two solutions to the equation above?</p>",
+      "options": {
+        "A": "-2",
+        "B": "2",
+        "C": "3",
+        "D": "5"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Rewrite as \\(x^{2} - 2x - 15 = 0\\). Sum of roots \\(= -b/a = -(-2)/1 = 2\\).</p>"
+    },
+    {
+      "questionId": "m2b3c4d5",
+      "passageId": "",
+      "questionHtml": "<p>\\[|2x - 5| = 7\\]</p><p>What is the product of the two solutions?</p>",
+      "options": {
+        "A": "-6",
+        "B": "-5",
+        "C": "5",
+        "D": "6"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>\\(2x - 5 = 7 \\rightarrow x = 6\\); \\(2x - 5 = -7 \\rightarrow x = -1\\). Product \\(= 6 \\times (-1) = -6\\).</p>"
+    },
+    {
+      "questionId": "m3c4d5e6",
+      "passageId": "",
+      "questionHtml": "<p>\\[\\begin{cases} y = x^{2} - 2 \\\\ y = 2x + 1 \\end{cases}\\]</p><p>The system of equations above has two solutions. What is the sum of the \\(x\\)-coordinates of the solutions?</p>",
+      "options": {
+        "A": "-2",
+        "B": "0",
+        "C": "2",
+        "D": "4"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Set \\(x^{2} - 2 = 2x + 1 \\rightarrow x^{2} - 2x - 3 = 0\\). Sum of roots \\(= -(-2)/1 = 2\\).</p>"
+    },
+    {
+      "questionId": "m4d5e6f7",
+      "passageId": "",
+      "questionHtml": "<p>\\[\\sqrt{3x + 10} = x + 2\\]</p><p>What is the extraneous solution, if any, to the equation above?</p>",
+      "options": {
+        "A": "-3",
+        "B": "-2",
+        "C": "2",
+        "D": "No extraneous solution"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Square: \\(3x + 10 = x^{2} + 4x + 4 \\rightarrow 0 = x^{2} + x - 6 \\rightarrow (x+3)(x-2)=0 \\rightarrow x=-3\\) or \\(x=2\\). Check \\(x=-3\\): LHS=1, RHS=-1, extraneous. \\(x=2\\) works.</p>"
+    },
+    {
+      "questionId": "m5e6f7g8",
+      "passageId": "",
+      "questionHtml": "<p>\\[\\begin{cases} y = x^{2} - 4x + 5 \\\\ y = 2x - 3 \\end{cases}\\]</p><p>If the two intersection points are \\((x_{1}, y_{1})\\) and \\((x_{2}, y_{2})\\), what is \\(y_{1} + y_{2}\\)?</p>",
+      "options": {
+        "A": "2",
+        "B": "6",
+        "C": "8",
+        "D": "10"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>\\(x^{2} - 4x + 5 = 2x - 3 \\rightarrow x^{2} - 6x + 8 = 0\\). Sum of x-roots = 6. On line \\(y=2x-3\\), \\(y_{1}+y_{2}=2(x_{1}+x_{2})-6=2(6)-6=6\\).</p>"
+    },
+    {
+      "questionId": "m6f7g8h9",
+      "passageId": "",
+      "questionHtml": "<p>\\[\\frac{x + 4}{x - 2} = \\frac{2x + 1}{x + 1}\\]</p><p>What is the product of the solutions?</p>",
+      "options": {
+        "A": "-6",
+        "B": "-2",
+        "C": "2",
+        "D": "6"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Cross-multiply: \\((x+4)(x+1) = (2x+1)(x-2) \\rightarrow x^{2}+5x+4 = 2x^{2}-3x-2 \\rightarrow 0 = x^{2} - 8x - 6\\). Product of roots = \\(c/a = -6\\).</p>"
+    },
+    {
+      "questionId": "m7g8h9i0",
+      "passageId": "",
+      "questionHtml": "<p>\\[\\begin{cases} x^{2} + y^{2} = 25 \\\\ y = x + 1 \\end{cases}\\]</p><p>If \\((x,y)\\) is a solution with \\(x > 0\\), what is the value of \\(x + y\\)?</p>",
+      "options": {
+        "A": "5",
+        "B": "7",
+        "C": "9",
+        "D": "11"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Substitute: \\(x^{2} + (x+1)^{2} = 25 \\rightarrow 2x^{2}+2x-24=0 \\rightarrow x^{2}+x-12=0 \\rightarrow (x+4)(x-3)=0 \\rightarrow x=3\\) (positive), then \\(y=4\\), so \\(x+y=7\\).</p>"
+    },
+    {
+      "questionId": "m8h9i0j1",
+      "passageId": "",
+      "questionHtml": "<p>\\[x^{2} + 4x + c = 0\\]</p><p>In the quadratic equation above, \\(c\\) is a constant. The equation has exactly one real solution. What is the value of \\(c\\)?</p>",
+      "options": {
+        "A": "-4",
+        "B": "0",
+        "C": "4",
+        "D": "16"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Discriminant = 0: \\(16 - 4c = 0 \\rightarrow c = 4\\).</p>"
+    },
+    {
+      "questionId": "m9i0j1k2",
+      "passageId": "",
+      "questionHtml": "<p>\\[\\begin{cases} y = (x-1)^{2} + 2 \\\\ y = k \\end{cases}\\]</p><p>In the system above, \\(k\\) is a constant. For which of the following values of \\(k\\) does the system have exactly one solution?</p>",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Parabola has vertex at \\((1,2)\\). A horizontal line intersects exactly once only at the vertex, so \\(k = 2\\).</p>"
+    },
+    {
+      "questionId": "m10j1k213",
+      "passageId": "",
+      "questionHtml": "<p>\\[\\begin{cases} x^{2} + y^{2} = 40 \\\\ xy = 12 \\end{cases}\\]</p><p>If \\((x,y)\\) is a solution to the system above and \\(x > y > 0\\), what is the value of \\(x - y\\)?</p>",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>\\((x-y)^{2} = x^{2} + y^{2} - 2xy = 40 - 24 = 16 \\rightarrow x-y = 4\\) (positive).</p>"
+    },
+    {
+      "questionId": "h1a2b3c4",
+      "passageId": "",
+      "questionHtml": "<p>In the \\(xy\\)-plane, a line with equation \\(y = -2x + k\\) intersects the parabola \\(y = x^{2} - 4x + 5\\) at exactly one point. If \\(k\\) is a constant, what is the value of \\(k\\)?</p>",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Set \\(x^{2} - 4x + 5 = -2x + k \\rightarrow x^{2} - 2x + (5-k) = 0\\). Exactly one intersection → discriminant = 0: \\(4 - 4(5-k) = 0 \\rightarrow 4 - 20 + 4k = 0 \\rightarrow 4k = 16 \\rightarrow k=4\\).</p>"
+    },
+    {
+      "questionId": "h2b3c4d5",
+      "passageId": "",
+      "questionHtml": "<p>\\[\\begin{cases} y = x^{2} - 6x + 10 \\\\ y = 2x - 6 \\end{cases}\\]</p><p>How many distinct real solutions does the system have?</p>",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "Infinitely many"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>\\(x^{2} - 6x + 10 = 2x - 6 \\rightarrow x^{2} - 8x + 16 = 0 \\rightarrow (x-4)^{2} = 0 \\rightarrow\\) one solution.</p>"
+    },
+    {
+      "questionId": "h3c4d5e6",
+      "passageId": "",
+      "questionHtml": "<p>\\[\\sqrt{3x + 7} = x - 1\\]</p><p>What is the solution set of the equation above?</p>",
+      "options": {
+        "A": "\\{-1\\}",
+        "B": "\\{6\\}",
+        "C": "\\{-1,6\\}",
+        "D": "\\(\\varnothing\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Square: \\(3x + 7 = x^{2} - 2x + 1 \\rightarrow 0 = x^{2} - 5x - 6 \\rightarrow (x-6)(x+1)=0 \\rightarrow x=6\\) or \\(x=-1\\). Check: \\(x=6\\) works; \\(x=-1\\) gives LHS=2, RHS=-2, extraneous. Solution set \\(\\{6\\}\\).</p>"
+    },
+    {
+      "questionId": "h4d5e6f7",
+      "passageId": "",
+      "questionHtml": "<p>\\[\\frac{2x}{x - 3} = 1 + \\frac{6}{x - 3}\\]</p><p>What is the solution to the equation above?</p>",
+      "options": {
+        "A": "-3",
+        "B": "3",
+        "C": "9",
+        "D": "No solution"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Multiply by \\(x-3\\) (\\(x \\neq 3\\)): \\(2x = (x-3) + 6 \\rightarrow 2x = x + 3 \\rightarrow x = 3\\). But \\(x=3\\) makes denominator zero, extraneous. No solution.</p>"
+    },
+    {
+      "questionId": "h5e6f7g8",
+      "passageId": "",
+      "questionHtml": "<p>\\[\\begin{cases} x + y = 7 \\\\ x^{2} + y^{2} = 25 \\end{cases}\\]</p><p>If \\((x,y)\\) is a solution with \\(x > y\\), what is the value of \\(x - y\\)?</p>",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>\\((x+y)^{2} = x^{2}+y^{2}+2xy \\rightarrow 49 = 25 + 2xy \\rightarrow xy = 12\\). \\((x-y)^{2} = x^{2}+y^{2}-2xy = 25 - 24 = 1 \\rightarrow x-y = 1\\) (since \\(x>y\\)).</p>"
+    },
+    {
+      "questionId": "h6f7g8h9",
+      "passageId": "",
+      "questionHtml": "<p>\\[\\frac{1}{(x-2)^{2}} - \\frac{4}{x-2} + 3 = 0\\]</p><p>What is the product of the distinct real solutions?</p>",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Let \\(t = \\frac{1}{x-2}\\). Then \\(t^{2} - 4t + 3 = 0 \\rightarrow (t-1)(t-3)=0 \\rightarrow t=1\\) or \\(t=3\\). \\(t=1 \\rightarrow x-2=1 \\rightarrow x=3\\); \\(t=3 \\rightarrow x-2=\\frac{1}{3} \\rightarrow x=\\frac{7}{3}\\). Product \\(= 3 \\times \\frac{7}{3} = 7\\).</p>"
+    },
+    {
+      "questionId": "h7g8h9io",
+      "passageId": "",
+      "questionHtml": "<p>\\[-3x^{2} + 6x + c = 0\\]</p><p>In the given equation, \\(c\\) is a constant. The equation has no real solutions. Which of the following could be the value of \\(c\\)?</p>",
+      "options": {
+        "A": "-5",
+        "B": "-3",
+        "C": "1",
+        "D": "3"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Discriminant: \\(b^{2} - 4ac = 36 - 4(-3)(c) = 36 + 12c\\). No real solutions → \\(36 + 12c < 0 \\rightarrow 12c < -36 \\rightarrow c < -3\\). Only \\(-5\\) satisfies.</p>"
+    },
+    {
+      "questionId": "h8i9j0k1",
+      "passageId": "",
+      "questionHtml": "<p>\\[2x^{2} - 12x + 7 = 0\\]</p><p>What is the value of \\(x^{2} - 6x\\)?</p>",
+      "options": {
+        "A": "-7",
+        "B": "-3.5",
+        "C": "3.5",
+        "D": "7"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Divide the equation by 2: \\(x^{2} - 6x + 3.5 = 0 \\rightarrow x^{2} - 6x = -3.5\\).</p>"
+    },
+    {
+      "questionId": "h9ioj1k2",
+      "passageId": "",
+      "questionHtml": "<p>\\[\\begin{cases} y = x^{2} - 2x + 4 \\\\ y = 2x^{2} - 5x + 3 \\end{cases}\\]</p><p>If \\((x_{1}, y_{1})\\) and \\((x_{2}, y_{2})\\) are the two distinct solutions, what is the value of \\(x_{1} + x_{2}\\)?</p>",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Set equal: \\(x^{2} - 2x + 4 = 2x^{2} - 5x + 3 \\rightarrow 0 = x^{2} - 3x - 1\\). Sum of roots = 3.</p>"
+    },
+    {
+      "questionId": "h10j1k2l3",
+      "passageId": "",
+      "questionHtml": "<p>\\[\\begin{cases} y = x^{2} + bx + 9 \\\\ y = 2x + 3 \\end{cases}\\]</p><p>In the system above, \\(b\\) is a constant. The graphs of the equations intersect at exactly one point. What is the product of all possible values of \\(b\\)?</p>",
+      "options": {
+        "A": "-20",
+        "B": "-16",
+        "C": "16",
+        "D": "20"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>\\(x^{2} + bx + 9 = 2x + 3 \\rightarrow x^{2} + (b-2)x + 6 = 0\\). Exactly one intersection → discriminant = 0: \\((b-2)^{2} - 24 = 0 \\rightarrow (b-2)^{2} = 24 \\rightarrow b = 2 \\pm 2\\sqrt{6}\\). Product = \\((2+2\\sqrt{6})(2-2\\sqrt{6}) = 4 - 4\\cdot6 = 4 - 24 = -20\\).</p>"
+    }
+  ]
+}

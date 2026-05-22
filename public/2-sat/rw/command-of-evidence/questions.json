@@ -1,0 +1,465 @@
+{
+  "passages": [
+    {
+      "passageId": "p001",
+      "passageHtml": "<strong>p001</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nA city council is studying whether to install public electric vehicle (EV) charging stations. They surveyed residents in four districts about their interest in using such stations. The council claims that interest in EV charging stations is highest in districts with more multi-unit housing, where residents cannot easily install private chargers.\n\n<img src=\"/2-sat-i/rw/cod/image_1.png\" class=\"responsive-img\" alt=\"\">"
+    },
+    {
+      "passageId": "p002",
+      "passageHtml": "<strong>p002</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nIn a study on workplace productivity, researchers found that employees who take short, frequent breaks throughout the day report higher focus and lower fatigue than those who take fewer but longer breaks. A business consultant claims that the timing of breaks matters more than the total break time."
+    },
+    {
+      "passageId": "p003",
+      "passageHtml": "<strong>p003</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nAn analyst claims that while some online retailers saw fluctuating traffic in the first half of the year, Retailer B consistently grew its audience.\n\n<img src=\"/2-sat-i/rw/cod/image_2.png\" class=\"responsive-img\" alt=\"\">"
+    },
+    {
+      "passageId": "p004",
+      "passageHtml": "<strong>p004</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nSome psychologists argue that people are more likely to remember information if they learn it in multiple short sessions rather than one long session. A researcher hypothesizes that this is because the brain consolidates memory during rest periods between sessions."
+    },
+    {
+      "passageId": "p005",
+      "passageHtml": "<strong>p005</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nA marine biologist claims that among five fish species studied, the two with the highest average body temperature are also the deepest-dwelling species, possibly due to metabolic adaptation to high pressure.\n\n<img src=\"/2-sat-i/rw/cod/image_3.png\" class=\"responsive-img\" alt=\"\">"
+    },
+    {
+      "passageId": "p006",
+      "passageHtml": "<strong>p006</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nIn a memoir, the author describes her childhood fear of public speaking. She later became a professional actor. A literary critic claims that the author's early fear actually helped her acting by making her hyper-aware of audience reactions."
+    },
+    {
+      "passageId": "p007",
+      "passageHtml": "<strong>p007</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nA journalist claims that most countries in the study saw at least a small increase in coffee consumption per person over the decade, but one country's consumption remained unchanged.\n\n<img src=\"/2-sat-i/rw/cod/image_4.png\" class=\"responsive-img\" alt=\"\">"
+    },
+    {
+      "passageId": "p008",
+      "passageHtml": "<strong>p008</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nSome historians argue that a famous general's success in battle was due less to his tactical genius and more to his ability to demoralize enemy troops through psychological warfare. A military scholar hypothesizes that the general's use of loud war drums at night was a key method."
+    },
+    {
+      "passageId": "p009",
+      "passageHtml": "<strong>p009</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nA nutritionist claims that breakfast cereals marketed to children contain significantly more sugar per serving than those marketed to adults, even when comparing similar cereal types.\n\n<img src=\"/2-sat-i/rw/cod/image_5.png\" class=\"responsive-img\" alt=\"\">"
+    },
+    {
+      "passageId": "p010",
+      "passageHtml": "<strong>p010</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Easy</span><br/>\nA novelist once said that the best fiction does not simply tell a story but also forces readers to question their own moral assumptions. A literary critic argues that the novel The Crossing achieves this by presenting a protagonist whose actions are both heroic and deeply flawed."
+    },
+    {
+      "passageId": "p011",
+      "passageHtml": "<strong>p011</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br/>\nA marine biology team studied the diving behavior of three species of sea turtles. They recorded the average dive duration (in minutes) and the average surface interval (time spent at the surface between dives, in minutes). The team hypothesized that species with longer average dive durations would also have longer surface intervals, because they need more time to recover oxygen.\n\n<img src=\"/2-sat-i/rw/cod/image_6.png\" class=\"responsive-img\" alt=\"\">"
+    },
+    {
+      "passageId": "p012",
+      "passageHtml": "<strong>p012</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br/>\nIn a study on sleep and memory, researchers found that people who took a 90-minute nap after learning a new task performed better on a test 6 hours later than those who stayed awake. A neurologist hypothesizes that the benefit comes from the brain replaying and strengthening the newly formed neural connections during a specific stage of sleep called slow-wave sleep (SWS)."
+    },
+    {
+      "passageId": "p013",
+      "passageHtml": "<strong>p013</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br/>\nA market analyst claims that although Model Z had the highest sales at the beginning of the year, Model Y eventually surpassed it and became the top-selling model by June.\n\n<img src=\"/2-sat-i/rw/cod/image_7.png\" class=\"responsive-img\" alt=\"\">"
+    },
+    {
+      "passageId": "p014",
+      "passageHtml": "<strong>p014</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br/>\nIn a memoir about teaching in a remote village, the author describes how a student's question changed her perspective on education. The author claims that she realized that her role was not to fill empty minds but to help students find their own questions."
+    },
+    {
+      "passageId": "p015",
+      "passageHtml": "<strong>p015</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br/>\nA botanist tested the effect of three different fertilizers on tomato plant growth. She measured the average height (cm) and average number of tomatoes per plant after 8 weeks. She claims that Fertilizer B is the most effective overall because it produces both tall plants and high yields, whereas Fertilizer A produces tall plants with low yields and Fertilizer C produces short plants with medium yields.\n\n<img src=\"/2-sat-i/rw/cod/image_8.png\" class=\"responsive-img\" alt=\"\">"
+    },
+    {
+      "passageId": "p016",
+      "passageHtml": "<strong>p016</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br/>\nSome economists argue that increasing the minimum wage leads to higher unemployment among young, low-skilled workers because employers reduce hiring. However, a recent study in a large city found that after a minimum wage increase, employment in fast-food restaurants actually rose slightly. A labor economist hypothesizes that this was because the wage increase attracted more skilled applicants, reducing turnover costs and allowing restaurants to expand."
+    },
+    {
+      "passageId": "p017",
+      "passageHtml": "<strong>p017</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br/>\nAn energy analyst claims that between 2010 and 2020, households reduced energy use for most traditional appliances but increased use for newer electronics and cooling.\n\n<img src=\"/2-sat-i/rw/cod/image_9.png\" class=\"responsive-img\" alt=\"\">"
+    },
+    {
+      "passageId": "p018",
+      "passageHtml": "<strong>p018</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br/>\nIn a political speech, a candidate argues that true leadership requires not just making popular decisions but also making difficult, unpopular ones when necessary. The candidate claims that her opponent has always taken the easy path, avoiding tough votes."
+    },
+    {
+      "passageId": "p019",
+      "passageHtml": "<strong>p019</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br/>\nA sociologist studied the relationship between social media use and self-reported happiness among teenagers. She collected data on average daily hours on social media and average happiness score (1-10). She claims that the relationship is not linear: moderate use is associated with the highest happiness, while both very low and very high use are linked to lower happiness.\n\n<img src=\"/2-sat-i/rw/cod/image_10.png\" class=\"responsive-img\" alt=\"\">"
+    },
+    {
+      "passageId": "p020",
+      "passageHtml": "<strong>p020</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Medium</span><br/>\nA popular theory holds that listening to classical music, especially Mozart, temporarily enhances spatial reasoning (the \"Mozart effect\"). A researcher conducted an experiment where participants either listened to Mozart, listened to white noise, or sat in silence for 10 minutes before taking a spatial reasoning test. The Mozart group scored significantly higher than both other groups. The researcher concluded that the Mozart effect is real."
+    },
+    {
+      "passageId": "p021",
+      "passageHtml": "<strong>p021</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br/>\nA team of ecologists studied the relationship between forest fragmentation and bird species richness in five regions. They measured the average patch size (hectares) of forest fragments and the number of bird species observed per 100 hectares. The ecologists hypothesized that regions with smaller average patch sizes would have lower species richness due to edge effects and reduced habitat interior.\n\n<img src=\"/2-sat-i/rw/cod/image_11.png\" class=\"responsive-img\" alt=\"\">"
+    },
+    {
+      "passageId": "p022",
+      "passageHtml": "<strong>p022</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br/>\nIn a study of online learning, researchers found that students who watched lecture videos at 1.5x speed performed just as well on tests as those who watched at normal speed, even though they spent less time studying. A cognitive psychologist hypothesizes that the benefit comes from increased mental effort and attention required to process faster speech, which leads to deeper encoding."
+    },
+    {
+      "passageId": "p023",
+      "passageHtml": "<strong>p023</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br/>\nA biologist claims that fish species richness in the lake is primarily driven by water temperature, but only above a certain threshold. Below that threshold, temperature has little effect.\n\n<img src=\"/2-sat-i/rw/cod/image_12.png\" class=\"responsive-img\" alt=\"\">"
+    },
+    {
+      "passageId": "p024",
+      "passageHtml": "<strong>p024</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br/>\nIn a political memoir, a former ambassador writes that successful diplomacy often requires a leader to express empathy without conceding strategic interests. She argues that her greatest achievement was convincing a hostile regime to enter negotiations by acknowledging their historical grievances while firmly maintaining her country's red lines."
+    },
+    {
+      "passageId": "p025",
+      "passageHtml": "<strong>p025</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br/>\nA medical researcher studied the effect of a new drug on blood pressure. Patients were randomly assigned to one of four groups: placebo, low dose, medium dose, or high dose. After 8 weeks, the researcher measured the average reduction in systolic blood pressure (mmHg) and the percentage of patients reporting side effects. The researcher claims that the drug has a threshold effect: doses above a certain level produce no additional benefit but do increase side effects.\n\n<img src=\"/2-sat-i/rw/cod/image_13.png\" class=\"responsive-img\" alt=\"\">"
+    },
+    {
+      "passageId": "p026",
+      "passageHtml": "<strong>p026</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br/>\nArchaeologists have long believed that a particular ancient civilization collapsed because of a prolonged drought. However, a new analysis of sediment cores from a lake near the civilization's capital shows no significant change in rainfall patterns during the supposed collapse period. A climate scientist hypothesizes that the collapse was instead caused by soil salinization from intensive irrigation, which would not appear in lake sediment records."
+    },
+    {
+      "passageId": "p027",
+      "passageHtml": "<strong>p027</strong> <span style='color: green; margin-left: 8px; font-size:15px'>Hard</span><br/>\nSome economists argue that raising the minimum wage reduces employment among low-skilled workers because firms substitute capital for labor. However, a study of fast-food restaurants in a city that raised its minimum wage found that employment increased. The study's authors hypothesize that the wage increase attracted more qualified applicants, reducing turnover costs and allowing firms to expand."
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q001",
+      "passageId": "p001",
+      "questionHtml": "Which choice most effectively uses data from the table to support the council's claim?",
+      "options": {
+        "A": "In the South district, 72% of residents are interested, and 65% live in multi-unit housing.",
+        "B": "In the North district, only 34% are interested, and 28% live in multi-unit housing.",
+        "C": "The East district has 41% interest and 35% multi-unit housing, while the West has 68% interest and 60% multi-unit housing.",
+        "D": "The South and West districts have both the highest interest percentages and the highest percentages of residents in multi-unit housing."
+      },
+      "correctOption": "D",
+      "explanationHtml": "Choice D is best because it directly shows that the two districts with the highest interest (South 72%, West 68%) also have the highest multi-unit housing percentages (65%, 60%), supporting the claim that interest is highest where private charging is hardest.<br/><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Choice A is true but incomplete (only one district).</li><li>Choice B shows low interest but doesn't support the claim positively.</li><li>Choice C compares two districts but doesn't emphasize that both are high in both measures.</li></ul>"
+    },
+    {
+      "questionId": "q002",
+      "passageId": "p002",
+      "questionHtml": "Which quotation from an employee would best support the consultant's claim?",
+      "options": {
+        "A": "\"I take a five-minute break every hour, and I feel much more alert than when I used to take one 30-minute break at lunch.\"",
+        "B": "\"I take about 45 minutes of breaks total each day, whether I spread them out or not, and I don't notice a difference.\"",
+        "C": "\"My manager encourages us to take breaks whenever we feel tired, but some people take advantage of that policy.\"",
+        "D": "\"I tried taking breaks every 45 minutes for a week, but I still felt exhausted by the end of the day.\""
+      },
+      "correctOption": "A",
+      "explanationHtml": "Choice A directly contrasts frequent short breaks with one long break, showing that timing (every hour vs. one block) improves alertness, supporting the claim.<br/><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Choice B contradicts the claim (no difference noticed).</li><li>Choice C is about policy abuse, not timing.</li><li>Choice D shows failure of one timing schedule, but doesn't compare to total break time.</li></ul>"
+    },
+    {
+      "questionId": "q003",
+      "passageId": "p003",
+      "questionHtml": "Which choice most effectively uses data from the graph to support this claim?",
+      "options": {
+        "A": "Retailer B had lower traffic than Retailer A in January but higher traffic by June.",
+        "B": "Retailer B's traffic increased every month from January to June.",
+        "C": "Retailer C's traffic dropped sharply from January to March, then recovered.",
+        "D": "Retailer A's traffic peaked in March and then declined."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Choice B directly supports \"consistently grew\" because Retailer B shows an increase each month (40 → 100).<br/><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Choice A compares to another retailer but doesn't show consistent growth (just a change from lower to higher).</li><li>Choice C and D describe other retailers, not Retailer B.</li></ul>"
+    },
+    {
+      "questionId": "q004",
+      "passageId": "p004",
+      "questionHtml": "Which finding, if true, would most directly support the researcher's hypothesis?",
+      "options": {
+        "A": "Students who studied for 20 minutes on three separate days scored higher on a test than those who studied for 60 minutes in one day.",
+        "B": "Brain scans show increased memory-related activity during rest periods between learning sessions.",
+        "C": "Students who listened to music while studying performed worse than those who studied in silence.",
+        "D": "Older adults take longer to learn new information than younger adults do."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Choice B directly supports the hypothesis about brain consolidation during rest periods.<br/><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Choice A supports the idea of spaced learning but not the mechanism (rest period consolidation).</li><li>Choice C and D are irrelevant to the hypothesis.</li></ul>"
+    },
+    {
+      "questionId": "q005",
+      "passageId": "p005",
+      "questionHtml": "Which choice most effectively uses data from the table to support the biologist's claim?",
+      "options": {
+        "A": "Species B and D have the highest body temperatures and the greatest depths.",
+        "B": "Species A has a low body temperature and lives at a shallow depth.",
+        "C": "Species C has a moderate body temperature and depth.",
+        "D": "Species E has a body temperature similar to Species A but lives slightly deeper."
+      },
+      "correctOption": "A",
+      "explanationHtml": "Choice A correctly identifies that the two warmest species (B: 22.8°C, D: 23.1°C) are also the deepest (850m, 900m), supporting the claim.<br/><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Choices B, C, and D describe individual species or comparisons that do not directly support the claimed pattern.</li></ul>"
+    },
+    {
+      "questionId": "q006",
+      "passageId": "p006",
+      "questionHtml": "Which quotation from the memoir would best support the critic's claim?",
+      "options": {
+        "A": "\"I would hide in the bathroom whenever my teacher asked us to read aloud, my heart pounding.\"",
+        "B": "\"Even now, before every performance, I scan the audience's faces for the slightest sign of boredom or delight.\"",
+        "C": "\"My parents enrolled me in a drama class to help me overcome my shyness.\"",
+        "D": "\"The first time I stepped on stage, I forgot all my lines and ran off crying.\""
+      },
+      "correctOption": "B",
+      "explanationHtml": "Choice B shows the lasting effect of hyper-awareness of audiences, which the critic says helped her acting.<br/><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Choice A shows fear but not how it helped.</li><li>Choice C shows an external solution, not internal benefit.</li><li>Choice D shows failure, not benefit.</li></ul>"
+    },
+    {
+      "questionId": "q007",
+      "passageId": "p007",
+      "questionHtml": "Which choice most effectively uses data from the graph to support this claim?",
+      "options": {
+        "A": "Country P and Country Q both increased, while Country S stayed the same.",
+        "B": "Country Q had the largest increase, from 8 kg to 12 kg.",
+        "C": "Country R increased only slightly, from 6 kg to 7 kg.",
+        "D": "Country S consumed 9 kg in both 2010 and 2020."
+      },
+      "correctOption": "A",
+      "explanationHtml": "Choice A correctly identifies that most countries increased (P and Q) and one (S) stayed the same, matching the claim.<br/><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Choice B only gives the largest increase, not the pattern.</li><li>Choice C only gives a slight increase, missing the unchanged country.</li><li>Choice D gives the unchanged country but not the \"most increased\" part.</li></ul>"
+    },
+    {
+      "questionId": "q008",
+      "passageId": "p008",
+      "questionHtml": "Which finding, if true, would most directly support the scholar's hypothesis?",
+      "options": {
+        "A": "Letters from enemy soldiers describe being unable to sleep for nights before battle due to constant drumming.",
+        "B": "The general's own memoirs focus on his strategic troop movements, not drums.",
+        "C": "Other generals of the era also used drums but were less successful.",
+        "D": "The general's army had more soldiers than most of his enemies."
+      },
+      "correctOption": "A",
+      "explanationHtml": "Choice A directly links the drums to psychological effect (sleep loss, demoralization), supporting the hypothesis.<br/><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Choice B weakens the hypothesis (general didn't emphasize drums).</li><li>Choice C suggests drums alone weren't decisive.</li><li>Choice D offers an alternative explanation (numerical advantage).</li></ul>"
+    },
+    {
+      "questionId": "q009",
+      "passageId": "p009",
+      "questionHtml": "Which choice most effectively uses data from the table to support the nutritionist's claim?",
+      "options": {
+        "A": "ChocoPuffs (children's puffed) has 12g sugar, while BranFlakes (adult puffed) has 4g.",
+        "B": "HoneyOvals has 11g sugar, and WheatBites has 5g sugar.",
+        "C": "RiceGems and CornCrisps are both rice-based, but RiceGems has 10g and CornCrisps has 3g.",
+        "D": "All choices A, B, and C provide valid support."
+      },
+      "correctOption": "D",
+      "explanationHtml": "Each choice compares similar cereal types (puffed, oat-based, rice-based) and shows children's cereals have much more sugar. All three support the claim, so D is best."
+    },
+    {
+      "questionId": "q010",
+      "passageId": "p010",
+      "questionHtml": "Which quotation from The Crossing would best support the critic's argument?",
+      "options": {
+        "A": "\"He saved the child from the fire, then lied to the parents about how it started.\"",
+        "B": "\"The village elders declared him a hero, and he never corrected them.\"",
+        "C": "\"He walked away from the burning building without looking back.\"",
+        "D": "\"Everyone agreed that what he did was right, even if it was dangerous.\""
+      },
+      "correctOption": "A",
+      "explanationHtml": "Choice A shows a heroic act (saving a child) and a flawed one (lying), directly illustrating moral complexity that forces readers to question assumptions.<br/><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Choice B shows passive acceptance of a lie, less directly heroic/flawed.</li><li>Choice C is morally ambiguous but not clearly heroic.</li><li>Choice D shows moral agreement, not questioning.</li></ul>"
+    },
+    {
+      "questionId": "q011",
+      "passageId": "p011",
+      "questionHtml": "Which choice most effectively uses data from the table to support the team's hypothesis?",
+      "options": {
+        "A": "Loggerhead turtles have the shortest dive duration and the shortest surface interval.",
+        "B": "Leatherback turtles have both the longest dive duration and the longest surface interval.",
+        "C": "Green turtles have a longer dive duration than Loggerheads but a shorter surface interval than Leatherbacks.",
+        "D": "As dive duration increases from Loggerhead to Green to Leatherback, surface interval also increases."
+      },
+      "correctOption": "D",
+      "explanationHtml": "Choice D directly shows the positive correlation predicted by the hypothesis: each increase in dive duration is accompanied by an increase in surface interval.<br/><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Choice A is true but only describes one species, not the relationship.</li><li>Choice B is true but only compares extremes, missing the intermediate species.</li><li>Choice C is a true statement but does not explicitly state the pattern of increase across all three.</li></ul>"
+    },
+    {
+      "questionId": "q012",
+      "passageId": "p012",
+      "questionHtml": "Which finding, if true, would most directly support the neurologist's hypothesis?",
+      "options": {
+        "A": "Participants who napped for only 30 minutes (mostly light sleep) showed no improvement over the no-nap group.",
+        "B": "Participants who were woken up every time they entered SWS performed no better than those who stayed awake.",
+        "C": "Participants who listened to classical music during the nap reported feeling more refreshed but did not perform better.",
+        "D": "Participants who napped for 90 minutes in a noisy environment had the same performance as those in a quiet room."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Choice B directly supports the hypothesis that SWS is crucial: preventing SWS eliminated the benefit.<br/><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Choice A suggests that longer sleep is needed but doesn't isolate SWS.</li><li>Choice C is about refreshment, not memory consolidation.</li><li>Choice D is about noise, not SWS.</li></ul>"
+    },
+    {
+      "questionId": "q013",
+      "passageId": "p013",
+      "questionHtml": "Which choice most effectively uses data from the graph to support this claim?",
+      "options": {
+        "A": "Model Y's sales increased every month from January to June, while Model Z's sales fluctuated.",
+        "B": "In January, Model Z sold 70,000 units, but by June, Model Y sold 90,000 units to Model Z's 75,000.",
+        "C": "Model X's sales peaked in March and then declined, never reaching Model Y's June sales.",
+        "D": "Model Y's sales were lower than Model Z's in January but higher in June."
+      },
+      "correctOption": "B",
+      "explanationHtml": "Choice B directly compares the key months (January and June) for Models Y and Z, showing the stated trend.<br/><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Choice A describes a pattern but doesn't directly compare the two models at the endpoints.</li><li>Choice C is about Model X, irrelevant to the claim.</li><li>Choice D is too vague (doesn't give actual numbers, and \"higher\" could be a small difference).</li></ul>"
+    },
+    {
+      "questionId": "q014",
+      "passageId": "p014",
+      "questionHtml": "Which quotation from the memoir would best support the author's claim?",
+      "options": {
+        "A": "\"I had prepared a detailed lecture on photosynthesis, but a girl raised her hand and asked, 'Why do we need to know this if the forest is dying?' I had no answer.\"",
+        "B": "\"The students were always eager to repeat facts back to me, but they never asked why the river was polluted or why the school had no library.\"",
+        "C": "\"After that day, I stopped giving tests and started asking them to write down three questions they had about the world each morning.\"",
+        "D": "\"I realized that my job was not to deliver answers but to create a space where their curiosity could grow.\""
+      },
+      "correctOption": "C",
+      "explanationHtml": "Choice C shows a concrete change in teaching practice that reflects the new philosophy (helping students find questions).<br/><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Choice A shows a moment of doubt but not a change in role.</li><li>Choice B describes a problem, not a solution or realization.</li><li>Choice D states the realization but is not a quotation from the memoir's narrative action; C is a direct behavioral illustration.</li></ul>"
+    },
+    {
+      "questionId": "q015",
+      "passageId": "p015",
+      "questionHtml": "Which choice most effectively uses data from the table to support the botanist's claim?",
+      "options": {
+        "A": "Fertilizer B produces tomatoes per plant that are twice as many as Fertilizer A, while being only slightly shorter.",
+        "B": "Fertilizer A produces the tallest plants but the fewest tomatoes, and Fertilizer C produces the shortest plants but medium tomatoes.",
+        "C": "Fertilizer B has a better balance of height and yield than either Fertilizer A or Fertilizer C.",
+        "D": "Fertilizer B's average height (65 cm) is closer to Fertilizer A's (68 cm) than to Fertilizer C's (48 cm), but its yield (24) is much higher than both."
+      },
+      "correctOption": "D",
+      "explanationHtml": "Choice D directly supports the claim by comparing B to both A and C on both metrics, showing B is nearly as tall as A but far more productive, and much taller than C while also more productive.<br/><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Choice A only compares B to A, missing C.</li><li>Choice B correctly describes A and C but does not explicitly show B's advantage.</li><li>Choice C is a subjective statement (\"better balance\") without specific data comparison.</li></ul>"
+    },
+    {
+      "questionId": "q016",
+      "passageId": "p016",
+      "questionHtml": "Which finding, if true, would most directly support the economist's hypothesis?",
+      "options": {
+        "A": "Fast-food restaurants in the city reported a 40% decrease in employee turnover after the wage increase.",
+        "B": "The number of fast-food restaurants in the city decreased by 5% after the wage increase.",
+        "C": "Other industries that did not raise wages saw no change in employment.",
+        "D": "The city's overall unemployment rate for young workers increased after the wage increase."
+      },
+      "correctOption": "A",
+      "explanationHtml": "Choice A provides evidence for the mechanism (reduced turnover costs) that could allow expansion, supporting the hypothesis.<br/><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Choice B contradicts the finding of rising employment.</li><li>Choice C is irrelevant to the hypothesis about fast-food restaurants.</li><li>Choice D contradicts the idea that employment rose for the targeted group.</li></ul>"
+    },
+    {
+      "questionId": "q017",
+      "passageId": "p017",
+      "questionHtml": "Which choice most effectively uses data from the graph to support this claim?",
+      "options": {
+        "A": "Lighting consumption dropped from 800 to 400 kWh, and computer consumption rose from 300 to 600 kWh.",
+        "B": "Refrigerator consumption decreased by 200 kWh, while air conditioner consumption increased by 300 kWh.",
+        "C": "Three of the five appliance types showed decreases, and two showed increases.",
+        "D": "TV consumption decreased by 200 kWh, and computer consumption increased by 300 kWh."
+      },
+      "correctOption": "A",
+      "explanationHtml": "Choice A directly gives an example of a traditional appliance (lighting) decreasing and a newer electronic (computer) increasing, matching the claim.<br/><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Choice B is also true but only compares refrigerator (traditional) and AC (cooling) - it doesn't include a newer electronic.</li><li>Choice C is too general and doesn't specify which types.</li><li>Choice D shows TV (traditional) decrease and computer increase, but TV is also a newer electronic historically; the claim separates \"traditional\" (refrigerator, lighting) from \"newer electronics\" (computer) - A is a clearer contrast.</li></ul>"
+    },
+    {
+      "questionId": "q018",
+      "passageId": "p018",
+      "questionHtml": "Which quotation from the candidate's speech would best support this claim about her opponent?",
+      "options": {
+        "A": "\"My opponent has voted 'present' 47 times on controversial bills rather than taking a stand.\"",
+        "B": "\"My opponent often says he listens to the people, but I say leaders must sometimes act against public opinion for the greater good.\"",
+        "C": "\"I have cast votes to raise taxes on the wealthy and cut subsidies to popular programs, knowing they would hurt my poll numbers.\"",
+        "D": "\"The people want a leader who is not afraid to be lonely in their convictions.\""
+      },
+      "correctOption": "A",
+      "explanationHtml": "Choice A provides specific evidence of the opponent avoiding tough votes (voting \"present\" instead of yes/no), directly supporting the claim of taking the easy path.<br/><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Choice B is the candidate's general philosophy, not evidence about the opponent.</li><li>Choice C is about the candidate's own difficult votes, not the opponent.</li><li>Choice D is a general statement, not specific to the opponent.</li></ul>"
+    },
+    {
+      "questionId": "q019",
+      "passageId": "p019",
+      "questionHtml": "Which choice most effectively uses data from the table to support the sociologist's claim?",
+      "options": {
+        "A": "Happiness peaks in the 2-3 hour range (8.1) and is lower in both the 0-1 hour range (6.2) and the 4+ hour range (5.9).",
+        "B": "Happiness increases from 0-1 hours to 2-3 hours, then decreases.",
+        "C": "The difference in happiness between the lowest and highest use groups is 2.2 points.",
+        "D": "The 1-2 hour group has happiness of 7.8, which is higher than the 0-1 hour group but lower than the 2-3 hour group."
+      },
+      "correctOption": "A",
+      "explanationHtml": "Choice A explicitly identifies the peak and the lower values on both ends, directly supporting the non-linear, inverted-U claim.<br/><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Choice B is correct in describing the increase then decrease but does not name the peak and endpoints numerically.</li><li>Choice C only gives the range, not the pattern.</li><li>Choice D describes a small part of the pattern but misses the overall claim.</li></ul>"
+    },
+    {
+      "questionId": "q020",
+      "passageId": "p020",
+      "questionHtml": "Which finding, if true, would most directly weaken the researcher's conclusion?",
+      "options": {
+        "A": "Participants who listened to Mozart reported feeling more relaxed than those in the silence group.",
+        "B": "The white noise group scored slightly lower than the silence group.",
+        "C": "A second experiment found no difference between Mozart and a popular pop song on spatial reasoning.",
+        "D": "The Mozart group had a higher average IQ than the other groups before the experiment."
+      },
+      "correctOption": "D",
+      "explanationHtml": "Choice D suggests a pre-existing difference between groups (selection bias) could explain the result, weakening the causal claim.<br/><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Choice A offers an alternative explanation (relaxation) but does not directly weaken; it could be a mediator.</li><li>Choice B is consistent with the theory (white noise is not music).</li><li>Choice C is a separate study; it doesn't directly weaken this specific experiment's conclusion.</li></ul>"
+    },
+    {
+      "questionId": "q021",
+      "passageId": "p021",
+      "questionHtml": "Which choice most effectively uses data from the table to support the ecologists' hypothesis?",
+      "options": {
+        "A": "As average patch size decreases from Alpha to Epsilon, bird species per 100 ha also decreases steadily.",
+        "B": "The region with the largest average patch size (Alpha) has the highest bird species richness, and the region with the smallest patch size (Epsilon) has the lowest.",
+        "C": "The difference in bird species between Alpha and Beta is 6 species, while the difference between Delta and Epsilon is 5 species.",
+        "D": "Bird species richness is more than three times higher in Alpha than in Epsilon, while patch size is eight times larger."
+      },
+      "correctOption": "A",
+      "explanationHtml": "Choice A directly shows the monotonic relationship predicted: smaller patches → fewer species, across all five regions.<br/><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Choice B is true but only compares extremes, missing the intermediate pattern.</li><li>Choice C focuses on differences without showing the overall trend.</li><li>Choice D gives a ratio but does not explicitly state the consistent inverse relationship across all data points.</li></ul>"
+    },
+    {
+      "questionId": "q022",
+      "passageId": "p022",
+      "questionHtml": "Which finding, if true, would most directly support the psychologist's hypothesis?",
+      "options": {
+        "A": "Students who watched at 2x speed performed worse than those who watched at normal speed, reporting that the speech was too fast to follow.",
+        "B": "Students who watched at 1.5x speed but were told they could pause and rewind did not show any improvement in test scores.",
+        "C": "Brain scans of students watching at 1.5x speed showed greater activation in areas associated with sustained attention and working memory than those watching at normal speed.",
+        "D": "Students who watched at 1.5x speed reported feeling more fatigued after the session than those who watched at normal speed."
+      },
+      "correctOption": "C",
+      "explanationHtml": "Choice C directly supports the hypothesized mechanism (increased mental effort/attention) by showing neural evidence.<br/><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Choice A suggests there is an upper limit but doesn't support the mechanism.</li><li>Choice B suggests the benefit disappears with ability to pause, which could support the mechanism but is less direct than C.</li><li>Choice D reports fatigue, which could be a side effect but not direct evidence of deeper encoding.</li></ul>"
+    },
+    {
+      "questionId": "q023",
+      "passageId": "p023",
+      "questionHtml": "Which choice most effectively uses data from the graph to support this claim?",
+      "options": {
+        "A": "From January to April, temperature rises from 4°C to 12°C but species count increases only from 8 to 12. From April to July, temperature rises from 12°C to 22°C and species count jumps from 12 to 22.",
+        "B": "The highest species count (22) occurs in July when temperature peaks (22°C) and the lowest species count (8) occurs in January and December when temperature is lowest.",
+        "C": "From August to December, temperature drops from 22°C to 5°C and species count drops from 21 to 8, showing a strong correlation.",
+        "D": "In March, temperature is 8°C and species count is 9; in November, temperature is 7°C and species count is 10, indicating that temperature alone does not explain all variation."
+      },
+      "correctOption": "A",
+      "explanationHtml": "Choice A directly illustrates the threshold effect: small increase in species below 12°C, large increase above 12°C.<br/><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Choice B and C show correlation but not the threshold.</li><li>Choice D points out an exception, which does not support the claim.</li></ul>"
+    },
+    {
+      "questionId": "q024",
+      "passageId": "p024",
+      "questionHtml": "Which quotation from the memoir would best support this argument?",
+      "options": {
+        "A": "\"I told them, 'I understand why you feel betrayed by past agreements, but we cannot reopen that issue. Let us talk about the future.'\"",
+        "B": "\"I said, 'Your history is your own, and I respect it. But my instructions are clear: no compromises on security guarantees.'\"",
+        "C": "\"They wanted an apology for colonial-era actions. I replied, 'I cannot give that apology, but I can offer a path to economic cooperation if you renounce violence.'\"",
+        "D": "\"I listened to their complaints for three hours without interrupting. Then I said, 'I hear your pain. Now let me explain why my country cannot change its position on nuclear weapons.'\""
+      },
+      "correctOption": "D",
+      "explanationHtml": "Choice D shows empathy (listening, \"I hear your pain\") followed by a firm restatement of position without concession, matching the argument.<br/><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Choice A shows empathy but also a concession (\"cannot reopen that issue\" is not a red line, just a refusal to discuss).</li><li>Choice B has respect but no explicit empathy; the phrase \"your history is your own\" is neutral.</li><li>Choice C explicitly denies an apology (not empathetic) and offers a conditional concession, which is not \"without conceding strategic interests.\"</li></ul>"
+    },
+    {
+      "questionId": "q025",
+      "passageId": "p025",
+      "questionHtml": "Which choice most effectively uses data from the table to support the researcher's claim?",
+      "options": {
+        "A": "The reduction from placebo to low dose is 6 mmHg, from low to medium is 4 mmHg, and from medium to high is only 1 mmHg, while side effect percentages increase sharply at high dose.",
+        "B": "The high dose group had only a 1 mmHg greater reduction than the medium dose group but 25% more side effects.",
+        "C": "The medium dose group achieved nearly the same reduction as the high dose group (12 vs. 13 mmHg) but with less than half the side effects (20% vs. 45%).",
+        "D": "All of the above."
+      },
+      "correctOption": "D",
+      "explanationHtml": "All three choices provide evidence of a threshold (diminishing returns after medium dose) with sharply increasing side effects at high dose. Choice D is best because it encompasses the full pattern.<br/><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>A gives the incremental changes.</li><li>B compares medium and high directly.</li><li>C gives the same comparison in different words.</li><li>D combines them.</li></ul>"
+    },
+    {
+      "questionId": "q026",
+      "passageId": "p026",
+      "questionHtml": "Which finding, if true, would most directly support the climate scientist's hypothesis?",
+      "options": {
+        "A": "Soil samples from agricultural fields near the capital show high concentrations of salt dating to the collapse period.",
+        "B": "Lake sediment cores from other regions of the civilization show evidence of drought during the same period.",
+        "C": "Written records from the civilization describe the abandonment of fields due to \"white crust\" on the soil.",
+        "D": "Both A and C."
+      },
+      "correctOption": "D",
+      "explanationHtml": "Choices A and C provide direct evidence of soil salinization (scientific and textual). D combines them for strongest support.<br/><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Choice B would actually support the drought hypothesis, weakening the scientist's claim.</li><li>Choice C alone is strong, but A provides physical evidence; together they are more convincing.</li></ul>"
+    },
+    {
+      "questionId": "q027",
+      "passageId": "p027",
+      "questionHtml": "Which finding, if true, would most directly weaken the authors' hypothesis?",
+      "options": {
+        "A": "The city also experienced a general economic boom during the same period, increasing demand for all types of labor.",
+        "B": "Fast-food restaurants in the city reported a significant decrease in employee turnover after the wage increase.",
+        "C": "Restaurants in neighboring cities that did not raise the minimum wage also saw employment increases.",
+        "D": "The number of fast-food restaurants in the city decreased slightly after the wage increase."
+      },
+      "correctOption": "A",
+      "explanationHtml": "Choice A provides an alternative explanation (economic boom) that could have caused employment to rise regardless of the wage increase, weakening the causal link proposed by the hypothesis.<br/><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Choice B supports the hypothesis (reduced turnover).</li><li>Choice C suggests a regional trend not tied to the wage increase, which also weakens but less directly than A because it doesn't explain the mechanism.</li><li>Choice D is a small decrease in number of restaurants, not employment per restaurant, and does not directly weaken.</li></ul>"
+    }
+  ]
+}
