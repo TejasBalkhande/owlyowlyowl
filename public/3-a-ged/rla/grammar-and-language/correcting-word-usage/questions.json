@@ -1,0 +1,224 @@
+{
+  "passages": [
+    {
+      "passageId": "passage-grammar-pdf",
+      "passageHtml": "<p>Multiple choice grammar and usage questions.</p>"
+    },
+    {
+      "passageId": "passage-grammar",
+      "passageHtml": "<p>Grammar and usage questions focusing on subject-verb agreement, pronoun agreement, verb tense, and standard English usage.</p>"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q-grammar-001",
+      "passageId": "passage-grammar-pdf",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the sentence that is written correctly.</p>",
+      "options": {
+        "A": "The basket of fresh apples smell delicious, but some of it is overripe.",
+        "B": "The basket of fresh apples smells delicious, but some of them are overripe.",
+        "C": "The basket of fresh apples smell delicious, but some of them is overripe.",
+        "D": "The basket of fresh apples smells delicious, but some of it are overripe."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The subject \"basket\" is singular → requires \"smells\" (eliminates A and C). \"Some of them\" refers to individual apples → plural \"are\" (correct in B). D has \"some of it ... are\" - \"it\" is singular but \"are\" is plural, so incorrect.</p>"
+    },
+    {
+      "questionId": "q-grammar-002",
+      "passageId": "passage-grammar-pdf",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the phrase that correctly completes the sentence.<br/>Everyone on the team finished practice drills before the coach arrived.</p>",
+      "options": {
+        "A": "his or her",
+        "B": "their",
+        "C": "its",
+        "D": "there"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>\"Everyone\" is an indefinite singular pronoun → traditionally paired with \"his or her\" on the GED. B (\"their\") is common in speech but often marked incorrect on this test. C (\"its\") is for objects/animals, not people. D (\"there\") indicates location.</p>"
+    },
+    {
+      "questionId": "q-grammar-003",
+      "passageId": "passage-grammar-pdf",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the word pair that correctly completes the sentence.<br/>The new policy will all employees, for those on medical leave.</p>",
+      "options": {
+        "A": "affect ... accept",
+        "B": "effect ... except",
+        "C": "affect ... except",
+        "D": "effect ... accept"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>First blank needs a verb meaning \"to influence\" → \"affect\" (not \"effect\"). Second blank means \"excluding\" → \"except\" (not \"accept\"). A and B each have one correct and one incorrect word; D has both wrong.</p>"
+    },
+    {
+      "questionId": "q-grammar-004",
+      "passageId": "passage-grammar-pdf",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the sentence that is written in standard English.</p>",
+      "options": {
+        "A": "We should of left earlier, but the dog needed walked.",
+        "B": "We should have left earlier, but the dog needed walking.",
+        "C": "We should of left earlier, but the dog needed to be walked.",
+        "D": "We should have left earlier, but the dog needed walked."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>\"Should have\" (not \"should of\") eliminates A and C. \"Needed walked\" (as in \"needed to be walked\") is nonstandard English - eliminates D. \"Needed walking\" (standard) or \"needed to be walked\" are both acceptable; only B fits with correct \"should have.\"</p>"
+    },
+    {
+      "questionId": "q-grammar-005",
+      "passageId": "passage-grammar-pdf",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the sentence that is correct.</p>",
+      "options": {
+        "A": "There is several reasons for the delay, but the main one are the weather.",
+        "B": "There are several reasons for the delay, but the main one is the weather.",
+        "C": "There is several reasons for the delay, but the main one is the weather.",
+        "D": "There are several reasons for the delay, but the main one are the weather."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>\"Several reasons\" is plural → \"there are\" (not \"there is\") - eliminates A and C. \"The main one\" is singular → \"is\" (not \"are\") - eliminates A and D. B has both verbs correct.</p>"
+    },
+    {
+      "questionId": "q-grammar-006",
+      "passageId": "passage-grammar",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the sentence that is written correctly.</p>",
+      "options": {
+        "A": "In the garage is stored the old tools that my father use to fix cars.",
+        "B": "In the garage are stored the old tools that my father used to fix cars.",
+        "C": "In the garage is stored the old tools that my father used to fix cars.",
+        "D": "In the garage are stored the old tools that my father use to fix cars."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Explanation of each option:</strong></p><p><strong>A is incorrect:</strong> The subject “tools” is plural, so the verb should be “are stored,” not “is stored.” Also, “use” should be past tense “used.”</p><p><strong>B is correct:</strong> “Tools” (plural) takes “are stored.” The past tense “used to fix” correctly indicates a past habit.</p><p><strong>C is incorrect:</strong> “Is stored” does not agree with the plural subject “tools.”</p><p><strong>D is incorrect:</strong> Although “are stored” is correct, “use” should be “used” to maintain past tense consistency.</p>"
+    },
+    {
+      "questionId": "q-grammar-007",
+      "passageId": "passage-grammar",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the phrase that correctly completes the sentence.<br/>Either Maria or the supervisors will submit _____ report by Friday.</p>",
+      "options": {
+        "A": "their",
+        "B": "her",
+        "C": "its",
+        "D": "his or her"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Explanation of each option:</strong></p><p><strong>A is correct:</strong> With “either…or,” the pronoun agrees with the closer subject. “Supervisors” (plural) is closer, so the plural pronoun “their” is correct.</p><p><strong>B is incorrect:</strong> “Her” is singular and feminine, but the closer subject is plural, and gender is not specified for “supervisors.”</p><p><strong>C is incorrect:</strong> “Its” is used for things or animals, not for people.</p><p><strong>D is incorrect:</strong> “His or her” is singular, but the closer subject “supervisors” is plural, requiring a plural pronoun.</p>"
+    },
+    {
+      "questionId": "q-grammar-008",
+      "passageId": "passage-grammar",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the word pair that correctly completes the sentence.<br/>After he _____ the book on the table, he _____ three hours doing nothing.</p>",
+      "options": {
+        "A": "laid ... past",
+        "B": "lay ... passed",
+        "C": "laid ... passed",
+        "D": "lay ... past"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Explanation of each option:</strong></p><p><strong>A is incorrect:</strong> “Laid” is correct for placing an object, but “past” is not a verb; “passed” is needed for spending time.</p><p><strong>B is incorrect:</strong> “Lay” (past of “lie” – to recline) does not take an object; “the book” requires “laid.” “Passed” is correct, but the first word is wrong.</p><p><strong>C is correct:</strong> “Laid” is the past tense of “lay” (to put something down) and takes the object “book.” “Passed” is the past tense of “pass” (to spend time).</p><p><strong>D is incorrect:</strong> “Lay” is wrong for placing an object, and “past” is not a verb.</p>"
+    },
+    {
+      "questionId": "q-grammar-009",
+      "passageId": "passage-grammar",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the sentence that is written in standard English.</p>",
+      "options": {
+        "A": "He didn't have no choice but to lay down for a while.",
+        "B": "He didn't have any choice but to lie down for a while.",
+        "C": "He hadn't no choice but to lay down for a while.",
+        "D": "He didn't have any choice but to lay down for a while."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Explanation of each option:</strong></p><p><strong>A is incorrect:</strong> Double negative “didn’t have no” is nonstandard. Also “lay down” requires an object; “lie down” is correct for reclining.</p><p><strong>B is correct:</strong> No double negative (“didn’t have any”). “Lie down” (no object) is the correct verb for a person reclining.</p><p><strong>C is incorrect:</strong> “Hadn’t no” is a double negative. Also “lay down” is incorrect.</p><p><strong>D is incorrect:</strong> Although “didn’t have any” fixes the double negative, “lay down” is still wrong; it should be “lie down.”</p>"
+    },
+    {
+      "questionId": "q-grammar-010",
+      "passageId": "passage-grammar",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the sentence that is correct.</p>",
+      "options": {
+        "A": "One of the students who was late have to see the principal.",
+        "B": "One of the students who were late has to see the principal.",
+        "C": "One of the students who was late has to see the principal.",
+        "D": "One of the students who were late have to see the principal."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Explanation of each option:</strong></p><p><strong>A is incorrect:</strong> The relative clause “who was late” refers to “students” (plural) and should use “were.” Also the main verb “have” does not agree with singular subject “One.”</p><p><strong>B is correct:</strong> “Who were late” agrees with plural “students.” The main subject “One” (singular) takes the singular verb “has.”</p><p><strong>C is incorrect:</strong> “Who was late” is singular, but it refers to “students” (plural). The relative pronoun “who” takes its number from the antecedent “students.”</p><p><strong>D is incorrect:</strong> “Have” does not agree with singular subject “One.”</p>"
+    },
+     {
+      "questionId": "q-grammar-011",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the sentence that is written correctly.</p>",
+      "options": {
+        "A": "In the drawer is the keys that unlocks the front door.",
+        "B": "In the drawer are the keys that unlock the front door.",
+        "C": "In the drawer is the keys that unlock the front door.",
+        "D": "In the drawer are the keys that unlocks the front door."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Subject \"keys\" (plural) → verb \"are\" (eliminates A and C). Relative clause \"that unlock\" - plural antecedent \"keys\" → plural verb \"unlock\" (eliminates D, which has \"unlocks\"). A has both singular errors; C has \"is\" wrong but \"unlock\" right; D has \"are\" right but \"unlocks\" wrong.</p>"
+    },
+    {
+      "questionId": "q-grammar-012",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the phrase that correctly completes the sentence.</p><p>The teacher gave the award to both you and _____, and we had to congratulate _____.</p>",
+      "options": {
+        "A": "I ... ourself",
+        "B": "me ... ourselves",
+        "C": "I ... ourselves",
+        "D": "me ... ourself"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Object of preposition \"to\" → object pronoun \"me\" (eliminates A and C, which use \"I\"). Reflexive pronoun for \"we\" → \"ourselves\" (eliminates A and D, which use nonstandard \"ourself\"). B has both correct.</p>"
+    },
+    {
+      "questionId": "q-grammar-013",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the word pair that correctly completes the sentence.</p><p>She would rather work late _____ go home, _____ for emergency situations.</p>",
+      "options": {
+        "A": "then ... accept",
+        "B": "than ... except",
+        "C": "then ... except",
+        "D": "than ... accept"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Comparative \"rather ... than\" (not \"then\") - eliminates A and C. \"Except\" (excluding) vs. \"accept\" (receive) - sentence means \"except for emergencies\" - eliminates D. B has both correct.</p>"
+    },
+    {
+      "questionId": "q-grammar-014",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the sentence that is correct.</p>",
+      "options": {
+        "A": "The jury has reached their verdict after three days of deliberation.",
+        "B": "The jury have reached its verdict after three days of deliberation.",
+        "C": "The jury has reached its verdict after three days of deliberation.",
+        "D": "The jury have reached their verdict after three days of deliberation."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Collective noun \"jury\" as a single unit in American English → singular verb \"has\" (eliminates B and D, which use \"have\"). Singular pronoun \"its\" (not \"their\") - eliminates A (which has \"has ... their\" - inconsistent). C has both singular.</p>"
+    },
+    {
+      "questionId": "q-grammar-015",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the sentence that is written in standard English.</p>",
+      "options": {
+        "A": "He couldn't hardly see nothing through the fog.",
+        "B": "He could hardly see anything through the fog.",
+        "C": "He couldn't hardly see anything through the fog.",
+        "D": "He could hardly see nothing through the fog."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>\"Hardly\" is a negative adverb → using \"couldn't\" creates a double negative (eliminates A and C). \"See nothing\" with \"hardly\" is also a double negative (eliminates D). B uses \"hardly see anything\" – standard English.</p>"
+    }
+  ]
+}

@@ -1,0 +1,420 @@
+{
+  "passages": [
+    {
+      "passageId": "books-graph-243-245",
+      "passageHtml": "<p>Rachel, Brooke, and Steve love reading novels. The graph shows the number of books that each of them read last year.</p><img src=\"/3-i-ged/image26.png\" alt=\"Bar graph: Rachel 14 books, Brooke 16 books, Steve 8 books\" />"
+    },
+    {
+      "passageId": "inequality-graph-246",
+      "passageHtml": "<p>Which of the following represents the inequality?</p><img src=\"/3-i-ged/image27.png\" alt=\"Number line graph with solution set from -3 to 1, closed at -3, open at 1\" />"
+    },
+    {
+      "passageId": "boxes-volumes-247",
+      "passageHtml": "<p>Two rectangular boxes: first has dimensions 4×2×10, second has 8×2×h. They have the same volume.</p><img src=\"/3-i-ged/image28.png\" alt=\"Box 1: length 4, width 2, height 10; Box 2: length 8, width 2, height unknown\" />"
+    },
+    {
+      "passageId": "frog-jumps-250",
+      "passageHtml": "<p>Four frogs were entered in the annual charity High-Hop Contest. The highest jump of each frog is recorded in the table.</p>\\(\\begin{array}{c|c} \\text{Frog} & \\text{Jump Height (Inches)} \\\\ \\hline \\text{Mrs. Croak} & 5\\ \\frac{4}{5} \\\\ \\text{Kermit} & 5\\ \\frac{3}{8} \\\\ \\text{Mr. Hopswell} & 5\\ \\frac{11}{20} \\\\ \\text{Froggy McFrogface} & 5\\ \\frac{7}{10} \\end{array}\\)"
+    },
+    {
+      "passageId": "runners-times-252",
+      "passageHtml": "<p>The top four runners to finish a 100-meter race had the following times.</p>\\(\\begin{array}{c|c} \\text{Runner} & \\text{Time (Seconds)} \\\\ \\hline \\text{Tom} & 10.9192 \\\\ \\text{Kenneth} & 11.0021 \\\\ \\text{Rupert} & 10.9289 \\\\ \\text{Usain} & 10.9191 \\end{array}\\)"
+    },
+    {
+      "passageId": "die-coin-253-254",
+      "passageHtml": "<p>Ian has a die that has six sides, each marked with a different integer from 1 to 6. It's a fair die, meaning that each side is equally likely to land face up when the die is rolled. He also has a coin with equal chances of landing on heads or tails.</p>"
+    },
+    {
+      "passageId": "midpoint-slope-graph-260-262",
+      "passageHtml": "<p>The following graph shows two points marked: (0,3) and (4,1).</p><img src=\"/3-i-ged/image31.png\" alt=\"Coordinate plane with points (0,3) and (4,1) and a line through them\" />"
+    },
+    {
+      "passageId": "similar-triangles-264",
+      "passageHtml": "<p>The figure shows two similar triangles: the smaller triangle has a base length of 8 feet and a height of 5 feet (the height of the boy), whereas the second triangle has a base length of 24 feet and a height equal to that of the tree.</p><img src=\"/3-i-ged/image32.png\" alt=\"Two similar triangles: boy height 5 ft, shadow 8 ft; tree height unknown, shadow 24 ft\" />"
+    },
+    {
+      "passageId": "number-line-266-268",
+      "passageHtml": "<p>The number line below shows points A, B, C, D, E, F.</p><img src=\"/3-i-ged/image33.png\" alt=\"Number line: A = -5, B = -2.5, C = -2, D = -1, E = 2.5, F = 3.5\" />"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q242",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>If \\(x^3 = y^{12}\\) , what is \\(x\\) in terms of \\(y\\) ?</p>",
+      "options": {
+        "A": "\\(y^{-9}\\)",
+        "B": "\\(y^{4}\\)",
+        "C": "\\(y^{9}\\)",
+        "D": "\\(y^{36}\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Take the cube root of both sides: \\((x^3)^{1/3} = (y^{12})^{1/3}\\).</br>Simplify via the power rule by multiplying the exponents: \\(x = y^{4}\\).</br>Hence, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q243",
+      "passageId": "books-graph-243-245",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the ratio of the number of books Brooke read to those Rachel read?</p>",
+      "options": {
+        "A": "2:1",
+        "B": "16:13",
+        "C": "8:7",
+        "D": "7:8"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Brooke read 16 books, compared to Rachel's 14 books.</br>Ratio = 16:14, which simplifies to 8:7.</br>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q244",
+      "passageId": "books-graph-243-245",
+      "passageHighlight": "",
+      "questionHtml": "<p>If Steve wants to read the same number of books that Rachel read, by what percentage would he need to increase his current number of books?</p>",
+      "options": {
+        "A": "25%",
+        "B": "75%",
+        "C": "100%",
+        "D": "125%"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Steve read 8 books, Rachel read 14 books.</br>Steve needs 6 more books to match Rachel.</br>Percent increase = (6/8) × 100% = 75%.</br>Hence, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q245",
+      "passageId": "books-graph-243-245",
+      "passageHighlight": "",
+      "questionHtml": "<p>Based on the graph, which of the following statements must be true?</p>",
+      "options": {
+        "A": "Brooke can read more words per minute than either Steve or Rachel.",
+        "B": "Steve read only half the number of books that Rachel read.",
+        "C": "Brooke read 100% more books than Steve read.",
+        "D": "The total number of books read equals 40."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Brooke read 16 books, Steve read 8 books.</br>16 is exactly double 8, so Brooke read 100% more books than Steve.</br>Choice (A) is unsupported (no information about words per minute).</br>Choice (B) is false because Steve read 8, Rachel read 14, and 8 is more than half of 14.</br>Choice (D) is false because total books = 8+14+16 = 38, not 40.</br>Therefore, Choice (C) must be true.</p>"
+    },
+    {
+      "questionId": "q247",
+      "passageId": "boxes-volumes-247",
+      "passageHighlight": "",
+      "questionHtml": "<p>If these two boxes have the same volume, what is the height of the second box?</p>",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "8",
+        "D": "10"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Volume of first box = 4 × 2 × 10 = 80.</br>Volume of second box = 8 × 2 × h = 16h.</br>Set equal: 80 = 16h ⇒ h = 5.</br>Hence, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q248",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following numbers has the most unique prime factors?</p>",
+      "options": {
+        "A": "15",
+        "B": "19",
+        "C": "27",
+        "D": "31"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Find the prime factors of each number:</br>15 = 3 × 5 (two unique primes).</br>19 is prime (one unique prime).</br>27 = 3³ (one unique prime).</br>31 is prime (one unique prime).</br>Therefore, 15 has the most unique prime factors.</br>Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q249",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The following figure shows a piece of paper that is 15 inches long. Peter folds it in half (along the dotted line) and then makes one cut so that when he unfolds the paper, a perfect circle has been cut out. If the circle's diameter equals one-third of the length of the paper, what was the length of the cut that Peter made?</p><img src=\"/3-i-ged/image29.png\" alt=\"Paper folded, cut half-circle\" />",
+      "options": {
+        "A": "2.5π",
+        "B": "5π",
+        "C": "7.5π",
+        "D": "10π"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The paper length is 15 inches. Diameter = 15/3 = 5 inches.</br>Circumference of circle = πd = 5π.</br>Since the paper is folded, Peter cuts only half the circumference.</br>Cut length = (1/2) × 5π = 2.5π.</br>Hence, Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q250",
+      "passageId": "frog-jumps-250",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which frog hopped the highest? (Note: You may not use a calculator.)</p>",
+      "options": {
+        "A": "Mrs. Croak",
+        "B": "Kermit",
+        "C": "Mr. Hopswell",
+        "D": "Froggy McFrogface"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>All jumps have whole number part 5, so compare fractions:</br>4/5 = 32/40, 3/8 = 15/40, 11/20 = 22/40, 7/10 = 28/40.</br>Largest is 32/40 (Mrs. Croak).</br>Thus, Mrs. Croak hopped the highest.</br>Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q251",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>This irregular polygon has sides of unequal lengths. If the polygon has a perimeter equal to 52 inches, what is the value of \\(x\\) ?</p><img src=\"/3-i-ged/image30.png\" alt=\"Polygon sides: x-7, x-2, x-1, x, x-3\" />",
+      "options": {
+        "A": "11",
+        "B": "12",
+        "C": "12.5",
+        "D": "13"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Perimeter = sum of all sides:</br>(x-7)+(x-2)+(x-1)+x+(x-3) = 5x - 13.</br>Set equal to 52: 5x - 13 = 52 ⇒ 5x = 65 ⇒ x = 13.</br>Hence, Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q252",
+      "passageId": "runners-times-252",
+      "passageHighlight": "",
+      "questionHtml": "<p>Based on the above information, which of the following is a true statement?</p>",
+      "options": {
+        "A": "Tom was the slowest runner, and Usain was the fastest.",
+        "B": "Kenneth was the slowest runner, and Usain was the fastest.",
+        "C": "Rupert was the slowest runner, and Tom was the fastest.",
+        "D": "Usain was the slowest runner, and Kenneth was the fastest."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Fastest runner has the smallest time: Usain 10.9191 seconds.</br>Slowest runner has the largest time: Kenneth 11.0021 seconds.</br>Therefore, Kenneth was slowest, Usain fastest.</br>Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q253",
+      "passageId": "die-coin-253-254",
+      "passageHighlight": "",
+      "questionHtml": "<p>If Ian rolls the die and tosses the coin, what is the probability that he will get a 6 and tails?</p>",
+      "options": {
+        "A": "\\(\\frac{2}{3}\\)",
+        "B": "\\(\\frac{1}{8}\\)",
+        "C": "\\(\\frac{1}{12}\\)",
+        "D": "\\(6\\frac{1}{2}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Probability of rolling a 6 = 1/6.</br>Probability of tails = 1/2.</br>Since the events are independent, multiply: (1/6) × (1/2) = 1/12.</br>Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q254",
+      "passageId": "die-coin-253-254",
+      "passageHighlight": "",
+      "questionHtml": "<p>Suppose Ian rolled the die ten times and got ten consecutive 6s. What is the probability of rolling a 6 on the next roll?</p>",
+      "options": {
+        "A": "Less than \\(\\frac{1}{6}\\)",
+        "B": "Greater than \\(\\frac{1}{6}\\)",
+        "C": "\\(\\frac{1}{6}\\)",
+        "D": "Cannot be determined"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Each roll of the die is independent of previous rolls.</br>The probability of rolling a 6 remains 1/6 regardless of past outcomes.</br>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q255",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>When an unbalanced force is applied to a body, the acceleration of the body is inversely proportional to its mass. If a force applied to a 5kg body gives it an acceleration of 6 m/s², what acceleration would the same force produce when applied to a 15kg body?</p>",
+      "options": {
+        "A": "1 m/s²",
+        "B": "2 m/s²",
+        "C": "12 m/s²",
+        "D": "18 m/s²"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Acceleration is inversely proportional to mass: a ∝ 1/m, so a₁m₁ = a₂m₂.</br>Given: a₁ = 6 m/s², m₁ = 5 kg, m₂ = 15 kg.</br>6 × 5 = a₂ × 15 ⇒ 30 = 15a₂ ⇒ a₂ = 2 m/s².</br>Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q256",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The scale on Blackbeard's treasure map is 2 inches = 15 feet. According to the map, the treasure is buried 13 inches away from the old hanging tree. If Blackbeard is currently standing under the tree, how many feet away from the treasure is he? (Note: You may not use a calculator.)</p>",
+      "options": {
+        "A": "26 feet",
+        "B": "30 feet",
+        "C": "97.5 feet",
+        "D": "195 feet"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Set up proportion: actual distance / map distance = 15 ft / 2 in.</br>Map distance = 13 inches, so actual / 13 = 15/2.</br>Actual = 13 × (15/2) = 97.5 feet.</br>Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q257",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A rental car company charges a daily fee of $50 plus $0.50 for every mile traveled. Jane rents a car and returns it after three days. If her total charge (not including tax) equals $225.50, how many miles did she drive?</p>",
+      "options": {
+        "A": "15.1 miles",
+        "B": "151 miles",
+        "C": "351 miles",
+        "D": "451 miles"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Total charge = daily fee × days + mileage fee × miles.</br>225.50 = 3×50 + 0.50x ⇒ 225.50 = 150 + 0.5x.</br>Subtract 150: 75.50 = 0.5x ⇒ x = 151 miles.</br>Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q258",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Amy invested $\\$500$ in a savings account that pays a fixed simple interest rate. After three years, her account balance is $\\$552.50$. What percent annual interest did her bank pay?</p>",
+      "options": {
+        "A": "3.5%",
+        "B": "5.5%",
+        "C": "10.5%",
+        "D": "17.5%"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Interest earned = 552.50 - 500 = 52.50 over 3 years.</br>Annual interest = 52.50 / 3 = 17.50.</br>Interest rate = (annual interest / principal) × 100% = (17.50/500)×100% = 3.5%.</br>Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q259",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>If \\(\\frac{2}{11} x = 50\\) , what does \\(\\frac{6}{11} x\\) equal? (Note: You may not use a calculator.)</p>",
+      "options": {
+        "A": "25",
+        "B": "150",
+        "C": "275",
+        "D": "1,100"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>We have (2/11)x = 50.</br>Note that (6/11)x = 3 × (2/11)x = 3 × 50 = 150.</br>Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q260",
+      "passageId": "midpoint-slope-graph-260-262",
+      "passageHighlight": "",
+      "questionHtml": "<p>What are the coordinates of the midpoint of the two points marked on the graph?</p>",
+      "options": {
+        "A": "(6, 0)",
+        "B": "(2, 2)",
+        "C": "(0, 3)",
+        "D": "(3, 1.5)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Points: (0,3) and (4,1).</br>Midpoint formula: ((x₁+x₂)/2, (y₁+y₂)/2) = ((0+4)/2, (3+1)/2) = (2,2).</br>Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q261",
+      "passageId": "midpoint-slope-graph-260-262",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the slope of the line?</p>",
+      "options": {
+        "A": "-2",
+        "B": "2",
+        "C": "-1/2",
+        "D": "1/2"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Slope = (y₂ - y₁)/(x₂ - x₁) = (1 - 3)/(4 - 0) = (-2)/4 = -1/2.</br>Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q262",
+      "passageId": "midpoint-slope-graph-260-262",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the equation of the line?</p>",
+      "options": {
+        "A": "y = -2x + 3",
+        "B": "y = 2x + 3",
+        "C": "y = -1/2 x + 3",
+        "D": "y = 1/2 x + 3"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Slope m = -1/2, y-intercept b = 3 (from point (0,3)).</br>Equation: y = mx + b ⇒ y = -½ x + 3.</br>Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q263",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A clothing store has a 20% off sale. If the sale price of a sweater is $64, what was the original price of the sweater?</p>",
+      "options": {
+        "A": "$64",
+        "B": "$76.80",
+        "C": "$80",
+        "D": "$96"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Sale price = 80% of original price (since 20% off).</br>0.80 × original = 64 ⇒ original = 64 / 0.80 = $80.</br>Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q264",
+      "passageId": "similar-triangles-264",
+      "passageHighlight": "",
+      "questionHtml": "<p>How tall is the tree?</p>",
+      "options": {
+        "A": "15 feet",
+        "B": "27 feet",
+        "C": "38.4 feet",
+        "D": "45 feet"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Similar triangles: ratio of height to base is constant.</br>Boy's height / shadow = 5/8.</br>Tree's height / shadow = tree/24.</br>Set equal: tree/24 = 5/8 ⇒ tree = 24 × (5/8) = 15 feet.</br>Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q265",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>An isosceles triangle has an obtuse angle equal to 110°. What is the value of each of the other two angles?</p>",
+      "options": {
+        "A": "25°",
+        "B": "35°",
+        "C": "45°",
+        "D": "70°"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Triangle angle sum = 180°.</br>Obtuse angle = 110°, remaining two angles are equal (isosceles).</br>Let each equal angle = x. Then 2x + 110 = 180 ⇒ 2x = 70 ⇒ x = 35°.</br>Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q266",
+      "passageId": "number-line-266-268",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the value of \\(E\\) minus \\(A\\) ?</p>",
+      "options": {
+        "A": "-7.5",
+        "B": "-2.5",
+        "C": "2.5",
+        "D": "7.5"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>From number line: A = -5, E = 2.5.</br>E - A = 2.5 - (-5) = 2.5 + 5 = 7.5.</br>Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q267",
+      "passageId": "number-line-266-268",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the product of \\(A\\) times \\(B\\) times \\(C\\) ?</p>",
+      "options": {
+        "A": "-25",
+        "B": "-0.5",
+        "C": "0",
+        "D": "25"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>A = -5, B = -2.5, C = -2.</br>Product = (-5) × (-2.5) × (-2) = (12.5) × (-2) = -25.</br>Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q268",
+      "passageId": "number-line-266-268",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following is true?</p>",
+      "options": {
+        "A": "\\(|A| < |C|\\)",
+        "B": "\\(|D| > |E|\\)",
+        "C": "\\(-|E| < A\\)",
+        "D": "\\(-A < |B| + |F|\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Absolute values: |A|=5, |B|=2.5, |C|=2, |D|=1, |E|=2.5, |F|=3.5.</br>Check each option:</br>(A) |A| < |C|? 5 < 2 false.</br>(B) |D| > |E|? 1 > 2.5 false.</br>(C) -|E| < A? -2.5 < -5 false.</br>(D) -A < |B| + |F|? -(-5)=5, |B|+|F|=2.5+3.5=6, so 5 < 6 true.</br>Hence, Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q269",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following is equivalent to \\(x^2 - 2x - 24 = 0\\) ?</p>",
+      "options": {
+        "A": "\\((x-4)(x+6)=0\\)",
+        "B": "\\((x+4)(x-6)=0\\)",
+        "C": "\\((x-8)(x+3)=0\\)",
+        "D": "\\((x+8)(x-3)=0\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Factor the quadratic: x² - 2x - 24.</br>Find two numbers that multiply to -24 and add to -2: these are 4 and -6.</br>Thus, (x + 4)(x - 6) = 0.</br>Choice (B) is correct.</p>"
+    }
+  ]
+}

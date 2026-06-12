@@ -1,0 +1,478 @@
+{
+  "passages": [
+    {
+      "passageId": "information-185",
+      "passageHtml": "<p>The figure shows a number line with equally spaced vertical marks. Point A is located between two marks. The marks include values 7.4 and 10.1 as shown.</p><img src=\"/3-i-ged/image18.png\" alt=\"Number line with equally spaced marks, point A between 7.4 and 10.1\" />"
+    },
+    {
+      "passageId": "information-186-187",
+      "passageHtml": "<p>A researcher asked a group of 400 students about what types of pets they preferred. She recorded the results in the following pie chart. The pie chart shows: Dogs 55%, Cats 30%, Fish 6%, Rodents 4%, Rabbits 5%.</p><img src=\"/3-i-ged/image19.png\" alt=\"Pie chart of pet preferences: Dogs 55%, Cats 30%, Fish 6%, Rodents 4%, Rabbits 5%\" />"
+    },
+    {
+      "passageId": "information-195",
+      "passageHtml": "<p>The figure shows a triangle with angles 60°, 58°, and an exterior angle x at vertex B, with line extending to D. Angle y is the interior angle at C.</p><img src=\"/3-i-ged/image20.png\" alt=\"Triangle with angles 60°, 58°, exterior angle x at B, interior angle y at C\" />"
+    },
+    {
+      "passageId": "information-198-200",
+      "passageHtml": "<p>Given the linear equation: \\(y = -6x - 9\\)</p>"
+    },
+    {
+      "passageId": "information-206",
+      "passageHtml": "<p>The figure shows a trapezoid with height 4 ft, one base 7 ft, unknown base b, and area 38 sq ft.</p><img src=\"/3-i-ged/image21.png\" alt=\"Trapezoid with height 4 ft, base 7 ft, unknown base b, area 38 sq ft\" />"
+    },
+    {
+      "passageId": "information-207-209",
+      "passageHtml": "<p>The chart represents the imports and exports of Pakistan during the period 1982-1988 in billions of Pakistani rupees (Rs.). The darker bars represent imports, and the lighter bars are exports.</p><img src=\"/3-i-ged/image22.png\" alt=\"Bar chart of imports (dark) and exports (light) from 1982-83 to 1987-88\" />"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q181",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The square root of 73 lies between which two integers? (Note: You may not use a calculator.)</p>",
+      "options": {
+        "A": "6 and 7",
+        "B": "7 and 8",
+        "C": "8 and 9",
+        "D": "9 and 10"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Seventy-three lies between the square numbers 64 and 81: \\(\\sqrt{64} < \\sqrt{73} < \\sqrt{81}\\).<br/>Taking the square root gives \\(8 < \\sqrt{73} < 9\\).<br/>Hence, the correct answer is Choice (C).</p>"
+    },
+    {
+      "questionId": "q182",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>If two sides of a triangle are 10.2 and 5.8 inches long, which of the following cannot be the length of the other side?</p>",
+      "options": {
+        "A": "4.3 inches",
+        "B": "5.8 inches",
+        "C": "11.7 inches",
+        "D": "15.2 inches"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The length of the third side of any triangle must be greater than the difference between the lengths of the other two sides and less than their sum.<br/>If \\(x\\) is the missing side, then \\(|10.2 - 5.8| < x < |10.2 + 5.8|\\) → \\(4.4 < x < 16\\).<br/>\\(4.3\\) is less than \\(4.4\\), so it cannot be the length.<br/>Hence, Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q183",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the value of \\(|3 - 8| - |8 - 3|\\)? (Note: You may not use a calculator.)</p>",
+      "options": {
+        "A": "-10",
+        "B": "-5",
+        "C": "0",
+        "D": "22"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Evaluate inside each absolute value: \\(|3-8| = |-5| = 5\\) and \\(|8-3| = |5| = 5\\).<br/>Then \\(5 - 5 = 0\\).<br/>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q184",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following rectangular metal boxes can hold the most dice if each die has a volume of one cubic inch and the lid of the box fits tightly?</p>",
+      "options": {
+        "A": "9 inches x 15 inches x 11 inches",
+        "B": "20 inches x 7.5 inches x 10 inches",
+        "C": "12.5 inches x 7.5 inches x 16.5 inches",
+        "D": "20 inches x 7.5 inches x 10.5 inches"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Because dice are rigid, round down each dimension to the nearest integer (you cannot have half a die).<br/>Rounded-down volumes:<br/>A: \\(9 \\times 15 \\times 11 = 1,485\\)<br/>B: \\(20 \\times 7 \\times 10 = 1,400\\)<br/>C: \\(12 \\times 7 \\times 16 = 1,344\\)<br/>D: \\(20 \\times 7 \\times 10 = 1,400\\)<br/>Box A holds the most dice.<br/>Hence, Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q185",
+      "passageId": "information-185",
+      "passageHighlight": "",
+      "questionHtml": "<p>In the number line, the vertical marks are equally spaced. What is the value at point A?</p>",
+      "options": {
+        "A": "8.2",
+        "B": "8.4",
+        "C": "8.6",
+        "D": "8.8"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>There are nine gaps between the vertical mark at 7.4 and the mark at 10.1.<br/>\\(10.1 - 7.4 = 2.7\\), so each gap is \\(2.7 / 9 = 0.3\\).<br/>Point A is four gaps beyond 7.4: \\(7.4 + 4(0.3) = 7.4 + 1.2 = 8.6\\).<br/>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q186",
+      "passageId": "information-186-187",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the ratio of the number of dogs to cats to rabbits that the students prefer? Simplify your answer as much as possible.</p>",
+      "options": {
+        "A": "1:6:11",
+        "B": "5:3:1",
+        "C": "11:6:1",
+        "D": "55:30:5"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The pie chart shows 55% dogs, 30% cats, and 5% rabbits.<br/>The ratio is 55:30:5.<br/>Dividing by the greatest common factor 5 gives 11:6:1.<br/>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q187",
+      "passageId": "information-186-187",
+      "passageHighlight": "",
+      "questionHtml": "<p>How many more students preferred fish than rodents?</p>",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "10"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Fish: 6%, rodents: 4%. Difference = 2%.<br/>2% of 400 students = \\(0.02 \\times 400 = 8\\) students.<br/>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q188",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>If \\(\\frac{x}{y} \\cdot \\frac{y}{z} \\cdot \\frac{z}{w} \\cdot p = 1\\), which of the following represents the value of \\(p\\)?</p>",
+      "options": {
+        "A": "1",
+        "B": "\\(\\frac{x}{w}\\)",
+        "C": "\\(\\frac{w}{x}\\)",
+        "D": "\\(\\frac{1}{p}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Multiply the fractions: \\(\\frac{x}{y} \\cdot \\frac{y}{z} \\cdot \\frac{z}{w} \\cdot p = \\frac{xyzp}{yzw} = \\frac{xp}{w} = 1\\).<br/>Multiply both sides by \\(w\\): \\(xp = w\\).<br/>Divide by \\(x\\): \\(p = \\frac{w}{x}\\).<br/>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q189",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>If \\(w = x\\) and \\(y < z\\), which of the following is true for all cases?</p>",
+      "options": {
+        "A": "\\(w + y > x + z\\)",
+        "B": "\\(wy < xz\\)",
+        "C": "\\(w - y > x - z\\)",
+        "D": "\\(w - x < y - z\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Since \\(w = x\\):<br/>- (A) reduces to \\(y > z\\), which is false.<br/>- (B) may appear true but fails when \\(w\\) and \\(x\\) are negative.<br/>- (C) reduces to \\(-y > -z\\) → \\(y < z\\), which is given, so (C) is always true.<br/>- (D) reduces to \\(0 < y - z\\) → \\(z < y\\), which is false.<br/>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q190",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Regular tickets to a concert cost $\\$25$ each, and VIP tickets cost $\\$45$ each. The concert hall sold a total of 270 tickets and made $\\$7,650$ on ticket sales. The number of VIP tickets sold was ____, and the number of regular tickets sold was ____.</p>",
+      "options": {
+        "A": "45, 225",
+        "B": "50, 220",
+        "C": "60, 210",
+        "D": "30, 240"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Let \\(v\\) = number of VIP tickets, \\(r\\) = number of regular tickets.<br/>\\(r + v = 270\\) → \\(r = 270 - v\\).<br/>Revenue: \\(25r + 45v = 7650\\).<br/>Substitute: \\(25(270 - v) + 45v = 7650\\) → \\(6750 - 25v + 45v = 7650\\) → \\(20v = 900\\) → \\(v = 45\\).<br/>Then \\(r = 270 - 45 = 225\\).<br/>Hence, Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q191",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The product of the first six prime numbers is divisible by which of the following?</p>",
+      "options": {
+        "A": "16",
+        "B": "18",
+        "C": "22",
+        "D": "24"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>First six primes: 2, 3, 5, 7, 11, 13.<br/>Product = \\(2 \\times 3 \\times 5 \\times 7 \\times 11 \\times 13 = (2 \\times 11) \\times (3 \\times 5 \\times 7 \\times 13) = 22 \\times (3 \\times 5 \\times 7 \\times 13)\\).<br/>Thus 22 is a factor.<br/>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q192",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the value of the function when \\(x = -4\\)? (Function: \\(f(x) = x^2 - 4x\\))</p>",
+      "options": {
+        "A": "-8",
+        "B": "0",
+        "C": "16",
+        "D": "32"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>\\(f(-4) = (-4)^2 - 4(-4) = 16 + 16 = 32\\).<br/>Hence, Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q193",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>For what value of \\(x\\) does \\(f(x) = 12\\)? (Function: \\(f(x) = x^2 - 4x\\))</p>",
+      "options": {
+        "A": "96",
+        "B": "2 and -6",
+        "C": "6 and -2",
+        "D": "0 and 6"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Set \\(x^2 - 4x = 12\\) → \\(x^2 - 4x - 12 = 0\\).<br/>Factor: \\((x - 6)(x + 2) = 0\\).<br/>Thus \\(x = 6\\) or \\(x = -2\\).<br/>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q194",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Simplify the following expression: \\(3^{4} + 3^{4} + 3^{4}\\)</p>",
+      "options": {
+        "A": "\\(3^{5}\\)",
+        "B": "\\(9^{12}\\)",
+        "C": "\\(3^{12}\\)",
+        "D": "\\(3^{64}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>There are three \\(3^4\\) terms, so \\(3^4 + 3^4 + 3^4 = 3 \\times 3^4 = 3^1 \\times 3^4 = 3^{5}\\).<br/>Hence, Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q195",
+      "passageId": "information-195",
+      "passageHighlight": "",
+      "questionHtml": "<p>In this triangle, angle \\(x\\) equals ____ and angle \\(y\\) equals ____.</p>",
+      "options": {
+        "A": "120°, 60°",
+        "B": "122°, 62°",
+        "C": "118°, 58°",
+        "D": "130°, 50°"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>A straight line measures 180°, so \\(x + 58 = 180\\) → \\(x = 122°\\).<br/>The sum of angles in a triangle is 180°, so \\(y + 60 + 58 = 180\\) → \\(y = 62°\\).<br/>Hence, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q196",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A cube with 3-inch sides is painted blue and then cut into 27 smaller cubes with 1-inch sides. How many of the new smaller cubes have exactly two faces that are painted blue?</p>",
+      "options": {
+        "A": "8",
+        "B": "10",
+        "C": "12",
+        "D": "14"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The cubes with exactly two faces painted are those on the edges but not at the corners.<br/>Each edge of the large cube has one such cube (the middle cube).<br/>A cube has 12 edges, so 12 cubes have exactly two painted faces.<br/>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q197",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The lengths of the legs of a right triangle are 4 inches and 5 inches, respectively. What is the length of the hypotenuse?</p>",
+      "options": {
+        "A": "3 inches",
+        "B": "9 inches",
+        "C": "\\(\\sqrt{41}\\) inches",
+        "D": "41 inches"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>By the Pythagorean theorem: \\(c^2 = a^2 + b^2\\).<br/>\\(c^2 = 4^2 + 5^2 = 16 + 25 = 41\\).<br/>Thus \\(c = \\sqrt{41}\\) inches.<br/>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q198",
+      "passageId": "information-198-200",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which line would be parallel to the given line \\(y = -6x - 9\\)?</p>",
+      "options": {
+        "A": "\\(y = -\\frac{1}{6}x + 9\\)",
+        "B": "\\(y = \\frac{1}{6}x + \\frac{1}{9}\\)",
+        "C": "\\(y = -6x - 1\\)",
+        "D": "\\(y = 6x + 9\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Parallel lines have the same slope. The given line has slope \\(-6\\).<br/>Only Choice (C) has slope \\(-6\\).<br/>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q199",
+      "passageId": "information-198-200",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which line would be perpendicular to the given line \\(y = -6x - 9\\)?</p>",
+      "options": {
+        "A": "\\(y = -\\frac{1}{6}x + 9\\)",
+        "B": "\\(y = \\frac{1}{6}x + \\frac{1}{9}\\)",
+        "C": "\\(y = -6x - 1\\)",
+        "D": "\\(y = 6x + 9\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Perpendicular lines have slopes that are negative reciprocals.<br/>The slope \\(-6\\) has negative reciprocal \\(\\frac{1}{6}\\).<br/>Only Choice (B) has slope \\(\\frac{1}{6}\\).<br/>Hence, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q200",
+      "passageId": "information-198-200",
+      "passageHighlight": "",
+      "questionHtml": "<p>What are the coordinates of the point of intersection of the given line \\(y = -6x - 9\\) with the line \\(y = -3x + 18\\)?</p>",
+      "options": {
+        "A": "(0, -9)",
+        "B": "(3, 9)",
+        "C": "(-9, 45)",
+        "D": "(-9, -27)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Set the equations equal: \\(-6x - 9 = -3x + 18\\).<br/>Add \\(6x\\): \\(-9 = 3x + 18\\) → \\(-27 = 3x\\) → \\(x = -9\\).<br/>Substitute into \\(y = -6x - 9\\): \\(y = -6(-9) - 9 = 54 - 9 = 45\\).<br/>Thus the intersection is \\((-9, 45)\\).<br/>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q201",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Two years ago, Sammy was 5 years younger than Michael is today. If Michael is currently \\(M\\) years old, how old will Sammy be 10 years from now?</p>",
+      "options": {
+        "A": "\\(M - 5\\)",
+        "B": "\\(M + 2\\)",
+        "C": "\\(M + 7\\)",
+        "D": "\\(M + 10\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Two years ago, Sammy was \\(M - 5\\).<br/>Today (two years later), Sammy is \\((M - 5) + 2 = M - 3\\).<br/>In 10 years, Sammy will be \\((M - 3) + 10 = M + 7\\).<br/>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q202",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>\\(3\\frac{1}{10} + 1\\frac{11}{100} + 2\\frac{111}{1,000} =\\) (Note: You may not use a calculator.)</p>",
+      "options": {
+        "A": "6.111",
+        "B": "6.123",
+        "C": "6.321",
+        "D": "6.333"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Convert each mixed number to a decimal:<br/>\\(3\\frac{1}{10} = 3.1\\)<br/>\\(1\\frac{11}{100} = 1.11\\)<br/>\\(2\\frac{111}{1,000} = 2.111\\)<br/>Add: \\(3.1 + 1.11 + 2.111 = 6.321\\).<br/>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q203",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Mr. Burke's class has twice as many girls as boys. If half of the boys and a quarter of the girls are in the chess club, what is the ratio of girls to boys who are in the chess club?</p>",
+      "options": {
+        "A": "4:1",
+        "B": "2:1",
+        "C": "1:1",
+        "D": "1:2"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Let \\(x\\) = number of boys. Then girls = \\(2x\\).<br/>Chess club: girls = \\(\\frac{1}{4}(2x) = \\frac{x}{2}\\), boys = \\(\\frac{1}{2}x = \\frac{x}{2}\\).<br/>Ratio of girls to boys = \\(\\frac{x}{2} : \\frac{x}{2} = 1:1\\).<br/>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q204",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Beans are sold in small or large cylindrical cans. The small can has a diameter of 4 inches and a height of 10 inches and costs $\\$3.50$. The big can has a diameter of 8 inches and a height of 5 inches and costs $\\$6.50$. Which is a better buy?</p>",
+      "options": {
+        "A": "The small can",
+        "B": "The large can",
+        "C": "Both have the same value",
+        "D": "Not enough information"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Volume of small can = \\(\\pi (2)^2 (10) = 40\\pi\\) cubic inches.<br/>Cost per cubic inch = \\(3.50 / (40\\pi) \\approx 0.0279\\).<br/>Volume of large can = \\(\\pi (4)^2 (5) = 80\\pi\\) cubic inches.<br/>Cost per cubic inch = \\(6.50 / (80\\pi) \\approx 0.0259\\).<br/>The large can costs less per cubic inch, so it is the better buy.<br/>Hence, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q205",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Two lighthouses flash their lights every 21 seconds and 77 seconds, respectively. If both lighthouses are switched on at the same time so their lights begin by flashing simultaneously, after how many seconds will both lights first flash in synch again?</p>",
+      "options": {
+        "A": "147",
+        "B": "231",
+        "C": "308",
+        "D": "385"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Find the least common multiple (LCM) of 21 and 77.<br/>Prime factors: \\(21 = 3 \\times 7\\), \\(77 = 7 \\times 11\\).<br/>LCM = \\(3 \\times 7 \\times 11 = 231\\).<br/>Thus they will flash together again after 231 seconds.<br/>Hence, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q206",
+      "passageId": "information-206",
+      "passageHighlight": "",
+      "questionHtml": "<p>This trapezoid has an area of 38 square feet. What is the length of the unknown base of the trapezoid in feet?</p>",
+      "options": {
+        "A": "4",
+        "B": "7",
+        "C": "8",
+        "D": "12"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Area of a trapezoid: \\(A = \\frac{1}{2}(b_1 + b_2)h\\).<br/>Given \\(A = 38\\), \\(h = 4\\), \\(b_1 = 7\\):<br/>\\(38 = \\frac{1}{2}(7 + b) \\cdot 4\\) → \\(38 = 2(7 + b)\\) → \\(19 = 7 + b\\) → \\(b = 12\\).<br/>Hence, Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q207",
+      "passageId": "information-207-209",
+      "passageHighlight": "",
+      "questionHtml": "<p>In which year did the value of exports exceed the value of imports by the greatest amount?</p>",
+      "options": {
+        "A": "1982-1983",
+        "B": "1983-1984",
+        "C": "1984-1985",
+        "D": "1987-1988"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>From the bar chart, the largest gap between imports (darker bars) and exports (lighter bars) occurs in 1984-1985.<br/>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q208",
+      "passageId": "information-207-209",
+      "passageHighlight": "",
+      "questionHtml": "<p>What was the average approximate value of the exports (in Rs.) for the six years shown in the chart?</p>",
+      "options": {
+        "A": "48 billion",
+        "B": "62 billion",
+        "C": "75 billion",
+        "D": "88 billion"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Exports values: 68, 78, 90, 90, 92, 110 (billions).<br/>Sum = \\(68 + 78 + 90 + 90 + 92 + 110 = 528\\).<br/>Average = \\(528 / 6 = 88\\) billion.<br/>Hence, Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q209",
+      "passageId": "information-207-209",
+      "passageHighlight": "",
+      "questionHtml": "<p>What was the average annual increase for imports (in Rs.) for the six years shown in the chart?</p>",
+      "options": {
+        "A": "7 billion",
+        "B": "8.4 billion",
+        "C": "11 billion",
+        "D": "42 billion"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Imports: initial value (1982-83) ≈ 36, final value (1987-88) ≈ 78.<br/>Total increase = \\(78 - 36 = 42\\) billion.<br/>Number of intervals = 5.<br/>Average annual increase = \\(42 / 5 = 8.4\\) billion.<br/>Hence, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q210",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Two square rugs have a combined area of 20 square meters. If the area of the large rug is four times as large as the area of the small rug, what is the perimeter of the smaller rug?</p>",
+      "options": {
+        "A": "2 meters",
+        "B": "4 meters",
+        "C": "8 meters",
+        "D": "16 meters"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Let \\(A\\) = area of small rug. Then large rug area = \\(4A\\).<br/>\\(A + 4A = 20\\) → \\(5A = 20\\) → \\(A = 4\\) square meters.<br/>Side of small rug = \\(\\sqrt{4} = 2\\) meters.<br/>Perimeter = \\(4 \\times 2 = 8\\) meters.<br/>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q211",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Forty percent of the students in Dr. Donnelly's math class received a grade of A. If 10 students received an A, how many students are in Dr. Donnelly's math class?</p>",
+      "options": {
+        "A": "4 students",
+        "B": "14 students",
+        "C": "22 students",
+        "D": "25 students"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Let \\(x\\) = total number of students.<br/>\\(0.4x = 10\\) → \\(x = 10 / 0.4 = 25\\).<br/>Hence, Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q212",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the acute angle between the hands of a clock when it is exactly 10 p.m.?</p>",
+      "options": {
+        "A": "30°",
+        "B": "45°",
+        "C": "60°",
+        "D": "75°"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>A clock face is a circle of 360° divided into 12 hour marks.<br/>Each mark represents \\(360° / 12 = 30°\\).<br/>At 10:00, the hour hand is at 10, the minute hand at 12.<br/>There are two sections between them: \\(2 \\times 30° = 60°\\).<br/>Hence, Choice (C) is correct.</p>"
+    }
+  ]
+}

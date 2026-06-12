@@ -1,0 +1,486 @@
+{
+  "passages": [
+    {
+      "passageId": "function-119-120",
+      "passageHtml": "<p>\\(f(x) = 8 - 4x\\)</p>"
+    },
+    {
+      "passageId": "linear-125-127",
+      "passageHtml": "<p>\\(y = -\\frac{3}{7}x - 9\\)</p>"
+    },
+    {
+      "passageId": "marbles-129-130",
+      "passageHtml": "<p>A bag contains 6 blue marbles, 5 red marbles, 3 green marbles, and 2 yellow marbles.</p>"
+    },
+    {
+      "passageId": "gym-134-136",
+      "passageHtml": "<p>Barney joined a gym to become stronger, and every 4 weeks he notes the maximum amount of weight that he can bench-press. He records his progress over a five-month period in the following table.</p>\\(\\begin{array}{c|c} \\text{Weeks} & \\text{Weight in Pounds} \\\\ \\hline 0 & 30 \\\\ 4 & 38 \\\\ 8 & 46 \\\\ 12 & 54 \\\\ 16 & 62 \\\\ 20 & 70 \\end{array}\\)"
+    },
+    {
+      "passageId": "fishermen-139-141",
+      "passageHtml": "<p>Eleven fishermen entered a fishing competition to catch as many fish as possible in 1 hour. The median number of fish caught for all 11 fishermen was 4, and the modal score was 3. The number of fish caught for each of the first 10 fishermen is shown in the following graph.</p><img src=\"/3-i-ged/image14.png\" alt=\"Line plot: fish caught by first 10 fishermen\" />"
+    },
+    {
+      "passageId": "prob-142-144",
+      "passageHtml": "<p>The probability that Daryl will pass each of three tests is given in the following table.</p>\\(\\begin{array}{c|c} \\text{Test} & \\text{Probability of passing} \\\\ \\hline \\text{Math} & 50\\% \\\\ \\text{English} & 60\\% \\\\ \\text{Chemistry} & 80\\% \\end{array}\\)"
+    },
+    {
+      "passageId": "candy-146-148",
+      "passageHtml": "<p>After Halloween, the average price of a pound of candy drops in a linear fashion over a four-week period, as shown in the following table:</p>\\(\\begin{array}{c|c} \\text{Weeks after Halloween} & \\text{Price (\\$ per Pound)} \\\\ \\hline \\text{Week 1} & \\$5.29 \\\\ \\text{Week 2} & \\$4.58 \\\\ \\text{Week 3} & \\$3.87 \\\\ \\text{Week 4} & \\$3.16 \\end{array}\\)"
+    },
+    {
+      "passageId": "expressions-149-150",
+      "passageHtml": "<p>\\(x = p^{3},\\ y = p^{-2},\\ z = p^{2}\\)</p>"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q119",
+      "passageId": "function-119-120",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the value of the function when \\(x = -1\\) ?</p>",
+      "options": {
+        "A": "4",
+        "B": "8",
+        "C": "12",
+        "D": "16"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Substitute \\(x = -1\\) into the function \\(f(x) = 8 - 4x\\):</p>\n<p>\\(f(-1) = 8 - 4(-1) = 8 + 4 = 12\\).</p>\n<p>Therefore, the value is 12, which corresponds to option C.</p>"
+    },
+    {
+      "questionId": "q120",
+      "passageId": "function-119-120",
+      "passageHighlight": "",
+      "questionHtml": "<p>For what value of \\(x\\) does \\(f(x) = -4\\) ?</p>",
+      "options": {
+        "A": "-8",
+        "B": "-1",
+        "C": "3",
+        "D": "24"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Set the function equal to \\(-4\\):</p>\n<p>\\(8 - 4x = -4\\)</p>\n<p>Subtract 8 from both sides: \\(-4x = -12\\)</p>\n<p>Divide both sides by \\(-4\\): \\(x = 3\\)</p>\n<p>Thus, the correct answer is option C.</p>"
+    },
+    {
+      "questionId": "q121",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The formula for the volume of a cylinder is \\(V = \\pi r^2 h\\), where \\(r\\) is the radius of the base and \\(h\\) is the height of the cylinder. Which formula could be used to find \\(h\\) if you're given \\(V\\) and \\(r\\) ?</p>",
+      "options": {
+        "A": "\\(h = \\frac{\\pi r^2}{V}\\)",
+        "B": "\\(h = V\\pi r^2\\)",
+        "C": "\\(h = \\frac{V}{\\pi r^2}\\)",
+        "D": "\\(h = \\frac{r^2}{\\pi V}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>To isolate \\(h\\), divide both sides of the equation \\(V = \\pi r^2 h\\) by \\(\\pi r^2\\):</p>\n<p>\\(\\frac{V}{\\pi r^2} = \\frac{\\pi r^2 h}{\\pi r^2}\\)</p>\n<p>This simplifies to \\(h = \\frac{V}{\\pi r^2}\\).</p>\n<p>Hence, option C is correct.</p>"
+    },
+    {
+      "questionId": "q122",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Three friends are going to the theater. They arrive just in time to get the last 3 seats that are available together in a row. How many different seating arrangements can the friends sit in?</p>",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The number of ways to arrange 3 distinct people in 3 seats is given by \\(3!\\) (3 factorial).</p>\n<p>\\(3! = 3 \\times 2 \\times 1 = 6\\).</p>\n<p>Alternatively, any of the 3 friends can sit in the first seat, any of the remaining 2 in the second seat, and the last friend takes the third seat: \\(3 \\times 2 \\times 1 = 6\\).</p>\n<p>Thus, option C is correct.</p>"
+    },
+    {
+      "questionId": "q123",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>On a sunny day, a clock tower casts a shadow that is 50 feet long. At the same time, a nearby 3-foot-tall stick casts a shadow that is 2.5 feet long. What is the height of the clock tower? Round your answer to the nearest foot.</p><img src=\"/3-i-ged/image11.png\" alt=\"Clock Tower\" />",
+      "options": {
+        "A": "24 feet",
+        "B": "33 feet",
+        "C": "38 feet",
+        "D": "60 feet"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Set up a proportion using the stick's height and shadow length as a ratio:</p>\n<p>\\(\\frac{\\text{height}}{\\text{shadow}} = \\frac{3}{2.5}\\)</p>\n<p>Let \\(x\\) be the tower's height. Its shadow is 50 feet, so:</p>\n<p>\\(\\frac{x}{50} = \\frac{3}{2.5}\\)</p>\n<p>Cross-multiply: \\(2.5x = 150\\)</p>\n<p>Divide by 2.5: \\(x = 60\\)</p>\n<p>The clock tower is 60 feet tall, which matches option D.</p>"
+    },
+    {
+      "questionId": "q124",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The hypotenuse of a right triangle is 10 inches. If one of the legs of the triangle is 8 inches long, what is the length of the other leg?</p>",
+      "options": {
+        "A": "2 inches",
+        "B": "6 inches",
+        "C": "\\(\\sqrt{188}\\) inches",
+        "D": "40 inches"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Use the Pythagorean theorem: \\(a^2 + b^2 = c^2\\), where \\(c\\) is the hypotenuse.</p>\n<p>Let the unknown leg be \\(a\\). Then:</p>\n<p>\\(a^2 + 8^2 = 10^2\\)</p>\n<p>\\(a^2 + 64 = 100\\)</p>\n<p>\\(a^2 = 36\\)</p>\n<p>\\(a = 6\\) (since length is positive).</p>\n<p>The other leg is 6 inches, so option B is correct.</p>"
+    },
+    {
+      "questionId": "q125",
+      "passageId": "linear-125-127",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which line would be parallel to the given line?</p>",
+      "options": {
+        "A": "\\(y = \\frac{3}{7}x + 9\\)",
+        "B": "\\(y = -\\frac{3}{7}x + \\frac{1}{9}\\)",
+        "C": "\\(y = \\frac{7}{3}x - 9\\)",
+        "D": "\\(y = -\\frac{7}{3}x + 9\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The given line is \\(y = -\\frac{3}{7}x - 9\\). Parallel lines have the same slope.</p>\n<p>The slope of the given line is \\(-\\frac{3}{7}\\). Among the options, only option B has the same slope \\(-\\frac{3}{7}\\).</p>\n<p>Therefore, option B is correct.</p>"
+    },
+    {
+      "questionId": "q126",
+      "passageId": "linear-125-127",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which line would be perpendicular to the given line?</p>",
+      "options": {
+        "A": "\\(y = \\frac{3}{7}x + 9\\)",
+        "B": "\\(y = -\\frac{3}{7}x + \\frac{1}{9}\\)",
+        "C": "\\(y = -\\frac{7}{3}x - 9\\)",
+        "D": "\\(y = \\frac{7}{3}x - 9\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The given line has slope \\(-\\frac{3}{7}\\). Perpendicular lines have slopes that are negative reciprocals.</p>\n<p>The negative reciprocal of \\(-\\frac{3}{7}\\) is \\(\\frac{7}{3}\\).</p>\n<p>Among the options, only option D has slope \\(\\frac{7}{3}\\).</p>\n<p>Thus, option D is correct.</p>"
+    },
+    {
+      "questionId": "q127",
+      "passageId": "linear-125-127",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following sets of coordinates lies on the given line?</p>",
+      "options": {
+        "A": "(0, 9)",
+        "B": "(7, 6)",
+        "C": "(7, -12)",
+        "D": "(14, -9)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Test each point in the equation \\(y = -\\frac{3}{7}x - 9\\):</p>\n<p><strong>A (0,9):</strong> \\(9 = -\\frac{3}{7}(0) - 9 \\Rightarrow 9 = -9\\) (false)</p>\n<p><strong>B (7,6):</strong> \\(6 = -\\frac{3}{7}(7) - 9 \\Rightarrow 6 = -3 - 9 = -12\\) (false)</p>\n<p><strong>C (7,-12):</strong> \\(-12 = -\\frac{3}{7}(7) - 9 \\Rightarrow -12 = -3 - 9 = -12\\) (true)</p>\n<p><strong>D (14,-9):</strong> \\(-9 = -\\frac{3}{7}(14) - 9 \\Rightarrow -9 = -6 - 9 = -15\\) (false)</p>\n<p>Only point C satisfies the equation, so option C is correct.</p>"
+    },
+    {
+      "questionId": "q128",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Lisa and Erica were investigating the relationship of their ages. They figured out that Erica's age is currently 5 less than twice Lisa's age. In addition, the sum of their ages is 73. How old are Erica and Lisa?</p>",
+      "options": {
+        "A": "Erica is 47, and Lisa is 26.",
+        "B": "Erica is 26, and Lisa is 47.",
+        "C": "Erica is 20, and Lisa is 53.",
+        "D": "There is not enough information to determine the answer."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Let \\(e\\) = Erica's age and \\(l\\) = Lisa's age. From the problem:</p>\n<p>\\(e = 2l - 5\\) (Erica is 5 less than twice Lisa's age)</p>\n<p>\\(e + l = 73\\) (sum of their ages)</p>\n<p>Substitute the first equation into the second:</p>\n<p>\\((2l - 5) + l = 73\\)</p>\n<p>\\(3l - 5 = 73\\)</p>\n<p>\\(3l = 78\\)</p>\n<p>\\(l = 26\\)</p>\n<p>Then \\(e = 73 - 26 = 47\\).</p>\n<p>So Erica is 47 and Lisa is 26, which is option A.</p>"
+    },
+    {
+      "questionId": "q129",
+      "passageId": "marbles-129-130",
+      "passageHighlight": "",
+      "questionHtml": "<p>What fraction of the marbles is blue?</p>",
+      "options": {
+        "A": "\\(\\frac{3}{8}\\)",
+        "B": "\\(\\frac{3}{5}\\)",
+        "C": "\\(\\frac{6}{17}\\)",
+        "D": "\\(\\frac{2}{5}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Total marbles = 6 blue + 5 red + 3 green + 2 yellow = 16 marbles.</p>\n<p>Fraction that are blue = \\(\\frac{6}{16}\\).</p>\n<p>Simplify by dividing numerator and denominator by 2: \\(\\frac{3}{8}\\).</p>\n<p>Thus, option A is correct.</p>"
+    },
+    {
+      "questionId": "q130",
+      "passageId": "marbles-129-130",
+      "passageHighlight": "",
+      "questionHtml": "<p>If 2 marbles are removed from the bag one at a time, without being replaced, what is the probability of selecting 2 red marbles in a row?</p>",
+      "options": {
+        "A": "\\(\\frac{5}{16}\\)",
+        "B": "\\(\\frac{4}{15}\\)",
+        "C": "\\(\\frac{1}{12}\\)",
+        "D": "\\(\\frac{9}{31}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Initially, there are 5 red marbles out of 16 total. Probability of first red = \\(\\frac{5}{16}\\).</p>\n<p>After removing one red, 4 red remain out of 15 total. Probability of second red = \\(\\frac{4}{15}\\).</p>\n<p>Multiply the probabilities: \\(\\frac{5}{16} \\times \\frac{4}{15} = \\frac{20}{240}\\).</p>\n<p>Simplify: divide numerator and denominator by 20 → \\(\\frac{1}{12}\\).</p>\n<p>So option C is correct.</p>"
+    },
+    {
+      "questionId": "q131",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Soup is sold in both rectangular cardboard cartons and large cylindrical cans. The carton has dimensions of 3 inches by 4 inches by 7 inches and costs $\\$4.20$. The can has a radius of 3 inches and a height of 4 inches and costs $\\$6.79$. Which is a better buy?</p>",
+      "options": {
+        "A": "The can is a better value.",
+        "B": "The carton is a better value.",
+        "C": "Both containers offer the same value.",
+        "D": "There is not enough information to determine the answer."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Calculate volume and price per cubic inch for each.</p>\n<p><strong>Carton:</strong> Volume = \\(3 \\times 4 \\times 7 = 84\\) in³. Price per in³ = \\(\\$4.20 / 84 = \\$0.05\\).</p>\n<p><strong>Can:</strong> Volume = \\(\\pi r^2 h = \\pi \\times 3^2 \\times 4 = \\pi \\times 9 \\times 4 \\approx 113.1\\) in³. Price per in³ = \\(\\$6.79 / 113.1 \\approx \\$0.06\\).</p>\n<p>The carton costs less per cubic inch, so it is the better value. Option B is correct.</p>"
+    },
+    {
+      "questionId": "q132",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Tamara goes for a dental checkup every 6 months and gets her eyesight checked every 8 months. If she visited her dentist and her optician this week, how many months will it be until she visits them both in the same week again?</p>",
+      "options": {
+        "A": "12",
+        "B": "18",
+        "C": "24",
+        "D": "30"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>We need the least common multiple (LCM) of 6 and 8.</p>\n<p>Multiples of 6: 6, 12, 18, 24, 30, ...</p>\n<p>Multiples of 8: 8, 16, 24, 32, ...</p>\n<p>The smallest common multiple is 24.</p>\n<p>Thus, it will be 24 months before she visits both in the same week again. Option C is correct.</p>"
+    },
+    {
+      "questionId": "q133",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>If Jack can run 4 laps in 11 minutes, how many minutes will it take him to run 10 laps, assuming his pace remains constant?</p>",
+      "options": {
+        "A": "4.4",
+        "B": "15.7",
+        "C": "22",
+        "D": "27.5"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Set up a proportion: \\(\\frac{11 \\text{ minutes}}{4 \\text{ laps}} = \\frac{x \\text{ minutes}}{10 \\text{ laps}}\\).</p>\n<p>Cross-multiply: \\(4x = 110\\).</p>\n<p>Divide by 4: \\(x = 27.5\\).</p>\n<p>It will take 27.5 minutes, so option D is correct.</p>"
+    },
+    {
+      "questionId": "q134",
+      "passageId": "gym-134-136",
+      "passageHighlight": "",
+      "questionHtml": "<p>Barney plots the data on a coordinate grid. He begins by plotting the data for Week 4 and Week 16. What are the coordinates of the two points?</p>",
+      "options": {
+        "A": "(4, 38) and (16, 62)",
+        "B": "(38, 4) and (62, 16)",
+        "C": "(4, 38) and (62, 16)",
+        "D": "(38, 4) and (16, 62)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>From the table: at Week 4, weight = 38 → point (4, 38). At Week 16, weight = 62 → point (16, 62).</p>\n<p>Coordinates are (week, weight). So option A is correct.</p>"
+    },
+    {
+      "questionId": "q135",
+      "passageId": "gym-134-136",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following equations allows Barney to predict the maximum weight he will be able to lift in the future?</p>",
+      "options": {
+        "A": "\\(y = -2x + 3\\)",
+        "B": "\\(y = 30x + 2\\)",
+        "C": "\\(y = -2x + 30\\)",
+        "D": "\\(y = 2x + 30\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Find the slope using two points, e.g., (0, 30) and (4, 38):</p>\n<p>\\(m = \\frac{38 - 30}{4 - 0} = \\frac{8}{4} = 2\\).</p>\n<p>The y-intercept is the weight at week 0, which is 30.</p>\n<p>Thus, the equation is \\(y = 2x + 30\\). Option D is correct.</p>"
+    },
+    {
+      "questionId": "q136",
+      "passageId": "gym-134-136",
+      "passageHighlight": "",
+      "questionHtml": "<p>If Barney's strength continues to grow at the same rate, at what week will he be able to lift 100 pounds?</p>",
+      "options": {
+        "A": "Week 25",
+        "B": "Week 30",
+        "C": "Week 35",
+        "D": "Week 50"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Using the equation \\(y = 2x + 30\\), set \\(y = 100\\):</p>\n<p>\\(100 = 2x + 30\\)</p>\n<p>\\(2x = 70\\)</p>\n<p>\\(x = 35\\)</p>\n<p>So at week 35, he can lift 100 pounds. Option C is correct.</p>"
+    },
+    {
+      "questionId": "q137",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A box has the dimensions shown here: length 1.5 ft, width 8 in, height unknown. If the volume of the box is 1,368 cubic inches, what is the height of the box? Give your answer to the nearest tenth of an inch.</p><img src=\"/3-i-ged/image12.png\" alt=\"Box dimensions\" />",
+      "options": {
+        "A": "7.5",
+        "B": "9.5",
+        "C": "12.0",
+        "D": "114.0"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Convert length to inches: 1.5 ft × 12 = 18 inches.</p>\n<p>Volume of a rectangular prism: \\(V = l \\times w \\times h\\).</p>\n<p>\\(1368 = 18 \\times 8 \\times h\\)</p>\n<p>\\(1368 = 144h\\)</p>\n<p>\\(h = 1368 / 144 = 9.5\\) inches.</p>\n<p>Thus, the height is 9.5 inches, option B.</p>"
+    },
+    {
+      "questionId": "q138",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following graphs shows all the possible numbers represented by the inequality \\(30 < 15x \\leq 90\\) ?</p><img src=\"/3-i-ged/image13.png\" alt=\"Number line graphs options A, B, C, D\" />",
+      "options": {
+        "A": "Graph A (open circle at 2, closed at 6, shaded between)",
+        "B": "Graph B",
+        "C": "Graph C",
+        "D": "Graph D"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Divide the entire inequality by 15:</p>\n<p>\\(\\frac{30}{15} < \\frac{15x}{15} \\leq \\frac{90}{15}\\)</p>\n<p>\\(2 < x \\leq 6\\)</p>\n<p>On a number line, this is represented with an open circle at 2 (since x is strictly greater than 2) and a closed circle at 6 (since x is less than or equal to 6), with shading between.</p>\n<p>Graph A matches this description, so option A is correct.</p>"
+    },
+    {
+      "questionId": "q139",
+      "passageId": "fishermen-139-141",
+      "passageHighlight": "",
+      "questionHtml": "<p>What was the average number of fish caught by the first 10 fishermen represented on the line plot?</p>",
+      "options": {
+        "A": "4.5",
+        "B": "5.0",
+        "C": "5.5",
+        "D": "6.0"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>From the line plot, the fish caught by the first 10 fishermen are: 1, 2, 2, 3, 3, 4, 7, 7, 8, 10.</p>\n<p>Sum = 1+2+2+3+3+4+7+7+8+10 = 55.</p>\n<p>Average = sum / number = 55 / 10 = 5.5.</p>\n<p>Thus, option C is correct.</p>"
+    },
+    {
+      "questionId": "q140",
+      "passageId": "fishermen-139-141",
+      "passageHighlight": "",
+      "questionHtml": "<p>What was the number of fish caught by the 11th fisherman?</p>",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The modal score (most frequent) is 3. For 3 to be the mode, more fishermen must have caught 3 fish than any other number.</p>\n<p>Among the first 10, the counts are: 1 appears once, 2 appears twice, 3 appears twice, 4 once, 7 twice, 8 once, 10 once. Currently, 2, 3, and 7 each appear twice. Adding an 11th fisherman with 3 fish makes 3 appear three times, making it the unique mode.</p>\n<p>Also, the median of all 11 would then be 4 (the 6th value when sorted: 1,2,2,3,3,3,4,7,7,8,10). So the 11th fisherman caught 3 fish. Option B is correct.</p>"
+    },
+    {
+      "questionId": "q141",
+      "passageId": "fishermen-139-141",
+      "passageHighlight": "",
+      "questionHtml": "<p>What was the range of the number of fish caught by the 11 fishermen?</p>",
+      "options": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "10"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>With the 11th fisherman catching 3, the full data set is: 1, 2, 2, 3, 3, 3, 4, 7, 7, 8, 10.</p>\n<p>Range = largest value − smallest value = 10 − 1 = 9.</p>\n<p>Thus, option C is correct.</p>"
+    },
+    {
+      "questionId": "q142",
+      "passageId": "prob-142-144",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the probability that Daryl will not pass his chemistry test?</p>",
+      "options": {
+        "A": "20%",
+        "B": "40%",
+        "C": "50%",
+        "D": "80%"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The probability of passing chemistry is 80%.</p>\n<p>Probability of not passing = 100% − 80% = 20%.</p>\n<p>Thus, option A is correct.</p>"
+    },
+    {
+      "questionId": "q143",
+      "passageId": "prob-142-144",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the chance that Daryl will pass all three tests?</p>",
+      "options": {
+        "A": "20%",
+        "B": "24%",
+        "C": "30%",
+        "D": "40%"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Multiply the probabilities of passing each test:</p>\n<p>\\(50\\% \\times 60\\% \\times 80\\% = 0.50 \\times 0.60 \\times 0.80 = 0.24 = 24\\%\\).</p>\n<p>So option B is correct.</p>"
+    },
+    {
+      "questionId": "q144",
+      "passageId": "prob-142-144",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the probability that Daryl will pass two out of the three tests? Round your answer to the nearest whole percentage.</p>",
+      "options": {
+        "A": "40%",
+        "B": "46%",
+        "C": "50%",
+        "D": "54%"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Consider the three cases where exactly two tests are passed:</p>\n<p><strong>Case 1:</strong> Pass Math (50%) and English (60%), fail Chemistry (20%): <br/>\\(0.50 \\times 0.60 \\times 0.20 = 0.06 = 6\\%\\)</p>\n<p><strong>Case 2:</strong> Pass Math (50%) and Chemistry (80%), fail English (40%): <br/>\\(0.50 \\times 0.40 \\times 0.80 = 0.16 = 16\\%\\)</p>\n<p><strong>Case 3:</strong> Pass English (60%) and Chemistry (80%), fail Math (50%): <br/>\\(0.50 \\times 0.60 \\times 0.80 = 0.24 = 24\\%\\)</p>\n<p>Total probability = \\(6\\% + 16\\% + 24\\% = 46\\%\\).</p>\n<p>Thus, option B is correct.</p>"
+    },
+    {
+      "questionId": "q145",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Using the information in the following table, estimate to the nearest hundred the total number of tickets sold at the movie theater last week. (Note: You may not use a calculator.)</p> \\(\\begin{array}{c|c} \\text{Movie} & \\text{Tickets Sold} \\\\ \\hline \\text{The Godmother} & 721 \\\\ \\text{Moon Wars} & 391 \\\\ \\text{The Silence of the Goats} & 813 \\\\ \\text{A Clockwork Lemon} & 270 \\\\ \\text{Pulp Fake News} & 602 \\end{array}\\) ",
+      "options": {
+        "A": "2,600",
+        "B": "2,800",
+        "C": "3,000",
+        "D": "3,100"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Round each ticket count to the nearest hundred:</p>\n<p>721 → 700<br/>\n391 → 400<br/>\n813 → 800<br/>\n270 → 300<br/>\n602 → 600</p>\n<p>Sum: 700 + 400 = 1100; +800 = 1900; +300 = 2200; +600 = 2800.</p>\n<p>Thus, the estimated total is 2,800, option B.</p>"
+    },
+    {
+      "questionId": "q146",
+      "passageId": "candy-146-148",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the range of the prices in the table? Give your answer to the nearest cent.</p>",
+      "options": {
+        "A": "$2.13",
+        "B": "$2.14",
+        "C": "$2.15",
+        "D": "$2.16"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Range = highest price − lowest price.</p>\n<p>Highest price = $5.29 (Week 1)<br/>\nLowest price = $3.16 (Week 4)</p>\n<p>Range = $5.29 − $3.16 = $2.13.</p>\n<p>Thus, option A is correct.</p>"
+    },
+    {
+      "questionId": "q147",
+      "passageId": "candy-146-148",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the average price of a pound of candy during the given four-week period? Give your answer to the nearest cent.</p>",
+      "options": {
+        "A": "$3.42",
+        "B": "$3.43",
+        "C": "$4.22",
+        "D": "$4.23"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Sum of prices = $5.29 + $4.58 + $3.87 + $3.16 = $16.90.</p>\n<p>Number of weeks = 4.</p>\n<p>Average = $16.90 ÷ 4 = $4.225.</p>\n<p>Rounding to the nearest cent gives $4.23.</p>\n<p>So option D is correct.</p>"
+    },
+    {
+      "questionId": "q148",
+      "passageId": "candy-146-148",
+      "passageHighlight": "",
+      "questionHtml": "<p>If the average price of a pound of candy continues to decrease at the same rate, what will 4 pounds of candy cost six weeks after Halloween?</p>",
+      "options": {
+        "A": "$1.03",
+        "B": "$1.74",
+        "C": "$4.12",
+        "D": "$6.96"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Weekly decrease = $5.29 − $4.58 = $0.71 per week.</p>\n<p>Week 4 price = $3.16. Six weeks after Halloween is two weeks after Week 4 (since Week 4 is four weeks after Halloween).</p>\n<p>Price at Week 6 = $3.16 − 2×$0.71 = $3.16 − $1.42 = $1.74 per pound.</p>\n<p>Cost for 4 pounds = 4 × $1.74 = $6.96.</p>\n<p>Thus, option D is correct.</p>"
+    },
+    {
+      "questionId": "q149",
+      "passageId": "expressions-149-150",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following expresses \\((y \\cdot z)^{x}\\) in terms of \\(p\\) ?</p>",
+      "options": {
+        "A": "\\(p^{3}\\)",
+        "B": "\\(p^{-12}\\)",
+        "C": "\\(p^{20}\\)",
+        "D": "1"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Given: \\(x = p^3\\), \\(y = p^{-2}\\), \\(z = p^2\\).</p>\n<p>First compute \\(y \\cdot z = p^{-2} \\cdot p^{2} = p^{-2+2} = p^0 = 1\\).</p>\n<p>Then \\((y \\cdot z)^{x} = 1^{x} = 1\\), regardless of \\(x\\).</p>\n<p>Thus, the expression equals 1, option D.</p>"
+    },
+    {
+      "questionId": "q150",
+      "passageId": "expressions-149-150",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following expresses \\((x)(y)(z)^{3}\\) in terms of \\(p\\) ?</p>",
+      "options": {
+        "A": "0",
+        "B": "\\(p^{-2}\\)",
+        "C": "\\(p^{7}\\)",
+        "D": "\\(p^{10}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Substitute the given values:</p>\n<p>\\(x \\cdot y \\cdot z^{3} = p^{3} \\cdot p^{-2} \\cdot (p^{2})^{3}\\)</p>\n<p>Apply the power rule: \\((p^{2})^{3} = p^{2 \\times 3} = p^{6}\\).</p>\n<p>Now multiply: \\(p^{3} \\cdot p^{-2} \\cdot p^{6} = p^{3 + (-2) + 6} = p^{7}\\).</p>\n<p>So option C is correct.</p>"
+    }
+  ]
+}

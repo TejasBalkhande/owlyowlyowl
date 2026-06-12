@@ -1,0 +1,450 @@
+{
+  "passages": [
+    {
+      "passageId": "sunflower-table",
+      "passageHtml": "<p>Denise measures the height of a sunflower every other week over a three-month period and records the results in the following table.</p>\\(\\begin{array}{c|c} \\text{Week} & \\text{Height (cm)} \\\\ \\hline 1 & 3.0 \\\\ 3 & 4.7 \\\\ 5 & 6.4 \\\\ 7 & 8.1 \\\\ 9 & 9.8 \\\\ 11 & 11.5 \\\\ 13 & 13.2 \\end{array}\\)"
+    },
+    {
+      "passageId": "quiz-scores",
+      "passageHtml": "<p>Ten students took a math quiz that consisted of 10 questions. The median score was 5.5. The modal score was 6. The teacher recorded the results of the first nine students in the following line plot.</p><img src=\"#\" alt=\"Line plot: scores 2,3,4,4,5,6,6,9,10\" />"
+    },
+    {
+      "passageId": "snow-probabilities",
+      "passageHtml": "<p>The probability that it will snow during the next three days is given in the following table.</p>\\(\\begin{array}{c|ccc} \\text{Day} & \\text{Monday} & \\text{Tuesday} & \\text{Wednesday} \\\\ \\hline \\text{Probability of snow} & 70\\% & 20\\% & 40\\% \\end{array}\\)"
+    },
+    {
+      "passageId": "concert-tickets",
+      "passageHtml": "<p>Concert tickets sold:</p>\\(\\begin{array}{c|c} \\text{Concert} & \\text{Tickets Sold} \\\\ \\hline \\text{The Ghastly Girls} & 4,721 \\\\ \\text{Two Directions} & 5,301 \\\\ \\text{Taylor Speedy} & 8,783 \\\\ \\text{Maroon 6} & 270 \\\\ \\text{The Subdominants} & 11,802 \\end{array}\\)"
+    },
+    {
+      "passageId": "set-a",
+      "passageHtml": "<p>Set A: {41, 51, 61, 71, 81, 91, 101}</p>"
+    },
+    {
+      "passageId": "cat-tails",
+      "passageHtml": "<p>Tim measures the lengths of four cats' tails:</p>\\(\\begin{array}{c|c} \\text{Cat} & \\text{Tail Length (Inches)} \\\\ \\hline \\text{Mrs. Whiskers} & 7\\ 3/4 \\\\ \\text{Bootsie} & 7\\ 3/8 \\\\ \\text{Mr. Bigglesworth} & 7\\ 11/16 \\\\ \\text{Catty McCafface} & 7\\ 25/32 \\end{array}\\)"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q1",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>If \\(f(x) = 2x - 3\\), what is the value of \\(f(x)\\) when \\(x\\) is \\(-5\\) ?</p>",
+      "options": {
+        "A": "-13",
+        "B": "-7",
+        "C": "7",
+        "D": "11"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Substitute \\(x = -5\\) into the function: \\(f(-5) = 2(-5) - 3 = -10 - 3 = -13\\).</p>"
+    },
+    {
+      "questionId": "q2",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the correct way of writing \"\\(x\\) is less than 5 but greater than or equal to \\(-3\\)\"?</p>",
+      "options": {
+        "A": "\\(x - 5 \\geq -3\\)",
+        "B": "\\(5 - x \\geq -3\\)",
+        "C": "\\(-3 \\leq x < 5\\)",
+        "D": "\\(-3 \\geq x > 5\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>\"\\(x\\) is less than 5\" is \\(x < 5\\). \"\\(x\\) is greater than or equal to \\(-3\\)\" is \\(x \\geq -3\\) or \\(-3 \\leq x\\). Combined: \\(-3 \\leq x < 5\\).</p>"
+    },
+    {
+      "questionId": "q3",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>If \\(x^{2} + 3x = 10\\), which of the following is a possible value of \\(x\\) ?</p>",
+      "options": {
+        "A": "-2",
+        "B": "5",
+        "C": "7",
+        "D": "-5"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Rewrite: \\(x^{2} + 3x - 10 = 0\\). Factor: \\((x-2)(x+5)=0\\). So \\(x = 2\\) or \\(x = -5\\). Thus \\(-5\\) is a possible value.</p>"
+    },
+    {
+      "questionId": "q4",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Jim rented a lawnmower from 9:00 a.m. until 5:30 p.m. He paid a total of $53.04. What was the hourly rental fee?</p>",
+      "options": {
+        "A": "$5.58",
+        "B": "$6.24",
+        "C": "$6.63",
+        "D": "$7.07"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Total hours: from 9:00 to 12:00 is 3 hours, from 12:00 to 5:30 is 5.5 hours, total 8.5 hours. Hourly fee = $53.04 / 8.5 = $6.24.</p>"
+    },
+    {
+      "questionId": "q5",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the value of \\(6x - 3y^{2}\\) when \\(x = 12\\) and \\(y = -5\\) ?</p>",
+      "options": {
+        "A": "72",
+        "B": "75",
+        "C": "-3",
+        "D": "3"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Substitute: \\(6(12) - 3(-5)^{2} = 72 - 3(25) = 72 - 75 = -3\\).</p>"
+    },
+    {
+      "questionId": "q6",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Alex earns a weekly base salary of $650 as a car salesman. He also earns a 9% commission on his monthly sales after the first $10,000. What was his total salary this month if he sold 7 cars whose average price was $4,500 each?</p>",
+      "options": {
+        "A": "$1,935",
+        "B": "$2,585",
+        "C": "$2,835",
+        "D": "$3,485"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Total sales = 7 × $4,500 = $31,500. Commission applies to sales over $10,000: $31,500 - $10,000 = $21,500. Commission = 0.09 × $21,500 = $1,935. Total salary = $650 + $1,935 = $2,585.</p>"
+    },
+    {
+      "questionId": "q7",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Simplify the expression completely: \\(\\sqrt{20} \\cdot \\sqrt{10}\\)</p>",
+      "options": {
+        "A": "\\(5\\sqrt{2}\\)",
+        "B": "\\(\\sqrt{200}\\)",
+        "C": "\\(2\\sqrt{10}\\)",
+        "D": "\\(10\\sqrt{2}\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>\\(\\sqrt{20} \\cdot \\sqrt{10} = \\sqrt{200} = \\sqrt{100 \\cdot 2} = 10\\sqrt{2}\\).</p>"
+    },
+    {
+      "questionId": "q8",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A human hair has an average diameter of \\(2.5 \\times 10^{-5}\\) meters. What is the maximum number of human hairs that could fit side by side (without overlapping) on a microscope slide that is 50 millimeters wide? Write your answer in scientific notation.</p>",
+      "options": {
+        "A": "\\(2.0 \\times 10^{3}\\)",
+        "B": "\\(2.0 \\times 10^{5}\\)",
+        "C": "\\(2 \\times 10^{6}\\)",
+        "D": "\\(10^{-3}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Convert 50 mm to meters: 50 mm = 50 × 10<sup>-3</sup> m. Number = (50 × 10<sup>-3</sup>) / (2.5 × 10<sup>-5</sup>) = 20 × 10<sup>2</sup> = 2.0 × 10<sup>3</sup>.</p>"
+    },
+    {
+      "questionId": "q9",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Bob is planning a birthday party for his son and has a maximum budget of $475 to spend. He intends to rent a party room that costs $125 for the day. He expects a total of 35 people to attend the party and plans to provide them all with lunch. Which of the following inequalities shows how to calculate the amount \\(x\\) that Bob can spend on lunch for each person?</p>",
+      "options": {
+        "A": "\\(125x + 35 \\geq 475\\)",
+        "B": "\\(125x + 35 \\leq 475\\)",
+        "C": "\\(125 + 35x \\geq 475\\)",
+        "D": "\\(125 + 35x \\leq 475\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Total cost = room cost ($125) + 35 lunches at $x each = 125 + 35x. This must be ≤ budget $475.</p>"
+    },
+    {
+      "questionId": "q10",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Four years ago, Jenny's annual salary was $22,625. This year, her salary was $32,433. What will her new salary be in 5 years if it continues to rise at the same linear rate?</p>",
+      "options": {
+        "A": "$34,885",
+        "B": "$42,241",
+        "C": "$44,693",
+        "D": "$55,058"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Increase over 4 years = $32,433 - $22,625 = $9,808. Annual increase = $9,808 / 4 = $2,452. In 5 years: $32,433 + 5 × $2,452 = $32,433 + $12,260 = $44,693.</p>"
+    },
+    {
+      "questionId": "q11",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Mr. White's math class has \\(n\\) students. Mrs. Black's math class has 22 students fewer than triple the number of students in Mr. White's class. Which expression shows the number of students in Mrs. Black's class in terms of \\(n\\) ?</p>",
+      "options": {
+        "A": "\\(22 < 3n\\)",
+        "B": "\\(3(n - 22)\\)",
+        "C": "\\(22 - 3n\\)",
+        "D": "\\(3n - 22\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>\"Triple the number\" is \\(3n\\). \"22 students fewer\" means subtract 22: \\(3n - 22\\).</p>"
+    },
+    {
+      "questionId": "q12",
+      "passageId": "sunflower-table",
+      "passageHighlight": "",
+      "questionHtml": "<p>Denise plots the data on a coordinate grid. She begins by plotting the data for Week 3 and Week 11. What are the coordinates of the two points that Denise plots?</p>",
+      "options": {
+        "A": "(11,3) and (11.5,4.7)",
+        "B": "(3,11) and (4.7,11.5)",
+        "C": "(3,4.7) and (11,11.5)",
+        "D": "(4.7,3) and (11.5,11)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Week is x-coordinate, height is y-coordinate. Week 3 height 4.7 → (3,4.7); Week 11 height 11.5 → (11,11.5).</p>"
+    },
+    {
+      "questionId": "q13",
+      "passageId": "sunflower-table",
+      "passageHighlight": "",
+      "questionHtml": "<p>Denise creates an equation that will allow her to predict the height of the sunflower in the future, where \\(x\\) is the week and \\(y\\) is the height. Which of the following gives the correct equation?</p>",
+      "options": {
+        "A": "\\(y = 0.85x + 2.15\\)",
+        "B": "\\(y = 1.7x + 2.15\\)",
+        "C": "\\(y = 0.85x + 1.3\\)",
+        "D": "\\(y = 1.7x + 1.3\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Slope using (3,4.7) and (11,11.5): \\(m = (11.5-4.7)/(11-3) = 6.8/8 = 0.85\\). Using (1,3.0): \\(3 = 0.85(1) + b \\Rightarrow b = 2.15\\). Thus \\(y = 0.85x + 2.15\\).</p>"
+    },
+    {
+      "questionId": "q14",
+      "passageId": "sunflower-table",
+      "passageHighlight": "",
+      "questionHtml": "<p>If the sunflower continues to grow at the same rate, at what week will it reach a height of 16.6 cm?</p>",
+      "options": {
+        "A": "Week 15",
+        "B": "Week 17",
+        "C": "Week 19",
+        "D": "Week 21"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>From equation \\(y = 0.85x + 2.15\\), set \\(y = 16.6\\): \\(16.6 = 0.85x + 2.15 \\Rightarrow 14.45 = 0.85x \\Rightarrow x = 17\\).</p>"
+    },
+    {
+      "questionId": "q15",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A doctor measured the blood sugar levels of one of her patients shortly after giving the patient a candy bar to eat. The graph below shows the patient's blood sugar level \\((y)\\) hours after she ate the candy bar.</p><img src=\"#\" alt=\"Graph: blood sugar vs time, peak at 2/3 hour\" /><p>How long after eating the candy bar was the patient's blood sugar level the highest?</p>",
+      "options": {
+        "A": "20 minutes",
+        "B": "30 minutes",
+        "C": "40 minutes",
+        "D": "1 hour"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The graph reaches its maximum at \\(\\frac{2}{3}\\) hour, which is 40 minutes.</p>"
+    },
+    {
+      "questionId": "q16",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A candy store sells soda in cone-shaped cups with the dimensions shown here:</p><img src=\"#\" alt=\"Cone: height 6 inches, diameter 2 3/4 inches\" /><p>What volume of soda can each cup hold? Give your answer to the nearest tenth of a cubic inch. The formula for the volume \\(V\\) of a cone with radius \\(r\\) and height \\(h\\) is \\(V = \\frac{1}{3}\\pi r^2 h\\).</p>",
+      "options": {
+        "A": "11.8",
+        "B": "11.9",
+        "C": "47.5",
+        "D": "142.5"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Radius = (2.75)/2 = 1.375 inches. Volume = \\(\\frac{1}{3} \\pi (1.375)^2 (6) \\approx \\frac{1}{3} \\times 3.14 \\times 1.8906 \\times 6 = 11.879 \\approx 11.9\\) cubic inches.</p>"
+    },
+    {
+      "questionId": "q17",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Anne plans to spend no more than $60 ordering socks for school. The online sock company charges a shipping fee of $15 for any order. The inequality \\(15 + 5x \\leq 60\\) represents the number of pairs of socks Anne can order from the company. What is the maximum number of pairs of socks that Anne can buy?</p>",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Solve \\(15 + 5x \\leq 60\\): subtract 15 → \\(5x \\leq 45\\) → \\(x \\leq 9\\). Maximum is 9 pairs.</p>"
+    },
+    {
+      "questionId": "q18",
+      "passageId": "quiz-scores",
+      "passageHighlight": "",
+      "questionHtml": "<p>What was the average score of the first nine students whose scores were represented on the line plot? Give your answer to one decimal place.</p>",
+      "options": {
+        "A": "5.3",
+        "B": "5.4",
+        "C": "5.5",
+        "D": "5.6"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Scores: 2,3,4,4,5,6,6,9,10. Sum = 49. Average = 49/9 ≈ 5.444… rounded to 5.4.</p>"
+    },
+    {
+      "questionId": "q19",
+      "passageId": "quiz-scores",
+      "passageHighlight": "",
+      "questionHtml": "<p>What score did the tenth student get in the quiz?</p>",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>All ten scores sorted: 2,3,4,4,5,6,6,6,9,10 (the tenth student must make median 5.5, so the 5th and 6th are 5 and 6). Thus the missing score is 6.</p>"
+    },
+    {
+      "questionId": "q20",
+      "passageId": "snow-probabilities",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the probability that it will not snow on Tuesday?</p>",
+      "options": {
+        "A": "20%",
+        "B": "40%",
+        "C": "60%",
+        "D": "80%"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Probability of snow on Tuesday is 20%, so probability of no snow = 100% - 20% = 80%.</p>"
+    },
+    {
+      "questionId": "q21",
+      "passageId": "snow-probabilities",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the probability that it will snow on all three days?</p>",
+      "options": {
+        "A": "2.8%",
+        "B": "5.6%",
+        "C": "11.2%",
+        "D": "22.4%"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Multiply probabilities: 70% × 20% × 40% = 0.70 × 0.20 × 0.40 = 0.056 = 5.6%.</p>"
+    },
+    {
+      "questionId": "q22",
+      "passageId": "snow-probabilities",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the probability that it will snow on two out of three days? Round your answer to the nearest whole number.</p>",
+      "options": {
+        "A": "33%",
+        "B": "43%",
+        "C": "53%",
+        "D": "63%"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Three cases: (Mon,Tue) no Wed: 0.7×0.2×0.6=0.084; (Mon,Wed) no Tue: 0.7×0.8×0.4=0.224; (Tue,Wed) no Mon: 0.3×0.2×0.4=0.024. Sum = 0.332 ≈ 33%.</p>"
+    },
+    {
+      "questionId": "q23",
+      "passageId": "concert-tickets",
+      "passageHighlight": "",
+      "questionHtml": "<p>Using the information in the following chart, estimate to the nearest thousand the total number of tickets sold at the concert hall.</p>",
+      "options": {
+        "A": "27,000",
+        "B": "29,000",
+        "C": "31,000",
+        "D": "31,877"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Round each to nearest thousand: 5,000 + 5,000 + 9,000 + 0 + 12,000 = 31,000.</p>"
+    },
+    {
+      "questionId": "q24",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Egypt's Great Pyramid is 150 m tall and has a square base with a length of 225 m. What is the approximate volume of the pyramid in cubic meters? The formula for the volume \\(V\\) of a pyramid of base area \\(B\\) and height \\(h\\) is \\(V = \\frac{1}{3} Bh\\).</p>",
+      "options": {
+        "A": "500,000",
+        "B": "1,500,000",
+        "C": "2,500,000",
+        "D": "7,500,000"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Base area = 225² = 50,625 m². Volume = \\(\\frac{1}{3} \\times 50,625 \\times 150 = 2,531,250 \\approx 2,500,000\\) m³.</p>"
+    },
+    {
+      "questionId": "q25",
+      "passageId": "set-a",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the range of Set A?</p>",
+      "options": {
+        "A": "41",
+        "B": "60",
+        "C": "71",
+        "D": "142"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Range = largest - smallest = 101 - 41 = 60.</p>"
+    },
+    {
+      "questionId": "q26",
+      "passageId": "set-a",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the median of Set A?</p>",
+      "options": {
+        "A": "41",
+        "B": "60",
+        "C": "71",
+        "D": "142"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The numbers are in order, the middle (4th) value is 71.</p>"
+    },
+    {
+      "questionId": "q27",
+      "passageId": "set-a",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the arithmetic mean (average) of Set A?</p>",
+      "options": {
+        "A": "41",
+        "B": "60",
+        "C": "71",
+        "D": "142"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Sum = 41+51+61+71+81+91+101 = 497. Average = 497/7 = 71. (Equally spaced, mean = median.)</p>"
+    },
+    {
+      "questionId": "q28",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Four hundred eighty yards is what fraction of a mile? (1 mile = 1,760 yards)</p>",
+      "options": {
+        "A": "\\(\\frac{27}{100}\\)",
+        "B": "\\(3\\frac{2}{3}\\)",
+        "C": "\\(\\frac{2}{5}\\)",
+        "D": "\\(\\frac{3}{11}\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>\\(\\frac{480}{1760} = \\frac{48}{176} = \\frac{6}{22} = \\frac{3}{11}\\).</p>"
+    },
+    {
+      "questionId": "q29",
+      "passageId": "cat-tails",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which cat has the longest tail?</p>",
+      "options": {
+        "A": "Mrs. Whiskers",
+        "B": "Bootsie",
+        "C": "Mr. Bigglesworth",
+        "D": "Catty McCafface"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Compare fractions: 3/4 = 24/32, 3/8 = 12/32, 11/16 = 22/32, 25/32 is largest. So Catty McCafface.</p>"
+    },
+    {
+      "questionId": "q30",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The U.S. Senate has 100 senators. In 2015, only 20 senators were female. What is the ratio of female senators to male senators?</p>",
+      "options": {
+        "A": "1:5",
+        "B": "1:4",
+        "C": "4:5",
+        "D": "4:1"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Female = 20, male = 80. Ratio female:male = 20:80 = 1:4.</p>"
+    }
+  ]
+}

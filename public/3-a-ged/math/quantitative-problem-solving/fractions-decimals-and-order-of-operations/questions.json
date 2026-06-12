@@ -1,0 +1,242 @@
+{
+  "passages": [
+    {
+      "passageId": "bush-height-table",
+      "passageHtml": "<p>Every year, starting on his 10th birthday, Jacob measured the height of a bush in his garden. The results for 5 years are listed in the table.</p>\\(\\begin{array}{c|c} \\text{Age} & \\text{Height (in inches)} \\\\ \\hline 10 & 52 \\\\ 11 & 55 \\\\ 12 & 58 \\\\ 13 & 61 \\\\ 14 & 64 \\end{array}\\)"
+    },
+    {
+      "passageId": "donut-figure",
+      "passageHtml": "<p>Figure of a donut with outer radius 10 and hole radius 5.</p><img src=\"/3-i-ged/image35.png\" alt=\"Donut figure: outer radius 10, inner radius 5\" />"
+    },
+    {
+      "passageId": "fruit-graph",
+      "passageHtml": "<p>Graph showing fruit preferences (apples, oranges, bananas, blueberries, grapes).</p><img src=\"/3-i-ged/image36.png\" alt=\"Bar graph of fruit preferences\" />"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q270",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>\\((x - y)^{2}\\) is equivalent to which of the following?</p>",
+      "options": {
+        "A": "\\(x^{2} - y^{2}\\)",
+        "B": "\\(- x^{2}y^{2}\\)",
+        "C": "\\(x^{2} + y^{2} - 2xy\\)",
+        "D": "\\(x^{2} - y^{2} - 2xy\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Rewrite the equation as follows: \\((x - y)^{2} = (x - y)(x - y)\\).</br>Then use FOIL (first terms, outer terms, inner terms, last terms) to multiply each term in the first set of parentheses by each term in the second set of parentheses:</br>\\((x - y)(x - y) = x^{2} - xy - xy + y^{2}\\)</br>\\(= x^{2} - 2xy + y^{2}\\).</br>Hence, Choice (C) is the correct answer.</p>"
+    },
+    {
+      "questionId": "q271",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A can of beans has a circular base whose area is \\(16\\pi\\) square inches. If the height of the can is 8 inches, what is the area of the label that covers the entire side of the can? (Assume the label fits the can perfectly with no overlap.)</p><img src=\"/3-i-ged/image34.png\" alt=\"Can of beans with circular base and height\" />",
+      "options": {
+        "A": "16",
+        "B": "32π",
+        "C": "64",
+        "D": "64π"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The can has a circular base, so use the formula for the area of a circle to determine the radius:</br>\\(A = \\pi r^{2}\\)</br>\\(16\\pi = \\pi r^{2}\\)</br>\\(r = 4\\).</br>If the label is removed and laid flat, it has the shape of a rectangle whose width is the height of the can (8 inches) and whose length is equal to the circumference of the can (\\(C = 2\\pi r\\)).</br>Hence, area = \\(lw = (2\\pi r)h = 2\\pi(4)(8) = 64\\pi\\).</br>Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q272",
+      "passageId": "bush-height-table",
+      "passageHighlight": "",
+      "questionHtml": "<p>Based on the results shown in the table, which of the following is true?</p>",
+      "options": {
+        "A": "The median value is 8 inches, and the range is 58 inches.",
+        "B": "The median value is 58 inches, and the range is 12 inches.",
+        "C": "The median value is 48 inches, and the range is 12 inches.",
+        "D": "The median value is 38 inches, and the range is 8 inches."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>To find the median, place the heights in ascending order: 52, 55, 58, 61, 64.</br>The middle value is 58.</br>Range = largest - smallest = 64 - 52 = 12.</br>Hence, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q273",
+      "passageId": "bush-height-table",
+      "passageHighlight": "",
+      "questionHtml": "<p>What was the bush's average height during the five-year period?</p>",
+      "options": {
+        "A": "56 inches",
+        "B": "57 inches",
+        "C": "58 inches",
+        "D": "59 inches"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Add the five heights: 52 + 55 + 58 + 61 + 64 = 290.</br>Divide by 5: \\(\\frac{290}{5} = 58\\).</br>Thus the average height is 58 inches.</br>Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q274",
+      "passageId": "bush-height-table",
+      "passageHighlight": "",
+      "questionHtml": "<p>If Jacob's bush continues to grow at the same rate, how tall will the bush be when Jacob is 17 years old?</p>",
+      "options": {
+        "A": "5 feet, 9 inches",
+        "B": "5 feet, 11 inches",
+        "C": "6 feet, 1 inch",
+        "D": "6 feet, 3 inches"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Each year the bush grows 3 inches (from 52 to 55, etc.).</br>At age 14 the height is 64 inches.</br>From age 14 to 17 is 3 years, so growth = 3 × 3 = 9 inches.</br>New height = 64 + 9 = 73 inches.</br>Convert to feet and inches: 73 ÷ 12 = 6 feet 1 inch.</br>Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q275",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A company manufactures widgets. If 3 out of every 50 widgets produced by the company are found to be defective, how many defective widgets will there be in a batch of 2,050 widgets?</p>",
+      "options": {
+        "A": "14",
+        "B": "41",
+        "C": "123",
+        "D": "246"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Set up a proportion: \\(\\frac{\\text{defective}}{\\text{total}} = \\frac{3}{50}\\).</br>For 2,050 widgets: \\(\\frac{x}{2050} = \\frac{3}{50}\\).</br>Multiply both sides by 2050: \\(x = 2050 \\times \\frac{3}{50} = 123\\).</br>Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q276",
+      "passageId": "donut-figure",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the outer circumference of the donut?</p>",
+      "options": {
+        "A": "10",
+        "B": "10π",
+        "C": "20π",
+        "D": "100π"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The outer radius of the donut is 10, so the diameter is 20.</br>Circumference = \\(\\pi d = 20\\pi\\).</br>Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q277",
+      "passageId": "donut-figure",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the ratio of the area of the donut (the shaded area) to the area of the hole?</p>",
+      "options": {
+        "A": "1:1",
+        "B": "2:1",
+        "C": "3:1",
+        "D": "4:1"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Radius of hole = 5, area = \\(\\pi(5^2) = 25\\pi\\).</br>Outer radius = 10, total area (donut + hole) = \\(\\pi(10^2) = 100\\pi\\).</br>Shaded area (donut only) = total - hole = \\(100\\pi - 25\\pi = 75\\pi\\).</br>Ratio shaded : hole = \\(75\\pi : 25\\pi = 3:1\\).</br>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q278",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>How many square yards of carpet would it take to completely cover a rectangular floor that has dimensions of 12 feet wide by 21 feet long?</p>",
+      "options": {
+        "A": "28",
+        "B": "74",
+        "C": "84",
+        "D": "252"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Convert feet to yards: 12 ft = 4 yards, 21 ft = 7 yards.</br>Area = length × width = 4 × 7 = 28 square yards.</br>Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q279",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the maximum safe weight \\(w\\) for a person entering a crowded elevator if \\(\\frac{3,412 + w}{11} \\leq 330\\)?</p>",
+      "options": {
+        "A": "200",
+        "B": "218",
+        "C": "220",
+        "D": "240"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Multiply both sides by 11: \\(3,412 + w \\leq 3,630\\).</br>Subtract 3,412: \\(w \\leq 218\\).</br>Thus the maximum safe weight is 218.</br>Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q280",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>In scientific notation, what would the number 0.00502 be? (Note: You may not use a calculator.)</p>",
+      "options": {
+        "A": "\\(50.2 \\times 10^{-4}\\)",
+        "B": "\\(5.02 \\times 10^{-3}\\)",
+        "C": "5.02",
+        "D": "\\(5.02 \\times 10^{3}\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Move the decimal point three places to the right to get 5.02.</br>Because we moved the decimal three places to the right, we multiply by \\(10^{-3}\\).</br>Thus \\(0.00502 = 5.02 \\times 10^{-3}\\).</br>Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q281",
+      "passageId": "fruit-graph",
+      "passageHighlight": "",
+      "questionHtml": "<p>Fill in the blanks to complete the sentence. The most popular fruit is _____, whereas the least popular fruit is _____.</p>",
+      "options": {
+        "A": "apples, bananas",
+        "B": "oranges, grapes",
+        "C": "blueberries, grapes",
+        "D": "blueberries, oranges"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The longest bar on the graph corresponds to blueberries, so they are the most popular.</br>The shortest bar belongs to grapes, making them the least popular.</br>Hence, the correct answer is blueberries and grapes (Choice C).</p>"
+    },
+    {
+      "questionId": "q282",
+      "passageId": "fruit-graph",
+      "passageHighlight": "",
+      "questionHtml": "<p>How many more people prefer oranges than bananas?</p>",
+      "options": {
+        "A": "5",
+        "B": "12",
+        "C": "18",
+        "D": "30"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The graph shows approximately 30 people prefer oranges and approximately 12 prefer bananas.</br>The difference is 30 - 12 = 18.</br>Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q283",
+      "passageId": "fruit-graph",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the ratio of the number of people who prefer apples to those who prefer oranges?</p>",
+      "options": {
+        "A": "5:4",
+        "B": "4:5",
+        "C": "6:7",
+        "D": "7:6"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The graph shows approximately 35 people prefer apples and 30 prefer oranges.</br>The ratio of apples to oranges is 35:30, which simplifies by dividing both by 5 to get 7:6.</br>Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q284",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the decimal equivalent to \\(\\frac{5}{16}\\) ? (Note: You may not use a calculator.)</p>",
+      "options": {
+        "A": "0.3125",
+        "B": "0.312",
+        "C": "0.313",
+        "D": "0.3126"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Using long division, divide 5 by 16:</br>16 goes into 5 zero times, add decimal and zeros → 50 ÷ 16 = 3 remainder 2, 20 ÷ 16 = 1 remainder 4, 40 ÷ 16 = 2 remainder 8, 80 ÷ 16 = 5 exactly.</br>Thus \\(\\frac{5}{16} = 0.3125\\).</br>Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q285",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>If \\(f(x) = 15 - 2x\\), for what value of \\(x\\) does \\(f(x) = x\\) ?</p>",
+      "options": {
+        "A": "-2",
+        "B": "0",
+        "C": "5",
+        "D": "7.5"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Set \\(f(x) = x\\): \\(15 - 2x = x\\).</br>Add \\(2x\\) to both sides: \\(15 = 3x\\).</br>Divide by 3: \\(x = 5\\).</br>Choice (C) is correct.</p>"
+    }
+  ]
+}

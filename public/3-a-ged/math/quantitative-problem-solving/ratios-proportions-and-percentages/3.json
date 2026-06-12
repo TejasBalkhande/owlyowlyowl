@@ -1,0 +1,468 @@
+{
+  "passages": [
+    {
+      "passageId": "rectangle-diagram",
+      "passageHtml": "<p>A rectangle has a width of 7 inches and a length of 2.5 feet. The diagram is shown below.</p><img src=\"/3-i-ged/image6.png\" alt=\"Rectangle with dimensions: width 7 inches, length 2.5 feet\" />"
+    },
+    {
+      "passageId": "gasoline-prices",
+      "passageHtml": "<p>The average price of a gallon of gasoline over a four-week period is given in the following table.</p>\\(\\begin{array}{c|c} \\text{Week} & \\text{Price per Gallon} \\\\ \\hline 1 & \\$3.29 \\\\ 2 & \\$3.38 \\\\ 3 & \\$3.47 \\\\ 4 & \\$3.56 \\end{array}\\)"
+    },
+    {
+      "passageId": "exponential-variables",
+      "passageHtml": "<p>Given: \\(x = p^{7}\\), \\(y = p^{-3}\\), and \\(z = \\frac{1}{p}\\).</p>"
+    },
+    {
+      "passageId": "parallel-lines-transversal",
+      "passageHtml": "<p>The diagram shows a pair of parallel lines crossed by a transversal line.</p><img src=\"/3-i-ged/image7.png\" alt=\"Parallel lines with transversal, angles labeled 1 through 8\" />"
+    },
+    {
+      "passageId": "sports-calories",
+      "passageHtml": "<p>A sports enthusiast measures the number of calories used per hour per pound of weight for four different sports. He records the results in the following table.</p>\\(\\begin{array}{c|c} \\text{Sport} & \\text{Calories Used per Hour per Pound of Weight} \\\\ \\hline \\text{Cycling} & 8.8 \\\\ \\text{Running} & 12.7 \\\\ \\text{Soccer} & 9.4 \\\\ \\text{Tennis} & 6.1 \\end{array}\\)"
+    },
+    {
+      "passageId": "pizza-diagram",
+      "passageHtml": "<p>A large circular pizza has an 18-inch diameter and is cut into 8 equal slices.</p><img src=\"/3-i-ged/image8.png\" alt=\"Pizza with 8 slices\" />"
+    },
+    {
+      "passageId": "lawn-diagram",
+      "passageHtml": "<p>Jack needs to put a fence around his lawn. The dimensions of the lawn are shown in the following diagram.</p><img src=\"/3-i-ged/image9.png\" alt=\"Lawn dimensions: overall length 22 m, width 9 m, with inner dimensions labeled 5 m and 15 m\" />"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q61",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Point A lies on the line \\(y - 4x = 13\\). If the y-coordinate of point A is 5, what is the value of the corresponding x-coordinate?</p>",
+      "options": {
+        "A": "-7",
+        "B": "-2",
+        "C": "3",
+        "D": "33"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Substitute \\(y = 5\\) into the equation: \\(5 - 4x = 13\\).</p><p>Add \\(4x\\) to both sides: \\(5 = 13 + 4x\\).</p><p>Subtract 13 from both sides: \\(-8 = 4x\\).</p><p>Divide both sides by 4: \\(x = -2\\).</p><p>Therefore, the correct answer is Choice (B).</p>"
+    },
+    {
+      "questionId": "q62",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>For the line \\(y - 4x = 13\\), select the correct pair (slope, y-intercept).</p>",
+      "options": {
+        "A": "(-13, -13)",
+        "B": "(-4, -4)",
+        "C": "(4, 13)",
+        "D": "(13, 4)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The slope-intercept form of a line is \\(y = mx + b\\), where \\(m\\) is the slope and \\(b\\) is the y-intercept.</p><p>Rewrite the given equation \\(y - 4x = 13\\) as \\(y = 4x + 13\\).</p><p>Thus, the slope is 4 and the y-intercept is 13.</p><p>Hence, the correct answer is Choice (C).</p>"
+    },
+    {
+      "questionId": "q63",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A company manufactures light bulbs. If 1 out of 25 light bulbs produced by the company is found to be defective, how many defective light bulbs will there be in a batch of 3,075 light bulbs?</p>",
+      "options": {
+        "A": "25",
+        "B": "123",
+        "C": "500",
+        "D": "76,875"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Set up a proportion: \\(\\frac{1 \\text{ defective}}{25 \\text{ total}} = \\frac{x \\text{ defective}}{3075 \\text{ total}}\\).</p><p>Cross-multiply: \\(1 \\times 3075 = 25x\\).</p><p>So \\(25x = 3075\\).</p><p>Divide both sides by 25: \\(x = \\frac{3075}{25} = 123\\).</p><p>Therefore, there will be 123 defective bulbs, which corresponds to Choice (B).</p>"
+    },
+    {
+      "questionId": "q64",
+      "passageId": "rectangle-diagram",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the area of the rectangle? (Give your answer to the nearest square inch.)</p>",
+      "options": {
+        "A": "10",
+        "B": "17",
+        "C": "18",
+        "D": "210"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The rectangle has a width of 7 inches and a length of 2.5 feet.</p><p>First convert the length to inches: \\(2.5 \\text{ ft} = 2.5 \\times 12 = 30 \\text{ in}\\).</p><p>Area = length × width = \\(30 \\times 7 = 210\\) square inches.</p><p>Thus, the correct answer is Choice (D).</p>"
+    },
+    {
+      "questionId": "q65",
+      "passageId": "rectangle-diagram",
+      "passageHighlight": "",
+      "questionHtml": "<p>If the rectangle were enlarged by a factor of 3 (so that its sides became 3 times as long as they were previously), what would be the ratio of the new perimeter to the old perimeter?</p>",
+      "options": {
+        "A": "1:3",
+        "B": "1:9",
+        "C": "3:1",
+        "D": "9:1"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Original perimeter: \\(P = 2l + 2w\\).</p><p>New length = \\(3l\\), new width = \\(3w\\).</p><p>New perimeter: \\(P_{\\text{new}} = 2(3l) + 2(3w) = 6l + 6w = 3(2l + 2w) = 3P\\).</p><p>Therefore, the ratio of new perimeter to old perimeter is \\(3:1\\), which is Choice (C).</p>"
+    },
+    {
+      "questionId": "q66",
+      "passageId": "rectangle-diagram",
+      "passageHighlight": "",
+      "questionHtml": "<p>If rectangle ABCD were enlarged by a factor of 3 (so that its sides became 3 times as long as they were previously), what would be the ratio of the new area to the old area?</p>",
+      "options": {
+        "A": "1:3",
+        "B": "1:9",
+        "C": "3:1",
+        "D": "9:1"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Original area: \\(A = l \\times w\\).</p><p>New length = \\(3l\\), new width = \\(3w\\).</p><p>New area: \\(A_{\\text{new}} = (3l)(3w) = 9lw = 9A\\).</p><p>Hence, the ratio of new area to old area is \\(9:1\\), so Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q67",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the decimal equivalent of \\(\\frac{3}{8}\\) ? (Note: You may not use a calculator.)</p>",
+      "options": {
+        "A": "0.375",
+        "B": "0.38",
+        "C": "0.35",
+        "D": "0.4"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Divide 3 by 8 using long division: 8 goes into 30 three times (24), remainder 6; bring down 0 to get 60, 8 goes into 60 seven times (56), remainder 4; bring down 0 to get 40, 8 goes into 40 five times exactly.</p><p>Thus, \\(\\frac{3}{8} = 0.375\\).</p><p>The correct answer is Choice (A).</p>"
+    },
+    {
+      "questionId": "q68",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the sum of \\(2.8 \\times 10^{5} + 1.7 \\times 10^{4}\\) ? (Note: You may not use a calculator.)</p>",
+      "options": {
+        "A": "\\(4.5 \\times 10^{5}\\)",
+        "B": "\\(4.5 \\times 10^{9}\\)",
+        "C": "\\(2.97 \\times 10^{4}\\)",
+        "D": "\\(2.97 \\times 10^{5}\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Rewrite \\(1.7 \\times 10^{4}\\) with the same power of ten as the larger number: \\(1.7 \\times 10^{4} = 0.17 \\times 10^{5}\\).</p><p>Now add: \\(2.8 \\times 10^{5} + 0.17 \\times 10^{5} = (2.8 + 0.17) \\times 10^{5} = 2.97 \\times 10^{5}\\).</p><p>Therefore, the correct answer is Choice (D).</p>"
+    },
+    {
+      "questionId": "q69",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the product of \\((8 \\times 10^{6}) \\times (4 \\times 10^{-3})\\) ? Write your answer in scientific notation. (Note: You may not use a calculator.)</p>",
+      "options": {
+        "A": "\\(3.2 \\times 10^{-17}\\)",
+        "B": "\\(3.2 \\times 10^{2}\\)",
+        "C": "\\(32 \\times 10^{3}\\)",
+        "D": "\\(3.2 \\times 10^{4}\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Multiply the coefficients: \\(8 \\times 4 = 32\\).</p><p>Multiply the powers of ten: \\(10^{6} \\times 10^{-3} = 10^{6 + (-3)} = 10^{3}\\).</p><p>So the product is \\(32 \\times 10^{3}\\).</p><p>Convert to proper scientific notation (one digit before the decimal): \\(32 \\times 10^{3} = 3.2 \\times 10^{4}\\).</p><p>Thus, Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q70",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Select the option that correctly completes the statement: Two lines that never meet are called ______ lines, and their slopes are ______. Two lines that meet at right angles are called ______ lines, and their slopes are ______.</p>",
+      "options": {
+        "A": "parallel, equal, perpendicular, negative reciprocals",
+        "B": "perpendicular, negative reciprocals, parallel, equal",
+        "C": "equal, parallel, negative reciprocals, perpendicular",
+        "D": "negative reciprocals, perpendicular, equal, parallel"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Parallel lines never intersect and have equal slopes.</p><p>Perpendicular lines intersect at right angles, and their slopes are negative reciprocals of each other (if neither slope is zero).</p><p>Therefore, the correct sequence is: parallel, equal, perpendicular, negative reciprocals. This matches Choice (A).</p>"
+    },
+    {
+      "questionId": "q71",
+      "passageId": "gasoline-prices",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the range of the prices in the table? (Round your answer to the nearest cent.)</p>",
+      "options": {
+        "A": "$0.26",
+        "B": "$0.27",
+        "C": "$0.28",
+        "D": "$0.29"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The range is the difference between the largest and smallest values.</p><p>Largest price = $3.56 (Week 4), smallest price = $3.29 (Week 1).</p><p>Range = $3.56 - $3.29 = $0.27.</p><p>Thus, the correct answer is Choice (B).</p>"
+    },
+    {
+      "questionId": "q72",
+      "passageId": "gasoline-prices",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the average price of a gallon of gasoline over the four-week period? (Give your answer to the nearest cent.)</p>",
+      "options": {
+        "A": "$3.42",
+        "B": "$3.43",
+        "C": "$3.51",
+        "D": "$3.52"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Add the four weekly prices: \\(3.29 + 3.38 = 6.67\\), then \\(6.67 + 3.47 = 10.14\\), then \\(10.14 + 3.56 = 13.70\\).</p><p>Divide the sum by 4: \\(13.70 \\div 4 = 3.425\\).</p><p>Rounded to the nearest cent, \\(3.425 \\approx 3.43\\).</p><p>Therefore, the average price is $3.43, which is Choice (B).</p>"
+    },
+    {
+      "questionId": "q73",
+      "passageId": "gasoline-prices",
+      "passageHighlight": "",
+      "questionHtml": "<p>If the average price of a gallon of gasoline continues to rise at the same rate, what will 3 gallons of gasoline cost during Week 8?</p>",
+      "options": {
+        "A": "$3.92",
+        "B": "$4.24",
+        "C": "$7.51",
+        "D": "$11.76"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>From the table, the price increases by $0.09 each week ($3.29 to $3.38, etc.).</p><p>Week 4 price is $3.56. Week 8 is 4 weeks later, so increase = \\(4 \\times 0.09 = 0.36\\).</p><p>Price per gallon in Week 8 = \\(3.56 + 0.36 = 3.92\\).</p><p>Cost for 3 gallons = \\(3 \\times 3.92 = 11.76\\).</p><p>Hence, Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q74",
+      "passageId": "exponential-variables",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following expresses \\(\\left(\\frac{x}{y}\\right)^2\\) in terms of \\(p\\) ?</p>",
+      "options": {
+        "A": "\\(p^8\\)",
+        "B": "\\(p^{10}\\)",
+        "C": "\\(p^{20}\\)",
+        "D": "\\(p\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Given \\(x = p^{7}\\) and \\(y = p^{-3}\\).</p><p>First, \\(\\frac{x}{y} = \\frac{p^{7}}{p^{-3}} = p^{7 - (-3)} = p^{10}\\).</p><p>Then square it: \\(\\left(p^{10}\\right)^{2} = p^{10 \\times 2} = p^{20}\\).</p><p>Thus, the correct answer is Choice (C).</p>"
+    },
+    {
+      "questionId": "q75",
+      "passageId": "exponential-variables",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following expresses \\(\\left(\\frac{x^2 \\cdot y^4}{z^3}\\right)^0\\) in terms of \\(p\\) ?</p>",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "\\(p^{-5}\\)",
+        "D": "\\(p\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Any nonzero expression raised to the power of zero equals 1.</p><p>Regardless of the values of \\(x, y, z\\), as long as the base is not zero, the result is 1.</p><p>Therefore, the correct answer is Choice (B).</p>"
+    },
+    {
+      "questionId": "q76",
+      "passageId": "exponential-variables",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following expresses \\((x)(y)^2 (z)\\) in terms of \\(p\\) ?</p>",
+      "options": {
+        "A": "1",
+        "B": "\\(p\\)",
+        "C": "\\(p^7\\)",
+        "D": "\\(p^9\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Substitute the given values: \\(x = p^{7}\\), \\(y = p^{-3}\\), \\(z = \\frac{1}{p} = p^{-1}\\).</p><p>Then \\(x \\cdot y^{2} \\cdot z = p^{7} \\cdot (p^{-3})^{2} \\cdot p^{-1} = p^{7} \\cdot p^{-6} \\cdot p^{-1}\\).</p><p>Add the exponents: \\(7 + (-6) + (-1) = 0\\).</p><p>Thus, \\(p^{0} = 1\\).</p><p>Hence, the correct answer is Choice (A).</p>"
+    },
+    {
+      "questionId": "q77",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>\\(f(x) = \\frac{10 - x^2}{x^2}\\). What is the value of \\(f(x)\\) when \\(x = -3\\) ?</p>",
+      "options": {
+        "A": "9",
+        "B": "10",
+        "C": "\\(\\frac{1}{9}\\)",
+        "D": "\\(\\frac{19}{9}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Substitute \\(x = -3\\) into the function: \\(f(-3) = \\frac{10 - (-3)^2}{(-3)^2}\\).</p><p>Calculate numerator: \\((-3)^2 = 9\\), so \\(10 - 9 = 1\\).</p><p>Denominator: \\((-3)^2 = 9\\).</p><p>Thus, \\(f(-3) = \\frac{1}{9}\\).</p><p>The correct answer is Choice (C).</p>"
+    },
+    {
+      "questionId": "q78",
+      "passageId": "parallel-lines-transversal",
+      "passageHighlight": "",
+      "questionHtml": "<p>Select the option that correctly fills in the blanks: Angle 2 is a/an ______ angle and is ______ to angle 1. Angle 5 is a/an ______ angle and is ______ to angle 8.</p>",
+      "options": {
+        "A": "acute, supplementary, obtuse, congruent",
+        "B": "obtuse, congruent, acute, supplementary",
+        "C": "acute, congruent, obtuse, supplementary",
+        "D": "obtuse, supplementary, acute, congruent"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>In the diagram, angle 2 is less than 90° (acute) and together with angle 1 forms a straight line, so they are supplementary.</p><p>Angle 5 is greater than 90° (obtuse) and is vertical to angle 8, meaning they are congruent.</p><p>Thus, the correct sequence is: acute, supplementary, obtuse, congruent. This matches Choice (A).</p>"
+    },
+    {
+      "questionId": "q79",
+      "passageId": "parallel-lines-transversal",
+      "passageHighlight": "",
+      "questionHtml": "<p>In the diagram, one of the angles measures 45°. What is the measure of angle 1? (Note: You may not use a calculator.)</p>",
+      "options": {
+        "A": "45°",
+        "B": "125°",
+        "C": "135°",
+        "D": "145°"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The 45° angle is corresponding to angle 3 (since parallel lines are cut by a transversal), so angle 3 = 45°.</p><p>Angle 1 and angle 3 are supplementary (they form a linear pair).</p><p>Therefore, angle 1 = 180° - 45° = 135°.</p><p>The correct answer is Choice (C).</p>"
+    },
+    {
+      "questionId": "q80",
+      "passageId": "parallel-lines-transversal",
+      "passageHighlight": "",
+      "questionHtml": "<p>If angle 1 is 135° and the angle represented by \\(5x + 35\\) is vertical to angle 1, what is the value of \\(x\\) ?</p>",
+      "options": {
+        "A": "10",
+        "B": "15",
+        "C": "20",
+        "D": "25"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Vertical angles are congruent, so \\(5x + 35 = 135\\).</p><p>Subtract 35 from both sides: \\(5x = 100\\).</p><p>Divide by 5: \\(x = 20\\).</p><p>Thus, the correct answer is Choice (C).</p>"
+    },
+    {
+      "questionId": "q81",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A boat's sail is in the shape of an isosceles triangle. If the largest angle of the sail is 90°, what is the measure of the smallest angle in degrees?</p>",
+      "options": {
+        "A": "30°",
+        "B": "45°",
+        "C": "60°",
+        "D": "90°"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>An isosceles triangle has two equal angles. The largest angle is 90°, so the other two angles must be equal and sum to 90° (since total 180°).</p><p>Each of the remaining angles = \\(\\frac{90°}{2} = 45°\\).</p><p>Thus, the smallest angle is 45°, which corresponds to Choice (B).</p>"
+    },
+    {
+      "questionId": "q82",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The angles of a triangle are in a ratio of 5:9:14. What is the measure of the largest angle?</p>",
+      "options": {
+        "A": "25°",
+        "B": "45°",
+        "C": "90°",
+        "D": "140°"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Let the angles be \\(5k, 9k, 14k\\). Their sum is \\(180°\\): \\(5k + 9k + 14k = 28k = 180°\\).</p><p>Solve for \\(k\\): \\(k = \\frac{180}{28} = \\frac{45}{7}\\).</p><p>The largest angle is \\(14k = 14 \\times \\frac{45}{7} = 2 \\times 45 = 90°\\).</p><p>Therefore, the correct answer is Choice (C).</p>"
+    },
+    {
+      "questionId": "q83",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A recipe for cookies calls for \\(\\frac{3}{8}\\) cup of brown sugar to make 2 dozen cookies. If Sasha has 4.5 cups of brown sugar available and enough of all the other ingredients, how many dozen cookies can he make?</p>",
+      "options": {
+        "A": "9 dozen",
+        "B": "12 dozen",
+        "C": "15 dozen",
+        "D": "24 dozen"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Set up a proportion: \\(\\frac{2 \\text{ dozen}}{\\frac{3}{8} \\text{ cup}} = \\frac{x \\text{ dozen}}{4.5 \\text{ cup}}\\).</p><p>Cross-multiply: \\(2 \\times 4.5 = \\frac{3}{8} \\times x\\) → \\(9 = \\frac{3}{8}x\\).</p><p>Multiply both sides by \\(\\frac{8}{3}\\): \\(x = 9 \\times \\frac{8}{3} = 24\\).</p><p>Thus, Sasha can make 24 dozen cookies, which is Choice (D).</p>"
+    },
+    {
+      "questionId": "q84",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Simplify: \\((5x + 1)(3x - 4)\\)</p>",
+      "options": {
+        "A": "\\(15x^{2} - 17x - 4\\)",
+        "B": "\\(-2x - 4\\)",
+        "C": "\\(8x - 3\\)",
+        "D": "\\(15x^{2} + 23x - 4\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Use the FOIL method (First, Outer, Inner, Last):</p><p>First: \\(5x \\cdot 3x = 15x^{2}\\)</p><p>Outer: \\(5x \\cdot (-4) = -20x\\)</p><p>Inner: \\(1 \\cdot 3x = 3x\\)</p><p>Last: \\(1 \\cdot (-4) = -4\\)</p><p>Combine like terms: \\(15x^{2} + (-20x + 3x) - 4 = 15x^{2} - 17x - 4\\).</p><p>Thus, Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q85",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which number equals 7 thousands?</p>",
+      "options": {
+        "A": "0.7",
+        "B": "0.07",
+        "C": "0.007",
+        "D": "7,000"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The term \"thousandths\" refers to the third decimal place. 7 thousandths = \\(\\frac{7}{1000} = 0.007\\).</p><p>Therefore, the correct answer is Choice (C).</p>"
+    },
+    {
+      "questionId": "q86",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A newspaper charges advertisers a total of $\\$5.50$ for the first ten words and $\\$0.70$ for each additional word. What is the cost of a 27-word advert?</p>",
+      "options": {
+        "A": "$6.20",
+        "B": "$17.40",
+        "C": "$18.90",
+        "D": "$66.90"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>First 10 words cost $5.50. Additional words = 27 - 10 = 17 words.</p><p>Cost for additional words = \\(17 \\times 0.70 = 11.90\\).</p><p>Total cost = \\(5.50 + 11.90 = 17.40\\).</p><p>Hence, the correct answer is Choice (B).</p>"
+    },
+    {
+      "questionId": "q87",
+      "passageId": "sports-calories",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the average number of calories used per hour per pound of weight for the four sports listed in the table? Give your answer to the nearest one hundredth of a calorie.</p>",
+      "options": {
+        "A": "9.20",
+        "B": "9.25",
+        "C": "9.30",
+        "D": "9.35"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Add the four values: \\(8.8 + 12.7 = 21.5\\), \\(21.5 + 9.4 = 30.9\\), \\(30.9 + 6.1 = 37.0\\).</p><p>Divide by 4: \\(37.0 \\div 4 = 9.25\\).</p><p>The average is exactly 9.25, so Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q88",
+      "passageId": "sports-calories",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following could be used to calculate how many calories a 170-pound man would use by cycling for 20 minutes?</p>",
+      "options": {
+        "A": "\\(\\frac{170 \\times 8.8}{3}\\)",
+        "B": "\\(170 \\times 8.8 \\times 3\\)",
+        "C": "\\(\\frac{170 \\times 8.8}{20}\\)",
+        "D": "\\(170 \\times 8.8 \\times 20\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Cycling uses 8.8 calories per hour per pound. For 170 pounds, calories per hour = \\(170 \\times 8.8\\).</p><p>20 minutes is \\(\\frac{1}{3}\\) of an hour, so divide by 3: \\(\\frac{170 \\times 8.8}{3}\\).</p><p>Thus, Choice (A) is the correct expression.</p>"
+    },
+    {
+      "questionId": "q89",
+      "passageId": "pizza-diagram",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the innermost angle of one slice of the pizza?</p>",
+      "options": {
+        "A": "30°",
+        "B": "45°",
+        "C": "60°",
+        "D": "90°"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The pizza is a full circle of 360° and is cut into 8 equal slices.</p><p>Innermost angle of each slice = \\(\\frac{360°}{8} = 45°\\).</p><p>Therefore, the correct answer is Choice (B).</p>"
+    },
+    {
+      "questionId": "q90",
+      "passageId": "pizza-diagram",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the perimeter of one slice of the pizza?</p>",
+      "options": {
+        "A": "\\(2.25\\pi\\)",
+        "B": "\\(18\\pi\\)",
+        "C": "\\(2.25\\pi + 18\\)",
+        "D": "\\(9\\pi + 18\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The pizza has diameter 18 inches, so radius \\(r = 9\\) inches.</p><p>The curved edge of one slice is \\(\\frac{1}{8}\\) of the circumference: \\(\\frac{1}{8} \\times (\\pi \\times 18) = 2.25\\pi\\).</p><p>The two straight edges are each the radius (9 inches), so total straight part = 18 inches.</p><p>Perimeter = curved edge + straight edges = \\(2.25\\pi + 18\\).</p><p>Thus, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q91",
+      "passageId": "pizza-diagram",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the total area of two slices of the pizza?</p>",
+      "options": {
+        "A": "\\(20.25\\pi\\)",
+        "B": "\\(36\\pi\\)",
+        "C": "\\(41.5\\pi\\)",
+        "D": "\\(81\\pi\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Area of whole pizza = \\(\\pi r^{2} = \\pi \\times 9^{2} = 81\\pi\\).</p><p>Two slices out of eight = \\(\\frac{2}{8} = \\frac{1}{4}\\) of the pizza.</p><p>Area of two slices = \\(\\frac{1}{4} \\times 81\\pi = 20.25\\pi\\).</p><p>Hence, Choice (A) is correct.</p>"
+    }
+  ]
+}

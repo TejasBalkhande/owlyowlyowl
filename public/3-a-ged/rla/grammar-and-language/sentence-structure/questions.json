@@ -1,0 +1,186 @@
+{
+  "passages": [
+    {
+      "passageId": "passage-q1",
+      "passageHtml": "<p>The new software update was installed on all company computers last night _____ several employees reported this morning that their spreadsheet files were taking much longer to open than usual. IT is currently investigating whether the update caused the slowdown.</p>"
+    },
+    {
+      "passageId": "passage-q2",
+      "passageHtml": "<p>Small businesses often struggle to afford expensive marketing campaigns. _____ social media platforms offer free or low-cost advertising tools that can reach thousands of potential customers. Many entrepreneurs have successfully grown their brands using only Instagram and Facebook.</p>"
+    },
+    {
+      "passageId": "passage-q3",
+      "passageHtml": "<p>The city council voted to close the downtown library for renovations starting next month. _____ a temporary location will open in the old post office building on Third Street. The temporary site will have limited hours and fewer computers.</p>"
+    },
+    {
+      "passageId": "passage-q4",
+      "passageHtml": "<p>Dr. Kim's study found that patients who took the new medication reported fewer headaches. _____ the placebo group showed a similar reduction in symptoms, suggesting the effect may be psychological rather than chemical. The researchers are now designing a double-blind trial.</p>"
+    },
+    {
+      "passageId": "passage-q5",
+      "passageHtml": "<p>The hiking trail is rated as difficult due to steep climbs and loose gravel. _____ beginners are advised to avoid the trail unless accompanied by an experienced guide. Several small waterfalls along the route are visible from a safer lower path.</p>"
+    },
+     {
+      "passageId": "passage-q6",
+      "passageHtml": "<p>The laboratory results showed that the new catalyst reduced reaction time by 35%. the same catalyst increased the production of unwanted byproducts by nearly 50%. The research team is now exploring chemical modifications to improve selectivity.</p>"
+    },
+    {
+      "passageId": "passage-q7",
+      "passageHtml": "<p>The company's quarterly profits fell for the third straight quarter. The CEO announced a hiring freeze and reduced executive bonuses. the company avoided layoffs for the second year in a row.</p>"
+    },
+    {
+      "passageId": "passage-q8",
+      "passageHtml": "<p>The new employee handbook requires all staff to complete cybersecurity training by March 15. employees who fail to complete the training will have their network access suspended until they do so. The HR department will send weekly reminders.</p>"
+    },
+    {
+      "passageId": "passage-q9",
+      "passageHtml": "<p>The apartment's listing advertised \"brand new stainless steel appliances.\" When I arrived for the tour, I saw a refrigerator with rust on the door and a dishwasher that did not turn on. I decided not to submit an application.</p>"
+    },
+    {
+      "passageId": "passage-q10",
+      "passageHtml": "<p>The museum will extend its hours until 8:00 PM on Thursdays. Admission is free after 5:00 PM on those days. visitors should plan to arrive early if they wish to avoid waiting in long lines.</p>"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q1-001",
+      "passageId": "passage-q1",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the option that correctly completes the sentence.</p>",
+      "options": {
+        "A": "Therefore",
+        "B": "Meanwhile",
+        "C": "Nevertheless",
+        "D": "For example"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Why B is correct:</strong> \"Meanwhile\" shows two simultaneous events (update installed → employees report slowdowns) without implying causation. The sentence simply notes that both things happened around the same time.</p><p><strong>Why the distractors are strong:</strong><br/>A. Therefore – implies the slowdown is a result of the update (possibly true, but the sentence doesn't state causation; many students force cause-effect).<br/>C. Nevertheless – contrast would be wrong here (no opposition).<br/>D. For example – no example of the update is given.</p>"
+    },
+    {
+      "questionId": "q2-001",
+      "passageId": "passage-q2",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the option that correctly completes the sentence.</p>",
+      "options": {
+        "A": "In contrast",
+        "B": "As a result",
+        "C": "For instance",
+        "D": "However"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Why C is correct:</strong> \"For instance\" introduces a specific example of how small businesses can market affordably (social media platforms). The second sentence illustrates the point made in the first.</p><p><strong>Why the distractors are strong:</strong><br/>A. In contrast – wrong because the second sentence doesn't oppose the first; it supports it.<br/>B. As a result – would mean struggling leads to social media tools (illogical).<br/>D. However – contrast would be incorrect. The trap: students see “struggle” and think “but social media helps” = however, but the structure is actually illustrative.</p>"
+    },
+    {
+      "questionId": "q3-001",
+      "passageId": "passage-q3",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the option that correctly completes the sentence.</p>",
+      "options": {
+        "A": "Otherwise",
+        "B": "Consequently",
+        "C": "In addition",
+        "D": "Instead"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p><strong>Why D is correct:</strong> \"Instead\" signals a substitution: the city closes one location but opens another in its place.</p><p><strong>Why the distractors are strong:</strong><br/>A. Otherwise – introduces a conditional (if not X, then Y), which doesn't fit.<br/>B. Consequently – implies closing causes temporary location, but that's not cause-effect; it's a planned replacement.<br/>C. In addition – would add another fact, not a replacement. Strong distractor: Consequently sounds logical but is slightly off.</p>"
+    },
+    {
+      "questionId": "q4-001",
+      "passageId": "passage-q4",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the option that correctly completes the sentence.</p>",
+      "options": {
+        "A": "Therefore",
+        "B": "Similarly",
+        "C": "However",
+        "D": "Moreover"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Why C is correct:</strong> \"However\" shows contrast: the drug group improved, but the placebo group also improved (unexpected result).</p><p><strong>Why the distractors are strong:</strong><br/>A. Therefore – would mean drug improvement causes placebo improvement (nonsense).<br/>B. Similarly – wrong because the two groups are being compared for difference, not similarity.<br/>D. Moreover – would add another supporting point, but this is a counterpoint. The trap: students see “similar reduction” and pick Similarly – but that changes meaning entirely.</p>"
+    },
+    {
+      "questionId": "q5-001",
+      "passageId": "passage-q5",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the option that correctly completes the sentence.</p>",
+      "options": {
+        "A": "In fact",
+        "B": "For instance",
+        "C": "Consequently",
+        "D": "Nonetheless"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Why C is correct:</strong> \"Consequently\" shows clear cause-effect: because the trail is difficult, beginners should avoid it.</p><p><strong>Why the distractors are strong:</strong><br/>A. In fact – would emphasize the difficulty, but the second sentence gives a recommendation, not an elaboration.<br/>B. For instance – no example follows; the sentence gives advice.<br/>D. Nonetheless – would mean “despite the difficulty, beginners should avoid” – illogical contrast. Strong distractor: Nonetheless tricks students who think “difficult but beginners should avoid” – but that's not contrast; it's direct causation.</p>"
+    },
+    {
+      "questionId": "q6-001",
+      "passageId": "passage-q6",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the option that correctly completes the sentence.</p>",
+      "options": {
+        "A": "Therefore",
+        "B": "Meanwhile",
+        "C": "However",
+        "D": "Moreover"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Why C is correct:</strong> The first sentence gives a positive result (reduced reaction time). The second sentence gives a negative result (increased byproducts). \"However\" clearly signals this contrast.</p><p><strong>Why the distractors are strong:</strong><br/>A. Therefore – signals a cause-and-effect relationship. The second sentence does not describe a result of the faster reaction time; it describes a separate negative outcome. There is no logical causation stated.<br/>B. Meanwhile – indicates two events happening at the same time but does not imply contrast or conflict. Here, the two findings are opposed (benefit vs. drawback), so \"meanwhile\" would weaken the intended contrast.<br/>D. Moreover – adds another supporting point. But the second sentence does not support the first; it contradicts or complicates it. Using \"moreover\" would confuse the reader.</p>"
+    },
+    {
+      "questionId": "q7-001",
+      "passageId": "passage-q7",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the option that correctly completes the sentence.</p>",
+      "options": {
+        "A": "Consequently",
+        "B": "Nonetheless",
+        "C": "In addition",
+        "D": "For instance"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Why B is correct:</strong> \"Nonetheless\" means \"in spite of that.\" The company faced falling profits and cut costs, yet it still avoided layoffs. \"Nonetheless\" perfectly captures the unexpected positive outcome.</p><p><strong>Why the distractors are strong:</strong><br/>A. Consequently – means \"as a result.\" Falling profits and cost-cutting measures would typically lead to layoffs, not prevent them. The sentence describes a positive outcome despite negative circumstances, not a direct result.<br/>C. In addition – adds another fact of the same kind. The first two sentences are negative (profit drop, cost cuts). Avoiding layoffs is positive, so it is not an additional negative point.<br/>D. For instance – introduces an example. Avoiding layoffs is not an example of falling profits or cost cuts; it is a separate contrasting result.</p>"
+    },
+    {
+      "questionId": "q8-001",
+      "passageId": "passage-q8",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the option that correctly completes the sentence.</p>",
+      "options": {
+        "A": "Otherwise",
+        "B": "Therefore",
+        "C": "Meanwhile",
+        "D": "For example"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Why A is correct:</strong> \"Otherwise\" introduces the consequence that follows if the requirement (completing training) is not met. The structure is: \"Do X. Otherwise, Y will happen.\" This fits perfectly.</p><p><strong>Why the distractors are strong:</strong><br/>B. Therefore – would indicate that failing to complete training is a result of the requirement, which is illogical. The requirement causes the need to complete training, not the penalty.<br/>C. Meanwhile – suggests two simultaneous but unrelated actions. The second sentence describes a conditional penalty, not a separate event happening at the same time.<br/>D. For example – would introduce an illustration of the requirement. But network access suspension is not an example of completing training; it is a penalty for not completing it.</p>"
+    },
+    {
+      "questionId": "q9-001",
+      "passageId": "passage-q9",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the option that correctly completes the sentence.</p>",
+      "options": {
+        "A": "Nonetheless",
+        "B": "Consequently",
+        "C": "In contrast",
+        "D": "Likewise"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Why B is correct:</strong> The false advertising and poor condition of the appliances directly caused the decision not to apply. \"Consequently\" shows this clear cause-and-effect relationship.</p><p><strong>Why the distractors are strong:</strong><br/>A. Nonetheless – would imply that the bad condition of the appliances did not stop the person from applying. However, the sentence clearly states the person decided not to apply. \"Nonetheless\" would reverse the meaning.<br/>C. In contrast – signals a direct opposition between two things. While there is a contrast between the ad and reality, the decision not to apply is a result of that contrast, not another contrast itself.<br/>D. Likewise – means \"similarly.\" There is no previous action or situation to which this decision is being compared as similar. It would be illogical here.</p>"
+    },
+    {
+      "questionId": "q10-001",
+      "passageId": "passage-q10",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the option that correctly completes the sentence.</p>",
+      "options": {
+        "A": "Therefore",
+        "B": "However",
+        "C": "For instance",
+        "D": "Otherwise"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Why A is correct:</strong> Extended hours and free admission logically lead to larger crowds. The advice to arrive early is a reasonable conclusion drawn from those facts. \"Therefore\" signals this logical conclusion.</p><p><strong>Why the distractors are strong:</strong><br/>B. However – introduces a contrast. There is no contrast between the first two sentences (extended hours, free admission) and the advice to arrive early. The advice follows naturally from the first two facts.<br/>C. For instance – would introduce an example of something previously stated. The previous sentences do not present a general claim that \"arriving early\" exemplifies.<br/>D. Otherwise – introduces a consequence if something does not happen. The sentence does not say \"arrive early; otherwise, you will face long lines.\" Instead, it simply advises arriving early to avoid long lines. \"Otherwise\" would require a different sentence structure.</p>"
+    }
+  ]
+}

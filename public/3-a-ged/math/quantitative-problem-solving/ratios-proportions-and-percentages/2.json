@@ -1,0 +1,454 @@
+{
+  "passages": [
+    {
+      "passageId": "car-mileage-table",
+      "passageHtml": "<p>Alex test drives four cars and records the distance traveled and the gallons of gas used in each case in the following table.</p>\\(\\begin{array}{c|c|c} \\text{Car} & \\text{Distance Driven (Miles)} & \\text{Gas Used (Gallons)} \\\\ \\hline A & 102.3 & 11.5 \\\\ B & 78.1 & 7.9 \\\\ C & 57.8 & 6.2 \\\\ D & 142.9 & 15.9 \\end{array}\\)"
+    },
+    {
+      "passageId": "fair-die",
+      "passageHtml": "<p>A fair die has six sides, each marked with a different integer from 1 to 6. Each side is equally likely to land face up when the die is rolled.</p>"
+    },
+    {
+      "passageId": "becky-payroll",
+      "passageHtml": "<p>At Becky's Burger Shack, cooks earn an average of $\\$950$ per week, whereas waiters earn an average of $\\$725$ per week. Let <em>x</em> and <em>y</em> equal the number of cooks and waiters, respectively, employed by the restaurant.</p>"
+    },
+    {
+      "passageId": "moving-company",
+      "passageHtml": "<p>A moving company rents small or large vans for a fixed fee of $\\$80$ and $\\$125$, respectively, plus $\\$3.75$ per mile driven. The company also offers professional movers at a rate of $\\$18$ per mover per hour.</p>"
+    },
+    {
+      "passageId": "line-graph-1",
+      "passageHtml": "<img src=\"/3-i-ged/image4.png\" alt=\"Line graph with points A(4,1) and B(-4,-5) and a line through them\" />"
+    },
+    {
+      "passageId": "number-line-graph",
+      "passageHtml": "<img src=\"/3-i-ged/image5.png\" alt=\"Number line graph with points A, B, C, D, E labeled at positions -9, -4, 7, 0, -2 respectively\" />"
+    },
+    {
+      "passageId": "nut-bag",
+      "passageHtml": "<p>A bag contains cashews, peanuts, and other nuts. There are 12 cashews and 3 peanuts. The total number of nuts in the bag is 40.</p>"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q31",
+      "passageId": "car-mileage-table",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which car has the best gas mileage (miles per gallon)?</p>",
+      "options": {
+        "A": "Car A",
+        "B": "Car B",
+        "C": "Car C",
+        "D": "Car D"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>To find the best gas mileage, divide the distance traveled by the number of gallons of gas used for each car:</p><p>Car A: \\( \\frac{102.3}{11.5} = 8.896 \\)<br>Car B: \\( \\frac{78.1}{7.9} = 9.886 \\)<br>Car C: \\( \\frac{57.8}{6.2} = 9.323 \\)<br>Car D: \\( \\frac{142.9}{15.9} = 8.987 \\)</p><p>Car B has the highest value, so it has the best gas mileage. Hence, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q32",
+      "passageId": "fair-die",
+      "passageHighlight": "",
+      "questionHtml": "<p>Suppose you roll the die 66 times. How many times are you likely to roll a 6?</p>",
+      "options": {
+        "A": "6",
+        "B": "11",
+        "C": "55",
+        "D": "66"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Each roll of the die has a one in six chance of landing on any of the six numbers. Therefore, multiplying the number of rolls by \\( \\frac{1}{6} \\) will give you an estimate of how many times a 6 is likely to appear:</p><p>\\( 66 \\times \\frac{1}{6} = 11 \\)</p><p>Hence, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q33",
+      "passageId": "fair-die",
+      "passageHighlight": "",
+      "questionHtml": "<p>Suppose you roll the die three times. What is the probability of not rolling any 1s during the three rolls? Express your answer as a fraction reduced to its lowest terms.</p>",
+      "options": {
+        "A": "\\(\\frac{1}{216}\\)",
+        "B": "\\(\\frac{5}{216}\\)",
+        "C": "\\(\\frac{25}{216}\\)",
+        "D": "\\(\\frac{125}{216}\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Consider each roll of the die separately. The probability of not rolling a 1 on each roll equals \\( \\frac{5}{6} \\) because there are five other numbers that can appear (2, 3, 4, 5, and 6).</p><p>Now multiply all three probabilities together to find the overall probability of rolling no 1s:</p><p>\\( \\frac{5}{6} \\cdot \\frac{5}{6} \\cdot \\frac{5}{6} = \\frac{125}{216} \\)</p><p>Hence, Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q34",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Monthly sales of a particular brand of smartphone are inversely proportional to the number of occurrences of exploding cellphone batteries during that month. If 88 million phones were sold when there were 2 exploding batteries, how many cell phones would be sold during a month in which 22 batteries exploded?</p>",
+      "options": {
+        "A": "4 million",
+        "B": "8 million",
+        "C": "44 million",
+        "D": "176 million"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Let \\( p \\) equal the number of phones sold and \\( b \\) equal the number of exploding batteries. You are told that \\( p \\) is inversely proportional to \\( b \\), which means that as \\( b \\) increases, \\( p \\) decreases. You can express this relationship as follows, where \\( k \\) equals a constant:</p><p>\\( p = \\frac{k}{b} \\)</p><p>Substitute the given values for \\( p \\) and \\( b \\) into the equation to find \\( k \\):</p><p>\\( 88 = \\frac{k}{2} \\) → \\( k = 176 \\)</p><p>The equation now becomes \\( p = \\frac{176}{b} \\).</p><p>Now substitute \\( b = 22 \\) into the equation to find the corresponding value of \\( p \\):</p><p>\\( p = \\frac{176}{22} = 8 \\)</p><p>Hence, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q35",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The scale on a blueprint for a boat is 2 cm = 5 meters. If the length of the boat on the blueprint measures 7.5 cm, how long is the actual boat?</p>",
+      "options": {
+        "A": "12.50 m",
+        "B": "15.25 m",
+        "C": "18.75 m",
+        "D": "20.25 m"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Set up a proportion with the unknown variable (actual length) as the numerator of the fraction and the scaled length as the denominator:</p><p>\\( \\frac{\\text{actual length}}{\\text{scaled length}} = \\frac{5}{2} \\)</p><p>Substitute the given values into the proportion and let \\( x \\) equal the unknown length:</p><p>\\( \\frac{x}{7.5} = \\frac{5}{2} \\)</p><p>Multiply both sides by 7.5 to solve for \\( x \\):</p><p>\\( x = 7.5 \\left(\\frac{5}{2}\\right) = 18.75 \\)</p><p>Alternatively, cross‑multiply to get \\( 2x = 37.5 \\) and then divide both sides by 2 to get 18.75.</p><p>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q36",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A New York City taxi charges an initial fee of $\\$2.50$ plus $\\$0.50$ for every 1/5 of a mile traveled. If Jim's total fare (not including tip) equals $\\$14.50$, how many miles did Jim travel?</p>",
+      "options": {
+        "A": "4.8 miles",
+        "B": "5.8 miles",
+        "C": "24 miles",
+        "D": "29 miles"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The total fare (not including tip) consists of a set initial fee of $\\$2.50$ plus a variable cost depending on the number of miles traveled, \\( x \\):</p><p>\\( \\$14.50 = \\$2.50 + \\text{variable cost} \\)</p><p>Hence, the variable cost equals $\\$12.00$.</p><p>Because every \\( \\frac{1}{5} \\) of a mile traveled costs an additional $\\$0.50$, multiplying by 5 shows that 1 mile costs $\\$2.50$. Divide the variable cost ($12) by the cost per mile ($2.50) to find the number of miles traveled:</p><p>\\( \\frac{12}{2.5} = 4.8 \\)</p><p>Hence, Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q37",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Arnold invested $\\$700$ in a savings account. After one year, his account balance was $\\$726.25$. What percent annual interest did his bank pay?</p>",
+      "options": {
+        "A": "2.5%",
+        "B": "3.75%",
+        "C": "4.25%",
+        "D": "5%"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>You can use the following formula to calculate the annual interest rate:</p><p>\\( \\text{interest rate} = \\frac{(\\text{new balance} - \\text{old balance})}{\\text{old balance}} \\times \\frac{100}{1} \\)</p><p>Plug in the given values:</p><p>\\( \\text{interest rate} = \\frac{(726.25 - 700)}{700} \\times \\frac{100}{1} \\)</p><p>First compute the interest earned: $726.25 - $700 = $26.25. Then \\( \\frac{26.25}{700} = 0.0375 \\), and multiplied by 100 gives 3.75%.</p><p>Alternatively, using the interest formula \\( I = Prt \\), with \\( I = 26.25 \\), \\( P = 700 \\), \\( t = 1 \\):</p><p>\\( 26.25 = 700 \\times r \\times 1 \\) → \\( r = \\frac{26.25}{700} = 0.0375 = 3.75\\% \\).</p><p>Hence, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q38",
+      "passageId": "becky-payroll",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following functions represents the total payroll (P) that Becky's restaurant pays for all of these types of workers?</p>",
+      "options": {
+        "A": "\\(P = 950y + 725x\\)",
+        "B": "\\(P = (950x)(725y)\\)",
+        "C": "\\(P = 950x + 725y\\)",
+        "D": "\\(P = (x + y)(950 + 725)\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The total payroll equals the cost of \\( x \\) cooks plus \\( y \\) waiters. Each cook earns an average of $\\$950$, so the payroll for \\( x \\) cooks equals \\( 950x \\). Similarly, each waiter earns an average of $\\$725$, so the payroll for \\( y \\) waiters equals \\( 725y \\). Hence, the total payroll for the cooks and the waiters is given by:</p><p>\\( P = 950x + 725y \\)</p><p>Thus, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q39",
+      "passageId": "becky-payroll",
+      "passageHighlight": "",
+      "questionHtml": "<p>Becky employs 5 cooks and can spend no more than $\\$9,825$ per week on the payroll for all her cooks and waiters. What is the maximum number of waiters that she can employ?</p>",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "7",
+        "D": "9"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Becky's total payroll cannot exceed $\\$9,825$. The amount she spends on the five cooks equals \\( 5 \\times \\$950 = \\$4,750 \\). The maximum amount left to spend on waiters is:</p><p>\\( \\$9,825 - \\$4,750 = \\$5,075 \\)</p><p>Each waiter receives an average of $\\$725$ per week, so the maximum number of waiters is:</p><p>\\( \\frac{\\$5,075}{\\$725} = 7 \\)</p><p>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q40",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>If \\(\\frac{2}{7} x = 31\\), what does \\(\\frac{4}{7} x\\) equal?</p>",
+      "options": {
+        "A": "15.5",
+        "B": "62",
+        "C": "108.5",
+        "D": "217"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Notice that \\( \\frac{4}{7}x \\) is exactly twice \\( \\frac{2}{7}x \\). Because \\( \\frac{2}{7}x = 31 \\), you can simply double both sides of the equation to get:</p><p>\\( \\frac{4}{7}x = 2 \\times 31 = 62 \\)</p><p>Therefore, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q41",
+      "passageId": "moving-company",
+      "passageHighlight": "",
+      "questionHtml": "<p>Sid rents a large van with 3 professional movers for 5 hours and drives a total of 42 miles. How much will the company charge him (not including tips or taxes)?</p>",
+      "options": {
+        "A": "$\\$500.00$",
+        "B": "$\\$525.00$",
+        "C": "$\\$550.00$",
+        "D": "$\\$552.50$"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The total fee includes the cost of a large van ($125), plus the cost of 3 professional movers for 5 hours, plus the cost of the miles driven.</p><p>The cost of 3 professional movers for 5 hours is:</p><p>\\( 3 \\times 18 \\times 5 = \\$270 \\)</p><p>The cost of the miles driven is:</p><p>\\( 42 \\times \\$3.75 = \\$157.50 \\)</p><p>Hence, the total cost equals:</p><p>\\( \\$125 + \\$270 + \\$157.50 = \\$552.50 \\)</p><p>Thus, Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q42",
+      "passageId": "moving-company",
+      "passageHighlight": "",
+      "questionHtml": "<p>Jenny's moving bill was $\\$450$ before taxes and tips. If taxes are 6% and she also wants to tip her three professional movers $\\$20$ each, what does her total bill equal?</p>",
+      "options": {
+        "A": "$\\$497$",
+        "B": "$\\$498.20$",
+        "C": "$\\$537$",
+        "D": "$\\$540.60$"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Calculate Jenny's bill when 6% tax is added:</p><p>\\( 1.06 \\times \\$450 = \\$477 \\)</p><p>Now calculate the tip for the 3 professional movers:</p><p>\\( 3 \\times \\$20 = \\$60 \\)</p><p>Now add the tip amount to the rest of the bill:</p><p>\\( \\$477 + \\$60 = \\$537 \\)</p><p>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q43",
+      "passageId": "line-graph-1",
+      "passageHighlight": "",
+      "questionHtml": "<p>What are the coordinates of point A?</p>",
+      "options": {
+        "A": "(4, 1)",
+        "B": "(1, 4)",
+        "C": "(-5, -4)",
+        "D": "(-4, -5)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Point A is located 4 along the \\( x \\)-axis and 1 along the \\( y \\)-axis. The \\( x \\)-coordinate always comes first, followed by the \\( y \\)-coordinate, making (4,1) the correct coordinates.</p><p>Hence, Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q44",
+      "passageId": "line-graph-1",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the slope of the line?</p>",
+      "options": {
+        "A": "\\(\\frac{4}{3}\\)",
+        "B": "\\(\\frac{3}{4}\\)",
+        "C": "\\(-\\frac{4}{3}\\)",
+        "D": "\\(-\\frac{3}{4}\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Find the slope by substituting the coordinates of A and B from the graph into the slope formula:</p><p>\\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\)</p><p>Using point A (4,1) and point B (-4,-5):</p><p>\\( m = \\frac{1 - (-5)}{4 - (-4)} = \\frac{6}{8} = \\frac{3}{4} \\)</p><p>Hence, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q45",
+      "passageId": "line-graph-1",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the equation of the line?</p>",
+      "options": {
+        "A": "\\(y = \\frac{4}{3}x - 2\\)",
+        "B": "\\(y = \\frac{3}{4}x - 2\\)",
+        "C": "\\(y = -2x + \\frac{3}{4}\\)",
+        "D": "\\(y = -2x + \\frac{4}{3}\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>We already found the slope \\( m = \\frac{3}{4} \\). The \\( y \\)-intercept \\( b \\) of the graph equals \\(-2\\) (where the graph crosses the \\( y \\)-axis). Hence, the equation of the line in the form \\( y = mx + b \\) is:</p><p>\\( y = \\frac{3}{4}x - 2 \\)</p><p>Thus, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q46",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A car dealership offers 45% off all its cars during its annual sale. Jessica pays $\\$7,150$ for her discounted vehicle. What was the original price of the car? Round your answer to the nearest dollar.</p>",
+      "options": {
+        "A": "$\\$3,933$",
+        "B": "$\\$10,368$",
+        "C": "$\\$13,000$",
+        "D": "$\\$15,889$"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Let the original price of the car equal \\( x \\). Jessica gets a discount of 45%, which means she pays only 55% of the original price. She paid $\\$7,150$. Therefore:</p><p>\\( \\$7,150 = 0.55x \\)</p><p>Solve for \\( x \\) by dividing both sides by 0.55:</p><p>\\( x = \\frac{\\$7,150}{0.55} = \\$13,000 \\)</p><p>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q47",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>On a sunny day, a tree casts a shadow that is 33 feet long. At the same time, a nearby 4-foot-tall mailbox casts a shadow that is 5.5 feet long. What is the height of the tree? Round your answer to the nearest foot.</p>",
+      "options": {
+        "A": "24 feet",
+        "B": "33 feet",
+        "C": "38 feet",
+        "D": "45 feet"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Set up a proportion for the mailbox with the height as the numerator of the fraction and the shadow length as the denominator:</p><p>\\( \\frac{\\text{height}}{\\text{shadow}} = \\frac{4}{5.5} \\)</p><p>Substitute the given shadow length of the tree into the proportion and let \\( x \\) equal the unknown height of the tree:</p><p>\\( \\frac{x}{33} = \\frac{4}{5.5} \\)</p><p>Multiply both sides by 33 to solve for \\( x \\):</p><p>\\( x = 33 \\times \\frac{4}{5.5} = 24 \\)</p><p>Alternatively, cross‑multiply: \\( 5.5x = 4 \\times 33 \\) → \\( 5.5x = 132 \\) → \\( x = 24 \\).</p><p>Hence, Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q48",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The hypotenuse of a right triangle is 17 inches. If one of the legs of the triangle is 8 inches long, what is the length of the other leg?</p>",
+      "options": {
+        "A": "8 inches",
+        "B": "12 inches",
+        "C": "15 inches",
+        "D": "19 inches"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Because the triangle is a right triangle, use the Pythagorean theorem: \\( a^2 + b^2 = c^2 \\), where \\( c \\) is the hypotenuse and \\( a \\) and \\( b \\) are the legs. Let the missing side be \\( a \\). Substitute the given values:</p><p>\\( a^2 + 8^2 = 17^2 \\)</p><p>\\( a^2 + 64 = 289 \\)</p><p>\\( a^2 = 225 \\)</p><p>\\( a = 15 \\) (since length is positive)</p><p>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q49",
+      "passageId": "number-line-graph",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the value of A minus E?</p>",
+      "options": {
+        "A": "-13",
+        "B": "-11",
+        "C": "-7",
+        "D": "7"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>From the line graph, you can see that \\( A = -9 \\) and \\( E = -2 \\). Therefore, \\( A \\) minus \\( E \\) equals:</p><p>\\( (-9) - (-2) = -9 + 2 = -7 \\)</p><p>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q50",
+      "passageId": "number-line-graph",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the product of A times C times D times E?</p>",
+      "options": {
+        "A": "-126",
+        "B": "0",
+        "C": "63",
+        "D": "126"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>From the line graph, you can see that \\( A = -9 \\), \\( C = 7 \\), \\( D = 0 \\), and \\( E = -2 \\). Therefore:</p><p>\\( A \\times C \\times D \\times E = (-9) \\times 7 \\times 0 \\times (-2) = 0 \\)</p><p>Multiplying any number by zero equals zero, so Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q51",
+      "passageId": "number-line-graph",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following is true?</p>",
+      "options": {
+        "A": "\\(|A| < |C|\\)",
+        "B": "\\(|D| > |E|\\)",
+        "C": "\\(-|E| < A\\)",
+        "D": "\\(-A > |E| + |B|\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>From the line graph: \\( A = -9 \\), \\( B = -4 \\), \\( C = 7 \\), \\( D = 0 \\), \\( E = -2 \\). Compute absolute values: \\( |A| = 9 \\), \\( |B| = 4 \\), \\( |C| = 7 \\), \\( |D| = 0 \\), \\( |E| = 2 \\).</p><p>Now check each option:<br>(A) \\( 9 < 7 \\) is false.<br>(B) \\( 0 > 2 \\) is false.<br>(C) \\( -2 < -9 \\) is false.<br>(D) \\( -A = 9 \\), \\( |E| + |B| = 2 + 4 = 6 \\), so \\( 9 > 6 \\) is true.</p><p>Hence, Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q52",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>If \\(x^{2} - 5x = 24\\), which of the following is a possible value of \\(x\\)?</p>",
+      "options": {
+        "A": "-8",
+        "B": "-3",
+        "C": "8",
+        "D": "3"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>There are at least two ways to solve this problem: substitution or solving the quadratic.</p><p><strong>Method 1 – Substitution:</strong> Substitute each choice into the equation. Only Choice (C) works: \\( 8^2 - 5(8) = 64 - 40 = 24 \\).</p><p><strong>Method 2 – Solve the quadratic:</strong> Rewrite the equation as \\( x^2 - 5x - 24 = 0 \\). Factor: \\( (x + 3)(x - 8) = 0 \\). This gives \\( x = -3 \\) or \\( x = 8 \\).</p><p>Thus, 8 is a possible value. Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q53",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>\\((x + y)^2\\) is equivalent to which of the following?</p>",
+      "options": {
+        "A": "\\(x^{2} + y^{2}\\)",
+        "B": "\\(x^{2}y^{2}\\)",
+        "C": "\\(x^{2} + y^{2} + 2xy\\)",
+        "D": "\\(2x + 2y\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Rewrite the expression: \\( (x + y)^2 = (x + y)(x + y) \\).</p><p>Use FOIL (First, Outer, Inner, Last):<br>First: \\( x \\cdot x = x^2 \\)<br>Outer: \\( x \\cdot y = xy \\)<br>Inner: \\( y \\cdot x = xy \\)<br>Last: \\( y \\cdot y = y^2 \\)</p><p>Add them: \\( x^2 + xy + xy + y^2 = x^2 + 2xy + y^2 \\).</p><p>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q54",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A cube has a surface area of 216 square inches. What is its volume in cubic inches?</p>",
+      "options": {
+        "A": "6",
+        "B": "36",
+        "C": "108",
+        "D": "216"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The surface area (SA) of a cube is given by \\( SA = 6s^2 \\), where \\( s \\) is the side length. Substitute 216 for SA:</p><p>\\( 216 = 6s^2 \\) → \\( s^2 = 36 \\) → \\( s = 6 \\) (since side length is positive).</p><p>The volume of a cube is \\( V = s^3 = 6^3 = 216 \\) cubic inches.</p><p>Hence, Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q55",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>\\(\\sqrt{162}\\) is equivalent to which of the following?</p>",
+      "options": {
+        "A": "\\(3\\sqrt{2}\\)",
+        "B": "\\(9\\sqrt{2}\\)",
+        "C": "\\(54\\sqrt{3}\\)",
+        "D": "\\(2\\sqrt{81}\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Split 162 into two factors so that one factor has a square root that is an integer:</p><p>\\( \\sqrt{162} = \\sqrt{81 \\times 2} = \\sqrt{81} \\times \\sqrt{2} = 9\\sqrt{2} \\)</p><p>Thus, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q56",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>\\(\\sqrt{129}\\) is between which numbers?</p>",
+      "options": {
+        "A": "10 and 11",
+        "B": "11 and 12",
+        "C": "14 and 15",
+        "D": "64 and 65"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>129 lies between the square numbers 121 and 144. Therefore:</p><p>\\( \\sqrt{121} < \\sqrt{129} < \\sqrt{144} \\) → \\( 11 < \\sqrt{129} < 12 \\)</p><p>Hence, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q57",
+      "passageId": "nut-bag",
+      "passageHighlight": "",
+      "questionHtml": "<p>What fraction of the nuts were cashews? Reduce your answer to its lowest terms.</p>",
+      "options": {
+        "A": "\\(\\frac{12}{40}\\)",
+        "B": "\\(\\frac{3}{40}\\)",
+        "C": "\\(\\frac{3}{10}\\)",
+        "D": "\\(\\frac{5}{20}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Total nuts = 40, cashews = 12. The fraction of cashews is \\( \\frac{12}{40} \\). Reduce to lowest terms by dividing numerator and denominator by 4:</p><p>\\( \\frac{12 \\div 4}{40 \\div 4} = \\frac{3}{10} \\)</p><p>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q58",
+      "passageId": "nut-bag",
+      "passageHighlight": "",
+      "questionHtml": "<p>Steven takes 2 nuts out of the bag without looking at them or replacing them. What is the probability that both of the nuts are peanuts? Reduce your answer to its lowest terms.</p>",
+      "options": {
+        "A": "\\(\\frac{1}{260}\\)",
+        "B": "\\(\\frac{3}{260}\\)",
+        "C": "\\(\\frac{1}{130}\\)",
+        "D": "\\(\\frac{3}{130}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>There are 3 peanuts out of a total of 40 nuts. The probability of selecting a peanut on the first pick is \\( \\frac{3}{40} \\). After removing one peanut, 2 peanuts remain out of 39 nuts. The probability of selecting a peanut on the second pick is \\( \\frac{2}{39} \\).</p><p>Multiply the probabilities: \\( \\frac{3}{40} \\times \\frac{2}{39} = \\frac{6}{1560} \\). Reduce by dividing numerator and denominator by 6:</p><p>\\( \\frac{6 \\div 6}{1560 \\div 6} = \\frac{1}{260} \\)</p><p>Thus, Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q59",
+      "passageId": "nut-bag",
+      "passageHighlight": "",
+      "questionHtml": "<p>If the bag of nuts cost Steven $5.20, what was the average cost per nut?</p>",
+      "options": {
+        "A": "$0.08",
+        "B": "$0.11",
+        "C": "$0.13",
+        "D": "$0.17"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>To find the average cost per nut, divide the total cost by the number of nuts:</p><p>\\( \\frac{\\$5.20}{40} = \\$0.13 \\)</p><p>Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q60",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Solve the following equation for x: \\(19 - 2x = -1\\)</p>",
+      "options": {
+        "A": "9",
+        "B": "10",
+        "C": "-9",
+        "D": "-10"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Add \\( 2x \\) to both sides of the equation:</p><p>\\( 19 = 2x - 1 \\)</p><p>Now add 1 to both sides:</p><p>\\( 20 = 2x \\)</p><p>Divide both sides by 2:</p><p>\\( x = 10 \\)</p><p>Hence, Choice (B) is correct.</p>"
+    }
+  ]
+}

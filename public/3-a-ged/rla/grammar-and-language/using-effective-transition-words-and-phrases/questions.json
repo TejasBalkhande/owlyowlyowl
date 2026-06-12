@@ -1,0 +1,276 @@
+{
+  "passages": [
+    {
+      "passageId": "passage-q1",
+      "passageHtml": "<p>The company reported record profits this quarter; _____ the CEO announced a freeze on all new hiring, citing \"economic uncertainty.\"</p>"
+    },
+    {
+      "passageId": "passage-q2",
+      "passageHtml": "<p>Many historians argue that the treaty prevented a wider war; _____ some critics claim it merely laid the groundwork for future conflicts.</p>"
+    },
+    {
+      "passageId": "passage-q3",
+      "passageHtml": "<p>The new software was designed to be user-friendly; _____ the majority of test subjects required additional training to perform basic tasks.</p>"
+    },
+    {
+      "passageId": "passage-q4",
+      "passageHtml": "<p>The candidate promised to lower taxes, reduce regulation, and balance the budget; _____, she offered no specific plan to achieve all three goals at once.</p>"
+    },
+    {
+      "passageId": "passage-q5",
+      "passageHtml": "<p>The experiment was conducted under strictly controlled conditions; _____, the results varied widely from one trial to the next.</p>"
+    },
+    {
+      "passageId": "passage-q6",
+      "passageHtml": "<p>The ancient manuscript was badly damaged by fire; _____ a few key passages remained legible enough to change historians' understanding of the period.</p>"
+    },
+    {
+      "passageId": "passage-q7",
+      "passageHtml": "<p>The new manufacturing process reduces waste by 40%; _____ it requires a significant upfront investment in retooling that many small factories cannot afford.</p>"
+    },
+    {
+      "passageId": "passage-q8",
+      "passageHtml": "<p>The witness claimed she saw the defendant leave the building at 9:00 PM; _____ security footage showed the defendant had already been in police custody since 8:30 PM.</p>"
+    },
+    {
+      "passageId": "passage-q9",
+      "passageHtml": "<p>The training program was voluntary, and most employees chose not to participate; _____, the company saw a 20% increase in productivity across all departments.</p>"
+    },
+    {
+      "passageId": "passage-q10",
+      "passageHtml": "<p>The recipe calls for letting the dough rise for at least two hours; _____, the bread will be dense and heavy.</p>"
+    },
+    {
+      "passageId": "passage-q11",
+      "passageHtml": "<p>The city's new recycling program initially reduced landfill waste by nearly 30%; _____ the savings in disposal costs have not yet offset the program's startup expenses.</p>"
+    },
+    {
+      "passageId": "passage-q12",
+      "passageHtml": "<p>The study found that students who slept at least eight hours scored 15% higher on average; _____ the researchers warned that correlation does not prove causation.</p>"
+    },
+    {
+      "passageId": "passage-q13",
+      "passageHtml": "<p>The hurricane destroyed the town's main power grid; _____ emergency generators kept the hospital running for the next 72 hours.</p>"
+    },
+    {
+      "passageId": "passage-q14",
+      "passageHtml": "<p>To qualify for the scholarship, a student must maintain a 3.5 GPA and complete 20 volunteer hours; _____ all application materials must be submitted by May 1st.</p>"
+    },
+    {
+      "passageId": "passage-q15",
+      "passageHtml": "<p>The manager expected the team to finish the project by Friday; _____ she approved overtime pay for the weekend just in case.</p>"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q1-001",
+      "passageId": "passage-q1",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the option that correctly completes the sentence.</p>",
+      "options": {
+        "A": "for example",
+        "B": "nevertheless",
+        "C": "consequently",
+        "D": "otherwise"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Why B is correct:</strong> The first clause says profits were record (positive/expected to lead to hiring). The second clause contradicts that expectation (hiring freeze). \"Nevertheless\" shows contrast.</p><p><strong>Why the distractors are strong:</strong><br/>A. for example – does not fit contrast.<br/>C. consequently – would imply hiring freeze follows from profits (illogical).<br/>D. otherwise – implies a conditional, not contrast.</p>"
+    },
+    {
+      "questionId": "q2-001",
+      "passageId": "passage-q2",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the option that correctly completes the sentence.</p>",
+      "options": {
+        "A": "in other words",
+        "B": "on the contrary",
+        "C": "likewise",
+        "D": "as a result"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Why B is correct:</strong> The first clause gives one historical view; the second directly opposes it (critics say it laid groundwork for war). \"On the contrary\" is used to refute or contrast strongly.</p><p><strong>Why the distractors are strong:</strong><br/>A. in other words – restates, does not refute.<br/>C. likewise – adds similarity, not opposition.<br/>D. as a result – shows cause-effect, which is illogical here.</p>"
+    },
+    {
+      "questionId": "q3-001",
+      "passageId": "passage-q3",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the option that correctly completes the sentence.</p>",
+      "options": {
+        "A": "for instance",
+        "B": "therefore",
+        "C": "subsequently",
+        "D": "however"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p><strong>Why D is correct:</strong> Software claimed to be user-friendly, but test subjects needed extra training – a direct contradiction. \"However\" signals contrast.</p><p><strong>Why the distractors are strong:</strong><br/>A. for instance – gives an example (no example follows).<br/>B. therefore – implies cause-effect (being user-friendly caused need for training? illogical).<br/>C. subsequently – only shows time sequence without contrast.</p>"
+    },
+    {
+      "questionId": "q4-001",
+      "passageId": "passage-q4",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the option that correctly completes the sentence.</p>",
+      "options": {
+        "A": "in addition",
+        "B": "similarly",
+        "C": "yet",
+        "D": "hence"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Why C is correct:</strong> The candidate made ambitious promises (positive, forward), but then lacked a plan – a concession or contradiction. \"Yet\" works like \"but\" for contrast.</p><p><strong>Why the distractors are strong:</strong><br/>A. in addition – adds similar info, not contrast.<br/>B. similarly – compares, not contrasts.<br/>D. hence – shows logical result (no plan would follow from promises? illogical).</p>"
+    },
+    {
+      "questionId": "q5-001",
+      "passageId": "passage-q5",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the option that correctly completes the sentence.</p>",
+      "options": {
+        "A": "otherwise",
+        "B": "nevertheless",
+        "C": "accordingly",
+        "D": "consequently"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Why B is correct:</strong> Controlled conditions should produce consistent results, but results varied – unexpected contrast. \"Nevertheless\" indicates \"despite that.\"</p><p><strong>Why the distractors are strong:</strong><br/>A. otherwise – implies alternative condition, not contrast.<br/>C. accordingly – shows logical consequence (consistent results would follow, not varied).<br/>D. consequently – also suggests cause-effect (varied results because of controlled conditions? illogical).</p>"
+    },
+    {
+      "questionId": "q6-001",
+      "passageId": "passage-q6",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the option that correctly completes the sentence.</p>",
+      "options": {
+        "A": "for instance",
+        "B": "consequently",
+        "C": "nevertheless",
+        "D": "similarly"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Why C is correct:</strong> Fire caused damage (negative), but some passages survived (positive/contrary expectation). \"Nevertheless\" shows contrast.</p><p><strong>Why the distractors are strong:</strong><br/>A. for instance – would introduce an example – no example follows.<br/>B. consequently – would mean \"because of fire, passages remained\" – illogical.<br/>D. similarly – suggests comparison – no second similar item.</p>"
+    },
+    {
+      "questionId": "q7-001",
+      "passageId": "passage-q7",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the option that correctly completes the sentence.</p>",
+      "options": {
+        "A": "in contrast",
+        "B": "therefore",
+        "C": "in addition",
+        "D": "otherwise"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Why A is correct:</strong> Benefit (reduces waste) vs. drawback (expensive retooling) – direct contrast. \"In contrast\" highlights opposing aspects.</p><p><strong>Why the distractors are strong:</strong><br/>B. therefore – implies the drawback follows from the benefit – illogical.<br/>C. in addition – adds a similar point, but a drawback is not similar to a benefit here.<br/>D. otherwise – shows condition (\"if not, then\") – no condition structure.</p>"
+    },
+    {
+      "questionId": "q8-001",
+      "passageId": "passage-q8",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the option that correctly completes the sentence.</p>",
+      "options": {
+        "A": "as a result",
+        "B": "for example",
+        "C": "meanwhile",
+        "D": "however"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p><strong>Why D is correct:</strong> Witness says one time (9 PM), but security footage proves impossibility (in custody since 8:30) – contradiction. \"However\" signals contrast/refutation.</p><p><strong>Why the distractors are strong:</strong><br/>A. as a result – would mean footage follows from witness claim – nonsense.<br/>B. for example – gives an example of what? None.<br/>C. meanwhile – suggests simultaneous events – but these contradict, not coexist.</p>"
+    },
+    {
+      "questionId": "q9-001",
+      "passageId": "passage-q9",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the option that correctly completes the sentence.</p>",
+      "options": {
+        "A": "consequently",
+        "B": "nonetheless",
+        "C": "likewise",
+        "D": "specifically"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Why B is correct:</strong> Employees didn't participate (expected outcome = no improvement), yet productivity rose anyway – unexpected result. \"Nonetheless\" = \"despite that.\"</p><p><strong>Why the distractors are strong:</strong><br/>A. consequently – would mean \"because they didn't participate, productivity rose\" – false cause.<br/>C. likewise – adds a similar situation – not present.<br/>D. specifically – introduces detail – no detail follows.</p>"
+    },
+    {
+      "questionId": "q10-001",
+      "passageId": "passage-q10",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the option that correctly completes the sentence.</p>",
+      "options": {
+        "A": "otherwise",
+        "B": "for example",
+        "C": "in addition",
+        "D": "similarly"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Why A is correct:</strong> If you don't let dough rise 2+ hours (condition not met), the result is dense bread. \"Otherwise\" = \"if not.\"</p><p><strong>Why the distractors are strong:</strong><br/>B. for example – no example given.<br/>C. in addition – adds info, not a condition.<br/>D. similarly – compares two things, not a warning/condition.</p>"
+    },
+    {
+      "questionId": "q11-001",
+      "passageId": "passage-q11",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the option that correctly completes the sentence.</p>",
+      "options": {
+        "A": "however",
+        "B": "moreover",
+        "C": "for instance",
+        "D": "consequently"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Why A is correct:</strong> Positive result (30% less waste) but negative financial outcome (costs not offset). \"However\" signals this contrast.</p><p><strong>Why the distractors are strong:</strong><br/>B. moreover – adds a similar positive point, but second point is negative.<br/>C. for instance – gives an example – no example follows.<br/>D. consequently – implies cost issue results from waste reduction – illogical (separate, not cause-effect).</p>"
+    },
+    {
+      "questionId": "q12-001",
+      "passageId": "passage-q12",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the option that correctly completes the sentence.</p>",
+      "options": {
+        "A": "likewise",
+        "B": "in other words",
+        "C": "nevertheless",
+        "D": "therefore"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p><strong>Why C is correct:</strong> Finding (sleep helps scores) but warning (don't assume causation). \"Nevertheless\" shows concession/contrast.</p><p><strong>Why the distractors are strong:</strong><br/>A. likewise – adds a similar finding – no second finding.<br/>B. in other words – restates – warning is a different idea.<br/>D. therefore – would mean \"because scores are higher, we conclude causation\" – opposite of the warning.</p>"
+    },
+    {
+      "questionId": "q13-001",
+      "passageId": "passage-q13",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the option that correctly completes the sentence.</p>",
+      "options": {
+        "A": "as a result",
+        "B": "for example",
+        "C": "otherwise",
+        "D": "even so"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p><strong>Why D is correct:</strong> Power grid destroyed (negative) yet generators worked (positive outcome). \"Even so\" means \"nevertheless.\"</p><p><strong>Why the distractors are strong:</strong><br/>A. as a result – would mean generators worked because of destruction – nonsense.<br/>B. for example – no example.<br/>C. otherwise – implies a conditional (\"if not\") – no condition here.</p>"
+    },
+    {
+      "questionId": "q14-001",
+      "passageId": "passage-q14",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the option that correctly completes the sentence.</p>",
+      "options": {
+        "A": "in contrast",
+        "B": "in addition",
+        "C": "consequently",
+        "D": "similarly"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p><strong>Why B is correct:</strong> Two requirements (GPA/volunteer) plus a third (May 1st deadline). Simple addition, not contrast or result.</p><p><strong>Why the distractors are strong:</strong><br/>A. in contrast – introduces opposite requirement – no opposition.<br/>C. consequently – implies deadline is a result of first requirements – illogical (deadline is separate).<br/>D. similarly – compares two like things – here it's adding a new requirement, not comparing.</p>"
+    },
+    {
+      "questionId": "q15-001",
+      "passageId": "passage-q15",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the option that correctly completes the sentence.</p>",
+      "options": {
+        "A": "hence",
+        "B": "instead",
+        "C": "meanwhile",
+        "D": "for example"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p><strong>Why A is correct:</strong> Expectation (finish by Friday) leads to logical consequence (approve overtime just in case). \"Hence\" = \"for this reason.\"</p><p><strong>Why the distractors are strong:</strong><br/>B. instead – suggests doing the opposite – but overtime is a backup, not an opposite.<br/>C. meanwhile – suggests simultaneous unrelated action – no.<br/>D. for example – no specific example given.</p>"
+    }
+  ]
+}

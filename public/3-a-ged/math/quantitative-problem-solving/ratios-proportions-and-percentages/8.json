@@ -1,0 +1,442 @@
+{
+  "passages": [
+    {
+      "passageId": "semicircle-rectangle",
+      "passageHtml": "<p>A shape consists of a rectangle with a semicircular top. The rectangle has width 20 mm and height 30 mm. The semicircle sits on top of the rectangle, with its diameter equal to the width of the rectangle (20 mm).</p><image src=\"/3-i-ged/image24.png\" alt=\"Rectangle with semicircular top: width 20 mm, height 30 mm, semicircle radius 10 mm\" />"
+    },
+    {
+      "passageId": "plane-seating",
+      "passageHtml": "<p>A plane has a seating capacity of 160 passengers, 40 in first class and the rest in economy class. The average first-class ticket costs $\\$1,200$, and the average ticket in economy class is $\\$400$.</p>"
+    },
+    {
+      "passageId": "janet-paycheck",
+      "passageHtml": "<p>The details of Janet's paycheck are shown here.</p>\\(\\begin{array}{c|c} \\text{Salary Details} & \\text{Amount in Dollars} \\\\ \\hline \\text{Gross salary} & 1,012 \\\\ \\text{Federal taxes} & 234 \\\\ \\text{State taxes} & 128 \\\\ \\text{Social Security} & 27 \\end{array}\\)"
+    },
+    {
+      "passageId": "triangle-transformation",
+      "passageHtml": "<p>A coordinate plane shows triangles ODC and OBA. Point O is the origin. The triangles are related by a transformation.</p><image src=\"/3-i-ged/image25.png\" alt=\"Triangle ODC and triangle OBA on coordinate grid\" />"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q213",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the missing value in the following table?</p>\\(\\begin{array}{c|c} x & f(x) \\\\ \\hline 0 & -4 \\\\ 2 & 2 \\\\ 4 & ? \\\\ 6 & 14 \\end{array}\\)",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "7",
+        "D": "8"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>From the table, the x values increase by 2 while the value of the function increases by 6 in each row.<br/>When x equals 2, f(x) = 2; therefore, when x equals 4, f(x) = 8.</p>"
+    },
+    {
+      "questionId": "q214",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Janice's car averages 32 miles per gallon (mpg) and holds approximately 13 gallons of gas. If she is driving from Boston to Arizona and the distance between the two locations is 2,220 miles, how many tanks of gas will she need?</p>",
+      "options": {
+        "A": "4 tanks",
+        "B": "5 tanks",
+        "C": "6 tanks",
+        "D": "7 tanks"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Calculate the number of miles the car can do on one tank by multiplying 32 by 13, which is 416 miles.<br/>Then divide the miles of the trip by the miles for one tank: 2,220 ÷ 416 = 5.336.<br/>This means the correct answer is 6 tanks, because five tanks wouldn't be enough to make it.</p>"
+    },
+    {
+      "questionId": "q215",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following is equivalent to 45% ?</p>",
+      "options": {
+        "A": "4.5",
+        "B": "0.045",
+        "C": "\\(\\frac{9}{10}\\)",
+        "D": "\\(\\frac{9}{20}\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>To convert a percentage into a decimal, divide by 100 (move the decimal point two places to the left) to get 0.45, which rules out Choices (A) and (B).<br/>To write a percentage as a fraction, write the percent over 100 and simplify: \\(\\frac{45}{100} = \\frac{9}{20}\\).</p>"
+    },
+    {
+      "questionId": "q216",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Find the value of x in the figure.</p><image src=\"/3-i-ged/image23.png\" alt=\"Triangle with exterior angle: one interior angle 25°, another interior angle (x+15)°, exterior angle (3x-10)°\" />",
+      "options": {
+        "A": "25",
+        "B": "40",
+        "C": "65",
+        "D": "115"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The measure of the exterior angle of a triangle is equal to the sum of the nonadjacent interior angles of the triangle; therefore, <br/>\\(3x - 10 = 25 + (x + 15)\\).<br/>Solving for x gives \\(2x = 50\\), so \\(x = 25\\).</p>"
+    },
+    {
+      "questionId": "q217",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Simplify \\(3\\sqrt{5x^6} + 6\\sqrt{5x^6}\\) completely.</p>",
+      "options": {
+        "A": "\\(9\\sqrt{10x^{12}}\\)",
+        "B": "\\(9x^2\\sqrt{10}\\)",
+        "C": "\\(9\\sqrt{10x^6}\\)",
+        "D": "\\(9x^3\\sqrt{5}\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>When combining radicals, first check that the radicands (the expressions under the radical symbols) are the same. Because they are, add the two coefficients together and leave the radicands alone:<br/>\\(3\\sqrt{5x^6} + 6\\sqrt{5x^6} = (3+6)\\sqrt{5x^6} = 9\\sqrt{5x^6}\\).<br/>Since \\(\\sqrt{x^6} = x^3\\), this simplifies to \\(9x^3\\sqrt{5}\\).</p>"
+    },
+    {
+      "questionId": "q218",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following is listed in ascending order?</p>",
+      "options": {
+        "A": "\\(\\frac{1}{3}, 0.3, 1\\frac{2}{5}, 250\\%\\)",
+        "B": "\\(\\frac{1}{3}, 250\\%, 0.3, 1\\frac{2}{5}\\)",
+        "C": "\\(0.3, \\frac{1}{3}, 1\\frac{2}{5}, 250\\%\\)",
+        "D": "\\(\\frac{1}{3}, 0.3, 1\\frac{2}{5}, 250\\%\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Comparing numbers in different forms is difficult, so rewrite them all in the same form (decimals are usually the easiest):<br/>\\(\\frac{1}{3} = 0.\\overline{3}\\), 0.3 is already a decimal, \\(1\\frac{2}{5}=1.4\\), and \\(250\\% = 2.5\\).<br/>Ascending order means smallest to largest: 0.3, 0.333..., 1.4, 2.5.<br/>Substituting back the original values gives \\(0.3, \\frac{1}{3}, 1\\frac{2}{5}, 250\\%\\).</p>"
+    },
+    {
+      "questionId": "q219",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Emily's garden has the same value for its perimeter and its area. Which of the following could be the shape and dimensions of her garden? (Note: You may not use a calculator.)</p>",
+      "options": {
+        "A": "rectangle; 2 ft x 8 ft",
+        "B": "square; 5 ft x 5 ft",
+        "C": "circle; radius = 2 ft",
+        "D": "right triangle; 3 ft x 4 ft x 5 ft"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Calculate the area and perimeter of each option:<br/>- Choice (A): rectangle area = 2 × 8 = 16 sq ft, perimeter = 2(2+8)=20 ft → not equal.<br/>- Choice (B): square area = 5 × 5 = 25 sq ft, perimeter = 4×5=20 ft → not equal.<br/>- Choice (C): circle area = \\(\\pi r^2 = \\pi (2)^2 = 4\\pi\\) sq ft, circumference = \\(2\\pi r = 4\\pi\\) ft → equal.<br/>- Choice (D): right triangle area = \\(\\frac{1}{2}(3)(4)=6\\) sq ft, perimeter = 3+4+5=12 ft → not equal.<br/>Therefore, the correct answer is (C).</p>"
+    },
+    {
+      "questionId": "q220",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Ryan works at a coffee shop that sells an average of 107 cups of coffee an hour. If one pot of coffee fills 10 cups, how many pots of coffee will the shop go through on an average day if the shop opens at 7:00 a.m. and closes at 4:00 p.m.?</p>",
+      "options": {
+        "A": "96",
+        "B": "97",
+        "C": "963",
+        "D": "1,070"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Average cups per hour = 107, so pots per hour = 107 ÷ 10 = 10.7 pots.<br/>The shop is open for 9 hours (from 7:00 a.m. to 4:00 p.m.).<br/>Total pots needed = 10.7 × 9 = 96.3 pots, which means the shop will need to brew 97 pots to have enough coffee.<br/>Alternatively, total cups per day = 9 × 107 = 963 cups. Dividing by 10 cups per pot gives 96.3 pots → round up to 97 pots.</p>"
+    },
+    {
+      "questionId": "q221",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Cory likes to ride his hoverboard and can travel at a speed of 11 miles per hour. How fast does Cory go in feet per minute?</p>",
+      "options": {
+        "A": "968",
+        "B": "880",
+        "C": "1056",
+        "D": "792"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>One mile equals 5,280 feet; therefore, 11 miles equals 11 × 5,280 = 58,080 feet per hour.<br/>To convert to feet per minute, divide by 60 (since there are 60 minutes in an hour): 58,080 ÷ 60 = 968 feet per minute.</p>"
+    },
+    {
+      "questionId": "q222",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following is equivalent to 3,888?</p>",
+      "options": {
+        "A": "\\(5^{2}2^{5}\\)",
+        "B": "\\(2^{3}3^{5}\\)",
+        "C": "\\(3^{4}5^{3}\\)",
+        "D": "\\(2^{4}3^{5}\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Work backward from the answer choices to see which set of factors equals 3,888:<br/>- Choice (A): \\(5^2 \\cdot 2^5 = 25 \\times 32 = 800\\)<br/>- Choice (B): \\(2^3 \\cdot 3^5 = 8 \\times 243 = 1,944\\)<br/>- Choice (C): \\(3^4 \\cdot 5^3 = 81 \\times 125 = 10,125\\)<br/>- Choice (D): \\(2^4 \\cdot 3^5 = 16 \\times 243 = 3,888\\)<br/>Thus, the correct answer is (D).</p>"
+    },
+    {
+      "questionId": "q223",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The surface area of a cube equals 150 in². What is its volume in cubic inches?</p>",
+      "options": {
+        "A": "5",
+        "B": "100",
+        "C": "125",
+        "D": "150"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The surface area of a cube is given by \\(SA = 6s^2\\), where \\(s\\) is the side length.<br/>\\(150 = 6s^2\\) → \\(s^2 = 25\\) → \\(s = 5\\) inches.<br/>The volume is \\(V = s^3 = 5^3 = 125\\) cubic inches.</p>"
+    },
+    {
+      "questionId": "q224",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>If \\(x = p^{5}\\), \\(y = p^{-4}\\), and \\(z = p\\), simplify the following expression, leaving your answer in terms of \\(p\\). \\(\\left(\\frac{x\\cdot y}{z}\\right)^{5}\\)</p>",
+      "options": {
+        "A": "0",
+        "B": "\\(p^{-50}\\)",
+        "C": "\\(p^{-20}\\)",
+        "D": "1"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Substitute the values for \\(x, y,\\) and \\(z\\) into the expression:<br/>\\(\\left(\\frac{p^{5} \\cdot p^{-4}}{p}\\right)^{5} = \\left(\\frac{p^{5-4}}{p}\\right)^{5} = \\left(\\frac{p^{1}}{p}\\right)^{5} = 1^{5} = 1\\).</p>"
+    },
+    {
+      "questionId": "q225",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>In a triangle, the sides have a ratio of 3:7:10. If the perimeter is 210 feet, what is the length of the longest side in feet?</p>",
+      "options": {
+        "A": "10.5",
+        "B": "31.5",
+        "C": "73.5",
+        "D": "105"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Let the sides be \\(3x, 7x,\\) and \\(10x\\). The perimeter is the sum:<br/>\\(3x + 7x + 10x = 20x = 210\\) → \\(x = 10.5\\).<br/>The longest side is \\(10x = 10 \\times 10.5 = 105\\) feet.</p>"
+    },
+    {
+      "questionId": "q226",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>If \\(x\\) is a positive integer and \\(f(x) = \\frac{14 + x}{2 + x}\\), then</p>",
+      "options": {
+        "A": "\\(f(x) \\leq 5\\)",
+        "B": "\\(f(x) = 5\\)",
+        "C": "\\(f(x) > 5\\)",
+        "D": "\\(f(x)\\) is sometimes less than 5 and sometimes greater than 5, depending upon the value of \\(x\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Substitute a few positive integer values for \\(x\\) to see the trend:<br/>\\(f(1) = \\frac{15}{3} = 5\\), \\(f(2) = \\frac{16}{4} = 4\\), \\(f(3) = \\frac{17}{5} = 3.4\\), \\(f(4) = \\frac{18}{6} = 3\\).<br/>As \\(x\\) increases, \\(f(x)\\) decreases and approaches 1 from above.<br/>The maximum value is 5, so \\(f(x) \\leq 5\\).</p>"
+    },
+    {
+      "questionId": "q227",
+      "passageId": "semicircle-rectangle",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the perimeter of the shape?</p>",
+      "options": {
+        "A": "\\(50 + 20\\pi\\)",
+        "B": "\\(50\\pi + 600\\)",
+        "C": "\\(80 + 10\\pi\\)",
+        "D": "\\(100 + 20\\pi\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The curved part of the semicircle equals half the circumference of a full circle with diameter 20 mm.<br/>Full circumference = \\(\\pi d = 20\\pi\\), so half = \\(10\\pi\\).<br/>The remaining perimeter consists of the two sides (30 mm each) and the bottom (20 mm): \\(20 + 30 + 30 = 80\\).<br/>Total perimeter = \\(80 + 10\\pi\\).</p>"
+    },
+    {
+      "questionId": "q228",
+      "passageId": "semicircle-rectangle",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the area of the shape?</p>",
+      "options": {
+        "A": "\\(20\\pi + 600\\)",
+        "B": "\\(50\\pi + 600\\)",
+        "C": "\\(200\\pi + 600\\)",
+        "D": "\\(400\\pi + 600\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The area of the rectangle is \\(20 \\times 30 = 600\\) mm².<br/>The area of the semicircle is half the area of a full circle with radius 10 mm: \\(\\frac{1}{2} \\pi r^2 = \\frac{1}{2} \\pi (10)^2 = 50\\pi\\).<br/>Total area = \\(50\\pi + 600\\).</p>"
+    },
+    {
+      "questionId": "q229",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Harry rents a power drill from 8:30 a.m. until 3:30 p.m. on the same day. He paid a total of $25.06. What was the hourly rental fee, rounded to the nearest penny? (Note: You may not use a calculator.)</p>",
+      "options": {
+        "A": "$3.13",
+        "B": "$3.58",
+        "C": "$2.23",
+        "D": "$2.51"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Harry rented the power drill for 7 hours (from 8:30 a.m. to 3:30 p.m.).<br/>To find the hourly cost, divide the total cost by the number of hours:<br/>\\(25.06 \\div 7 = 3.58\\).<br/>Thus, the hourly rental fee is $3.58.</p>"
+    },
+    {
+      "questionId": "q230",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the value of \\(\\frac{x^2 - 6x + 9}{x^2 - 6x}\\) when \\(x = -3\\)?</p>",
+      "options": {
+        "A": "2",
+        "B": "9",
+        "C": "\\(\\frac{4}{3}\\)",
+        "D": "\\(\\frac{2}{3}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Substitute \\(x = -3\\) into the expression:<br/>Numerator: \\((-3)^2 - 6(-3) + 9 = 9 + 18 + 9 = 36\\).<br/>Denominator: \\((-3)^2 - 6(-3) = 9 + 18 = 27\\).<br/>The fraction simplifies to \\(\\frac{36}{27} = \\frac{4}{3}\\).</p>"
+    },
+    {
+      "questionId": "q231",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Sammy earns a weekly base salary of $\\$750$ as a shoe salesman. He also earns a 6% commission on his monthly sales after the first $\\$1,000$. What is his total salary this month if he sells $\\$4,500$ worth of shoes?</p>",
+      "options": {
+        "A": "$210",
+        "B": "$270",
+        "C": "$960",
+        "D": "$1,020"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The 6% commission applies only to sales in excess of $1,000.<br/>Total sales = $4,500, so commissionable sales = $4,500 - $1,000 = $3,500.<br/>Commission = 0.06 × $3,500 = $210.<br/>Total salary = base salary + commission = $750 + $210 = $960.</p>"
+    },
+    {
+      "questionId": "q232",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Simplify the expression completely: \\(\\sqrt{64} + \\sqrt{36}\\)</p>",
+      "options": {
+        "A": "14",
+        "B": "10",
+        "C": "100",
+        "D": "2"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Evaluate each radical separately:<br/>\\(\\sqrt{64} = 8\\), \\(\\sqrt{36} = 6\\).<br/>Then add: \\(8 + 6 = 14\\).</p>"
+    },
+    {
+      "questionId": "q233",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>In scientific notation, what would the number 0.0408 be?</p>",
+      "options": {
+        "A": "\\(4.08 \\times 10^{2}\\)",
+        "B": "\\(408 \\times 10^{4}\\)",
+        "C": "\\(40.8 \\times 10^{-3}\\)",
+        "D": "\\(4.08 \\times 10^{-2}\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Move the decimal point to the right until the leading number is between 1 and 10: 0.0408 → 4.08.<br/>Since we moved the decimal two places to the right, the exponent becomes -2.<br/>Thus, \\(0.0408 = 4.08 \\times 10^{-2}\\).</p>"
+    },
+    {
+      "questionId": "q234",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Jackson is planning his office's annual party, and he has a maximum budget of $\\$2,825$ to spend. He intends to rent a party room that costs $\\$375$ per hour from 8:00 p.m. until 11:00 p.m. He expects a total of 250 people to attend the party and plans to provide each person with a bag of party favors. What is the maximum average amount that Jackson can spend on party favors for each person?</p>",
+      "options": {
+        "A": "$6.80",
+        "B": "$7.50",
+        "C": "$5.25",
+        "D": "$8.00"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The room is rented for 3 hours (8:00 p.m. to 11:00 p.m.). Room cost = 3 × $375 = $1,125.<br/>Remaining budget for party favors = $2,825 - $1,125 = $1,700.<br/>With 250 people, the maximum average per person = $1,700 ÷ 250 = $6.80.</p>"
+    },
+    {
+      "questionId": "q235",
+      "passageId": "plane-seating",
+      "passageHighlight": "",
+      "questionHtml": "<p>How much revenue does the airline gross if the plane is full?</p>",
+      "options": {
+        "A": "$96,000",
+        "B": "$80,000",
+        "C": "$100,000",
+        "D": "$88,000"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>First class: 40 passengers × $1,200 = $48,000.<br/>Economy class: total capacity 160, minus 40 first class = 120 seats. Revenue = 120 × $400 = $48,000.<br/>Total revenue = $48,000 + $48,000 = $96,000.</p>"
+    },
+    {
+      "questionId": "q236",
+      "passageId": "plane-seating",
+      "passageHighlight": "",
+      "questionHtml": "<p>If all the first-class tickets are sold but only half of the economy tickets are sold, what is the ratio of the total revenue from the first-class passengers to that of the economy-class passengers?</p>",
+      "options": {
+        "A": "1:1",
+        "B": "1:2",
+        "C": "2:1",
+        "D": "3:1"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>First-class revenue: 40 × $1,200 = $48,000.<br/>Economy tickets sold: half of 120 = 60 tickets. Revenue = 60 × $400 = $24,000.<br/>Ratio of first-class revenue to economy revenue = $48,000 : $24,000 = 2:1.</p>"
+    },
+    {
+      "questionId": "q237",
+      "passageId": "plane-seating",
+      "passageHighlight": "",
+      "questionHtml": "<p>The price of each first-class ticket used to be $1,500. What percent decrease does the current price represent?</p>",
+      "options": {
+        "A": "20%",
+        "B": "25%",
+        "C": "75%",
+        "D": "80%"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Percent decrease = \\(\\frac{\\text{new price} - \\text{old price}}{\\text{old price}} \\times 100\\%\\)<br/>= \\(\\frac{1200 - 1500}{1500} \\times 100\\% = \\frac{-300}{1500} \\times 100\\% = -20\\%\\).<br/>The negative sign indicates a decrease, so the current price is 20% lower.</p>"
+    },
+    {
+      "questionId": "q238",
+      "passageId": "janet-paycheck",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is Janet's take-home (net) salary? (Note: You may not use a calculator.)</p>",
+      "options": {
+        "A": "$623",
+        "B": "$600",
+        "C": "$650",
+        "D": "$700"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Subtract each deduction from the gross salary:<br/>$1,012 - $234 = $778;<br/>$778 - $128 = $650;<br/>$650 - $27 = $623.<br/>Thus, Janet's take-home salary is $623.</p>"
+    },
+    {
+      "questionId": "q239",
+      "passageId": "janet-paycheck",
+      "passageHighlight": "",
+      "questionHtml": "<p>What percentage of her gross salary does Janet pay toward Social Security? Round your answer to the nearest tenth of a percent.</p>",
+      "options": {
+        "A": "0.03%",
+        "B": "2.7%",
+        "C": "0.3%",
+        "D": "26.7%"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Social Security deduction = $27, gross salary = $1,012.<br/>Percentage = \\(\\frac{27}{1012} \\times 100\\% \\approx 2.668\\%\\).<br/>Rounded to the nearest tenth of a percent, this is 2.7%.</p>"
+    },
+    {
+      "questionId": "q240",
+      "passageId": "triangle-transformation",
+      "passageHighlight": "",
+      "questionHtml": "<p>What transformation maps triangle ODC onto triangle OBA?</p>",
+      "options": {
+        "A": "Reflection in the y-axis",
+        "B": "Reflection in the line y = x",
+        "C": "Rotation 90° clockwise about the origin",
+        "D": "Translation"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Triangle ODC has been rotated 90° clockwise about the origin to map onto triangle OBA.</p>"
+    },
+    {
+      "questionId": "q241",
+      "passageId": "triangle-transformation",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following line segments has a slope of -1?</p>",
+      "options": {
+        "A": "\\(\\overline{OA}\\)",
+        "B": "\\(\\overline{OB}\\)",
+        "C": "\\(\\overline{AB}\\)",
+        "D": "\\(\\overline{DC}\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Find the slope of each line segment using slope = rise/run:<br/>- \\(\\overline{OA}\\) has slope -3.<br/>- \\(\\overline{OB}\\) has slope \\(-\\frac{1}{3}\\).<br/>- \\(\\overline{AB}\\) has a positive slope.<br/>- \\(\\overline{DC}\\) has slope -1.<br/>Thus, the correct answer is (D).</p>"
+    },
+    {
+      "questionId": "q242",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>If \\(x^3 = y^{12}\\), what is \\(x\\) in terms of \\(y\\)?</p>",
+      "options": {
+        "A": "\\(y^{-9}\\)",
+        "B": "\\(y^{4}\\)",
+        "C": "\\(y^{9}\\)",
+        "D": "\\(y^{36}\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Take the cube root of both sides:<br/>\\((x^3)^{1/3} = (y^{12})^{1/3}\\).<br/>Simplify using the power rule (multiply exponents): \\(x = y^{12/3} = y^4\\).</p>"
+    }
+  ]
+}

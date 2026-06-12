@@ -1,0 +1,400 @@
+{
+  "passages": [
+    {
+      "passageId": "lawn-diagram-92-93",
+      "passageHtml": "<p>Jack needs to put a fence around his lawn. The dimensions of the lawn are shown in the following diagram.</p><img src=\"/3-i-ged/image9.png\" alt=\"Lawn dimensions diagram\" />"
+    },
+    {
+      "passageId": "right-triangular-prism-99-101",
+      "passageHtml": "<p>The following diagram shows a right triangular prism.</p><img src=\"/3-i-ged/image10.png\" alt=\"Right triangular prism diagram\" />"
+    },
+    {
+      "passageId": "frequency-table-104-106",
+      "passageHtml": "<p>The following table shows the scores of 10 students on a quiz.</p>\\(\\begin{array}{c|c} \\text{Score} & \\text{Number of Students} \\\\ \\hline 72 & 1 \\\\ 85 & 3 \\\\ 90 & 4 \\\\ 100 & 2 \\end{array}\\)"
+    },
+    {
+      "passageId": "set-a-113-114",
+      "passageHtml": "<p>Set A: {11, 7, 2, 16, 3, 11, 2, 37, 0, 11}</p>"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q92",
+      "passageId": "lawn-diagram-92-93",
+      "passageHighlight": "",
+      "questionHtml": "<p>Find the values of \\(x\\) and \\(y\\) , respectively.</p>",
+      "options": {
+        "A": "\\(x = 7, y = 4\\)",
+        "B": "\\(x = 4, y = 7\\)",
+        "C": "\\(x = 5, y = 15\\)",
+        "D": "\\(x = 15, y = 5\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>From the diagram, the width of the lawn is 9 m and the length of the lawn is 22 m.</p><p>Therefore, the value of <i>x</i> is 4 (since 9 - 5 = 4) meters, and the value of <i>y</i> is 7 (since 22 - 15 = 7) meters.</p><p>Thus, \\(x = 4\\) and \\(y = 7\\).</p>"
+    },
+    {
+      "questionId": "q93",
+      "passageId": "lawn-diagram-92-93",
+      "passageHighlight": "",
+      "questionHtml": "<p>If lawn fertilizer costs $0.15 per square meter, how much will it cost Jack to fertilize his lawn? Round your answer to the nearest dollar.</p>",
+      "options": {
+        "A": "$24",
+        "B": "$25",
+        "C": "$30",
+        "D": "$163"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The area of the lawn can be split into two rectangles:</p><p>Rectangle 1: 9 m × 15 m = 135 square meters</p><p>Rectangle 2: <i>x</i> by <i>y</i> = 4 m × 7 m = 28 square meters</p><p>Total area = 135 + 28 = 163 square meters.</p><p>Cost = area × cost per square meter = 163 × $0.15 = $24.45</p><p>Rounded to the nearest dollar, the cost is <b>$24</b>.</p>"
+    },
+    {
+      "questionId": "q94",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the radius (in cm) of a circle whose circumference happens to equal its area (in \\(\\mathrm{cm}^2\\))?</p>",
+      "options": {
+        "A": "2 cm",
+        "B": "3 cm",
+        "C": "5 cm",
+        "D": "10 cm"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The area of a circle is \\(A = \\pi r^2\\) and the circumference is \\(C = 2\\pi r\\).</p><p>Set them equal: \\(2\\pi r = \\pi r^2\\).</p><p>Divide both sides by \\(\\pi r\\) (assuming \\(r \\neq 0\\)): \\(2 = r\\).</p><p>Therefore, the radius is <b>2 cm</b>.</p>"
+    },
+    {
+      "questionId": "q95",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the probability of tossing 5 heads in a row when using a fair coin?</p>",
+      "options": {
+        "A": "\\(\\frac{1}{2}\\)",
+        "B": "\\(\\frac{1}{8}\\)",
+        "C": "\\(\\frac{1}{32}\\)",
+        "D": "\\(\\frac{5}{2}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The probability of tossing a head on a single toss of a fair coin is \\(\\frac{1}{2}\\).</p><p>For 5 heads in a row, multiply the probabilities: \\(\\left(\\frac{1}{2}\\right)^5 = \\frac{1}{32}\\).</p><p>Thus, the correct answer is <b>\\(\\frac{1}{32}\\)</b>.</p>"
+    },
+    {
+      "questionId": "q96",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The temperature at 5:00 a.m. was -11 degrees. By 8:00 a.m., the temperature is -2 degrees. If the temperature continues to rise at the same rate, what will the temperature be at 2:00 p.m.?</p>",
+      "options": {
+        "A": "7 degrees",
+        "B": "16 degrees",
+        "C": "21 degrees",
+        "D": "27 degrees"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>From 5:00 a.m. to 8:00 a.m. (3 hours), the temperature rose from -11° to -2°, an increase of 9 degrees.</p><p>Rate of increase = 9° / 3 hours = 3° per hour.</p><p>From 5:00 a.m. to 2:00 p.m. is 9 hours. Total increase = 9 × 3° = 27°.</p><p>Temperature at 2:00 p.m. = -11° + 27° = <b>16 degrees</b>.</p>"
+    },
+    {
+      "questionId": "q97",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>If sales tax is 6 percent, what would be the tax on a shirt that cost $68.30? Round your answer to the nearest cent.</p>",
+      "options": {
+        "A": "$4.09",
+        "B": "$4.10",
+        "C": "$4.58",
+        "D": "$4.59"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Convert 6% to decimal: 0.06.</p><p>Tax = 0.06 × $68.30 = $4.098.</p><p>Rounding to the nearest cent gives <b>$4.10</b>.</p>"
+    },
+    {
+      "questionId": "q98",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The dimensions of a rectangular prism are 9 inches wide by 18 inches long by 2 feet tall. What is the volume of the prism in cubic feet?</p>",
+      "options": {
+        "A": "2.25",
+        "B": "8.75",
+        "C": "36",
+        "D": "324"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Convert inches to feet: width = 9/12 = 0.75 ft, length = 18/12 = 1.5 ft. Height is already 2 ft.</p><p>Volume = length × width × height = 1.5 × 0.75 × 2 = 2.25 cubic feet.</p><p>Thus, the correct answer is <b>2.25</b>.</p>"
+    },
+    {
+      "questionId": "q99",
+      "passageId": "right-triangular-prism-99-101",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the length of the hypotenuse of the prism's triangular base?</p>",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The triangular base is a right triangle with legs 3 and 4 (from the diagram).</p><p>Use the Pythagorean theorem: \\(a^2 + b^2 = c^2\\)</p><p>\\(3^2 + 4^2 = 9 + 16 = 25\\), so \\(c = \\sqrt{25} = 5\\).</p><p>The hypotenuse is <b>5</b>.</p>"
+    },
+    {
+      "questionId": "q100",
+      "passageId": "right-triangular-prism-99-101",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the area of the triangular base of the prism?</p>",
+      "options": {
+        "A": "6",
+        "B": "10",
+        "C": "12",
+        "D": "36"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Area of a triangle = \\(\\frac{1}{2} \\times \\text{base} \\times \\text{height}\\).</p><p>For the right triangle, base = 3 and height = 4 (the legs).</p><p>Area = \\(\\frac{1}{2} \\times 3 \\times 4 = 6\\).</p><p>Thus, the area is <b>6</b>.</p>"
+    },
+    {
+      "questionId": "q101",
+      "passageId": "right-triangular-prism-99-101",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the volume of the prism?</p>",
+      "options": {
+        "A": "36",
+        "B": "45",
+        "C": "72",
+        "D": "90"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Volume of a prism = base area × height of prism.</p><p>Base area = 6 (from previous question).</p><p>The prism's height (the length of the side edge) is given as 6.</p><p>Volume = 6 × 6 = <b>36</b>.</p>"
+    },
+    {
+      "questionId": "q102",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>If \\(a = -3\\) and \\(b = 2\\), what is the value of \\(\\frac{a^2 - 3b}{a} + 4\\) ?</p>",
+      "options": {
+        "A": "3",
+        "B": "9",
+        "C": "15",
+        "D": "21"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Substitute \\(a = -3\\) and \\(b = 2\\) into the expression:</p><p>\\(\\frac{(-3)^2 - 3(2)}{-3} + 4 = \\frac{9 - 6}{-3} + 4 = \\frac{3}{-3} + 4 = -1 + 4 = 3\\).</p><p>Therefore, the value is <b>3</b>.</p>"
+    },
+    {
+      "questionId": "q103",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the next term in the following geometric sequence?</p><p>810, -270, 90, -30, ...</p>",
+      "options": {
+        "A": "\\(\\frac{10}{3}\\)",
+        "B": "\\(-\\frac{10}{3}\\)",
+        "C": "10",
+        "D": "-10"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Find the common ratio \\(r\\) by dividing the second term by the first: \\(\\frac{-270}{810} = -\\frac{1}{3}\\).</p><p>Multiply the fourth term by the ratio: \\(-30 \\times (-\\frac{1}{3}) = 10\\).</p><p>The next term is <b>10</b>.</p>"
+    },
+    {
+      "questionId": "q104",
+      "passageId": "frequency-table-104-106",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the average score? (Round your answer to the nearest whole number)</p>",
+      "options": {
+        "A": "35",
+        "B": "81",
+        "C": "87",
+        "D": "89"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Calculate total points: \\(72 \\times 1 = 72\\), \\(85 \\times 3 = 255\\), \\(90 \\times 4 = 360\\), \\(100 \\times 2 = 200\\).</p><p>Sum = 72 + 255 + 360 + 200 = 887.</p><p>Number of students = 10. Average = 887 / 10 = 88.7 ≈ <b>89</b>.</p>"
+    },
+    {
+      "questionId": "q105",
+      "passageId": "frequency-table-104-106",
+      "passageHighlight": "",
+      "questionHtml": "<p>If the lowest two scores are omitted, what is the new average score? (Round your answer to the nearest whole number)</p>",
+      "options": {
+        "A": "73",
+        "B": "89",
+        "C": "91",
+        "D": "92"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Lowest two scores: 72 and one of the 85s. Remove them.</p><p>Remaining: two 85s (170), four 90s (360), two 100s (200).</p><p>Sum = 170 + 360 + 200 = 730. Number of students = 8.</p><p>Average = 730 / 8 = 91.25 ≈ <b>91</b>.</p>"
+    },
+    {
+      "questionId": "q106",
+      "passageId": "frequency-table-104-106",
+      "passageHighlight": "",
+      "questionHtml": "<p>Simplify the expression: \\((7x - 5y + 2z) - (2x - y + 3z)\\)</p>",
+      "options": {
+        "A": "\\(5x - 6y + 5z\\)",
+        "B": "\\(5x - 4y + 5z\\)",
+        "C": "\\(5x - 4y - z\\)",
+        "D": "\\(9x - 4y - z\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Distribute the negative sign: \\(7x - 5y + 2z - 2x + y - 3z\\).</p><p>Combine like terms: \\(7x - 2x = 5x\\), \\(-5y + y = -4y\\), \\(2z - 3z = -z\\).</p><p>Result: \\(5x - 4y - z\\).</p>"
+    },
+    {
+      "questionId": "q107",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>If your daily commute equals 95 minutes, how long, in hours and minutes, do you spend commuting during a 5-day work week?</p>",
+      "options": {
+        "A": "1 hour, 35 minutes",
+        "B": "4 hours, 45 minutes",
+        "C": "7 hours, 55 minutes",
+        "D": "9 hours, 30 minutes"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Total minutes per week = 95 × 5 = 475 minutes.</p><p>Convert to hours: 475 ÷ 60 = 7 remainder 55.</p><p>So, 7 hours and 55 minutes.</p>"
+    },
+    {
+      "questionId": "q108",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>If the base of a triangle is 6 inches and its area is 60 square inches, what is the height of the triangle?</p>",
+      "options": {
+        "A": "5 inches",
+        "B": "10 inches",
+        "C": "20 inches",
+        "D": "180 inches"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Area formula: \\(A = \\frac{1}{2} \\times \\text{base} \\times \\text{height}\\).</p><p>Plug in known values: \\(60 = \\frac{1}{2} \\times 6 \\times h\\) → \\(60 = 3h\\).</p><p>Solve for \\(h\\): \\(h = 60 / 3 = 20\\) inches.</p>"
+    },
+    {
+      "questionId": "q109",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The speed of sound in air is 320 meters per second. If you see a flash of lightning and it takes 8 seconds before you hear the thunder, how many kilometers away was the lightning strike? (Assume that the light reaches you instantly.)</p>",
+      "options": {
+        "A": "2.56 kilometers",
+        "B": "4 kilometers",
+        "C": "40 kilometers",
+        "D": "2560 kilometers"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Distance = speed × time = 320 m/s × 8 s = 2560 meters.</p><p>Convert meters to kilometers: 2560 ÷ 1000 = 2.56 km.</p>"
+    },
+    {
+      "questionId": "q110",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the slope of the line that passes through the coordinates (1, -7) and (8, 5)?</p>",
+      "options": {
+        "A": "\\(-\\frac{2}{7}\\)",
+        "B": "\\(-\\frac{7}{2}\\)",
+        "C": "\\(\\frac{12}{7}\\)",
+        "D": "\\(\\frac{7}{12}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Slope formula: \\(m = \\frac{y_2 - y_1}{x_2 - x_1}\\).</p><p>Substitute: \\(m = \\frac{5 - (-7)}{8 - 1} = \\frac{12}{7}\\).</p>"
+    },
+    {
+      "questionId": "q111",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>On Monday, Andrea finished \\(\\frac{1}{4}\\) of her homework assignment. On Tuesday, she completed \\(\\frac{1}{2}\\) of the remaining work. What fraction of her assignment does Andrea still have left to complete?</p>",
+      "options": {
+        "A": "\\(\\frac{1}{8}\\)",
+        "B": "\\(\\frac{1}{4}\\)",
+        "C": "\\(\\frac{3}{8}\\)",
+        "D": "\\(\\frac{1}{2}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>After Monday, remaining = \\(1 - \\frac{1}{4} = \\frac{3}{4}\\).</p><p>On Tuesday, she completes half of the remaining: \\(\\frac{1}{2} \\times \\frac{3}{4} = \\frac{3}{8}\\).</p><p>Total completed = \\(\\frac{1}{4} + \\frac{3}{8} = \\frac{2}{8} + \\frac{3}{8} = \\frac{5}{8}\\).</p><p>Left = \\(1 - \\frac{5}{8} = \\frac{3}{8}\\).</p>"
+    },
+    {
+      "questionId": "q112",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Norman is determining what his gross pay at the end of the week should be. If he gets paid $13.15 per hour and works 18 hours, what should his gross pay be? (Note: You may not use a calculator.)</p>",
+      "options": {
+        "A": "$236.70",
+        "B": "$237.00",
+        "C": "$235.50",
+        "D": "$240.00"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Gross pay = hourly rate × hours worked = $13.15 × 18.</p><p>Compute: 13.15 × 10 = 131.50, 13.15 × 8 = 105.20, sum = 236.70.</p><p>Thus, gross pay is <b>$236.70</b>.</p>"
+    },
+    {
+      "questionId": "q113",
+      "passageId": "set-a-113-114",
+      "passageHighlight": "",
+      "questionHtml": "<p>Fill in the blanks with the correct values: The mode of set A equals ______ , whereas the median of set A equals ______.</p>",
+      "options": {
+        "A": "11, 9",
+        "B": "9, 11",
+        "C": "11, 10",
+        "D": "10, 9"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Set A: {11, 7, 2, 16, 3, 11, 2, 37, 0, 11}</p><p><b>Mode</b>: The value that appears most often is 11 (three times).</p><p><b>Median</b>: Sort the set: {0, 2, 2, 3, 7, 11, 11, 11, 16, 37}. Middle two numbers are 7 and 11. Average = (7+11)/2 = 9.</p><p>Thus, mode = 11, median = 9.</p>"
+    },
+    {
+      "questionId": "q114",
+      "passageId": "set-a-113-114",
+      "passageHighlight": "",
+      "questionHtml": "<p>Find the arithmetic mean (average) of set A.</p>",
+      "options": {
+        "A": "7",
+        "B": "9",
+        "C": "10",
+        "D": "11"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Sum of all elements: 11+7+2+16+3+11+2+37+0+11 = 100.</p><p>Number of elements = 10. Average = 100 / 10 = 10.</p>"
+    },
+    {
+      "questionId": "q115",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Simplify \\(5 \\times (91^{\\circ} + 3^{2})\\).</p>",
+      "options": {
+        "A": "35",
+        "B": "45",
+        "C": "50",
+        "D": "500"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Note: Any non-zero number to the zero power is 1, so \\(91^0 = 1\\).</p><p>Then \\(3^2 = 9\\). Inside parentheses: \\(1 + 9 = 10\\).</p><p>Multiply: \\(5 \\times 10 = 50\\).</p>"
+    },
+    {
+      "questionId": "q116",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the solution to the equation? \\(5(x - 2) + x = 2(3 - x)\\)</p>",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Expand: \\(5x - 10 + x = 6 - 2x\\) → \\(6x - 10 = 6 - 2x\\).</p><p>Add \\(2x\\) to both sides: \\(8x - 10 = 6\\).</p><p>Add 10: \\(8x = 16\\). Divide by 8: \\(x = 2\\).</p>"
+    },
+    {
+      "questionId": "q117",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Children's tickets to the zoo cost $\\$9$ each, and adult tickets cost $\\$16$ each. On Monday, the zoo sold a total of 95 tickets and made $\\$1,380$ on ticket sales. Which of the following systems of equations could be used to find out how many of each ticket type was sold? Let a equal the number of adult tickets, and let c equal the number of child tickets.</p>",
+      "options": {
+        "A": "\\(a + c = 1,380,\\ 9c + 16a = 95\\)",
+        "B": "\\(a + c = 95,\\ 9a + 16c = 1,380\\)",
+        "C": "\\(a + c = 95,\\ 9c + 16a = 1,380\\)",
+        "D": "\\(a + c = 1,380,\\ 9a + 16c = 95\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Total tickets: \\(a + c = 95\\).</p><p>Revenue from child tickets: $9 each → \\(9c\\). Revenue from adult tickets: $16 each → \\(16a\\). Total revenue: \\(9c + 16a = 1380\\).</p><p>Thus, the correct system is \\(a + c = 95,\\ 9c + 16a = 1380\\).</p>"
+    },
+    {
+      "questionId": "q118",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Fred's wallet contains coins with a total worth of $\\$1.45$. Suppose he has three times as many dimes as quarters and has exactly 7 nickels and no pennies. How many dimes does he have?</p>",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "6",
+        "D": "9"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Value of 7 nickels = 7 × $0.05 = $0.35. Remaining value = $1.45 - $0.35 = $1.10 from quarters and dimes.</p><p>Let \\(q\\) = number of quarters, then dimes \\(d = 3q\\).</p><p>Equation: \\(0.25q + 0.10(3q) = 1.10\\) → \\(0.25q + 0.30q = 0.55q = 1.10\\).</p><p>Solve: \\(q = 1.10 / 0.55 = 2\\). Thus, dimes = \\(3 \\times 2 = 6\\).</p>"
+    }
+  ]
+}
