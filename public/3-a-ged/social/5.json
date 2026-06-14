@@ -1,0 +1,362 @@
+{
+  "passages": [
+    {
+      "passageId": "great-depression-408-413",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p style=\"font-size: 0.8em; font-weight: semibold; font-style: italic; border-left: 4px solid #2c3e50; padding-left: 12px; margin: 20px 0;\">Use the following information for Questions 408 through 413.</p><div style=\"background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin: 15px 0;\"><p>The Great Depression, which began with the Stock Market Crash of 1929, was caused partially by the conservative economic philosophy of laissez-faire (\"leave it alone\"), which had allowed markets to operate without government interference. Before the crash, the government had done nothing to regulate banking, investments, or other basic aspects of the economy. The government had also failed to gather adequate data that could have been analyzed to highlight growing problems in stock market investing, agriculture, or other vital sectors of the economy, leading up to the crash.</p><p>In 1933, in response to record unemployment brought about by the Great Depression, newly elected President Roosevelt introduced a domestic program (enacted between 1933 and 1939) that vastly increased the scope of the federal government's activities in the economy. The new program, known as the New Deal, took action to bring about immediate relief to reduce the suffering of unemployed workers and imposed reforms in industry, agriculture, finance, water power, labor, and housing. Perhaps the most far-reaching programs of the entire New Deal were those associated with Social Security, which provided old-age and widows' benefits, unemployment compensation, and disability insurance.</p><p>The following figure shows the unemployment rate from 1930 through 1945.</p><img src=\"/3-i-ged/h/image7.png\" alt=\"Unemployment rate graph 1930-1945\" style=\"max-width: 100%; height: auto; border: 1px solid #ccc; margin-top: 10px;\" /></div></div>"
+    },
+    {
+      "passageId": "voting-rights-416-419",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p style=\"font-size: 0.8em; font-weight: semibold; font-style: italic; border-left: 4px solid #2c3e50; padding-left: 12px; margin: 20px 0;\">Use the following information for Questions 416 through 419.</p><div style=\"background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin: 15px 0;\"><p>The second paragraph of the United States Declaration of Independence starts as follows: <em>\"We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the Pursuit of Happiness.\"</em></p><p>This table summarizes the constitutional amendments and an act regarding voting rights in the United States:</p><table border=\"1\" style=\"border-collapse: collapse; width: 100%; margin-top: 10px;\"><tr style=\"background-color: #e0e0e0;\"><th>Amendment/Act</th><th>Date</th><th>Summary</th></tr><tr><td>15th Amendment</td><td>1870</td><td>Allowed all men to vote regardless of race or color</td></tr><tr><td>19th Amendment</td><td>1920</td><td>Granted women the right to vote</td></tr><tr><td>24th Amendment</td><td>1964</td><td>Banned the poll tax for voting privileges</td></tr><tr><td>Voting Rights Act</td><td>1965</td><td>Prohibited racial discrimination in voting and banned literacy tests</td></tr><tr><td>26th Amendment</td><td>1972</td><td>Lowered the voting age from 21 to 18</td></tr></table></div></div>"
+    },
+    {
+      "passageId": "fifth-sixth-amendments-420-422",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p style=\"font-size: 0.8em; font-weight: semibold; font-style: italic; border-left: 4px solid #2c3e50; padding-left: 12px; margin: 20px 0;\">Use the following information for Questions 420 through 422.</p><div style=\"background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin: 15px 0;\"><p>The Fifth and Sixth Amendments were part of the Bill of Rights (1791), which protects individual freedoms from the powers of federal government. The Fifth Amendment focuses on procedural safeguards designed to protect the rights of the criminally accused and includes the phrase \"no person shall be compelled in any criminal case to be a witness against himself.\" The Sixth Amendment guarantees a citizen a speedy trial, a fair jury, an attorney if the accused person wants one, and the chance to confront the witnesses accusing the defendant of a crime.</p><p>In Miranda v. Arizona (1966), the Supreme Court ruled that detained criminal suspects, prior to police questioning, must be informed of their constitutional right to an attorney and against self-incrimination.</p></div></div>"
+    },
+    {
+      "passageId": "us-map-rivers-426-427",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p style=\"font-size: 0.8em; font-weight: semibold; font-style: italic; border-left: 4px solid #2c3e50; padding-left: 12px; margin: 20px 0;\">Use the following information for Questions 426 and 427.</p><div style=\"background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin: 15px 0;\"><p>Based on the map, answer the following questions.</p><img src=\"/3-i-ged/h/image8.png\" alt=\"Map of United States showing major rivers and cities\" style=\"max-width: 100%; height: auto; border: 1px solid #ccc; margin-top: 10px;\" /></div></div>"
+    },
+    {
+      "passageId": "gdp-graph-429-431",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p style=\"font-size: 0.8em; font-weight: semibold; font-style: italic; border-left: 4px solid #2c3e50; padding-left: 12px; margin: 20px 0;\">Use the following graph and information for Questions 429 through 431.</p><div style=\"background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin: 15px 0;\"><p>The gross domestic product (GDP) per capita is the average value of all the goods and services produced by the workers of a particular country in one year. GDPs can be used to compare the relative wealth of different countries.</p><img src=\"/3-i-ged/h/image9.png\" alt=\"GDP per capita comparison: Southeast Asia vs Sub-Saharan Africa\" style=\"max-width: 100%; height: auto; border: 1px solid #ccc; margin-top: 10px;\" /></div></div>"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q408",
+      "passageId": "great-depression-408-413",
+      "passageHighlight": "",
+      "questionHtml": "What is meant by laissez-faire economics?",
+      "options": {
+        "A": "The government plays a significant role in the economy by imposing restrictions on odious business practices.",
+        "B": "The government controls every aspect of the economy and owns all major industries.",
+        "C": "The government allows the free market to determine economic outcomes without interfering.",
+        "D": "Laissez-faire economics was the name of one of the programs in Roosevelt's New Deal."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The passage tells you that laissez-faire allows markets to operate without government interference. Hence, laissez-faire economics occurs when the government allows the free market to determine economic outcomes, making Choice (C) the correct answer.</p>"
+    },
+    {
+      "questionId": "q409",
+      "passageId": "great-depression-408-413",
+      "passageHighlight": "",
+      "questionHtml": "According to the passage, what was at least partially responsible for causing the Stock Market Crash of 1929?",
+      "options": {
+        "A": "laissez-faire economics",
+        "B": "too many government restrictions",
+        "C": "the Great Depression",
+        "D": "Roosevelt's New Deal"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The passage says: \"Before the crash, the government had done nothing to regulate banking, investments, or other basic aspects of the economy. The government had also failed to gather adequate data that could have been analyzed to highlight growing problems... leading up to the crash.\" Hence, laissez-faire economics was partially responsible for the Stock Market Crash of 1929, making Choice (A) the correct answer.</p>"
+    },
+    {
+      "questionId": "q410",
+      "passageId": "great-depression-408-413",
+      "passageHighlight": "",
+      "questionHtml": "The Social Security programs of the New Deal provided all of the following EXCEPT",
+      "options": {
+        "A": "unemployment compensation.",
+        "B": "old-age and widows' benefits.",
+        "C": "free housing.",
+        "D": "disability insurance."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The passage tells you that the Social Security programs provided old-age and widows' benefits, unemployment compensation, and disability insurance. Free housing was not provided by Social Security, making Choice (C) the correct answer.</p>"
+    },
+    {
+      "questionId": "q411",
+      "passageId": "great-depression-408-413",
+      "passageHighlight": "",
+      "questionHtml": "According to the graph, what year did unemployment reach a maximum in the United States?",
+      "options": {
+        "A": "1932",
+        "B": "1933",
+        "C": "1938",
+        "D": "1939"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>From the graph, unemployment reached its peak in 1933 at about 25 percent, making Choice (B) the correct answer.</p>"
+    },
+    {
+      "questionId": "q412",
+      "passageId": "great-depression-408-413",
+      "passageHighlight": "",
+      "questionHtml": "According to the graph, what effect did the New Deal have on the unemployment rate between 1933 and 1937?",
+      "options": {
+        "A": "The unemployment rate rose steadily until it reached a peak at 25 percent.",
+        "B": "The unemployment rate remained constant.",
+        "C": "The unemployment rate fell, then rose, and then fell again.",
+        "D": "The unemployment rate fell steadily, although it still remained above 14 percent."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>From the graph, unemployment fell steadily from its peak value of 25 percent in 1933 to about 14 percent in 1937, making Choice (D) the correct answer.</p>"
+    },
+    {
+      "questionId": "q413",
+      "passageId": "great-depression-408-413",
+      "passageHighlight": "",
+      "questionHtml": "The United States' involvement in which war during the early 1940s finally helped bring the unemployment rate back down to below 5 percent?",
+      "options": {
+        "A": "World War II",
+        "B": "Vietnam War",
+        "C": "Cold War",
+        "D": "Korean War"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>In 1939, the outbreak of World War II helped the United States recover from the Great Depression. The unemployment rate dropped sharply because 12 million men were sent to war, and American industry was put to work producing machinery and vehicles needed for the war effort. Hence, Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q414",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "Which of the following concepts is NOT related to the American concept of liberty as protected by the First Amendment?",
+      "options": {
+        "A": "freedom to place limits on the press",
+        "B": "freedom of religion",
+        "C": "freedom of speech",
+        "D": "freedom to petition the government"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The First Amendment protects freedom of religion, freedom to petition the government, freedom of speech, and freedom of the press (not the freedom to place limits on the press). Hence, Choice (A) is the correct answer.</p>"
+    },
+    {
+      "questionId": "q415",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "What does the system of \"checks and balances\" do with regard to the federal government?",
+      "options": {
+        "A": "It gives the majority of the power to the executive branch.",
+        "B": "It gives the majority of the power to the legislative branch.",
+        "C": "It gives the majority of the power to the judicial branch.",
+        "D": "It divides the power among the three branches by giving them distinctive roles to prevent any one branch from becoming too powerful."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The system of checks and balances is an important part of the Constitution. With checks and balances, each of the three branches of government can limit the powers of the others to prevent any one branch from becoming too powerful. Hence, Choice (D) is the right answer.</p>"
+    },
+    {
+      "questionId": "q416",
+      "passageId": "voting-rights-416-419",
+      "passageHighlight": "",
+      "questionHtml": "In what year were African-American women first allowed to legally vote?",
+      "options": {
+        "A": "1870",
+        "B": "1920",
+        "C": "1965",
+        "D": "1972"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Even though African-American men first gained the right to vote through the Fifteenth Amendment in 1870, women of all races were granted the right to vote by the Nineteenth Amendment in 1920. Therefore, African-American women could first legally vote in 1920, making Choice (B) correct.</p>"
+    },
+    {
+      "questionId": "q417",
+      "passageId": "voting-rights-416-419",
+      "passageHighlight": "",
+      "questionHtml": "Why was there a need to pass the Twenty-Fourth Amendment and the Voting Rights Act when the rights of American men and women of all races were already protected by the Fifteenth Amendment and Nineteenth Amendment, respectively?",
+      "options": {
+        "A": "Even though the right to vote was protected by the Constitution, many states still tried to make it almost impossible for minorities to exercise that right.",
+        "B": "The laws were needed to make sure the \"wrong type of people\" couldn't vote.",
+        "C": "The new laws were needed to make sure that minorities could read and write before they would be allowed to vote.",
+        "D": "The new laws were needed to prevent people from voting twice."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Even though African-American men gained the right to vote through the Fifteenth Amendment in 1870, many states still had racist policies (poll taxes, literacy tests, etc.) aimed at making it almost impossible for minorities to exercise their right to vote. The Twenty-Fourth Amendment and Voting Rights Act prohibited these racist state policies, so Choice (A) is the best answer.</p>"
+    },
+    {
+      "questionId": "q418",
+      "passageId": "voting-rights-416-419",
+      "passageHighlight": "",
+      "questionHtml": "Based on the information in the passage, what conclusion can be made regarding the implementation of the U.S. Constitution and the ideals described by the Declaration of Independence?",
+      "options": {
+        "A": "The United States has always lived up to the ideal that \"all men are created equal.\"",
+        "B": "The United States has not always lived up to the ideal that \"all men are created equal.\"",
+        "C": "The United States abandoned its earlier ideal that \"all men are created equal.\"",
+        "D": "The United States never believed in its earlier ideal that \"all men are created equal.\""
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The passage notes that the second paragraph of the Declaration of Independence states that \"all men are created equal.\" It is clear from all the constitutional amendments regarding voting rights that the United States hasn't always lived up to this ideal. The amendments listed in the table tried to fix this shortcoming by ensuring voting rights for all men and women, so Choice (B) is the best answer.</p>"
+    },
+    {
+      "questionId": "q419",
+      "passageId": "voting-rights-416-419",
+      "passageHighlight": "",
+      "questionHtml": "What spurred the debate about lowering the voting age that led to the passing of the Twenty-Sixth Amendment in 1972?",
+      "options": {
+        "A": "Conscription during the Vietnam War meant that many 18- to 20-year-olds were angry that they were considered old enough to fight for their country but not old enough to vote.",
+        "B": "Many 18- to 20-year-olds were angry that they were considered old enough to drink alcohol but not old enough to vote.",
+        "C": "Many 18- to 20-year-olds were angry that they were considered old enough to drive but not old enough to drink alcohol.",
+        "D": "Many 18- to 20-year-olds were angry that they were considered old enough to vote but not old enough to fight for their country."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The Twenty-sixth Amendment lowered the voting age from 21 to 18. The debate about lowering the voting age was spurred by the fact that many 18- to 20-year-olds were angry that they were considered old enough to fight for their country (conscription during the Vietnam War) but not old enough to vote, so Choice (A) is the best answer.</p>"
+    },
+    {
+      "questionId": "q420",
+      "passageId": "fifth-sixth-amendments-420-422",
+      "passageHighlight": "",
+      "questionHtml": "The Sixth Amendment guarantees a citizen all of the following EXCEPT",
+      "options": {
+        "A": "a speedy trial.",
+        "B": "the chance to confront witnesses.",
+        "C": "the right to remain silent.",
+        "D": "a fair jury."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The passage says, \"The Sixth Amendment guarantees a citizen a speedy trial, a fair jury, an attorney if the accused person wants one, and the chance to confront the witnesses accusing the defendant of a crime.\" The right to remain silent is protected by the Fifth Amendment, not the Sixth. Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q421",
+      "passageId": "fifth-sixth-amendments-420-422",
+      "passageHighlight": "",
+      "questionHtml": "Based on the passage information, which of the following is a true statement regarding the Fifth and Sixth Amendments?",
+      "options": {
+        "A": "The Fifth Amendment guarantees the criminally accused the right to remain silent, whereas the Sixth Amendment guarantees the right to a lawyer.",
+        "B": "The Fifth Amendment guarantees the right to a lawyer, whereas the Sixth Amendment guarantees the criminally accused the right to remain silent.",
+        "C": "The Fifth Amendment and the Sixth Amendment are both more important than the First Amendment.",
+        "D": "The Fifth Amendment guarantees the criminally accused a speedy trial, whereas the Sixth Amendment guarantees the right to a lawyer."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The passage tells you that the Fifth Amendment guarantees that \"no person shall be compelled in any criminal case to be a witness against himself\" — in other words, it gives the accused the right to remain silent. The Sixth Amendment guarantees the right to an attorney. Hence, Choice (A) is correct. There is nothing to suggest that the Fifth and Sixth Amendments are more important than the First Amendment, so Choice (C) is false. Choices (B) and (D) are also false statements.</p>"
+    },
+    {
+      "questionId": "q422",
+      "passageId": "fifth-sixth-amendments-420-422",
+      "passageHighlight": "",
+      "questionHtml": "The outcome of the Miranda v. Arizona Supreme Court case in 1966 is significant for those under arrest because now, once someone is both in police custody and about to be interrogated, police are required to",
+      "options": {
+        "A": "uphold only the Fifth Amendment.",
+        "B": "uphold only the Sixth Amendment.",
+        "C": "uphold both the Fifth and Sixth Amendments.",
+        "D": "uphold neither the Fifth Amendment nor the Sixth Amendment."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The excerpt mentions that \"detained criminal suspects, prior to police questioning, must be informed of their constitutional right to an attorney (Sixth Amendment) and against self-incrimination (Fifth Amendment).\" Hence, the police must uphold both the Fifth and Sixth Amendments, making Choice (C) the correct answer.</p>"
+    },
+    {
+      "questionId": "q423",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "How do the president's Supreme Court justice selections help secure his own legacy even after he is out of office?",
+      "options": {
+        "A": "The Supreme Court has a minimal role in helping establish a president's legacy after he leaves office.",
+        "B": "A president serves only eight years at the most and has insufficient time to build a lasting legacy.",
+        "C": "The president helps secure his own legacy by appointing Supreme Court justices, who will serve long after he's gone.",
+        "D": "The Supreme Court can reinstate the president even after he is voted out of office."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>All Supreme Court justices are appointed for life, so they continue to make important decisions long after the president has left office. Even though any justices he appoints won't necessarily work to uphold whatever changes the president made while in office, the president's selections can help shift the balance of the court in the direction the president wanted. Hence, Choice (C) is correct. All the other answer choices are false and can be rejected.</p>"
+    },
+    {
+      "questionId": "q424",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "Taxes at local, state, and federal levels allow the government to provide goods and services for the general population. Which of the following is NOT true about taxation?",
+      "options": {
+        "A": "Once a tax rate has been set, it can't be challenged or changed.",
+        "B": "Sales taxes, property taxes, income taxes, and corporation or business taxes have different rates and purposes.",
+        "C": "Federal taxes are the same in each state, but state taxes may vary from state to state.",
+        "D": "Both federal and state governments depend upon the collection of taxes to fund various programs."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Tax rates can be changed, making Choice (A) an incorrect statement and therefore the correct answer. All the other answer choices are true statements about taxation.</p>"
+    },
+    {
+      "questionId": "q425",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "Globalization, which occurs whenever companies shift their focus from a local or regional basis to an international basis, can lead to the outsourcing of jobs overseas. Which of the following is an example of globalization?",
+      "options": {
+        "A": "A car manufacturer invests in robots to assemble its cars and then lays off hundreds of workers who used to do that job.",
+        "B": "A computer manufacturer finds it cheaper to outsource its customer service call center to workers in India instead of employing local workers.",
+        "C": "A sales rep goes on vacation to Europe instead of going to California.",
+        "D": "A Chinese company hires local Chinese workers for its factory in Beijing."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The question states that globalization can lead to the outsourcing of jobs overseas. Choice (B) fits that description because the company has outsourced jobs to India. Choice (A) involves advances in technology but not globalization. Choice (C) does not involve outsourcing, and neither does Choice (D).</p>"
+    },
+    {
+      "questionId": "q426",
+      "passageId": "us-map-rivers-426-427",
+      "passageHighlight": "",
+      "questionHtml": "Based on the map, which of the following statements is true?",
+      "options": {
+        "A": "Major cities tend to be built up in the mountains.",
+        "B": "The American South is home to some of the largest cities in America.",
+        "C": "Most American states border the Atlantic Ocean.",
+        "D": "Major cities tend to develop along major rivers."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>From the map, major cities in each state tend to develop along major rivers, making Choice (D) the correct answer. There is no indication on the map that cities are in the mountains [reject Choice (A)] or that Southern states have America's largest cities [reject Choice (B)]. Choice (C) is a false statement.</p>"
+    },
+    {
+      "questionId": "q427",
+      "passageId": "us-map-rivers-426-427",
+      "passageHighlight": "",
+      "questionHtml": "What effect has the Mississippi River had on the development of the American Midwest?",
+      "options": {
+        "A": "The river provides a valuable source of salt to the towns in the region.",
+        "B": "The river provides an important connection to the sea for landlocked Midwestern states.",
+        "C": "The river has had a negligible impact on the development of the region.",
+        "D": "The river provides a valuable east-west connection across the United States."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>From the map, the Mississippi River provides an important connection to the sea for landlocked Midwestern states, so Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q428",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "A tariff is a special tax that is imposed on imported goods and services to restrict trade and increase the price of imported goods and services. The United States occasionally imposes tariffs in an attempt to persuade Americans to buy American-made goods and services. According to the given information, which of the following is an example of a tariff?",
+      "options": {
+        "A": "Congress imposes a tax on beer that is manufactured in California but sold in New York.",
+        "B": "Congress increases the price of all gasoline to fund clean energy research.",
+        "C": "Congress imposes a tax on imported Japanese cars in order to protect domestic car sales.",
+        "D": "Congress creates a flat-tax rate for all income levels."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>A tariff is a special type of tax that the government imposes on goods imported into the United States. Choice (C) describes a tax on imported Japanese cars, making it the correct answer. The other answer choices do not refer specifically to imported goods.</p>"
+    },
+    {
+      "questionId": "q429",
+      "passageId": "gdp-graph-429-431",
+      "passageHighlight": "",
+      "questionHtml": "According to the graph, which year were the GDPs of each region the most similar?",
+      "options": {
+        "A": "1975",
+        "B": "1983",
+        "C": "1985",
+        "D": "1995"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>From the graph, the two lines (Southeast Asia and Sub-Saharan Africa) are closest together in 1983, so Choice (B) is the correct answer.</p>"
+    },
+    {
+      "questionId": "q430",
+      "passageId": "gdp-graph-429-431",
+      "passageHighlight": "",
+      "questionHtml": "According to the graph, which of the following is a true statement?",
+      "options": {
+        "A": "The GDP of Southeast Asia has always been greater than the GDP of Sub-Saharan Africa.",
+        "B": "The GDP of Southeast Asia has always been less than the GDP of Sub-Saharan Africa.",
+        "C": "The GDP of both regions grew at approximately the same rate during the 1970s.",
+        "D": "The GDP of Sub-Saharan Africa has been increasing steadily since 1980."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>From the graph, both regions show a similar upward trend during the 1970s, making Choice (C) correct. Choice (A) is false because in the early 1980s Sub-Saharan Africa's GDP was higher. Choice (B) is false because after 1985 Southeast Asia's GDP became higher. Choice (D) is false because Sub-Saharan Africa's GDP declined after the early 1980s.</p>"
+    },
+    {
+      "questionId": "q431",
+      "passageId": "gdp-graph-429-431",
+      "passageHighlight": "",
+      "questionHtml": "Based on the graph, which of the following is an opinion rather than a factual statement?",
+      "options": {
+        "A": "Sub-Saharan Africa no longer has the resources it needs in order to grow its GDP.",
+        "B": "The GDP of Sub-Saharan Africa has declined since the early 1980s.",
+        "C": "The GDP of Southeast Asia was approximately $400 per capita in 1978.",
+        "D": "The GDP of Southeast Asia increased dramatically in the early 1990s."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Choice (A) is an opinion because the graph provides no data on resources; it only shows GDP values. The decline in GDP could be due to many factors, and the statement about lacking resources is an interpretation, not a fact directly from the graph. All the other choices contain factual statements that are supported by the graph.</p>"
+    }
+  ]
+}

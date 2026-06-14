@@ -1,0 +1,528 @@
+{
+  "passages": [
+    {
+      "passageId": "energy-consumption-2015",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p style=\"font-size: 0.8em; font-weight: semibold; font-style: italic; border-left: 4px solid #2c3e50; padding-left: 12px; margin: 20px 0;\">Use the following graph and information for Questions 432 through 434.</p><div style=\"background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin: 15px 0;\"><p>The graph shows the energy consumption by source in the United States in 2015.</p><img src=\"/3-i-ged/h/image10.png\" alt=\"Energy consumption by source in the United States, 2015\" style=\"max-width: 100%; height: auto; border: 1px solid #ccc; margin-top: 10px;\" /><p><strong>Key data from graph:</strong> Fossil fuels (coal, natural gas, petroleum) account for 81% of total consumption. Renewable energy sources account for 10% of total consumption. Hydroelectric power accounts for 25% of renewable energy. Geothermal accounts for 2% of renewable energy.</p></div></div>"
+    },
+    {
+      "passageId": "world-population-growth-2050",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p style=\"font-size: 0.8em; font-weight: semibold; font-style: italic; border-left: 4px solid #2c3e50; padding-left: 12px; margin: 20px 0;\">Questions 436 through 440 are based on the following graph and tables, which show the projected growth in world population and list the top 10 most populous countries in 2015 and 2050.</p><div style=\"background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin: 15px 0;\"><img src=\"/3-i-ged/h/image11.png\" alt=\"World population projection graph, 1950-2050\" style=\"max-width: 100%; height: auto; border: 1px solid #ccc; margin-bottom: 20px;\" /><h4>Top 10 Most Populous Countries (2015)</h4>\\(\\begin{array}{c|c} \\text{Country} & \\text{Population (Millions)} \\\\ \\hline \\text{China} & 1,357 \\\\ \\text{India} & 1,277 \\\\ \\text{United States} & 316 \\\\ \\text{Indonesia} & 249 \\\\ \\text{Brazil} & 196 \\\\ \\text{Pakistan} & 191 \\\\ \\text{Nigeria} & 174 \\\\ \\text{Bangladesh} & 157 \\\\ \\text{Russia} & 143 \\\\ \\text{Japan} & 127 \\end{array}\\)<br/><br/><h4>Top 10 Most Populous Countries (2050 Projected)</h4>\\(\\begin{array}{c|c} \\text{Country} & \\text{Population (Millions)} \\\\ \\hline \\text{India} & 1,652 \\\\ \\text{China} & 1,314 \\\\ \\text{Nigeria} & 440 \\\\ \\text{United States} & 400 \\\\ \\text{Indonesia} & 366 \\\\ \\text{Pakistan} & 363 \\\\ \\text{Brazil} & 227 \\\\ \\text{Bangladesh} & 202 \\\\ \\text{Congo Dem Rep} & 182 \\\\ \\text{Ethiopia} & 178 \\end{array}\\)</div></div>"
+    },
+    {
+      "passageId": "life-expectancy-illiteracy",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p style=\"font-size: 0.8em; font-weight: semibold; font-style: italic; border-left: 4px solid #2c3e50; padding-left: 12px; margin: 20px 0;\">Questions 442 through 446 are based on the following figure, which shows the life expectancy and illiteracy rates for China, India, and Nepal.</p><div style=\"background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin: 15px 0;\"><img src=\"/3-i-ged/h/image12.png\" alt=\"Chart: Life expectancy (years) and illiteracy rates (%) for China, India, Nepal, with breakdown by gender\" style=\"max-width: 100%; height: auto; border: 1px solid #ccc; margin-bottom: 15px;\" /><br/>\\(\\begin{array}{c|c|c|c|c} \\text{Country} & \\text{Life Expectancy (years)} & \\text{Illiteracy Rate (Male \\%)} & \\text{Illiteracy Rate (Female \\%)} & \\text{Overall Illiteracy \\%} \\\\ \\hline \\text{China} & 73.5 & 8.2\\% & 20.4\\% & 14.3\\% \\\\ \\text{India} & 63.2 & 25.4\\% & 46.8\\% & 36.1\\% \\\\ \\text{Nepal} & 59.9 & 44.5\\% & 73.6\\% & 59.1\\% \\end{array}\\)</div></div>"
+    },
+    {
+      "passageId": "theodore-roosevelt",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p style=\"font-size: 0.8em; font-weight: semibold; font-style: italic; border-left: 4px solid #2c3e50; padding-left: 12px; margin: 20px 0;\">Questions 448 through 450 are based on the following information.</p><div style=\"background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin: 15px 0;\"><p>When he was a young boy, Theodore Roosevelt wanted to be a scientist who studied nature. As an adult, President Roosevelt passed legislation that preserved vast regions of the U.S. for future generations. Here are his words:</p><p style=\"font-style: italic;\">\"It is also vandalism wantonly to destroy or to permit the destruction of what is beautiful in nature, whether it be a cliff, a forest, or a species of mammal or bird. Here in the United States we turn our rivers and streams into sewers and dumping- grounds, we pollute the air, we destroy forests, and exterminate fishes, birds and mammals — not to speak of vulgarizing charming landscapes with hideous advertisements. But at last it looks as if our people were awakening.\"</p></div></div>"
+    },
+    {
+      "passageId": "manifest-destiny",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p style=\"font-size: 0.8em; font-weight: semibold; font-style: italic; border-left: 4px solid #2c3e50; padding-left: 12px; margin: 20px 0;\">Use the following information and the quote from President John Quincy Adams for Questions 453 through 455.</p><div style=\"background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin: 15px 0;\"><p>During the 19th century, it was believed that the United States should continue its westward expansion and that it was destined to stretch from coast to coast. This prevailing attitude, known as Manifest Destiny, helped fuel both the forcible removal of Native American from their homeland and the war with Mexico. Here are Adams's words:</p><p style=\"font-style: italic;\">\"The whole continent of North America appears to be destined by Divine Providence to be peopled by one nation, speaking one language, professing one general system of religious and political principles, and accustomed to one general tenor of social usages and customs.\"</p></div></div>"
+    },
+    {
+      "passageId": "boston-massacre",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p style=\"font-size: 0.8em; font-weight: semibold; font-style: italic; border-left: 4px solid #2c3e50; padding-left: 12px; margin: 20px 0;\">Use the following information for Questions 457 through 459.</p><div style=\"background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin: 15px 0;\"><p>On the evening of March 5, 1770 in Boston, a crowd of American workmen began throwing snowballs and rocks at British soldiers. A shot rang out, and then several soldiers fired their weapons, resulting in the deaths of five civilians. This event became known as the Boston Massacre.</p><p>The following figure shows an engraving by Paul Revere produced three weeks later, titled <em>The Bloody Massacre Perpetrated in King-Street</em>. The engraving depicts an orderly line of smiling British soldiers firing calmly into a peaceful, unarmed American crowd. It is considered one of the most effective pieces of war propaganda in American history.</p><img src=\"/3-i-ged/h/image13.png\" alt=\"Paul Revere engraving of the Boston Massacre\" style=\"max-width: 100%; height: auto; border: 1px solid #ccc; margin-top: 10px;\" /></div></div>"
+    },
+    {
+      "passageId": "checks-balances",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p style=\"font-size: 0.8em; font-weight: semibold; font-style: italic; border-left: 4px solid #2c3e50; padding-left: 12px; margin: 20px 0;\">Use the following information for Questions 460 through 462.</p><div style=\"background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin: 15px 0;\"><p>The Founding Fathers introduced a system of checks and balances to the Constitution and split the federal government into three separate branches: the legislative branch, the executive branch, and the judicial branch. The goal of this separation of power was to prevent any one branch from becoming too powerful.</p></div></div>"
+    },
+    {
+      "passageId": "european-exploration-map",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p style=\"font-size: 0.8em; font-weight: semibold; font-style: italic; border-left: 4px solid #2c3e50; padding-left: 12px; margin: 20px 0;\">Use the following information for Questions 463 through 466.</p><div style=\"background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin: 15px 0;\"><p>This map shows the global exploration attempts made by European explorers during the 30-year period from 1492 to 1522.</p><img src=\"/3-i-ged/h/image14.png\" alt=\"Map of European exploration routes, 1492-1522, showing voyages of Columbus, da Gama, and Magellan\" style=\"max-width: 100%; height: auto; border: 1px solid #ccc; margin-top: 10px;\" /><p><strong>Key routes shown:</strong> Columbus (1492–1504) – Caribbean islands, never mainland U.S.; da Gama (1497–1499) – from Portugal around Africa to India; Magellan (1519–1522) – circumnavigation, but Magellan died in Philippines, crew returned.</p></div></div>"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q432",
+      "passageId": "energy-consumption-2015",
+      "passageHighlight": "",
+      "questionHtml": "What percentage of the total U.S. energy consumption comes from fossil fuels?",
+      "options": {
+        "A": "16%",
+        "B": "36%",
+        "C": "52%",
+        "D": "81%"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Fossil fuels include coal, natural gas, and petroleum. The graph shows that these three fossil fuels account for 81 percent of the total U.S. energy consumption, making Choice (D) the correct answer.</p>"
+    },
+    {
+      "questionId": "q433",
+      "passageId": "energy-consumption-2015",
+      "passageHighlight": "",
+      "questionHtml": "What percentage of the total U.S. energy consumption comes from hydroelectric power?",
+      "options": {
+        "A": "2.5%",
+        "B": "5%",
+        "C": "10%",
+        "D": "25%"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Hydroelectric power accounts for 25 percent of renewable energy sources, which make up only 10 percent of the total U.S. energy consumption. 25% of 10% equals 2.5%, making Choice (A) the correct answer.</p>"
+    },
+    {
+      "questionId": "q434",
+      "passageId": "energy-consumption-2015",
+      "passageHighlight": "",
+      "questionHtml": "Which of the following is a factual statement that is supported by the graph?",
+      "options": {
+        "A": "Renewable energy accounts for 25% of total U.S. energy consumption.",
+        "B": "Geothermal energy provides less than 1% of the total U.S. energy consumption.",
+        "C": "Coal provides more energy than natural gas.",
+        "D": "Nuclear power provides 20% of total U.S. energy consumption."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Geothermal power accounts for 2% of renewable energy sources. Renewable sources make up only 10% of total consumption, so geothermal is 0.2% of total — less than 1%. Choices (A), (C), and (D) are not supported by the graph. Hence, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q435",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "Which war resulted in the United States gaining control of Texas?",
+      "options": {
+        "A": "The Spanish-American War",
+        "B": "The Mexican-American War",
+        "C": "The Texas-American War",
+        "D": "The Civil War"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Because Texas borders Mexico, the United States gained control of Texas by winning the Mexican-American War. Hence, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q436",
+      "passageId": "world-population-growth-2050",
+      "passageHighlight": "",
+      "questionHtml": "Based on the graph, in what year will the world population reach 8 billion people?",
+      "options": {
+        "A": "2015",
+        "B": "2018",
+        "C": "2023",
+        "D": "2028"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>According to the population projection graph, the world population reaches 8 billion around the year 2028, making Choice (D) the correct answer.</p>"
+    },
+    {
+      "questionId": "q437",
+      "passageId": "world-population-growth-2050",
+      "passageHighlight": "",
+      "questionHtml": "Based on the tables, which country's population is expected to grow by the biggest percentage by 2050?",
+      "options": {
+        "A": "China",
+        "B": "India",
+        "C": "Nigeria",
+        "D": "United States"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Nigeria's population is expected to more than double from 174 million in 2015 to 440 million in 2050 — a growth of over 150%. No other country's population is expected to grow that much, making Choice (C) correct.</p>"
+    },
+    {
+      "questionId": "q438",
+      "passageId": "world-population-growth-2050",
+      "passageHighlight": "",
+      "questionHtml": "Based on the graph, which of the following is a true statement regarding the predicted global population growth?",
+      "options": {
+        "A": "Most of the population growth is expected to come from less developed countries.",
+        "B": "Most of the population growth is expected to come from more developed countries.",
+        "C": "Both developed and less developed countries contribute equally to the predicted population growth.",
+        "D": "The global population is expected to remain relatively steady until 2050."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The line referring to less developed countries rises sharply, while the line for developed countries remains relatively flat. Therefore, most growth is expected from less developed countries, making Choice (A) correct.</p>"
+    },
+    {
+      "questionId": "q439",
+      "passageId": "world-population-growth-2050",
+      "passageHighlight": "",
+      "questionHtml": "Based on the given information, which of the following is a factual statement?",
+      "options": {
+        "A": "China's population is expected to rise steadily by 2050.",
+        "B": "All of the top 10 most populous countries in 2013 will still be in the top 10 most populous countries in 2050.",
+        "C": "The world population appears to be doubling in size every 40 to 60 years.",
+        "D": "Russia's population will fall by 2050."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The graph shows world population at about 3 billion in 1960, reaching 6 billion by about 2000, and then appears to double again — thus doubling every 40–60 years. Choice (C) is factual. China's population is expected to fall slightly (A is false). Russia drops out of top 10 but may not fall in absolute numbers (B and D are not factual).</p>"
+    },
+    {
+      "questionId": "q440",
+      "passageId": "world-population-growth-2050",
+      "passageHighlight": "",
+      "questionHtml": "Based on the given information, which of the following is an opinion rather than a factual statement?",
+      "options": {
+        "A": "China's population is expected to fall slightly by 2050.",
+        "B": "Nigeria should encourage birth control measures to prevent its population from growing too quickly.",
+        "C": "The United States population is expected to grow by less than 30% by 2050.",
+        "D": "India is expected to become the most populous country in the world by 2050."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Choices (A), (C), and (D) are factual statements supported by the tables. Choice (B) is a recommendation or judgment — an opinion, not a fact. Thus, (B) is correct.</p>"
+    },
+    {
+      "questionId": "q441",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "Cities that lie along the Gulf of Mexico or along the coast of the Atlantic Ocean face a serious threat from hurricanes. Based on this information, which city would you NOT expect to be seriously threatened by hurricanes?",
+      "options": {
+        "A": "Los Angeles",
+        "B": "Houston",
+        "C": "Miami",
+        "D": "New Orleans"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Of the cities listed, only Los Angeles is not on the Gulf of Mexico or the Atlantic coast; it is on the Pacific Ocean. Therefore, Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q442",
+      "passageId": "life-expectancy-illiteracy",
+      "passageHighlight": "",
+      "questionHtml": "According to the chart, approximately how many more years can a person born in India expect to live compared to a person born in Nepal?",
+      "options": {
+        "A": "3 years",
+        "B": "5 years",
+        "C": "7 years",
+        "D": "10 years"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The chart shows life expectancy in India as 63.2 years and in Nepal as 59.9 years. The difference is about 3.3 years, so approximately 3 years. Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q443",
+      "passageId": "life-expectancy-illiteracy",
+      "passageHighlight": "",
+      "questionHtml": "According to the chart, which of the following is a true statement?",
+      "options": {
+        "A": "A higher percentage of the population of Nepal knows how to read and write compared with the populations of China and India.",
+        "B": "China has the longest life expectancy in the world.",
+        "C": "The majority of women in Nepal do not know how to read or write.",
+        "D": "All three countries have equal literacy rates."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The chart shows the illiteracy rate for women in Nepal is 73.6%, meaning the majority cannot read or write. Choice (A) is false (Nepal's literacy is lower). Choice (B) is not supported (China has highest among these three, but not necessarily the world). Choice (D) is false. Thus, (C) is correct.</p>"
+    },
+    {
+      "questionId": "q444",
+      "passageId": "life-expectancy-illiteracy",
+      "passageHighlight": "",
+      "questionHtml": "Which of the following statements would best explain the high level of illiteracy among women compared to men in Nepal?",
+      "options": {
+        "A": "Nepalese women are not given the same educational opportunities as men.",
+        "B": "Nepalese women are simply not as smart as Nepalese men.",
+        "C": "Nepalese women tend to read more books and magazines per week than Nepalese men do.",
+        "D": "All three countries are ruled by female leaders who spend more on women's educational programs than on men's."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>If women are denied equal educational opportunities, that would directly cause higher illiteracy. Choice (B) is sexist and untrue; (C) and (D) would lead to lower illiteracy among women, not higher. Therefore, (A) is correct.</p>"
+    },
+    {
+      "questionId": "q445",
+      "passageId": "life-expectancy-illiteracy",
+      "passageHighlight": "",
+      "questionHtml": "According to the table, what general trend appears to be true regarding life expectancy and illiteracy rates in these three countries?",
+      "options": {
+        "A": "The higher the illiteracy rate, the longer the life expectancy.",
+        "B": "The lower the illiteracy rate, the shorter the life expectancy.",
+        "C": "The lower the illiteracy rate, the longer the life expectancy.",
+        "D": "There is no correlation between illiteracy rate and life expectancy."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>China has the lowest illiteracy rate and the highest life expectancy; Nepal has the highest illiteracy and lowest life expectancy. Thus, lower illiteracy is associated with longer life expectancy, making Choice (C) correct.</p>"
+    },
+    {
+      "questionId": "q446",
+      "passageId": "life-expectancy-illiteracy",
+      "passageHighlight": "",
+      "questionHtml": "Based on the chart, all of the following statements are opinions rather than factual statements EXCEPT",
+      "options": {
+        "A": "most Indian women prefer watching soap operas on television to reading novels.",
+        "B": "most Chinese women are able to read and write properly.",
+        "C": "although the Nepalese people may not live as long as Chinese people do, they usually live happier lives.",
+        "D": "women in India and Nepal should band together to form pressure groups to fight for more educational opportunities."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The chart shows the illiteracy rate for Chinese women is 20.4%, meaning 79.6% are literate — \"most Chinese women are able to read and write\" is a factual statement. Choices (A), (C), and (D) are opinions. Hence, (B) is correct.</p>"
+    },
+    {
+      "questionId": "q447",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "In 1803, the United States vastly increased its territory when Thomas Jefferson paid 50 million francs to France for the land that now includes North Dakota, South Dakota, Arkansas, Iowa, Kansas, Oklahoma, Nebraska, Montana, Wyoming, northern Texas, and Louisiana. What was the name of this transaction?",
+      "options": {
+        "A": "the Louisiana Purchase",
+        "B": "the California Purchase",
+        "C": "the New York Purchase",
+        "D": "the Gadsden Purchase"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The described territory matches the Louisiana Purchase. The Gadsden Purchase involved New Mexico and Arizona. Choices (B) and (C) are not real purchases. Thus, (A) is correct.</p>"
+    },
+    {
+      "questionId": "q448",
+      "passageId": "theodore-roosevelt",
+      "passageHighlight": "",
+      "questionHtml": "Based on the given information, which of the following was likely set up by President Roosevelt between 1901 and 1909 to preserve the United States natural treasures for future generations?",
+      "options": {
+        "A": "transportation system",
+        "B": "National Parks system",
+        "C": "Wall Street",
+        "D": "United States Treasury"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>President Roosevelt was a conservationist who passed legislation to preserve nature, and he greatly expanded the National Parks system. Therefore, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q449",
+      "passageId": "theodore-roosevelt",
+      "passageHighlight": "",
+      "questionHtml": "What is the practice of preserving natural resources known as?",
+      "options": {
+        "A": "environmental alarmism",
+        "B": "conservation",
+        "C": "global warming",
+        "D": "accelerated consumption"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The practice of preserving natural resources is called conservation. Choice (B) is correct. The other terms do not match this definition.</p>"
+    },
+    {
+      "questionId": "q450",
+      "passageId": "theodore-roosevelt",
+      "passageHighlight": "",
+      "questionHtml": "Which current U.S. agency plays an important role in ensuring that U.S. companies do not pollute the country's natural environment?",
+      "options": {
+        "A": "NRA (National Rifle Association)",
+        "B": "DOE (Department of Energy)",
+        "C": "FBI (Federal Bureau of Investigation)",
+        "D": "EPA (Environmental Protection Agency)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The Environmental Protection Agency (EPA) is responsible for protecting the environment and enforcing pollution laws. Hence, Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q451",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "In 1794, inventor Eli Whitney patented the modern cotton gin, which made it much easier to separate cotton fibers from their seeds. Why was the cotton gin such an important invention during that period of American history?",
+      "options": {
+        "A": "It ended the need for slavery in the United States.",
+        "B": "It caused the economic destruction of farmland, leading to the Great Depression.",
+        "C": "It greatly expanded the cotton industry in the Southern states.",
+        "D": "It helped protect the American cotton industry from imported synthetic fabrics from China."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The cotton gin made cotton production much more profitable, leading to a massive expansion of the cotton industry in the South. Contrary to ending slavery, it increased demand for enslaved labor. Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q452",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "The quote below is from Alexander Hamilton, one of the Founding Fathers. 'Constitutions should consist only of general provisions; the reason is that they must necessarily be permanent, and that they cannot calculate for the possible change of things.' How does the Constitution of the United States 'calculate for the possible change of things'?",
+      "options": {
+        "A": "It does not contain any provisions that allow for change.",
+        "B": "It protects the Supreme Court from having to explain their decisions.",
+        "C": "It states that the powers of the president will not be questioned.",
+        "D": "It allows for amendments to be made when necessary."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The Constitution includes Article V, which provides a process for amendments. This allows the Constitution to change over time. Therefore, Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q453",
+      "passageId": "manifest-destiny",
+      "passageHighlight": "",
+      "questionHtml": "What was the main message President John Quincy Adams was trying to convey to the American colonists?",
+      "options": {
+        "A": "American colonists should respect the rights of the Native American people.",
+        "B": "American colonists should seize the land from Native Americans, even though they know what they'll be doing is immoral and against God.",
+        "C": "America should become a 'melting pot' where all cultures can live together in harmony.",
+        "D": "American colonists should seize the land from Native Americans because doing so is part of God's plan."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Adams says the continent is \"destined by Divine Providence\" to be peopled by one nation, implying that expansion is God's plan. Thus, Choice (D) captures his message.</p>"
+    },
+    {
+      "questionId": "q454",
+      "passageId": "manifest-destiny",
+      "passageHighlight": "",
+      "questionHtml": "What is the meaning of Manifest Destiny?",
+      "options": {
+        "A": "the belief that the expansion of the U.S. throughout the American continents was both justified and inevitable",
+        "B": "the belief that the United States should remain a small coastal nation",
+        "C": "the idea that all Native Americans should be given full citizenship",
+        "D": "the policy of avoiding any conflict with Mexico"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Manifest Destiny was the 19th-century belief that the United States was destined and justified in expanding across the continent. Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q455",
+      "passageId": "manifest-destiny",
+      "passageHighlight": "",
+      "questionHtml": "Based on the information in the passage, the attitude of Manifest Destiny helped to encourage which two atrocities?",
+      "options": {
+        "A": "the Boston Massacre and the Declaration of Independence from Great Britain",
+        "B": "the beginning of slavery and the war against France",
+        "C": "the forcible removal of Native Americans and the war with Mexico",
+        "D": "the forcible removal of Native Americans and the beginning of slavery"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The passage explicitly states that Manifest Destiny \"fueled both the forcible removal of Native American from their homeland and the war with Mexico.\" Thus, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q456",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "Which of the following statements is true regarding the Bill of Rights?",
+      "options": {
+        "A": "It abolished slavery throughout the United States.",
+        "B": "It gave women the right to vote.",
+        "C": "It was added to the Constitution shortly after ratification.",
+        "D": "It was never added to the Constitution."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The Bill of Rights (the first ten amendments) was added to the Constitution in 1791, shortly after ratification in 1788. Choice (C) is true. Slavery was not abolished until the 13th Amendment; women's suffrage came with the 19th Amendment.</p>"
+    },
+    {
+      "questionId": "q457",
+      "passageId": "boston-massacre",
+      "passageHighlight": "",
+      "questionHtml": "Which of the following is a true statement regarding the Boston Massacre?",
+      "options": {
+        "A": "British troops attacked the peaceful, unarmed crowd without provocation.",
+        "B": "Paul Revere's engraving is an accurate depiction of the actual events of the Boston Massacre.",
+        "C": "More people were killed during the Boston Massacre than during the entire Civil War.",
+        "D": "British troops were attacked by an unruly crowd, and shots were fired during the ensuing chaos, leading to the death of several civilians."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The passage states that the crowd threw snowballs and rocks at the soldiers, and then shots were fired. This matches Choice (D). Choices (A) and (B) are false; (C) is absurd (Civil War had hundreds of thousands of deaths).</p>"
+    },
+    {
+      "questionId": "q458",
+      "passageId": "boston-massacre",
+      "passageHighlight": "",
+      "questionHtml": "All of the following features of Paul Revere's engraving help explain why it's considered propaganda rather than a true depiction of events EXCEPT",
+      "options": {
+        "A": "some of the British troops are smiling as they shoot into the unarmed crowd.",
+        "B": "the American colonists are dressed as members of the upper class rather than as workmen, giving them a perceived higher social status.",
+        "C": "several American colonists are shown lying on the floor, either dead or dying.",
+        "D": "the British troops are shown lined up in an orderly fashion as they shoot into the crowd."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>People actually died in the event, so showing dead colonists is factual, not propaganda. The other choices distort reality to incite anger. Hence, (C) is the exception.</p>"
+    },
+    {
+      "questionId": "q459",
+      "passageId": "boston-massacre",
+      "passageHighlight": "",
+      "questionHtml": "What effect did the Boston Massacre and Paul Revere's engraving have on the American colonists?",
+      "options": {
+        "A": "They helped ease tensions between the colonists and the British Empire.",
+        "B": "They helped ignite tensions between the colonists and the British Empire, eventually leading to the American Revolution.",
+        "C": "They helped break the fighting spirit of the colonists, effectively ending the American Revolution.",
+        "D": "They made the colonists proud to be part of the powerful British Empire."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The passage calls Revere's engraving \"one of the most effective pieces of war propaganda,\" which increased hostility toward the British and helped spark the American Revolution. Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q460",
+      "passageId": "checks-balances",
+      "passageHighlight": "",
+      "questionHtml": "Which of the following is one of the provisions of this system of checks and balances?",
+      "options": {
+        "A": "The president cannot be removed from office by the other branches of government under any circumstances.",
+        "B": "The decisions of the Supreme Court can be vetoed by the president.",
+        "C": "The president does not need the approval of the other branches of government to declare war on other nations.",
+        "D": "New Supreme Court Justices must be appointed by the president and confirmed by the Senate."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Checks and balances require cooperation among branches. The president appoints Supreme Court justices, but the Senate must confirm them — an example of checks and balances. Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q461",
+      "passageId": "checks-balances",
+      "passageHighlight": "",
+      "questionHtml": "To which branch of government does the president belong?",
+      "options": {
+        "A": "executive branch",
+        "B": "legislative branch",
+        "C": "judicial branch",
+        "D": "the president belongs to all three branches"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The president is the head of the executive branch, as defined in Article II of the Constitution. Thus, Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q462",
+      "passageId": "checks-balances",
+      "passageHighlight": "",
+      "questionHtml": "Which branch of government is responsible for introducing and passing new laws?",
+      "options": {
+        "A": "executive branch",
+        "B": "legislative branch",
+        "C": "judicial branch",
+        "D": "The Constitution does not allow new laws to be made."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The legislative branch (Congress) has the power to introduce and pass laws. The president can veto, and the judiciary can review constitutionality, but only Congress makes laws. Hence, (B) is correct.</p>"
+    },
+    {
+      "questionId": "q463",
+      "passageId": "european-exploration-map",
+      "passageHighlight": "",
+      "questionHtml": "European explorers traveled around the world for all of the following reasons EXCEPT",
+      "options": {
+        "A": "to find a shorter route to the East Indies",
+        "B": "to satisfy their taste for adventure and proudly go where no man had gone before",
+        "C": "to discover new lands and secure natural resources",
+        "D": "to win first place in an official global exploration contest held in 1522"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>There was no official global exploration contest in 1522. The other reasons are historically valid motivations for exploration. Therefore, (D) is the exception.</p>"
+    },
+    {
+      "questionId": "q464",
+      "passageId": "european-exploration-map",
+      "passageHighlight": "",
+      "questionHtml": "Based on the map, which of the following statements is true regarding Christopher Columbus?",
+      "options": {
+        "A": "He returned to the mainland of the United States several times during this period.",
+        "B": "He successfully circumnavigated the globe.",
+        "C": "He was the first to reach Asia by ship.",
+        "D": "He didn't actually step foot on the mainland of the United States during this period."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The map shows Columbus landing on Caribbean islands but never reaching the mainland of what is now the United States. Thus, Choice (D) is true.</p>"
+    },
+    {
+      "questionId": "q465",
+      "passageId": "european-exploration-map",
+      "passageHighlight": "",
+      "questionHtml": "Based on the map, which of the following statements is true regarding Magellan's circumnavigation of the world?",
+      "options": {
+        "A": "His voyage took over five years to complete.",
+        "B": "He followed the same route that da Gama had taken almost 20 years earlier.",
+        "C": "Magellan did not actually return home with his ship in 1522.",
+        "D": "He had originally intended to circumnavigate the world by sailing from the North Pole to South Pole and back again."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The map and historical fact show that Magellan died in the Philippines in 1521; his crew completed the voyage without him in 1522. Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q466",
+      "passageId": "european-exploration-map",
+      "passageHighlight": "",
+      "questionHtml": "Based on the map, which of the following is a true statement rather than an opinion regarding European exploration during the 30-year period from 1492 to 1522.",
+      "options": {
+        "A": "Magellan was clearly the best European explorer during this period.",
+        "B": "Da Gama was afraid to sail to America, so he decided to head over to Asia instead.",
+        "C": "Columbus was the worst explorer and must have become dizzy from sailing in circles.",
+        "D": "Da Gama was the first of the three explorers to reach Asia by ship."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The map shows da Gama reaching Asia in 1498, before Columbus (who never reached Asia) and Magellan (who arrived later). Choice (D) is a factual statement; the others are opinions or false.</p>"
+    }
+  ]
+}

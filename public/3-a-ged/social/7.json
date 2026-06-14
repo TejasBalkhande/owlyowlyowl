@@ -1,0 +1,348 @@
+{
+  "passages": [
+    {
+      "passageId": "fdr-speech-1941",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p style=\"font-size: 0.8em; font-weight: semibold; font-style: italic; border-left: 4px solid #2c3e50; padding-left: 12px; margin: 20px 0;\">Use the following excerpt from President Franklin D. Roosevelt's famous \"Day of Infamy\" speech to Congress in 1941 for Questions 467 through 471.</p><div style=\"background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin: 15px 0;\"><p>December 7, 1941 — a date which will live in infamy — the United States of America was suddenly and deliberately attacked by naval and air forces of the Empire of Japan. The United States was at peace with that nation and, at the solicitation of Japan, was still in conversation with its Government and its Emperor looking toward the maintenance of peace in the Pacific.... It will be recorded that the distance of Hawaii from Japan makes it obvious that the attack was deliberately planned many days or even weeks ago. During the intervening time the Japanese Government has deliberately sought to deceive the United States by false statements and expressions of hope for continued peace. The attack yesterday on the Hawaiian Islands has caused severe damage to American naval and military forces.... As Commander-in-Chief of the Army and Navy, I have directed that all measures be taken for our defense.... Hostilities exist. There is no blinking at the fact that our people, our territory and our interests are in grave danger. With confidence in our armed forces, with the unbounded determination of our people, we will gain the inevitable triumph — so help us God. I ask that the Congress declare that because the unprovoked and dastardly attack by Japan on Sunday, December 7th, a state of war has existed between the United States and the Japanese Empire. —President Franklin D. Roosevelt</p></div></div>"
+    },
+    {
+      "passageId": "tampa-precipitation-temperature",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p style=\"font-size: 0.8em; font-weight: semibold; font-style: italic; border-left: 4px solid #2c3e50; padding-left: 12px; margin: 20px 0;\">Use the following figures for Questions 473 through 476. The figures show the average precipitation and the average temperature range for Tampa, Florida.</p><div style=\"background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin: 15px 0;\"><img src=\"/3-i-ged/h/image15.png\" alt=\"Average Monthly Precipitation Tampa, Florida\" style=\"max-width: 100%; height: auto; border: 1px solid #ccc; margin-bottom: 15px;\" /><img src=\"/3-i-ged/h/image16.png\" alt=\"Average Temperature Range Tampa, Florida\" style=\"max-width: 100%; height: auto; border: 1px solid #ccc;\" /></div></div>"
+    },
+    {
+      "passageId": "us-unemployment-1890-1940",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p style=\"font-size: 0.8em; font-weight: semibold; font-style: italic; border-left: 4px solid #2c3e50; padding-left: 12px; margin: 20px 0;\">Use the following graph for Questions 479 and 480.</p><div style=\"background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin: 15px 0;\"><img src=\"/3-i-ged/h/image17.png\" alt=\"U.S. unemployment rate graph, 1890-1940\" style=\"max-width: 100%; height: auto; border: 1px solid #ccc;\" /><p style=\"margin-top: 10px;\"><strong>Graph shows:</strong> Unemployment rate from 1890 to 1940, with spikes in the early 1890s, around 1894, and a dramatic rise during the Great Depression after 1929.</p></div></div>"
+    },
+    {
+      "passageId": "constitution-article2",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p style=\"font-size: 0.8em; font-weight: semibold; font-style: italic; border-left: 4px solid #2c3e50; padding-left: 12px; margin: 20px 0;\">Use the following excerpt from Article II, Sections 1 and 4 of the U.S. Constitution for Questions 481 through 484.</p><div style=\"background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin: 15px 0;\"><p>The executive power shall be vested in a President of the United States of America. He shall hold his office during the term of four years, and, together with the Vice President, chosen for the same term, be elected, as follows: ...</p><p>No person except a natural born citizen, or a citizen of the United States, at the time of the adoption of this Constitution, shall be eligible to the office of President; neither shall any person be eligible to that office who shall not have attained to the age of thirty five years, and been fourteen Years a resident within the United States.</p><p>In case of the removal of the President from office, or of his death, resignation, or inability to discharge the powers and duties of the said office, the same shall devolve on the Vice President, and the Congress may by law provide for the case of removal, death, resignation or inability, both of the President and Vice President, declaring what officer shall then act as President, and such officer shall act accordingly, until the disability be removed, or a President shall be elected...</p><p>Before he enter on the execution of his office, he shall take the following oath or affirmation:—\"I do solemnly swear (or affirm) that I will faithfully execute the office of President of the United States, and will to the best of my ability, preserve, protect and defend the Constitution of the United States.\" ...</p><p>The President, Vice President and all civil officers of the United States, shall be removed from office on impeachment for, and conviction of, treason, bribery, or other high crimes and misdemeanors.</p></div></div>"
+    },
+    {
+      "passageId": "us-precipitation-map",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p style=\"font-size: 0.8em; font-weight: semibold; font-style: italic; border-left: 4px solid #2c3e50; padding-left: 12px; margin: 20px 0;\">Use the following map for Questions 485 and 486. This map shows the average annual precipitation for the continental United States.</p><div style=\"background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin: 15px 0;\"><img src=\"/3-i-ged/h/image18.png\" alt=\"Average annual precipitation map of the continental United States\" style=\"max-width: 100%; height: auto; border: 1px solid #ccc;\" /></div></div>"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q467",
+      "passageId": "fdr-speech-1941",
+      "passageHighlight": "",
+      "questionHtml": "Based on the excerpt, what had just happened the day before Roosevelt's speech to Congress?",
+      "options": {
+        "A": "The United States had launched an unprovoked attack on the Japanese at Pearl Harbor.",
+        "B": "The Japanese had launched an unprovoked attack on the United States at Pearl Harbor.",
+        "C": "The ongoing war between the United States and Japan had suddenly intensified.",
+        "D": "The Japanese invaded the continental United States."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>According to the excerpt, 'The United States of America was suddenly and deliberately attacked by naval and air forces of the Empire of Japan' at Pearl Harbor in Hawaii, making Choice (B) the correct answer. Choice (A) is the opposite of what happened. There was no ongoing war between Japan and the United States; in fact, the excerpt mentions that the nations were still negotiating a peace treaty at the time of the attack, making Choice (C) incorrect. Hawaii is not part of the continental United States, so Choice (D) is false.</p>"
+    },
+    {
+      "questionId": "q468",
+      "passageId": "fdr-speech-1941",
+      "passageHighlight": "",
+      "questionHtml": "Based on the excerpt, why was the attack on Pearl Harbor so surprising?",
+      "options": {
+        "A": "Pearl Harbor was a peaceful place with no strategic significance in the war.",
+        "B": "The United States and Japan were in the process of discussing a peace treaty at the time of the attack.",
+        "C": "The Japanese had warned the United States about the dangers of an imminent attack, but Roosevelt had ignored their warning.",
+        "D": "Pearl Harbor is so close to Washington, DC, that Roosevelt had thought it was safe from attack."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>According to the excerpt, 'the Japanese Government has deliberately sought to deceive the United States by false statements and expressions of hope for continued peace'; meanwhile, Japan had spent weeks planning the attack at Pearl Harbor, making Choice (B) the correct answer. For the same reason, you can eliminate Choice (C). Choice (A) is not true — many United States warships were stationed there. Hawaii is not close to Washington, DC, so Choice (D) is false.</p>"
+    },
+    {
+      "questionId": "q469",
+      "passageId": "fdr-speech-1941",
+      "passageHighlight": "",
+      "questionHtml": "Which war was the attack on Pearl Harbor part of?",
+      "options": {
+        "A": "World War I",
+        "B": "World War II",
+        "C": "the Korean War",
+        "D": "the Vietnam War"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>World War II began in 1939 and continued until 1945, making Choice (B) the best answer. The attack on Pearl Harbor occurred in 1941 and drew the United States into World War II.</p>"
+    },
+    {
+      "questionId": "q470",
+      "passageId": "fdr-speech-1941",
+      "passageHighlight": "",
+      "questionHtml": "Based on the excerpt, what was President Roosevelt trying to convince Congress to do?",
+      "options": {
+        "A": "surrender to the Japanese army immediately",
+        "B": "declare war on Hawaii",
+        "C": "declare war on Japan",
+        "D": "negotiate with Japan for better weapons to fight the Hawaiians"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Roosevelt said, 'I ask that the Congress declare that because the unprovoked and dastardly attack by Japan on Sunday, December 7th, a state of war has existed between the United States and the Japanese Empire.' Therefore, he asked Congress to declare war on Japan, making Choice (C) correct.</p>"
+    },
+    {
+      "questionId": "q471",
+      "passageId": "fdr-speech-1941",
+      "passageHighlight": "",
+      "questionHtml": "Based on the excerpt, why was Pearl Harbor chosen as the location for the surprise attack?",
+      "options": {
+        "A": "Pearl Harbor was an important U.S. naval base.",
+        "B": "Hawaii had already declared war on Japan.",
+        "C": "Pearl Harbor was very close to Japan and easy to reach.",
+        "D": "Pearl Harbor had lots of beaches for the soldiers to relax on after the attack was over."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Roosevelt said, 'The attack yesterday on the Hawaiian Islands has caused severe damage to American naval and military forces,' making Choice (A) the correct answer. All the other answer choices contain false statements.</p>"
+    },
+    {
+      "questionId": "q472",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "The United Nations (UN) is an international organization based in New York City. Its member countries include 193 out of the 195 countries in the world. The UN was founded at the end of World War II and is dedicated to global peace, human rights, and international law. Which of the following is a fact rather than an opinion regarding the United Nations?",
+      "options": {
+        "A": "The United Nations should do more to protect the rights of minorities around the world.",
+        "B": "The United States is clearly the most important member of the United Nations.",
+        "C": "Most countries in the world are members of the United Nations.",
+        "D": "The United Nations is no longer needed to secure global peace."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The question stem tells you that the United Nations' member countries include 193 out of the 195 countries in the world, making Choice (C) a factual statement. All of the other answer choices are opinions.</p>"
+    },
+    {
+      "questionId": "q473",
+      "passageId": "tampa-precipitation-temperature",
+      "passageHighlight": "",
+      "questionHtml": "Based on the figures, during which month does Tampa experience the highest average temperature?",
+      "options": {
+        "A": "January",
+        "B": "June",
+        "C": "August",
+        "D": "November"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>You can see from the temperature graph that Tampa experiences its greatest average temperatures during August, making Choice (C) the correct answer.</p>"
+    },
+    {
+      "questionId": "q474",
+      "passageId": "tampa-precipitation-temperature",
+      "passageHighlight": "",
+      "questionHtml": "Which choice correctly completes the following sentence? Tampa's driest month is ______, whereas its coldest month is ______.",
+      "options": {
+        "A": "January, April",
+        "B": "January, November",
+        "C": "November, January",
+        "D": "April, November"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>From the precipitation graph, November has the lowest bar (driest month). From the temperature graph, January is the coldest month. Thus, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q475",
+      "passageId": "tampa-precipitation-temperature",
+      "passageHighlight": "",
+      "questionHtml": "Based on the figures, what appears to be the relationship between the average temperature and the rainfall in Tampa?",
+      "options": {
+        "A": "The highest amount of snow occurs during winter, when average temperatures are the lowest.",
+        "B": "The highest amount of rain occurs during spring, when the average temperatures are a little warmer.",
+        "C": "The highest amount of rain occurs during summer, when the average temperatures are the highest.",
+        "D": "The highest amount of rain occurs during fall, when the average temperatures are beginning to decrease."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The hottest temperatures (summer months) coincide with the highest amount of rain. The graph shows Tampa experiences its greatest rainfall during summer, making Choice (C) the correct answer.</p>"
+    },
+    {
+      "questionId": "q476",
+      "passageId": "tampa-precipitation-temperature",
+      "passageHighlight": "",
+      "questionHtml": "Which segment of the economy would be affected the most by an unusually long spell of dry weather?",
+      "options": {
+        "A": "the banking industry",
+        "B": "farming and agriculture",
+        "C": "the pharmaceutical industry",
+        "D": "the automobile industry"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>An unusually long spell of dry weather would affect the farming and agriculture industry the most because crops depend on water to grow. Hence, Choice (B) is the correct answer.</p>"
+    },
+    {
+      "questionId": "q477",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "A monarchy is a system of government in which one person reigns, usually a king or queen. Which country has never had a monarchy?",
+      "options": {
+        "A": "Great Britain",
+        "B": "Spain",
+        "C": "France",
+        "D": "United States"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Great Britain, Spain, and France have all had monarchies at various points in their history. The United States, however, was founded as a republic and has never had a monarchy. Thus, Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q478",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "John Adams once said, \"The proposition that the people are the best keepers of their own liberties is not true. They are the worst keepers of their own liberties because they are the worst judges of what is best for their own happiness and security.\" What was John Adams' main point?",
+      "options": {
+        "A": "People cannot be trusted to defend their own freedoms and liberties.",
+        "B": "People are generally well-informed about political issues.",
+        "C": "Only kings and queens can protect the people's liberties.",
+        "D": "The government should be abolished because people can rule themselves perfectly."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>John Adams's main point was that people tend to take their freedoms for granted and lack the political understanding necessary to protect their rights. Hence, Choice (A) is the correct answer.</p>"
+    },
+    {
+      "questionId": "q479",
+      "passageId": "us-unemployment-1890-1940",
+      "passageHighlight": "",
+      "questionHtml": "Which of the following explains the sudden drop in unemployment during 1917 and 1918?",
+      "options": {
+        "A": "the abolishment of slavery",
+        "B": "the stock market crash known as Black Tuesday",
+        "C": "the United States' entrance into World War I",
+        "D": "the outbreak of World War II"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>World War I began in 1914 and lasted until 1918, but the United States only joined the war in 1917. Millions of men were sent off to fight, and industries began producing weapons and war supplies, which lowered unemployment. Hence, Choice (C) is the correct answer. The abolishment of slavery occurred in 1865, Black Tuesday in 1929, and World War II began in 1939 — all outside the 1917-1918 period.</p>"
+    },
+    {
+      "questionId": "q480",
+      "passageId": "us-unemployment-1890-1940",
+      "passageHighlight": "",
+      "questionHtml": "Which of the following is an opinion rather than a factual statement regarding the graph?",
+      "options": {
+        "A": "The unemployment rate more than quadrupled from 1890 until 1894.",
+        "B": "The sharp increase in unemployment in the early 1890s was due to the actions of incompetent leaders.",
+        "C": "The unemployment rate remained below 10% during the first two decades of the 20th century.",
+        "D": "The unemployment rate never equaled zero during the indicated time frame."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Only Choice (B) contains an opinion rather than a factual statement. It assigns blame to 'incompetent leaders,' which is a judgment. All the other choices are factual statements that are backed up by the graph.</p>"
+    },
+    {
+      "questionId": "q481",
+      "passageId": "constitution-article2",
+      "passageHighlight": "",
+      "questionHtml": "According to the excerpt, before a new president officially becomes the President of the United States, he must swear an oath to do what?",
+      "options": {
+        "A": "protect and defend the United States",
+        "B": "protect and defend his family",
+        "C": "protect and defend the Constitution of the United States",
+        "D": "protect and defend himself from his political enemies"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The excerpt tells you that a new president must say, 'I do solemnly swear (or affirm) that I will faithfully execute the office of President of the United States, and will to the best of my ability, preserve, protect and defend the Constitution of the United States.' Hence, Choice (C) is the correct answer.</p>"
+    },
+    {
+      "questionId": "q482",
+      "passageId": "constitution-article2",
+      "passageHighlight": "",
+      "questionHtml": "According to the excerpt, to be eligible to be President of the United States, a person must meet all of the following criteria EXCEPT",
+      "options": {
+        "A": "be a natural born citizen of the United States",
+        "B": "be at least 35 years old",
+        "C": "be a white male",
+        "D": "have lived in the United States for at least 14 years"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The excerpt says, 'No person except a natural born citizen, or a citizen of the United States [Choice (A)], at the time of the adoption of this Constitution, shall be eligible to the office of President; neither shall any person be eligible to that office who shall not have attained to the age of thirty five years [Choice (B)], and been fourteen Years a resident within the United States [Choice (D)].' The Constitution does not require the president to be a white male. Thus, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q483",
+      "passageId": "constitution-article2",
+      "passageHighlight": "",
+      "questionHtml": "What is the term for the filing of charges by the House of Representatives that accuse either the president or vice president of committing offenses that could lead to his legal removal from office before the official end of his term?",
+      "options": {
+        "A": "a coup",
+        "B": "an impeachment",
+        "C": "obstructionism",
+        "D": "a misdemeanor"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The excerpt says that 'the President, Vice President and all civil officers of the United States, shall be removed from office on impeachment for, and conviction of, treason, bribery, or other high crimes and misdemeanors.' Hence, Choice (B) is the correct answer. A coup is an illegal attempt to remove a president, obstructionism is preventing presidential action, and a misdemeanor is a minor crime that could lead to impeachment but is not the term for the process itself.</p>"
+    },
+    {
+      "questionId": "q484",
+      "passageId": "constitution-article2",
+      "passageHighlight": "",
+      "questionHtml": "If a president is removed from office or is unable to carry out his or her duties due to illness or death, who becomes the new president?",
+      "options": {
+        "A": "the vice president",
+        "B": "the Speaker of the House of Representatives",
+        "C": "the Secretary of State",
+        "D": "A new election must be held to decide who the new president will be."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The excerpt says, 'In case of the removal of the President from office, or of his death, resignation, or inability to discharge the powers and duties of the said office, the same shall devolve on the Vice President.' Hence, Choice (A) is the correct answer.</p>"
+    },
+    {
+      "questionId": "q485",
+      "passageId": "us-precipitation-map",
+      "passageHighlight": "",
+      "questionHtml": "Some areas of the United States receive less than 10 inches of precipitation per year. What are these areas known as?",
+      "options": {
+        "A": "prairies",
+        "B": "tundras",
+        "C": "savannas",
+        "D": "deserts"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Areas that receive very little rainfall per year (less than 10 inches) are known as deserts, so Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q486",
+      "passageId": "us-precipitation-map",
+      "passageHighlight": "",
+      "questionHtml": "Which states receive the most precipitation per year?",
+      "options": {
+        "A": "Oregon and Washington",
+        "B": "Texas and Oklahoma",
+        "C": "Florida and Georgia",
+        "D": "Nevada and Arizona"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>You can see from the map that the states receiving the most precipitation per year are Oregon and Washington, located in the Pacific Northwest. Hence, Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q487",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "Why were Native-American tribes forcibly relocated from their tribal lands in the 1830s?",
+      "options": {
+        "A": "White settlers wanted to steal the lands in the eastern states that belonged to the Indians for themselves.",
+        "B": "Native Americans left their native lands in the eastern states to search for gold in the West.",
+        "C": "Whites were concerned for the health of the Native Americans and felt that the climate west of the Mississippi River would be better for them.",
+        "D": "The land had originally belonged to the Founding Fathers."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>In the 1830s, the U.S. government decided to take over Native American lands in the eastern states. When Native Americans refused to leave, they were forcibly removed so that white settlers could take their land. Hence, Choice (A) is correct. The other choices are false or misleading.</p>"
+    },
+    {
+      "questionId": "q488",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "What was the name of the forced relocation of Native Americans in the 1830s, ordered by President Jackson, that resulted in the deaths of thousands of Native American men, women, and children?",
+      "options": {
+        "A": "The Trail of Death",
+        "B": "The Trail of Tears",
+        "C": "The Trail of the Lonesome Pine",
+        "D": "The Trail of Eviction"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The forced relocation of Native Americans in the 1830s that resulted in thousands of deaths is known as the Trail of Tears. Therefore, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q489",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "Which Supreme Court decision overturned the doctrine of 'separate but equal' and led to the desegregation of United States public schools?",
+      "options": {
+        "A": "Plessy v. Ferguson",
+        "B": "Roe v. Wade",
+        "C": "Brown v. Board of Education",
+        "D": "Miranda v. Arizona"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Brown v. Board of Education was the Supreme Court decision that overturned the doctrine of 'separate but equal' and led to the desegregation of United States public schools, so Choice (C) is correct. Plessy v. Ferguson upheld 'separate but equal'; Roe v. Wade addressed abortion rights; Miranda v. Arizona addressed the rights of the accused.</p>"
+    }
+  ]
+}

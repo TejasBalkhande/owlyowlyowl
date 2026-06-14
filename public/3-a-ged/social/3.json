@@ -1,0 +1,507 @@
+{
+  "passages": [
+    {
+      "passageId": "first-amendment-excerpt-344-346",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p style=\"font-size: 0.8em; font-weight: semibold; font-style: italic; border-left: 4px solid #2c3e50; padding-left: 12px; margin: 20px 0;\">Use the following excerpt from the First Amendment for Questions 344 through 346.</p><div style=\"background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin: 15px 0;\"><p style=\"font-style: italic;\">Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof, or abridging the freedom of speech, or the press; or the right of the people peaceably to assemble and to petition the Government ...</p></div></div>"
+    },
+    {
+      "passageId": "adams-washington-quotes-363-365",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p style=\"font-size: 0.8em; font-weight: semibold; font-style: italic; border-left: 4px solid #2c3e50; padding-left: 12px; margin: 20px 0;\">Questions 363 through 365 are based on the following two excerpts from speeches made by John Adams and George Washington.</p><div style=\"background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin: 15px 0;\"><p style=\"font-style: italic;\">There is nothing which I dread so much as a division of the republic into two great parties, each arranged under its leader, and concerting measures in opposition to each other. This, in my humble apprehension, is to be dreaded as the greatest political evil under our Constitution. — John Adams</p><p style=\"font-style: italic;\">The alternate domination of one faction over another, sharpened by the spirit of revenge, natural to party dissension, which in different ages and countries has perpetrated the most horrid enormities, is itself a frightful despotism. But this leads at length to a more formal and permanent despotism. The disorders and miseries, which result, gradually incline the minds of men to seek security and repose in the absolute power of an individual; and sooner or later the chief of some prevailing faction, more able or more fortunate than his competitors, turns this disposition to the purposes of his own elevation, on the ruins of Public Liberty. Without looking forward to an extremity of this kind, (which nevertheless ought not to be entirely out of sight,) the common and continual mischiefs of the spirit of party are sufficient to make it the interest and duty of a wise people to discourage and restrain it. —George Washington</p></div></div>"
+    },
+    {
+      "passageId": "immigration-graph-376-378",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p style=\"font-size: 0.8em; font-weight: semibold; font-style: italic; border-left: 4px solid #2c3e50; padding-left: 12px; margin: 20px 0;\">Use the following information for Questions 376 through 378.</p><div style=\"background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin: 15px 0;\"><p>This graph shows the immigration rate to the United States throughout the 20th century.</p><img src=\"/3-i-ged/h/image5.png\" alt=\"Graph of immigration rate to the United States throughout the 20th century\" style=\"max-width: 100%; height: auto; border: 1px solid #ccc; margin-top: 10px;\" /></div></div>"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q344",
+      "passageId": "first-amendment-excerpt-344-346",
+      "passageHighlight": "",
+      "questionHtml": "What is the main purpose of the First Amendment?",
+      "options": {
+        "A": "to protect the federal government from the people by placing limits on their individual rights",
+        "B": "to prevent Congress from making laws",
+        "C": "to protect essential freedoms, including the freedom of religion and the freedom to petition the government"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The First Amendment protects essential freedoms, including the freedom of religion, the freedom of the press, the freedom of assembly, and the freedom to petition the government. Hence, Choice (C) is the correct answer.</p>"
+    },
+    {
+      "questionId": "q345",
+      "passageId": "first-amendment-excerpt-344-346",
+      "passageHighlight": "",
+      "questionHtml": "Which of the following laws would NOT be permitted by the First Amendment?",
+      "options": {
+        "A": "a law protecting a news website that is printing stories that the government does not approve of",
+        "B": "a law guaranteeing the right to complain about the president",
+        "C": "a law that establishes a state-run church",
+        "D": "a law making it illegal to ban a protest march against an unpopular decision made by the Supreme Court"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>You can reject Choices (A), (B), and (D) because the First Amendment protects freedom of the press, freedom of speech, freedom of assembly, and freedom to petition the government. That leaves Choice (C), which violates the Establishment Clause (freedom of religion) and therefore is the correct answer.</p>"
+    },
+    {
+      "questionId": "q346",
+      "passageId": "first-amendment-excerpt-344-346",
+      "passageHighlight": "",
+      "questionHtml": "Which choice correctly completes the following sentence?<br />The First Amendment guarantees ______, ______, ______, and ______.",
+      "options": {
+        "A": "freedom of voting, freedom of religion, freedom of speech, freedom of petition",
+        "B": "freedom of voting, freedom of religion, freedom of taxation, freedom of petition",
+        "C": "freedom of the press, freedom of religion, freedom of speech, freedom of petition",
+        "D": "freedom of the press, freedom of religion, freedom of speech, freedom of taxation"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The excerpt tells you that the First Amendment guarantees freedom of the press, freedom of religion, freedom of speech, and freedom of petition, making Choice (C) the correct answer.</p>"
+    },
+    {
+      "questionId": "q347",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "Which of the following is the riskiest investment?",
+      "options": {
+        "A": "buying stock in a single startup company",
+        "B": "putting your money in a savings account at the bank",
+        "C": "buying stock in several large established corporations",
+        "D": "putting your money in U.S. Government bonds"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The vast majority of startup companies end in failure, so investing in them is riskier than the other investments — even though startups can give very good returns on your investment when they succeed. Hence, Choice (A) is correct. Choice (C) reduces some of the risk by spreading the investment over several companies instead of putting all your eggs in one basket. Choices (B) and (D) are low-risk options.</p>"
+    },
+    {
+      "questionId": "q348",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "The Emancipation Proclamation of 1863",
+      "options": {
+        "A": "ended the presidency of Abraham Lincoln.",
+        "B": "established a policy of \"separate but equal.\"",
+        "C": "freed slaves in Southern states.",
+        "D": "granted voting rights to African American men."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Lincoln's Emancipation Proclamation of 1863 ended slavery in Southern states, so Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q349",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "All of the following are valid reasons monopolies are not allowed to exist in the United States EXCEPT",
+      "options": {
+        "A": "monopolies are too efficient.",
+        "B": "monopolies prevent healthy competition.",
+        "C": "monopolies often give consumers fewer choices.",
+        "D": "monopolies give too much power to one company."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Monopolies are not allowed in the United States because they give too much power to one company. The company with the monopoly has no incentive to reduce its prices, because the consumer has no alternative choices. Monopolies are less efficient because there's no competition, making Choice (A) false and the correct answer.</p>"
+    },
+    {
+      "questionId": "q350",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "The slave trade from Africa to the New World from the mid-1500s to the mid-1800s resulted in",
+      "options": {
+        "A": "a Spanish monopoly of the slave trade business.",
+        "B": "virtually no impact on South America.",
+        "C": "more opportunities for the immigrants who decided to move to the New World.",
+        "D": "the largest forced migration of a group of people in world history."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The slave trade from Africa to the New World from the mid-1500s to the mid-1800s resulted in the largest forced migration of people in world history. It's estimated that approximately 12 million slaves from Africa were forced to relocate to the New World, making Choice (D) the correct answer.</p>"
+    },
+    {
+      "questionId": "q351",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "A worker's total compensation usually consists of which components?",
+      "options": {
+        "A": "wages only",
+        "B": "wages and benefits",
+        "C": "unemployment benefits",
+        "D": "wages plus whatever office supplies he or she can sneak home"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Total worker compensation consists of wages plus benefits, making Choice (B) correct. Benefits may include healthcare, paid vacations, business lunches, use of a company car, travel expenses, and so on.</p>"
+    },
+    {
+      "questionId": "q352",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "When workers are trying to gain higher wages or improvements in their working conditions, why is the threat of going on strike such an effective bargaining tool for the workers?",
+      "options": {
+        "A": "It's usually best to strike while the iron is hot.",
+        "B": "Strikes usually shut down all production, which harms the company financially.",
+        "C": "Strikes help workers build camaraderie and teamwork.",
+        "D": "Strikes are required by federal law before workers can request a raise."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>A strike usually shuts down all production, which harms the company financially, putting pressure on company executives to give in to the workers' demands. Hence, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q353",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "All of the following are examples of essential infrastructure that supports economic activity EXCEPT",
+      "options": {
+        "A": "the national highway system.",
+        "B": "bridges and tunnels.",
+        "C": "the annual U.S. budget.",
+        "D": "airports and ports."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Infrastructure includes the national highway system, bridges and tunnels, airports, and ports. Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q354",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "All the following are features of a communist economy EXCEPT",
+      "options": {
+        "A": "all the factories are owned by the government, which controls all industries.",
+        "B": "the prices of all goods and services are controlled by the government.",
+        "C": "the government encourages entrepreneurs to start, own, and operate their own companies.",
+        "D": "the government makes all economic decisions."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Communist economies are run by the government. Private ownership is not allowed, so Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q355",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "Inflation generally occurs when wages remain stagnant while the prices of goods and services continue to rise. During times of high inflation, which of the following is likely to happen?",
+      "options": {
+        "A": "Demand for most goods and services increases sharply.",
+        "B": "Shortages of goods occur, and prices decline.",
+        "C": "Consumers reduce their spending on nonessential items.",
+        "D": "Unemployment decreases as jobs are created."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>When high inflation occurs, one of the first things to happen is that consumers reduce their spending on nonessential items, so Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q356",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "When it is discovered that a particular company is engaged in unethical behavior, many people decide to boycott the company by refusing to buy their services or products. How does boycotting a company put pressure on it to change its ways?",
+      "options": {
+        "A": "Boycotts are a form of violence that scares companies.",
+        "B": "Boycotts force the government to shut down the company.",
+        "C": "It damages the company's reputation with its customers.",
+        "D": "Boycotts reduce the company's taxes."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Adverse publicity associated with boycotts often brings attention to company's unethical behavior, which can quickly damage the company's reputation with its customers, often forcing it to change its ways. Hence, Choice (C) is the correct answer.</p>"
+    },
+    {
+      "questionId": "q357",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "Why would American automobile workers generally support tariffs being placed on foreign imported cars?",
+      "options": {
+        "A": "Tariffs lower the prices of American-made cars.",
+        "B": "Tariffs make the imported cars more expensive, increasing the demand for American-made cars.",
+        "C": "Tariffs can help mend strained relationships between hostile nations.",
+        "D": "Tariffs can promote free trade among competing nations."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Tariffs increase the demand for American-made goods by making comparable foreign goods (substitute items) more expensive. Hence, Choice (B) is the correct answer.</p>"
+    },
+    {
+      "questionId": "q358",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "The Cold War began at the end of World War II due to mistrust between the democratic United States and the communist Soviet Union. Each nation feared each other's style of government and began to build an arsenal of nuclear weapons to intimidate the other. Which of the following statements is NOT true about the early part of the Cold War?",
+      "options": {
+        "A": "The Warsaw Pact was created as a response to the formation of NATO.",
+        "B": "NATO and the Warsaw Pact were created to work together to promote world peace.",
+        "C": "The United States and Western European nations felt threatened by communist actions in Eastern Europe and formed an alliance to confront those threats.",
+        "D": "The United Nations was formed primarily to promote world peace after two devastating world wars."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Choice (B) is an incorrect statement. In 1949, the United States and 11 other countries formed NATO to provide collective security against the Soviet Union. The Soviet Union established a rival alliance called the Warsaw Pact in response to the formation of NATO. Hence, NATO and the Warsaw Pact did not work together to promote world peace, making Choice (B) the correct answer. All the other answer choices are factual statements.</p>"
+    },
+    {
+      "questionId": "q359",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "During the Industrial Revolution, Great Britain quickly became the world's top producer of goods. Which of the following was NOT a reason for Great Britain's rise to dominance?",
+      "options": {
+        "A": "Great Britain had made advances in the steam train and had developed a rail network.",
+        "B": "Great Britain had lots of coal available to power the machines needed for mass production.",
+        "C": "Great Britain imposed tariffs on goods imported from other countries.",
+        "D": "Great Britain's extensive colonization gave it access to raw materials."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>During the Industrial Revolution, Great Britain quickly became the world's top producer of goods due to several factors: Great Britain had made advances in the steam train and had developed a rail network, making the transport of goods relatively easy; Great Britain had lots of coal available to power the machines needed for the mass production of goods; and Great Britain's extensive colonization gave it access to raw materials. That leaves Choice (C) as the correct answer: Great Britain didn't rise to dominance by imposing tariffs.</p>"
+    },
+    {
+      "questionId": "q360",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "During World War II, women on the U.S. home front made a significant contribution to the war effort by",
+      "options": {
+        "A": "taking a reduction in work hours to allow minorities to work longer hours.",
+        "B": "not openly protesting the war effort.",
+        "C": "filling jobs that were needed for the war effort because so many men were away fighting the war.",
+        "D": "taking a reduction in pay so that the working men could still support their families."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>More than 16 million men were sent off to fight the war. Women helped the war effort by taking over the absent men's jobs in both the private and government sectors. Hence, Choice (C) is the correct answer. Women weren't typically involved in many male-dominated industries before the war, so you can reject Choices (A) and (D).</p>"
+    },
+    {
+      "questionId": "q361",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "During the Cold War, the United States' fear of the spread of communism was expressed in its foreign policy known as the Domino Theory. This fear was heightened when China became communist in 1949 and the Korean War broke out in 1950, followed by the U.S. entering the conflict in Vietnam in 1964. Which of the following statements best summarizes the Domino Theory as it applied to actions in Asia from 1945 through 1975?",
+      "options": {
+        "A": "The United States was afraid that the popularity of the game of dominos would fade and be overtaken by Chinese checkers.",
+        "B": "The United States was concerned only about the Soviet Union becoming communist.",
+        "C": "The United States was afraid that communism would fade from the region unless they intervened in Vietnam.",
+        "D": "The generalized fear was that if one country fell to communism, all the other countries in the region would also fall to communism."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>According to the Domino Theory, once one country fell to communism, all the countries in the region would fall to communism. Hence, Choice (D) is the correct answer.</p>"
+    },
+    {
+      "questionId": "q362",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "In October 1963, the United States and the Soviet Union faced a 13-day standoff known as the Cuban Missile Crisis after the United States discovered Soviet nuclear missiles in Cuba, just 90 miles away from the continental United States. President Kennedy ordered an immediate naval blockade of Cuba and warned the American people that he was willing to use whatever force necessary to neutralize this threat to national security. The standoff ended when",
+      "options": {
+        "A": "the USSR revealed that the \"nuclear missiles\" in Cuba were actually fakes.",
+        "B": "the United States backed down and decided to allow the missiles to remain in Cuba.",
+        "C": "President JFK was able to get the Soviet Union to withdraw its missiles from Cuba while the United States agreed to remove nuclear missiles from Turkey.",
+        "D": "the USSR negotiated a treaty with the United States to keep the missiles in place without the threat of them ever being used."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The USSR removed the nuclear missiles from Cuba, and the U.S. agreed to remove its nuclear weapons from Turkey, making Choice (C) the correct answer.</p>"
+    },
+    {
+      "questionId": "q363",
+      "passageId": "adams-washington-quotes-363-365",
+      "passageHighlight": "",
+      "questionHtml": "What danger did John Adams foresee with regard to the American political system?",
+      "options": {
+        "A": "He warned Americans that they would have to fight for their right to party.",
+        "B": "He warned that only a two-party system could protect Americans from turning against each other.",
+        "C": "He warned that a two-party system could lead to Americans turning against each other.",
+        "D": "He warned that the two-party system may lead to a multiple-party system."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>John Adams was afraid that if America divided into two political parties, the two sides would soon begin to fight against each other rather than work together, so Choice (C) is correct. You can reject Choice (A), which is from a Beastie Boys song — Adams was referring to political parties. You can reject Choice (D) because Adams does not mention a multiple-party system.</p>"
+    },
+    {
+      "questionId": "q364",
+      "passageId": "adams-washington-quotes-363-365",
+      "passageHighlight": "",
+      "questionHtml": "Based on the two quotes, were John Adams and George Washington in agreement regarding this issue?",
+      "options": {
+        "A": "No. Adams was in favor of a two-party system, whereas Washington was against the two-party system.",
+        "B": "No. Washington was in favor of the two-party system, whereas Adams was against a two-party system.",
+        "C": "Yes. Both Adams and Washington were in favor of a two-party system.",
+        "D": "Yes. Both Adams and Washington were against a two-party system."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>From the passage it is clear that John Adams was against the two-party system. You can therefore eliminate Choices (A) and (C). From George Washington's quote, you can see that he also opposed the two-party system. Hence, Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q365",
+      "passageId": "adams-washington-quotes-363-365",
+      "passageHighlight": "",
+      "questionHtml": "Based on the two quotes and the current prevailing attitudes of many Republicans and Democrats with regard to each other's party, were Washington and Adams right to worry about the possible dangers of the two-party system?",
+      "options": {
+        "A": "No. Republicans and Democrats have the greatest respect for each other and always work together for the good of the country.",
+        "B": "No. Without the two-party system, the American government would become gridlocked and would never get anything done.",
+        "C": "Yes. Both Republicans and Democrats appear to detest each other and sometimes put their party's needs above the needs of the country.",
+        "D": "The evidence is inconclusive."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Just one look at how modern Republicans and Democrats view each other today shows that Adams and Washington were absolutely correct to be worried about the two-party system. Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q366",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "In 1917, some women, who became known as suffragettes, began protesting outside the White House. What were these women trying to achieve?",
+      "options": {
+        "A": "the right to serve in the armed forces",
+        "B": "the right for women to vote",
+        "C": "the right to host tea parties on the White House lawn",
+        "D": "equal pay with men"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The goal of the suffragette movement was to gain the right of women to vote, so Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q367",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "After the United States won the Spanish-American War in 1898, President Teddy Roosevelt began taking a more aggressive approach to his foreign policy regarding the countries in Latin America. In an effort to extend U.S. influence in the area,",
+      "options": {
+        "A": "the U.S. adopted a more laid-back attitude toward its involvement in Latin America.",
+        "B": "Panama forced the U.S. to build a canal across the region.",
+        "C": "the U.S. exerted its force and growing influence in Latin America by \"persuading\" Panama to let it build the Panama Canal.",
+        "D": "the U.S. negotiated successfully with Columbia for access to build a canal across Columbia."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>President Teddy Roosevelt took a more aggressive approach to his foreign policy regarding the countries in Latin America by becoming the \"policeman\" of U.S. affairs and actions in Latin America. The U.S. exerted its force on Panama, resulting in the building of the Panama Canal. Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q368",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "During 1965, support for America's involvement in the war in Vietnam was strong, but in less than two years, the war became unpopular at home, leading to student protests across the country. All the following would be a valid reason for students to protest the war EXCEPT",
+      "options": {
+        "A": "more and more young people were being drafted to fight in Vietnam.",
+        "B": "the students believed that America's involvement in the war in Vietnam was a necessary evil.",
+        "C": "graphic photos showing atrocities against Vietnamese women and children stoked outrage among the American public.",
+        "D": "the numbers of American soldier casualties were increasing each year, and more and more troops were being sent over to fight in the war."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Choices (A), (C), and (D) would all lend support to the student protests against the war and can therefore be eliminated. Choice (B) would be a reason to support the war, not oppose it, so Choice (B) is the correct answer.</p>"
+    },
+    {
+      "questionId": "q369",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "Which amendment to the Constitution stated that the powers not delegated to the federal government or prohibited to the states were \"reserved to the states\"?",
+      "options": {
+        "A": "Tenth Amendment",
+        "B": "Nineteenth Amendment",
+        "C": "Twenty-fifth Amendment",
+        "D": "Thirty-second Amendment"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The Tenth Amendment sets up the concept of \"states' rights\" — that what is not delegated to the federal government is then delegated to the states. Hence, Choice (A) is the right answer. The Nineteenth Amendment refers to women's suffrage; the Twenty-fifth Amendment refers to presidential succession and disability; there are only 27 amendments (the Thirty-second Amendment doesn't exist — yet).</p>"
+    },
+    {
+      "questionId": "q370",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "What trend in the media has NOT been a major factor in the U.S. presidential elections since 1960?",
+      "options": {
+        "A": "The convenience of online news has challenged the dominance of major newspapers as the primary source of information about candidates and elections.",
+        "B": "The growth of fake news websites has blurred the lines between fictional and factual information about candidates and elections.",
+        "C": "The televised presidential debates continue to command large audiences.",
+        "D": "People now rely more on mainstream news than ever for reliable information about candidates and elections."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>People are relying less on mainstream news for political information and are gaining more information on cable news and Internet news sites [Choice (A)]. The recent growth of fake news websites [Choice (B)] that spread fictional information about candidates and elections was a major concern during the 2016 election, so you can reject Choice (B). Choice (C) is also a true statement. Hence, Choice (D) is the correct answer.</p>"
+    },
+    {
+      "questionId": "q371",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "Which of the following is an example of capital?",
+      "options": {
+        "A": "the owner of a startup company",
+        "B": "a deposit of copper",
+        "C": "a skilled plumber",
+        "D": "a factory"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>A factory is a capital resource, so Choice (D) is correct. Copper deposits are an example of raw materials, the owner of a startup company is an entrepreneur, and a skilled plumber is part of the labor force.</p>"
+    },
+    {
+      "questionId": "q372",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "Which of the following statements describes a result of the increase in globalization over the past half century?",
+      "options": {
+        "A": "Terrorist attacks have begun to decrease as more countries are working in cooperation with one another.",
+        "B": "Many counties are more dependent on each other for their economic growth.",
+        "C": "Human rights have declined sharply around the world.",
+        "D": "The number of refugees around the world has declined."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Globalization has caused the world to become a bit smaller, and each country is becoming increasingly dependent upon other countries for its economic growth and progress. Hence, Choice (B) is correct. Globalization has not reduced terrorist attacks [Choice (A)], caused human rights to decline sharply around the world [Choice (C)], or reduced the number of refugees [Choice (D)].</p>"
+    },
+    {
+      "questionId": "q373",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "The continued reliance of the world's leading economies (the United States and China) upon fossil fuels such as coal and petroleum could lead to all of the following results EXCEPT",
+      "options": {
+        "A": "an increased need for environmental restrictions on power plants and automobiles.",
+        "B": "an increase in global warming due to the production of greenhouse gases.",
+        "C": "an increased focus on alternative energy such as wind power and solar energy in China and the United States.",
+        "D": "an increase in pollution in large cities such as Hong Kong and New York City."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The question stem tells you that both countries are continuing their reliance on fossil fuels, so they're unlikely to increase their focus on alternatives such as wind power and solar energy, making Choice (C) the correct answer. All the other choices describe things that are likely to happen as more fossil fuels are consumed.</p>"
+    },
+    {
+      "questionId": "q374",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "President Roosevelt issued Executive Order 9066 in 1942, just over two months after the Japanese attacked Pearl Harbor. The executive order had serious consequences for over 120,000 people of Japanese ancestry who were living in the United States. What was the intent of this order?",
+      "options": {
+        "A": "to remove the right of citizenship from all Japanese Americans",
+        "B": "to relocate people of Japanese ancestry living in America to ten different internment camps away from the western American coastlines for the duration of the war",
+        "C": "to encourage people of Japanese ancestry in America to issue a formal apology and take responsibility for the Japanese attack on Pearl Harbor",
+        "D": "to force people of Japanese ancestry living in America to emigrate to Japan"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Executive Order 9066 forced the relocation of 120,000 people of Japanese ancestry living in America (two-thirds of whom were U.S. citizens) to ten different military internment camps. This internment lasted until nearly the end of World War II, and the order is now considered one of the most shameful executive orders in U.S. history. Hence, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q375",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "In the late 1800s, J. D. Rockefeller, the owner of Standard Oil, incorporated vertical and horizontal business practices into his business model by controlling the drilling, production, transportation, and sale of his products. As a result, he was able to",
+      "options": {
+        "A": "prevent monopolies from forming in the oil business.",
+        "B": "allow smaller competitors easier entry into the oil business.",
+        "C": "create a monopoly by controlling nearly 90 percent of the oil production in the U.S.",
+        "D": "compete with his competition with only minimal success."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Rockefeller was able to create a huge monopoly with Standard Oil, controlling 90 percent of the petroleum production and sales in the U.S. He forced out competition and managed price controls with production, transportation, and sale of his product, so Choice (C) is the correct answer.</p>"
+    },
+    {
+      "questionId": "q376",
+      "passageId": "immigration-graph-376-378",
+      "passageHighlight": "",
+      "questionHtml": "Which of the following statements best describes the rate of immigration into the United States throughout the 20th century?",
+      "options": {
+        "A": "The immigration rate remained fairly consistent throughout the 20th century.",
+        "B": "The immigration rate increased steadily throughout the 20th century.",
+        "C": "The immigration rate decreased steadily throughout the 20th century.",
+        "D": "The immigration rate increased steadily throughout the second half of the 20th century and then spiked in the 1990s."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>From the graph, you can see that the immigration rate increased steadily throughout the second half of the 20th century and then spiked in the 1990s, making Choice (D) correct.</p>"
+    },
+    {
+      "questionId": "q377",
+      "passageId": "immigration-graph-376-378",
+      "passageHighlight": "",
+      "questionHtml": "Which of the following best explains why the immigration rate fell sharply between 1914 and 1918?",
+      "options": {
+        "A": "Immigration declined sharply due to World War I.",
+        "B": "Immigration declined sharply due to World War II.",
+        "C": "Immigration declined sharply due to the Cold War.",
+        "D": "Immigration declined sharply due to the U.S. Civil War."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The outbreak of World War I in 1914 greatly reduced immigration to the United States from Europe as most Europeans became caught up in the war, making Choice (A) the correct answer. You can reject the other answers because World War II lasted from 1939 to 1945, the U.S. Civil War was from 1861 to 1865, and the Cold War started in 1945.</p>"
+    },
+    {
+      "questionId": "q378",
+      "passageId": "immigration-graph-376-378",
+      "passageHighlight": "",
+      "questionHtml": "Which of the following statements, if true, would best explain why the immigration rate began to rise in the second half of the 20th century?",
+      "options": {
+        "A": "In 1965, the U.S. established a strict quota system, making it harder to move to the United States.",
+        "B": "In 1965, the U.S. passed a law banning all immigration to the United States.",
+        "C": "In 1965, the Immigration and Naturalization Act established a new immigration policy aimed at attracting skilled labor to the United States.",
+        "D": "In 1965, the U.S. lowered its quota system to permit fewer immigrants into the United States each year."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Only Choice (C) would explain why the immigration rate began to rise in the second half of the 20th century. All the other choices would actually lower the immigration rate by making it harder for immigrants to move to the United States.</p>"
+    }
+  ]
+}

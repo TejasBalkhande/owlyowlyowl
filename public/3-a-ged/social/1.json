@@ -1,0 +1,394 @@
+{
+  "passages": [
+    {
+      "passageId": "abigail-john-adams-1776",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p>I long to hear that you have declared an independency. And, by the way, in the new code of laws which I suppose it will be necessary for you to make, I desire you would remember the ladies and be more generous and favorable to them than your ancestors. Do not put such unlimited power into the hands of the husbands. Remember, all men would be tyrants if they could. If particular care and attention is not paid to the ladies, we are determined to foment a rebellion, and will not hold ourselves bound by any laws in which we have no voice or representation. —Abigail Adams, March 31, 1776</p><p>As to your extraordinary code of laws, I cannot but laugh. We have been told that our struggle has loosened the bonds of government everywhere; that children and apprentices were disobedient; that schools and colleges were grown turbulent; that Indians slighted their guardians, and negroes grew insolent to their masters. But your letter was the first intimation that another tribe, more numerous and powerful than all the rest, were grown discontented. —John Adams, April 14, 1776</p></div>"
+    },
+    {
+      "passageId": "founding-fathers-branches",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p>When the Founding Fathers designed the new government under the Constitution, they divided the power of the federal government into three distinct branches as described in the following table.</p>\n<table border=\"1\" style=\"border-collapse: collapse; width: 100%;\">\n  <thead>\n    <tr>\n      <th style=\"padding: 8px; text-align: left;\">Branch of Government</th>\n      <th style=\"padding: 8px; text-align: left;\">Consists Of</th>\n      <th style=\"padding: 8px; text-align: left;\">Powers</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td style=\"padding: 8px; vertical-align: top;\">Executive branch</td>\n      <td style=\"padding: 8px; vertical-align: top;\">President, Vice President, Cabinet</td>\n      <td style=\"padding: 8px; vertical-align: top;\">Enforces the laws</td>\n    </tr>\n    <tr>\n      <td style=\"padding: 8px; vertical-align: top;\">Judicial branch</td>\n      <td style=\"padding: 8px; vertical-align: top;\">Supreme Court (usually 9 justices given lifetime appointments), Federal courts</td>\n      <td style=\"padding: 8px; vertical-align: top;\">Evaluates laws according to the Constitution</td>\n    </tr>\n    <tr>\n      <td style=\"padding: 8px; vertical-align: top;\">Legislative branch (Congress)</td>\n      <td style=\"padding: 8px; vertical-align: top;\">House of Representatives (435 representatives), Senate (100 senators)</td>\n      <td style=\"padding: 8px; vertical-align: top;\">Proposes bills that could become law</td>\n    </tr>\n  </tbody>\n</table></div>"
+    },
+    {
+      "passageId": "plessy-brown-excerpts",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p>We consider the underlying fallacy of the plaintiff's argument to consist in the assumption that the enforced separation of the two races stamps the colored race with a badge of inferiority. If this be so, it is not by reason of anything found in the act, but solely because the colored race chooses to put that construction upon it.... The argument also assumes that social prejudice may be overcome by legislation, and that equal rights cannot be secured except by an enforced commingling of the two races.... If the civil and political rights of both races be equal, one cannot be inferior to the other civilly or politically. If one race be inferior to the other socially, the Constitution of the United States cannot put them upon the same plane. —Plessy v. Ferguson</p><p>To separate them from others of similar age and qualifications solely because of their race generates a feeling of inferiority as to their status in the community that may affect their hearts and minds in a way unlikely ever to be undone. We conclude that, in the field of public education, the doctrine of 'separate but equal' has no place. Separate educational facilities are inherently unequal. —Brown v. Board of Education of Topeka, Kansas</p></div>"
+    },
+    {
+      "passageId": "first-amendment-excerpt",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p>Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.</p></div>"
+    },
+    {
+      "passageId": "new-world-colonization-map",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p>Beginning at the end of the 15th century, many European countries began exploring and conquering territories in the New World. Driven by the desire for increased economic wealth, access to natural resources, and the wish to spread Christianity to new parts of the world, many European nations formed permanent settlements in the New World.</p><p>The following map shows the New World during this period and labels the European countries that controlled each territory at that time.</p><img src=\"/3-i-ged/h/image1.png\" alt=\"Map of the New World showing European territories controlled by Spain, Portugal, Great Britain, and France\" /></div>"
+    },
+    {
+      "passageId": "trade-table-2015",
+      "passageHtml": "<div style=\"font-family: 'Georgia', serif; line-height: 1.5;\"><p>The United States trades with many countries. When the U.S. sells goods and services to other countries, the value of the goods is recorded as exports. When the U.S. buys goods and services from other countries, the value of those goods is recorded as imports. The trade balance is the value of each country's total exports to the United States minus the value of each country's total imports from the United States. A negative trade balance is called a trade deficit.</p><p>This table shows the value of the exports, imports, and trade balances for the top five largest trade partners of the United States in 2015. Values are given in billions of dollars</p>\\(\\begin{array}{|l|c|c|c|} \\hline \\text{Country} & \\text{Exports (from U.S.)} & \\text{Imports (to U.S.)} & \\text{Trade Balance} \\\\ \\hline \\text{Canada} & 312 & 348 & -35 \\\\ \\hline \\text{China} & 124 & 467 & -343 \\\\ \\hline \\text{Mexico} & 240 & 294 & -54 \\\\ \\hline \\text{Japan} & 67 & 134 & -67 \\\\ \\hline \\text{Germany} & 49 & 123 & -74 \\\\ \\hline \\end{array}\\)</div>"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q286",
+      "passageId": "abigail-john-adams-1776",
+      "passageHighlight": "",
+      "questionHtml": "What did Abigail mean when she asked her husband to 'remember the ladies'?",
+      "options": {
+        "A": "She wanted to make sure husbands did not forget their wives' birthdays.",
+        "B": "She wanted to make sure women were given proper representation in the new government.",
+        "C": "She wanted to make sure men remembered to make all the important decisions for their wives so the ladies would not have to worry about such things.",
+        "D": "She wanted women to have more power than their husbands."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Abigail expressed the desire of women to gain representation in the new government, making Choice (B) the correct answer. Choice (A) can be rejected because there was no mention of birthdays. You can also eliminate Choice (C), which is the opposite of what Abigail requested. Choice (D) is too extreme, because Abigail didn't want more power than her husband — she merely wanted women to have a voice in the new government.</p>"
+    },
+    {
+      "questionId": "q287",
+      "passageId": "abigail-john-adams-1776",
+      "passageHighlight": "",
+      "questionHtml": "How best could you describe John Adams's reply to his wife's request?",
+      "options": {
+        "A": "joyful and appreciative",
+        "B": "alarmed but resigned",
+        "C": "angry and disbelieving",
+        "D": "surprised and condescending"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>From the excerpt, you can see that John Adams laughed at his wife's request — he was definitely being condescending (looking down on her). He also appeared surprised to hear that women might want to have a say in the laws that govern them. Therefore, Choice (D) is the correct answer. You can reject Choice (A) because John Adams wasn't laughing with joy. He wasn't alarmed, resigned, or angry, so Choices (B) and (C) can also be eliminated.</p>"
+    },
+    {
+      "questionId": "q288",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "Which amendment finally resulted in the fulfillment of Abigail Adams's request when it was passed in 1920?",
+      "options": {
+        "A": "the Second Amendment",
+        "B": "the Thirteenth Amendment",
+        "C": "the Eighteenth Amendment",
+        "D": "the Nineteenth Amendment"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The women's suffrage movement eventually resulted in the passing of the Nineteenth Amendment, giving women the right to vote, so Choice (D) is correct. Choice (A) can be eliminated because the Second Amendment refers to the right to bear arms (guns). You can eliminate Choice (B) because the Thirteenth Amendment abolished slavery. The Eighteenth Amendment concerned Prohibition, which banned the sale of alcohol in the U.S., so you can eliminate Choice (C).</p>"
+    },
+    {
+      "questionId": "q289",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "The early colonists of North America sought out settlements that had easy access by ship and adequate water supplies. This helps explain why many of the early North American towns were built near",
+      "options": {
+        "A": "mountains.",
+        "B": "glaciers.",
+        "C": "rivers.",
+        "D": "prairies."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Rivers not only provide fresh drinking water but also lead to the sea, thereby giving easy access by ship, so Choice (C) is the correct answer.</p>"
+    },
+    {
+      "questionId": "q290",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "Why did President Truman decide that the United States should use atomic weapons against Japan on August 6, 1945?",
+      "options": {
+        "A": "The United States wanted to launch a preemptive strike to prevent the Japanese from attacking Pearl Harbor.",
+        "B": "He wanted to force an immediate Japanese surrender to bring about an end to the war.",
+        "C": "He wanted to see whether the newly developed atomic weapons actually worked.",
+        "D": "He wanted to convince the German forces to surrender to the Allied forces in Europe."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>By 1945, World War II had been raging for almost six years, and the Japanese showed no signs of surrender. Many historians believe that the use of atomic weapons actually saved hundreds of thousands — perhaps even millions — of lives (despite killing many people) by bringing about an immediate end to the war, so Choice (B) is correct. The Japanese attack on Pearl Harbor occurred in 1941, so you can reject Choice (A). The United States had already tested its atomic weapons and knew they worked, so you can reject Choice (C). Choice (D) is also incorrect because Germany surrendered to the Allied forces on May 7, 1945, before the atomic bombs were dropped on Japan.</p>"
+    },
+    {
+      "questionId": "q291",
+      "passageId": "founding-fathers-branches",
+      "passageHighlight": "",
+      "questionHtml": "Which choice correctly completes the following sentence? Congress has __________ members, including __________ senators and __________ representatives.",
+      "options": {
+        "A": "Congress has 100 members, including 535 senators and 435 representatives.",
+        "B": "Congress has 435 members, including 100 senators and 535 representatives.",
+        "C": "Congress has 535 members, including 100 senators and 435 representatives.",
+        "D": "Congress has 535 members, including 435 senators and 100 representatives."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>You are told in the passage that Congress has 535 members, including 100 senators and 435 representatives. Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q292",
+      "passageId": "founding-fathers-branches",
+      "passageHighlight": "",
+      "questionHtml": "Which branch of government is responsible for deciding whether a law is constitutional?",
+      "options": {
+        "A": "Executive branch",
+        "B": "Judicial branch",
+        "C": "Legislative branch",
+        "D": "The President"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The Supreme Court (part of the judicial branch) evaluates laws according to the Constitution, so it's the judicial branch's responsibility to decide whether a law such as the Affordable Care Act is constitutional.</p>"
+    },
+    {
+      "questionId": "q293",
+      "passageId": "founding-fathers-branches",
+      "passageHighlight": "",
+      "questionHtml": "Why did the Founding Fathers divide the federal government into three distinct branches?",
+      "options": {
+        "A": "They wanted to make sure that the president would have unlimited power.",
+        "B": "They wanted to encourage competition among the members of the federal government.",
+        "C": "They wanted to base their system of government on the British monarchy.",
+        "D": "They wanted to ensure that there were checks and balances to prevent any one part of the government from becoming too powerful."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The Founding Fathers wanted to make sure that no person could have too much power in the new government, so they split the powers among the three branches, each of which would be responsible for specific tasks. Therefore, Choice (D) is correct. You can reject Choice (A) because it's the opposite of what the Founding Fathers intended. Each branch has separate powers, so the branches were not intended to compete with each other, making Choice (B) incorrect. The Founding Fathers wanted to break from the British monarchy, not copy it, so Choice (C) is wrong.</p>"
+    },
+    {
+      "questionId": "q294",
+      "passageId": "founding-fathers-branches",
+      "passageHighlight": "",
+      "questionHtml": "All of the following are reasons the Supreme Court justices are given lifetime appointments EXCEPT",
+      "options": {
+        "A": "to insulate the justices from politics so they're free to make decisions without fear of losing their jobs.",
+        "B": "to ensure that the president doesn't gain too much power by replacing each member of the court with justices who will vote in his favor.",
+        "C": "to ensure that no modern ideas are allowed to pollute the Supreme Court's decision-making.",
+        "D": "to provide a certain level of judicial stability when the country transitions from one political party to another."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Choices (A), (B), and (D) are all true statements. The Supreme Court justices are given lifetime appointments to ensure that they're free to make decisions based on the Constitution without fear of being replaced by either the president or Congress. Because many of the same justices are present after the government changes from one party to the other, they do provide a certain level of judicial stability as the country transitions. Only Choice (C) is false, because a justice who dies or retires is replaced by a new member who will bring new ideas to the Court.</p>"
+    },
+    {
+      "questionId": "q295",
+      "passageId": "plessy-brown-excerpts",
+      "passageHighlight": "",
+      "questionHtml": "What was the result of the 1896 Supreme Court decision Plessy v. Ferguson?",
+      "options": {
+        "A": "It upheld state racial segregation laws for public facilities under the doctrine of 'separate but equal.'",
+        "B": "It led to the desegregation of all U.S. public buildings.",
+        "C": "It undermined the validity of the Supreme Court.",
+        "D": "It led to the desegregation of the U.S. public school system."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The passage tells you that the Plessy v. Ferguson decision sustained the constitutionality of Louisiana's racist Jim Crow law; hence, it allowed the states to continue their policy of racial segregation for public facilities, making Choice (A) correct.</p>"
+    },
+    {
+      "questionId": "q296",
+      "passageId": "plessy-brown-excerpts",
+      "passageHighlight": "",
+      "questionHtml": "What was the impact of the Brown v. Board of Education decision?",
+      "options": {
+        "A": "It upheld state racial segregation laws for public facilities under the doctrine of 'separate but equal.'",
+        "B": "It prevented racial segregation in all public places.",
+        "C": "It undermined the validity of the Supreme Court.",
+        "D": "It led to the desegregation of the U.S. public school system."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The passage tells you that the Brown v. Board of Education decision overturned the court's previous ruling. Hence, Choice (A) is incorrect. The Brown v. Board of Education decision applied only to public schools (not all public places), so you can reject Choice (B).</p>"
+    },
+    {
+      "questionId": "q297",
+      "passageId": "plessy-brown-excerpts",
+      "passageHighlight": "",
+      "questionHtml": "Which of the following is a factual statement rather than an opinion regarding the Brown v. Board of Education decision?",
+      "options": {
+        "A": "The Court was afraid of antagonizing the African-American population.",
+        "B": "The Court considered that segregation was traumatic and unfair to African-American children.",
+        "C": "The Court was racist against the African-American population.",
+        "D": "The Court was biased against the Board of Education of Topeka, Kansas."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The Brown v. Board of Education decision stated that segregation in schools makes African-American children feel inferior and can damage them permanently, so Choice (B) is a factual statement. All the other choices represent opinions, not factual statements.</p>"
+    },
+    {
+      "questionId": "q298",
+      "passageId": "plessy-brown-excerpts",
+      "passageHighlight": "",
+      "questionHtml": "What can you conclude about these two landmark Supreme Court decisions?",
+      "options": {
+        "A": "Once the Supreme Court has made a decision, it can never be overturned.",
+        "B": "Supreme Court decisions can be overturned by the president.",
+        "C": "The Supreme Court can reverse its previous decisions if the justices feel that a mistake has been made.",
+        "D": "Supreme Court decisions can be overturned by state courts."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The Supreme Court reversed its earlier decision in Plessy v. Ferguson when it decided Brown v. Board of Education. This shows that the Supreme Court can reverse its previous decisions if the justices feel that a mistake has been made, making Choice (C) correct.</p>"
+    },
+    {
+      "questionId": "q299",
+      "passageId": "first-amendment-excerpt",
+      "passageHighlight": "",
+      "questionHtml": "Which of the following is not guaranteed by the First Amendment?",
+      "options": {
+        "A": "freedom of the press",
+        "B": "freedom of petition",
+        "C": "freedom of speech",
+        "D": "freedom of life, liberty, and the pursuit of happiness"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The excerpt tells you that the First Amendment guarantees freedom of the press, freedom of petition, and freedom of speech. However, the First Amendment does not guarantee the freedom of life, liberty, and the pursuit of happiness (which appears in the Declaration of Independence); therefore, Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q300",
+      "passageId": "first-amendment-excerpt",
+      "passageHighlight": "",
+      "questionHtml": "The First Amendment",
+      "options": {
+        "A": "prohibits Congress from making laws.",
+        "B": "increases Congress's power to place restrictions on individual freedoms, such as freedom of religion, freedom of speech, and freedom of the press.",
+        "C": "protects the right to bear arms.",
+        "D": "protects the general public from the government placing restrictions on individual freedoms, such as freedom of religion, freedom of speech, and freedom of the press."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>You are told in the excerpt that the First Amendment guarantees individual freedoms (such as freedom of religion, freedom of speech, and freedom of the press) by preventing Congress from passing any laws that restrict these freedoms. Hence, Choice (D) is correct. Choice (A) is incorrect because Congress can still make new laws (just not laws that restrict these freedoms — Choice (B)). Choice (C) refers to the Second Amendment (not the First Amendment), so it can be rejected.</p>"
+    },
+    {
+      "questionId": "q301",
+      "passageId": "first-amendment-excerpt",
+      "passageHighlight": "",
+      "questionHtml": "Which of the following laws would be permitted by the First Amendment?",
+      "options": {
+        "A": "a law that prevents a national newspaper from printing a true article about government incompetence and corruption",
+        "B": "a law that prevents the public from peacefully protesting against a president",
+        "C": "a law that allocates federal funds to Christian missionary programs",
+        "D": "a law that creates guidelines for the public to petition the government to keep a popular act that may soon be abolished"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The First Amendment guarantees the freedom of petition, so a law that creates guidelines for the public to petition the government would be allowed, making Choice (D) correct. Choice (A) would be prevented by the First Amendment's guarantee of freedom of the press. Choice (B) would be prevented by the guarantee of freedom of assembly and petition. Choice (C) would be prevented by the guarantee of freedom of religion (establishment clause).</p>"
+    },
+    {
+      "questionId": "q302",
+      "passageId": "first-amendment-excerpt",
+      "passageHighlight": "",
+      "questionHtml": "What overall effect has the First Amendment had on the United States?",
+      "options": {
+        "A": "It has had minimal impact on the general public.",
+        "B": "It was quickly overturned by the Second Amendment.",
+        "C": "It has played an essential role in protecting individual freedoms.",
+        "D": "It undermined the Constitution by amending the original document."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The First Amendment protects core freedoms such as speech, religion, press, assembly, and petition. It has played an essential role in protecting individual freedoms throughout U.S. history, making Choice (C) correct.</p>"
+    },
+    {
+      "questionId": "q303",
+      "passageId": "new-world-colonization-map",
+      "passageHighlight": "",
+      "questionHtml": "According to the map, which European country controlled the largest amount of territory?",
+      "options": {
+        "A": "Portugal",
+        "B": "Great Britain",
+        "C": "Spain",
+        "D": "France"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>You can see from the map that Spain controlled most of South America, Central America, and a large part of North America, so Choice (C) is the correct answer.</p>"
+    },
+    {
+      "questionId": "q304",
+      "passageId": "new-world-colonization-map",
+      "passageHighlight": "",
+      "questionHtml": "According to the passage, all of the following reasons provided motivation to European counties to gain control of more territories in the New World EXCEPT",
+      "options": {
+        "A": "they wanted to help the natives of the New World.",
+        "B": "they wanted to gain access to the natural resources that were available in the New World.",
+        "C": "they wanted to spread Christianity throughout the New World.",
+        "D": "they wanted to increase their own economic wealth by exploiting the New World."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The passage tells you that the driving forces behind the European countries seeking settlements in the New World included the desire for increased economic wealth [Choice (D)], access to natural resources [Choice (B)], and the wish to spread Christianity to new parts of the world [Choice (C)], so you can reject all those answer choices. Nothing in the passage says that the Europeans wanted to help the natives of the New World (in fact, they ended up killing millions of them), so Choice (A) is the correct answer.</p>"
+    },
+    {
+      "questionId": "q305",
+      "passageId": "new-world-colonization-map",
+      "passageHighlight": "",
+      "questionHtml": "Why did the European nations eventually give up control of their newly gained territories and leave the New World?",
+      "options": {
+        "A": "They had already used up all the natural resources of the region.",
+        "B": "They had finished successfully converting all the natives to Christianity.",
+        "C": "They realized that it was morally wrong to exploit the natives and the natural resources of a region that didn't really belong to them.",
+        "D": "They were forced out by rebellions, war, and revolutions."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The areas covered in the map include North America, Central America, and South America, all of which still have plenty of natural resources, so you can reject Choice (A). Even if Choice (B) were true, it still wouldn't be a good reason to leave; there were still lots of natural resources and economic wealth to be gained by staying in the region, so you can reject Choice (B). Choice (C) may be tempting, but the European leaders didn't really care whether they were acting morally so long as they made lots of money, so you can reject Choice (C) also. The only way to get the Europeans to leave was to force them out through rebellions, war, and revolutions. Only when it became too costly to continue to control the territory did the Europeans give up control and leave; hence, Choice (D) is the correct answer.</p>"
+    },
+    {
+      "questionId": "q306",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "What languages are the most commonly spoken in North America, South America, and Central America today?",
+      "options": {
+        "A": "Dutch, French, and German",
+        "B": "German, English, and Portuguese",
+        "C": "German, Spanish, and Portuguese",
+        "D": "Spanish, English, and Portuguese"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Spanish is dominant in most of Central and South America, English is dominant in North America (United States and Canada), and Portuguese is spoken in Brazil (the largest country in South America). Therefore, Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q307",
+      "passageId": "trade-table-2015",
+      "passageHighlight": "",
+      "questionHtml": "With which country does the United States have the smallest trade deficit?",
+      "options": {
+        "A": "Canada",
+        "B": "China",
+        "C": "Mexico",
+        "D": "Germany"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>From the table, you can see that Canada has the smallest value for trade deficit with the United States ($35 billion) compared to all the other countries. Hence, Choice (A) is the correct answer.</p>"
+    },
+    {
+      "questionId": "q308",
+      "passageId": "trade-table-2015",
+      "passageHighlight": "",
+      "questionHtml": "According to the table, which of the following is a true statement?",
+      "options": {
+        "A": "The United States buys the most goods and services from China and sells the most goods and services to Canada.",
+        "B": "The United States buys the most goods and services from Mexico and sells the most goods and services to China.",
+        "C": "The United States buys the most goods and services from Canada and sells the most goods and services to China.",
+        "D": "The United States buys the most goods and services from Germany and sells the most goods and services to Mexico."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>From the table, you can see that the U.S. imports the most goods and services from China ($467 billion) and exports the most goods and services to Canada ($312 billion).</p>"
+    },
+    {
+      "questionId": "q309",
+      "passageId": "trade-table-2015",
+      "passageHighlight": "",
+      "questionHtml": "The value of Japan's trade deficit is what percentage of the value of the U.S. exports to Japan?",
+      "options": {
+        "A": "0%",
+        "B": "50%",
+        "C": "67%",
+        "D": "100%"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>From the table, you can see that Japan's trade deficit is $67 billion. This is the same value (100 percent of) the value of U.S. exports to Japan ($67 billion). The correct answer is 100 percent, making Choice (D) the correct answer.</p>"
+    },
+    {
+      "questionId": "q310",
+      "passageId": "trade-table-2015",
+      "passageHighlight": "",
+      "questionHtml": "Based on the given information, which of the following is a true statement?",
+      "options": {
+        "A": "The trading partner that buys the least goods and services from the U.S. has the largest trade balance.",
+        "B": "The trade deficits for each country will continue to increase each year.",
+        "C": "All of the top five trading partners with the United States have negative values for their trade balances.",
+        "D": "Of the top five partners, China buys the second largest amount of goods and services from the U.S."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>From the table, you can see that the top five trading partners with the United States have negative values for their trade balances, making Choice (C) correct. Canada buys the most goods and services from the United States ($312 billion) but has the smallest trade balance, so you can reject Choice (A). The information provided gives no indication that trade deficits will continue to increase each year, so you can also reject Choice (B). China buys the third largest amount of goods and services from the U.S. ($124 billion), so you can also eliminate Choice (D).</p>"
+    },
+    {
+      "questionId": "q311",
+      "passageId": "trade-table-2015",
+      "passageHighlight": "",
+      "questionHtml": "Based on the given information, which of the following is an opinion rather than a factual statement?",
+      "options": {
+        "A": "Of the top five partners, Germany buys the least amount of goods and services from the United States.",
+        "B": "China has the largest trade deficit with the United States.",
+        "C": "The United States should impose tariffs on Chinese goods in order to reduce the large trade deficit.",
+        "D": "Of the top five partners, Mexico has the second smallest trade deficit."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Choice (C) is an opinion rather than a factual statement; there is nothing in the passage to support it. Each of the other answer choices is a factual statement that is supported by the given information. Of the top five partners, Germany buys the least amount of goods and services from the United States, so you can reject Choice (A). China has the largest trade deficit with the United States, so you can also reject Choice (B). Of the top five partners, Mexico has the second smallest trade deficit, so you can also eliminate Choice (D).</p>"
+    }
+  ]
+}
