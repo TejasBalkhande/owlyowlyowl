@@ -1,0 +1,604 @@
+{
+  "passages": [
+    {
+      "passageId": "solubility-graph-642-645",
+      "passageHtml": "<p>The following graph shows how the solubility of three different substances in water varies as the temperature of the water varies. Substances A and B are gases. Substance C is a solid.</p><img src=\"/3-i-ged/s/image16.png\" alt=\"Solubility vs temperature graph\" />"
+    },
+    {
+      "passageId": "reaction-energy-graph-647-649",
+      "passageHtml": "<p>During a chemical reaction, the reactants are changed into the products. The following graph shows the potential energy stored in the chemical bonds at various stages of the reaction.</p><img src=\"/3-i-ged/s/image17.png\" alt=\"Potential energy diagram of a chemical reaction\" />"
+    },
+    {
+      "passageId": "foxglove-punnett-square-658-661",
+      "passageHtml": "<p>A scientist cross‑pollinates foxglove plants. P represents the dominant allele for purple flowers, and p represents the recessive allele for white flowers. The Punnett square for two hybrid (Pp) parents is shown below.</p>\\(\\begin{array}{c|cc} & P & p \\\\ \\hline P & PP & Pp \\\\ p & Pp & pp \\end{array}\\)"
+    },
+    {
+      "passageId": "soapbox-race-data-665-670",
+      "passageHtml": "<p>Three finalists in a soapbox car race. Each car was the same size and started from rest at the top of a hill 20 m higher than the finish line. Friction and air resistance are ignored for the ideal calculation. Data recorded:</p>\\(\\begin{array}{c|c|c|c} \\text{Contestant} & \\text{Car Mass (kg)} & \\text{Driver Mass (kg)} & \\text{Final Velocity (m/s)} \\\\ \\hline 1 & 20 & 40 & 20 \\\\ 2 & 25 & 35 & 15 \\\\ 3 & 15 & 45 & 18 \\end{array}\\)<p>Equations: PE = mgh, KE = ½ mv². Use g = 10 m/s².</p>"
+    },
+    {
+      "passageId": "atomic-structures-table-672-677",
+      "passageHtml": "<p>The nucleus of an atom consists of protons (positive) and neutrons (neutral). Atomic number = number of protons. Atomic mass number = protons + neutrons. Electrons occupy energy shells (first holds 2, second holds 8). Valence electrons are in the outermost shell. Table for three elements:</p>\\(\\begin{array}{c|c|c|c} \\text{Element} & \\text{Number of Protons} & \\text{Number of Neutrons} & \\text{Number of Electrons} \\\\ \\hline \\text{Sodium (Na)} & 11 & 12 & 11 \\\\ \\text{Hydrogen (H)} & 1 & 0 & 1 \\\\ \\text{Fluorine (F)} & 9 & 10 & 9 \\end{array}\\)"
+    },
+    {
+      "passageId": "nitrogen-cycle-figure-683-685",
+      "passageHtml": "<p>The nitrogen cycle describes the circulation and transformation of nitrogen between living things and the environment as it moves through Earth's different systems. The nitrogen cycle is shown in the following figure.</p><img src=\"nitrogen_cycle.png\" alt=\"Diagram of the nitrogen cycle\" />"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q642",
+      "passageId": "solubility-graph-642-645",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the solubility of substance B at 20 degrees Celsius?</p>",
+      "options": {
+        "A": "0.5 grams per liter",
+        "B": "1.0 grams per liter",
+        "C": "1.5 grams per liter",
+        "D": "2.0 grams per liter"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>On the graph, imagine drawing a horizontal line at 20 degrees until it reaches the curve for substance B. Then imagine drawing a vertical line from that point until it reaches the x‑axis. The vertical line cuts the x‑axis at approximately 2.0 grams per liter, making Choice (D) the correct answer.</p>"
+    },
+    {
+      "questionId": "q643",
+      "passageId": "solubility-graph-642-645",
+      "passageHighlight": "",
+      "questionHtml": "<p>Based upon the graph, as the temperature of the water increases, the solubility of</p>",
+      "options": {
+        "A": "both gases and solids appears to increase.",
+        "B": "both gases and solids appears to decrease.",
+        "C": "gases appears to increase, but the solubility of solids appears to decrease.",
+        "D": "gases appears to decrease, but the solubility of solids appears to increase."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>You can see from the graph that the curves for the two gases (substances A and B) slope downward as the temperature of the water increases. This means that they're becoming less soluble. The curve for the solid (substance C) slopes upward as the temperature of the water increases. This means that it's becoming more soluble.</p>"
+    },
+    {
+      "questionId": "q644",
+      "passageId": "solubility-graph-642-645",
+      "passageHighlight": "",
+      "questionHtml": "<p>If you place a cold glass of water on your bedside table before going to sleep on a warm night, why do you see small bubbles on the inside of the glass when you wake up the next morning? (Select the best explanation.)</p>",
+      "options": {
+        "A": "The warm room temperature causes the glass to expand, creating bubbles.",
+        "B": "Gases are more soluble in cold water than in warm water, so the air bubbles that were dissolved in the cold water began to come out of the solution as the water warmed up overnight.",
+        "C": "The bubbles come from bacteria that grow in the water overnight.",
+        "D": "The glass itself releases oxygen when it is left standing overnight."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Gases are more soluble in cold water than in warm water, so the air bubbles that were dissolved in the cold water began to come out of the solution as the water warmed up overnight.</p>"
+    },
+    {
+      "questionId": "q645",
+      "passageId": "solubility-graph-642-645",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following statements is supported by the information given in the graph?</p>",
+      "options": {
+        "A": "Most gases dissolve at the same rate in water.",
+        "B": "The temperature of the water appears to have a large effect on the solubility of some substances.",
+        "C": "Pressure has no effect on the solubility of most substances in water.",
+        "D": "Water is the best solvent for dissolving any substance."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Only Choice (B) is supported by the information in the graph because the solubility of the three substances changes when the temperature changes.</p>"
+    },
+    {
+      "questionId": "q646",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A parasite is an organism that relies on another organism, called the host, to survive. The parasite always causes harm to the host organism. Which of the following is an example of a parasite?</p>",
+      "options": {
+        "A": "hummingbirds that drink nectar from flowers and spread the pollen from one flower to another.",
+        "B": "natural bacteria in the human intestines that produce vitamin K",
+        "C": "a dog that relies on its owner for food and shelter",
+        "D": "a hookworm that lives in the intestines of a human and drinks blood, depriving the human of nutrients"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Choice (D) describes a parasite that causes harm to its host. The other choices describe mutualistic or commensal relationships, not parasitic.</p>"
+    },
+    {
+      "questionId": "q647",
+      "passageId": "reaction-energy-graph-647-649",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following statements correctly interprets the graph?</p>",
+      "options": {
+        "A": "The kinetic energy is initially high.",
+        "B": "The amount of potential energy drops midway through the reaction.",
+        "C": "The products have less potential energy than the reactants.",
+        "D": "The products have more potential energy than the reactants."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>You can see from the graph that the reactants have more potential energy than the products, making Choice (C) the correct answer; Choice (D) is therefore wrong. The graph makes no mention of kinetic energy, so you can reject Choice (A). The amount of potential energy rises (not drops) midway through the reaction, making Choice (B) incorrect.</p>"
+    },
+    {
+      "questionId": "q648",
+      "passageId": "reaction-energy-graph-647-649",
+      "passageHighlight": "",
+      "questionHtml": "<p>What type of reaction is this?</p>",
+      "options": {
+        "A": "endothermic reaction",
+        "B": "exothermic reaction",
+        "C": "fission reaction",
+        "D": "fusion reaction"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Because the reactants have more potential energy than the products and the extra energy is released, this must be an exothermic reaction, making Choice (B) the correct answer. An endothermic reaction would absorb energy (not release it), so you can reject Choice (A). Choices (C) and (D) refer to nuclear reactions, not chemical reactions.</p>"
+    },
+    {
+      "questionId": "q649",
+      "passageId": "reaction-energy-graph-647-649",
+      "passageHighlight": "",
+      "questionHtml": "<p>How does a catalyst speed up the reaction?</p>",
+      "options": {
+        "A": "It decreases the activation energy, making it easier for the reactants to turn into products.",
+        "B": "It increases the activation energy, making it harder for the reactants to turn into products.",
+        "C": "It increases the activation energy, making it easier for the products to turn back into reactants.",
+        "D": "It makes the reaction go backward."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>A catalyst speeds up the rate of the reaction by decreasing the activation energy needed for the reactants to turn into products, making Choice (A) the correct answer.</p>"
+    },
+    {
+      "questionId": "q650",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Evolutionary fitness is determined by how much an individual contributes to the gene pool of the next generation. The more living offspring an individual produces, the fitter that individual is. According to this definition, which of the following individuals is currently the fittest?</p>",
+      "options": {
+        "A": "A childless man who can bench press over 400 pounds and run a marathon in less than 3 hours.",
+        "B": "A 29-year-old woman who has four healthy children.",
+        "C": "A 59-year-old woman with diabetes who has had six miscarriages but has five children.",
+        "D": "A healthy 5-year-old child who has never been sick."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>According to the definition, the most evolutionarily fit individual has produced the most living offspring and has therefore made the greatest contribution to the gene pool of the next generation. Out of the individuals mentioned in the answer choices, the person in Choice (C) has produced the most living children (five).</p>"
+    },
+    {
+      "questionId": "q651",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Sometimes different species evolve similar adaptations. These analogous structures perform the same function but look very different. Which of the following are analogous structures?</p>",
+      "options": {
+        "A": "the hive of a bee colony and the ant hill of an ant colony",
+        "B": "the wing of an eagle and the wing of a bee",
+        "C": "the foot of a baby and the foot of an adult",
+        "D": "the heart of a human and the heart of a pig"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Choice (B) describes a pair of analogous structures because they both perform the same function (flying) yet belong to different animals that evolved separately. The other choices either are not body parts, are the same species, or do not perform the same function.</p>"
+    },
+    {
+      "questionId": "q652",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The following table shows the typical composition of human blood:</p>\\(\\begin{array}{c|c} \\text{Component} & \\text{Percentage} \\\\ \\hline \\text{Water} & 52\\% \\\\ \\text{Red blood cells} & 42\\% \\\\ \\text{Vitamins and nutrients} & 3\\% \\\\ \\text{White blood cells} & 2\\% \\\\ \\text{Dissolved gases} & 1\\% \\end{array}\\)<p>What percentage of human blood consists of cells?</p>",
+      "options": {
+        "A": "2%",
+        "B": "42%",
+        "C": "44%",
+        "D": "100%"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Of the components listed, only the red blood cells (42%) and white blood cells (2%) are cells. The sum of these two components gives you 44%; hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q653",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Imprinting is a learned behavior during a critical period when a young bird learns to recognize the first moving object it sees as its parent. Which of the following is an example of imprinting?</p>",
+      "options": {
+        "A": "A monkey learns to use a stick as a tool to get ants out of an anthill.",
+        "B": "A duck learns to wait by the side of the pond during lunchtime so it can eat the scraps from people's sandwiches.",
+        "C": "A 3-year-old dog is given a chew toy that it now carries with it everywhere it goes.",
+        "D": "A newly hatched goose follows a balloon that it saw shortly after it was born."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The passage tells you that imprinting refers to a type of behavior seen in young birds when they're exposed to an object that they assume is their mother. Choice (D) correctly describes an example of imprinting and is therefore the correct answer.</p>"
+    },
+    {
+      "questionId": "q654",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>On a particular island, lions prey on zebras. If a deadly virus that affects only zebras were to spread through the island, what effect would that have on the lion population?</p>",
+      "options": {
+        "A": "It will increase because the lions will no longer have to compete with the zebras for food.",
+        "B": "It will increase because the lions will evolve to resist the deadly virus.",
+        "C": "It will decrease because the virus will kill off some of the lions.",
+        "D": "It will decrease because there will not be enough food to feed the lions."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>You're told that the virus doesn't affect the lions, so you can reject Choices (B) and (C). Choice (A) can also be rejected because zebras are the lions' prey, not competitors. With fewer zebras, lions will have less food, so their population will decrease.</p>"
+    },
+    {
+      "questionId": "q655",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Bees serve as pollinators for many flowers and play an important role in the ecosystem. Approximately one-third of the human food supply consists of plants that bees pollinate. Recently, the global population of bees began sharply declining. What is the most important consequence of the declining bee population to humans?</p>",
+      "options": {
+        "A": "Fewer plants will be eaten by the bees, leaving more available for humans to eat.",
+        "B": "Fewer plants will be available for humans to eat because plants depend upon the bees to reproduce.",
+        "C": "Fewer people will be stung by the bees.",
+        "D": "There will be less honey available for humans to eat."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>You're told that approximately one‑third of the human food supply consists of plants that bees pollinate. If the global population of bees begins to decline sharply, fewer plants will be pollinated; there will be fewer plants available for humans to eat, making Choice (B) the correct answer.</p>"
+    },
+    {
+      "questionId": "q656",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>If one side of a stemmed plant receives more sunlight than the other side, a growth hormone called auxin will concentrate on the shady side of the stem in order to stimulate more growth there. As a result, the plant will</p>",
+      "options": {
+        "A": "bend toward the ground",
+        "B": "bend toward the light",
+        "C": "grow a thicker stem and increase in girth",
+        "D": "stop growing altogether"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Because the growth hormone is concentrated on the shady side of the plant, the cells there will begin to elongate and grow faster than the cells on the sunny side. As a result, the plant stem will begin to bend toward the light, making Choice (B) the correct answer.</p>"
+    },
+    {
+      "questionId": "q657",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What type of intramolecular bonding occurs when carbon reacts with hydrogen to make methane gas?</p>",
+      "options": {
+        "A": "ionic bonding",
+        "B": "hydrogen bonding",
+        "C": "carbon bonding",
+        "D": "covalent bonding"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>When carbon reacts to form methane, it shares its electrons with hydrogen. This is known as covalent bonding; hence, Choice (D) is the correct answer. Ionic bonding usually occurs when metals react with nonmetals, so you can reject Choice (A). Hydrogen bonding forms intermolecular bonds, not intramolecular bonds, so Choice (B) is wrong.</p>"
+    },
+    {
+      "questionId": "q658",
+      "passageId": "foxglove-punnett-square-658-661",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the probability that the flowers of an offspring chosen at random will be white?</p>",
+      "options": {
+        "A": "0%",
+        "B": "25%",
+        "C": "75%",
+        "D": "100%"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Because the allele for purple flowers, P, is dominant, any genotype that contains it (Pp or PP) will result in purple flowers. The Punnett square shows that three out of four (or 75 percent) of the offspring have genotypes containing the dominant allele; hence, 75 percent of the offspring will have purple flowers. That leaves only one out of four (25%) with white flowers (pp).</p>"
+    },
+    {
+      "questionId": "q659",
+      "passageId": "foxglove-punnett-square-658-661",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following is a true statement?</p>",
+      "options": {
+        "A": "The genotype of the offspring with white flowers and the genotype of the parent plants are both homogeneous.",
+        "B": "The genotype of the offspring with white flowers is homogeneous, whereas the parent plants are homogeneous as well.",
+        "C": "The genotype of the offspring with white flowers is homogeneous, whereas the parent plants are heterogeneous.",
+        "D": "The genotype of the offspring with white flowers is heterogeneous, whereas the parent plants are homogeneous."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Both parent plants have the genotype Pp, which means they're heterogeneous (with one allele of each type). Because the white allele is recessive, the offspring with white flowers must contain only recessive alleles (pp), so it's homogeneous. Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q660",
+      "passageId": "foxglove-punnett-square-658-661",
+      "passageHighlight": "",
+      "questionHtml": "<p>The scientist now cross‑breeds two plants with white flowers. What is the probability that one of their offspring, chosen at random, will have purple flowers?</p>",
+      "options": {
+        "A": "0%",
+        "B": "25%",
+        "C": "75%",
+        "D": "100%"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Both parent plants are white; therefore, they must be homogeneous for the recessive p allele and have the genotype pp. Because they have only recessive p alleles to pass on to their offspring, 0 percent of the offspring will have purple flowers — neither of the parents could pass on the dominant P. Hence, Choice (A) is the correct answer.</p>"
+    },
+    {
+      "questionId": "q661",
+      "passageId": "foxglove-punnett-square-658-661",
+      "passageHighlight": "",
+      "questionHtml": "<p>The scientist now cross‑breeds a plant with white flowers with a plant that has purple flowers. What is the probability that the flowers of an offspring chosen at random will be pink?</p>",
+      "options": {
+        "A": "0%",
+        "B": "25%",
+        "C": "50%",
+        "D": "100%"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Because the allele for purple flowers, P, is dominant, any genotype that contains it (Pp or PP) will result in purple flowers, not pink flowers. If an offspring does not contain the dominant allele, it will have white flowers, not pink or purple flowers; hence, Choice (A) is the correct answer.</p>"
+    },
+    {
+      "questionId": "q662",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The Earth's magnetic field is caused by the rotation of liquid magma around the Earth's iron core. Over the years, changes in this rotation have caused the Earth's magnetic North Pole to shift position from its earliest recorded position in northern Canada to its current position today. What can you infer from this information?</p>",
+      "options": {
+        "A": "Earth's magnetic core is shifting toward the planet's surface.",
+        "B": "All magnets are made of iron.",
+        "C": "Earth's magnetic poles are at different locations than the geographic poles.",
+        "D": "The geographic North Pole has also shifted over time."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Earth's geographical poles have not changed their position (the North Pole is always at the top of the planet). You are told that the magnetic poles have changed their locations, so they must be at different locations than the geographic poles, making Choice (C) the correct answer.</p>"
+    },
+    {
+      "questionId": "q663",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the main genetic advantage that sexual reproduction has over asexual reproduction?</p>",
+      "options": {
+        "A": "Sexual reproduction produces a greater variety of offspring.",
+        "B": "Sexual reproduction produces offspring that are genetically identical to each other.",
+        "C": "Sexual reproduction results in more offspring per parent.",
+        "D": "Sexual reproduction is easier to accomplish."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Sexual reproduction allows for more variations in the species than asexual reproduction does because in sexual reproduction, genes from both parents are combined to produce the offspring. Hence, Choice (A) is correct and Choice (B) can be rejected. Choices (C) and (D) are false because sexual reproduction typically results in fewer offspring and is generally harder to accomplish.</p>"
+    },
+    {
+      "questionId": "q664",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following would you use to best view the features of the moon's surface?</p>",
+      "options": {
+        "A": "an electron microscope",
+        "B": "a lens with a short focal length",
+        "C": "a telescope",
+        "D": "the naked eye"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>A telescope is an optical instrument that allows you to see objects that are very far away, so Choice (C) is correct. The other options are not suitable for viewing distant lunar features.</p>"
+    },
+    {
+      "questionId": "q665",
+      "passageId": "soapbox-race-data-665-670",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which material is the heaviest?</p>",
+      "options": {
+        "A": "wood",
+        "B": "steel",
+        "C": "aluminum",
+        "D": "The materials all weigh the same."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The car with the largest mass will be the heaviest because weight equals mass multiplied by the acceleration due to gravity. From the table, the heaviest car (25 kg) belongs to Contestant 2, who built his car from steel. Hence, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q666",
+      "passageId": "soapbox-race-data-665-670",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which contestant had the most potential energy at the beginning of the race?</p>",
+      "options": {
+        "A": "Contestant 1",
+        "B": "Contestant 2",
+        "C": "Contestant 3",
+        "D": "Each contestant began with the same potential energy."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Each contestant has the same combined mass (60 kg) when you add the mass of the car and the mass of the driver. The contestants also all start from the same height on the hill (20 m), so the potential energy (PE = mgh) is the same for all three. Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q667",
+      "passageId": "soapbox-race-data-665-670",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following statements is true?</p>",
+      "options": {
+        "A": "Contestant 3 has the greatest ratio of car mass to driver mass, and Contestant 2 has the smallest ratio.",
+        "B": "Contestant 1 has the greatest ratio of car mass to driver mass, and Contestant 3 has the smallest ratio.",
+        "C": "Contestant 2 has the greatest ratio of car mass to driver mass, and Contestant 1 has the smallest ratio.",
+        "D": "Contestant 2 has the greatest ratio of car mass to driver mass, and Contestant 3 has the smallest ratio."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The ratios are: Contestant 1 = 20/40 = 1/2, Contestant 2 = 25/35 ≈ 5/7 ≈ 0.714, Contestant 3 = 15/45 = 1/3 ≈ 0.333. Therefore Contestant 2 has the greatest ratio and Contestant 3 has the smallest. Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q668",
+      "passageId": "soapbox-race-data-665-670",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the gained kinetic energy of Contestant 1 at the end of the race?</p>",
+      "options": {
+        "A": "60 J",
+        "B": "600 J",
+        "C": "6,000 J",
+        "D": "12,000 J"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The combined mass of the car and driver is 60 kg, and the final velocity reached was 20 m/s. KE = ½ mv² = ½ × 60 × (20)² = 12,000 J. Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q669",
+      "passageId": "soapbox-race-data-665-670",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following is a true statement?</p>",
+      "options": {
+        "A": "The car driven by Contestant 1 was the most efficient because it converted more of its kinetic energy into potential energy.",
+        "B": "The car driven by Contestant 1 was the most efficient because it converted more of its potential energy into kinetic energy.",
+        "C": "The car driven by Contestant 2 was the most efficient because it converted more of its kinetic energy into potential energy.",
+        "D": "The car driven by Contestant 3 was the most efficient because it converted more of its potential energy into kinetic energy."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Each contestant began with the same potential energy. Contestant 1 had the fastest speed (velocity), so he converted more potential energy into kinetic energy than the other contestants did. Hence Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q670",
+      "passageId": "soapbox-race-data-665-670",
+      "passageHighlight": "",
+      "questionHtml": "<p>The conservation of energy states that energy is never created or destroyed; however, some of the contestants ended up with less kinetic energy than the potential energy they began with. What might have happened to this 'missing energy'? (Select the best explanation.)</p>",
+      "options": {
+        "A": "The missing energy was destroyed due to the inefficiency of the cars.",
+        "B": "Some of the potential energy was converted into heat or sound energy to overcome friction and air resistance instead of becoming kinetic energy.",
+        "C": "The missing energy was absorbed by the drivers and turned into chemical energy.",
+        "D": "The missing energy remains stored as potential energy because the cars did not move."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Some of the stored potential energy was used up in order to overcome the forces of friction and air resistance that were acting on the cars. Hence, some of the potential energy was converted into heat or sound energy instead of kinetic energy, which accounts for the 'missing energy'.</p>"
+    },
+    {
+      "questionId": "q671",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A scientist measured the life spans (in days) of five fruit flies. She recorded four values: A = 18, B = 12, C = 17, D = 11. The data for fruit fly E was lost, but she remembered that the mean of the five life spans was 15 days. What must the missing value for the life span of fruit fly E have been?</p>",
+      "options": {
+        "A": "15",
+        "B": "16",
+        "C": "17",
+        "D": "18"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Because the mean of the five life spans is 15, the total sum is 15 × 5 = 75. The sum of the four known values is 18 + 12 + 17 + 11 = 58. The missing value must be 75 – 58 = 17. Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q672",
+      "passageId": "atomic-structures-table-672-677",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the atomic number of fluorine?</p>",
+      "options": {
+        "A": "9",
+        "B": "10",
+        "C": "19",
+        "D": "28"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The atomic number of an atom is equal to the number of its protons. From the table, fluorine has 9 protons, so the correct answer is Choice (A).</p>"
+    },
+    {
+      "questionId": "q673",
+      "passageId": "atomic-structures-table-672-677",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the atomic mass number of sodium?</p>",
+      "options": {
+        "A": "11",
+        "B": "22",
+        "C": "23",
+        "D": "34"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The atomic mass number is the sum of protons and neutrons. Sodium has 11 protons and 12 neutrons, for a total of 23. Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q674",
+      "passageId": "atomic-structures-table-672-677",
+      "passageHighlight": "",
+      "questionHtml": "<p>A scientist is trying to determine the identity of an unknown element whose atoms contain 9 protons, 9 electrons, and 12 neutrons. Which of the following correctly determines the element's identity and gives the appropriate reasoning?</p>",
+      "options": {
+        "A": "sodium, because the atom contains 12 neutrons",
+        "B": "fluorine, because the atom contains 9 electrons",
+        "C": "hydrogen, because the atom contains the same number of electrons and protons",
+        "D": "fluorine, because the atom contains 9 protons"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The number of protons determines the element. Because the unknown atom contains 9 protons, it must be fluorine, so Choice (D) is correct. The number of neutrons can vary (isotopes), but the proton count is fixed for an element.</p>"
+    },
+    {
+      "questionId": "q675",
+      "passageId": "atomic-structures-table-672-677",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which element has the same value for its atomic number and atomic mass number?</p>",
+      "options": {
+        "A": "sodium",
+        "B": "hydrogen",
+        "C": "fluorine",
+        "D": "No element has the same value"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Hydrogen has 1 proton and 0 neutrons, so its atomic number (1) equals its atomic mass number (1). Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q676",
+      "passageId": "atomic-structures-table-672-677",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following is a true statement?</p>",
+      "options": {
+        "A": "Sodium contains 1 valence electron, whereas fluorine contains 7 valence electrons.",
+        "B": "Sodium contains 11 valence electrons, whereas fluorine contains 9 valence electrons.",
+        "C": "Sodium contains 1 valence electron, whereas fluorine contains 9 valence electrons.",
+        "D": "Sodium contains 9 valence electrons, whereas fluorine contains 7 valence electrons."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Sodium has 11 electrons total: first shell holds 2, second holds 8, leaving 1 valence electron. Fluorine has 9 electrons: first shell holds 2, remaining 7 are valence electrons in the second shell. Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q677",
+      "passageId": "atomic-structures-table-672-677",
+      "passageHighlight": "",
+      "questionHtml": "<p>What will happen if a sodium atom loses an electron?</p>",
+      "options": {
+        "A": "Its charge would become negative.",
+        "B": "Its charge would become positive.",
+        "C": "Its charge would remain neutral.",
+        "D": "The charge is impossible to determine without further information."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Sodium has 11 electrons (negative) and 11 protons (positive), so it is neutral. Losing one electron leaves 10 electrons and 11 protons, giving an overall positive charge of +1. Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q678",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A comet is a small celestial body made of ice and dust that orbits the sun in an elliptical path. As the comet approaches the sun, it warms up and some ice and dust stream away, forming a tail. Based on this information, which of the following statements is an opinion rather than a fact?</p>",
+      "options": {
+        "A": "The tail of a comet is made of ice and dust.",
+        "B": "Comets orbit around the sun in elliptical paths.",
+        "C": "Comets are much more interesting than other celestial bodies.",
+        "D": "Comets are small celestial bodies made of ice and dust."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Choices (A), (B), and (D) are factual statements from the passage. Choice (C) expresses a personal preference and is an opinion, making it the correct answer.</p>"
+    },
+    {
+      "questionId": "q679",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Earthworms help to break down the bodies of dead organisms such as leaves, returning nutrients to the soil in the process. Based on this information, what role do earthworms play in the food chain?</p>",
+      "options": {
+        "A": "They are producers.",
+        "B": "They are primary consumers.",
+        "C": "They are tertiary consumers.",
+        "D": "They are decomposers."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Earthworms break down dead organic matter, so they are decomposers. They do not produce their own food, nor do they primarily eat fresh plants or animals as primary or tertiary consumers.</p>"
+    },
+    {
+      "questionId": "q680",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The hydrosphere consists of all Earth's water, including oceans, lakes, and rivers. The atmosphere consists of all Earth's air. Which scientist would most likely apply knowledge of both the hydrosphere and the atmosphere while at work?</p>",
+      "options": {
+        "A": "an astronaut preparing to live on the moon for 3 months",
+        "B": "a zoologist studying hereditary patterns of primates",
+        "C": "a meteorologist studying weather patterns to predict the weather",
+        "D": "a chemist studying the reaction of water and fluorine gas in the laboratory"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Weather patterns involve interactions between the atmosphere and the hydrosphere, so a meteorologist would need a good understanding of both systems to predict the weather. Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q681",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following contains true statements?</p>",
+      "options": {
+        "A": "The planet nearest the sun is called Jupiter. The planet that is the third closest to the sun is called Earth. The largest planet in the solar system is called Mercury.",
+        "B": "The planet nearest the sun is called Mercury. The planet that is the third closest to the sun is called Jupiter. The largest planet in the solar system is called Earth.",
+        "C": "The planet nearest the sun is called Mercury. The planet that is the third closest to the sun is called Earth. The largest planet in the solar system is called Jupiter.",
+        "D": "The planet nearest the sun is called Mercury. The planet that is the third closest to the sun is called Earth. The largest planet in the solar system is called Saturn."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Mercury is closest to the sun, Earth is third, and Jupiter is the largest planet. Choice (C) correctly states all three facts.</p>"
+    },
+    {
+      "questionId": "q682",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following places the events in the correct order (from the earliest to the most recent)?</p>",
+      "options": {
+        "A": "Homo sapiens first appeared > extinction of the dinosaurs > life first appeared > Big Bang > formation of Earth",
+        "B": "formation of Earth > Big Bang > life first appeared > extinction of dinosaurs > Homo sapiens first appeared",
+        "C": "Big Bang > formation of Earth > life first appeared > Homo sapiens first appeared > extinction of dinosaurs",
+        "D": "Big Bang > formation of Earth > life first appeared > extinction of dinosaurs > Homo sapiens first appeared"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The correct order is: Big Bang → formation of planet Earth → life first appeared → extinction of the dinosaurs → Homo sapiens (modern humans) first appeared. Choice (D) is correct.</p>"
+    }
+  ]
+}

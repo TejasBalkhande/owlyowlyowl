@@ -1,0 +1,488 @@
+{
+  "passages": [
+    {
+      "passageId": "information-575-578",
+      "passageHtml": "<p>Jenny is investigating magnetic fields and forces. She has the following equipment available to her: two strong bar magnets and a plotting compass.</p><p>Circuit 1: This consists of a coil of wire wrapped around an iron bar. There is a battery in this circuit and a switch but no light bulb present.</p><p>Circuit 2: This consists of a coil of wire attached to a light bulb. There is no battery in this circuit.</p>"
+    },
+    {
+      "passageId": "block-diagram-582-585",
+      "passageHtml": "<p>The following figure shows a block being dragged across the floor.</p><img src=\"/3-i-ged/s/image11.png\" alt=\"Block being dragged across floor\" />"
+    },
+    {
+      "passageId": "punnett-square-586-589",
+      "passageHtml": "<p>Pea plants produce two types of seeds: round seeds or wrinkled seeds. A gardener cross-breeds two pea plants and draws a Punnett square (shown in the figure below) where (R) represents the dominant allele for round seeds and (r) represents the allele for wrinkly seeds. The outside of the square displays the genes of the parents, whereas the inside of the square shows the genes of the potential offspring.</p><img src=\"/3-i-ged/s/image12.png\" alt=\"Punnett square for round and wrinkled seeds\" />"
+    },
+    {
+      "passageId": "correlation-plots-591-593",
+      "passageHtml": "<p>Four scatter plots showing different correlations:</p><img src=\"/3-i-ged/s/image13.png\" alt=\"Plots\" />"
+    },
+    {
+      "passageId": "arctic-fox-598-600",
+      "passageHtml": "<p>Arctic foxes have a thick layer of fat and dense, white fur to help protect them from the freezing temperatures of the Arctic habitat where they live. Natural selection is thought to be involved in the evolution of the Arctic fox's thick coat of fur.</p>"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q572",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following statements does NOT provide evidence supporting the common ancestry theory?</p>",
+      "options": {
+        "A": "Scientists believe that of all the species on Earth that have ever existed, 99 percent of them are now extinct.",
+        "B": "Many different animals have similar anatomical structures.",
+        "C": "All organisms on Earth have a large percentage of their DNA identical to that of other species.",
+        "D": "A lot of different animal species, including humans, start out looking the same as embryos."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Although scientists believe that 99 percent of all species that have ever lived on Earth are now extinct, this doesn't give any support to the common ancestry theory, making Choice (A) the correct answer. Because all organisms on Earth have a large percentage of their DNA identical to that of other species, this suggests that they all evolved from a single species, which supports the common ancestry theory. Hence, Choice (C) is not the right answer. If we all have a common ancestor, it's not surprising that a lot of different animal species start out looking the same as embryos or that many different animals have similar anatomical structures. Choices (B) and (D) also provide evidence for common ancestry.</p>"
+    },
+    {
+      "questionId": "q573",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What name is given to a substance that speeds up the rate of a reaction by decreasing the activation energy needed for the reactants to turn into products?</p>",
+      "options": {
+        "A": "a noble gas",
+        "B": "a compound",
+        "C": "an alloy",
+        "D": "a catalyst"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>A catalyst speeds up the rate of the reaction by decreasing the activation energy needed for the reactants to turn into products, making Choice (D) the correct answer. Noble gases are a group of unreactive gases with full outer shells, but they are not usually involved in speeding up reactions, so you can reject Choice (A). A compound is a group of two or more different atoms bonded together, whereas an alloy is a metallic substance made from two or more metals, so you can reject Choices (B) and (C).</p>"
+    },
+    {
+      "questionId": "q574",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following is an example of a positive feedback mechanism in the climate system of Earth?</p>",
+      "options": {
+        "A": "Global warming causes extreme weather, including severe thunderstorms.",
+        "B": "Higher global temperatures cause sea levels to rise.",
+        "C": "Higher ocean temperatures lead to an increase in the numbers of tropical fish found off the coast of Florida.",
+        "D": "Higher global temperatures cause the polar ice caps, which reflect sunlight back into space, to melt, leading to further global warming."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>A positive feedback mechanism occurs when an initial change in one system leads to responses from other systems that amplify the initial change in the first system. Only Choice (D) is an example of this. Melting polar ice caps reduce the Earth's albedo (reflectivity), causing more solar energy to be absorbed and leading to further warming. The other choices are either neutral or negative feedback, or not direct feedback loops.</p>"
+    },
+    {
+      "questionId": "q575",
+      "passageId": "information-575-578",
+      "passageHighlight": "",
+      "questionHtml": "<p>What happens when the student closes the switch in Circuit 1?</p>",
+      "options": {
+        "A": "The light bulb lights up.",
+        "B": "The iron bar becomes magnetized.",
+        "C": "Nothing, because iron does not conduct electricity.",
+        "D": "The iron bar becomes hot and begins to melt."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>When the switch is closed in Circuit 1, electricity flows through the coil, which will magnetize the iron bar, turning it into an electromagnet. There is no bulb in Circuit 2, so Choice (A) is wrong. Iron is a metal, so it will conduct electricity, making Choice (C) a false statement. Iron has a very high melting point, so Choice (D) is unlikely.</p>"
+    },
+    {
+      "questionId": "q576",
+      "passageId": "information-575-578",
+      "passageHighlight": "",
+      "questionHtml": "<p>What happens when the student positions the two strong magnets near each other with one north pole and one south pole facing each other?</p>",
+      "options": {
+        "A": "The first magnet will be attracted to the second magnet, but the second magnet will be repelled by the first magnet.",
+        "B": "The magnets will become warm due to electromagnetic radiation given off by their north poles.",
+        "C": "The magnets will attract each other.",
+        "D": "The magnets will repel each other."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Like poles repel, and unlike poles attract. Choice (C) is correct because the student placed two unlike poles facing each other (a north pole and a south pole). Magnets don't give off electromagnetic radiation, so Choice (B) is false. Attraction is mutual, so Choice (A) is incorrect.</p>"
+    },
+    {
+      "questionId": "q577",
+      "passageId": "information-575-578",
+      "passageHighlight": "",
+      "questionHtml": "<p>What happens when the student moves one of the magnets into and out of the coil in Circuit 2?</p>",
+      "options": {
+        "A": "The light bulb remains unlit because there is no battery to power the circuit.",
+        "B": "The light bulb lights up because electricity is created.",
+        "C": "An electromagnet is generated.",
+        "D": "The magnet becomes demagnetized."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Moving magnets can generate electricity (this is how power stations work); hence, the light bulb in Circuit 2 will light up as the magnet moves into and out of the coil, making Choice (B) the correct answer. Choice (C) occurs when an electric current produces a magnet (not the other way around), and Choice (D) is a false statement because the magnet is unharmed.</p>"
+    },
+    {
+      "questionId": "q578",
+      "passageId": "information-575-578",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which direction will the plotting compass point when the student places it at the north pole of one of the bar magnets?</p>",
+      "options": {
+        "A": "Toward the magnet's north pole",
+        "B": "Away from the magnet's north pole",
+        "C": "Away from Earth's North Pole",
+        "D": "Toward Earth's North Pole"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Magnetic field lines come out of the north pole of a magnet and go into the south pole. The plotting compass will align itself in the direction of these magnetic field lines, so the compass needle's north pole points away from the magnet's north pole (toward the magnet's south pole). Hence, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q579",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the name of the human body system consisting of the skin, hair, and nails that serves to protect the body from various kinds of damage, such as loss of water or abrasion, from the outside?</p>",
+      "options": {
+        "A": "digestive system",
+        "B": "integumentary system",
+        "C": "circulatory system",
+        "D": "muscular system"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The integumentary system is the protective layer of the body including the skin, hair, and nails, so Choice (B) is correct. The digestive system is involved in breaking down food into nutrients, but it isn't involved in protecting the body from the outside, so you can reject Choice (A). The circulatory system transports nutrients dissolved in the blood to all the cells of the body but doesn't protect against damage, so Choice (C) is incorrect. The muscular system is responsible for the movement of the body itself, so Choice (D) is incorrect.</p>"
+    },
+    {
+      "questionId": "q580",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Groundwater often drips from the ceilings of underground caves, leaving behind tiny deposits of minerals (such as calcium carbonate) that were dissolved in the water. Over millions of years, these tiny deposits build up to form stalactites. Which of the following questions can be answered using this information?</p>",
+      "options": {
+        "A": "What is the difference between stalactites and stalagmites?",
+        "B": "How tall can stalactites become?",
+        "C": "What causes the formation of stalactites in underground caverns?",
+        "D": "How are stalagmites formed?"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The information in the question stem tells you how stalactites are formed in underground caves; therefore, Choice (C) is the correct answer. There's nothing in the information regarding stalagmites, so you can reject Choices (A) and (D). Similarly, there's no information on how tall stalactites can become, so you can reject Choice (B).</p>"
+    },
+    {
+      "questionId": "q581",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Daisy was conducting an investigation using two liquids. Both liquids were clear and were at the same temperature, 25°C. When she combined the liquids in a large beaker, gas bubbles were produced and the liquid turned blue. The student took the temperature of the beaker, which now measured 27°C. All of the following show that a chemical reaction may have occurred EXCEPT</p>",
+      "options": {
+        "A": "a temperature change occurred.",
+        "B": "a color change occurred.",
+        "C": "the two liquids mixed together.",
+        "D": "a gas was produced."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>When a chemical reaction takes place, there is often a temperature change, a color change, or a gas given off, so you can reject Choices (A), (B), and (D). Liquids can mix together without reacting chemically, so Choice (C) is the right answer.</p>"
+    },
+    {
+      "questionId": "q582",
+      "passageId": "block-diagram-582-585",
+      "passageHighlight": "",
+      "questionHtml": "<p>If the block has a mass of 2 kg, what is the approximate force on it due to gravity?</p>",
+      "options": {
+        "A": "2 N",
+        "B": "10 N",
+        "C": "20 N",
+        "D": "40 N"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The force due to gravity acting on the 2 kg mass is equal to the weight of the block (mg, where m is the mass and g is the acceleration due to gravity). Because g is 9.8 m/s², which is approximately 10 m/s², the weight is approximately 2 kg × 10 m/s² = 20 N. Therefore, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q583",
+      "passageId": "block-diagram-582-585",
+      "passageHighlight": "",
+      "questionHtml": "<p>If the block has a mass of 2 kg and the pulling force and the frictional force acting on the block both equal 20 N, what is the acceleration of the block?</p>",
+      "options": {
+        "A": "0 m/s²",
+        "B": "2 m/s²",
+        "C": "4 m/s²",
+        "D": "10 m/s²"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Because both the pulling force and the frictional force are the same magnitude (size) but are acting in opposite directions, they will cancel each other out. Therefore, there will be no unbalanced forces acting on the block. Because there are no unbalanced forces, there will be no acceleration, making Choice (A) the correct answer.</p>"
+    },
+    {
+      "questionId": "q584",
+      "passageId": "block-diagram-582-585",
+      "passageHighlight": "",
+      "questionHtml": "<p>If the block is moving at a constant velocity, then which of the following is a true statement?</p>",
+      "options": {
+        "A": "The pulling force must be greater than the frictional force, but the weight of the object is equal to the normal reaction force.",
+        "B": "The pulling force must be greater than the frictional force, and the weight of the object is greater than the normal reaction force.",
+        "C": "The pulling force must be equal to the frictional force, and the weight of the object is equal to the normal reaction force.",
+        "D": "The pulling force must be equal to the frictional force, but the weight of the object is less than the normal reaction force."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Because the block is moving with constant velocity, it isn't accelerating. Newton's laws tell you that if there are no net forces acting on the block, each pair of forces in each direction (up and down or left and right) must cancel each other out and therefore be equal to each other. Thus, the pulling force equals the frictional force, and the weight equals the normal force.</p>"
+    },
+    {
+      "questionId": "q585",
+      "passageId": "block-diagram-582-585",
+      "passageHighlight": "",
+      "questionHtml": "<p>If the block has a mass of 2 kg, and a pulling force of 20 N acting on the block causes it to accelerate at 4 m/s², what is the value of the frictional force acting on the block?</p>",
+      "options": {
+        "A": "10 N",
+        "B": "12 N",
+        "C": "20 N",
+        "D": "40 N"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Newton's second law tells you that F = ma, where F equals the net or unbalanced force. Because you're told that the mass is 2 kg and the acceleration is 4 m/s², the net force must equal 8 N via F = 2 × 4 = 8. In this question, the net force equals the pulling force minus the friction: net force = pulling force - friction. Let x equal the friction; then solve for x: 8 = 20 - x → x = 12 N. Hence, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q586",
+      "passageId": "punnett-square-586-589",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the probability that their offspring will have wrinkled seeds?</p>",
+      "options": {
+        "A": "0%",
+        "B": "25%",
+        "C": "50%",
+        "D": "100%"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Because the trait for wrinkly seeds is recessive, only those offspring that are homozygous (rr) for the gene will have wrinkly seeds. From the Punnett square, you can see that two out of four offspring (50 percent) are homozygous for wrinkly seeds, making Choice (C) correct. Offspring that are heterozygous would have round seeds.</p>"
+    },
+    {
+      "questionId": "q587",
+      "passageId": "punnett-square-586-589",
+      "passageHighlight": "",
+      "questionHtml": "<p>Based on the given Punnett square, which of the following is a true statement?</p>",
+      "options": {
+        "A": "Both parent plants are homozygous.",
+        "B": "Both parent plants are heterozygous.",
+        "C": "One parent plant is heterozygous, and the other is homozygous.",
+        "D": "Neither parent plant is heterozygous or homozygous."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>One parent plant has two genes for wrinkly seeds, (rr), and is therefore homozygous (same genes). The other parent plant has one gene of each type, (Rr), and is therefore heterozygous (different genes). Thus, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q588",
+      "passageId": "punnett-square-586-589",
+      "passageHighlight": "",
+      "questionHtml": "<p>If the gardener cross-breeds two pea plants that have wrinkly seeds, what is the probability that their offspring will have round seeds?</p>",
+      "options": {
+        "A": "0%",
+        "B": "25%",
+        "C": "75%",
+        "D": "100%"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Both the parent plants have wrinkly seeds. The trait for wrinkly seeds appears only when the pea plant is homozygous (rr) for this recessive gene. There is zero possibility that their offspring will have round seeds because both parent plants will pass on an (r) gene to their offspring, making Choice (A) the correct answer.</p>"
+    },
+    {
+      "questionId": "q589",
+      "passageId": "punnett-square-586-589",
+      "passageHighlight": "",
+      "questionHtml": "<p>If the gardener cross-breeds two pea plants that are heterozygous, what is the probability that their offspring will have round seeds?</p>",
+      "options": {
+        "A": "0%",
+        "B": "25%",
+        "C": "75%",
+        "D": "100%"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Both the parent plants are heterozygous (Rr). If you draw the Punnett square, you see that the offspring have the following genotypes: (RR), (Rr), (Rr), and (rr). Because three out of the four offspring (75 percent) contain the dominant R gene, they will have round seeds. Hence, Choice (C) is the correct answer.</p>"
+    },
+    {
+      "questionId": "q590",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following arranges the units in ascending order (from smallest to largest)?</p>",
+      "options": {
+        "A": "microgram, milligram, gram, kilogram",
+        "B": "milligram, microgram, gram, kilogram",
+        "C": "microgram, gram, milligram, kilogram",
+        "D": "microgram, milligram, kilogram, gram"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>A microgram is 10⁻⁶ (a millionth) of a gram, so it's the smallest of the listed units. A milligram is 10⁻³ (a thousandth) of a gram. A kilogram is 10³ (a thousand) times bigger than a gram. Therefore, the correct ascending order is microgram, milligram, gram, kilogram, which is Choice (A).</p>"
+    },
+    {
+      "questionId": "q591",
+      "passageId": "correlation-plots-591-593",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which graph shows strong positive correlation between the variables?</p>",
+      "options": {
+        "A": "Plot A",
+        "B": "Plot B",
+        "C": "Plot C",
+        "D": "Plot D"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Plot B shows a strong positive correlation between the variables because the data points are close to the line (strong correlation) and the line is sloping upward, indicating a positive correlation.</p>"
+    },
+    {
+      "questionId": "q592",
+      "passageId": "correlation-plots-591-593",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which graph shows strong negative correlation between the variables?</p>",
+      "options": {
+        "A": "Plot A",
+        "B": "Plot B",
+        "C": "Plot C",
+        "D": "Plot D"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Plot D shows a strong negative correlation between the variables because the data points are close to the line (strong correlation) and the line is sloping downward, indicating a negative correlation.</p>"
+    },
+    {
+      "questionId": "q593",
+      "passageId": "correlation-plots-591-593",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which graph shows no correlation between the variables?</p>",
+      "options": {
+        "A": "Plot A",
+        "B": "Plot B",
+        "C": "Plot C",
+        "D": "Plot D"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>In Plot A, each data point appears to be randomly positioned, showing that there's no correlation between the variables. Plot C is similar but slopes downward, showing a weak negative correlation between the variables. Both Plot B and Plot D show strong correlations between the variables.</p>"
+    },
+    {
+      "questionId": "q594",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following statements is correct?</p>",
+      "options": {
+        "A": "Two variables that are correlated must always increase together or decrease together.",
+        "B": "If two variables are correlated, causation always exists between them.",
+        "C": "Correlation exists between two variables that happen together and may be related.",
+        "D": "Causation is an inferred cause-and-effect relationship that cannot be proved."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Choice (C) is the definition of correlation. Choice (A) is incorrect because even when two variables are correlated, one may increase while the other decreases (negative correlation). Choice (B) is incorrect: just because two items are correlated doesn't mean that causation exists between them. Choice (D) is incorrect: causation is a proven cause-and-effect relationship between two variables, not an inferred one that cannot be proved.</p>"
+    },
+    {
+      "questionId": "q595",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following correctly lists the atoms in the following compounds?</p>",
+      "options": {
+        "A": "CO₂ has 1 chlorine atom and 2 oxygen atoms.",
+        "B": "H₂O has 1 hydrogen atom and 2 oxygen atoms.",
+        "C": "C₆H₁₂O₆ has 6 chlorine atoms, 12 hydrogen atoms, and 6 oxygen atoms.",
+        "D": "CH₄ has 1 carbon atom and 4 hydrogen atoms."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Choice (A) is incorrect because CO₂ has 1 carbon atom (not chlorine) and 2 oxygen atoms. Choice (B) is incorrect because H₂O has 2 hydrogen atoms and 1 oxygen atom (not the other way around). Choice (C) is incorrect because C₆H₁₂O₆ has 6 carbon atoms (not chlorine), 12 hydrogen atoms, and 6 oxygen atoms. Choice (D) is correct: CH₄ has 1 carbon atom and 4 hydrogen atoms.</p>"
+    },
+    {
+      "questionId": "q596",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which type of particle is emitted in the nuclear decay reaction shown here? <br/> \\(\\mathrm{^{214}_{82}Pb \\rightarrow ^{214}_{83}Bi + ^{ 0}_{-1}e}\\)</p>",
+      "options": {
+        "A": "alpha decay",
+        "B": "beta decay",
+        "C": "gamma decay",
+        "D": "nuclear fusion"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The question stem shows a beta particle (e⁻) being emitted in the nuclear reaction, making Choice (B) correct. In beta decay, a neutron is converted into a proton and an electron, increasing the atomic number by 1 while the mass number remains unchanged.</p>"
+    },
+    {
+      "questionId": "q597",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The mass number of an element is the sum of the number of ________ within the nucleus of the atom.</p>",
+      "options": {
+        "A": "protons and electrons",
+        "B": "electrons and neutrons",
+        "C": "alpha particles",
+        "D": "protons and neutrons"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>There are no electrons in the nucleus of the atom, so you can reject Choices (A) and (B). Alpha particles are emitted by some radioactive elements, but they don't determine the mass number of an element, so Choice (C) is incorrect. The mass number is the sum of protons and neutrons, which is Choice (D).</p>"
+    },
+    {
+      "questionId": "q598",
+      "passageId": "arctic-fox-598-600",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following best explains how natural selection is involved in the evolution of the Arctic fox's thick fur coat?</p>",
+      "options": {
+        "A": "Arctic foxes with thinner coats migrated south for the winter.",
+        "B": "Arctic foxes with thinner coats did not survive because they were not well-suited to the harsh conditions of their environment.",
+        "C": "Arctic foxes with thick coats preferred to mate only with other Arctic foxes who had thick fur coats.",
+        "D": "Arctic foxes with thick fur coats killed off all the Arctic foxes with thinner coats."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Natural selection is the process by which individuals who are better adapted to their environment tend to survive and produce more offspring than those who are not well adapted. The foxes with the thicker coats were better adapted to the cold conditions of the Arctic than the foxes with thinner coats. Even if the statements in Choices (A), (C), and (D) were true (and they probably aren't), they would still be unrelated to natural selection.</p>"
+    },
+    {
+      "questionId": "q599",
+      "passageId": "arctic-fox-598-600",
+      "passageHighlight": "",
+      "questionHtml": "<p>How does the Arctic fox's thick fur coat help to keep the animal warm in the frigid Arctic conditions?</p>",
+      "options": {
+        "A": "Fur is a good conductor of heat, so the fox absorbs heat from the surroundings.",
+        "B": "The thick fur helps convection currents direct heat from the surroundings into the animal's skin.",
+        "C": "Fur traps a layer of air next to the animal's body, which keeps it warm because air is a poor conductor of heat.",
+        "D": "The thick fur acts as a lubricant to melt snow and ice that would otherwise freeze the fox's skin."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The layer of air trapped by the fur is a poor conductor of heat, so it prevents the fox's body heat from escaping, making Choice (C) the correct answer. Choice (D) would make the fox colder, not warmer. Choices (A) and (B) don't make sense because heat flows from hot objects (the fox) to cold objects (the surroundings), not the other way around.</p>"
+    },
+    {
+      "questionId": "q600",
+      "passageId": "arctic-fox-598-600",
+      "passageHighlight": "",
+      "questionHtml": "<p>Black fur emits more body heat to the colder surroundings than white fur does. Which of the following does NOT help explain why the Arctic fox has white fur rather than black fur?</p>",
+      "options": {
+        "A": "Black fur emits heat more than white fur does, so an animal with black fur would lose its body heat more quickly than an animal with white fur.",
+        "B": "Black fur would make it easier for the fox's prey to spot the fox coming and escape.",
+        "C": "Black fur provides an excellent contrast with the white background of the Arctic snow.",
+        "D": "White fur blends in with the fox's snowy surroundings better than black fur, helping the fox hide from predators."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Choice (C) is the correct answer because the contrast of the black fur against the white environment would not be an advantage to the fox; it would make it harder for the fox to catch its prey or avoid being captured by a predator. Therefore, you can eliminate Choices (B) and (D). You can also reject Choice (A) because it explains why black fur would not be an advantage in a cold environment.</p>"
+    },
+    {
+      "questionId": "q601",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following is the best example of Newton's first law (the law of inertia), which states that an object at rest stays at rest and an object in motion stays in motion at the same speed in the same direction unless acted upon by an unbalanced force?</p>",
+      "options": {
+        "A": "a train slowing to a stop as it enters the station",
+        "B": "the recoil of a cannon when a cannonball is fired into the air",
+        "C": "a skydiver who has already reached terminal velocity and is falling at a constant speed toward the ground",
+        "D": "a rocket blasting off on its way to the moon"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Because the skydiver has already reached terminal velocity, he is falling at a constant speed toward the ground, which means there are no unbalanced forces acting on him (his weight is balanced out by the air resistance), making Choice (C) correct. Choice (A) is an example of Newton's second law because there's an unbalanced force acting on the train, which slows it down. Choice (B) is an example of Newton's third law (action-reaction). Choice (D) involves unbalanced forces and acceleration, also related to Newton's second law.</p>"
+    },
+    {
+      "questionId": "q602",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What will happen if an atom gains an electron?</p>",
+      "options": {
+        "A": "Its charge would become negative.",
+        "B": "Its charge would become positive.",
+        "C": "Its charge would remain neutral.",
+        "D": "The charge is impossible to determine without further information."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>All atoms are neutral because they contain the same number of positively charged protons in their nucleus and negatively charged electrons in their electron shells. But if an atom gains an electron, it will no longer be neutral because the negative charge from the additional electron will change the atom into an anion (a negatively charged atom).</p>"
+    },
+    {
+      "questionId": "q603",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following places each type of chemical bond in ascending order from weakest to strongest?</p>",
+      "options": {
+        "A": "hydrogen bonds, ionic bonds, London dispersion bonds, dipole-dipole bonds",
+        "B": "dipole-dipole bonds, hydrogen bonds, ionic bonds, London dispersion bonds",
+        "C": "London dispersion bonds, dipole-dipole bonds, hydrogen bonds, ionic bonds",
+        "D": "ionic bonds, London dispersion bonds, dipole-dipole bonds, hydrogen bonds"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>London dispersion bonds are the weakest of the intermolecular bonds (bonds between different molecules), followed by dipole-dipole interactions and then hydrogen bonds. Ionic bonds are a type of intramolecular bond (a bond between the atoms of a single molecule), which is stronger than intermolecular bonds. Thus, ascending order: London dispersion, dipole-dipole, hydrogen bonds, ionic bonds.</p>"
+    },
+    {
+      "questionId": "q604",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following is NOT a unit of weight or mass?</p>",
+      "options": {
+        "A": "ton",
+        "B": "gram",
+        "C": "kilowatt",
+        "D": "ounce"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The kilowatt is a unit of power (energy per unit time), not weight or mass. Ton, gram, and ounce are all units of mass or weight. Therefore, Choice (C) is correct.</p>"
+    }
+  ]
+}

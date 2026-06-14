@@ -1,0 +1,524 @@
+{
+  "passages": [
+    
+    {
+      "passageId": "pendulum-figure",
+      "passageHtml": "<p>The conservation of energy states that the mechanical energy of an isolated system is always conserved. Energy cannot be created or destroyed; it can only be converted from one form to another. When a pendulum bob is released from its highest point, it swings down through the lowest position before swinging back up to the same height on the other side, as shown in the following diagram.</p><img src=\"/3-i-ged/s/image6.png\" alt=\"Diagram of a swinging pendulum\" />"
+    },
+    {
+      "passageId": "periodic-table-figure",
+      "passageHtml": "<p>The periodic table organizes elements based on their atomic structure. The periodic table has rows (called periods) and columns (called groups). The group tells you how many valence electrons the element possesses, whereas the period tells you how many energy levels the atom has. Here is a simplified periodic table showing the first three periods of the Group A elements:</p><img src=\"/3-i-ged/s/image7.png\" alt=\"Simplified periodic table first three periods\" />"
+    },
+    {
+      "passageId": "toy-car-chart",
+      "passageHtml": "<p>A student is testing out Newton's laws of motion by applying different forces for 3 seconds to different-colored toy cars of the same mass (2 kg each). The cars start at rest. She records the data for the toy cars in the following chart.</p>\\(\\begin{array}{c|c|c} \\hline \\text{Car Color} & \\text{Car Acceleration (m/s²)} & \\text{Final Velocity (m/s)} \\\\ \\hline \\text{Red} & 4.0 & 12 \\\\ \\hline \\text{Orange} & 2.0 & 6 \\\\ \\hline \\text{Green} & 0.00 & 0 \\\\ \\hline \\text{Blue} & 3.0 & 9 \\\\ \\hline \\end{array}\\)"
+    },
+    {
+      "passageId": "rock-cycle-diagram",
+      "passageHtml": "<p>The rock cycle describes the processes by which the Earth recycles rocks by transforming them from one type to another. The rock cycle is shown in the following diagram.</p><img src=\"/3-i-ged/s/image8.png\" alt=\"Diagram of the rock cycle\" />"
+    },
+    {
+      "passageId": "em-spectrum-diagram",
+      "passageHtml": "<p>The electromagnetic spectrum consists of a continuous range of different types of electromagnetic waves. The electromagnetic spectrum is shown in the following diagram.</p><img src=\"/3-i-ged/s/image9.png\" alt=\"Diagram of the electromagnetic spectrum\" />"
+    },
+    {
+      "passageId": "food-web-diagram",
+      "passageHtml": "<p>Food chains are used to represent the flow of energy in an ecosystem. An expanded food chain is called a food web. The arrows in a food chain or food web go in the direction of the energy flow, or rather, to the organism that is doing the eating. An example of a food web is shown here.</p><img src=\"/3-i-ged/s/image10.png\" alt=\"Example of a food web diagram\" />"
+    },
+    {
+      "passageId": "light-year-info",
+      "passageHtml": "<p>Some of the stars you see in the night sky are so far away from Earth that the light from them has taken millions of years to reach you. So what you are really seeing is what those stars looked like millions of years ago. You are actually seeing into the past. To help us handle these huge distances, we use a special unit of measurement called a light-year to describe them. As its name suggests, a light-year is equal to the distance that light travels in one year. Light travels at 300,000 km per second in the vacuum of space.</p>"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q537",
+      "passageId": "carbon-cycle-figure",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following processes releases carbon dioxide to the atmosphere?</p>",
+      "options": {
+        "A": "photosynthesis",
+        "B": "the formation of fossils and fossil fuels",
+        "C": "respiration by plants and animals",
+        "D": "burying waste matter in landfills"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>From the diagram, you can see that both plant respiration and animal respiration release carbon dioxide into the atmosphere, so Choice (C) is correct. Choice (A) is wrong because photosynthesis actually removes carbon dioxide from the air and converts it into glucose. The formation of fossils and fossil fuels helps to trap carbon below Earth's surface, so Choice (B) is incorrect. Burying waste in landfills traps the carbon beneath Earth's surface, so Choice (D) is wrong.</p>"
+    },
+    {
+      "questionId": "q538",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Fill in the blanks to correctly complete the sentence: The normal number of chromosomes in a human body cell is __________. When the sex cells (sperm and egg) are created during __________, the haploid number of chromosomes, __________, results.</p>",
+      "options": {
+        "A": "23, mitosis, 46",
+        "B": "46, meiosis, 23",
+        "C": "46, mitosis, 23",
+        "D": "23, meiosis, 46"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The normal number of chromosomes in a human body cell is 46. When the sex cells (sperm and egg) are created during meiosis, the haploid number of chromosomes, 23, results. All regular cells divide in the process called mitosis, but only sex cells are produced by the process called meiosis. Parent cells have 46 chromosomes, but the sex cells contain only half of that, or 23 chromosomes.</p>"
+    },
+    {
+      "questionId": "q539",
+      "passageId": "pendulum-figure",
+      "passageHighlight": "",
+      "questionHtml": "<p>What type of energy does the bob have when it swings to its highest point?</p>",
+      "options": {
+        "A": "kinetic energy",
+        "B": "potential energy",
+        "C": "thermal energy",
+        "D": "chemical energy"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The higher the pendulum, the more potential energy it has. When the pendulum bob is at the top of its swing, it has maximum potential energy, whereas when the pendulum bob is at its lowest point, it has maximum kinetic energy.</p>"
+    },
+    {
+      "questionId": "q540",
+      "passageId": "pendulum-figure",
+      "passageHighlight": "",
+      "questionHtml": "<p>If the mass of the bob is 4 kg and the maximum height it reaches is 1.8 m, what is the speed of the bob as it swings through the lowest position? (Use \\(g = 10\\text{ m/s}^2\\) and assume no energy losses.)</p>",
+      "options": {
+        "A": "1 m/s",
+        "B": "3 m/s",
+        "C": "5 m/s",
+        "D": "6 m/s"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The formula for potential energy is \\(PE = mgh\\), where \\(m\\) is the mass, \\(g\\) is the acceleration due to gravity (approximately \\(9.8\\text{ m/s}^2\\), which you can round to \\(10\\text{ m/s}^2\\)). The formula for kinetic energy is \\(KE = \\frac{1}{2} mv^2\\), where \\(m\\) is the mass and \\(v\\) is the velocity. According to the law of conservation of energy, the loss in potential energy equals the gain in kinetic energy; therefore, you can set these equations equal to each other and solve for \\(v\\): \\(mgh = \\frac{1}{2} mv^2\\). Cancel \\(m\\): \\(gh = \\frac{1}{2} v^2\\). So \\(v = \\sqrt{2gh} = \\sqrt{2 \\times 10 \\times 1.8} = \\sqrt{36} = 6\\text{ m/s}\\). Hence, Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q541",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Select the chemical equation that is correctly balanced.</p>",
+      "options": {
+        "A": "\\(\\mathrm{Mg + Cl_2 \\rightarrow 2MgCl}\\)",
+        "B": "\\(\\mathrm{CH_4 + O_2 \\rightarrow H_2O + CO_2}\\)",
+        "C": "\\(\\mathrm{2Al + 3Cl_2 \\rightarrow 2AlCl_3}\\)",
+        "D": "\\(\\mathrm{2Na + O \\rightarrow Na_2O}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The conservation of mass tells you that the number of atoms of each element must remain the same on both sides of the equation. Choice (C) is the correct answer because it has two aluminum atoms and six chlorine atoms before and after the reaction. Choices (A), (B), and (D) do not follow this rule, so they're incorrect.</p>"
+    },
+    {
+      "questionId": "q542",
+      "passageId": "periodic-table-figure",
+      "passageHighlight": "",
+      "questionHtml": "<p>How many valence electrons does a carbon atom (symbol C) have?</p>",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "12",
+        "D": "18"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The number of valence electrons is given by the group number. Carbon is in Group 4 and therefore has four valence electrons.</p>"
+    },
+    {
+      "questionId": "q543",
+      "passageId": "periodic-table-figure",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following elements is the least chemically reactive?</p>",
+      "options": {
+        "A": "fluorine, based on its seven valence electrons",
+        "B": "neon, based on its Group 8 status",
+        "C": "lithium, based on its one valence electron",
+        "D": "sulfur, based on its six valence electrons"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>When an element reacts, it tries to gain a full number of valence electrons in its outer shell. Group 8 elements already have full outer shells and are therefore very unreactive.</p>"
+    },
+    {
+      "questionId": "q544",
+      "passageId": "periodic-table-figure",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following statements about sodium (symbol Na) is NOT true?</p>",
+      "options": {
+        "A": "Sodium has 11 electrons.",
+        "B": "Sodium has 23 neutrons.",
+        "C": "Sodium has 3 electron shells.",
+        "D": "Sodium's first energy shell can hold a maximum of 2 electrons."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Choices (A), (C), and (D) are all true statements and therefore can be rejected. Sodium has an atomic number of 11, so it has 11 protons and 11 electrons. Sodium is in the third row (Period 3), so it has three electron shells. The first shell can hold a maximum of two electrons. Sodium has a mass number of 23, which equals the sum of the number of protons (11) and the number of neutrons (12); therefore, Choice (B) is not a true statement, making it the correct answer.</p>"
+    },
+    {
+      "questionId": "q545",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following statements is true?</p>",
+      "options": {
+        "A": "Hydrogen bonds to itself, forming hydrogen bonds.",
+        "B": "Carbon reacts with hydrogen by sharing valence electrons to form covalent bonds.",
+        "C": "Potassium reacts with chlorine by sharing valence electrons to form a covalent bond.",
+        "D": "Magnesium reacts with argon to form ionic bonds."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Carbon reacts with hydrogen by sharing valence electrons to form covalent bonds, so Choice (B) is a true statement and the correct answer. Hydrogen bonds occur only between molecules, not within a molecule itself. Within the molecule, hydrogen atoms join together via covalent bonds, not hydrogen bonds, making Choice (A) a false statement. Potassium reacts with chlorine, but because potassium is a metal, it forms ionic bonds (not covalent bonds), making Choice (C) false. Magnesium won't react with argon because argon is in Group 8 and therefore already has a full outer shell (making it unreactive), so you can reject Choice (D).</p>"
+    },
+    {
+      "questionId": "q546",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following statements is FALSE?</p>",
+      "options": {
+        "A": "Mercury is the closest planet to the sun.",
+        "B": "Saturn is a giant gas planet.",
+        "C": "Pluto is no longer considered to be a proper planet.",
+        "D": "Jupiter is about half the size of the sun."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Mercury is the closest planet to the sun, making Choice (A) a true statement. Saturn is a giant gas planet, so Choice (B) is true. Pluto is no longer considered to be a proper planet, so Choice (C) is also a true statement. The sun is much bigger than any of the planets (more than a million Earths could fit inside the sun!), so Choice (D) is a false statement.</p>"
+    },
+    {
+      "questionId": "q547",
+      "passageId": "toy-car-chart",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the value of the unbalanced force acting on the green car?</p>",
+      "options": {
+        "A": "0 N",
+        "B": "4 N",
+        "C": "6 N",
+        "D": "10 N"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>You can calculate the unbalanced force acting on each car by multiplying the mass by the acceleration (using \\(F = ma\\)). The green car has zero acceleration; therefore, the value of the unbalanced forces acting on it must be zero. The correct answer is Choice (A).</p>"
+    },
+    {
+      "questionId": "q548",
+      "passageId": "toy-car-chart",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which car has the greatest unbalanced force acting on it?</p>",
+      "options": {
+        "A": "red",
+        "B": "orange",
+        "C": "green",
+        "D": "blue"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>You can calculate the unbalanced force acting on each car by multiplying the mass by the acceleration (using \\(F = ma\\)). Because all the cars have the same mass, the car with the largest acceleration must have been subjected to the largest unbalanced force, making Choice (A) the correct answer.</p>"
+    },
+    {
+      "questionId": "q549",
+      "passageId": "toy-car-chart",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following statements is true?</p>",
+      "options": {
+        "A": "All the cars have the same final momentum, but the green car has the smallest inertia.",
+        "B": "All the cars have the same final momentum, but the red car has the smallest inertia.",
+        "C": "All the cars have the same inertia, but the green car has the smallest final momentum.",
+        "D": "All the cars have the same inertia, but the red car has the smallest final momentum."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The inertia of an object tells you how easy or difficult it is to change the object's state of motion. Linear inertia depends only upon the mass of the object. Because each car has the same mass, they all have the same inertia. The momentum of an object is given by the mass multiplied by the velocity \\((p = mv)\\). The green car has a final velocity of zero, which means it has zero momentum.</p>"
+    },
+    {
+      "questionId": "q550",
+      "passageId": "toy-car-chart",
+      "passageHighlight": "",
+      "questionHtml": "<p>At the end of the 3-second period, the red car collides with the green car, causing the red car to stop suddenly. What speed does the green car move off at?</p>",
+      "options": {
+        "A": "2 m/s",
+        "B": "8 m/s",
+        "C": "12 m/s",
+        "D": "24 m/s"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The conservation of momentum states that the total momentum before the collision is equal to the total momentum after the collision. In this case, before the collision, the red car has a momentum of \\(24 \\text{ kg} \\cdot \\text{m/s}\\) (\\(p = mv\\), where \\(p\\) is momentum, \\(m\\) is mass, and \\(v\\) is velocity), whereas the green car has zero momentum. After the collision, the red car has transferred all its momentum to the green car, so the green car now has a momentum of \\(24 \\text{ kg} \\cdot \\text{m/s}\\). Because the green car has a mass of 2 kg, that means its velocity must be \\(12 \\text{ m/s}\\) (\\(p = mv\\)), making Choice (C) the right answer.</p>"
+    },
+    {
+      "questionId": "q551",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The year can be split into four seasons (spring, summer, autumn, and winter), which are marked by particular weather patterns and daylight hours. What is the main factor that causes the change in the seasons?</p>",
+      "options": {
+        "A": "the distance of the Earth from the sun",
+        "B": "global warming",
+        "C": "the tilt of the Earth's axis of rotation",
+        "D": "movement of tectonic plates"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Many people mistakenly believe that the distance of the Earth from the sun, Choice (A), is the main factor in seasonal changes, but this is actually not as important as the tilt of the Earth, Choice (C). The Earth's tilt is responsible for the sun shining more on one hemisphere in summer and then shining more on the other hemisphere in winter, which results in the seasonal changes in temperature. Hence, Choice (C) is correct. Global warming can make each season hotter than before, but it doesn't cause the seasons to change from one to another, so Choice (B) is wrong. The movement of tectonic plates causes changes to the surface of the Earth but doesn't cause the change in seasons, so you can eliminate Choice (D).</p>"
+    },
+    {
+      "questionId": "q552",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>According to the best scientific estimates, approximately how old is the Earth?</p>",
+      "options": {
+        "A": "6,000 years old",
+        "B": "5 million years old",
+        "C": "5 billion years old",
+        "D": "15 billion years old"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>There's a lot of evidence that supports the theory that the Big Bang created the universe approximately 15 billion years ago. The Earth was created about 10 billion years after the Big Bang, making it about 5 billion years old, so Choice (C) is the correct answer. Choice (A) is the estimate given by some religious leaders, but you can reject this because the question asks for a scientific estimate. Also, the 6,000-year-old estimate makes little sense considering the evidence from fossils and carbon dating, which suggest the Earth is billions of years old, not thousands of years old. Choice (B) mistakes millions for billions and can therefore be rejected. Choice (D) is the estimate for the age of the universe, not the age of the Earth.</p>"
+    },
+    {
+      "questionId": "q553",
+      "passageId": "rock-cycle-diagram",
+      "passageHighlight": "",
+      "questionHtml": "<p>Fossils are produced when a plant or animal dies and its remains become buried in mud, silt, or sand, which then gets compacted and compressed into rock. Which of the following types of rock is most likely to contain fossils?</p>",
+      "options": {
+        "A": "sedimentary rock",
+        "B": "igneous rock",
+        "C": "metamorphic rock",
+        "D": "magma"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Fossils are produced when a plant or animal dies and its remains become buried in mud, silt, or sand, which forms sedimentary rock as the former plant or animal becomes compacted, making Choice (A) correct.</p>"
+    },
+    {
+      "questionId": "q554",
+      "passageId": "rock-cycle-diagram",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following statements does this figure support?</p>",
+      "options": {
+        "A": "Magma forms directly from all three types of rocks.",
+        "B": "Sediment forms only from the weathering and erosion of sedimentary rocks.",
+        "C": "Each type of rock is continuously transformed into the other types."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The rock cycle describes the processes by which the Earth recycles rocks by transforming them from one type to another, making Choice (C) the correct answer.</p>"
+    },
+    {
+      "questionId": "q555",
+      "passageId": "rock-cycle-diagram",
+      "passageHighlight": "",
+      "questionHtml": "<p>Select the correct words from the given options to fill in the blanks: Magma is molten rock beneath the Earth's surface. Magma is sometimes expelled via a __________ up to the surface, where it is known as __________.</p>",
+      "options": {
+        "A": "tidal wave, sediment",
+        "B": "flash flood, coal",
+        "C": "volcano, lava",
+        "D": "volcano, sediment"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Magma is molten rock beneath the Earth's surface. Magma is sometimes expelled via a volcano up to the surface, where it is known as lava.</p>"
+    },
+    {
+      "questionId": "q556",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Why is there a greater level of genetic diversity for species that reproduce sexually compared to those that reproduce asexually?</p>",
+      "options": {
+        "A": "The offspring of parents that reproduce sexually inherit only the traits from the dominant parent.",
+        "B": "The offspring of parents that reproduce sexually inherit brand-new traits entirely unlike those of either parent.",
+        "C": "Organisms that reproduce sexually tend to produce more offspring than those that reproduce asexually.",
+        "D": "The offspring of parents that reproduce sexually inherit a mix of traits from both parents."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The offspring of parents that reproduce sexually inherit a mix of traits from both parents. This leads to a greater level of genetic diversity for the species because the genes of the offspring aren't identical to either of the parents'; hence, Choice (D) is correct. In contrast, the offspring from asexual reproduction inherit genes that are identical to their parent's. This does not lead to increased genetic diversity. Choice (A) is false because the offspring of parents that reproduce sexually inherit traits from both parents. You can eliminate Choice (C) because the number of offspring doesn't have anything to do with their genetic diversity. You can reject Choice (B) because the offspring of parents that reproduce sexually do not inherit brand-new traits entirely unlike those of either parent (the offspring inherit a mix of traits).</p>"
+    },
+    {
+      "questionId": "q557",
+      "passageId": "em-spectrum-diagram",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following statements is supported by the diagram of the electromagnetic spectrum?</p>",
+      "options": {
+        "A": "Microwaves can be used to cook food.",
+        "B": "The human eye can see only a small fraction of the electromagnetic spectrum.",
+        "C": "X-rays have longer wavelengths than visible light.",
+        "D": "Some insects, such as butterflies, can see ultraviolet light."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Although Choices (A) and (D) are true statements, there's no support for these statements in the diagram. X-rays have shorter wavelengths than visible light, so Choice (C) is not true. Humans are able to see only the electromagnetic waves that are in the visible light region, which is only a small fraction of the overall spectrum, so Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q558",
+      "passageId": "em-spectrum-diagram",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following colors in the visible part of the spectrum has the lowest energy?</p>",
+      "options": {
+        "A": "red light",
+        "B": "green light",
+        "C": "purple light",
+        "D": "blue light"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>According to the diagram, the energy of the waves decreases as you go from left to right. Out of the answer choices given, red light is the farthest to the right, making it the lowest energy wave of the four. Hence, Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q559",
+      "passageId": "em-spectrum-diagram",
+      "passageHighlight": "",
+      "questionHtml": "<p>Select the correct words from the given options to fill in the blanks: Gamma rays have __________ wavelengths and __________ frequencies, whereas radio waves have __________ wavelengths and __________ frequencies.</p>",
+      "options": {
+        "A": "long, high, short, low",
+        "B": "short, high, long, low",
+        "C": "long, low, short, high",
+        "D": "short, low, long, high"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Gamma rays have short wavelengths and high frequencies, whereas radio waves have long wavelengths and low frequencies.</p>"
+    },
+    {
+      "questionId": "q560",
+      "passageId": "em-spectrum-diagram",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following best explains why we use radio waves for our communications applications?</p>",
+      "options": {
+        "A": "Radio waves have short wavelengths and are low-energy waves.",
+        "B": "Radio waves have short wavelengths and are high-energy waves.",
+        "C": "Radio waves have long wavelengths and are low-energy waves.",
+        "D": "Radio waves have long wavelengths and are high-energy waves."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Electromagnetic waves all travel at the same speed, but they differ in their wavelengths. According to the diagram, radio waves have long wavelengths, so you can eliminate Choices (A) and (B). A short wavelength makes for a high-energy wave, and this makes them more dangerous because they can penetrate the human body and cause damage to the cells. If a wave of the electromagnetic spectrum has a long wavelength, it's unlikely to have high energy, so that makes Choice (D) incorrect and Choice (C) correct.</p>"
+    },
+    {
+      "questionId": "q561",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following systems includes the surface of the Earth?</p>",
+      "options": {
+        "A": "lithosphere",
+        "B": "biosphere",
+        "C": "hydrosphere",
+        "D": "atmosphere"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The lithosphere includes the upper part of the mantle and the tectonic plates that make up the surface of the Earth, so Choice (A) is correct. The biosphere contains all life forms on Earth; the hydrosphere includes all the water vapor, water, and ice present on the Earth (including the oceans, rivers, and polar ice caps); and the atmosphere is the layer of gas surrounding the planet. None of these include the surface of the Earth itself, making Choices (B), (C), and (D) incorrect.</p>"
+    },
+    {
+      "questionId": "q562",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which two events listed are highly predictable?</p>",
+      "options": {
+        "A": "lunar eclipses",
+        "B": "hurricanes",
+        "C": "earthquakes",
+        "D": "the appearance of Haley's comet"
+      },
+      "correctOption": "A,D",
+      "explanationHtml": "<p>The moon and the planets and Haley's comet have cyclic orbits (orbits that repeat themselves), making their motion predictable, so lunar eclipses and the appearance of Haley's comet can be predicted with great accuracy. The other two choices represent events that are unpredictable because they don't take place at regular intervals.</p>"
+    },
+    {
+      "questionId": "q563",
+      "passageId": "food-web-diagram",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following is a true statement?</p>",
+      "options": {
+        "A": "The dragonflies are producers, the phytoplankton are primary consumers, and the snakes are tertiary consumers.",
+        "B": "The phytoplankton are producers, the dragonflies are primary consumers, and the snakes are tertiary consumers.",
+        "C": "The phytoplankton are producers, the snakes are primary consumers, and the dragonflies are tertiary consumers.",
+        "D": "The snakes are producers, the dragonflies are primary consumers, and the phytoplankton are tertiary consumers."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Phytoplankton are microscopic plants; they're producers because they produce their own food. Dragonflies eat the plants and are therefore primary consumers. Snakes are higher in the food chain and eat several other consumers, making them tertiary consumers.</p>"
+    },
+    {
+      "questionId": "q564",
+      "passageId": "food-web-diagram",
+      "passageHighlight": "",
+      "questionHtml": "<p>If a virus were to suddenly wipe out most of the frog population, which species in the food web would increase in number?</p>",
+      "options": {
+        "A": "snakes",
+        "B": "mayflies and dragonflies",
+        "C": "humans and fish",
+        "D": "hawks"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>If a virus were to suddenly wipe out most of the frog population, more mayflies and dragonflies would survive because fewer frogs would be around to eat them, making Choice (B) correct. Snakes eat frogs, so the number of these animals would decline because one of their sources of food (the frogs) would be less abundant.</p>"
+    },
+    {
+      "questionId": "q565",
+      "passageId": "food-web-diagram",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following statements regarding a food web is NOT true?</p>",
+      "options": {
+        "A": "When an organism is eaten, most of the energy stored in its body is transferred to the biomass (flesh) of the consumer.",
+        "B": "Primary consumers are herbivores.",
+        "C": "Animals are heterotrophs.",
+        "D": "Plants are autotrophs."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Only about 10 percent of the energy stored in an organism's body is transferred to the biomass (flesh) of the consumer. The rest is used for the metabolism of the consumer, making Choice (A) a false statement and therefore the correct answer. Primary consumers eat plants and are therefore classified as herbivores, so you can reject Choice (B). Animals can't make their own food and must consume the energy stored in plants or other animals, so they're heterotrophs. Hence, you can reject Choice (C). Plants produce their own food and are therefore autotrophs (producers), making Choice (D) a true statement and therefore not the right answer.</p>"
+    },
+    {
+      "questionId": "q566",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The maximum number of individuals of a particular species that the ecosystem can handle is known as</p>",
+      "options": {
+        "A": "predation",
+        "B": "natural selection",
+        "C": "the carrying capacity",
+        "D": "biodiversity"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The maximum number of individuals of a particular species that the ecosystem can handle is known as the carrying capacity, so Choice (C) is correct. Predation refers to the relationship between hunters and prey, so Choice (A) is incorrect. Natural selection is the way in which species adapt and evolve in order to survive and pass on their genes to the next generation, which produces greater biodiversity (variations of organisms), but this doesn't answer the question, so you can reject Choices (B) and (D).</p>"
+    },
+    {
+      "questionId": "q567",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following did not play a significant part in Charles Darwin's theories of evolution?</p>",
+      "options": {
+        "A": "survival of the fittest",
+        "B": "natural selection",
+        "C": "DNA",
+        "D": "adaptation"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Although all the answer choices are useful in explaining evolution, DNA had not been discovered in Darwin's time, so it couldn't have been part of his explanation, making Choice (C) the correct answer.</p>"
+    },
+    {
+      "questionId": "q568",
+      "passageId": "light-year-info",
+      "passageHighlight": "",
+      "questionHtml": "<p>Sirius is the name of a star that is approximately 86 trillion kilometers (8.6 light-years) away from the Earth. How long does the light from Sirius take to reach the Earth?</p>",
+      "options": {
+        "A": "86 trillion seconds",
+        "B": "300,000 seconds",
+        "C": "8.6 seconds",
+        "D": "8.6 years"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Because Sirius is 8.6 light-years away from Earth, the light from the star takes 8.6 years to reach the Earth.</p>"
+    },
+    {
+      "questionId": "q569",
+      "passageId": "light-year-info",
+      "passageHighlight": "",
+      "questionHtml": "<p>What can you deduce about a star if the light from it has been blue-shifted?</p>",
+      "options": {
+        "A": "The star is cooler than most other stars.",
+        "B": "The light from the star is traveling faster than light normally travels.",
+        "C": "The star is moving away from Earth.",
+        "D": "The star is moving toward Earth."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>According to the Doppler effect, the frequency of the light emitted from moving objects will shift toward either the red end of the spectrum or the blue end (depending on the direction of motion). Objects that are moving away from Earth are red-shifted. Objects that are traveling toward Earth are blue-shifted, making Choice (D) the correct answer.</p>"
+    },
+    {
+      "questionId": "q570",
+      "passageId": "light-year-info",
+      "passageHighlight": "",
+      "questionHtml": "<p>All the following statements provide evidence supporting the Big Bang theory EXCEPT</p>",
+      "options": {
+        "A": "the discovery of cosmic microwave background radiation.",
+        "B": "the Doppler effect showing that starlight is red-shifted.",
+        "C": "spectral analysis of starlight showing a relative abundance of hydrogen and helium.",
+        "D": "sound waves left over from the Big Bang."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Choices (A), (B), and (C) all provide evidence supporting the Big Bang theory and can therefore be rejected. The discovery of cosmic microwave background radiation is predicted by the Big Bang theory, so Choice (A) is true. The Doppler effect showing that starlight is red-shifted supports the idea that the galaxies have all been moving away from each other since the Big Bang occurred, so Choice (B) is true. Spectral analysis of starlight showing a relative abundance of hydrogen and helium supports the Big Bang theory, which predicts that the first elements to be created would be the lightest ones (hydrogen and helium). This makes Choice (C) a true statement. Sound waves can't travel through the vacuum of space, so Choice (D) is a false statement and therefore the correct answer.</p>"
+    },
+    {
+      "questionId": "q571",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Select the correct order from smallest to largest.</p>",
+      "options": {
+        "A": "universe, galaxy, solar system, star",
+        "B": "solar system, star, galaxy, universe",
+        "C": "star, solar system, galaxy, universe",
+        "D": "star, galaxy, universe, solar system"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>A solar system consists of at least one star and the planets that orbit it, so stars are smaller than solar systems. This makes Choices (A) and (B) incorrect. A galaxy contains millions of stars and is therefore bigger than a solar system. The universe contains all the galaxies (and everything else), so the universe is the largest and must come last in the list, making Choice (C) correct.</p>"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "passages": [
     {
       "passageId": "temperature-record-increase-725-727",
-      "passageHtml": "<p>The record high temperatures were recorded for four major Australian cities this year. This chart compares these temperatures to the previous record high temperatures in each city.</p><img src=\"/3-i-ged/s/image23.png\" alt=\"Bar chart comparing record temperatures in Adelaide, Sydney, Melbourne, and Perth\" />"
+      "passageHtml": "<p>The record high temperatures were recorded for four major Australian cities this year. This chart compares these temperatures to the previous record high temperatures in each city.</p><img src=\"temperature_chart.png\" alt=\"Bar chart comparing record temperatures in Adelaide, Sydney, Melbourne, and Perth\" />"
     },
     {
       "passageId": "newtons-law-gravitation-728-730",

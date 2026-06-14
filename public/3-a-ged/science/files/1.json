@@ -1,0 +1,500 @@
+{
+  "passages": [
+    {
+      "passageId": "figure-506and507",
+      "passageHtml": "<p></p><img src=\"/3-i-ged/s/image1.png\" alt=\"Diagram showing forces on a plane: lift, weight, thrust, drag\" />"
+    },
+    {
+      "passageId": "punnett-square",
+      "passageHtml": "<p>A gardener is interested in growing pea plants of a particular height. He draws a Punnett square to display all the possible combinations of alleles when two hybrid pea plants are crossed to help him determine the possible genotypes of the offspring. \\(T\\) represents the dominant allele for tall plants, and \\(t\\) represents the recessive allele for short plants. The genotype of one parent plant is shown on the top of the square, and the other parent's genotype is shown on the left of the square. The genotypes of the offspring are shown in the boxes. The Punnett square is shown here:</p><img src=\"/3-i-ged/s/image2.png\" alt=\"Punnett square for Tt x Tt\" />"
+    },
+    {
+      "passageId": "photosynthesis-equation",
+      "passageHtml": "<p>Plants produce their own food by using the energy from the sun as shown in the following equation:</p>\\(\\mathrm{sunlight} + 6\\mathrm{CO}_{2} + 6\\mathrm{H}_{2}\\mathrm{O} \\rightarrow 6\\mathrm{O}_{2} + \\mathrm{C}_{6}\\mathrm{H}_{12}\\mathrm{O}_{6}\\)"
+    },
+    {
+      "passageId": "sun-light-info",
+      "passageHtml": "<p>Light travels at 300,000 km per second in the vacuum of space. The sun produces an enormous amount of energy. Some of that energy reaches Earth in the form of sunlight and affects Earth's systems.</p>"
+    },
+    {
+      "passageId": "pangaea-diagram",
+      "passageHtml": "<p>Scientists believe that Earth's continents were once joined together into a single landmass called Pangaea. This supercontinent began to break up 175 million years ago and slowly drifted apart in a process known as continental drift to form the separate continents we see today. This diagram shows what Pangaea is believed to have looked like and how the continents drifted apart to appear as they do today.</p><img src=\"/3-i-ged/s/image3.png\" alt=\"Diagram of Pangaea and continental drift\" />"
+    },
+    {
+      "passageId": "doppler-figure",
+      "passageHtml": "<p>This figure shows how the sound waves from the siren of an ambulance appear to change as the ambulance moves toward or away from a stationary observer.</p><img src=\"/3-i-ged/s/image4.png\" alt=\"Doppler effect diagram with ambulance and sound waves\" />"
+    },
+    {
+      "passageId": "carbon-cycle-figure",
+      "passageHtml": "<p>The carbon cycle describes the circulation and transformation of carbon between living things and the environment as it moves through Earth's systems. The carbon cycle is shown in the following figure.</p><img src=\"/3-i-ged/s/image5.png\" alt=\"Diagram of the carbon cycle\" />"
+    },
+    {
+      "passageId": "pendulum-figure",
+      "passageHtml": "<p>The conservation of energy states that the mechanical energy of an isolated system is always conserved. Energy cannot be created or destroyed; it can only be converted from one form to another. When a pendulum bob is released from its highest point, it swings down through the lowest position before swinging back up to the same height on the other side, as shown in the following diagram.</p><img src=\"pendulum.png\" alt=\"Diagram of a swinging pendulum\" />"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q506",
+      "passageId": "figure-506and507",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which force is responsible for keeping the plane in the air?</p>",
+      "options": {
+        "A": "drag",
+        "B": "lift",
+        "C": "weight",
+        "D": "thrust"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The lift force [Choice (B)] keeps the plane in the air and counterbalances the weight [Choice (C)] of the plane (which tries to pull the plane downward). The thrust force [Choice (D)] from the engines drives the plane forward. The drag force [Choice (A)] always opposes the direction of motion.</p>"
+    },
+    {
+      "questionId": "q507",
+      "passageId": "figure-506and507",
+      "passageHighlight": "",
+      "questionHtml": "<p>If the plane maintains a constant speed and altitude and travels in a straight line, which of the following must be true according to Newton's law of inertia?</p>",
+      "options": {
+        "A": "The plane is weightless.",
+        "B": "There are no unbalanced forces acting on the plane.",
+        "C": "The lift must be greater than the weight to keep the plane from falling to the ground.",
+        "D": "The thrust must be greater than the drag to keep the plane moving forward."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Newton's first law says that an object moving at constant velocity is not acted upon by an unbalanced force, so all the forces acting on the plane must cancel each other out, making Choice (B) the correct answer. The plane isn't weightless, because the Earth's gravitational force is still acting on the plane, making Choice (A) incorrect. If the lift were bigger than the weight, the plane would rise, but the plane is moving at a constant altitude, so Choice (C) must be wrong. If the thrust were bigger than the drag, the plane would accelerate, but the plane is moving at constant speed, so Choice (D) must be wrong.</p>"
+    },
+    {
+      "questionId": "q508",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Complete the sentence by filling in the blanks: As an object falls from a table to the floor, it loses its stored (__________) energy and gains __________ energy. When the object hits the ground, it loses its energy of motion, which is converted into __________ and __________ energy.</p>",
+      "options": {
+        "A": "potential, kinetic, sound and heat",
+        "B": "kinetic, potential, light and heat",
+        "C": "chemical, mechanical, sound and light",
+        "D": "nuclear, thermal, electrical and sound"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>As an object falls from a table to the floor, it loses its stored (potential) energy and gains kinetic energy as it begins to speed up. When the object hits the ground, it loses its energy of motion, which is converted into sound and heat energy.</p>"
+    },
+    {
+      "questionId": "q509",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which organelle is found only in plant cells and helps the plant to produce its own food via photosynthesis?</p>",
+      "options": {
+        "A": "cell wall",
+        "B": "vacuoles",
+        "C": "mitochondria",
+        "D": "chloroplasts"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Plant cells contain organelles called chloroplasts that contain the chlorophyll needed for photosynthesis. This is how plants produce their own food. Cell walls [Choice (A)] and vacuoles [Choice (B)] help support the plant but aren't involved in photosynthesis. Also, both plant and animal cells contain mitochondria, so Choice (C) is incorrect.</p>"
+    },
+    {
+      "questionId": "q510",
+      "passageId": "punnett-square",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the probability that an offspring will be tall?</p>",
+      "options": {
+        "A": "0%",
+        "B": "25%",
+        "C": "75%",
+        "D": "100%"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Because the allele for tall plants (T) is dominant, any genotype that contains it, (Tt) or (TT), will result in tall plants. The Punnett square shows that three out of four (or 75%) of the offspring have genotypes containing the dominant allele; therefore, 75% of the offspring will be tall, making Choice (C) the correct answer.</p>"
+    },
+    {
+      "questionId": "q511",
+      "passageId": "punnett-square",
+      "passageHighlight": "",
+      "questionHtml": "<p>Fill in the blanks to correctly complete the sentence: The genotype of both parent plants is _______, which means that both parents will be _______.</p>",
+      "options": {
+        "A": "homozygous, short",
+        "B": "heterozygous, tall",
+        "C": "homozygous, tall",
+        "D": "heterozygous, short"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The genotype of both parent plants is heterozygous, which means that both parents will be tall. Both parent plants have the genotype Tt, which means they are heterozygous (one allele of each type). Because they both contain a dominant T allele, which represents tall plants, both plants will be tall.</p>"
+    },
+    {
+      "questionId": "q512",
+      "passageId": "punnett-square",
+      "passageHighlight": "",
+      "questionHtml": "<p>The gardener now chooses two new parent plants, both with the genotype TT. What is the probability that one of their offspring, chosen at random, will be short?</p>",
+      "options": {
+        "A": "0%",
+        "B": "25%",
+        "C": "75%",
+        "D": "100%"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Because both parent plants are homozygous for the dominant T allele, they have only dominant T alleles to pass on to their offspring. Hence, 0 percent of the offspring will be short because none of them have the genotype tt, making Choice (A) the correct answer.</p>"
+    },
+    {
+      "questionId": "q513",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What causes a solar eclipse?</p>",
+      "options": {
+        "A": "the moon passing between the Earth and the sun",
+        "B": "the sun passing between the Earth and the moon",
+        "C": "clouds",
+        "D": "the Earth passing between the sun and the moon"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Solar eclipses occur when the moon passes between the sun and the Earth, casting the moon's shadow on the Earth's surface, making Choice A correct. Choice (B) would never happen because the sun is much farther away from the Earth than the moon is. Choice (C) is incorrect because although clouds may partially block the sun's rays (as on a cloudy day), they do not cause solar eclipses, which involve the total blockage of the sun's rays. Choice (D) would cause a lunar eclipse (not a solar eclipse) because the Earth would cast its shadow on the moon's surface.</p>"
+    },
+    {
+      "questionId": "q514",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Fill in the blanks to correctly complete the sentence: An astronaut standing on the moon weighs [more than, less than, the same as] she does on Earth but has [more, less, the same] mass than/as she has on Earth.</p>",
+      "options": {
+        "A": "more than, more",
+        "B": "less than, the same",
+        "C": "the same as, less",
+        "D": "less than, less"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>An astronaut standing on the moon weighs less than she does on Earth but has the same mass as she has on Earth. Weight is the pull of gravity on an object. Because the moon is smaller than the Earth, gravity on the moon is much smaller than it is on Earth. This makes an object weigh less on the moon than it does on Earth. Mass measures how much matter an object has. Because the amount of matter hasn't changed, the astronaut has the same mass on the moon as she had on Earth.</p>"
+    },
+    {
+      "questionId": "q515",
+      "passageId": "photosynthesis-equation",
+      "passageHighlight": "",
+      "questionHtml": "<p>What biochemical process does the equation show?</p>",
+      "options": {
+        "A": "synthesis of ATP",
+        "B": "cellular respiration",
+        "C": "photoelectric effect",
+        "D": "photosynthesis"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The equation shown is photosynthesis, which requires energy from sunlight. Plants use photosynthesis to convert carbon dioxide and water into glucose and oxygen. Choices (A) and (B) are incorrect because they represent the reverse reaction, in which cells break down glucose in the presence of oxygen and convert it back into water and carbon dioxide. This produces energy and ATP. Choice (C) describes the process by which metals emit electrons when light shines on them.</p>"
+    },
+    {
+      "questionId": "q516",
+      "passageId": "photosynthesis-equation",
+      "passageHighlight": "",
+      "questionHtml": "<p>What type of chemical reaction does the equation show?</p>",
+      "options": {
+        "A": "exothermic reaction",
+        "B": "endothermic reaction",
+        "C": "nuclear fission",
+        "D": "nuclear fusion"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The equation shown is photosynthesis, which requires energy from sunlight. Because this reaction absorbs (takes in) energy, it's an endothermic reaction. Exothermic reactions, Choice (A), give out energy. Choices (C) and (D) are nuclear reactions, not chemical reactions.</p>"
+    },
+    {
+      "questionId": "q517",
+      "passageId": "photosynthesis-equation",
+      "passageHighlight": "",
+      "questionHtml": "<p>Fill in the blanks to correctly complete the sentence: Plants use the energy from __________ to convert __________ and __________ into __________ and __________.</p>",
+      "options": {
+        "A": "the sun, oxygen and glucose, carbon dioxide and water",
+        "B": "chemical reactions, carbon dioxide and water, oxygen and glucose",
+        "C": "the sun, carbon dioxide and water, oxygen and glucose",
+        "D": "the moon, water and glucose, carbon dioxide and oxygen"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Plants use the energy from the sun to convert carbon dioxide and water into oxygen and glucose.</p>"
+    },
+    {
+      "questionId": "q518",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which element is the basis of all living organisms on Earth?</p>",
+      "options": {
+        "A": "carbon dioxide",
+        "B": "oxygen",
+        "C": "water",
+        "D": "carbon"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>All life on Earth is carbon-based. Note that Choices (A) and (C) are not elements — they're compounds (more than one atom joined together).</p>"
+    },
+    {
+      "questionId": "q519",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Why is the light that the Hubble telescope detects from distant galaxies red-shifted?</p>",
+      "options": {
+        "A": "Greenhouse gases in the atmosphere filter out green light so that only red light remains.",
+        "B": "The distant galaxies are moving away from Earth.",
+        "C": "The distant galaxies are moving toward Earth.",
+        "D": "The light bounces off the surface of the red planet Mars before reaching us."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Choice (B) is correct because due to the Doppler effect, redshift occurs when an object emitting light is moving away from us. Choice (A) is incorrect because the Hubble telescope is in orbit above Earth's atmosphere. Choice (C) is incorrect because due to the Doppler effect, light from an object moving toward us would be blue-shifted, not red-shifted. Choice (D) is incorrect because the light doesn't bounce off Mars.</p>"
+    },
+    {
+      "questionId": "q520",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which type of particle is emitted in the nuclear decay reaction shown here? \\(^{222}_{86}\\mathrm{Ra} \\rightarrow ^{218}_{84}\\mathrm{Rn} + ^{4}_{2}\\mathrm{He}\\)</p>",
+      "options": {
+        "A": "alpha decay",
+        "B": "beta decay",
+        "C": "gamma decay",
+        "D": "nuclear fusion"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The question stem shows an alpha particle — a helium nucleus, \\(^4_2\\)He — being emitted in the nuclear reaction, making Choice (A) correct.</p>"
+    },
+    {
+      "questionId": "q521",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Fill in the blanks to correctly complete the sentence: The nuclei of two isotopes of an element contains the same number of __________ but a different number of __________.</p>",
+      "options": {
+        "A": "protons, neutrons",
+        "B": "neutrons, protons",
+        "C": "electrons, protons",
+        "D": "neutrons, electrons"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The nuclei of two isotopes of an element contain the same number of protons but a different number of neutrons.</p>"
+    },
+    {
+      "questionId": "q522",
+      "passageId": "sun-light-info",
+      "passageHighlight": "",
+      "questionHtml": "<p>The light from the sun takes approximately 8 minutes to reach us. Approximately how far away is the sun from the Earth?</p>",
+      "options": {
+        "A": "150 million kilometers",
+        "B": "150 billion kilometers",
+        "C": "150 trillion kilometers",
+        "D": "150 gazillion kilometers"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Convert the time taken for the light to reach the Earth into seconds by multiplying by 60: \\(8\\text{ min} \\times 60\\text{ s/min} = 480\\text{ s}\\). The distance traveled is equal to the speed multiplied by the time: \\(300,000\\text{ km/s} \\times 480\\text{ s} = 144,000,000\\text{ km}\\). This is approximately 150 million kilometers, making Choice (A) correct.</p>"
+    },
+    {
+      "questionId": "q523",
+      "passageId": "sun-light-info",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which statement best explains how the energy from the sun reaches Earth?</p>",
+      "options": {
+        "A": "The sun's energy reaches Earth via conduction because heat flows from the hot sun to the cooler Earth.",
+        "B": "The sun's energy reaches Earth via convection currents.",
+        "C": "The sun's energy reaches Earth via thermal radiation in the form of electromagnetic waves.",
+        "D": "The sun's energy reaches Earth via all of the above methods."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Thermal radiation is the only method of heat transfer that can pass through the vacuum of outer space, making Choice (C) right. Conduction can occur only when two objects are in physical contact with each other, so Choice (A) is wrong. Convection current can't occur in a vacuum, so Choice (B) is wrong. Because conduction and convection do not occur across a vacuum, Choice (D) is incorrect.</p>"
+    },
+    {
+      "questionId": "q524",
+      "passageId": "sun-light-info",
+      "passageHighlight": "",
+      "questionHtml": "<p>How does the sun produce its energy?</p>",
+      "options": {
+        "A": "The sun produces energy via nuclear fission reactions at its core.",
+        "B": "The sun produces energy via nuclear fusion reactions at its core.",
+        "C": "The sun produces energy via combustion reactions on its surface.",
+        "D": "The sun produces energy via exothermic chemical reactions on its surface."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>These reactions involve fusing smaller nuclei like hydrogen together to make larger nuclei like helium, making Choice (B) right. Nuclear fission involves splitting up larger nuclei, not fusing them together, so Choice (A) is incorrect. Combustion requires oxygen, which is not present in the sun, and chemical reactions cannot account for the immense energy output, so Choices (C) and (D) are wrong.</p>"
+    },
+    {
+      "questionId": "q525",
+      "passageId": "sun-light-info",
+      "passageHighlight": "",
+      "questionHtml": "<p>Why is it usually much colder at the North Pole and the South Pole compared to places nearer the equator?</p>",
+      "options": {
+        "A": "The snow and ice at the North Pole and South Pole cool down the air, causing the temperature to drop.",
+        "B": "There's no atmosphere at the North Pole and the South Pole, so all the heat escapes, causing the temperature to drop.",
+        "C": "The poles are farther away from the sun than most other places on Earth.",
+        "D": "The curvature of the Earth causes the sun's rays to spread out over a larger surface area at the poles compared to at the equator."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>When the sun's rays hit the Earth's surface at an angle (like at the poles), the heat energy from them is spread out over a larger area, making the temperatures cooler there. Hence, Choice (D) is the correct answer. Choices (B) and (C) are false statements. Choice (A) confuses cause with effect. The cold temperatures at the poles cause water to freeze into snow and ice; the snow and ice don't cool the air.</p>"
+    },
+    {
+      "questionId": "q526",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following statements describes the role of DNA in a cell?</p>",
+      "options": {
+        "A": "DNA is the material that the cell wall is constructed from.",
+        "B": "DNA provides the energy that fuels the cell's activities.",
+        "C": "DNA provides information to make proteins for the cell.",
+        "D": "DNA is the building block for proteins in the cell."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>DNA provides information to make proteins that the cell needs, so Choice (C) is correct. Cell walls are made from cellulose, not DNA, so Choice (A) is incorrect. DNA doesn't provide the energy for the cell's activities (ATP does), so Choice (B) is wrong. DNA isn't the building block for proteins in the cell (amino acids are), so Choice (D) is wrong.</p>"
+    },
+    {
+      "questionId": "q527",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following is a way to combat global warming?</p>",
+      "options": {
+        "A": "Ban gardeners and farmers from using greenhouses because carbon dioxide is a greenhouse gas.",
+        "B": "Use renewable energy sources such as wind or solar power.",
+        "C": "Cut down more trees in the rainforests to stop them from producing carbon dioxide during photosynthesis.",
+        "D": "Burn more fossil fuels to get rid of these carbon-containing compounds."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>One of the causes of global warming is the increased emission of carbon dioxide into the atmosphere. Renewable fuel sources such as solar or wind power don't produce carbon dioxide, so this would reduce the amount of carbon dioxide released into the atmosphere, making Choice (B) correct. Choice (A) is hilarious but incorrect. Greenhouses have nothing to do with releasing \"greenhouse gases.\" Trees actually remove carbon dioxide from the air during photosynthesis, so cutting down trees would make the problem worse, not better, so Choice (C) is wrong. Burning additional fossil fuels would increase the amount of carbon dioxide released, so Choice (D) is wrong.</p>"
+    },
+    {
+      "questionId": "q528",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The number of which subatomic particle determines the identity of an element?</p>",
+      "options": {
+        "A": "neutrons",
+        "B": "protons",
+        "C": "electrons",
+        "D": "alpha particles"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The number of protons in the nucleus defines the atomic number, which determines the element. Changing the number of neutrons gives isotopes, changing electrons gives ions, but the element remains the same.</p>"
+    },
+    {
+      "questionId": "q529",
+      "passageId": "pangaea-diagram",
+      "passageHighlight": "",
+      "questionHtml": "<p>What was the main cause of continental drift?</p>",
+      "options": {
+        "A": "Convection currents within the Earth's fluid mantle caused the tectonic plates floating on the mantle to move relative to each other and separate.",
+        "B": "Thermal expansion of the rock due to human-caused global warming.",
+        "C": "The meteorite that killed off the dinosaurs smashed into Pangaea 65 million years ago, causing it to split and drift apart.",
+        "D": "The Big Bang theory states that all matter in the universe expanded outward from the same point in space."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Continental drift is caused by convection currents within the Earth's mantle, which made the tectonic plates (that float on top of the mantle) separate. Hence, Choice (A) is right. Although human-caused global warming is a serious problem, it has only happened quite recently (within the last two centuries), whereas continental drift began 175 million years ago, making Choice (B) incorrect. The meteorite that may have killed off the dinosaurs smashed into Earth 65 million years ago, but Pangaea began drifting apart 175 million years ago, so Choice (C) is wrong. Similarly, the Big Bang happened 15 billion years ago, so Choice (D) is incorrect.</p>"
+    },
+    {
+      "questionId": "q530",
+      "passageId": "pangaea-diagram",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following statements does NOT support the Pangaea theory?</p>",
+      "options": {
+        "A": "Identical deposits of minerals have been found at corresponding locations along both the African and South American coasts.",
+        "B": "The shape of the west coast of Africa seems to fit perfectly with the shape of the east coast of South America.",
+        "C": "Paleontologists have discovered matching fossils from identical species of land animals at corresponding locations along both the African and South American coasts.",
+        "D": "The Big Bang theory states that all matter in the universe expanded outward from the same point in space."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The Big Bang theory refers to the beginning of the universe, not the breakup of Pangaea, so Choice (D) is your answer. All the other choices add support to the single supercontinent theory.</p>"
+    },
+    {
+      "questionId": "q531",
+      "passageId": "doppler-figure",
+      "passageHighlight": "",
+      "questionHtml": "<p>This figure shows an example of which phenomenon?</p>",
+      "options": {
+        "A": "the reflection of sound waves",
+        "B": "the refraction of sound waves",
+        "C": "the interference of sound waves",
+        "D": "the Doppler effect"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The Doppler effect describes how the frequency of emitted waves appears to change when there is relative motion between the source and an observer; therefore, Choice (D) is right. The waves are not reflecting (bouncing off a surface), so Choice (A) is false. The waves are not refracting (moving from one medium to another), so Choice (B) is false. The waves are not interfering with each other, so Choice (C) is false.</p>"
+    },
+    {
+      "questionId": "q532",
+      "passageId": "doppler-figure",
+      "passageHighlight": "",
+      "questionHtml": "<p>Fill in the blanks to correctly complete the sentence: As the ambulance moves away from the stationary observer, the frequency of the siren appears to __________. As the ambulance moves toward the stationary observer, the frequency of the siren appears to __________.</p>",
+      "options": {
+        "A": "increase, increase",
+        "B": "decrease, decrease",
+        "C": "increase, decrease",
+        "D": "decrease, increase"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>As the ambulance moves away from the stationary observer, the frequency of the siren appears to decrease. As the ambulance moves toward the stationary observer, the frequency of the siren appears to increase. This is the Doppler effect.</p>"
+    },
+    {
+      "questionId": "q533",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following correctly represents the hierarchy in living organisms, classified from smallest to the largest?</p>",
+      "options": {
+        "A": "cell, organelle, tissue, organ system, organ, organism",
+        "B": "cell, tissue, organ system, organ, organelle, organism",
+        "C": "organism, organ system, organ, tissue, cell, organelle",
+        "D": "organelle, cell, tissue, organ, organ system, organism"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The basic and smallest unit of life is the cell, which is made up of organelles. An organ system consists of organs, which are made of tissue (collections of specialized cells that perform a particular function). The organism is the complete plant or animal. So from smallest to largest: organelle → cell → tissue → organ → organ system → organism. Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q534",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following always stays the same when a chemical reaction takes place?</p>",
+      "options": {
+        "A": "the amount of gas",
+        "B": "the number of molecules",
+        "C": "the number of atoms",
+        "D": "the temperature"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The law of conservation of mass states that matter is always conserved. For chemical equations, this means that the number of atoms of each type of element is the same at the end of the reaction as it was before the reaction; hence, Choice (C) is correct. Choice (A) is not true because chemical reactions can produce gases. Choice (B) is tempting but incorrect. It's the number of atoms, not the number of molecules, that stays the same. Choice (D) is incorrect because exothermic reactions give off heat, causing the temperature of the surroundings to rise, and endothermic reactions take in heat, causing the temperature of the surroundings to fall.</p>"
+    },
+    {
+      "questionId": "q535",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following correctly represents the progression of life on Earth according to the fossil record, from earliest life forms to the most recent?</p>",
+      "options": {
+        "A": "fish, amphibians, birds, reptiles, mammals",
+        "B": "amphibians, fish, reptiles, mammals, birds",
+        "C": "fish, amphibians, reptiles, birds, mammals",
+        "D": "fish, reptiles, amphibians, mammals, birds"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The fossil record begins with fish, followed by amphibians. Then, as the shallow-water ecosystems that contained amphibians began to dry up, organisms had to leave the water, and reptiles evolved. Birds are believed to have evolved from reptiles, and lastly, mammals arrived on the scene. Thus, fish → amphibians → reptiles → birds → mammals. Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q536",
+      "passageId": "carbon-cycle-figure",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which recent event led to a sharp increase in the amount of carbon dioxide released into the atmosphere, contributing to global warming?</p>",
+      "options": {
+        "A": "The invention of renewable energy sources such as solar power.",
+        "B": "The recent increase in the human population, because humans breathe out carbon dioxide during respiration.",
+        "C": "Sending astronauts to the moon, which produced greenhouse gases as the rocket fuel was consumed.",
+        "D": "The Industrial Revolution, which led to a sharp increase in the rate of combustion of fossil fuels."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The Industrial Revolution caused a sharp increase in the consumption of fossil fuels (which produces carbon dioxide) and has caused a sudden increase in the amount of carbon dioxide released in the atmosphere, making Choice (D) correct. Choice (A) is wrong because using renewable fuel sources would reduce the carbon dioxide emissions, not increase them. Although human respiration does add carbon dioxide to the air, it doesn't add nearly as much as the burning of fossil fuels, and the increase in population is not as sharp a factor as the Industrial Revolution, so Choice (B) is less correct. Space travel is too small-scale to cause global warming, so Choice (C) is wrong.</p>"
+    },
+    {
+      "questionId": "q537",
+      "passageId": "carbon-cycle-figure",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following processes releases carbon dioxide to the atmosphere?</p>",
+      "options": {
+        "A": "photosynthesis",
+        "B": "the formation of fossils and fossil fuels",
+        "C": "respiration by plants and animals",
+        "D": "burying waste matter in landfills"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>From the diagram, you can see that both plant respiration and animal respiration release carbon dioxide into the atmosphere, so Choice (C) is correct. Choice (A) is wrong because photosynthesis actually removes carbon dioxide from the air and converts it into glucose. The formation of fossils and fossil fuels helps to trap carbon below Earth's surface, so Choice (B) is incorrect. Burying waste in landfills traps the carbon beneath Earth's surface, so Choice (D) is wrong.</p>"
+    },
+    {
+      "questionId": "q538",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Fill in the blanks to correctly complete the sentence: The normal number of chromosomes in a human body cell is __________. When the sex cells (sperm and egg) are created during __________, the haploid number of chromosomes, __________, results.</p>",
+      "options": {
+        "A": "23, mitosis, 46",
+        "B": "46, meiosis, 23",
+        "C": "46, mitosis, 23",
+        "D": "23, meiosis, 46"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The normal number of chromosomes in a human body cell is 46. When the sex cells (sperm and egg) are created during meiosis, the haploid number of chromosomes, 23, results. All regular cells divide in the process called mitosis, but only sex cells are produced by the process called meiosis. Parent cells have 46 chromosomes, but the sex cells contain only half of that, or 23 chromosomes.</p>"
+    }
+  ]
+}

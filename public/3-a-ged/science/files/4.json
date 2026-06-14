@@ -1,0 +1,553 @@
+{
+  "passages": [
+    {
+      "passageId": "info-605to608",
+      "passageHtml": "<p>A pharmaceutical company was testing out a new drug that was intended to lower blood pressure in diabetic patients. Two groups of volunteers were assembled. Group 1 consisted of 200 men, whereas Group 2 consisted of 200 women. All of the trial's participants were diabetics between the ages of 20 and 50 with similar lifestyles, diet, and general health. Group 2 was given the trial drug, while Group 1 was given a sugar pill as a placebo (fake pill).</p>"
+    },
+    {
+      "passageId": "info-609to611",
+      "passageHtml": "<p>High levels of dissolved carbon dioxide can increase the acidity of water and potentially harm the marine life living there. Scientists conducted an experiment to see whether increased acidity affects hearing in fish. One hundred fertilized eggs from the same parent fish were placed in three separate tanks of water. Each tank was set to a different level of carbon dioxide. The scientists then exposed the fish to the sound of a predator and recorded the positions of the fish in each tank.</p>"
+    },
+    {
+      "passageId": "info-612to615",
+      "passageHtml": "<p>Use the following equation: \\(\\mathrm{C_6H_{12}O_6 + 6O_2\\rightarrow 6CO_2 + 6H_2O + energy}\\)</p>"
+    },
+    {
+      "passageId": "info-618to620",
+      "passageHtml": "<p>White light consists of seven colors: red, orange, yellow, green, blue, indigo, and violet. When white light shines upon an object, some colors are reflected and some are absorbed. The color of the object is determined by the colors that are reflected back.</p>"
+    },
+    {
+      "passageId": "info-623to626",
+      "passageHtml": "<p>Angela steps onto an elevator on the 40th floor of a New York City skyscraper. She stands on a scale that she brought with her to measure her weight. She then presses the button for the ground floor, and the elevator begins to accelerate downward until it reaches a constant speed of \\(6\\mathrm{m/s}\\). Shortly before the elevator reaches the ground floor, it begins to decelerate; its speed is zero as it reaches the ground floor.</p>"
+    },
+    {
+      "passageId": "info-629to631",
+      "passageHtml": "<p>This graph shows an experiment in which a block of ice at -20 degrees Celsius was heated continuously until it melted and turned to water and then eventually turned into steam.</p><img src=\"/3-i-ged/s/image14.png\" alt=\"Temperature vs time graph showing plateaus at melting and boiling points\" />"
+    },
+    {
+      "passageId": "info-639to640",
+      "passageHtml": "<p>Jamel cultures some bacteria on a petri dish to study the rate of its growth. He observes the bacteria under a microscope at regular intervals and records the results in the following graph.</p><img src=\"/3-i-ged/s/image15.png\" alt=\"Bacteria population vs time graph showing initial lag, exponential growth, then stationary phase\" />"
+    }
+  ],
+  "questions": [
+    
+    {
+      "questionId": "q605",
+      "passageId": "info-605to608",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following is true about the experimental drug trial?</p>",
+      "options": {
+        "A": "Both groups were control groups.",
+        "B": "Both groups were experimental groups.",
+        "C": "Group 2 was the experimental group, and Group 1 was the control group.",
+        "D": "Group 1 was the experimental group, and Group 2 was the control group."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The control group is the one that is not exposed to the variable that is being tested (the potential new drug); therefore, Group 1 is the control group because its members received fake pills instead.</p>"
+    },
+    {
+      "questionId": "q606",
+      "passageId": "info-605to608",
+      "passageHighlight": "",
+      "questionHtml": "<p>If the results of the experiment showed no change in the blood pressure for the members of either group, what conclusion can be made?</p>",
+      "options": {
+        "A": "The drug does not lower blood pressure in either men or women.",
+        "B": "The drug does not lower blood pressure in men.",
+        "C": "The drug does not lower blood pressure in women.",
+        "D": "The drug may lower blood pressure in men."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The drug was given only to a relatively small group of women, so you can't say with any certainty that it does not reduce blood pressure in men; hence, you can reject Choices (A) and (B). Choice (C) may be tempting, but you can't be sure that the drug doesn't lower women's blood pressure, because you have the results of only a single experiment. (More experiments would need to be performed before you could say this for sure.)</p>"
+    },
+    {
+      "questionId": "q607",
+      "passageId": "info-605to608",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following could lead to an error in this experiment?</p>",
+      "options": {
+        "A": "One of the groups was not given any real medication.",
+        "B": "All of the participants had diabetes.",
+        "C": "There were too many participants in each group.",
+        "D": "The members of the experimental group and the control group were not similar enough."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Ideally, the members of both the experimental group and the control group should be as similar as possible, but in this case, Group 1 consisted entirely of men while Group 2 consisted entirely of women. A drug that works well for males may not work well for females (or vice versa), so Choice (D) is correct. You can reject Choice (A) because one of the groups has to act as the control group and therefore should not be given the drug being tested. You can reject Choice (B) because all the members should have diabetes so the pharmaceutical company can test how well the drug works. Choice (C) can be rejected because results from larger groups are more reliable than results from smaller groups.</p>"
+    },
+    {
+      "questionId": "q608",
+      "passageId": "info-605to608",
+      "passageHighlight": "",
+      "questionHtml": "<p>How could the design of the experiment be improved to eliminate this potential source of error?</p>",
+      "options": {
+        "A": "Give the members of both groups the medication.",
+        "B": "Choose only participants who do not have diabetes.",
+        "C": "Reduce the number of participants in each group to 20 each.",
+        "D": "Swap 100 of the males from Group 1 with 100 of the females from Group 2."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>A drug can work differently for males and females, so Choice (D) would eliminate the source of error by ensuring that each group has the same number of men and women.</p>"
+    },
+    {
+      "questionId": "q609",
+      "passageId": "info-609to611",
+      "passageHighlight": "",
+      "questionHtml": "<p>Scientists inferred that the fish raised in elevated carbon dioxide levels suffered from a loss of hearing. What evidence suggests this?</p>",
+      "options": {
+        "A": "High levels of dissolved carbon dioxide can increase the acidity of water and potentially harm the marine life living there.",
+        "B": "The positions of the fish in each tank were recorded throughout the experiment.",
+        "C": "One hundred fertilized eggs from the same parent fish were placed in three separate tanks of water.",
+        "D": "It was found that the fish raised in elevated carbon dioxide levels did not avoid the sound of the predators."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>One possible reason that the fish raised in the elevated carbon dioxide levels did not avoid the sounds of the predators was that their hearing had been affected by the increased acidity of the water, making Choice (D) the correct answer. You can reject Choice (A) because it's a claim rather than an inference from the experiment. Choices (B) and (C) simply give details of the experiment but do not give any findings that an inference could be based upon.</p>"
+    },
+    {
+      "questionId": "q610",
+      "passageId": "info-609to611",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following statements is the best hypothesis for this experiment?</p>",
+      "options": {
+        "A": "An increase in ocean acidity causes a decrease in predator avoidance in fish.",
+        "B": "Fish lose their hearing when greenhouse gases are dissolved in the ocean.",
+        "C": "Increasing ocean acidity impedes the transfer of sound through the water.",
+        "D": "Fish hearing improves with increasing ocean acidity."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Hypotheses are testable statements that propose a relationship between variables. Choice (A) directly addresses the experiment's goal of seeing whether increased acidity affects hearing (via predator avoidance).</p>"
+    },
+    {
+      "questionId": "q611",
+      "passageId": "info-609to611",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following is a true statement?</p>",
+      "options": {
+        "A": "The independent variable of the experiment was the temperature of the water in each tank, and the dependent variable was the hearing ability of the fish.",
+        "B": "The independent variable of the experiment was the carbon dioxide level in each tank, and the dependent variable was the position of the fish in the tank.",
+        "C": "The independent variable of the experiment was hearing ability of the fish in each tank, and the dependent variable was the position of the fish in the tank.",
+        "D": "The independent variable of the experiment was the position of the fish in the tank, and the dependent variable was the carbon dioxide level in each tank."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The independent variable (also known as the manipulated variable) is the one that is controlled and changed by the experimenter. In this case, the scientists controlled the carbon dioxide level in each tank. The dependent variable (also known as the responding variable) is the one that changes based upon changes to the independent variable. The dependent variable is the variable that is measured by the experimenters. In this case, the scientists measured the position of the fish to see how the level of the carbon dioxide in each tank affected this dependent variable.</p>"
+    },
+    {
+      "questionId": "q612",
+      "passageId": "info-612to615",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which is the name of the compound whose formula is \\(\\mathrm{C_6H_{12}O_6}\\) ?</p>",
+      "options": {
+        "A": "chlorophyll",
+        "B": "propane gas",
+        "C": "glucose",
+        "D": "cellulose"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The compound is glucose, so Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q613",
+      "passageId": "info-612to615",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which is the name of the compound whose formula is \\(\\mathrm{H_2O}\\) ?</p>",
+      "options": {
+        "A": "hydrogen peroxide",
+        "B": "water",
+        "C": "oxygen dihydride",
+        "D": "glucose"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The compound is water, so Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q614",
+      "passageId": "info-612to615",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which is the name of the compound whose formula is \\(\\mathrm{CO_2}\\) ?</p>",
+      "options": {
+        "A": "carbon",
+        "B": "carbon monoxide",
+        "C": "carbon dioxide",
+        "D": "carbonic acid"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The compound is carbon dioxide, so Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q615",
+      "passageId": "info-612to615",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which reaction is shown by the earlier equation?</p>",
+      "options": {
+        "A": "photosynthesis",
+        "B": "anaerobic respiration",
+        "C": "aerobic respiration",
+        "D": "combustion of fossil fuel"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The equation shown is aerobic respiration because oxygen is one of the reactants. Plant and animal cells use aerobic cellular respiration (when oxygen is available) to convert glucose into energy, water, and carbon dioxide, so Choice (C) is correct. You can reject Choice (A) because photosynthesis is the opposite reaction that plants use to create glucose. You can reject Choice (B) because anaerobic respiration occurs without the presence of oxygen. And you can reject Choice (D) because glucose is not a fossil fuel.</p>"
+    },
+    {
+      "questionId": "q616",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Select the chemical equation that is NOT correctly balanced.</p>",
+      "options": {
+        "A": "\\(2\\mathrm{Mg} + 2\\mathrm{Cl}_2\\rightarrow 2\\mathrm{MgCl}_2\\)",
+        "B": "\\(\\mathrm{CH}_4 + 2\\mathrm{O}_2\\rightarrow 2\\mathrm{H}_2\\mathrm{O} + \\mathrm{CO}_2\\)",
+        "C": "\\(2\\mathrm{Al} + 3\\mathrm{O}_2\\rightarrow 2\\mathrm{Al}_2\\mathrm{O}_3\\)",
+        "D": "\\(2\\mathrm{Ca} + \\mathrm{O}_2\\rightarrow 2\\mathrm{CaO}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The conservation of mass tells you that the number of atoms of each element must remain the same on both sides of the equation. Choice (C) is the correct answer because it has only 2 aluminum atoms on the left-hand side of the equation but has 4 aluminum atoms on the right-hand side of the equation. Choices (A), (B), and (D) all follow the conservation of mass.</p>"
+    },
+    {
+      "questionId": "q617",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>According to the best scientific estimates, approximately how old is the universe?</p>",
+      "options": {
+        "A": "15 thousand years old",
+        "B": "15 million years old",
+        "C": "15 billion years old",
+        "D": "15 trillion years old"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>There's a lot of evidence that supports the theory that the Big Bang created the universe approximately 15 billion years ago, so Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q618",
+      "passageId": "info-618to620",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following statements is true?</p>",
+      "options": {
+        "A": "A black shirt reflects all colors except black, which is absorbed.",
+        "B": "A black shirt absorbs all colors except black, which is reflected back.",
+        "C": "A blue shirt reflects blue light.",
+        "D": "A red shirt reflects all colors except red light, which is absorbed."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Black is not a real color (it is merely the absence of light), so you can reject Choices (A) and (B). You can also eliminate Choice (D) because a red shirt reflects red light; it doesn't absorb it.</p>"
+    },
+    {
+      "questionId": "q619",
+      "passageId": "info-618to620",
+      "passageHighlight": "",
+      "questionHtml": "<p>On a hot, sunny day, why does wearing a white shirt keep you cooler than wearing a black shirt made from the same material?</p>",
+      "options": {
+        "A": "The material of the black shirt is thicker and makes the person feel hotter.",
+        "B": "The black shirt absorbs more of the sun's energy, helping the person to feel cooler.",
+        "C": "The white shirt reflects more of the sun's energy, helping the person to stay cooler.",
+        "D": "Only \"cool\" people wear white shirts."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>You can reject Choice (A) because the question tells you that the shirts are made from the same material. Choice (B) can also be rejected because you're also told that wearing black (not white) makes you feel cooler. Choice (D) is funny but doesn't answer the question.</p>"
+    },
+    {
+      "questionId": "q620",
+      "passageId": "info-618to620",
+      "passageHighlight": "",
+      "questionHtml": "<p>Compared to red light, blue light has</p>",
+      "options": {
+        "A": "a higher frequency and a shorter wavelength and carries more energy",
+        "B": "a lower frequency and a longer wavelength and carries more energy",
+        "C": "a lower frequency and a longer wavelength and carries less energy",
+        "D": "a higher frequency and a shorter wavelength and carries less energy"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Red light has a longer wavelength than blue light, but blue light has a higher frequency and carries more energy than red light. Hence, Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q621",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which method can be used to determine whether two sisters are identical twins?</p>",
+      "options": {
+        "A": "Check to see whether their blood glucose levels are identical.",
+        "B": "Compare their physical appearances to see whether they look alike.",
+        "C": "Check their family history.",
+        "D": "Do a DNA analysis."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Choice (D) is correct because identical twins would have identical DNA. You can reject Choice (A) because blood glucose levels vary during the day (depending upon what you eat), and they don't give any indication of genetic identity. Physical appearance and family history are not definitive.</p>"
+    },
+    {
+      "questionId": "q622",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Sammy was boiling some brine (seawater) but forgot that he left the heat on. When he returned to the pan 40 minutes later, he noticed a white residue left at the bottom of the pan. Which of the following best explains the white residue?</p>",
+      "options": {
+        "A": "The metal pan rusted due to the presence of the water.",
+        "B": "The water evaporated, leaving salt behind.",
+        "C": "The water burned and left ashes behind.",
+        "D": "The pan must have been dirty before Sammy put the brine in."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Brine contains dissolved salt. When the water boils, the salt gets left behind at the bottom of the pan; the white residue is the salt, making Choice (B) the correct answer. Rust is brown, not white, and would not occur so quickly; therefore, you can reject Choice (A). Water doesn't burn, so you can also reject Choice (C). There's no evidence that the pan was dirty, so you can reject Choice (D).</p>"
+    },
+    {
+      "questionId": "q623",
+      "passageId": "info-623to626",
+      "passageHighlight": "",
+      "questionHtml": "<p>In which direction is the unbalanced force acting as the elevator begins to accelerate downward?</p>",
+      "options": {
+        "A": "downward",
+        "B": "upward",
+        "C": "toward the entrance of the elevator",
+        "D": "There is no unbalanced force."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>According to Newton's second law, the acceleration of an object (in this case, the elevator) is always in the same direction as the unbalanced force. Because the elevator is initially accelerating downward, the unbalanced force must also be acting downward, so Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q624",
+      "passageId": "info-623to626",
+      "passageHighlight": "",
+      "questionHtml": "<p>In which direction is the unbalanced force acting during the part of the trip where the elevator is traveling at \\(6\\mathrm{m/s}\\) ?</p>",
+      "options": {
+        "A": "downward",
+        "B": "upward",
+        "C": "toward the entrance of the elevator",
+        "D": "There is no unbalanced force."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Because the elevator is traveling at a constant speed, the acceleration is zero. According to Newton's second law, when the acceleration of an object (in this case, the elevator) is zero, the unbalanced force must also be zero (there is no unbalanced force); therefore, Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q625",
+      "passageId": "info-623to626",
+      "passageHighlight": "",
+      "questionHtml": "<p>As the elevator is accelerating downward, the reading of Angela's weight according to the scale will be</p>",
+      "options": {
+        "A": "equal to her actual weight.",
+        "B": "less than her actual weight.",
+        "C": "more than her actual weight.",
+        "D": "possibly more or possibly less than her actual weight."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The reading on the scale measures the mass of the object multiplied by its acceleration (mg, where \\(g\\) is the acceleration due to gravity). This usually equals the weight of the object, but when the object is accelerating downward, the reading becomes less than the real weight. (Think of the extreme case in which the cord of the elevator has snapped, the brakes are out, and you, the scale, and the elevator are in free-fall. Your feet would no longer be pressing down on the scale, so it would read zero.) Hence, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q626",
+      "passageId": "info-623to626",
+      "passageHighlight": "",
+      "questionHtml": "<p>If Angela usually weighs 750 N, what will the reading on the scale be during the part of the trip when the elevator is traveling down at \\(6\\mathrm{m/s}\\) ?</p>",
+      "options": {
+        "A": "0 N",
+        "B": "750 N",
+        "C": "800 N",
+        "D": "650 N"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Because the elevator is traveling at a constant speed, the acceleration is zero. Therefore, the reading on the scale will show Angela's correct weight, which equals 750 N (newtons).</p>"
+    },
+    {
+      "questionId": "q627",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following is an example of an organism?</p>",
+      "options": {
+        "A": "river",
+        "B": "mountain",
+        "C": "tree",
+        "D": "sunlight"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>An organism is alive. The only living thing listed in the answer choices is a tree, so Choice (C) is the correct answer.</p>"
+    },
+    {
+      "questionId": "q628",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The acceleration due to gravity on the moon is much smaller than it is on Earth. There is also no air resistance on the moon (because there is no air on the moon). If an astronaut hits a golf ball on the moon, how will the ball's path differ compared to its path if the ball had been hit here on Earth?</p>",
+      "options": {
+        "A": "the ball on the moon would travel farther and reach a greater height",
+        "B": "the ball on the Earth would travel farther and reach a greater height",
+        "C": "the ball on the moon would travel farther but would not go as high",
+        "D": "the ball on the Earth would travel farther but would not go as high"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The acceleration due to gravity on the moon is much less, so the ball will be able to reach a greater height on the moon compared to on Earth. Hence, you can reject Choices (B) and (C). Because the moon has no air resistance, the ball will be able to travel farther on the moon compared to on Earth. Hence, Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q629",
+      "passageId": "info-629to631",
+      "passageHighlight": "",
+      "questionHtml": "<p>Why did the temperature remain constant during the period marked by the letter B on the graph?</p>",
+      "options": {
+        "A": "The heat had been switched off during this time.",
+        "B": "The ice was melting and was using the heat to break the bonds between its molecules.",
+        "C": "Most of the heat was escaping to the surroundings.",
+        "D": "The water was boiling and the heat was being used to break the bonds between the water molecules."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Ice melts at \\(0^{\\circ}\\) Celsius. As it melts, all the heat is used to break the bonds that hold the ice molecules together as a solid. Once the bonds have been broken, the water molecules can move over each other; the ice has changed into water, so Choice (B) is correct. You can reject Choice (A) because you were told that the ice was heated continuously throughout the experiment. Although some of the heat may escape, most of it is being used to break the bonds as the ice melts, so Choice (C) can be rejected. Water boils at \\(100^{\\circ}\\) (not \\(0^{\\circ}\\) ) so you can reject Choice (D).</p>"
+    },
+    {
+      "questionId": "q630",
+      "passageId": "info-629to631",
+      "passageHighlight": "",
+      "questionHtml": "<p>What was happening during the period marked with the letter D on the graph?</p>",
+      "options": {
+        "A": "The ice was melting.",
+        "B": "The water was freezing, turning back into ice.",
+        "C": "The water was boiling.",
+        "D": "The steam was condensing, turning back to water."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Water boils at \\(100^{\\circ}\\) Celsius. As it boils, all the heat is used to break the bonds that hold the water molecules together as a liquid. Once the bonds have been broken, the water molecules can escape from the container; the water has changed into steam, so Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q631",
+      "passageId": "info-629to631",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which letter represents the part of the experiment in which the entire sample was in the liquid phase?</p>",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>During the period marked by letter C on the graph, the ice has already melted but is not yet hot enough to have turned into steam, so Choice (C) is correct. Choice (A) represents the part of the experiment where the entire sample was still solid ice, so Choice (A) can be rejected. Choice (B) represents the part of the experiment where the ice is melting, so Choice (B) can be rejected. Choice (D) represents the part of the experiment where the water is boiling, so Choice (D) can be rejected.</p>"
+    },
+    {
+      "questionId": "q632",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Compared to either a liquid or a solid, a typical gas has</p>",
+      "options": {
+        "A": "a higher density and contains molecules that are closer together.",
+        "B": "a higher density and contains molecules that are farther apart.",
+        "C": "a lower density and contains molecules that are farther apart.",
+        "D": "a lower density and contains molecules that are closer together."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>A gas has a lower density compared to a liquid or a solid, and gas molecules are farther apart than the molecules in either liquids or solids. Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q633",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following explains why, every fourth year, we have a leap year that has 366 days rather than the usual 365 days?</p>",
+      "options": {
+        "A": "An extra day is added so that people born on February 29 can celebrate their birthday every four years.",
+        "B": "An extra day is added to make February more interesting because February is usually the most boring month of the year.",
+        "C": "The moon takes 365.25 days to travel around Earth, so an extra day is added every four years.",
+        "D": "An extra day is added to keep the calendars accurate because the Earth actually takes 365.25 days to orbit the sun."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The Earth actually takes 365.25 days (not 365 days) to orbit the sun, so after four years, the calendars would be off by one day if we didn't add an extra day. Hence, Choice (D) is the correct answer. You can reject Choices (A) and (B) because they don't make any sense. Choice (C) can also be rejected because the moon takes about a month (not 365.25 days) to travel around the Earth.</p>"
+    },
+    {
+      "questionId": "q634",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Jim likes to make fruit jelly. He uses a pressure cooker as part of the process. If he follows the correct procedure, the jelly will be properly sterilized and will be good to eat at a later date. Why does Jim use the pressure cooker?</p>",
+      "options": {
+        "A": "to prevent unpleasant odors",
+        "B": "to kill bacteria",
+        "C": "to enhance the flavor of the jelly",
+        "D": "to preserve the color of the jelly"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>If Jim follows the correct procedure, he'll process the jar of jelly in the pressure cooker for several minutes. The high temperature will kill bacteria that would have caused the jelly to spoil, so Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q635",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the force that keeps a roller coaster moving in a circular path when the track makes a vertical circular loop?</p>",
+      "options": {
+        "A": "the force due to gravity",
+        "B": "the magnetic force of attraction between the roller coaster and the track",
+        "C": "centripetal force",
+        "D": "electrostatic force between the roller coaster and the track"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Whenever an object moves in a circular path, the force that keeps it moving in a circle is called the centripetal force, so Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q636",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following is found in the nucleus of a hydrogen atom?</p>",
+      "options": {
+        "A": "proton",
+        "B": "neutron",
+        "C": "electron",
+        "D": "positron"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Only protons and neutrons are found in the nuclei of atoms, so you can reject Choices (C) and (D). Hydrogen is the only atom that does not have a neutron in its most common isotope; its nucleus contains a single proton. Hence, Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q637",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following systems includes the plants and animals of Earth?</p>",
+      "options": {
+        "A": "lithosphere",
+        "B": "biosphere",
+        "C": "hydrosphere",
+        "D": "atmosphere"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The biosphere contains all life forms on Earth, so Choice (B) is correct. The lithosphere includes the upper part of the mantle and the tectonic plates that make up the surface of the Earth; the hydrosphere includes all the water vapor, water, and ice present on Earth (including the oceans, rivers, and polar ice caps); and the atmosphere is the layer of gas surrounding the planet. None of these include the life forms, making Choices (A), (C), and (D) incorrect.</p>"
+    },
+    {
+      "questionId": "q638",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following is a simple machine?</p>",
+      "options": {
+        "A": "airplane",
+        "B": "tiger",
+        "C": "pulley",
+        "D": "computer"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Only Choice (C) is a simple machine. A pulley is a simple machine that reduces the force needed to lift a heavy object and/or changes the direction of the force. Cars and computers are complex machines; therefore, you can reject Choices (A) and (D). A tiger is a living organism, not a simple machine, so you can also reject Choice (B).</p>"
+    },
+    {
+      "questionId": "q639",
+      "passageId": "info-639to640",
+      "passageHighlight": "",
+      "questionHtml": "<p>The bacteria population</p>",
+      "options": {
+        "A": "grew at a constant rate.",
+        "B": "started small, then increased exponentially.",
+        "C": "started at zero, then increased rapidly before it became constant.",
+        "D": "started small, then increased rapidly before it became constant."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>You can see from the graph that the bacteria population started small, then increased rapidly, and then became constant. Hence, Choice (D) is correct. You can reject Choice (A) because the curve shows that the population did not grow at a constant rate. You can reject Choice (B) because the population did not grow exponentially (it shows a lag phase then exponential then stationary). You can reject Choice (C) because the population was not zero at the beginning.</p>"
+    },
+    {
+      "questionId": "q640",
+      "passageId": "info-639to640",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is a reasonable explanation for why the bacteria population did not continue to grow exponentially?</p>",
+      "options": {
+        "A": "The population had reached the environment's carrying capacity.",
+        "B": "Predators were killing the bacteria.",
+        "C": "There were too many nutrients available on the petri dish.",
+        "D": "The bacteria's offspring had mutated into a different organism."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The carrying capacity is defined as the maximum number of organisms that an environment can support. According to the graph, the population of bacteria leveled off after a while, which suggests that the carrying capacity had been reached, making Choice (A) the correct answer. There is nothing in the question stem to suggest that predators are present in the experiment or that the offspring had mutated, so you can reject Choices (B) and (D). You can also reject Choice (C) because additional nutrients would allow even more bacteria to grow.</p>"
+    },
+    {
+      "questionId": "q641",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The following table shows the pH of several substances. Which of the substances is/are acidic?</p>\\(\\begin{array}{c|c} \\text{Substance} & \\text{pH} \\\\ \\hline \\text{water} & 7 \\\\ \\text{baking soda} & 9 \\\\ \\text{vinegar} & 3 \\\\ \\text{lime juice} & 2 \\end{array}\\)",
+      "options": {
+        "A": "water",
+        "B": "baking soda",
+        "C": "vinegar and baking soda",
+        "D": "lime juice and vinegar"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The pH scale tells you whether a substance is acidic (pH value less than 7), neutral (pH value equal to 7), or basic (pH value greater than 7). Choice (D) correctly lists the two substances whose pH values are below 7, meaning they're acidic.</p>"
+    }
+  ]
+}

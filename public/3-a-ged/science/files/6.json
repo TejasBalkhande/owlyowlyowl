@@ -1,0 +1,619 @@
+{
+  "passages": [
+    {
+      "passageId": "nitrogen-cycle-683-685",
+      "passageHtml": "<p>The nitrogen cycle describes the circulation and transformation of nitrogen between living things and the environment as it moves through Earth's different systems. The nitrogen cycle is shown in the following figure.</p><img src=\"/3-i-ged/s/image19.png\" alt=\"Diagram of the nitrogen cycle\" />"
+    },
+    {
+      "passageId": "rutherford-experiment-686-689",
+      "passageHtml": "<p>In 1911, a British scientist called Ernest Rutherford directed a series of experiments that greatly increased our understanding of atomic structure. During the experiment, his students fired positively charged alpha particles (helium nuclei, each of which contains two protons and two neutrons) at an extremely thin sheet of gold. (Gold is a very malleable metal that can be beaten into a foil that's only a few atoms thick.) Rutherford expected all the alpha particles to go through the gold foil with minimal deflection, but to his surprise, a few alpha particles bounced straight back. Rutherford concluded that atoms consisted mostly of empty space with a dense nucleus at the center and electrons orbiting the nucleus.</p>"
+    },
+    {
+      "passageId": "atmosphere-layers-695-696",
+      "passageHtml": "<p>Earth's atmosphere can be divided into several layers, including the troposphere, the stratosphere, the mesosphere and ionosphere, and the thermosphere. The temperature and altitude of each layer is listed in the following table.</p>\\(\\begin{array}{c|c|c} \\text{Layer} & \\text{Altitude} & \\text{Temperature (Degrees Fahrenheit)} \\\\ \\hline \\text{Troposphere} & 0 \\text{ to } 5 \\text{ miles} & \\text{Average 60 degrees} \\\\ \\text{Stratosphere} & 6 \\text{ to } 30 \\text{ miles} & -75 \\text{ to } 32 \\text{ degrees} \\\\ \\text{Mesosphere and ionosphere} & 31 \\text{ to } 50 \\text{ miles} & -212 \\text{ to } 32 \\text{ degrees} \\\\ \\text{Thermosphere} & 51 \\text{ to } 43 \\text{ miles} & \\text{Thousands of degrees} \\end{array}\\)"
+    },
+    {
+      "passageId": "solar-system-697-701",
+      "passageHtml": "<p>The solar system consists of the sun, eight planets and their moons, asteroids, and comets. Because the sun is much bigger than any of the planets (it contains more than 99% of the mass of the solar system!), the planets orbit the sun. The time taken for one complete revolution around the sun determines how long one year is on that planet. In addition to orbiting the sun, the planets also rotate around their own axes. The time a planet takes to complete one rotation about its axis determines the length of one day on the planet. This table shows some detail regarding the movement of the planets in the solar system.</p>\\(\\begin{array}{c|c|c|c} \\text{Planet} & \\text{Distance from Sun} & \\text{Number of Moons} & \\text{Rotation Period (Day)} & \\text{Revolution Period (Year)} \\\\ \\hline \\text{Mercury} & 36 \\text{ million miles} & 0 & 59 \\text{ Earth days} & 88 \\text{ Earth days} \\\\ \\text{Venus} & 67 \\text{ million miles} & 0 & 243 \\text{ Earth days} & 225 \\text{ Earth days} \\\\ \\text{Earth} & 93 \\text{ million miles} & 1 & 23 \\text{ hours, 56 minutes, 4.1 seconds} & 365 \\text{ days, 5 hours, 48 minutes, 46 seconds} \\\\ \\text{Mars} & 142 \\text{ million miles} & 2 & 24 \\text{ hours, 37 minutes} & 687 \\text{ Earth days} \\\\ \\text{Jupiter} & 484 \\text{ million miles} & 50 & 9 \\text{ hours, 51 minutes} & 11.86 \\text{ Earth years} \\\\ \\text{Saturn} & 0.9 \\text{ billion miles} & 53 & 10 \\text{ hours, 14 minutes} & 29.46 \\text{ Earth years} \\\\ \\text{Uranus} & 1.8 \\text{ billion miles} & 27 & 17 \\text{ hours, 12 minutes} & 84 \\text{ Earth years} \\\\ \\text{Neptune} & 2.8 \\text{ billion miles} & 13 & 16 \\text{ hours, 7 minutes} & 165 \\text{ Earth years} \\end{array}\\)"
+    },
+    {
+      "passageId": "death-causes-702-703",
+      "passageHtml": "<p>This figure shows how the two leading causes of death have changed between 1950 and 2014.</p><img src=\"/3-i-ged/s/image20.png\" alt=\"Line graph of heart disease and cancer deaths from 1950 to 2014\" />"
+    },
+    {
+      "passageId": "metabolic-rate-704-707",
+      "passageHtml": "<p>Metabolism describes the rate of the chemical reactions that take place within the body of an organism. An example of a metabolic process is breaking down food for the energy needs of the organism. The metabolic rate of each organism varies from species to species. Several animals' relative metabolic rates compared to body weight are shown in the figure:</p><img src=\"/3-i-ged/s/image21.png\" alt=\"Graph of metabolic rate versus body weight for seven animals\" />"
+    },
+    {
+      "passageId": "food-web-708-711",
+      "passageHtml": "<p>The complex pattern of how energy flows from organism to organism through an ecosystem is called a food web. Plants are called producers because they produce their own food using the energy of the sun. Other organisms that cannot produce their own food are called consumers because they rely on eating plants or other animals in order to achieve their energy requirements. The arrows in a food chain or food web go in the direction of the energy flow or, rather, to the organism that is doing the eating. An example of a food web is shown here.</p><img src=\"/3-i-ged/s/image22.png\" alt=\"Diagram of a food web with producers and consumers\" />"
+    },
+    {
+      "passageId": "blood-composition-715-718",
+      "passageHtml": "<p>Blood consists of a liquid called plasma with red and white blood cells and proteins suspended in it. Red blood cells carry oxygen from the lungs to all the cells of the body, where it is used during cellular respiration. White blood cells produce antibodies that help protect the body from infectious diseases. The plasma consists mainly of water and surrounds the blood cells. It helps maintain blood pressure and body temperature and helps transport nutrients around the body and remove waste products. The percentage of each major component of blood is shown in the table.</p>\\(\\begin{array}{c|c} \\text{Blood Component} & \\text{Percentage} \\\\ \\hline \\text{Plasma} & 55\\% \\\\ \\text{Red blood cells} & 44\\% \\\\ \\text{White blood cells} & 1\\% \\end{array}\\)"
+    },
+    {
+      "passageId": "radioactive-isotopes-719-722",
+      "passageHtml": "<p>The nuclei of radioactive elements spontaneously decay into different, more stable daughter elements by emitting radioactive particles. The amount of time needed for half of a sample of radioactive material to decay into its more stable product is called the half-life. This table shows the half-life of several radioactive materials, along with their typical uses.</p>\\(\\begin{array}{c|c|c} \\text{Radioactive Isotope} & \\text{Half-life} & \\text{Typical Uses} \\\\ \\hline \\text{Uranium-238} & 4.5 \\times 10^9 \\text{ years} & \\text{Determining the age of Earth's crust} \\\\ \\text{Carbon-14} & 5,750 \\text{ years} & \\text{Determining the age of artifacts} \\\\ \\text{Carbon-11} & 20 \\text{ minutes} & \\text{Biomedical imaging} \\\\ \\text{Americium-241} & 430 \\text{ years} & \\text{Smoke detectors} \\end{array}\\)"
+    },
+    {
+      "passageId": "temperature-chart-725-727",
+      "passageHtml": "<p>The chart shows record high temperatures for four cities in two different years.</p><img src=\"temperature_chart.png\" alt=\"Bar chart comparing record temperatures in Adelaide, Sydney, Melbourne, and Perth\" />"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q683",
+      "passageId": "nitrogen-cycle-683-685",
+      "passageHighlight": "",
+      "questionHtml": "<p>Nitrogen accounts for approximately what percent of the air in the atmosphere?</p>",
+      "options": {
+        "A": "1%",
+        "B": "21%",
+        "C": "57%",
+        "D": "78%"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The air in the atmosphere is approximately 78 percent nitrogen, 21 percent oxygen, and 1 percent water vapor, carbon dioxide, and other gases. Hence, Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q684",
+      "passageId": "nitrogen-cycle-683-685",
+      "passageHighlight": "",
+      "questionHtml": "<p>Many farmers who grow organic produce are against the use of artificial fertilizers that contain synthetic nitrogen-containing compounds. Which of the following is an alternative method that an organic farmer might use to increase the nitrogen content of the soil?</p>",
+      "options": {
+        "A": "use compost made from animal and plant waste matter",
+        "B": "place the artificial fertilizer in watertight containers so none of it escapes to the soil",
+        "C": "switch to crops that require more nitrogen",
+        "D": "switch to crops that require more sodium"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>You're told that the farmer grows organic produce, so he or she would need to use a more natural way to restore the nitrogen content of the soil. Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q685",
+      "passageId": "nitrogen-cycle-683-685",
+      "passageHighlight": "",
+      "questionHtml": "<p>When a farmer has grown corn in the same field for several years, the nitrogen content of the soil can become severely depleted. Nitrogen is necessary for healthy plant growth, so in order to combat this problem, a farmer who grows organic produce may also grow legumes such as soybeans in the same field, next to the corn. How does the use of legumes help the farmer solve the problem?</p>",
+      "options": {
+        "A": "Legumes contain denitrifying bacteria that help release nitrogen back into the atmosphere.",
+        "B": "Legumes contain nitrogen-fixing bacteria that return nitrogen to the soil.",
+        "C": "The money from selling legumes can be used to buy artificial fertilizers.",
+        "D": "Cows prefer the taste of the legumes, so the cows will eat the legumes instead of the crop the farmer wants to sell."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>You can see from the figure that legumes contain nitrogen-fixing bacteria that return nitrogen to the soil. Hence, Choice (A) is wrong and Choice (B) is correct. Choice (C) is unlikely because you're told that the farmers grow organic produce, so they wouldn't use artificial fertilizers. You can also reject Choice (D) because the problem that the farmer is trying to solve involves the lack of nitrogen in the soil; it has nothing to do with cows eating the corn.</p>"
+    },
+    {
+      "questionId": "q686",
+      "passageId": "rutherford-experiment-686-689",
+      "passageHighlight": "",
+      "questionHtml": "<p>What charge does an alpha particle have?</p>",
+      "options": {
+        "A": "-2",
+        "B": "0",
+        "C": "+2"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>An alpha particle is a helium nucleus that contains two protons and two neutrons. Because protons are positively charged and neutrons have no charge, the overall charge is +2. Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q687",
+      "passageId": "rutherford-experiment-686-689",
+      "passageHighlight": "",
+      "questionHtml": "<p>What charge does a gold nucleus have?</p>",
+      "options": {
+        "A": "negative",
+        "B": "positive",
+        "C": "neutral",
+        "D": "It is impossible to determine based on the information given."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>You're told that alpha particles are positively charged and also that some of them bounced back from the gold atoms. Because you're also told that an atom consists mostly of empty space but has a dense nucleus at the center, you can reasonably assume that the alpha particles that bounced back were repelled by the nucleus of the atom. Because like repels like, the nucleus must be positively charged, so Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q688",
+      "passageId": "rutherford-experiment-686-689",
+      "passageHighlight": "",
+      "questionHtml": "<p>Why did Rutherford prefer gold rather than a different metal such as lead?</p>",
+      "options": {
+        "A": "Rutherford wanted to impress the other scientists by showing off some of his bling.",
+        "B": "Gold was very cheap in 1911 and easy to obtain.",
+        "C": "Gold is more malleable and can be beaten into a foil that is only a few atoms thick, which reduces the chance of multiple collisions with the alpha particles.",
+        "D": "Gold is the only atom that consists mainly of empty space."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Gold is an extremely malleable metal that can be beaten into a foil that's only a few atoms thick. That reduces the chance of multiple collisions with the alpha particles, which is important for the experiment to be valid; hence, Choice (C) is the right answer. You can reject Choice (A), which is amusing but clearly not the right answer. You can also eliminate Choice (B) because gold was still expensive in 1911. Choice (D) can also be rejected because it's a false statement; all atoms consist mainly of empty space.</p>"
+    },
+    {
+      "questionId": "q689",
+      "passageId": "rutherford-experiment-686-689",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following statements provides evidence that an atom has a nucleus that contains most of the atom's mass and all of its positive charge?</p>",
+      "options": {
+        "A": "Most of the alpha particles passed straight through the gold foil.",
+        "B": "Some alpha particles bounced straight back off the gold foil.",
+        "C": "Gold is very expensive, so the gold sheet was very thin.",
+        "D": "Alpha particles are very small."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Because a few of the alpha particles bounced back, Rutherford concluded that an atom contains a nucleus that has most of the atom's mass and all of its positive charge; Choice (B) provides evidence for this conclusion. Choice (A) suggests that the atom is mainly empty space but doesn't provide evidence that the nucleus is dense and positively charged. You can also reject Choice (C) because this has nothing to do with atomic structure. Choice (D) is wrong because it focuses on the alpha particle, not the structure of the gold atoms.</p>"
+    },
+    {
+      "questionId": "q690",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following physical changes involves the release of heat?</p>",
+      "options": {
+        "A": "evaporating and condensing",
+        "B": "melting and boiling",
+        "C": "freezing and condensing",
+        "D": "subliming and boiling"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Freezing (liquid to solid) and condensing (gas to liquid) are exothermic processes, meaning they release heat. Evaporating, melting, boiling, and subliming are endothermic (absorb heat). Therefore, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q691",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>When Alex works out at the gym, he sometimes lifts weights. As he lifts the barbell to its highest point, several energy transitions take place. Which of the following lists these energy transitions in the correct order?</p>",
+      "options": {
+        "A": "chemical energy to gravitational potential energy to kinetic energy",
+        "B": "chemical energy to kinetic energy to gravitational potential energy",
+        "C": "kinetic energy to gravitational potential energy to chemical energy",
+        "D": "gravitational potential energy to chemical energy to kinetic energy"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>When Alex works out at the gym, he sometimes lifts weights. As he lifts the barbell, the chemical energy stored in his body is converted into kinetic energy as the barbell moves, which is then converted into gravitational potential energy, which reaches its maximum value as the barbell reaches its highest point. Hence, Choice (B) is correct.</p>"
+    },
+    {
+      "questionId": "q692",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Why is copper used for electrical wiring in electric circuits?</p>",
+      "options": {
+        "A": "Copper is a good insulator.",
+        "B": "Copper is a good conductor.",
+        "C": "Copper is easily magnetized.",
+        "D": "Copper has a low melting point."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Copper is a good conductor of electricity, which makes it an excellent material for electrical wiring; Choice (B) is correct. Choices (A), (C), and (D) are all false.</p>"
+    },
+    {
+      "questionId": "q693",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>If the south poles of two strong magnets are placed close together on a smooth table, what will happen?</p>",
+      "options": {
+        "A": "The magnets will move together because the two south poles will attract each other.",
+        "B": "The magnets will move apart because the two south poles will attract each other.",
+        "C": "The magnets will move together because the two south poles will repel each other.",
+        "D": "The magnets will move apart because the two south poles will repel each other."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>You should remember that in magnetism, like poles repel and unlike poles attract. Because the two poles are south poles, they will repel each other, causing the magnets to move apart. Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q694",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Ohm's law tells you that the electric current is inversely proportional to the resistance within the circuit if the voltage remains constant. What will happen to the current in a circuit with a fixed voltage if the resistance of a circuit is suddenly doubled?</p>",
+      "options": {
+        "A": "The current will be halved.",
+        "B": "The current will stay the same.",
+        "C": "The current will be doubled.",
+        "D": "The current will change direction."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>You're told that the current is inversely proportional to the resistance within the circuit if the voltage remains constant. Therefore, as the resistance gets bigger, the current will get smaller. Only Choice (A) shows a smaller current, so it's the correct answer.</p>"
+    },
+    {
+      "questionId": "q695",
+      "passageId": "atmosphere-layers-695-696",
+      "passageHighlight": "",
+      "questionHtml": "<p>In which layer of the atmosphere do most humans live?</p>",
+      "options": {
+        "A": "troposphere",
+        "B": "stratosphere",
+        "C": "mesosphere and ionosphere",
+        "D": "thermosphere"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Most humans live close to the Earth's surface, so they live in the layer that has the smallest altitude (the troposphere), making Choice (A) correct.</p>"
+    },
+    {
+      "questionId": "q696",
+      "passageId": "atmosphere-layers-695-696",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which layer has the coldest average temperature?</p>",
+      "options": {
+        "A": "troposphere",
+        "B": "stratosphere",
+        "C": "mesosphere and ionosphere",
+        "D": "thermosphere"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>From the table, the mesosphere and ionosphere have temperatures ranging from -212 to 32 degrees Fahrenheit, which includes the coldest average temperature among the layers. Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q697",
+      "passageId": "solar-system-697-701",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which planet is farthest from the sun?</p>",
+      "options": {
+        "A": "Mercury",
+        "B": "Venus",
+        "C": "Earth",
+        "D": "Neptune"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>From the table, you can see that Neptune is 2.8 billion miles away from the sun, making Choice (D) the correct answer.</p>"
+    },
+    {
+      "questionId": "q698",
+      "passageId": "solar-system-697-701",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which planet is closest to Earth?</p>",
+      "options": {
+        "A": "Venus",
+        "B": "Mars",
+        "C": "Saturn",
+        "D": "Uranus"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>From the table, you can see that Venus is only 26 million miles away from Earth (93 million miles minus 67 million miles), whereas Mars is 49 million miles from Earth (142 million miles minus 93 million miles). All the other planets are farther away, so Venus is the closest, making Choice (A) the right answer.</p>"
+    },
+    {
+      "questionId": "q699",
+      "passageId": "solar-system-697-701",
+      "passageHighlight": "",
+      "questionHtml": "<p>A day on which planet takes approximately the same amount of time as a day on Earth?</p>",
+      "options": {
+        "A": "Mercury",
+        "B": "Venus",
+        "C": "Mars",
+        "D": "Jupiter"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>From the table, you can see that a day on Mars (24 hours, 37 minutes) takes approximately the same amount of time as a day on Earth (23 hours, 56 minutes, 4.1 seconds). Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q700",
+      "passageId": "solar-system-697-701",
+      "passageHighlight": "",
+      "questionHtml": "<p>According to the table and the given information, which of the following is a true statement?</p>",
+      "options": {
+        "A": "The planet with the shortest day is Mars, and the planet with the longest year is Jupiter.",
+        "B": "The planet with the shortest day is Mercury, and the planet with the longest year is Earth.",
+        "C": "The planet with the shortest day is Jupiter, and the planet with the longest year is Neptune.",
+        "D": "The planet with the shortest day is Earth, and the planet with the longest year is Saturn."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>From the table, you can see that Jupiter has the shortest day (9 hours, 51 minutes) and Neptune has the longest year (165 Earth years). Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q701",
+      "passageId": "solar-system-697-701",
+      "passageHighlight": "",
+      "questionHtml": "<p>According to the table and the given information, which of the following is a true statement?</p>",
+      "options": {
+        "A": "A day on Venus takes longer than a year on Venus.",
+        "B": "All planets have at least one moon.",
+        "C": "All planets take approximately one Earth year to orbit the sun.",
+        "D": "The sum of the masses of all of the planets is greater than the mass of the sun."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>From the table, you can see that a day on Venus takes 243 Earth days, whereas a year on Venus takes 225 Earth days. Hence, a year on Venus takes less time than a day on Venus, making Choice (A) the correct answer. All the other statements are false: Mercury does not have a moon [making Choice (B) false], each planet takes a different amount of time to orbit the sun [making Choice (C) false], and the sun contains 99 percent of the mass in the solar system [making Choice (D) false].</p>"
+    },
+    {
+      "questionId": "q702",
+      "passageId": "death-causes-702-703",
+      "passageHighlight": "",
+      "questionHtml": "<p>According to the figure and the given information, which of the following is a true statement?</p>",
+      "options": {
+        "A": "Cancer is now the leading cause of death.",
+        "B": "The number of deaths due to heart disease has more than doubled since 1950.",
+        "C": "Although heart disease is still the leading cause of death, the number of deaths due to cancer has increased steadily since 1950.",
+        "D": "The number of deaths via cancer was approximately the same in 2014 as it was in 1960."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Although the curve that represents deaths via cancer has risen sharply since 1950, it's still below the curve that represents deaths via heart disease; therefore, Choice (A) is wrong and (C) is correct. You can reject Choice (B) because the deaths due to heart disease have risen only slightly since 1950. Choice (D) is also wrong because deaths via cancer have tripled since 1950.</p>"
+    },
+    {
+      "questionId": "q703",
+      "passageId": "death-causes-702-703",
+      "passageHighlight": "",
+      "questionHtml": "<p>By approximately what percent did the number of deaths due to cancer increase since 1950?</p>",
+      "options": {
+        "A": "0%",
+        "B": "50%",
+        "C": "100%",
+        "D": "200%"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>From the graph, you can see that the number of deaths via cancer has tripled since 1950. This is an increase of 200 percent: ((600,000-200,000)/200,000) × 100 = 200%. Therefore, Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q704",
+      "passageId": "metabolic-rate-704-707",
+      "passageHighlight": "",
+      "questionHtml": "<p>Based on the given information, which organism has the fastest metabolism?</p>",
+      "options": {
+        "A": "hummingbird",
+        "B": "mouse",
+        "C": "squirrel",
+        "D": "dog"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>From the graph, you can see that the hummingbird has the fastest metabolic rate. It's higher up the curve than the other animals, so Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q705",
+      "passageId": "metabolic-rate-704-707",
+      "passageHighlight": "",
+      "questionHtml": "<p>Calculating the median metabolic rate gives scientists a way to compare the basal or baseline metabolic rate of each species. Based on the given information, which organism has the median body weight?</p>",
+      "options": {
+        "A": "hummingbird",
+        "B": "squirrel",
+        "C": "rabbit",
+        "D": "dog"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>From the graph, you can see that out of the seven animals listed, the animal with the fourth largest body weight is the rabbit, so Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q706",
+      "passageId": "metabolic-rate-704-707",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following is a true statement?</p>",
+      "options": {
+        "A": "There is no relationship between the animal's weight and its metabolic rate.",
+        "B": "The faster the metabolic rate, the more the animal weighs, whereas the slower its metabolic rate, the less the animal weighs.",
+        "C": "The more the animal weighs, the slower its metabolic rate, whereas the less the animal weighs, the faster its metabolic rate.",
+        "D": "The more the animal weighs, the faster its metabolic rate, whereas the less the animal weighs, the slower its metabolic rate."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>From the table, you can see that the larger animals, such as the horse and the elephant, have much slower metabolic rates than the smaller animals, such as the hummingbird and the mouse. Hence, Choice (C) is correct.</p>"
+    },
+    {
+      "questionId": "q707",
+      "passageId": "metabolic-rate-704-707",
+      "passageHighlight": "",
+      "questionHtml": "<p>A scientist calculated the average metabolic rate of the seven types of animals shown on the graph. He then removed the data related to the elephant and calculated the new average. How does the new average compare to the old average?</p>",
+      "options": {
+        "A": "The new average is greater than the old average.",
+        "B": "The new average is less than the old average.",
+        "C": "The new average is the same as the old average.",
+        "D": "It is impossible to tell unless we know the weight of the elephant."
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>From the graph, you can see that the elephant has the slowest metabolic rate. Removing the lowest value from the group will cause the average of the remaining values to increase. Therefore, Choice (A) is correct.</p>"
+    },
+    {
+      "questionId": "q708",
+      "passageId": "food-web-708-711",
+      "passageHighlight": "",
+      "questionHtml": "<p>Choose the correct words to correctly complete the sentence: Grass and plants are ______, whereas rabbits are ______.</p>",
+      "options": {
+        "A": "primary consumers, tertiary consumers",
+        "B": "producers, tertiary consumers",
+        "C": "primary consumers, carnivores",
+        "D": "producers, primary consumers"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Plants are producers because they produce their own food. Rabbits eat the plants and are therefore primary consumers. Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q709",
+      "passageId": "food-web-708-711",
+      "passageHighlight": "",
+      "questionHtml": "<p>If a virus were to suddenly wipe out most of the fox population, what effect would this have on the food web?</p>",
+      "options": {
+        "A": "The population of rabbits and birds would decrease.",
+        "B": "The population of rabbits and birds would increase.",
+        "C": "The hawks and snakes would decrease.",
+        "D": "The amount of grass and plants would increase."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>If a virus were to suddenly wipe out most of the fox population, more rabbits and birds would survive because fewer foxes would be around to eat them, making Choice (A) incorrect and Choice (B) the right answer. The number of snakes would also increase, making Choice (C) incorrect. You can also reject Choice (D) because an increase in the rabbit and bird populations would mean more plants would be eaten.</p>"
+    },
+    {
+      "questionId": "q710",
+      "passageId": "food-web-708-711",
+      "passageHighlight": "",
+      "questionHtml": "<p>Approximately what percentage of the energy stored in a plant is transferred to the biomass (flesh) of a primary consumer when the plant is eaten?</p>",
+      "options": {
+        "A": "100%",
+        "B": "50%",
+        "C": "10%",
+        "D": "1%"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>When a plant is eaten, only 10 percent of its stored energy is transferred to the primary consumer's biomass (flesh), making Choice (C) the correct answer. The rest of the plant's energy is used by the consumer's metabolism for movement or heat generation. Also, some parts of the plant may be indigestible, adding further to the inefficiency in the energy transferred to the consumer's biomass.</p>"
+    },
+    {
+      "questionId": "q711",
+      "passageId": "food-web-708-711",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the ultimate source of energy of a food web?</p>",
+      "options": {
+        "A": "plants",
+        "B": "soil",
+        "C": "the sun",
+        "D": "water"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The given info tells you that plants are called producers because they produce their own food using the energy of the sun; therefore, the ultimate source of energy in a food web is the sun, making Choice (C) the correct answer.</p>"
+    },
+    {
+      "questionId": "q712",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What does the theory of plate tectonics help explain?</p>",
+      "options": {
+        "A": "changes in the atmosphere",
+        "B": "changes in the mantle",
+        "C": "changes in the Earth's crust",
+        "D": "changes in the Earth's core"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The theory of plate tectonics explains that the outer rigid layer of the Earth (the lithosphere) is divided into several plates that move relative to each other, like slabs of ice on a lake. As the plates move, they can produce volcanoes, earthquakes, ocean ridges, and other changes in the Earth's crust, making Choice (C) the correct answer.</p>"
+    },
+    {
+      "questionId": "q713",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following is a theory rather than a fact about tectonic plates?</p>",
+      "options": {
+        "A": "Earthquakes often occur along the boundaries of tectonic plates.",
+        "B": "About 200 million years ago, all the continents were joined in a single landmass known as Pangaea.",
+        "C": "The San Andreas fault lies on the boundary between the Pacific and North American plates.",
+        "D": "The continents of North America and Europe are slowly drifting apart."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Choices (A), (C), and (D) are all scientific facts that can be verified via observations. Although Choice (B) has a lot of evidence to support it, it is still a theory because there is no way to verify it through direct observation. Hence, Choice (B) is the correct answer.</p>"
+    },
+    {
+      "questionId": "q714",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>When a gas is released into a container, it tends to expand until it fills the entire container. This process is known as diffusion. Which of the following shows an example of the diffusion of a gas?</p>",
+      "options": {
+        "A": "When electricity flows through a resister, the resister gets warm.",
+        "B": "When a bar of iron is heated, it expands.",
+        "C": "When oil and water are placed in the same sealed container and shaken, the oil eventually moves to the top, forming a separate layer from the water.",
+        "D": "A student sitting at the back of class breaks wind. The unpleasant odor quickly spreads through the room, forcing the teacher to open all the windows."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The question asks you to give an example of the diffusion of a gas, so you can reject Choices (A), (B), and (C); they don't refer to gases. That leaves Choice (D) as the correct answer. It describes the spreading of a gas (an unpleasant one!) until it occupies the entire room.</p>"
+    },
+    {
+      "questionId": "q715",
+      "passageId": "blood-composition-715-718",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the main function of the white blood cells?</p>",
+      "options": {
+        "A": "They carry oxygen to all the cells of the body, where it is used during cellular respiration.",
+        "B": "They help transport nutrients around the body.",
+        "C": "They produce antibodies that help protect the body from infectious diseases.",
+        "D": "They help remove waste products from the body"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The passage tells you that white blood cells produce antibodies that help protect the body from infectious diseases, making Choice (C) the correct answer.</p>"
+    },
+    {
+      "questionId": "q716",
+      "passageId": "blood-composition-715-718",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the main function of the red blood cells?</p>",
+      "options": {
+        "A": "They carry oxygen to all the cells of the body, where it is used during photosynthesis.",
+        "B": "They carry oxygen to all the cells of the body, where it is used during cellular respiration.",
+        "C": "They produce antibodies that help protect the body from infectious diseases.",
+        "D": "They make the blood appear red."
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The passage tells you that red blood cells carry oxygen from the lungs to all the cells of the body, where it is used during cellular respiration, making Choice (B) the correct answer. Although Choice (D) is a true statement, it can still be rejected because making the blood appear red is not the main function of red blood cells.</p>"
+    },
+    {
+      "questionId": "q717",
+      "passageId": "blood-composition-715-718",
+      "passageHighlight": "",
+      "questionHtml": "<p>According to the information in the passage, all of the following statements are true statements regarding plasma EXCEPT</p>",
+      "options": {
+        "A": "plasma consists mainly of water.",
+        "B": "plasma helps maintain blood pressure.",
+        "C": "plasma helps maintain body temperature.",
+        "D": "plasma carries dissolved oxygen around the body."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The passage tells you that plasma consists mainly of water and surrounds the blood cells. It helps maintain blood pressure and body temperature and helps transport nutrients around the body and remove waste products. Choices (A), (B), and (C) are true statements and can therefore be rejected. That leaves Choice (D), which is not a true statement because the red blood cells, not the plasma, carry oxygen.</p>"
+    },
+    {
+      "questionId": "q718",
+      "passageId": "blood-composition-715-718",
+      "passageHighlight": "",
+      "questionHtml": "<p>What percentage of the blood consists of cells?</p>",
+      "options": {
+        "A": "1%",
+        "B": "44%",
+        "C": "45%",
+        "D": "100%"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The table tells you that red blood cells make up 44 percent of the blood and white blood cells make up an additional 1 percent of the blood. Therefore, 45 percent of the blood consists of cells, making Choice (C) the correct answer.</p>"
+    },
+    {
+      "questionId": "q719",
+      "passageId": "radioactive-isotopes-719-722",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following is a true statement?</p>",
+      "options": {
+        "A": "The isotope with the longest half-life is uranium-238, and the isotope with the shortest half-life is carbon-14.",
+        "B": "The isotope with the longest half-life is carbon-11, and the isotope with the shortest half-life is uranium-238.",
+        "C": "The isotope with the longest half-life is uranium-238, and the isotope with the shortest half-life is Americium-241.",
+        "D": "The isotope with the longest half-life is uranium-238, and the isotope with the shortest half-life is carbon-11."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>You can see from the table that uranium-238 has the longest half-life by far compared to the other isotopes (4.5 × 10^9 years). Also, you can see from the table that carbon-11 has the shortest half-life (only 20 minutes), so the correct answer is Choice (D).</p>"
+    },
+    {
+      "questionId": "q720",
+      "passageId": "radioactive-isotopes-719-722",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the most likely reason that carbon-14 is not used for biomedical imaging, whereas carbon-11 is used for this purpose?</p>",
+      "options": {
+        "A": "The element carbon is deadly to all living creatures.",
+        "B": "The half-life of carbon-14 is too short to be used in biomedical imaging.",
+        "C": "The half-life of carbon-14 is too long, so the radiation it emits could be harmful to the patient if it remained in the body.",
+        "D": "If carbon-14 were used in biomedical imaging, there would not be enough left to use in the carbon dating of artifacts."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>You can see from the table that carbon-14 has a much longer half-life than carbon-11 (5,750 years compared to only 20 minutes). For biomedical imaging, carbon-11 is injected as a radioactive tracer that allows medical images to be viewed (rather like those from an X-ray). However, you need a radioactive isotope that has a relatively short half-life so it doesn't harm the patient if it remains in the body, making Choice (C) the correct answer. Choices (A), (B), and (D) are all untrue statements and can therefore be rejected.</p>"
+    },
+    {
+      "questionId": "q721",
+      "passageId": "radioactive-isotopes-719-722",
+      "passageHighlight": "",
+      "questionHtml": "<p>In what way does the nucleus of an atom of carbon-14 differ from the nucleus of an atom of carbon-11?</p>",
+      "options": {
+        "A": "Carbon-14 contains 14 protons, whereas carbon-11 contains only 11 protons.",
+        "B": "Carbon-14 contains 14 neutrons, whereas carbon-11 contains only 11 neutrons.",
+        "C": "Carbon-14 contains 8 protons, whereas carbon-11 contains only 5 protons.",
+        "D": "Carbon-14 contains 8 neutrons, whereas carbon-11 contains only 5 neutrons."
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The number of protons in the nucleus of an atom determines which element the atom belongs to. Because the question refers to the element carbon (which contains 6 protons), you can reject Choices (A) and (C). The number in the name of the isotope tells you the mass number (the protons plus the neutrons) of the isotope. Carbon-14 has a mass number of 14 (6 protons and 8 neutrons), and carbon-11 has a mass number of 11 (6 protons and 5 neutrons), making Choice (D) the correct answer.</p>"
+    },
+    {
+      "questionId": "q722",
+      "passageId": "radioactive-isotopes-719-722",
+      "passageHighlight": "",
+      "questionHtml": "<p>A biomedical researcher prepared 2 kilograms of carbon-11 and then went out to lunch. How many grams of carbon-11 would remain by the time she returned from lunch an hour later?</p>",
+      "options": {
+        "A": "2,000 grams",
+        "B": "1,000 grams",
+        "C": "500 grams",
+        "D": "250 grams"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>The passage tells you that the half-life is the time taken for half of the sample to decay. From the table, you can see that the half-life of carbon-11 is 20 minutes. The researcher left for an hour, which is 60 minutes, or three 20-minute blocks. The researcher started with 2,000 grams, so after the first 20 minutes, only 1,000 grams would be left. Then after another 20 minutes, only 500 grams would be left. After the third 20 minutes, only 250 grams would remain. Choice (D) is correct.</p>"
+    },
+    {
+      "questionId": "q723",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The human body system that transports nutrients dissolved in the blood to all the cells of the body is called the</p>",
+      "options": {
+        "A": "digestive system.",
+        "B": "integumentary system.",
+        "C": "circulatory system.",
+        "D": "muscular system."
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The circulatory system transports nutrients dissolved in the blood to all the cells of the body, so Choice (C) is correct. The digestive system is involved in breaking down food into nutrients, so you can reject Choice (A). The integumentary system is the protective layer of the body, including the skin, hair, and nails, so Choice (B) is incorrect. The muscular system is responsible for the movement of the body itself, so Choice (D) is incorrect.</p>"
+        }
+  ]
+}
